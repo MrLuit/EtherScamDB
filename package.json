@@ -1,0 +1,15 @@
+{
+  "name": "ethereum-scam-database",
+  "version": "1.0.0",
+  "main": "generate.js",
+  "dependencies": {
+    "connect": "^3.6.2",
+    "dateformat": "^2.0.0",
+    "graceful-fs": "^4.1.11",
+    "js-yaml": "^3.9.0",
+    "request": "^2.81.0",
+    "serve-static": "^1.12.3",
+    "url": "^0.11.0",
+    "whois": "^2.4.1"
+  }
+}

@@ -1,0 +1,24 @@
+.ui.body.container {
+  padding-top: 4%;
+  min-height: 100%;
+  padding-bottom: 7%;
+}
+
+.ui.fixed.inverted.menu {
+  height: 55px;
+}
+
+.item {
+  padding-top: .2em;
+  margin-left: .1em;
+}
+
+.ui.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 45px;
+  margin-top: -45px !important;
+  text-align: center;
+  width: 100%;
+}

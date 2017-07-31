@@ -1,0 +1,58 @@
+<link rel="stylesheet" href="../css/scams.css">
+<div class="ui grid">
+  <div class="four wide column">
+  <div class="ui tiny statistic">
+  <div class="value">
+    {{ scams.total }}
+  </div>
+  <div class="label">
+    Total scams
+  </div>
+</div>
+  </div>
+  <div class="four wide column">
+  <div class="ui tiny statistic">
+  <div class="value">
+   {{ scams.active }}
+  </div>
+  <div class="label">
+    Active scams
+  </div>
+</div>
+  </div>
+    <div class="four wide column">
+  <div class="ui tiny statistic">
+  <div class="value">
+    {{ addresses.total }}
+  </div>
+  <div class="label">
+    Addresses registered
+  </div>
+</div>
+  </div>
+    <div class="four wide column">
+  <div class="ui tiny statistic">
+  <div class="value">
+    {{ scams.inactive }}
+  </div>
+  <div class="label">
+    Inactive scams
+  </div>
+</div>
+  </div>
+</div>
+<h1 class="scams">Scams</h1>
+<table class="ui celled table">
+  <thead>
+    <tr><th>Category</th>
+	<th>Subcategory</th>
+	<th>Status</th>
+    <th>Title</th>
+    <th id='info'>Info</th>
+  </tr></thead>
+  <tbody>
+  {{ scams.table }}
+  </tbody>
+</table>
+
+{{ scams.pagination }}

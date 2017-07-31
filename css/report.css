@@ -1,0 +1,56 @@
+#faq {
+  font-size: 15px;
+}
+
+.ui.form {
+  margin-top: 1%;
+}
+
+.ui.input {
+  width: 40%;
+}
+
+h3 {
+  margin-bottom: .5%;
+  text-align: center;
+  margin-top: 6% !important;
+}
+
+.ending {
+  text-align: center;
+  margin-top: 6% !important;
+  color: #016936;
+}
+
+.report {
+  margin-top: 3%;
+  text-align: center;
+}
+  
+.question {
+  margin-top: 7% !important;
+  text-align: center;
+}
+
+.question2 {
+  margin-top: 3% !important;
+  text-align: center;
+}
+  
+.actions {
+  text-align: center;
+  margin-top: 7%;
+}
+
+#addr {
+  margin-top: 2%;
+}
+
+.spacing {
+  margin-left: 1% !important;
+  margin-right: 1% !important;
+}
+
+.question2a,.question2b,.question3,.question4a,.question4b,.question5,.question6,.question7a,.question7b,.question7c,.question8,.question9a,.question9b,.question9c,.question10,.loading,.end {
+  display: none;
+}

@@ -1,0 +1,28 @@
+.ui.bulleted.list {
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.ui.grid {
+  margin-bottom: 0px;
+}
+
+.ui.input {
+  width: 100%;
+}
+
+#actions {
+  text-align: right;
+}
+
+.activ {
+	color: green;
+}
+
+.offline {
+	color: red;
+}
+
+.suspended {
+	color: orange;
+}

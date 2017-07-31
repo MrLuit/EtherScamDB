@@ -1,0 +1,19 @@
+h2 {
+  margin-bottom: 0 !important;
+  padding-bottom: .5em !important;
+}
+
+.centered.column {
+  padding-bottom: 4%;
+  text-align: center !important;
+}
+
+#items {
+  margin-top: 8% !important;
+}
+
+.title {
+  text-align: center;
+  padding-top: 5%;
+  font-size: 50px;
+}

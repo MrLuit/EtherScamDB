@@ -1,0 +1,17 @@
+body,.segment {
+  background-color: rgb(178, 30, 30) !important;
+  color: white;
+}
+
+.segment {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+h1,h3,h4 {
+  text-align: center !important;
+}
+
+button {
+  margin-top: 8% !important;
+}

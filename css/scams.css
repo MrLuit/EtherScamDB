@@ -1,0 +1,27 @@
+#center {
+  text-align: center;
+}
+
+#info {
+  width: 10px;
+}
+
+.activ {
+	color: green;
+	font-weight: bold;
+}
+
+.offline {
+	color: red;
+	font-weight: bold;
+}
+
+.suspended {
+	color: orange;
+	font-weight: bold;
+}
+
+.unknown {
+	color: gray;
+	font-weight: bold;
+}
