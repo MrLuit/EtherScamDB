@@ -2,18 +2,38 @@ var reportType;
 var args = {};
 
 function finish() {
-    $(".loading").fadeIn('', function() {
-		$.post("", {
-			reportType: reportType,
-		    args: args
-        }).done(function(data) {
-            $(".loading").fadeOut('', function() {
-                $(".end").fadeIn();
-            });
-        });
-    });
+	$(".captcha").fadeOut('',function() {
+		$(".loading").fadeIn('', function() {
+			$.post("https://lu1t.nl/report.php", {
+				reportType: reportType,
+				args: args
+			}).done(function(data) {
+				$(".loading").fadeOut('', function() {
+					$(".end").fadeIn();
+				});
+			});
+		});
+	});
 }
 
+function reCaptchaVerify(response) {
+  if (response === document.querySelector('.g-recaptcha-response').value) {
+	  args['captcha'] = response;
+    finish();
+  }
+}
+
+function reCaptchaExpired() {
+  /* do something when it expires */
+}
+
+function reCaptchaCallback() {
+  grecaptcha.render('g-recaptcha', {
+    'sitekey': '6LfTSysUAAAAAOIYE_x9aZuqBNRlzTRbHlMRpAiK',
+    'callback': reCaptchaVerify,
+    'expired-callback': reCaptchaExpired
+  });
+}
 
 window.addEventListener("load", function() {
 
@@ -123,20 +143,23 @@ window.addEventListener("load", function() {
 
     $("#7senda").click(function() {
         reportType = 'urgentDomainAddressReport';
+		args['message'] = $("#addresswebsite").val();
         $(".question7a").fadeOut('', function() {
-            finish();
+            $(".captcha").fadeIn();
         });
     });
     $("#7sendb").click(function() {
         reportType = 'urgentMessageAddressReport';
+		args['message'] = $("#addressmessage").val();
         $(".question7b").fadeOut('', function() {
-            finish();
+            $(".captcha").fadeIn();
         });
     });
     $("7sendc").click(function() {
         reportType = 'urgentUniqueAddressReport';
+		args['message'] = $("#addressunique").val();
         $(".question7c").fadeOut('', function() {
-            finish();
+            $(".captcha").fadeIn();
         });
     });
 
@@ -174,14 +197,14 @@ window.addEventListener("load", function() {
         reportType = 'uniqueReport';
         args['unique'] = $("#uniquerep").val();
         $(".question9c").fadeOut('', function() {
-            finish();
+            $(".captcha").fadeIn();
         });
     });
 
     $("#10send").click(function() {
         args['reason'] = $("#reason").val();
         $(".question10").fadeOut('', function() {
-            finish();
+			$(".captcha").fadeIn();
         });
     });
 

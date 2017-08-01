@@ -1,7 +1,7 @@
 window.addEventListener("load", function() {
     $('#srch').dropdown({
         apiSettings: {
-            url: '../_data/search_compiled.json'
+            url: '/search/search.json'
         },
         filterRemoteData: true
     });
