@@ -53,7 +53,7 @@ function clean() {
             fs.unlinkSync(file);
         }
     });
-	deleteFolderRecursive("_site");
+    deleteFolderRecursive("_site");
     console.log("Project cleaned.");
 }
 
@@ -122,13 +122,13 @@ function compile_archive() {
                                     "time": (new Date()).getTime(),
                                     "status": "Suspended"
                                 });
-                            } else if(archive[data[key]['id']]['status'][0]['status'] != "Active") {
-								 archive[data[key]['id']]['status'].unshift({
-									"time": (new Date()).getTime(),
-									"status": "Active"
-								});
-							}
-							writeToArchive(archive);
+                            } else if (archive[data[key]['id']]['status'][0]['status'] != "Active") {
+                                archive[data[key]['id']]['status'].unshift({
+                                    "time": (new Date()).getTime(),
+                                    "status": "Active"
+                                });
+                            }
+                            writeToArchive(archive);
                         });
                     });
                 });
@@ -162,11 +162,17 @@ function yaml2json() {
     console.log("Converting YAML to JSON...");
     let addresses = {}
     let ips = {}
-	let search = {"success": true, "results": []};
+    let search = {
+        "success": true,
+        "results": []
+    };
     fs.readFile("./_data/archive_compiled.json", function(err, archive) {
         var archive = JSON.parse(archive);
         Object.keys(data).reverse().forEach(function(key) {
-			search.results.push({"name": data[key]['name'], "value": data[key]['id'].toString() });
+            search.results.push({
+                "name": data[key]['name'],
+                "value": data[key]['id'].toString()
+            });
             if ('addresses' in data[key]) {
                 data[key]['addresses'].forEach(function(addr) {
                     if (!(addr in addresses)) {
@@ -194,33 +200,33 @@ function yaml2json() {
                 }
             }
         });
-		if(job == "build" || job == false) {
-			if (!fs.existsSync("./_site")) {
-				fs.mkdirSync("./_site/");
-			}
-			if (!fs.existsSync("./_site/search")) {
-				fs.mkdirSync("./_site/search");
-			}
-			fs.writeFileSync("./_site/search/search.json", JSON.stringify(search));
-			console.log("Search results file compiled.");
-		}
-		fs.writeFile("./_data/scams_compiled.json", JSON.stringify(data), function(err) {
-			console.log("Scam file compiled.");
-			fs.writeFile("./_data/addresses_compiled.json", JSON.stringify(addresses), function(err) {
-				console.log("Address file compiled.");
-				fs.writeFile("./_data/ips_compiled.json", JSON.stringify(ips), function(err) {
-					console.log("IPs file compiled.");
-					if (job == "build" || job == false) {
-						generatestatic();
-					} else if (job == "update") {
-						finish("updating");
-					} else if (job == "archive") {
-						archiveorg();
-					}
-				});
-			});
-		});
-	});
+        if (job == "build" || job == false) {
+            if (!fs.existsSync("./_site")) {
+                fs.mkdirSync("./_site/");
+            }
+            if (!fs.existsSync("./_site/search")) {
+                fs.mkdirSync("./_site/search");
+            }
+            fs.writeFileSync("./_site/search/search.json", JSON.stringify(search));
+            console.log("Search results file compiled.");
+        }
+        fs.writeFile("./_data/scams_compiled.json", JSON.stringify(data), function(err) {
+            console.log("Scam file compiled.");
+            fs.writeFile("./_data/addresses_compiled.json", JSON.stringify(addresses), function(err) {
+                console.log("Address file compiled.");
+                fs.writeFile("./_data/ips_compiled.json", JSON.stringify(ips), function(err) {
+                    console.log("IPs file compiled.");
+                    if (job == "build" || job == false) {
+                        generatestatic();
+                    } else if (job == "update") {
+                        finish("updating");
+                    } else if (job == "archive") {
+                        archiveorg();
+                    }
+                });
+            });
+        });
+    });
 }
 
 /* --archive, sends all active domains to archive.org to save them */
@@ -280,7 +286,7 @@ function generatestatic() {
     const layout_scams = fs.readFileSync('./_layouts/scam.html', 'utf8');
     const layout_addresses = fs.readFileSync('./_layouts/address.html', 'utf8');
     const layout_ips = fs.readFileSync('./_layouts/ip.html', 'utf8');
-	if (!fs.existsSync("./_site")) {
+    if (!fs.existsSync("./_site")) {
         fs.mkdirSync("./_site/");
     }
     if (!fs.existsSync("./_site/scam/")) {
@@ -373,9 +379,9 @@ function generatestatic() {
         if (!fs.existsSync("./_site/scam/" + scams[key]['id'] + "/")) {
             fs.mkdirSync("./_site/scam/" + scams[key]['id'] + "/");
         }
-		if(minify) {
-			layout = htmlmin(layout);
-		}
+        if (minify) {
+            layout = htmlmin(layout);
+        }
         fs.writeFile("./_site/scam/" + scams[key]['id'] + "/index.html", layout, function(err) {
             if (err) {
                 return console.log(err);
@@ -401,9 +407,9 @@ function generatestatic() {
         if (!fs.existsSync("./_site/address/" + key + "/")) {
             fs.mkdirSync("./_site/address/" + key + "/");
         }
-		if(minify) {
-			layout = htmlmin(layout);
-		}
+        if (minify) {
+            layout = htmlmin(layout);
+        }
         fs.writeFile("./_site/address/" + key + "/index.html", layout, function(err) {
             if (err) {
                 return console.log(err);
@@ -429,9 +435,9 @@ function generatestatic() {
         if (!fs.existsSync("./_site/ip/" + key + "/")) {
             fs.mkdirSync("./_site/ip/" + key + "/");
         }
-		if(minify) {
-			layout = htmlmin(layout);
-		}
+        if (minify) {
+            layout = htmlmin(layout);
+        }
         fs.writeFile("./_site/ip/" + key + "/index.html", layout, function(err) {
             if (err) {
                 return console.log(err);
@@ -448,26 +454,26 @@ function generatestatic() {
 
 /* Copy files from _static to _site */
 function copyStatic() {
-	console.log("Copying static files...");
-	fs.readdirSync("_static").forEach(function(file, index) {
-            var curPath = "_static/" + file;
-            if (fs.lstatSync(curPath).isDirectory()) {
-				if (!fs.existsSync(curPath.replace("_static","_site"))) {
-					fs.mkdirSync(curPath.replace("_static","_site"));
-				}
-				fs.readdirSync(curPath).forEach(function(file, index) {
-					fs.readFile(curPath + '/' + file, 'utf8', function(err, data) {
-						fs.writeFileSync(curPath.replace("_static","_site") + '/' + file, data);
-					});
-				});
-            } else {
-                fs.readFile("_static/" + file, 'utf8', function(err, data) {
-					fs.writeFileSync("_site/" + file, data);
-				});
+    console.log("Copying static files...");
+    fs.readdirSync("_static").forEach(function(file, index) {
+        var curPath = "_static/" + file;
+        if (fs.lstatSync(curPath).isDirectory()) {
+            if (!fs.existsSync(curPath.replace("_static", "_site"))) {
+                fs.mkdirSync(curPath.replace("_static", "_site"));
             }
-       });
-	console.log("Copied to _site.");
-	if (job == "build" || job == false) {
+            fs.readdirSync(curPath).forEach(function(file, index) {
+                fs.readFile(curPath + '/' + file, 'utf8', function(err, data) {
+                    fs.writeFileSync(curPath.replace("_static", "_site") + '/' + file, data);
+                });
+            });
+        } else {
+            fs.readFile("_static/" + file, 'utf8', function(err, data) {
+                fs.writeFileSync("_site/" + file, data);
+            });
+        }
+    });
+    console.log("Copied to _site.");
+    if (job == "build" || job == false) {
         preprocess();
     } else {
         finish();
@@ -504,8 +510,8 @@ function preprocessScams() {
                                 active++;
                             } else if (status == "Offline") {
                                 color_status = '<i class="remove icon"></i> Offline';
-								inactive++;
-							} else if (status == "Inactive") {
+                                inactive++;
+                            } else if (status == "Inactive") {
                                 color_status = '<i class="plug icon"></i> Inactive';
                                 inactive++;
                             } else if (status == "Suspended") {
@@ -514,11 +520,11 @@ function preprocessScams() {
                         }
                         if ('category' in scams[key]) {
                             var category = scams[key]['category'];
-							if(category == "Phishing") {
-								category = '<i class="address book icon"></i> Phishing';
-							} else if(category == "Fake ICO") {
-								category = '<i class="dollar icon"></i> Fake ICO';
-							}
+                            if (category == "Phishing") {
+                                category = '<i class="address book icon"></i> Phishing';
+                            } else if (category == "Fake ICO") {
+                                category = '<i class="dollar icon"></i> Fake ICO';
+                            }
                         } else {
                             var category = "None";
                         }
@@ -571,9 +577,9 @@ function preprocessScams() {
                                 if (!fs.existsSync("./_site/scams/" + (index + 1) + "/")) {
                                     fs.mkdirSync("./_site/scams/" + (index + 1) + "/");
                                 }
-								if(minify) {
-									layout = htmlmin(layout);
-								}
+                                if (minify) {
+                                    layout = htmlmin(layout);
+                                }
                                 fs.writeFile("./_site/scams/" + (index + 1) + "/index.html", layout, function(err) {
                                     if (err) {
                                         return console.log(err);
@@ -610,9 +616,9 @@ function preprocess() {
                     } else {
                         var filename = "./_site/index.html";
                     }
-					if(minify) {
-						preprocess = htmlmin(preprocess);
-					}
+                    if (minify) {
+                        preprocess = htmlmin(preprocess);
+                    }
                     fs.writeFile(filename, preprocess, function(err) {
                         if (err) {
                             return console.log(err);
