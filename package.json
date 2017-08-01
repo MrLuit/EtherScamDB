@@ -6,6 +6,7 @@
     "connect": "^3.6.2",
     "dateformat": "^2.0.0",
     "graceful-fs": "^4.1.11",
+    "htmlmin": "0.0.7",
     "js-yaml": "^3.9.0",
     "request": "^2.81.0",
     "serve-static": "^1.12.3",

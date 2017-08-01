@@ -9,13 +9,14 @@ const dns = require('dns');
 const request = require("request")
 const connect = require('connect');
 const serveStatic = require('serve-static');
-const whois = require('whois');
+const htmlmin = require('htmlmin');
 const startTime = (new Date()).getTime();
 const data = yaml.safeLoad(fs.readFileSync('./_data/data.yaml'));
 const template = fs.readFileSync('./_layouts/default.html', 'utf8');
 
 /* Assign variables */
 let port = 8080;
+let minify = true;
 let job = false;
 let total = 0;
 
@@ -56,17 +57,8 @@ function clean() {
     console.log("Project cleaned.");
 }
 
-/* WIP: Detect if a domain is parked or actual scam */
-function detectParked(scam,body) {
-	if('category' in scam && scam['category'] == "Phishing" && 'subcategory' in scam && scam['subcategory'] == "MyEtherWallet" && body.indexOf("<title>MyEtherWallet") !== -1) {
-		return true;
-	} else {
-		return false;
-	}
-}
-
 /* Compile archive_compiled.json */
-function compile_archive(whois_opt = false) {
+function compile_archive() {
     console.log("Compiling archive file...");
     let archive = {};
     fs.readFile("./_data/archive_compiled.json", 'utf8', function(err, old_archive) {
@@ -137,18 +129,6 @@ function compile_archive(whois_opt = false) {
 								});
 							}
 							writeToArchive(archive);
-                            /*if (whois_opt) {
-                                whois.lookup(url.parse(data[key]['url']).hostname, function(err, whois) {
-                                    if (err) {
-                                        console.log(err);
-                                    } else if (whois.indexOf('You have reached configured rate limit.') === -1 && whois.indexOf('No match for domain') === -1 && whois.indexOf('available\r\n') === -1) {
-                                        archive[data[key]['id']]['whois'] = whois;
-                                    }
-                                    writeToArchive(archive);
-                                });
-                            } else {*/
-                                //writeToArchive(archive);
-                            /*}*/
                         });
                     });
                 });
@@ -393,6 +373,9 @@ function generatestatic() {
         if (!fs.existsSync("./_site/scam/" + scams[key]['id'] + "/")) {
             fs.mkdirSync("./_site/scam/" + scams[key]['id'] + "/");
         }
+		if(minify) {
+			layout = htmlmin(layout);
+		}
         fs.writeFile("./_site/scam/" + scams[key]['id'] + "/index.html", layout, function(err) {
             if (err) {
                 return console.log(err);
@@ -418,6 +401,9 @@ function generatestatic() {
         if (!fs.existsSync("./_site/address/" + key + "/")) {
             fs.mkdirSync("./_site/address/" + key + "/");
         }
+		if(minify) {
+			layout = htmlmin(layout);
+		}
         fs.writeFile("./_site/address/" + key + "/index.html", layout, function(err) {
             if (err) {
                 return console.log(err);
@@ -443,6 +429,9 @@ function generatestatic() {
         if (!fs.existsSync("./_site/ip/" + key + "/")) {
             fs.mkdirSync("./_site/ip/" + key + "/");
         }
+		if(minify) {
+			layout = htmlmin(layout);
+		}
         fs.writeFile("./_site/ip/" + key + "/index.html", layout, function(err) {
             if (err) {
                 return console.log(err);
@@ -582,6 +571,9 @@ function preprocessScams() {
                                 if (!fs.existsSync("./_site/scams/" + (index + 1) + "/")) {
                                     fs.mkdirSync("./_site/scams/" + (index + 1) + "/");
                                 }
+								if(minify) {
+									layout = htmlmin(layout);
+								}
                                 fs.writeFile("./_site/scams/" + (index + 1) + "/index.html", layout, function(err) {
                                     if (err) {
                                         return console.log(err);
@@ -618,6 +610,9 @@ function preprocess() {
                     } else {
                         var filename = "./_site/index.html";
                     }
+					if(minify) {
+						preprocess = htmlmin(preprocess);
+					}
                     fs.writeFile(filename, preprocess, function(err) {
                         if (err) {
                             return console.log(err);

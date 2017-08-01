@@ -41,4 +41,4 @@ To make use of our database, the following files can be used:
 
 ## Donate
 
-If you would like to help without contributing on GitHub yourself you can send some ETH or any other ERC20 token to [luithollander.eth](https://etherscan.io/address/luithollander.eth) :clap:
+If you would like to help without contributing on GitHub yourself you can send some ETH or any other ERC20 token to [etherscamdb.eth](https://etherscan.io/address/etherscamdb.eth) :clap:
