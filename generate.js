@@ -15,8 +15,8 @@ const data = yaml.safeLoad(fs.readFileSync('./_data/data.yaml'));
 const template = fs.readFileSync('./_layouts/default.html', 'utf8');
 
 /* Assign variables */
-let port = 8080;
-let minify = true;
+let port = 8080;  // Port that will be used for `--serve`
+let minify = false; // Minifying content can take some time to do but will improve serving content
 let job = false;
 let total = 0;
 
