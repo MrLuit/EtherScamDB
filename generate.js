@@ -15,7 +15,7 @@ const data = yaml.safeLoad(fs.readFileSync('./_data/data.yaml'));
 const template = fs.readFileSync('./_layouts/default.html', 'utf8');
 
 /* Assign variables */
-let port = 8080;  // Port that will be used for `--serve`
+let port = 8080; // Port that will be used for `--serve`
 let minify = false; // Minifying content can take some time to do but will improve serving content
 let job = false;
 let total = 0;
@@ -91,8 +91,8 @@ function compile_archive() {
                     "time": (new Date()).getTime(),
                     "status": "Unknown"
                 }];
-			} else if(!('status' in archive[data[key]['id']]) && !('status' in data[key]) && job == "update") {
-				archive[data[key]['id']]['status'] = [];
+            } else if (!('status' in archive[data[key]['id']]) && !('status' in data[key]) && job == "update") {
+                archive[data[key]['id']]['status'] = [];
             } else if (!('status' in archive[data[key]['id']]) && 'status' in data[key]) {
                 archive[data[key]['id']]['status'] = [{
                     "time": (new Date()).getTime(),
@@ -124,7 +124,7 @@ function compile_archive() {
                                     "time": (new Date()).getTime(),
                                     "status": "Suspended"
                                 });
-                            } else if ((archive[data[key]['id']]['status'].length == 0 || archive[data[key]['id']]['status'][0]['status'] != "Active") && !e && response.statusCode == 200) {
+                            } else if ((archive[data[key]['id']]['status'].length == 0 || archive[data[key]['id']]['status'][0]['status'] != "Active") && !e && response.statusCode == 200 && r.uri.href.indexOf('cgi-sys/suspendedpage.cgi') === -1) {
                                 archive[data[key]['id']]['status'].unshift({
                                     "time": (new Date()).getTime(),
                                     "status": "Active"
@@ -241,11 +241,11 @@ function archiveorg() {
             if ('url' in data[key] && 'status' in data[key] && data[key]['status'][0]['status'] == "Active") {
                 timeout++;
                 setTimeout(function() {
-                    request("https://web.archive.org/save/" + url.parse(data[key]['url']).hostname, function(e, response) {
+                    request("https://web.archive.org/save/" + data[key]['url'], function(e, response) {
                         if (e) {
                             throw e;
                         } else {
-                            console.log("Archived " + url.parse(data[key]['url']).hostname);
+                            console.log("Archived " + data[key]['url']);
                         }
                     });
                 }, timeout * 10000);
@@ -367,19 +367,19 @@ function generatestatic() {
             actions = '<a target="_blank" href="http://web.archive.org/web/*/' + encodeURIComponent(url.parse(scams[key]['url']).hostname) + '" class="ui icon secondary button"><i class="archive icon"></i> Archive</a>' + actions
             layout = layout.replace(/{{ scam.url }}/ig, '<b>URL</b>: <a id="url" target="_blank" href="/redirect/?url=' + encodeURIComponent(scams[key]['url']) + '">' + scams[key]['url'] + '</a><BR>');
             layout = layout.replace(/{{ scam.ethaddresslookup }}/ig, "<b>EtherAddressLookup</b>: <span id='blocked'>loading...</span><BR>");
-			layout = layout.replace(/{{ scam.googlethreat }}/ig, "<b>Google Safe Browsing</b>: <span id='googleblocked'>loading...</span><BR>");
-			
-			if("status" in scams[key] && scams[key]['status'][0]['status'] == "Active") {
-				actions = '<button id="gen" class="ui icon secondary button"><i class="setting icon"></i> Abuse Report</button>' + actions
-				layout = layout.replace(/{{ scam.abusereport }}/ig, generateAbuseReport(scams[key]));
-			} else {
-				layout = layout.replace(/{{ scam.abusereport }}/ig, "");
-			}
+            layout = layout.replace(/{{ scam.googlethreat }}/ig, "<b>Google Safe Browsing</b>: <span id='googleblocked'>loading...</span><BR>");
+
+            if ("status" in scams[key] && scams[key]['status'][0]['status'] == "Active") {
+                actions = '<button id="gen" class="ui icon secondary button"><i class="setting icon"></i> Abuse Report</button>' + actions
+                layout = layout.replace(/{{ scam.abusereport }}/ig, generateAbuseReport(scams[key]));
+            } else {
+                layout = layout.replace(/{{ scam.abusereport }}/ig, "");
+            }
         } else {
             layout = layout.replace(/{{ scam.url }}/ig, "");
             layout = layout.replace(/{{ scam.abusereport }}/ig, "");
             layout = layout.replace(/{{ scam.ethaddresslookup }}/ig, "");
-			layout = layout.replace(/{{ scam.googlethreat }}/ig, "");
+            layout = layout.replace(/{{ scam.googlethreat }}/ig, "");
         }
         layout = layout.replace(/{{ scam.id }}/ig, scams[key]['id']);
         layout = layout.replace(/{{ scam.history }}/ig, history);
