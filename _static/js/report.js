@@ -95,6 +95,11 @@ window.addEventListener("load", function() {
             $(".question4b").fadeIn();
         });
     });
+	$("#3notsure2").click(function() {
+        $(".question3").fadeOut('', function() {
+            $(".question4b").fadeIn();
+        });
+    });
     $("#3no").click(function() {
         $(".question3").fadeOut('', function() {
             $(".question5").fadeIn();

@@ -11,6 +11,8 @@ If you haven't already, click [here](https://nodejs.org/en/download/) to downloa
 - Install all necessary packages by running ```npm install```
 - Build and serve the project using `node generate.js`
 
+Generating should take around 2 minutes the first time or after a clean, but when `_site` is already present it should only take around 2-5 seconds.
+
 ## Flags
 
 - `--clean` Clean up all the old files and folders

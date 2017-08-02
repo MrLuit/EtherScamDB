@@ -6,11 +6,15 @@
   margin-top: 1%;
 }
 
+#sendicon {
+	margin-left: 5px !important;
+}
+
 .ui.input {
   width: 40%;
 }
 
-h3 {
+h2,h3 {
   margin-bottom: .5%;
   text-align: center;
   margin-top: 6% !important;
@@ -26,10 +30,14 @@ h3 {
   margin-top: 3%;
   text-align: center;
 }
-  
+
 .question {
   margin-top: 7% !important;
   text-align: center;
+}
+
+div.question {
+  display: inline-block;
 }
 
 .question2 {
@@ -39,7 +47,7 @@ h3 {
   
 .actions {
   text-align: center;
-  margin-top: 7%;
+  margin-top: 10%;
 }
 
 #addr {

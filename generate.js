@@ -363,13 +363,17 @@ function generatestatic() {
         }
         if ("url" in scams[key]) {
             actions = '<a target="_blank" href="http://web.archive.org/web/*/' + encodeURIComponent(url.parse(scams[key]['url']).hostname) + '" class="ui icon secondary button"><i class="archive icon"></i> Archive</a>' + actions
-            actions = '<button id="gen" class="ui icon secondary button"><i class="setting icon"></i> Abuse Report</button>' + actions
             layout = layout.replace(/{{ scam.url }}/ig, '<b>URL</b>: <a id="url" target="_blank" href="/redirect/?url=' + encodeURIComponent(scams[key]['url']) + '">' + scams[key]['url'] + '</a><BR>');
-            layout = layout.replace(/{{ scam.abusereport }}/ig, generateAbuseReport(scams[key]));
             layout = layout.replace(/{{ scam.ethaddresslookup }}/ig, "<b>EtherAddressLookup</b>: <span id='blocked'>loading...</span><BR>");
+			if("status" in scams[key] && scams[key]['status'][0]['status'] == "Active") {
+				actions = '<button id="gen" class="ui icon secondary button"><i class="setting icon"></i> Abuse Report</button>' + actions
+				layout = layout.replace(/{{ scam.abusereport }}/ig, generateAbuseReport(scams[key]));
+			} else {
+				layout = layout.replace(/{{ scam.abusereport }}/ig, "");
+			}
         } else {
             layout = layout.replace(/{{ scam.url }}/ig, "");
-            layout = layout.replace(/{{ scam.abusereport }}/ig, "There is no abuse report available for this domain.");
+            layout = layout.replace(/{{ scam.abusereport }}/ig, "");
             layout = layout.replace(/{{ scam.ethaddresslookup }}/ig, "");
         }
         layout = layout.replace(/{{ scam.id }}/ig, scams[key]['id']);
