@@ -86,11 +86,13 @@ function compile_archive() {
                     archive[data[key]['id']]['whois'] = old_archive[data[key]['id']]['whois'];
                 }
             }
-            if (!('status' in archive[data[key]['id']]) && !('status' in data[key])) {
+            if (!('status' in archive[data[key]['id']]) && !('status' in data[key]) && job != "update") {
                 archive[data[key]['id']]['status'] = [{
                     "time": (new Date()).getTime(),
                     "status": "Unknown"
                 }];
+			} else if(!('status' in archive[data[key]['id']]) && !('status' in data[key]) && job == "update") {
+				archive[data[key]['id']]['status'] = [];
             } else if (!('status' in archive[data[key]['id']]) && 'status' in data[key]) {
                 archive[data[key]['id']]['status'] = [{
                     "time": (new Date()).getTime(),
@@ -112,17 +114,17 @@ function compile_archive() {
                             archive[data[key]['id']]['nameservers'] = addresses;
                         }
                         var r = request(data[key]['url'], function(e, response, body) {
-                            if ((e || response.statusCode != 200) && archive[data[key]['id']]['status'][0]['status'] != "Offline") {
+                            if ((e || response.statusCode != 200) && (archive[data[key]['id']]['status'].length == 0 || archive[data[key]['id']]['status'][0]['status'] != "Offline")) {
                                 archive[data[key]['id']]['status'].unshift({
                                     "time": (new Date()).getTime(),
                                     "status": "Offline"
                                 });
-                            } else if (r.uri.href.indexOf('cgi-sys/suspendedpage.cgi') !== -1 && archive[data[key]['id']]['status'][0]['status'] != "Suspended") {
+                            } else if (r.uri.href.indexOf('cgi-sys/suspendedpage.cgi') !== -1 && (archive[data[key]['id']]['status'].length == 0 || archive[data[key]['id']]['status'][0]['status'] != "Suspended")) {
                                 archive[data[key]['id']]['status'].unshift({
                                     "time": (new Date()).getTime(),
                                     "status": "Suspended"
                                 });
-                            } else if (archive[data[key]['id']]['status'][0]['status'] != "Active") {
+                            } else if ((archive[data[key]['id']]['status'].length == 0 || archive[data[key]['id']]['status'][0]['status'] != "Active") && !e && response.statusCode == 200) {
                                 archive[data[key]['id']]['status'].unshift({
                                     "time": (new Date()).getTime(),
                                     "status": "Active"
@@ -365,6 +367,8 @@ function generatestatic() {
             actions = '<a target="_blank" href="http://web.archive.org/web/*/' + encodeURIComponent(url.parse(scams[key]['url']).hostname) + '" class="ui icon secondary button"><i class="archive icon"></i> Archive</a>' + actions
             layout = layout.replace(/{{ scam.url }}/ig, '<b>URL</b>: <a id="url" target="_blank" href="/redirect/?url=' + encodeURIComponent(scams[key]['url']) + '">' + scams[key]['url'] + '</a><BR>');
             layout = layout.replace(/{{ scam.ethaddresslookup }}/ig, "<b>EtherAddressLookup</b>: <span id='blocked'>loading...</span><BR>");
+			layout = layout.replace(/{{ scam.googlethreat }}/ig, "<b>Google Safe Browsing</b>: <span id='googleblocked'>loading...</span><BR>");
+			
 			if("status" in scams[key] && scams[key]['status'][0]['status'] == "Active") {
 				actions = '<button id="gen" class="ui icon secondary button"><i class="setting icon"></i> Abuse Report</button>' + actions
 				layout = layout.replace(/{{ scam.abusereport }}/ig, generateAbuseReport(scams[key]));
@@ -375,6 +379,7 @@ function generatestatic() {
             layout = layout.replace(/{{ scam.url }}/ig, "");
             layout = layout.replace(/{{ scam.abusereport }}/ig, "");
             layout = layout.replace(/{{ scam.ethaddresslookup }}/ig, "");
+			layout = layout.replace(/{{ scam.googlethreat }}/ig, "");
         }
         layout = layout.replace(/{{ scam.id }}/ig, scams[key]['id']);
         layout = layout.replace(/{{ scam.history }}/ig, history);

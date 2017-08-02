@@ -13,6 +13,35 @@ window.addEventListener("load", function() {
         url = $("#url").html();
         var l = document.createElement("a");
         l.href = url;
+        $.ajax({
+            type: 'POST',
+            url: 'https://safebrowsing.googleapis.com/v4/threatMatches:find?key=AIzaSyCwHBGareGscYcX53FWeid0Yy6tL_-veKw',
+            data: JSON.stringify({
+                client: {
+                    clientId: "Ethereum Scam Database",
+                    clientVersion: "1.0.0"
+                },
+                threatInfo: {
+                    threatTypes: ["THREAT_TYPE_UNSPECIFIED", "MALWARE", "SOCIAL_ENGINEERING", "UNWANTED_SOFTWARE", "POTENTIALLY_HARMFUL_APPLICATION"],
+                    platformTypes: ["ANY_PLATFORM"],
+                    threatEntryTypes: ["THREAT_ENTRY_TYPE_UNSPECIFIED", "URL", "EXECUTABLE"],
+                    threatEntries: [{
+                        "url": $("#url").html()
+                    }]
+                }
+            }),
+            success: function(data) {
+                if('matches' in data && 0 in data.matches) {
+					$("#googleblocked").css("color", "red");
+					$("#googleblocked").html("Blocked");// for " + data.matches[0]['threatType']);
+				} else {
+					$("#googleblocked").css("color", "green");
+					$("#googleblocked").html("Not Blocked <a target='_blank' href='https://safebrowsing.google.com/safebrowsing/report_phish/'><i class='warning sign icon'></i></a>");
+				}
+            },
+            contentType: "application/json",
+            dataType: 'json'
+        });
         $.getJSON("https://raw.githubusercontent.com/409H/EtherAddressLookup/master/blacklists/domains.json", function(blacklist) {
             $.getJSON("https://raw.githubusercontent.com/409H/EtherAddressLookup/master/whitelists/domains.json", function(whitelist) {
                 var holisticMetric = levenshtein(l.hostname.replace(/\./g, ''), "myetherwalletcom");
