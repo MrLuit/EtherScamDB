@@ -57,21 +57,16 @@ function clean() {
     console.log("Project cleaned.");
 }
 
-/* Compile archive_compiled.json */
+/* Compile archive.yaml */
 function compile_archive() {
     console.log("Compiling archive file...");
     let archive = {};
-    fs.readFile("./_data/archive_compiled.json", 'utf8', function(err, old_archive) {
+    fs.readFile("./_data/archive.yaml", 'utf8', function(err, old_archive) {
         if (!err && typeof old_archive !== 'undefined') {
-            var old_archive = JSON.parse(old_archive);
+            var old_archive = yaml.safeLoad(old_archive);
         }
         shuffle(Object.keys(data)).forEach(function(key) {
             archive[data[key]['id']] = {};
-            Object.keys(data[key]).forEach(function(property) {
-                if (property != "status") {
-                    archive[data[key]['id']][property] = data[key][property];
-                }
-            });
             if (typeof old_archive !== 'undefined' && data[key]['id'] in old_archive) {
                 if ('status' in old_archive[data[key]['id']]) {
                     archive[data[key]['id']]['status'] = old_archive[data[key]['id']]['status'];
@@ -145,7 +140,7 @@ function compile_archive() {
 function writeToArchive(archive) {
     total++;
     if (total == Object.keys(data).length) {
-        fs.writeFile("./_data/archive_compiled.json", JSON.stringify(archive), function(err) {
+        fs.writeFile("./_data/archive.yaml", yaml.safeDump(archive), function(err) {
             if (err) {
                 return console.log(err);
             }
@@ -159,7 +154,7 @@ function writeToArchive(archive) {
     }
 }
 
-/* Convert data.yaml and archive_compiled.json to scams_compiled.json, ips_compiled,json and addresses_compiled.json */
+/* Convert data.yaml and archive.yaml to scams_compiled.json, ips_compiled,json and addresses_compiled.json */
 function yaml2json() {
     console.log("Converting YAML to JSON...");
     let addresses = {}
@@ -168,8 +163,8 @@ function yaml2json() {
         "success": true,
         "results": []
     };
-    fs.readFile("./_data/archive_compiled.json", function(err, archive) {
-        var archive = JSON.parse(archive);
+    fs.readFile("./_data/archive.yaml", function(err, archive) {
+        var archive = yaml.safeLoad(archive);
         Object.keys(data).reverse().forEach(function(key) {
             search.results.push({
                 "name": data[key]['name'],
@@ -196,9 +191,6 @@ function yaml2json() {
                 }
                 if ("status" in archive[data[key]['id']]) {
                     data[key]['status'] = archive[data[key]['id']]['status'];
-                }
-                if ("whois" in archive[data[key]['id']]) {
-                    data[key]['whois'] = archive[data[key]['id']]['whois'];
                 }
             }
         });
