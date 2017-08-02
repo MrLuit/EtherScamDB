@@ -545,7 +545,7 @@ function preprocessScams() {
                         if (key % 100 === 0) {
                             pages[Math.floor(key / 100)] = "";
                         }
-                        pages[Math.floor(key / 100)] += "<tr><td>" + category + "</td><td>" + subcategory + "</td><td class='" + status.toLowerCase() + "'>" + color_status + "</td><td>" + scams[key]['name'] + "</td><td id='center'><a href='/scam/" + scams[key]['id'] + "'><i class='search icon'></i></a></td></tr>";
+                        pages[Math.floor(key / 100)] += "<tr><td>" + category + "</td><td>" + subcategory + "</td><td class='" + status.toLowerCase() + "'>" + color_status + "</td><td>" + scams[key]['name'] + "</td><td class='center'><a href='/scam/" + scams[key]['id'] + "'><i class='search icon'></i></a></td></tr>";
                         if (total_2 == scams.length) {
                             pages.forEach(function(page, index) {
                                 var pagination = "<div class='ui pagination menu'>";

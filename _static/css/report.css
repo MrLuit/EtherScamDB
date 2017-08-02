@@ -6,7 +6,7 @@
   margin-top: 1%;
 }
 
-#sendicon {
+i.send.icon {
 	margin-left: 5px !important;
 }
 
@@ -50,7 +50,7 @@ div.question {
   margin-top: 10%;
 }
 
-#addr {
+.addr {
   margin-top: 2%;
 }
 

@@ -1,48 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Ethereum Scam Database</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.11/semantic.min.css" integrity="sha256-g4+HzlttFiqgeuCnx3m308o0ahuBZ+0CRxaRWfSL0BU=" crossorigin="anonymous" />
-<link rel="stylesheet" href="/css/general.css">
-<meta name="description" content="Keep track of all current ethereum scams">
-<meta name="keywords" content="ethereum, scam, scamming, ether, eth, tracking, track, db, database, phishing, info">
+    <title>Ethereum Scam Database</title>
+    <meta property="og:title" content="Ethereum Scam Database" />
+    <meta name="twitter:title" content="Ethereum Scam Database" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.11/semantic.min.css" integrity="sha256-g4+HzlttFiqgeuCnx3m308o0ahuBZ+0CRxaRWfSL0BU=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/general.css">
+    <meta name="description" content="Keep track of all current ethereum scams in a large open-source database">
+    <meta property="og:description" content="Keep track of all current ethereum scams in a large open-source database" />
+    <meta name="twitter:description" content="Keep track of all current ethereum scams in a large open-source database" />
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:url" content="https://etherscamdb.info" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <meta property="og:image" content="https://etherscamdb.info/img/logo.png" />
+    <meta name="twitter:image" content="https://etherscamdb.info/img/logo.png" />
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="ethereum, scam, scamming, ether, eth, tracking, track, db, database, phishing, info, fake, ico">
 </head>
+
 <body>
-<div class="ui fixed inverted menu">
-	<div class="ui container">
-  <a href="/" class="item">
-    <i class="home icon"></i> Home
-  </a>
-  <a href="/scams" class="item">
-    <i class="protect icon"></i> Active scams
-  </a>
-  <a href="/search" class="ui item">
-		<i class="search icon"></i> Search
-	</a>
-  <a href="/faq" class="item">
-    <i class="help circle icon"></i> FAQ
-  </a>
-  <div class="right menu">
-    <a href="/report" class="ui item">
-      <i class="flag icon"></i> Report
-    </a>
-  </div>
-  </div>
-</div>
-<div class="ui body container">
-{{ content }}
-</div>
-<div class="ui inverted vertical footer segment">
-    <div class="ui container">
-		<div class="ui horizontal inverted small divided link list">
-			<div class="item">Powered by <a target="_blank" href="https://etherscan.io">Etherscan</a></div>
-			<div class="item">Maintained by <a target="_blank" href="https://www.myetherwallet.com">MyEtherWallet</a></div>
-			<div class="item">Hosted by <a target="_blank" href="https://github.com">Github</a></div>
-		</div>
+    <div class="ui fixed inverted menu">
+        <div class="ui container">
+            <a href="/" class="item">
+                <i class="home icon"></i> Home
+            </a>
+            <a href="/scams" class="item">
+                <i class="protect icon"></i> Active scams
+            </a>
+            <a href="/search" class="ui item">
+                <i class="search icon"></i> Search
+            </a>
+            <a href="/faq" class="item">
+                <i class="help circle icon"></i> FAQ
+            </a>
+            <div class="right menu">
+                <a href="/report" class="ui item">
+                    <i class="flag icon"></i> Report
+                </a>
+            </div>
+        </div>
     </div>
-</div>
-</div>
+    <div class="ui body container">
+        {{ content }}
+    </div>
+    <div class="ui inverted vertical footer segment">
+        <div class="ui container">
+            <div class="ui horizontal inverted small divided link list">
+                <div class="item">Powered by <a target="_blank" href="https://etherscan.io">Etherscan</a>
+                </div>
+                <div class="item">Maintained by <a target="_blank" href="https://www.myetherwallet.com">MyEtherWallet</a>
+                </div>
+                <div class="item">Hosted by <a target="_blank" href="https://github.com">Github</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.11/semantic.min.js" integrity="sha256-Wl7niWgEJX3PdPn8lBzIDCWO1FBCYExjQihbT4ldMok=" crossorigin="anonymous"></script>
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.11/semantic.min.js" integrity="sha256-Wl7niWgEJX3PdPn8lBzIDCWO1FBCYExjQihbT4ldMok=" crossorigin="anonymous"></script>
+
 </html>
