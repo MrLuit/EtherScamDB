@@ -616,6 +616,9 @@ function preprocess() {
                         }
 					} else if(file == "reportdomain.html" || file == "reportaddress.html") {
 						var filename = "./_site/" + file.replace('.html', '').replace("report","report/") + "/index.html";
+						if (!fs.existsSync("./_site/report/")) {
+                            fs.mkdirSync("./_site/report/");
+                        }
 						if (!fs.existsSync("./_site/" + file.replace('.html', '').replace("report","report/"))) {
                             fs.mkdirSync("./_site/" + file.replace('.html', '').replace("report","report/"));
                         }
