@@ -37,9 +37,9 @@ Fork this project and edit `_data/data.yaml`. Every item can have the following 
 
 To make use of our database, the following files can be used:
 
-- [scams_compiled.json](https://etherscamdb.info/_data/scams_compiled.json)
-- [addresses_compiled.json](https://etherscamdb.info/_data/addresses_compiled.json)
-- [ips_compiled.json](https://etherscamdb.info/_data/ips_compiled.json)
+- [scams.json](https://etherscamdb.info/data/scams.json)
+- [addresses.json](https://etherscamdb.info/data/addresses.json)
+- [ips.json](https://etherscamdb.info/data/ips.json)
 
 ## Donate
 

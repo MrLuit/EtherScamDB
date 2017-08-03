@@ -1,6 +1,3 @@
 node_modules
-_data/addresses_compiled.json
-_data/ips_compiled.json
-_data/scams_compiled.json
 npm-debug.log
 _site

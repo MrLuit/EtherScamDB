@@ -46,13 +46,7 @@ var deleteFolderRecursive = function(path) {
 
 /* --clean function */
 function clean() {
-    var files = ["_data/scams_compiled.json", "_data/addresses_compiled.json", "_data/ips_compiled.json"];
     console.log("Cleaning...");
-    files.forEach(function(file) {
-        if (fs.existsSync(file)) {
-            fs.unlinkSync(file);
-        }
-    });
     deleteFolderRecursive("_site");
     console.log("Project cleaned.");
 }
@@ -154,7 +148,7 @@ function writeToArchive(archive) {
     }
 }
 
-/* Convert data.yaml and archive.yaml to scams_compiled.json, ips_compiled,json and addresses_compiled.json */
+/* Convert data.yaml and archive.yaml to scams.json, ips.json, addresses.json and search.json */
 function yaml2json() {
     console.log("Converting YAML to JSON...");
     let addresses = {}
@@ -198,17 +192,17 @@ function yaml2json() {
             if (!fs.existsSync("./_site")) {
                 fs.mkdirSync("./_site/");
             }
-            if (!fs.existsSync("./_site/search")) {
-                fs.mkdirSync("./_site/search");
-            }
-            fs.writeFileSync("./_site/search/search.json", JSON.stringify(search));
+			if (!fs.existsSync("./_site/data")) {
+				fs.mkdirSync("./_site/data");
+			}
+            fs.writeFileSync("./_site/data/search.json", JSON.stringify(search));
             console.log("Search results file compiled.");
         }
-        fs.writeFile("./_data/scams_compiled.json", JSON.stringify(data), function(err) {
+        fs.writeFile("./_site/data/scams.json", JSON.stringify(data), function(err) {
             console.log("Scam file compiled.");
-            fs.writeFile("./_data/addresses_compiled.json", JSON.stringify(addresses), function(err) {
+            fs.writeFile("./_site/data/addresses.json", JSON.stringify(addresses), function(err) {
                 console.log("Address file compiled.");
-                fs.writeFile("./_data/ips_compiled.json", JSON.stringify(ips), function(err) {
+                fs.writeFile("./_site/data/ips.json", JSON.stringify(ips), function(err) {
                     console.log("IPs file compiled.");
                     if (job == "build" || job == false) {
                         generatestatic();
@@ -227,7 +221,7 @@ function yaml2json() {
 function archiveorg() {
     var timeout = 0;
     console.log("Sending all pages to archive.org...");
-    fs.readFile("./_data/scams_compiled.json", function(err, data) {
+    fs.readFile("./_site/data/scams.json", function(err, data) {
         data = shuffle(JSON.parse(data));
         data.forEach(function(val, key) {
             if ('url' in data[key] && 'status' in data[key] && data[key]['status'][0]['status'] == "Active") {
@@ -274,9 +268,9 @@ function generateAbuseReport(scam) {
 /* Use all json files to generate html files */
 function generatestatic() {
     console.log("Generating unique pages...");
-    const scams = JSON.parse(fs.readFileSync('./_data/scams_compiled.json'));
-    const addresses = JSON.parse(fs.readFileSync('./_data/addresses_compiled.json'));
-    const ips = JSON.parse(fs.readFileSync('./_data/ips_compiled.json'));
+    const scams = JSON.parse(fs.readFileSync('./_site/data/scams.json'));
+    const addresses = JSON.parse(fs.readFileSync('./_site/data/addresses.json'));
+    const ips = JSON.parse(fs.readFileSync('./_site/data/ips.json'));
     const layout_scams = fs.readFileSync('./_layouts/scam.html', 'utf8');
     const layout_addresses = fs.readFileSync('./_layouts/address.html', 'utf8');
     const layout_ips = fs.readFileSync('./_layouts/ip.html', 'utf8');
@@ -491,9 +485,9 @@ function preprocessScams() {
         const template_1 = template.replace("{{ content }}", data);
         fs.readFile('./_layouts/scams_2.html', 'utf8', function(err, data2) {
             const template_2 = template.replace("{{ content }}", data2);
-            fs.readFile('./_data/scams_compiled.json', 'utf8', function(err, data3) {
+            fs.readFile('./_site/data/scams.json', 'utf8', function(err, data3) {
                 const scams = JSON.parse(data3);
-                fs.readFile('./_data/addresses_compiled.json', 'utf8', function(err, data4) {
+                fs.readFile('./_site/data/addresses.json', 'utf8', function(err, data4) {
                     const addresses = JSON.parse(data4);
                     let pages = [];
                     let active = 0;
