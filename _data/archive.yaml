@@ -202,17 +202,6 @@
     - ns1.reg.ru
     - ns2.reg.ru
   ip: 185.93.185.126
-'27':
-  status:
-    - time: 1501784072024
-      status: Active
-    - time: 1501710874499
-      status: Offline
-  nameservers:
-    - a.dnspod.com
-    - b.dnspod.com
-    - c.dnspod.com
-  ip: 52.91.143.187
 '28':
   status:
     - time: 1501710858934
@@ -291,10 +280,6 @@
   nameservers:
     - dummysecondary.pleasecontactsupport.com
     - blockedduetophishing.pleasecontactsupport.com
-'40':
-  status:
-    - time: 1501710860247
-      status: Offline
 '41':
   status:
     - time: 1501710858777
@@ -539,14 +524,6 @@
   status:
     - time: 1501710858339
       status: Offline
-'79':
-  status:
-    - time: 1501710853928
-      status: Active
-  nameservers:
-    - dns7.parkpage.foundationapi.com
-    - dns8.parkpage.foundationapi.com
-  ip: 209.99.40.221
 '80':
   status:
     - time: 1501710860951
@@ -780,13 +757,6 @@
     - time: 1501710853595
       status: Active
   ip: 66.96.160.157
-'110':
-  status:
-    - time: 1501710863870
-      status: Offline
-  nameservers:
-    - blockedduetophishing.pleasecontactsupport.com
-    - dummysecondary.pleasecontactsupport.com
 '111':
   status:
     - time: 1501710861258
@@ -1588,15 +1558,6 @@
     - ns2.dnsowl.com
     - ns3.dnsowl.com
   ip: 103.16.229.16
-'187':
-  status:
-    - time: 1501710881777
-      status: Offline
-  nameservers:
-    - ns1.dnsowl.com
-    - ns2.dnsowl.com
-    - ns3.dnsowl.com
-  ip: 103.16.229.16
 '188':
   status:
     - time: 1501710874488
@@ -2272,15 +2233,6 @@
     - ns2.dnsowl.com
     - ns3.dnsowl.com
   ip: 103.16.229.16
-'263':
-  status:
-    - time: 1501710874051
-      status: Offline
-  nameservers:
-    - ns1.dnsowl.com
-    - ns2.dnsowl.com
-    - ns3.dnsowl.com
-  ip: 103.16.229.16
 '264':
   status:
     - time: 1501710874064
@@ -2401,15 +2353,6 @@
 '277':
   status:
     - time: 1501710879943
-      status: Offline
-  nameservers:
-    - ns1.dnsowl.com
-    - ns2.dnsowl.com
-    - ns3.dnsowl.com
-  ip: 103.16.229.16
-'278':
-  status:
-    - time: 1501710874049
       status: Offline
   nameservers:
     - ns1.dnsowl.com
@@ -2689,15 +2632,6 @@
 '309':
   status:
     - time: 1501710879950
-      status: Offline
-  nameservers:
-    - ns1.dnsowl.com
-    - ns2.dnsowl.com
-    - ns3.dnsowl.com
-  ip: 103.16.229.16
-'310':
-  status:
-    - time: 1501710879943
       status: Offline
   nameservers:
     - ns1.dnsowl.com
@@ -3199,15 +3133,6 @@
   status:
     - time: 1501710858961
       status: Offline
-'402':
-  status:
-    - time: 1501710860809
-      status: Active
-  nameservers:
-    - ns1.digitalocean.com
-    - ns2.digitalocean.com
-    - ns3.digitalocean.com
-  ip: 138.197.118.143
 '403':
   status:
     - time: 1501710853281
@@ -4798,14 +4723,6 @@
   status:
     - time: 1501710853293
       status: Offline
-'790':
-  status:
-    - time: 1501710859341
-      status: Active
-  nameservers:
-    - ns1.md-100.webhostbox.net
-    - ns2.md-100.webhostbox.net
-  ip: 207.174.212.128
 '791':
   status:
     - time: 1501710853268
@@ -9080,17 +8997,6 @@
   status:
     - time: 1501710855894
       status: Offline
-'1830':
-  status:
-    - time: 1501784063582
-      status: Active
-    - time: 1501710874295
-      status: Offline
-  nameservers:
-    - a.dnspod.com
-    - b.dnspod.com
-    - c.dnspod.com
-  ip: 52.91.143.187
 '1831':
   status:
     - time: 1501710853293
