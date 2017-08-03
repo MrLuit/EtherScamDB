@@ -71,9 +71,6 @@ function compile_archive() {
                 if ('ip' in old_archive[data[key]['id']]) {
                     archive[data[key]['id']]['ip'] = old_archive[data[key]['id']]['ip'];
                 }
-                if ('whois' in old_archive[data[key]['id']]) {
-                    archive[data[key]['id']]['whois'] = old_archive[data[key]['id']]['whois'];
-                }
             }
             if (!('status' in archive[data[key]['id']]) && !('status' in data[key]) && job != "update") {
                 archive[data[key]['id']]['status'] = [{
@@ -100,7 +97,7 @@ function compile_archive() {
                     }
                     dns.resolveNs(url.parse(data[key]['url']).hostname, (err, addresses) => {
                         if (!err) {
-                            archive[data[key]['id']]['nameservers'] = addresses;
+                            archive[data[key]['id']]['nameservers'] = addresses.sort();
                         }
                         var r = request(data[key]['url'], function(e, response, body) {
                             if ((e || response.statusCode != 200) && (archive[data[key]['id']]['status'].length == 0 || archive[data[key]['id']]['status'][0]['status'] != "Offline")) {
