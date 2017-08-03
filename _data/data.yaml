@@ -177,12 +177,6 @@
     subcategory: MyEtherWallet
     description: 'scam wallet'
 -
-    id: 27
-    name: myetherwallet.top
-    url: 'http://myetherwallet.top'
-    category: Phishing
-    subcategory: MyEtherWallet
--
     id: 28
     name: myethervvallet.com
     url: 'http://myethervvallet.com'
@@ -262,13 +256,6 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'did not 404.,MEW Deployed. it isn''t using the mailArea2() call. It''s pulling etherwallet-static from the legit MEW site but pulling master.js from https://s3-us-west-2.amazonaws.com/gigshunt/master.js. JS errors all over the place, not rendering properly. [blacklisted via Levenshtein]'
--
-    id: 40
-    name: my-etherwallet.in
-    url: 'http://my-etherwallet.in'
-    category: Phishing
-    subcategory: MyEtherWallet
-    description: 'did not 404.,MEW Deployed. JS errors all over the place, not rendering properly. [blacklisted via Levenshtein]'
 -
     id: 41
     name: district0x.net
@@ -514,13 +501,6 @@
     subcategory: MyEtherWallet
     description: 'slackbot / reddit dms slackbot / reddit dms'
 -
-    id: 79
-    name: myetherwallet.info
-    url: 'http://myetherwallet.info'
-    category: Phishing
-    subcategory: MyEtherWallet
-    description: '(same guys as myetherSswallet)'
--
     id: 80
     name: myetherwallet.info
     url: 'http://myetherwallet.info'
@@ -726,13 +706,6 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: Subdomain
--
-    id: 110
-    name: myethervvallet.com
-    url: 'http://myethervvallet.com'
-    category: Phishing
-    subcategory: MyEtherWallet
-    description: Homoglyph
 -
     id: 111
     name: myetherewallet.com
@@ -1266,13 +1239,6 @@
     subcategory: MyEtherWallet
     description: Insertion
 -
-    id: 187
-    name: myetherwaallet.com
-    url: 'http://myetherwaallet.com'
-    category: Phishing
-    subcategory: MyEtherWallet
-    description: Insertion
--
     id: 188
     name: myethserwallet.com
     url: 'http://myethserwallet.com'
@@ -1798,13 +1764,6 @@
     subcategory: MyEtherWallet
     description: Bitsquatting
 -
-    id: 263
-    name: myetherwalle3t.com
-    url: 'http://myetherwalle3t.com'
-    category: Phishing
-    subcategory: MyEtherWallet
-    description: Insertion
--
     id: 264
     name: myetherwalle4t.com
     url: 'http://myetherwalle4t.com'
@@ -1902,13 +1861,6 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: Addition
--
-    id: 278
-    name: myetherwallewt.com
-    url: 'http://myetherwallewt.com'
-    category: Phishing
-    subcategory: MyEtherWallet
-    description: Insertion
 -
     id: 279
     name: myetherwallket.com
@@ -2123,13 +2075,6 @@
     id: 309
     name: myethrrwallet.com
     url: 'http://myethrrwallet.com'
-    category: Phishing
-    subcategory: MyEtherWallet
-    description: Replacement
--
-    id: 310
-    name: myethsrwallet.com
-    url: 'http://myethsrwallet.com'
     category: Phishing
     subcategory: MyEtherWallet
     description: Replacement
@@ -2765,13 +2710,6 @@
     id: 401
     name: myetherwalleţ.com
     url: 'http://myetherwalleţ.com'
-    category: Phishing
-    subcategory: MyEtherWallet
-    description: Homoglyph
--
-    id: 402
-    name: myetherwallét.com
-    url: 'http://myetherwallét.com'
     category: Phishing
     subcategory: MyEtherWallet
     description: Homoglyph
@@ -5276,12 +5214,6 @@
     id: 789
     name: myetherwallet.calvinklein
     url: 'http://myetherwallet.calvinklein'
-    category: Phishing
-    subcategory: MyEtherWallet
--
-    id: 790
-    name: myetherwallet.cam
-    url: 'http://myetherwallet.cam'
     category: Phishing
     subcategory: MyEtherWallet
 -
@@ -11516,12 +11448,6 @@
     id: 1829
     name: myetherwallet.tools
     url: 'http://myetherwallet.tools'
-    category: Phishing
-    subcategory: MyEtherWallet
--
-    id: 1830
-    name: myetherwallet.top
-    url: 'http://myetherwallet.top'
     category: Phishing
     subcategory: MyEtherWallet
 -
