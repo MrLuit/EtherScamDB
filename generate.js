@@ -483,7 +483,20 @@ function preprocessScams() {
         fs.readFile('./_layouts/scams_2.html', 'utf8', function(err, data2) {
             const template_2 = template.replace("{{ content }}", data2);
             fs.readFile('./_site/data/scams.json', 'utf8', function(err, data3) {
-                const scams = JSON.parse(data3);
+                const scams = JSON.parse(data3).sort(
+                    function(x, y) {
+                        if ('status' in x && 'status' in y) {
+                            if (x['status'][0]['time'] < y['status'][0]['time']) {
+                                return 1;
+                            } else if (x['status'][0]['time'] == y['status'][0]['time']) {
+                                return 0;
+                            } else {
+                                return -1;
+                            }
+                        } else {
+                            return 0;
+                        }
+                    });
                 fs.readFile('./_site/data/addresses.json', 'utf8', function(err, data4) {
                     const addresses = JSON.parse(data4);
                     let pages = [];
