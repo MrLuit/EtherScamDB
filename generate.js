@@ -609,12 +609,17 @@ function preprocess() {
                     if (err) {
                         return console.log(err);
                     }
-                    if (file != "index.html") {
-                        if (!fs.existsSync("./_site/" + file.replace('.html', '') + "/")) {
-                            fs.mkdirSync("./_site/" + file.replace('.html', '') + "/");
+                    if (file != "index.html" && file != "reportdomain.html" && file != "reportaddress.html") {
+						var filename = "./_site/" + file.replace('.html', '') + "/index.html";
+                        if (!fs.existsSync("./_site/" + file.replace('.html', ''))) {
+                            fs.mkdirSync("./_site/" + file.replace('.html', ''));
                         }
-                        var filename = "./_site/" + file.replace('.html', '') + "/index.html";
-                    } else {
+					} else if(file == "reportdomain.html" || file == "reportaddress.html") {
+						var filename = "./_site/" + file.replace('.html', '').replace("report","report/") + "/index.html";
+						if (!fs.existsSync("./_site/" + file.replace('.html', '').replace("report","report/"))) {
+                            fs.mkdirSync("./_site/" + file.replace('.html', '').replace("report","report/"));
+                        }
+                    } else if(file == "index.html") {
                         var filename = "./_site/index.html";
                     }
                     if (minify) {

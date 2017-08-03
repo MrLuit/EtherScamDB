@@ -1,5 +1,4 @@
 <link rel="stylesheet" href="../css/report.css">
-<script src='https://www.google.com/recaptcha/api.js?onload=reCaptchaCallback&render=explicit'></script>
 
 <div class="question1">
     <h2 class="report"><i class="flag outline icon"></i> Report</h2>
@@ -26,16 +25,22 @@
 </div>
 <div class="question2a">
     <h2 class="question">Addresses</h2>
-    <b>Your wallet address</b>:
-    <div class="ui input">
-        <input type="text" id="from" placeholder="0x0000000000000000000000000000000000000000" maxlength="42">
+	<div class="ui centered align grid addr">
+        <div class="ui long labeled input question2">
+            <div class="ui black label">
+                Your wallet address:
+            </div>
+            <input type="text" id="from" placeholder="0x0000000000000000000000000000000000000000" maxlength="42">
+        </div>
     </div>
+	<div class="ui centered align grid addr">
     <div class="ui form">
         <div class="field">
             <label>All addresses that the attacker used to get money out of your wallet (one address per line)</label>
             <textarea id="to" rows="5"></textarea>
         </div>
     </div>
+	</div>
     <div class="actions">
         <button id="2senda" class="ui spacing big primary icon button">
             Send <i class="send icon"></i>
@@ -82,7 +87,7 @@
     </div>
     <div class="ui centered grid">
         <div class="ui labeled input question2">
-            <div class="ui label">
+            <div class="ui black label">
                 Website:
             </div>
             <input type="text" id="privdomain" placeholder="fake-myetherwallet.com">
@@ -151,7 +156,7 @@
     </div>
     <div class="ui centered grid">
         <div class="ui labeled input question2">
-            <div class="ui label">
+            <div class="ui black label">
                 Website:
             </div>
             <input type="text" id="addresswebsite" placeholder="fake-myetherwallet.com">
@@ -227,7 +232,7 @@
     </div>
     <div class="ui centered align grid addr">
         <div class="ui labeled input question2">
-            <div class="ui label">
+            <div class="ui black label">
                 Domain:
             </div>
             <input type="text" id="gendomain" placeholder="fake-myetherwallet.com">
@@ -247,7 +252,7 @@
     </div>
     <div class="ui centered align grid addr">
         <div class="ui labeled input question2">
-            <div class="ui label">
+            <div class="ui black label">
                 Address:
             </div>
             <input type="text" id="address" placeholder="0x0000000000000000000000000000000000000000" maxlength="42">
@@ -312,4 +317,6 @@
     <h2 class="ending"><i class="checkmark icon"></i> Thanks for your report</h2>
     <h3>Your report has been sent.</h3>
 </div>
+
 <script src="../js/report.js"></script>
+<script src='https://www.google.com/recaptcha/api.js?onload=reCaptchaCallback&render=explicit'></script>

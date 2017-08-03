@@ -1,0 +1,61 @@
+<link rel="stylesheet" href="/css/reportaddress.css">
+<script src="/js/reportaddress.js"></script>
+
+<div class="question9b">
+    <div class="ui centered grid">
+        <div class="ui raised segment question">
+            <h1>What malicious address would you like to report?</h1>
+        </div>
+    </div>
+    <div class="ui centered align grid addr">
+        <div class="ui labeled input question2">
+            <div class="ui black label">
+                Address:
+            </div>
+            <input type="text" id="address" placeholder="0x0000000000000000000000000000000000000000" maxlength="42">
+        </div>
+    </div>
+    <div class="actions">
+        <button id="9sendb" class="ui spacing big primary icon button">
+            Send <i class="send icon"></i>
+        </button>
+    </div>
+</div>
+<div class="question10">
+    <div class="ui centered grid">
+        <div class="ui raised segment question">
+            <h1>Please specify a reason for your report</h1>
+        </div>
+    </div>
+    <div class="ui form question2">
+        <div class="field">
+            <textarea id="reason" rows="5"></textarea>
+        </div>
+    </div>
+    <div class="actions">
+        <button id="10send" class="ui spacing big primary button">
+            Send <i class="send icon"></i>
+        </button>
+    </div>
+</div>
+<div class="captcha">
+    <h2 class="question">Captcha</h2>
+    <BR>
+    <BR>
+    <div class="ui center aligned grid">
+        <form id="verifycaptcha">
+            <div id="g-recaptcha"></div>
+        </form>
+    </div>
+</div>
+<div class="loading">
+    <div class="ui active inverted dimmer">
+        <div class="ui text loader">Sending</div>
+    </div>
+</div>
+<div class="end">
+    <h2 class="ending"><i class="checkmark icon"></i> Thanks for your report</h2>
+    <h3>Your report has been sent.</h3>
+</div>
+
+<script src='https://www.google.com/recaptcha/api.js?onload=reCaptchaCallback&render=explicit'></script>

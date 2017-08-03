@@ -37,25 +37,6 @@ function reCaptchaCallback() {
 
 window.addEventListener("load", function() {
 
-    $('.ui.form')
-        .form({
-            fields: {
-                name: 'empty',
-                gender: 'empty',
-                username: 'empty',
-                password: ['minLength[6]', 'empty'],
-                skills: ['minCount[2]', 'empty'],
-                terms: 'checked',
-                address: {
-                    identifier: 'address',
-                    rules: [{
-                        type: '/^(0x)?[0-9a-f]{40}$/i',
-                        prompt: 'Please enter a valid ethereum address'
-                    }]
-                }
-            }
-        });
-
     $("#1yes").click(function() {
         $(".question1").fadeOut('', function() {
             $(".question2a").fadeIn();
@@ -107,11 +88,17 @@ window.addEventListener("load", function() {
     });
 
     $("#4senda").click(function() {
-        reportType = 'urgentDomainReport';
-        args['domain'] = $("#privdomain").val();
-        $(".question4a").fadeOut('', function() {
-            finish();
-        });
+		//if (/^[a-zA-Z0-9][a-zA-Z0-9-]{1,61}[a-zA-Z0-9](?:\.[a-zA-Z]{2,})+$/.test($("#privdomain").val())) {
+			reportType = 'urgentDomainReport';
+			args['domain'] = $("#privdomain").val();
+			$(".question4a").fadeOut('', function() {
+				finish();
+			});
+		/*} else {
+			$(".ui.left.pointing").remove();
+			$("#privdomain").parent().addClass("error");
+			$("#privdomain").parent().append('<div class="ui left pointing red basic label">Please enter a valid domain</div>');
+		}*/
     });
     $("#4sendb").click(function() {
         $(".question4b").fadeOut('', function() {
