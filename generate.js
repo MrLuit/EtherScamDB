@@ -189,9 +189,9 @@ function yaml2json() {
             if (!fs.existsSync("./_site")) {
                 fs.mkdirSync("./_site/");
             }
-			if (!fs.existsSync("./_site/data")) {
-				fs.mkdirSync("./_site/data");
-			}
+            if (!fs.existsSync("./_site/data")) {
+                fs.mkdirSync("./_site/data");
+            }
             fs.writeFileSync("./_site/data/search.json", JSON.stringify(search));
             console.log("Search results file compiled.");
         }
@@ -503,9 +503,6 @@ function preprocessScams() {
                             } else if (status == "Offline") {
                                 color_status = '<i class="remove icon"></i> Offline';
                                 inactive++;
-                            } else if (status == "Inactive") {
-                                color_status = '<i class="plug icon"></i> Inactive';
-                                inactive++;
                             } else if (status == "Suspended") {
                                 color_status = '<i class="warning sign icon"></i> Suspended';
                             }
@@ -530,6 +527,24 @@ function preprocessScams() {
                         }
                         pages[Math.floor(key / 100)] += "<tr><td>" + category + "</td><td>" + subcategory + "</td><td class='" + status.toLowerCase() + "'>" + color_status + "</td><td>" + scams[key]['name'] + "</td><td class='center'><a href='/scam/" + scams[key]['id'] + "'><i class='search icon'></i></a></td></tr>";
                         if (total_2 == scams.length) {
+                            let all_pages = "";
+                            pages.forEach(function(page, index) {
+                                all_pages += page;
+                            });
+                            layout = template_1.replace(/{{ scams.total }}/ig, scams.length);
+                            layout = layout.replace(/{{ scams.table }}/ig, all_pages);
+                            layout = layout.replace(/{{ scams.pagination }}/ig, "");
+                            layout = layout.replace(/{{ scams.active }}/ig, active);
+                            layout = layout.replace(/{{ addresses.total }}/ig, Object.keys(addresses).length);
+                            layout = layout.replace(/{{ scams.inactive }}/ig, inactive);
+                            if (!fs.existsSync("./_site/scams/all/")) {
+                                fs.mkdirSync("./_site/scams/all/");
+                            }
+                            fs.writeFile("./_site/scams/all/index.html", layout, function(err) {
+                                if (err) {
+                                    return console.log(err);
+                                }
+                            });
                             pages.forEach(function(page, index) {
                                 var pagination = "<div class='ui pagination menu'>";
                                 if (index == 0) {
@@ -601,19 +616,19 @@ function preprocess() {
                         return console.log(err);
                     }
                     if (file != "index.html" && file != "reportdomain.html" && file != "reportaddress.html") {
-						var filename = "./_site/" + file.replace('.html', '') + "/index.html";
+                        var filename = "./_site/" + file.replace('.html', '') + "/index.html";
                         if (!fs.existsSync("./_site/" + file.replace('.html', ''))) {
                             fs.mkdirSync("./_site/" + file.replace('.html', ''));
                         }
-					} else if(file == "reportdomain.html" || file == "reportaddress.html") {
-						var filename = "./_site/" + file.replace('.html', '').replace("report","report/") + "/index.html";
-						if (!fs.existsSync("./_site/report/")) {
+                    } else if (file == "reportdomain.html" || file == "reportaddress.html") {
+                        var filename = "./_site/" + file.replace('.html', '').replace("report", "report/") + "/index.html";
+                        if (!fs.existsSync("./_site/report/")) {
                             fs.mkdirSync("./_site/report/");
                         }
-						if (!fs.existsSync("./_site/" + file.replace('.html', '').replace("report","report/"))) {
-                            fs.mkdirSync("./_site/" + file.replace('.html', '').replace("report","report/"));
+                        if (!fs.existsSync("./_site/" + file.replace('.html', '').replace("report", "report/"))) {
+                            fs.mkdirSync("./_site/" + file.replace('.html', '').replace("report", "report/"));
                         }
-                    } else if(file == "index.html") {
+                    } else if (file == "index.html") {
                         var filename = "./_site/index.html";
                     }
                     if (minify) {
