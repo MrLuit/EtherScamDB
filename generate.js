@@ -457,12 +457,12 @@ function copyStatic() {
                 fs.mkdirSync(curPath.replace("_static", "_site"));
             }
             fs.readdirSync(curPath).forEach(function(file, index) {
-                fs.readFile(curPath + '/' + file, 'utf8', function(err, data) {
+                fs.readFile(curPath + '/' + file, function(err, data) {
                     fs.writeFileSync(curPath.replace("_static", "_site") + '/' + file, data);
                 });
             });
         } else {
-            fs.readFile("_static/" + file, 'utf8', function(err, data) {
+            fs.readFile("_static/" + file, function(err, data) {
                 fs.writeFileSync("_site/" + file, data);
             });
         }
