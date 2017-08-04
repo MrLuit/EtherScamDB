@@ -85,8 +85,8 @@
     - time: 1501710860519
       status: Offline
   nameservers:
-    - dummysecondary.pleasecontactsupport.com
     - blockedduetophishing.pleasecontactsupport.com
+    - dummysecondary.pleasecontactsupport.com
 '11':
   status:
     - time: 1501710860752
@@ -456,7 +456,7 @@
   nameservers:
     - brad.ns.cloudflare.com
     - elma.ns.cloudflare.com
-  ip: 104.27.186.62
+  ip: 104.27.187.62
 '69':
   status:
     - time: 1501710863845
@@ -472,7 +472,7 @@
   nameservers:
     - brad.ns.cloudflare.com
     - elma.ns.cloudflare.com
-  ip: 104.31.76.47
+  ip: 104.31.77.47
 '71':
   status:
     - time: 1501710861941
@@ -488,7 +488,7 @@
   nameservers:
     - dina.ns.cloudflare.com
     - ernest.ns.cloudflare.com
-  ip: 104.18.53.186
+  ip: 104.18.52.186
 '73':
   status:
     - time: 1501710860620
@@ -503,7 +503,7 @@
   nameservers:
     - ns45.domaincontrol.com
     - ns46.domaincontrol.com
-  ip: 50.63.202.45
+  ip: 184.168.221.49
 '75':
   status:
     - time: 1501710862033
@@ -642,13 +642,11 @@
   nameservers:
     - d01-01.ns.twtrdns.net
     - d01-02.ns.twtrdns.net
-    - ns1.p34.dynect.net
-    - ns2.p34.dynect.net
     - ns3.p34.dynect.net
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
-  ip: 104.244.42.193
+  ip: 104.244.42.1
 '96':
   status:
     - time: 1501710860742
@@ -836,8 +834,8 @@
       status: Active
   nameservers:
     - dns10.parkpage.foundationapi.com
-    - dns9.parkpage.foundationapi.com
-  ip: 209.99.40.222
+    - dns11.parkpage.foundationapi.com
+  ip: 209.99.40.223
 '122':
   status:
     - time: 1501710855987
@@ -853,7 +851,7 @@
   nameservers:
     - graham.ns.cloudflare.com
     - vida.ns.cloudflare.com
-  ip: 104.18.40.33
+  ip: 104.18.41.33
 '124':
   status:
     - time: 1501710862266
@@ -901,8 +899,8 @@
     - time: 1501710861385
       status: Offline
   nameservers:
-    - ns1.above.com
-    - ns2.above.com
+    - ns1.privatensservice.com
+    - ns2.privatensservice.com
   ip: 103.224.212.192
 '130':
   status:
@@ -3005,8 +3003,13 @@
       status: Offline
 '371':
   status:
+    - time: 1501855973933
+      status: Active
     - time: 1501710852753
       status: Offline
+  ip: 198.2.197.242
+  nameservers:
+    - ns.myetharwallet.com
 '372':
   status:
     - time: 1501710853285
@@ -6870,6 +6873,9 @@
   status:
     - time: 1501710858320
       status: Offline
+  nameservers:
+    - blockedduetophishing.pleasecontactsupport.com
+    - dummysecondary.pleasecontactsupport.com
 '1312':
   status:
     - time: 1501710856030
