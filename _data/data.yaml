@@ -237,8 +237,8 @@
     description: 'https://bitcointalk.org/index.php?topic=1689585.20'
 -
     id: 37
-    name: 'https://twitter.com/EthereumWallets'
-    url: 'http://https://twitter.com/EthereumWallets'
+    name: 'Twitter: EthereumWallets'
+    url: 'https://twitter.com/EthereumWallets'
     category: Phishing
     subcategory: MyEtherWallet
     description: 'https://bitcointalk.org/index.php?topic=1689585.20'
@@ -13238,3 +13238,25 @@
     url: 'http://xn--myetherwallt-yeb.com'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2129
+    name: my.ether-wallet.co
+    url: 'http://my.ether-wallet.co'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2130
+    name: ethermixer.com
+    url: 'http://ethermixer.com'
+    category: Scamming
+-
+    id: 2131
+    name: indorsetoken.com
+    url: 'http://indorsetoken.com'
+    category: Fake ICO
+    subcategory: Indorse
+-
+    id: 2132
+    name: ziber.io
+    url: 'http://ziber.io'
+    category: Scamming

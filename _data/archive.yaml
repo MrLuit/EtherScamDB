@@ -230,7 +230,7 @@
   nameservers:
     - lana.ns.cloudflare.com
     - pete.ns.cloudflare.com
-  ip: 192.30.252.154
+  ip: 192.30.252.153
 '32':
   status:
     - time: 1501710861837
@@ -268,6 +268,16 @@
   status:
     - time: 1501710858306
       status: Offline
+  ip: 104.244.42.193
+  nameservers:
+    - d01-01.ns.twtrdns.net
+    - d01-02.ns.twtrdns.net
+    - ns1.p34.dynect.net
+    - ns2.p34.dynect.net
+    - ns3.p34.dynect.net
+    - ns4.p34.dynect.net
+    - r01-01.ns.twtrdns.net
+    - r01-02.ns.twtrdns.net
 '38':
   status:
     - time: 1501710861865
@@ -418,6 +428,8 @@
   ip: 198.54.116.86
 '64':
   status:
+    - time: 1501936184166
+      status: Offline
     - time: 1501710852997
       status: Active
   nameservers:
@@ -425,7 +437,7 @@
     - ns2.eurodns.com
     - ns3.eurodns.com
     - ns4.eurodns.com
-  ip: 80.92.65.214
+  ip: 185.53.177.20
 '65':
   status:
     - time: 1501710861974
@@ -456,7 +468,7 @@
   nameservers:
     - brad.ns.cloudflare.com
     - elma.ns.cloudflare.com
-  ip: 104.27.187.62
+  ip: 104.27.186.62
 '69':
   status:
     - time: 1501710863845
@@ -642,11 +654,13 @@
   nameservers:
     - d01-01.ns.twtrdns.net
     - d01-02.ns.twtrdns.net
+    - ns1.p34.dynect.net
+    - ns2.p34.dynect.net
     - ns3.p34.dynect.net
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
-  ip: 104.244.42.1
+  ip: 104.244.42.193
 '96':
   status:
     - time: 1501710860742
@@ -833,9 +847,9 @@
     - time: 1501710853829
       status: Active
   nameservers:
-    - dns10.parkpage.foundationapi.com
     - dns11.parkpage.foundationapi.com
-  ip: 209.99.40.223
+    - dns12.parkpage.foundationapi.com
+  ip: 209.99.40.222
 '122':
   status:
     - time: 1501710855987
@@ -851,7 +865,7 @@
   nameservers:
     - graham.ns.cloudflare.com
     - vida.ns.cloudflare.com
-  ip: 104.18.41.33
+  ip: 104.18.40.33
 '124':
   status:
     - time: 1501710862266
@@ -899,8 +913,8 @@
     - time: 1501710861385
       status: Offline
   nameservers:
-    - ns1.privatensservice.com
-    - ns2.privatensservice.com
+    - ns1.above.com
+    - ns2.above.com
   ip: 103.224.212.192
 '130':
   status:
@@ -933,6 +947,8 @@
   ip: 80.92.65.144
 '133':
   status:
+    - time: 1501936183067
+      status: Offline
     - time: 1501710859139
       status: Active
   nameservers:
@@ -940,9 +956,11 @@
     - ns2.eurodns.com
     - ns3.eurodns.com
     - ns4.eurodns.com
-  ip: 80.92.65.214
+  ip: 185.53.177.20
 '134':
   status:
+    - time: 1501936183271
+      status: Offline
     - time: 1501710859137
       status: Active
   nameservers:
@@ -950,9 +968,11 @@
     - ns2.eurodns.com
     - ns3.eurodns.com
     - ns4.eurodns.com
-  ip: 80.92.65.214
+  ip: 185.53.177.20
 '135':
   status:
+    - time: 1501936184281
+      status: Offline
     - time: 1501710859138
       status: Active
   nameservers:
@@ -960,7 +980,7 @@
     - ns2.eurodns.com
     - ns3.eurodns.com
     - ns4.eurodns.com
-  ip: 80.92.65.214
+  ip: 185.53.177.20
 '136':
   status:
     - time: 1501710862657
@@ -3003,13 +3023,15 @@
       status: Offline
 '371':
   status:
+    - time: 1501936206335
+      status: Offline
     - time: 1501855973933
       status: Active
     - time: 1501710852753
       status: Offline
-  ip: 198.2.197.242
   nameservers:
     - ns.myetharwallet.com
+  ip: 198.2.197.242
 '372':
   status:
     - time: 1501710853285
@@ -10211,3 +10233,29 @@
   nameservers:
     - dummysecondary.pleasecontactsupport.com
     - blockedduetophishing.pleasecontactsupport.com
+'2129':
+  status:
+    - time: 1501936184507
+      status: Active
+  ip: 46.166.162.199
+'2130':
+  status:
+    - time: 1501936182566
+      status: Active
+  ip: 104.27.145.197
+  nameservers:
+    - evan.ns.cloudflare.com
+    - tess.ns.cloudflare.com
+'2131':
+  status:
+    - time: 1501936184043
+      status: Offline
+'2132':
+  status:
+    - time: 1501936189686
+      status: Active
+  ip: 192.0.78.25
+  nameservers:
+    - ns1.wordpress.com
+    - ns2.wordpress.com
+    - ns3.wordpress.com
