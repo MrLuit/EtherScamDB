@@ -3,10 +3,9 @@
     - time: 1501710853530
       status: Active
   nameservers:
-    - ns1.digitalocean.com
-    - ns2.digitalocean.com
-    - ns3.digitalocean.com
-  ip: 138.197.118.143
+    - dns1.registrar-servers.com
+    - dns2.registrar-servers.com
+  ip: 162.255.119.121
 '2':
   status:
     - time: 1501784065867
@@ -19,6 +18,8 @@
   ip: 37.140.192.7
 '3':
   status:
+    - time: 1502308358634
+      status: Offline
     - time: 1501710853566
       status: Active
   nameservers:
@@ -71,7 +72,7 @@
     - a.dnspod.com
     - b.dnspod.com
     - c.dnspod.com
-  ip: 52.91.143.187
+  ip: 35.162.21.246
 '9':
   status:
     - time: 1501710861699
@@ -188,12 +189,14 @@
     - dummysecondary.pleasecontactsupport.com
 '25':
   status:
+    - time: 1502308361511
+      status: Active
     - time: 1501710861362
       status: Suspended
   nameservers:
-    - ns1.hosting.reg.ru
-    - ns2.hosting.reg.ru
-  ip: 37.140.192.127
+    - ns39.domaincontrol.com
+    - ns40.domaincontrol.com
+  ip: 23.229.223.233
 '26':
   status:
     - time: 1501710879338
@@ -245,6 +248,8 @@
       status: Offline
 '34':
   status:
+    - time: 1502308359526
+      status: Active
     - time: 1501710860835
       status: Offline
   nameservers:
@@ -268,7 +273,6 @@
   status:
     - time: 1501710858306
       status: Offline
-  ip: 104.244.42.193
   nameservers:
     - d01-01.ns.twtrdns.net
     - d01-02.ns.twtrdns.net
@@ -278,6 +282,7 @@
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
+  ip: 104.244.42.1
 '38':
   status:
     - time: 1501710861865
@@ -337,7 +342,7 @@
   nameservers:
     - karl.ns.cloudflare.com
     - violet.ns.cloudflare.com
-  ip: 104.28.18.25
+  ip: 104.28.19.25
 '48':
   status:
     - time: 1501710874047
@@ -484,7 +489,7 @@
   nameservers:
     - brad.ns.cloudflare.com
     - elma.ns.cloudflare.com
-  ip: 104.31.77.47
+  ip: 104.31.76.47
 '71':
   status:
     - time: 1501710861941
@@ -510,6 +515,10 @@
     - ns2.hosting.reg.ru
 '74':
   status:
+    - time: 1502314263988
+      status: Active
+    - time: 1502308394541
+      status: Offline
     - time: 1501710862362
       status: Active
   nameservers:
@@ -572,6 +581,8 @@
   ip: 103.16.229.16
 '84':
   status:
+    - time: 1502308393190
+      status: Offline
     - time: 1501710862164
       status: Active
   nameservers:
@@ -644,9 +655,9 @@
     - time: 1501710853483
       status: Active
   nameservers:
-    - dilbert.ns.cloudflare.com
-    - melissa.ns.cloudflare.com
-  ip: 31.31.196.203
+    - ns1.firstvds.ru
+    - ns2.firstvds.ru
+  ip: 62.109.18.185
 '95':
   status:
     - time: 1501710862143
@@ -654,13 +665,11 @@
   nameservers:
     - d01-01.ns.twtrdns.net
     - d01-02.ns.twtrdns.net
-    - ns1.p34.dynect.net
-    - ns2.p34.dynect.net
     - ns3.p34.dynect.net
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
-  ip: 104.244.42.193
+  ip: 104.244.42.1
 '96':
   status:
     - time: 1501710860742
@@ -738,6 +747,10 @@
   ip: 89.31.143.1
 '105':
   status:
+    - time: 1502314261967
+      status: Active
+    - time: 1502308394053
+      status: Offline
     - time: 1501710862337
       status: Active
   nameservers:
@@ -746,6 +759,8 @@
   ip: 184.168.221.51
 '106':
   status:
+    - time: 1502314241805
+      status: Offline
     - time: 1501710862035
       status: Active
   nameservers:
@@ -754,6 +769,8 @@
   ip: 184.168.221.48
 '107':
   status:
+    - time: 1502314254900
+      status: Offline
     - time: 1501710862403
       status: Active
   nameservers:
@@ -847,8 +864,8 @@
     - time: 1501710853829
       status: Active
   nameservers:
-    - dns11.parkpage.foundationapi.com
-    - dns12.parkpage.foundationapi.com
+    - dns10.parkpage.foundationapi.com
+    - dns9.parkpage.foundationapi.com
   ip: 209.99.40.222
 '122':
   status:
@@ -876,6 +893,8 @@
   ip: 50.63.202.43
 '125':
   status:
+    - time: 1502308361454
+      status: Active
     - time: 1501784065070
       status: Offline
     - time: 1501710861691
@@ -927,6 +946,8 @@
   ip: 67.205.136.153
 '131':
   status:
+    - time: 1502308354771
+      status: Active
     - time: 1501710891750
       status: Offline
   nameservers:
@@ -934,9 +955,11 @@
     - ns2.eurodns.com
     - ns3.eurodns.com
     - ns4.eurodns.com
-  ip: 80.92.65.144
+  ip: 80.92.65.214
 '132':
   status:
+    - time: 1502308359835
+      status: Active
     - time: 1501710879702
       status: Offline
   nameservers:
@@ -944,7 +967,7 @@
     - ns2.eurodns.com
     - ns3.eurodns.com
     - ns4.eurodns.com
-  ip: 80.92.65.144
+  ip: 80.92.65.214
 '133':
   status:
     - time: 1501936183067
@@ -988,6 +1011,10 @@
   ip: 76.74.212.106
 '137':
   status:
+    - time: 1502314236410
+      status: Active
+    - time: 1502308379548
+      status: Offline
     - time: 1501710858726
       status: Active
   nameservers:
@@ -1046,6 +1073,10 @@
   ip: 69.172.201.153
 '144':
   status:
+    - time: 1502314238454
+      status: Active
+    - time: 1502308379555
+      status: Offline
     - time: 1501710853562
       status: Active
   nameservers:
@@ -3023,6 +3054,8 @@
       status: Offline
 '371':
   status:
+    - time: 1502308361243
+      status: Active
     - time: 1501936206335
       status: Offline
     - time: 1501855973933
@@ -3359,8 +3392,14 @@
       status: Offline
 '452':
   status:
+    - time: 1502314239612
+      status: Active
     - time: 1501710853294
       status: Offline
+  nameservers:
+    - ns39.domaincontrol.com
+    - ns40.domaincontrol.com
+  ip: 184.168.221.60
 '453':
   status:
     - time: 1501710853076
@@ -5766,6 +5805,8 @@
       status: Offline
 '1038':
   status:
+    - time: 1502308379530
+      status: Offline
     - time: 1501710859359
       status: Active
   ip: 173.230.131.38
@@ -10224,8 +10265,14 @@
       status: Offline
 '2127':
   status:
+    - time: 1502308362425
+      status: Active
     - time: 1501710852818
       status: Offline
+  nameservers:
+    - dns1.registrar-servers.com
+    - dns2.registrar-servers.com
+  ip: 162.255.119.156
 '2128':
   status:
     - time: 1501710858393
@@ -10242,20 +10289,34 @@
   status:
     - time: 1501936182566
       status: Active
-  ip: 104.27.145.197
   nameservers:
     - evan.ns.cloudflare.com
     - tess.ns.cloudflare.com
+  ip: 104.27.145.197
 '2131':
   status:
+    - time: 1502308359544
+      status: Active
     - time: 1501936184043
       status: Offline
+  nameservers:
+    - ns1.firstvds.ru
+    - ns2.firstvds.ru
+  ip: 37.230.114.67
 '2132':
   status:
     - time: 1501936189686
       status: Active
-  ip: 192.0.78.25
   nameservers:
     - ns1.wordpress.com
     - ns2.wordpress.com
     - ns3.wordpress.com
+  ip: 192.0.78.25
+'2133':
+  status:
+    - time: 1502314233079
+      status: Active
+  ip: 37.140.192.125
+  nameservers:
+    - ns1.hosting.reg.ru
+    - ns2.hosting.reg.ru

@@ -147,7 +147,9 @@
     url: 'http://myethwallet.net'
     category: Phishing
     subcategory: MyEtherWallet
-    description: 'Doesn''t work for me?'
+    addresses:
+      - '0x00e01A648Ff41346CDeB873182383333D2184dd1'
+      - '0x858457daa7e087ad74cdeeceab8419079bc2ca03'
 -
     id: 23
     name: myetherwaliiet.com
@@ -444,6 +446,8 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'malicious - same as ethereumchest'
+    addresses:
+      - '0x379ce20c018fb6301c1872c429ec7270ffa4dc5b'
 -
     id: 71
     name: ethereumchest.com
@@ -493,6 +497,9 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'slackbot / reddit dms. did not 404.'
+    addresses:
+      - '0x5Af2Be193a6ABCa9c8817001F45744777Db30756'
+      - '0x2b065809f6ec6df32878bcd26711a0e2bcf59c26'
 -
     id: 78
     name: myetherwallet.com.im
@@ -500,6 +507,9 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'slackbot / reddit dms slackbot / reddit dms'
+    addresses:
+      - '0x42c5459911ae51d1d005cbe39749bd8d8e533c22'
+      - '0xcdd1c19dcc3f473eaef6edb0a28e1e796d6e1767'
 -
     id: 80
     name: myetherwallet.info
@@ -514,6 +524,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'did not 404.,MEW Deployed'
+    addresses:
+      - '0x11c058c3efbf53939fb6872b09a2b5cf2410a1e2c3f3c867664e43a626d878c0'
+      - '0x2dfe2e0522cc1f050edcc7a05213bb55bbb36884ec9468fc39eccc013c65b5e4'
+      - '0x1c6e3348a7ea72ffe6a384e51bd1f36ac1bcb4264f461889a318a3bb2251bf19'
 -
     id: 82
     name: myetherwallet5.com
@@ -548,6 +562,8 @@
     url: 'http://myetherwaillet.com'
     category: Phishing
     subcategory: MyEtherWallet
+    addresses:
+      - '0xed2d26eed06ecfbfd796d1ec551d2a649a31e576'
 -
     id: 87
     name: myetherwallet.ch
@@ -562,6 +578,8 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'slackbot / reddit dms. did not 404.'
+    addresses:
+      - '0x1D60606d8A09b5015D773A80b0C660Bb8d91809c'
 -
     id: 89
     name: myetherwallet.im
@@ -569,6 +587,8 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'scambot phishers. did not 404.'
+    addresses:
+      - '0xBa83e9Ce38b10522e3d6061A12779B7526839eda'
 -
     id: 90
     name: myetherwallet.tech
@@ -576,6 +596,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'scambot phishers. did not 404.'
+    addresses:
+      - '0xBa83e9Ce38b10522e3d6061A12779B7526839eda'
+      - '0xf73EF0650415656B51Be39bD5D37CF5cE03f4033'
+      - '0xedf202629bb7e9f72d4c62c325d198513fa7a3d3'
 -
     id: 91
     name: myetherwallet.me
@@ -846,6 +870,8 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: Homoglyph
+    addresses:
+      - '0x00e01a648ff41346cdeb873182383333d2184dd1'
 -
     id: 131
     name: myetherwallte.com
@@ -7676,6 +7702,8 @@
     url: 'http://myetherwallet.in'
     category: Phishing
     subcategory: MyEtherWallet
+    addresses:
+      - '0x858457daA7e087ad74cDeeCEAb8419079bC2cA03'
 -
     id: 1201
     name: myetherwallet.industries
@@ -7754,6 +7782,8 @@
     url: 'http://myetherwallet.io'
     category: Phishing
     subcategory: MyEtherWallet
+    addresses:
+      - '0x379ce20c018fb6301c1872c429ec7270ffa4dc5b'
 -
     id: 1214
     name: myetherwallet.ipiranga
@@ -13260,3 +13290,9 @@
     name: ziber.io
     url: 'http://ziber.io'
     category: Scamming
+-
+    id: 2133
+    name: ethpromonodes.com
+    url: 'https://ethpromonodes.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
