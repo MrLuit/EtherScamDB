@@ -13296,3 +13296,10 @@
     url: 'https://ethpromonodes.com/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2134
+    name: myethcrwallet.com
+    url: 'https://myethcrwallet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    
