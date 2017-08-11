@@ -10320,3 +10320,13 @@
   nameservers:
     - ns1.hosting.reg.ru
     - ns2.hosting.reg.ru
+'2134':
+  status:
+    - time: 1502457074348
+      status: Active
+  nameservers:
+    - NS1.BEGET.COM
+    - NS1.BEGET.PRO
+    - NS2.BEGET.COM
+    - NS2.BEGET.PRO
+  ip: 87.236.16.197
