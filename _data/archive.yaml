@@ -10330,3 +10330,11 @@
     - NS2.BEGET.COM
     - NS2.BEGET.PRO
   ip: 87.236.16.197
+'2135':
+  status:
+    - time: 1502457742731
+      status: Active
+  nameservers:
+    - NS1.FIRSTVDS.RU
+    - NS2.FIRSTVDS.RU
+  ip: 62.109.18.185
