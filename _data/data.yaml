@@ -13303,3 +13303,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     
+-
+    id: 2135
+    name: my.ether-wallet.co
+    url: 'https://my.ether-wallet.co/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    
