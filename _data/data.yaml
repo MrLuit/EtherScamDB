@@ -13320,3 +13320,15 @@
     url: 'https://omise-go.net/'
     category: Phishing
     subcategory: Omise-Go
+-
+    id: 2138
+    name: unocoin.company
+    url: 'https://unocoin.company/'
+    category: Phishing
+    subcategory: Unocoin
+-
+    id: 2139
+    name: unocoin.fund
+    url: 'https://unocoin.fund/'
+    category: Phishing
+    subcategory: Unocoin
