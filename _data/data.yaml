@@ -13313,4 +13313,10 @@
     name: numerai.tech
     url: 'https://numerai.tech/'
     category: Phishing
-    subcategory: Numerai.Tech
+    subcategory: Numerai
+-
+    id: 2137
+    name: omise-go.net
+    url: 'https://omise-go.net/'
+    category: Phishing
+    subcategory: Omise-Go
