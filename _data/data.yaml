@@ -13332,3 +13332,9 @@
     url: 'https://unocoin.fund/'
     category: Phishing
     subcategory: Unocoin
+-
+    id: 2140
+    name: etherdelta-glthub.com
+    url: 'https://etherdelta-glthub.com/'
+    category: Phishing
+    subcategory: EtherDelta
