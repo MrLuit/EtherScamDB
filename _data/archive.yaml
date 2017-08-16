@@ -10370,4 +10370,12 @@
     - jamie.ns.cloudflare.com
     - doug.ns.cloudflare.com
   ip: 104.24.112.83
+'2140':
+  status:
+    - time: 1502902141346
+      status: Active
+  nameservers:
+    - NS1.HOSTING.REG.RU
+    - NS2.HOSTING.REG.RU
+  ip: 31.31.196.230
   
