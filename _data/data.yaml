@@ -13338,3 +13338,9 @@
     url: 'https://etherdelta-glthub.com/'
     category: Phishing
     subcategory: EtherDelta
+-
+    id: 2141
+    name: bittrex.cam
+    url: 'https://bittrex.cam/'
+    category: Phishing
+    subcategory: Bittrex
