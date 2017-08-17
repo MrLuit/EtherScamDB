@@ -10378,4 +10378,12 @@
     - NS1.HOSTING.REG.RU
     - NS2.HOSTING.REG.RU
   ip: 31.31.196.230
+'2141':
+  status:
+    - time: 1502989783777
+      status: Active
+  nameservers:
+    - bonnie.ns.cloudflare.com
+    - mario.ns.cloudflare.com
+  ip: 104.24.25.80
   
