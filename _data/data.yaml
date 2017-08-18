@@ -13344,3 +13344,9 @@
     url: 'https://bittrex.cam/'
     category: Phishing
     subcategory: Bittrex
+-
+    id: 2142
+    name: myetrerwallet.com
+    url: 'https://myetrerwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
