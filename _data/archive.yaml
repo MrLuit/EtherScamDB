@@ -10386,4 +10386,12 @@
     - bonnie.ns.cloudflare.com
     - mario.ns.cloudflare.com
   ip: 104.24.25.80
+'2142':
+  status:
+    - time: 1503053737061
+      status: Active
+  nameservers:
+    - ns1.hosting.reg.ru
+    - ns2.hosting.reg.ru
+  ip: 31.31.196.132
   
