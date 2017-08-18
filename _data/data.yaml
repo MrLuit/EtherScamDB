@@ -13356,3 +13356,9 @@
     url: 'https://decentraland.pro'
     category: Phishing
     subcategory: Decentraland
+-
+    id: 2144
+    name: status-token.com
+    url: 'https://status-token.com'
+    category: Phishing
+    subcategory: Status
