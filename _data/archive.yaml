@@ -10394,4 +10394,12 @@
     - ns1.hosting.reg.ru
     - ns2.hosting.reg.ru
   ip: 31.31.196.132
+'2143':
+  status:
+    - time: 1503064980644
+      status: Active
+  nameservers:
+    - jamie.ns.cloudflare.com
+    - doug.ns.cloudflare.com
+  ip: 104.25.20.30
   
