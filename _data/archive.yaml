@@ -10402,4 +10402,12 @@
     - jamie.ns.cloudflare.com
     - doug.ns.cloudflare.com
   ip: 104.25.20.30
+'2144':
+  status:
+    - time: 1503084443940
+      status: Active
+  nameservers:
+    - ns1.firstvds.ru
+    - ns2.firstvds.ru
+  ip: 80.87.193.62
   
