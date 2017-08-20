@@ -13374,3 +13374,9 @@
     url: 'https://enigmatoken.com'
     category: Phishing
     subcategory: Enigma
+-
+    id: 2147
+    name: decentraland.tech
+    url: 'https://decentraland.tech/'
+    category: Phishing
+    subcategory: Decentraland
