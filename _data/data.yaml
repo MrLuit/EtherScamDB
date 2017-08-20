@@ -13362,3 +13362,9 @@
     url: 'https://status-token.com'
     category: Phishing
     subcategory: Status
+-
+    id: 2145
+    name: myetthterwallet.com
+    url: 'https://myetthterwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
