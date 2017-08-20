@@ -13368,3 +13368,9 @@
     url: 'https://myetthterwallet.com'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2146
+    name: enigmatoken.com
+    url: 'https://enigmatoken.com'
+    category: Phishing
+    subcategory: Enigma
