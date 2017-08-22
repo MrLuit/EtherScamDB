@@ -626,13 +626,6 @@
     subcategory: OmiseGO
     description: 'fake ico site'
 -
-    id: 94
-    name: omise-go.com
-    url: 'http://omise-go.com'
-    category: 'Fake ICO'
-    subcategory: OmiseGO
-    description: 'fake ico site'
--
     id: 95
     name: twitter.com/omise__go
     url: 'http://twitter.com/omise__go'
