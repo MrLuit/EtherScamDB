@@ -13364,6 +13364,8 @@
     url: 'https://decentraland.pro'
     category: Phishing
     subcategory: Decentraland
+    addresses:
+    - '0x3b0009071a0a9983e9aab537fd8c9ad478310aeb'
 -
     id: 2144
     name: status-token.com
