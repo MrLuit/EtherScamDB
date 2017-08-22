@@ -40,6 +40,8 @@
     url: 'http://etherswap.org'
     category: Phishing
     subcategory: 'Ethereum Project'
+    addresses:
+    - '0x4cdc1cba0aeb5539f2e0ba158281e67e0e54a9b1'
 -
     id: 7
     name: xn--mytherwallet-fvb.com
