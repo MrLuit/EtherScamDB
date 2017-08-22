@@ -13340,6 +13340,8 @@
     url: 'https://unocoin.fund/'
     category: Phishing
     subcategory: Unocoin
+    addresses:
+      - '0x52b7c8857Be3853fA68e09D9Ba7a9ADf075040eA'
 -
     id: 2140
     name: etherdelta-glthub.com
