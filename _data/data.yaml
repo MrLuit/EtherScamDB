@@ -13380,3 +13380,9 @@
     url: 'https://decentraland.tech/'
     category: Phishing
     subcategory: Decentraland
+-
+    id: 2148
+    name: myethterwallet.com
+    url: 'https://myethterwallet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
