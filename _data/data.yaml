@@ -13328,6 +13328,8 @@
     url: 'https://omise-go.net/'
     category: Phishing
     subcategory: Omise-Go
+    addresses:
+      - '0x1e80dad60d19fb8159af3f440a8ceaa0e5581847'
 -
     id: 2138
     name: unocoin.company
