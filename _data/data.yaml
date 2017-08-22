@@ -312,6 +312,8 @@
     url: 'http://contribute-status.im'
     category: 'Fake ICO'
     subcategory: 'Status Network'
+    addresses:
+      - '0xadF5b0c2103598fb66a61714152F1d1717D49FE0'
 -
     id: 48
     name: myethetrwallet.com
@@ -13291,6 +13293,8 @@
     name: ziber.io
     url: 'http://ziber.io'
     category: Scamming
+    addresses:
+      - '0xf0a924661b0263e5ce12756d07f45b8668c53380'
 -
     id: 2133
     name: ethpromonodes.com
@@ -13370,6 +13374,7 @@
     subcategory: Decentraland
     addresses:
       - '0x3b0009071a0a9983e9aab537fd8c9ad478310aeb'
+      - '0xc38d14bf89e0001260bb349a006d7e491e5f43ad'
 -
     id: 2144
     name: status-token.com
