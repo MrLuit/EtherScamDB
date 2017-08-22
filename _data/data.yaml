@@ -13386,3 +13386,9 @@
     url: 'https://myethterwallet.com/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2149
+    name: substratum.io
+    url: 'http://substratum.io/'
+    category: Fake ICO
+    subcategory: Substratum
