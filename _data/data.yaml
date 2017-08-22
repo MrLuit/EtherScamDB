@@ -12,7 +12,7 @@
     category: Phishing
     subcategory: MyEtherWallet
     addresses:
-    - '0xD0cC2B24980CBCCA47EF755Da88B220a82291407'
+      - '0xD0cC2B24980CBCCA47EF755Da88B220a82291407'
 -
     id: 3
     name: myetherwallet.cam
@@ -41,7 +41,7 @@
     category: Phishing
     subcategory: 'Ethereum Project'
     addresses:
-    - '0x4cdc1cba0aeb5539f2e0ba158281e67e0e54a9b1'
+      - '0x4cdc1cba0aeb5539f2e0ba158281e67e0e54a9b1'
 -
     id: 7
     name: xn--mytherwallet-fvb.com
@@ -13367,7 +13367,7 @@
     category: Phishing
     subcategory: Decentraland
     addresses:
-    - '0x3b0009071a0a9983e9aab537fd8c9ad478310aeb'
+      - '0x3b0009071a0a9983e9aab537fd8c9ad478310aeb'
 -
     id: 2144
     name: status-token.com
