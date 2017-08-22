@@ -28,6 +28,8 @@
   ip: 207.174.212.128
 '4':
   status:
+    - time: 1503432477260
+      status: Active
     - time: 1501784062426
       status: Offline
     - time: 1501710859305
@@ -64,6 +66,8 @@
   ip: 67.205.136.153
 '8':
   status:
+    - time: 1503432513525
+      status: Offline
     - time: 1501784065881
       status: Active
     - time: 1501710873813
@@ -130,6 +134,9 @@
   status:
     - time: 1501710861553
       status: Offline
+  nameservers:
+    - blockedduetophishing.pleasecontactsupport.com
+    - dummysecondary.pleasecontactsupport.com
 '17':
   status:
     - time: 1501710861227
@@ -150,8 +157,8 @@
     - time: 1501710860248
       status: Offline
   nameservers:
-    - dummysecondary.pleasecontactsupport.com
     - blockedduetophishing.pleasecontactsupport.com
+    - dummysecondary.pleasecontactsupport.com
 '20':
   status:
     - time: 1501710881254
@@ -165,6 +172,9 @@
   status:
     - time: 1501710853481
       status: Offline
+  nameservers:
+    - ns01.000webhost.com
+    - ns02.000webhost.com
 '22':
   status:
     - time: 1501710852969
@@ -189,6 +199,8 @@
     - dummysecondary.pleasecontactsupport.com
 '25':
   status:
+    - time: 1503432511619
+      status: Offline
     - time: 1502308361511
       status: Active
     - time: 1501710861362
@@ -248,6 +260,8 @@
       status: Offline
 '34':
   status:
+    - time: 1503432621006
+      status: Offline
     - time: 1502308359526
       status: Active
     - time: 1501710860835
@@ -258,12 +272,14 @@
   ip: 176.9.125.179
 '35':
   status:
+    - time: 1503432531722
+      status: Offline
     - time: 1501710853347
       status: Active
   nameservers:
     - arch.ns.cloudflare.com
     - arya.ns.cloudflare.com
-  ip: 104.24.110.173
+  ip: 104.24.111.173
 '36':
   status:
     - time: 1501710861821
@@ -276,13 +292,11 @@
   nameservers:
     - d01-01.ns.twtrdns.net
     - d01-02.ns.twtrdns.net
-    - ns1.p34.dynect.net
-    - ns2.p34.dynect.net
     - ns3.p34.dynect.net
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
-  ip: 104.244.42.1
+  ip: 104.244.42.129
 '38':
   status:
     - time: 1501710861865
@@ -297,12 +311,14 @@
     - blockedduetophishing.pleasecontactsupport.com
 '41':
   status:
+    - time: 1503432508803
+      status: Active
     - time: 1501710858777
       status: Offline
   nameservers:
-    - melissa.ns.cloudflare.com
-    - dilbert.ns.cloudflare.com
-  ip: 31.31.196.166
+    - ns1.firstvds.ru
+    - ns2.firstvds.ru
+  ip: 188.120.225.38
 '42':
   status:
     - time: 1501710853060
@@ -524,9 +540,11 @@
   nameservers:
     - ns45.domaincontrol.com
     - ns46.domaincontrol.com
-  ip: 184.168.221.49
+  ip: 50.63.202.56
 '75':
   status:
+    - time: 1503432509999
+      status: Offline
     - time: 1501710862033
       status: Active
   nameservers:
@@ -547,6 +565,8 @@
       status: Offline
 '80':
   status:
+    - time: 1503432454068
+      status: Offline
     - time: 1501710860951
       status: Active
   nameservers:
@@ -581,6 +601,8 @@
   ip: 103.16.229.16
 '84':
   status:
+    - time: 1503432509929
+      status: Active
     - time: 1502308393190
       status: Offline
     - time: 1501710862164
@@ -650,14 +672,6 @@
   status:
     - time: 1501710853075
       status: Offline
-'94':
-  status:
-    - time: 1501710853483
-      status: Active
-  nameservers:
-    - ns1.firstvds.ru
-    - ns2.firstvds.ru
-  ip: 62.109.18.185
 '95':
   status:
     - time: 1501710862143
@@ -669,7 +683,7 @@
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
-  ip: 104.244.42.1
+  ip: 104.244.42.129
 '96':
   status:
     - time: 1501710860742
@@ -759,6 +773,8 @@
   ip: 184.168.221.51
 '106':
   status:
+    - time: 1503432510021
+      status: Active
     - time: 1502314241805
       status: Offline
     - time: 1501710862035
@@ -769,6 +785,8 @@
   ip: 184.168.221.48
 '107':
   status:
+    - time: 1503432509859
+      status: Active
     - time: 1502314254900
       status: Offline
     - time: 1501710862403
@@ -861,6 +879,8 @@
     - dns2.registrar-servers.com
 '121':
   status:
+    - time: 1503432474213
+      status: Offline
     - time: 1501710853829
       status: Active
   nameservers:
@@ -882,7 +902,7 @@
   nameservers:
     - graham.ns.cloudflare.com
     - vida.ns.cloudflare.com
-  ip: 104.18.40.33
+  ip: 104.18.41.33
 '124':
   status:
     - time: 1501710862266
@@ -908,32 +928,32 @@
     - time: 1501710861758
       status: Offline
   nameservers:
-    - ns1.above.com
-    - ns2.above.com
+    - ns1.privatensservice.com
+    - ns2.privatensservice.com
   ip: 103.224.212.184
 '127':
   status:
     - time: 1501710861717
       status: Offline
   nameservers:
-    - ns1.above.com
-    - ns2.above.com
+    - ns1.privatensservice.com
+    - ns2.privatensservice.com
   ip: 103.224.212.186
 '128':
   status:
     - time: 1501710861444
       status: Offline
   nameservers:
-    - ns1.above.com
-    - ns2.above.com
+    - ns1.privatensservice.com
+    - ns2.privatensservice.com
   ip: 103.224.212.188
 '129':
   status:
     - time: 1501710861385
       status: Offline
   nameservers:
-    - ns1.above.com
-    - ns2.above.com
+    - ns1.privatensservice.com
+    - ns2.privatensservice.com
   ip: 103.224.212.192
 '130':
   status:
@@ -1009,6 +1029,11 @@
     - time: 1501710862657
       status: Active
   ip: 76.74.212.106
+  nameservers:
+    - ns1.hasns.com
+    - ns2.hasns.com
+    - ns3.hasns.com
+    - ns4.hasns.com
 '137':
   status:
     - time: 1502314236410
@@ -1018,8 +1043,8 @@
     - time: 1501710858726
       status: Active
   nameservers:
-    - ns2.verification-hold.suspended-domain.com
     - ns1.verification-hold.suspended-domain.com
+    - ns2.verification-hold.suspended-domain.com
   ip: 209.99.17.27
 '138':
   status:
@@ -1080,8 +1105,8 @@
     - time: 1501710853562
       status: Active
   nameservers:
-    - ns2.verification-hold.suspended-domain.com
     - ns1.verification-hold.suspended-domain.com
+    - ns2.verification-hold.suspended-domain.com
   ip: 209.99.17.27
 '145':
   status:
@@ -1587,8 +1612,8 @@
     - time: 1501710857440
       status: Offline
   nameservers:
-    - dummysecondary.pleasecontactsupport.com
     - blockedduetophishing.pleasecontactsupport.com
+    - dummysecondary.pleasecontactsupport.com
 '185':
   status:
     - time: 1501710881288
@@ -3054,6 +3079,8 @@
       status: Offline
 '371':
   status:
+    - time: 1503432457604
+      status: Offline
     - time: 1502308361243
       status: Active
     - time: 1501936206335
@@ -3063,7 +3090,8 @@
     - time: 1501710852753
       status: Offline
   nameservers:
-    - ns.myetharwallet.com
+    - ns26.hostease.com
+    - ns27.hostease.com
   ip: 198.2.197.242
 '372':
   status:
@@ -3397,9 +3425,9 @@
     - time: 1501710853294
       status: Offline
   nameservers:
-    - ns39.domaincontrol.com
-    - ns40.domaincontrol.com
-  ip: 184.168.221.60
+    - ns09.domaincontrol.com
+    - ns10.domaincontrol.com
+  ip: 184.168.221.51
 '453':
   status:
     - time: 1501710853076
@@ -3700,8 +3728,16 @@
       status: Offline
 '526':
   status:
+    - time: 1503432501142
+      status: Active
     - time: 1501710857470
       status: Offline
+  ip: 87.236.16.190
+  nameservers:
+    - ns1.beget.com
+    - ns1.beget.pro
+    - ns2.beget.com
+    - ns2.beget.pro
 '527':
   status:
     - time: 1501710857454
@@ -3760,8 +3796,14 @@
       status: Offline
 '541':
   status:
+    - time: 1503432478660
+      status: Active
     - time: 1501710852791
       status: Offline
+  ip: 31.31.196.132
+  nameservers:
+    - ns1.hosting.reg.ru
+    - ns2.hosting.reg.ru
 '542':
   status:
     - time: 1501710861761
@@ -4920,8 +4962,8 @@
     - time: 1501710859154
       status: Offline
   nameservers:
-    - major.ns.cloudflare.com
     - kim.ns.cloudflare.com
+    - major.ns.cloudflare.com
 '824':
   status:
     - time: 1501710860281
@@ -5805,6 +5847,8 @@
       status: Offline
 '1038':
   status:
+    - time: 1503432493205
+      status: Active
     - time: 1502308379530
       status: Offline
     - time: 1501710859359
@@ -5979,8 +6023,14 @@
       status: Offline
 '1077':
   status:
+    - time: 1503432454282
+      status: Active
     - time: 1501710852791
       status: Offline
+  ip: 198.251.83.215
+  nameservers:
+    - parking-1.domains4bitcoins.com
+    - parking-2.domains4bitcoins.com
 '1078':
   status:
     - time: 1501710858966
@@ -6483,9 +6533,9 @@
     - time: 1501710861955
       status: Active
   nameservers:
-    - dns1.registrar-servers.com
-    - dns2.registrar-servers.com
-  ip: 162.255.119.228
+    - dns101.registrar-servers.com
+    - dns102.registrar-servers.com
+  ip: 198.54.117.212
 '1201':
   status:
     - time: 1501710852784
@@ -6556,6 +6606,9 @@
   status:
     - time: 1501710860835
       status: Offline
+  nameservers:
+    - ns1.webramz.com
+    - ns2.webramz.com
 '1217':
   status:
     - time: 1501710860525
@@ -7518,8 +7571,8 @@
     - time: 1501710853027
       status: Offline
   nameservers:
-    - ns1.parkingcrew.net
-    - ns2.parkingcrew.net
+    - dns1.registrar-servers.com
+    - dns2.registrar-servers.com
   ip: 185.53.178.6
 '1453':
   status:
@@ -7759,12 +7812,14 @@
       status: Offline
 '1510':
   status:
+    - time: 1503432507870
+      status: Active
     - time: 1501710860423
       status: Offline
   nameservers:
-    - ns1.parkingcrew.net
-    - ns2.parkingcrew.net
-  ip: 185.53.178.7
+    - dns1.registrar-servers.com
+    - dns2.registrar-servers.com
+  ip: 192.64.119.41
 '1511':
   status:
     - time: 1501710852793
@@ -8027,9 +8082,9 @@
     - time: 1501710858647
       status: Offline
   nameservers:
-    - ns3.digitalocean.com
     - ns1.digitalocean.com
     - ns2.digitalocean.com
+    - ns3.digitalocean.com
 '1575':
   status:
     - time: 1501710853064
@@ -8217,8 +8272,14 @@
       status: Offline
 '1621':
   status:
+    - time: 1503432507381
+      status: Active
     - time: 1501710860249
       status: Offline
+  ip: 162.255.119.249
+  nameservers:
+    - dns1.registrar-servers.com
+    - dns2.registrar-servers.com
 '1622':
   status:
     - time: 1501710860283
@@ -8296,6 +8357,9 @@
     - time: 1501710859190
       status: Offline
   ip: 178.162.211.68
+  nameservers:
+    - ns1.domainparking.ru
+    - ns2.domainparking.ru
 '1641':
   status:
     - time: 1501710855892
@@ -8601,6 +8665,8 @@
       status: Offline
 '1716':
   status:
+    - time: 1503432508204
+      status: Suspended
     - time: 1501710859802
       status: Active
   nameservers:
@@ -10278,8 +10344,8 @@
     - time: 1501710858393
       status: Offline
   nameservers:
-    - dummysecondary.pleasecontactsupport.com
     - blockedduetophishing.pleasecontactsupport.com
+    - dummysecondary.pleasecontactsupport.com
 '2129':
   status:
     - time: 1501936184507
@@ -10287,14 +10353,18 @@
   ip: 46.166.162.199
 '2130':
   status:
+    - time: 1503432515154
+      status: Offline
     - time: 1501936182566
       status: Active
   nameservers:
     - evan.ns.cloudflare.com
     - tess.ns.cloudflare.com
-  ip: 104.27.145.197
+  ip: 104.27.144.197
 '2131':
   status:
+    - time: 1503432610767
+      status: Offline
     - time: 1502308359544
       status: Active
     - time: 1501936184043
@@ -10316,22 +10386,24 @@
   status:
     - time: 1502314233079
       status: Active
-  ip: 37.140.192.125
   nameservers:
     - ns1.hosting.reg.ru
     - ns2.hosting.reg.ru
+  ip: 37.140.192.125
 '2134':
   status:
     - time: 1502457074348
       status: Active
   nameservers:
-    - NS1.BEGET.COM
-    - NS1.BEGET.PRO
-    - NS2.BEGET.COM
-    - NS2.BEGET.PRO
+    - ns1.beget.com
+    - ns1.beget.pro
+    - ns2.beget.com
+    - ns2.beget.pro
   ip: 87.236.16.197
 '2135':
   status:
+    - time: 1503432450818
+      status: Offline
     - time: 1502457742731
       status: Active
   nameservers:
@@ -10343,43 +10415,53 @@
     - time: 1502641322659
       status: Active
   nameservers:
-    - NS1.FIRSTVDS.RU
-    - NS2.FIRSTVDS.RU
-  ip: 62.109.18.185
+    - ns1.firstvds.ru
+    - ns2.firstvds.ru
+  ip: 80.87.193.62
 '2137':
   status:
+    - time: 1503432491645
+      status: Offline
     - time: 1502887349941
       status: Active
   nameservers:
-    - NS1.FIRSTVDS.RU
-    - NS2.FIRSTVDS.RU
-  ip: 80.87.202.160
+    - ns1.firstvds.ru
+    - ns2.firstvds.ru
+  ip: 62.109.27.100
 '2138':
   status:
+    - time: 1503432455751
+      status: Offline
     - time: 1502888538819
       status: Active
   nameservers:
-    - jamie.ns.cloudflare.com
     - doug.ns.cloudflare.com
+    - jamie.ns.cloudflare.com
   ip: 104.27.161.215
 '2139':
   status:
+    - time: 1503432464282
+      status: Offline
     - time: 1502888538819
       status: Active
   nameservers:
-    - jamie.ns.cloudflare.com
     - doug.ns.cloudflare.com
+    - jamie.ns.cloudflare.com
   ip: 104.24.112.83
 '2140':
   status:
+    - time: 1503432462913
+      status: Offline
     - time: 1502902141346
       status: Active
   nameservers:
-    - NS1.HOSTING.REG.RU
-    - NS2.HOSTING.REG.RU
+    - ns1.reg.ru
+    - ns2.reg.ru
   ip: 31.31.196.230
 '2141':
   status:
+    - time: 1503432460287
+      status: Offline
     - time: 1502989783777
       status: Active
   nameservers:
@@ -10388,6 +10470,8 @@
   ip: 104.24.25.80
 '2142':
   status:
+    - time: 1503432509223
+      status: Suspended
     - time: 1503053737061
       status: Active
   nameservers:
@@ -10396,27 +10480,33 @@
   ip: 31.31.196.132
 '2143':
   status:
+    - time: 1503432521842
+      status: Offline
     - time: 1503064980644
       status: Active
   nameservers:
-    - jamie.ns.cloudflare.com
     - doug.ns.cloudflare.com
-  ip: 104.25.20.30
+    - jamie.ns.cloudflare.com
+  ip: 104.18.44.67
 '2144':
   status:
+    - time: 1503432581753
+      status: Offline
     - time: 1503084443940
       status: Active
   nameservers:
     - ns1.firstvds.ru
     - ns2.firstvds.ru
-  ip: 80.87.193.62
+  ip: 37.230.114.67
 '2145':
   status:
+    - time: 1503432496303
+      status: Offline
     - time: 1503243514778
       status: Active
   nameservers:
-    - pdns1.registrar-servers.com
-    - pdns2.registrar-servers.com
+    - blockedduetophishing.pleasecontactsupport.com
+    - dummysecondary.pleasecontactsupport.com
   ip: 46.137.164.162
 '2146':
   status:
@@ -10428,6 +10518,8 @@
   ip: 82.146.41.5
 '2147':
   status:
+    - time: 1503432456212
+      status: Offline
     - time: 1503244677270
       status: Active
   nameservers:
@@ -10436,6 +10528,8 @@
   ip: 82.146.41.5
 '2148':
   status:
+    - time: 1503432632953
+      status: Offline
     - time: 1503408691190
       status: Active
   nameservers:
@@ -10444,9 +10538,11 @@
   ip: 192.64.119.35
 '2149':
   status:
+    - time: 1503432502975
+      status: Offline
     - time: 1503418502791
       status: Active
   nameservers:
-    - alexis.ns.cloudflare.com
-    - nia.ns.cloudflare.com
+    - blockedforabuse.pleasecontactsupport.com
+    - dummysecondary.pleasecontactsupport.com
   ip: 104.27.166.73
