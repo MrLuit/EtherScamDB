@@ -206,6 +206,8 @@
     category: 'Fake ICO'
     subcategory: district0x
     description: 'fake ICO site w/ fake address.'
+    addresses:
+      - '0x240e125c20a4cC84Bd6E7F8D1FD07Aff4c06D43d'
 -
     id: 32
     name: myetherwallet.com.ua
