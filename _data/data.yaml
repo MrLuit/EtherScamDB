@@ -13322,6 +13322,8 @@
     url: 'https://numerai.tech/'
     category: Phishing
     subcategory: Numerai
+    addresses:
+      - '0x89c98cc6d9917b615257e5704e83906402f0f91f'
 -
     id: 2137
     name: omise-go.net
