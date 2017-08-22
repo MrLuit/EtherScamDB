@@ -10434,3 +10434,11 @@
     - ns1.firstvds.ru
     - ns2.firstvds.ru
   ip: 82.146.41.5
+'2148':
+  status:
+    - time: 1503408691190
+      status: Active
+  nameservers:
+    - pdns1.registrar-servers.com
+    - pdns2.registrar-servers.com
+  ip: 192.64.119.35
