@@ -13411,3 +13411,9 @@
     url: 'http://substratum.io/'
     category: Fake ICO
     subcategory: Substratum
+-
+    id: 2150
+    name: omise-omg.com
+    url: 'https://omise-omg.com/'
+    category: Phishing
+    subcategory: OmiseGo
