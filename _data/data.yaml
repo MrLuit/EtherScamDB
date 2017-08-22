@@ -11,6 +11,8 @@
     url: 'http://myelherwallel.com'
     category: Phishing
     subcategory: MyEtherWallet
+    addresses:
+      - '0xD0cC2B24980CBCCA47EF755Da88B220a82291407'
 -
     id: 3
     name: myetherwallet.cam
@@ -38,6 +40,8 @@
     url: 'http://etherswap.org'
     category: Phishing
     subcategory: 'Ethereum Project'
+    addresses:
+      - '0x4cdc1cba0aeb5539f2e0ba158281e67e0e54a9b1'
 -
     id: 7
     name: xn--mytherwallet-fvb.com
@@ -202,6 +206,8 @@
     category: 'Fake ICO'
     subcategory: district0x
     description: 'fake ICO site w/ fake address.'
+    addresses:
+      - '0x240e125c20a4cC84Bd6E7F8D1FD07Aff4c06D43d'
 -
     id: 32
     name: myetherwallet.com.ua
@@ -306,6 +312,8 @@
     url: 'http://contribute-status.im'
     category: 'Fake ICO'
     subcategory: 'Status Network'
+    addresses:
+      - '0xadF5b0c2103598fb66a61714152F1d1717D49FE0'
 -
     id: 48
     name: myethetrwallet.com
@@ -618,13 +626,6 @@
     id: 93
     name: omg-omise.co
     url: 'http://omg-omise.co'
-    category: 'Fake ICO'
-    subcategory: OmiseGO
-    description: 'fake ico site'
--
-    id: 94
-    name: omise-go.com
-    url: 'http://omise-go.com'
     category: 'Fake ICO'
     subcategory: OmiseGO
     description: 'fake ico site'
@@ -13279,6 +13280,8 @@
     name: ethermixer.com
     url: 'http://ethermixer.com'
     category: Scamming
+    addresses:
+      - '0xf9fe85e19bd533c69067c6e2ff02727d40a54100'
 -
     id: 2131
     name: indorsetoken.com
@@ -13290,6 +13293,8 @@
     name: ziber.io
     url: 'http://ziber.io'
     category: Scamming
+    addresses:
+      - '0xf0a924661b0263e5ce12756d07f45b8668c53380'
 -
     id: 2133
     name: ethpromonodes.com
@@ -13308,18 +13313,27 @@
     url: 'https://omise-go.com/'
     category: Phishing
     subcategory: Omise-Go
+    addresses:
+      - '0x89C98CC6D9917B615257e5704e83906402f0f91f'
+      - '0x4a0d27a1044dd871a93275de5109e5f5efc4d46e'
+      - '0x3681828DA105fC3C44E212f6c3Dc51a0a5A6F5C6'
+      - '0xe4fa5149306b12d51dc0d04e5e95bc9704ccaad7'
 -
     id: 2136
     name: numerai.tech
     url: 'https://numerai.tech/'
     category: Phishing
     subcategory: Numerai
+    addresses:
+      - '0x89c98cc6d9917b615257e5704e83906402f0f91f'
 -
     id: 2137
     name: omise-go.net
     url: 'https://omise-go.net/'
     category: Phishing
     subcategory: Omise-Go
+    addresses:
+      - '0x1e80dad60d19fb8159af3f440a8ceaa0e5581847'
 -
     id: 2138
     name: unocoin.company
@@ -13332,6 +13346,8 @@
     url: 'https://unocoin.fund/'
     category: Phishing
     subcategory: Unocoin
+    addresses:
+      - '0x52b7c8857Be3853fA68e09D9Ba7a9ADf075040eA'
 -
     id: 2140
     name: etherdelta-glthub.com
@@ -13356,6 +13372,9 @@
     url: 'https://decentraland.pro'
     category: Phishing
     subcategory: Decentraland
+    addresses:
+      - '0x3b0009071a0a9983e9aab537fd8c9ad478310aeb'
+      - '0xc38d14bf89e0001260bb349a006d7e491e5f43ad'
 -
     id: 2144
     name: status-token.com
