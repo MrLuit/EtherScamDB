@@ -11,6 +11,8 @@
     url: 'http://myelherwallel.com'
     category: Phishing
     subcategory: MyEtherWallet
+    addresses:
+    - '0xD0cC2B24980CBCCA47EF755Da88B220a82291407'
 -
     id: 3
     name: myetherwallet.cam
