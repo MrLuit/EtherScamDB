@@ -10442,3 +10442,11 @@
     - pdns1.registrar-servers.com
     - pdns2.registrar-servers.com
   ip: 192.64.119.35
+'2149':
+  status:
+    - time: 1503418502791
+      status: Active
+  nameservers:
+    - alexis.ns.cloudflare.com
+    - nia.ns.cloudflare.com
+  ip: 104.27.166.73
