@@ -296,7 +296,7 @@
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
-  ip: 104.244.42.129
+  ip: 104.244.42.65
 '38':
   status:
     - time: 1501710861865
@@ -358,7 +358,7 @@
   nameservers:
     - karl.ns.cloudflare.com
     - violet.ns.cloudflare.com
-  ip: 104.28.19.25
+  ip: 104.28.18.25
 '48':
   status:
     - time: 1501710874047
@@ -489,7 +489,7 @@
   nameservers:
     - brad.ns.cloudflare.com
     - elma.ns.cloudflare.com
-  ip: 104.27.186.62
+  ip: 104.27.187.62
 '69':
   status:
     - time: 1501710863845
@@ -540,9 +540,11 @@
   nameservers:
     - ns45.domaincontrol.com
     - ns46.domaincontrol.com
-  ip: 50.63.202.56
+  ip: 50.63.202.61
 '75':
   status:
+    - time: 1503519825706
+      status: Active
     - time: 1503432509999
       status: Offline
     - time: 1501710862033
@@ -601,6 +603,8 @@
   ip: 103.16.229.16
 '84':
   status:
+    - time: 1503519841586
+      status: Offline
     - time: 1503432509929
       status: Active
     - time: 1502308393190
@@ -683,7 +687,7 @@
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
-  ip: 104.244.42.129
+  ip: 104.244.42.65
 '96':
   status:
     - time: 1501710860742
@@ -814,6 +818,8 @@
   ip: 192.64.119.110
 '112':
   status:
+    - time: 1503519737549
+      status: Offline
     - time: 1501710861787
       status: Active
   nameservers:
@@ -905,6 +911,8 @@
   ip: 104.18.41.33
 '124':
   status:
+    - time: 1503519824391
+      status: Offline
     - time: 1501710862266
       status: Active
   nameservers:
@@ -1028,12 +1036,12 @@
   status:
     - time: 1501710862657
       status: Active
-  ip: 76.74.212.106
   nameservers:
     - ns1.hasns.com
     - ns2.hasns.com
     - ns3.hasns.com
     - ns4.hasns.com
+  ip: 76.74.212.106
 '137':
   status:
     - time: 1502314236410
@@ -1045,7 +1053,7 @@
   nameservers:
     - ns1.verification-hold.suspended-domain.com
     - ns2.verification-hold.suspended-domain.com
-  ip: 209.99.17.27
+  ip: 74.119.239.234
 '138':
   status:
     - time: 1501710861772
@@ -1107,7 +1115,7 @@
   nameservers:
     - ns1.verification-hold.suspended-domain.com
     - ns2.verification-hold.suspended-domain.com
-  ip: 209.99.17.27
+  ip: 74.119.239.234
 '145':
   status:
     - time: 1501710873815
@@ -3732,12 +3740,12 @@
       status: Active
     - time: 1501710857470
       status: Offline
-  ip: 87.236.16.190
   nameservers:
     - ns1.beget.com
     - ns1.beget.pro
     - ns2.beget.com
     - ns2.beget.pro
+  ip: 87.236.16.190
 '527':
   status:
     - time: 1501710857454
@@ -3800,10 +3808,10 @@
       status: Active
     - time: 1501710852791
       status: Offline
-  ip: 31.31.196.132
   nameservers:
     - ns1.hosting.reg.ru
     - ns2.hosting.reg.ru
+  ip: 31.31.196.132
 '542':
   status:
     - time: 1501710861761
@@ -6027,10 +6035,10 @@
       status: Active
     - time: 1501710852791
       status: Offline
-  ip: 198.251.83.215
   nameservers:
-    - parking-1.domains4bitcoins.com
-    - parking-2.domains4bitcoins.com
+    - ns1.md-112.webhostbox.net
+    - ns2.md-112.webhostbox.net
+  ip: 208.91.198.131
 '1078':
   status:
     - time: 1501710858966
@@ -7047,7 +7055,7 @@
   nameservers:
     - cody.ns.cloudflare.com
     - nina.ns.cloudflare.com
-  ip: 104.27.128.196
+  ip: 104.27.129.196
 '1325':
   status:
     - time: 1501710852782
@@ -8272,14 +8280,16 @@
       status: Offline
 '1621':
   status:
+    - time: 1503519808013
+      status: Offline
     - time: 1503432507381
       status: Active
     - time: 1501710860249
       status: Offline
-  ip: 162.255.119.249
   nameservers:
     - dns1.registrar-servers.com
     - dns2.registrar-servers.com
+  ip: 151.101.65.195
 '1622':
   status:
     - time: 1501710860283
@@ -8356,10 +8366,10 @@
   status:
     - time: 1501710859190
       status: Offline
-  ip: 178.162.211.68
   nameservers:
     - ns1.domainparking.ru
     - ns2.domainparking.ru
+  ip: 178.162.211.68
 '1641':
   status:
     - time: 1501710855892
@@ -10381,7 +10391,7 @@
     - ns1.wordpress.com
     - ns2.wordpress.com
     - ns3.wordpress.com
-  ip: 192.0.78.25
+  ip: 192.0.78.24
 '2133':
   status:
     - time: 1502314233079
@@ -10412,6 +10422,8 @@
   ip: 62.109.18.185
 '2136':
   status:
+    - time: 1503519789960
+      status: Offline
     - time: 1502641322659
       status: Active
   nameservers:
@@ -10561,5 +10573,5 @@
   nameservers:
     - ns1.101domain.com
     - ns2.101domain.com
-    - ns3.101domain.com
+    - ns5.101domain.com
   ip: 188.116.40.108
