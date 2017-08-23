@@ -13417,3 +13417,9 @@
     url: 'https://omise-omg.com/'
     category: Phishing
     subcategory: OmiseGo
+-
+    id: 2151
+    name: myethwallet.io
+    url: 'https://myethwallet.io/'
+    category: Phishing
+    subcategory: MyEtherWallet
