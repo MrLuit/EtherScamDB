@@ -10575,3 +10575,11 @@
     - ns2.101domain.com
     - ns5.101domain.com
   ip: 188.116.40.108
+'2152':
+  status:
+    - time: 1503520829242
+      status: Active
+  nameservers:
+    - ns1.firstvds.ru
+    - ns2.firstvds.ru
+  ip: 188.120.225.38
