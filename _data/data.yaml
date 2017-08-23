@@ -13427,3 +13427,9 @@
     subcategory: MyEtherWallet
     addresses:
       - '0xD9932453997ddF36fE114C9F22beBb9eE77b2921'
+-
+    id: 2152
+    name: tenxpay.io
+    url: 'https://tenxpay.io/'
+    category: Phishing
+    subcategory: TenX
