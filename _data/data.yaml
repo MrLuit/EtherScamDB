@@ -13423,3 +13423,5 @@
     url: 'https://myethwallet.io/'
     category: Phishing
     subcategory: MyEtherWallet
+    addresses:
+      - '0xD9932453997ddF36fE114C9F22beBb9eE77b2921'
