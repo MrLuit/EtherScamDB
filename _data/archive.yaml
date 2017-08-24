@@ -296,7 +296,7 @@
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
-  ip: 104.244.42.65
+  ip: 104.244.42.1
 '38':
   status:
     - time: 1501710861865
@@ -318,7 +318,7 @@
   nameservers:
     - ns1.firstvds.ru
     - ns2.firstvds.ru
-  ip: 188.120.225.38
+  ip: 212.109.222.99
 '42':
   status:
     - time: 1501710853060
@@ -521,7 +521,7 @@
   nameservers:
     - dina.ns.cloudflare.com
     - ernest.ns.cloudflare.com
-  ip: 104.18.52.186
+  ip: 104.18.53.186
 '73':
   status:
     - time: 1501710860620
@@ -531,6 +531,8 @@
     - ns2.hosting.reg.ru
 '74':
   status:
+    - time: 1503603546357
+      status: Offline
     - time: 1502314263988
       status: Active
     - time: 1502308394541
@@ -540,7 +542,7 @@
   nameservers:
     - ns45.domaincontrol.com
     - ns46.domaincontrol.com
-  ip: 50.63.202.61
+  ip: 184.168.221.54
 '75':
   status:
     - time: 1503519825706
@@ -603,6 +605,8 @@
   ip: 103.16.229.16
 '84':
   status:
+    - time: 1503603546472
+      status: Active
     - time: 1503519841586
       status: Offline
     - time: 1503432509929
@@ -629,6 +633,8 @@
   ip: 37.140.192.127
 '87':
   status:
+    - time: 1503603418463
+      status: Offline
     - time: 1501710861970
       status: Suspended
   nameservers:
@@ -687,7 +693,7 @@
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
-  ip: 104.244.42.65
+  ip: 104.244.42.1
 '96':
   status:
     - time: 1501710860742
@@ -777,6 +783,8 @@
   ip: 184.168.221.51
 '106':
   status:
+    - time: 1503603546913
+      status: Offline
     - time: 1503432510021
       status: Active
     - time: 1502314241805
@@ -818,6 +826,8 @@
   ip: 192.64.119.110
 '112':
   status:
+    - time: 1503603544981
+      status: Active
     - time: 1503519737549
       status: Offline
     - time: 1501710861787
@@ -911,6 +921,8 @@
   ip: 104.18.41.33
 '124':
   status:
+    - time: 1503603546712
+      status: Active
     - time: 1503519824391
       status: Offline
     - time: 1501710862266
@@ -952,8 +964,8 @@
     - time: 1501710861444
       status: Offline
   nameservers:
-    - ns1.privatensservice.com
-    - ns2.privatensservice.com
+    - ns1.above.com
+    - ns2.above.com
   ip: 103.224.212.188
 '129':
   status:
@@ -3428,6 +3440,8 @@
       status: Offline
 '452':
   status:
+    - time: 1503603546313
+      status: Offline
     - time: 1502314239612
       status: Active
     - time: 1501710853294
@@ -3809,9 +3823,11 @@
     - time: 1501710852791
       status: Offline
   nameservers:
-    - ns1.hosting.reg.ru
-    - ns2.hosting.reg.ru
-  ip: 31.31.196.132
+    - ns1.qhoster.net
+    - ns2.qhoster.net
+    - ns3.qhoster.net
+    - ns4.qhoster.net
+  ip: 86.104.15.248
 '542':
   status:
     - time: 1501710861761
@@ -7055,7 +7071,7 @@
   nameservers:
     - cody.ns.cloudflare.com
     - nina.ns.cloudflare.com
-  ip: 104.27.129.196
+  ip: 104.27.128.196
 '1325':
   status:
     - time: 1501710852782
@@ -8149,7 +8165,10 @@
   status:
     - time: 1501710861350
       status: Active
-  ip: 141.8.226.58
+  ip: 198.251.83.215
+  nameservers:
+    - parking-1.domains4bitcoins.com
+    - parking-2.domains4bitcoins.com
 '1589':
   status:
     - time: 1501710858969
@@ -8280,6 +8299,8 @@
       status: Offline
 '1621':
   status:
+    - time: 1503603541862
+      status: Active
     - time: 1503519808013
       status: Offline
     - time: 1503432507381
@@ -8289,7 +8310,7 @@
   nameservers:
     - dns1.registrar-servers.com
     - dns2.registrar-servers.com
-  ip: 151.101.65.195
+  ip: 151.101.1.195
 '1622':
   status:
     - time: 1501710860283
@@ -10370,9 +10391,11 @@
   nameservers:
     - evan.ns.cloudflare.com
     - tess.ns.cloudflare.com
-  ip: 104.27.144.197
+  ip: 104.27.145.197
 '2131':
   status:
+    - time: 1503603196532
+      status: Active
     - time: 1503432610767
       status: Offline
     - time: 1502308359544
@@ -10382,7 +10405,7 @@
   nameservers:
     - ns1.firstvds.ru
     - ns2.firstvds.ru
-  ip: 37.230.114.67
+  ip: 188.120.242.110
 '2132':
   status:
     - time: 1501936189686
@@ -10391,7 +10414,7 @@
     - ns1.wordpress.com
     - ns2.wordpress.com
     - ns3.wordpress.com
-  ip: 192.0.78.24
+  ip: 192.0.78.25
 '2133':
   status:
     - time: 1502314233079
@@ -10499,7 +10522,7 @@
   nameservers:
     - doug.ns.cloudflare.com
     - jamie.ns.cloudflare.com
-  ip: 104.18.44.67
+  ip: 104.18.45.67
 '2144':
   status:
     - time: 1503432581753
@@ -10582,4 +10605,12 @@
   nameservers:
     - ns1.firstvds.ru
     - ns2.firstvds.ru
-  ip: 188.120.225.38
+  ip: 212.109.222.99
+'2153':
+  status:
+    - time: 1503603479756
+      status: Active
+  ip: 62.109.2.206
+  nameservers:
+    - ns1.firstvds.ru
+    - ns2.firstvds.ru
