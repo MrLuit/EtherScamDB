@@ -13433,6 +13433,8 @@
     url: 'https://tenxpay.io/'
     category: Phishing
     subcategory: TenX
+    addresses:
+      - '0x68B0e0Db7918C0211EA1fB78292a879839137DD0'
 -
     id: 2153
     name: wallet-ethereum.net
