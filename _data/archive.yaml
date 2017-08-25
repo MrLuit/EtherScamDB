@@ -296,7 +296,7 @@
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
-  ip: 104.244.42.1
+  ip: 104.244.42.193
 '38':
   status:
     - time: 1501710861865
@@ -411,6 +411,10 @@
   status:
     - time: 1501710857465
       status: Offline
+  nameservers:
+    - ns11.value-domain.com
+    - ns12.value-domain.com
+    - ns13.value-domain.com
 '56':
   status:
     - time: 1501710856023
@@ -492,6 +496,8 @@
   ip: 104.27.187.62
 '69':
   status:
+    - time: 1503694308563
+      status: Offline
     - time: 1501710863845
       status: Active
   nameservers:
@@ -542,9 +548,11 @@
   nameservers:
     - ns45.domaincontrol.com
     - ns46.domaincontrol.com
-  ip: 184.168.221.54
+  ip: 184.168.221.41
 '75':
   status:
+    - time: 1503695324728
+      status: Offline
     - time: 1503519825706
       status: Active
     - time: 1503432509999
@@ -605,6 +613,8 @@
   ip: 103.16.229.16
 '84':
   status:
+    - time: 1503695352034
+      status: Offline
     - time: 1503603546472
       status: Active
     - time: 1503519841586
@@ -693,7 +703,7 @@
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
-  ip: 104.244.42.1
+  ip: 104.244.42.193
 '96':
   status:
     - time: 1501710860742
@@ -771,6 +781,8 @@
   ip: 89.31.143.1
 '105':
   status:
+    - time: 1503695242808
+      status: Offline
     - time: 1502314261967
       status: Active
     - time: 1502308394053
@@ -797,6 +809,8 @@
   ip: 184.168.221.48
 '107':
   status:
+    - time: 1503695324728
+      status: Offline
     - time: 1503432509859
       status: Active
     - time: 1502314254900
@@ -921,6 +935,8 @@
   ip: 104.18.41.33
 '124':
   status:
+    - time: 1503695324728
+      status: Offline
     - time: 1503603546712
       status: Active
     - time: 1503519824391
@@ -964,8 +980,8 @@
     - time: 1501710861444
       status: Offline
   nameservers:
-    - ns1.above.com
-    - ns2.above.com
+    - ns1.privatensservice.com
+    - ns2.privatensservice.com
   ip: 103.224.212.188
 '129':
   status:
@@ -3055,8 +3071,14 @@
       status: Offline
 '360':
   status:
+    - time: 1503694290463
+      status: Active
     - time: 1501710858939
       status: Offline
+  ip: 212.237.59.156
+  nameservers:
+    - ns1.reg.ru
+    - ns2.reg.ru
 '361':
   status:
     - time: 1501710852802
@@ -3985,6 +4007,9 @@
   status:
     - time: 1501710859174
       status: Offline
+  nameservers:
+    - ns1.anonhoster.com
+    - ns2.anonhoster.com
 '580':
   status:
     - time: 1501710856014
@@ -7071,7 +7096,7 @@
   nameservers:
     - cody.ns.cloudflare.com
     - nina.ns.cloudflare.com
-  ip: 104.27.128.196
+  ip: 104.27.129.196
 '1325':
   status:
     - time: 1501710852782
@@ -7794,8 +7819,16 @@
       status: Offline
 '1501':
   status:
+    - time: 1503694041807
+      status: Active
     - time: 1501710853063
       status: Offline
+  ip: 87.236.16.199
+  nameservers:
+    - ns1.beget.com
+    - ns1.beget.pro
+    - ns2.beget.com
+    - ns2.beget.pro
 '1502':
   status:
     - time: 1501710856028
@@ -8165,10 +8198,11 @@
   status:
     - time: 1501710861350
       status: Active
-  ip: 198.251.83.215
   nameservers:
-    - parking-1.domains4bitcoins.com
-    - parking-2.domains4bitcoins.com
+    - ns1.digitalocean.com
+    - ns2.digitalocean.com
+    - ns3.digitalocean.com
+  ip: 37.1.200.134
 '1589':
   status:
     - time: 1501710858969
@@ -8310,7 +8344,7 @@
   nameservers:
     - dns1.registrar-servers.com
     - dns2.registrar-servers.com
-  ip: 151.101.1.195
+  ip: 151.101.65.195
 '1622':
   status:
     - time: 1501710860283
@@ -10384,6 +10418,8 @@
   ip: 46.166.162.199
 '2130':
   status:
+    - time: 1503694148159
+      status: Active
     - time: 1503432515154
       status: Offline
     - time: 1501936182566
@@ -10414,7 +10450,7 @@
     - ns1.wordpress.com
     - ns2.wordpress.com
     - ns3.wordpress.com
-  ip: 192.0.78.25
+  ip: 192.0.78.24
 '2133':
   status:
     - time: 1502314233079
@@ -10610,7 +10646,7 @@
   status:
     - time: 1503603479756
       status: Active
-  ip: 62.109.2.206
   nameservers:
     - ns1.firstvds.ru
     - ns2.firstvds.ru
+  ip: 62.109.2.206
