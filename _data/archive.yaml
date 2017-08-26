@@ -211,12 +211,14 @@
   ip: 23.229.223.233
 '26':
   status:
+    - time: 1503776133496
+      status: Active
     - time: 1501710879338
       status: Offline
   nameservers:
-    - ns1.reg.ru
-    - ns2.reg.ru
-  ip: 185.93.185.126
+    - ns1.expired.reg.ru
+    - ns2.expired.reg.ru
+  ip: 194.58.56.83
 '28':
   status:
     - time: 1501710858934
@@ -272,6 +274,8 @@
   ip: 176.9.125.179
 '35':
   status:
+    - time: 1503776145051
+      status: Active
     - time: 1503432531722
       status: Offline
     - time: 1501710853347
@@ -296,7 +300,7 @@
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
-  ip: 104.244.42.193
+  ip: 104.244.42.1
 '38':
   status:
     - time: 1501710861865
@@ -415,6 +419,7 @@
     - ns11.value-domain.com
     - ns12.value-domain.com
     - ns13.value-domain.com
+  ip: 157.7.184.17
 '56':
   status:
     - time: 1501710856023
@@ -511,7 +516,7 @@
   nameservers:
     - brad.ns.cloudflare.com
     - elma.ns.cloudflare.com
-  ip: 104.31.76.47
+  ip: 104.31.77.47
 '71':
   status:
     - time: 1501710861941
@@ -548,7 +553,7 @@
   nameservers:
     - ns45.domaincontrol.com
     - ns46.domaincontrol.com
-  ip: 184.168.221.41
+  ip: 50.63.202.61
 '75':
   status:
     - time: 1503695324728
@@ -587,12 +592,14 @@
   ip: 209.99.40.221
 '81':
   status:
+    - time: 1503776231362
+      status: Active
     - time: 1501710860283
       status: Offline
   nameservers:
-    - ns1.digitalocean.com
-    - ns2.digitalocean.com
-    - ns3.digitalocean.com
+    - dns101.registrar-servers.com
+    - dns102.registrar-servers.com
+  ip: 198.54.117.212
 '82':
   status:
     - time: 1501710873971
@@ -703,7 +710,7 @@
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
-  ip: 104.244.42.193
+  ip: 104.244.42.1
 '96':
   status:
     - time: 1501710860742
@@ -927,6 +934,8 @@
   ip: 81.169.145.84
 '123':
   status:
+    - time: 1503776405208
+      status: Offline
     - time: 1501710860719
       status: Active
   nameservers:
@@ -972,8 +981,8 @@
     - time: 1501710861717
       status: Offline
   nameservers:
-    - ns1.privatensservice.com
-    - ns2.privatensservice.com
+    - ns1.above.com
+    - ns2.above.com
   ip: 103.224.212.186
 '128':
   status:
@@ -3075,10 +3084,10 @@
       status: Active
     - time: 1501710858939
       status: Offline
-  ip: 212.237.59.156
   nameservers:
     - ns1.reg.ru
     - ns2.reg.ru
+  ip: 212.237.59.156
 '361':
   status:
     - time: 1501710852802
@@ -5998,9 +6007,9 @@
     - time: 1501710862106
       status: Active
   nameservers:
-    - dns1.registrar-servers.com
-    - dns2.registrar-servers.com
-  ip: 162.255.119.219
+    - dns101.registrar-servers.com
+    - dns102.registrar-servers.com
+  ip: 198.54.117.212
 '1061':
   status:
     - time: 1501710853063
@@ -7096,7 +7105,7 @@
   nameservers:
     - cody.ns.cloudflare.com
     - nina.ns.cloudflare.com
-  ip: 104.27.129.196
+  ip: 104.27.128.196
 '1325':
   status:
     - time: 1501710852782
@@ -7182,9 +7191,9 @@
     - time: 1501710862012
       status: Active
   nameservers:
-    - dns1.registrar-servers.com
-    - dns2.registrar-servers.com
-  ip: 162.255.119.220
+    - dns101.registrar-servers.com
+    - dns102.registrar-servers.com
+  ip: 198.54.117.212
 '1346':
   status:
     - time: 1501710860283
@@ -7823,12 +7832,12 @@
       status: Active
     - time: 1501710853063
       status: Offline
-  ip: 87.236.16.199
   nameservers:
     - ns1.beget.com
     - ns1.beget.pro
     - ns2.beget.com
     - ns2.beget.pro
+  ip: 87.236.16.199
 '1502':
   status:
     - time: 1501710856028
@@ -10450,7 +10459,7 @@
     - ns1.wordpress.com
     - ns2.wordpress.com
     - ns3.wordpress.com
-  ip: 192.0.78.24
+  ip: 192.0.78.25
 '2133':
   status:
     - time: 1502314233079
@@ -10558,7 +10567,7 @@
   nameservers:
     - doug.ns.cloudflare.com
     - jamie.ns.cloudflare.com
-  ip: 104.18.45.67
+  ip: 104.18.44.67
 '2144':
   status:
     - time: 1503432581753
