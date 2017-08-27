@@ -283,7 +283,7 @@
   nameservers:
     - arch.ns.cloudflare.com
     - arya.ns.cloudflare.com
-  ip: 104.24.111.173
+  ip: 104.24.110.173
 '36':
   status:
     - time: 1501710861821
@@ -300,7 +300,7 @@
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
-  ip: 104.244.42.1
+  ip: 104.244.42.193
 '38':
   status:
     - time: 1501710861865
@@ -311,8 +311,8 @@
     - time: 1501710856010
       status: Offline
   nameservers:
-    - dummysecondary.pleasecontactsupport.com
     - blockedduetophishing.pleasecontactsupport.com
+    - dummysecondary.pleasecontactsupport.com
 '41':
   status:
     - time: 1503432508803
@@ -362,7 +362,7 @@
   nameservers:
     - karl.ns.cloudflare.com
     - violet.ns.cloudflare.com
-  ip: 104.28.18.25
+  ip: 104.28.19.25
 '48':
   status:
     - time: 1501710874047
@@ -532,7 +532,7 @@
   nameservers:
     - dina.ns.cloudflare.com
     - ernest.ns.cloudflare.com
-  ip: 104.18.53.186
+  ip: 104.18.52.186
 '73':
   status:
     - time: 1501710860620
@@ -553,7 +553,7 @@
   nameservers:
     - ns45.domaincontrol.com
     - ns46.domaincontrol.com
-  ip: 50.63.202.61
+  ip: 50.63.202.47
 '75':
   status:
     - time: 1503695324728
@@ -710,7 +710,7 @@
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
-  ip: 104.244.42.1
+  ip: 104.244.42.193
 '96':
   status:
     - time: 1501710860742
@@ -839,6 +839,8 @@
   ip: 66.96.160.157
 '111':
   status:
+    - time: 1503867460049
+      status: Offline
     - time: 1501710861258
       status: Active
   nameservers:
@@ -981,8 +983,8 @@
     - time: 1501710861717
       status: Offline
   nameservers:
-    - ns1.above.com
-    - ns2.above.com
+    - ns1.privatensservice.com
+    - ns2.privatensservice.com
   ip: 103.224.212.186
 '128':
   status:
@@ -1108,7 +1110,7 @@
   nameservers:
     - ns1.parkingcrew.net
     - ns2.parkingcrew.net
-  ip: 185.53.178.7
+  ip: 54.72.9.51
 '140':
   status:
     - time: 1501710858561
@@ -1124,7 +1126,7 @@
   nameservers:
     - ns1.parkingcrew.net
     - ns2.parkingcrew.net
-  ip: 54.217.222.113
+  ip: 54.72.9.51
 '142':
   status:
     - time: 1501710860414
@@ -3130,6 +3132,8 @@
       status: Offline
 '371':
   status:
+    - time: 1503867409098
+      status: Active
     - time: 1503432457604
       status: Offline
     - time: 1502308361243
@@ -3141,8 +3145,7 @@
     - time: 1501710852753
       status: Offline
   nameservers:
-    - ns26.hostease.com
-    - ns27.hostease.com
+    - ns.myetharwallet.com
   ip: 198.2.197.242
 '372':
   status:
@@ -8353,7 +8356,7 @@
   nameservers:
     - dns1.registrar-servers.com
     - dns2.registrar-servers.com
-  ip: 151.101.65.195
+  ip: 151.101.1.195
 '1622':
   status:
     - time: 1501710860283
@@ -10436,7 +10439,7 @@
   nameservers:
     - evan.ns.cloudflare.com
     - tess.ns.cloudflare.com
-  ip: 104.27.145.197
+  ip: 104.27.144.197
 '2131':
   status:
     - time: 1503603196532
@@ -10459,7 +10462,7 @@
     - ns1.wordpress.com
     - ns2.wordpress.com
     - ns3.wordpress.com
-  ip: 192.0.78.25
+  ip: 192.0.78.24
 '2133':
   status:
     - time: 1502314233079
@@ -10661,12 +10664,14 @@
   ip: 62.109.2.206
 '2154':
   status:
+    - time: 1503867379615
+      status: Offline
     - time: 1503837456793
       status: Active
   nameservers:
     - dns1.registrar-servers.com
     - dns2.registrar-servers.com
-  ip: 54.247.105.114
+  ip: 46.137.167.2
 '2155':
   status:
     - time: 1503845691441
