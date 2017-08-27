@@ -13443,3 +13443,9 @@
     subcategory: Wallets
     addresses:
       - '0xF902AA3a62F9E28878129E1A8f1EB71E4FD7a88C'
+-
+    id: 2154
+    name: myehterwallet.co
+    url: 'http://www.myehterwallet.co/'
+    category: Phishing
+    subcategory: MyEtherWallet
