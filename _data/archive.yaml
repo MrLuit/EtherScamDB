@@ -10659,3 +10659,11 @@
     - ns1.firstvds.ru
     - ns2.firstvds.ru
   ip: 62.109.2.206
+'2154':
+  status:
+    - time: 1503837456793
+      status: Active
+  nameservers:
+    - dns1.registrar-servers.com
+    - dns2.registrar-servers.com
+  ip: 54.247.105.114
