@@ -13449,3 +13449,9 @@
     url: 'http://www.myehterwallet.co/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2155
+    name: statustoken.im
+    url: 'http://statustoken.im/'
+    category: Phishing
+    subcategory: Status
