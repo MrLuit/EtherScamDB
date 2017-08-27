@@ -10667,3 +10667,11 @@
     - dns1.registrar-servers.com
     - dns2.registrar-servers.com
   ip: 54.247.105.114
+'2155':
+  status:
+    - time: 1503845691441
+      status: Active
+  nameservers:
+    - ns1.firstvds.ru
+    - ns2.firstvds.ru
+  ip: 62.109.9.39
