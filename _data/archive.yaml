@@ -283,7 +283,7 @@
   nameservers:
     - arch.ns.cloudflare.com
     - arya.ns.cloudflare.com
-  ip: 104.24.110.173
+  ip: 104.24.111.173
 '36':
   status:
     - time: 1501710861821
@@ -300,7 +300,7 @@
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
-  ip: 104.244.42.193
+  ip: 104.244.42.129
 '38':
   status:
     - time: 1501710861865
@@ -413,6 +413,8 @@
       status: Offline
 '55':
   status:
+    - time: 1503937538721
+      status: Active
     - time: 1501710857465
       status: Offline
   nameservers:
@@ -518,7 +520,7 @@
   nameservers:
     - brad.ns.cloudflare.com
     - elma.ns.cloudflare.com
-  ip: 104.31.77.47
+  ip: 104.31.76.47
 '71':
   status:
     - time: 1501710861941
@@ -544,6 +546,8 @@
     - ns2.hosting.reg.ru
 '74':
   status:
+    - time: 1503937538140
+      status: Active
     - time: 1503603546357
       status: Offline
     - time: 1502314263988
@@ -555,9 +559,11 @@
   nameservers:
     - ns45.domaincontrol.com
     - ns46.domaincontrol.com
-  ip: 50.63.202.47
+  ip: 184.168.221.41
 '75':
   status:
+    - time: 1503937538031
+      status: Active
     - time: 1503695324728
       status: Offline
     - time: 1503519825706
@@ -622,6 +628,8 @@
   ip: 103.16.229.16
 '84':
   status:
+    - time: 1503937538236
+      status: Active
     - time: 1503695352034
       status: Offline
     - time: 1503603546472
@@ -712,7 +720,7 @@
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
-  ip: 104.244.42.193
+  ip: 104.244.42.129
 '96':
   status:
     - time: 1501710860742
@@ -790,6 +798,8 @@
   ip: 89.31.143.1
 '105':
   status:
+    - time: 1503937543647
+      status: Active
     - time: 1503695242808
       status: Offline
     - time: 1502314261967
@@ -804,6 +814,8 @@
   ip: 184.168.221.51
 '106':
   status:
+    - time: 1503937543631
+      status: Active
     - time: 1503603546913
       status: Offline
     - time: 1503432510021
@@ -818,6 +830,8 @@
   ip: 184.168.221.48
 '107':
   status:
+    - time: 1503937537869
+      status: Active
     - time: 1503695324728
       status: Offline
     - time: 1503432509859
@@ -841,6 +855,8 @@
   ip: 66.96.160.157
 '111':
   status:
+    - time: 1503937535846
+      status: Active
     - time: 1503867460049
       status: Offline
     - time: 1501710861258
@@ -945,9 +961,11 @@
   nameservers:
     - graham.ns.cloudflare.com
     - vida.ns.cloudflare.com
-  ip: 104.18.41.33
+  ip: 104.18.40.33
 '124':
   status:
+    - time: 1503937538018
+      status: Active
     - time: 1503695324728
       status: Offline
     - time: 1503603546712
@@ -993,8 +1011,8 @@
     - time: 1501710861444
       status: Offline
   nameservers:
-    - ns1.above.com
-    - ns2.above.com
+    - ns1.privatensservice.com
+    - ns2.privatensservice.com
   ip: 103.224.212.188
 '129':
   status:
@@ -1110,9 +1128,9 @@
     - time: 1501710857517
       status: Offline
   nameservers:
-    - ns1.parkingcrew.net
-    - ns2.parkingcrew.net
-  ip: 54.72.9.51
+    - ns1.sedoparking.com
+    - ns2.sedoparking.com
+  ip: 72.52.4.119
 '140':
   status:
     - time: 1501710858561
@@ -1128,7 +1146,7 @@
   nameservers:
     - ns1.parkingcrew.net
     - ns2.parkingcrew.net
-  ip: 54.72.9.51
+  ip: 54.217.222.113
 '142':
   status:
     - time: 1501710860414
@@ -3476,6 +3494,8 @@
       status: Offline
 '452':
   status:
+    - time: 1503937538031
+      status: Active
     - time: 1503603546313
       status: Offline
     - time: 1502314239612
@@ -6086,6 +6106,8 @@
       status: Offline
 '1077':
   status:
+    - time: 1503937527210
+      status: Offline
     - time: 1503432454282
       status: Active
     - time: 1501710852791
@@ -7110,7 +7132,7 @@
   nameservers:
     - cody.ns.cloudflare.com
     - nina.ns.cloudflare.com
-  ip: 104.27.128.196
+  ip: 104.27.129.196
 '1325':
   status:
     - time: 1501710852782
@@ -10441,7 +10463,7 @@
   nameservers:
     - evan.ns.cloudflare.com
     - tess.ns.cloudflare.com
-  ip: 104.27.144.197
+  ip: 104.27.145.197
 '2131':
   status:
     - time: 1503603196532
@@ -10677,7 +10699,7 @@
   nameservers:
     - dns1.registrar-servers.com
     - dns2.registrar-servers.com
-  ip: 54.75.229.55
+  ip: 176.34.191.84
 '2155':
   status:
     - time: 1503845691441
