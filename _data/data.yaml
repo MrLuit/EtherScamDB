@@ -13299,19 +13299,19 @@
 -
     id: 2133
     name: ethpromonodes.com
-    url: 'https://ethpromonodes.com/'
+    url: 'https://ethpromonodes.com'
     category: Phishing
     subcategory: MyEtherWallet
 -
     id: 2134
     name: myethcrwallet.com
-    url: 'https://myethcrwallet.com/'
+    url: 'https://myethcrwallet.com'
     category: Phishing
     subcategory: MyEtherWallet
 -
     id: 2135
     name: omise-go.com
-    url: 'https://omise-go.com/'
+    url: 'https://omise-go.com'
     category: Phishing
     subcategory: Omise-Go
     addresses:
@@ -13322,7 +13322,7 @@
 -
     id: 2136
     name: numerai.tech
-    url: 'https://numerai.tech/'
+    url: 'https://numerai.tech'
     category: Phishing
     subcategory: Numerai
     addresses:
@@ -13330,7 +13330,7 @@
 -
     id: 2137
     name: omise-go.net
-    url: 'https://omise-go.net/'
+    url: 'https://omise-go.net'
     category: Phishing
     subcategory: Omise-Go
     addresses:
@@ -13339,13 +13339,13 @@
 -
     id: 2138
     name: unocoin.company
-    url: 'https://unocoin.company/'
+    url: 'https://unocoin.company'
     category: Phishing
     subcategory: Unocoin
 -
     id: 2139
     name: unocoin.fund
-    url: 'https://unocoin.fund/'
+    url: 'https://unocoin.fund'
     category: Phishing
     subcategory: Unocoin
     addresses:
@@ -13353,13 +13353,13 @@
 -
     id: 2140
     name: etherdelta-glthub.com
-    url: 'https://etherdelta-glthub.com/'
+    url: 'https://etherdelta-glthub.com'
     category: Phishing
     subcategory: EtherDelta
 -
     id: 2141
     name: bittrex.cam
-    url: 'https://bittrex.cam/'
+    url: 'https://bittrex.cam'
     category: Phishing
     subcategory: Bittrex
 -
@@ -13404,25 +13404,25 @@
 -
     id: 2148
     name: myethterwallet.com
-    url: 'https://myethterwallet.com/'
+    url: 'https://myethterwallet.com'
     category: Phishing
     subcategory: MyEtherWallet
 -
     id: 2149
     name: substratum.io
-    url: 'http://substratum.io/'
+    url: 'http://substratum.io'
     category: Fake ICO
     subcategory: Substratum
 -
     id: 2150
     name: omise-omg.com
-    url: 'https://omise-omg.com/'
+    url: 'https://omise-omg.com'
     category: Phishing
     subcategory: OmiseGo
 -
     id: 2151
     name: myethwallet.io
-    url: 'https://myethwallet.io/'
+    url: 'https://myethwallet.io'
     category: Phishing
     subcategory: MyEtherWallet
     addresses:
@@ -13430,7 +13430,7 @@
 -
     id: 2152
     name: tenxpay.io
-    url: 'https://tenxpay.io/'
+    url: 'https://tenxpay.io'
     category: Phishing
     subcategory: TenX
     addresses:
@@ -13446,13 +13446,13 @@
 -
     id: 2154
     name: myehterwallet.co
-    url: 'http://www.myehterwallet.co/'
+    url: 'http://www.myehterwallet.co'
     category: Phishing
     subcategory: MyEtherWallet
 -
     id: 2155
     name: statustoken.im
-    url: 'http://statustoken.im/'
+    url: 'http://statustoken.im'
     category: Phishing
     subcategory: Status
     addresses:
@@ -13460,6 +13460,6 @@
 -
     id: 2156
     name: aragon.one
-    url: 'https://aragon.one/'
+    url: 'https://aragon.one'
     category: Phishing
     subcategory: Aragon
