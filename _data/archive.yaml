@@ -322,7 +322,7 @@
   nameservers:
     - ns1.firstvds.ru
     - ns2.firstvds.ru
-  ip: 212.109.222.99
+  ip: 213.159.210.99
 '42':
   status:
     - time: 1501710853060
@@ -498,9 +498,11 @@
   nameservers:
     - brad.ns.cloudflare.com
     - elma.ns.cloudflare.com
-  ip: 104.27.187.62
+  ip: 104.27.186.62
 '69':
   status:
+    - time: 1503913424848
+      status: Active
     - time: 1503694308563
       status: Offline
     - time: 1501710863845
@@ -975,8 +977,8 @@
     - time: 1501710861758
       status: Offline
   nameservers:
-    - ns1.privatensservice.com
-    - ns2.privatensservice.com
+    - ns1.above.com
+    - ns2.above.com
   ip: 103.224.212.184
 '127':
   status:
@@ -991,16 +993,16 @@
     - time: 1501710861444
       status: Offline
   nameservers:
-    - ns1.privatensservice.com
-    - ns2.privatensservice.com
+    - ns1.above.com
+    - ns2.above.com
   ip: 103.224.212.188
 '129':
   status:
     - time: 1501710861385
       status: Offline
   nameservers:
-    - ns1.privatensservice.com
-    - ns2.privatensservice.com
+    - ns1.above.com
+    - ns2.above.com
   ip: 103.224.212.192
 '130':
   status:
@@ -3132,7 +3134,7 @@
       status: Offline
 '371':
   status:
-    - time: 1503867409098
+    - time: 1503913414007
       status: Active
     - time: 1503432457604
       status: Offline
@@ -10553,6 +10555,8 @@
   ip: 104.24.25.80
 '2142':
   status:
+    - time: 1503913412453
+      status: Offline
     - time: 1503432509223
       status: Suspended
     - time: 1503053737061
@@ -10593,12 +10597,14 @@
   ip: 46.137.164.162
 '2146':
   status:
+    - time: 1503913413267
+      status: Offline
     - time: 1503243514778
       status: Active
   nameservers:
-    - ns1.firstvds.ru
-    - ns2.firstvds.ru
-  ip: 82.146.41.5
+    - ns1.reg.ru
+    - ns2.reg.ru
+  ip: 194.58.112.174
 '2147':
   status:
     - time: 1503432456212
@@ -10636,7 +10642,7 @@
   nameservers:
     - ns1.firstvds.ru
     - ns2.firstvds.ru
-  ip: 62.109.9.39
+  ip: 213.159.210.98
 '2151':
   status:
     - time: 1503491160131
@@ -10653,7 +10659,7 @@
   nameservers:
     - ns1.firstvds.ru
     - ns2.firstvds.ru
-  ip: 212.109.222.99
+  ip: 213.159.210.99
 '2153':
   status:
     - time: 1503603479756
@@ -10664,14 +10670,14 @@
   ip: 62.109.2.206
 '2154':
   status:
-    - time: 1503867379615
+    - time: 1503913415633
       status: Offline
     - time: 1503837456793
       status: Active
   nameservers:
     - dns1.registrar-servers.com
     - dns2.registrar-servers.com
-  ip: 46.137.167.2
+  ip: 54.75.229.55
 '2155':
   status:
     - time: 1503845691441
@@ -10679,4 +10685,4 @@
   nameservers:
     - ns1.firstvds.ru
     - ns2.firstvds.ru
-  ip: 62.109.9.39
+  ip: 213.159.210.98
