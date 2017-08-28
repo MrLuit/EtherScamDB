@@ -28,6 +28,10 @@ h2,h3 {
   margin-top: 6% !important;
 }
 
+h3.link {
+	margin-top: .5% !important;
+}
+
 .ending {
   text-align: center;
   margin-top: 6% !important;

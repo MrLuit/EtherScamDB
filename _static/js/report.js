@@ -88,17 +88,11 @@ window.addEventListener("load", function() {
     });
 
     $("#4senda").click(function() {
-		//if (/^[a-zA-Z0-9][a-zA-Z0-9-]{1,61}[a-zA-Z0-9](?:\.[a-zA-Z]{2,})+$/.test($("#privdomain").val())) {
-			reportType = 'urgentDomainReport';
-			args['domain'] = $("#privdomain").val();
-			$(".question4a").fadeOut('', function() {
-				finish();
-			});
-		/*} else {
-			$(".ui.left.pointing").remove();
-			$("#privdomain").parent().addClass("error");
-			$("#privdomain").parent().append('<div class="ui left pointing red basic label">Please enter a valid domain</div>');
-		}*/
+		reportType = 'urgentDomainReport';
+		args['domain'] = $("#privdomain").val();
+		$(".question4a").fadeOut('', function() {
+			$(".captcha").fadeIn();
+		});
     });
     $("#4sendb").click(function() {
         $(".question4b").fadeOut('', function() {
