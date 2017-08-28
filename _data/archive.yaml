@@ -300,7 +300,7 @@
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
-  ip: 104.244.42.129
+  ip: 104.244.42.193
 '38':
   status:
     - time: 1501710861865
@@ -534,7 +534,7 @@
   nameservers:
     - dina.ns.cloudflare.com
     - ernest.ns.cloudflare.com
-  ip: 104.18.53.186
+  ip: 104.18.52.186
 '73':
   status:
     - time: 1501710860620
@@ -555,7 +555,7 @@
   nameservers:
     - ns45.domaincontrol.com
     - ns46.domaincontrol.com
-  ip: 50.63.202.56
+  ip: 50.63.202.47
 '75':
   status:
     - time: 1503695324728
@@ -712,7 +712,7 @@
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
-  ip: 104.244.42.129
+  ip: 104.244.42.193
 '96':
   status:
     - time: 1501710860742
@@ -841,6 +841,8 @@
   ip: 66.96.160.157
 '111':
   status:
+    - time: 1503867460049
+      status: Offline
     - time: 1501710861258
       status: Active
   nameservers:
@@ -1108,9 +1110,9 @@
     - time: 1501710857517
       status: Offline
   nameservers:
-    - ns1.sedoparking.com
-    - ns2.sedoparking.com
-  ip: 72.52.4.119
+    - ns1.parkingcrew.net
+    - ns2.parkingcrew.net
+  ip: 54.72.9.51
 '140':
   status:
     - time: 1501710858561
@@ -1126,7 +1128,7 @@
   nameservers:
     - ns1.parkingcrew.net
     - ns2.parkingcrew.net
-  ip: 54.217.222.113
+  ip: 54.72.9.51
 '142':
   status:
     - time: 1501710860414
@@ -8356,7 +8358,7 @@
   nameservers:
     - dns1.registrar-servers.com
     - dns2.registrar-servers.com
-  ip: 151.101.65.195
+  ip: 151.101.1.195
 '1622':
   status:
     - time: 1501710860283
