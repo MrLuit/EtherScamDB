@@ -13457,3 +13457,9 @@
     subcategory: Status
     addresses:
       - '0x685445fE51B31790538890A6468851AfbF7a0519'
+-
+    id: 2156
+    name: aragon.im
+    url: 'https://aragon.im'
+    category: Phishing
+    subcategory: Aragon
