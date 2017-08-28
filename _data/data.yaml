@@ -13457,3 +13457,9 @@
     subcategory: Status
     addresses:
       - '0x685445fE51B31790538890A6468851AfbF7a0519'
+-
+    id: 2156
+    name: aragon.one
+    url: 'http://aragon.one/'
+    category: Phishing
+    subcategory: Aragon
