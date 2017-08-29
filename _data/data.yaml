@@ -13469,3 +13469,11 @@
     url: 'https://bittrex.ltd'
     category: Phishing
     subcategory: Bittrex
+-
+    id: 2158
+    name: kickico.co
+    url: 'http://kickico.co'
+    category: Phishing
+    subcategory: KICKICO
+    addresses:
+      - '0xc5d65deff5d1373f8b19aa8be528e9c3599013ba'
