@@ -13463,3 +13463,9 @@
     url: 'https://aragon.im'
     category: Phishing
     subcategory: Aragon
+-
+    id: 2157
+    name: bittrex.ltd
+    url: 'https://bittrex.ltd'
+    category: Phishing
+    subcategory: Bittrex
