@@ -510,20 +510,23 @@ function preprocessScams() {
                         if ('status' in scams[key]) {
                             status = scams[key]['status'][0]['status'];
                             if (status == "Active") {
-                                status = "activ";
-                                color_status = '<i class="checkmark icon"></i> Active';
+                                status = "offline";
+                                color_status = '<i class="warning sign icon"></i> Active';
                                 active++;
                             } else if (status == "Offline") {
-                                color_status = '<i class="remove icon"></i> Offline';
+								status = "activ";
+                                color_status = '<i class="checkmark icon"></i> Offline';
                                 inactive++;
                             } else if (status == "Suspended") {
-                                color_status = '<i class="warning sign icon"></i> Suspended';
+                                color_status = '<i class="remove icon"></i> Suspended';
                             }
                         }
                         if ('category' in scams[key]) {
                             var category = scams[key]['category'];
                             if (category == "Phishing") {
                                 category = '<i class="address book icon"></i> Phishing';
+							} else if (category == "Scamming") {
+                                category = '<i class="payment icon"></i> Scamming';
                             } else if (category == "Fake ICO") {
                                 category = '<i class="dollar icon"></i> Fake ICO';
                             }
@@ -532,6 +535,17 @@ function preprocessScams() {
                         }
                         if ('subcategory' in scams[key]) {
                             var subcategory = scams[key]['subcategory'];
+							if(subcategory == "MyEtherWallet") {
+								subcategory = "<img src='/img/myetherwallet.png' class='subcategoryicon'> MyEtherWallet";
+							} else if(subcategory == "Bittrex") {
+								subcategory = "<img src='/img/bittrex.png' class='subcategoryicon'> Bittrex";
+							} else if(subcategory == "Status") {
+								subcategory = "<img src='/img/status.png' class='subcategoryicon'> Status";
+							} else if(subcategory == "Aragon") {
+								subcategory = "<img src='/img/aragon.png' class='subcategoryicon'> Aragon";
+							} else if(subcategory == "EOS") {
+								subcategory = "<img src='/img/eos.png' class='subcategoryicon'> EOS";
+							}
                         } else {
                             var subcategory = "None";
                         }
