@@ -13477,3 +13477,9 @@
     subcategory: KICKICO
     addresses:
       - '0xc5d65deff5d1373f8b19aa8be528e9c3599013ba'
+-
+    id: 2159
+    name: bllttrex.com
+    url: 'https://bllttrex.com'
+    category: Phishing
+    subcategory: Bittrex
