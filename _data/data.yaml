@@ -13449,6 +13449,8 @@
     url: 'http://www.myehterwallet.co'
     category: Phishing
     subcategory: MyEtherWallet
+    addresses:
+      - '0x1086fEeb031e45e8FCD770662Aa8302d7C23ba1F'
 -
     id: 2155
     name: statustoken.im
