@@ -13491,3 +13491,9 @@
     url: 'https://starbase.tech'
     category: Phishing
     subcategory: Starbase
+-
+    id: 2161
+    name: monetha-crowdsale.com
+    url: 'http://monetha-crowdsale.com'
+    category: Fake ICO
+    subcategory: Monetha

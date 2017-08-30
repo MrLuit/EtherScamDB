@@ -287,7 +287,7 @@
   nameservers:
     - arch.ns.cloudflare.com
     - arya.ns.cloudflare.com
-  ip: 104.24.110.173
+  ip: 104.24.111.173
 '36':
   status:
     - time: 1501710861821
@@ -532,7 +532,7 @@
   nameservers:
     - brad.ns.cloudflare.com
     - elma.ns.cloudflare.com
-  ip: 104.31.76.47
+  ip: 104.31.77.47
 '71':
   status:
     - time: 1501710861941
@@ -548,7 +548,7 @@
   nameservers:
     - dina.ns.cloudflare.com
     - ernest.ns.cloudflare.com
-  ip: 104.18.52.186
+  ip: 104.18.53.186
 '73':
   status:
     - time: 1501710860620
@@ -558,6 +558,8 @@
     - ns2.hosting.reg.ru
 '74':
   status:
+    - time: 1504127850224
+      status: Offline
     - time: 1503937538140
       status: Active
     - time: 1503603546357
@@ -571,7 +573,7 @@
   nameservers:
     - ns45.domaincontrol.com
     - ns46.domaincontrol.com
-  ip: 50.63.202.38
+  ip: 50.63.202.61
 '75':
   status:
     - time: 1503937538031
@@ -981,7 +983,7 @@
   nameservers:
     - graham.ns.cloudflare.com
     - vida.ns.cloudflare.com
-  ip: 104.18.41.33
+  ip: 104.18.40.33
 '124':
   status:
     - time: 1503937538018
@@ -1039,8 +1041,8 @@
     - time: 1501710861385
       status: Offline
   nameservers:
-    - ns1.privatensservice.com
-    - ns2.privatensservice.com
+    - ns1.above.com
+    - ns2.above.com
   ip: 103.224.212.192
 '130':
   status:
@@ -1166,7 +1168,7 @@
   nameservers:
     - ns1.parkingcrew.net
     - ns2.parkingcrew.net
-  ip: 54.72.9.51
+  ip: 54.217.222.113
 '142':
   status:
     - time: 1501710860414
@@ -3514,6 +3516,8 @@
       status: Offline
 '452':
   status:
+    - time: 1504127850211
+      status: Offline
     - time: 1504117934879
       status: Active
     - time: 1504107921532
@@ -8408,7 +8412,7 @@
   nameservers:
     - dns1.registrar-servers.com
     - dns2.registrar-servers.com
-  ip: 151.101.1.195
+  ip: 151.101.65.195
 '1622':
   status:
     - time: 1501710860283
@@ -10514,7 +10518,7 @@
     - ns1.wordpress.com
     - ns2.wordpress.com
     - ns3.wordpress.com
-  ip: 192.0.78.24
+  ip: 192.0.78.25
 '2133':
   status:
     - time: 1502314233079
@@ -10731,9 +10735,11 @@
   nameservers:
     - dns1.registrar-servers.com
     - dns2.registrar-servers.com
-  ip: 54.246.92.153
+  ip: 54.217.241.176
 '2155':
   status:
+    - time: 1504127858760
+      status: Offline
     - time: 1503845691441
       status: Active
   nameservers:
@@ -10774,6 +10780,14 @@
 '2160':
   status:
     - time: 1504117933706
+      status: Active
+  nameservers:
+    - ns1.firstvds.ru
+    - ns2.firstvds.ru
+  ip: 213.159.210.209
+'2161':
+  status:
+    - time: 1504127846566
       status: Active
   ip: 213.159.210.209
   nameservers:
