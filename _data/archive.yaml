@@ -10751,15 +10751,15 @@
   status:
     - time: 1504107893691
       status: Offline
-  ip: 31.31.196.221
   nameservers:
     - kristin.ns.cloudflare.com
     - yichun.ns.cloudflare.com
+  ip: 31.31.196.221
 '2159':
   status:
     - time: 1504107918381
       status: Active
-  ip: 104.18.34.77
   nameservers:
     - chuck.ns.cloudflare.com
     - edna.ns.cloudflare.com
+  ip: 104.18.34.77

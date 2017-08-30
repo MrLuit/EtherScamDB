@@ -522,32 +522,33 @@ function preprocessScams() {
                             }
                         }
                         if ('category' in scams[key]) {
-                            var category = scams[key]['category'];
-                            if (category == "Phishing") {
-                                category = '<i class="address book icon"></i> Phishing';
-							} else if (category == "Scamming") {
-                                category = '<i class="payment icon"></i> Scamming';
-                            } else if (category == "Fake ICO") {
-                                category = '<i class="dollar icon"></i> Fake ICO';
-                            }
-                        } else {
-                            var category = "None";
-                        }
-                        if ('subcategory' in scams[key]) {
-                            var subcategory = scams[key]['subcategory'];
-							if(subcategory == "MyEtherWallet") {
-								subcategory = "<img src='/img/myetherwallet.png' class='subcategoryicon'> MyEtherWallet";
-							} else if(subcategory == "Bittrex") {
-								subcategory = "<img src='/img/bittrex.png' class='subcategoryicon'> Bittrex";
-							} else if(subcategory == "Status") {
-								subcategory = "<img src='/img/status.png' class='subcategoryicon'> Status";
-							} else if(subcategory == "Aragon") {
-								subcategory = "<img src='/img/aragon.png' class='subcategoryicon'> Aragon";
-							} else if(subcategory == "EOS") {
-								subcategory = "<img src='/img/eos.png' class='subcategoryicon'> EOS";
+							switch(scams[key]['category']) {
+								case "Phishing":
+									var category = '<i class="address book icon"></i> Phishing';
+									break;
+								case "Scamming":
+									var category = '<i class="payment icon"></i> Scamming';
+									break;
+								case "Fake ICO":
+									var category = '<i class="dollar icon"></i> Fake ICO';
+									break;
+								default:
+									var category = scams[key]['category'];
 							}
                         } else {
-                            var subcategory = "None";
+                            var category = '<i class="remove icon"></i> None';
+                        }
+                        if ('subcategory' in scams[key]) {
+							if(scams[key]['subcategory'].toLowerCase() == "wallets") {
+								var subcategory = '<i class="credit card alternative icon"></i> ' + scams[key]['subcategory'];
+							} else if(fs.existsSync("_static/img/" + scams[key]['subcategory'].toLowerCase().replace(/\s/g,'') + ".png")) {
+								var subcategory = "<img src='/img/" + scams[key]['subcategory'].toLowerCase().replace(/\s/g,'') + ".png' class='subcategoryicon'> " + scams[key]['subcategory'];
+							} else {
+								console.log("Warning: No subcategory icon was found for " + scams[key]['subcategory']);
+								var subcategory = scams[key]['subcategory'];
+							}
+                        } else {
+                            var subcategory = '<i class="remove icon"></i> None';
                         }
                         if (key % 100 === 0) {
                             pages[Math.floor(key / 100)] = "";
