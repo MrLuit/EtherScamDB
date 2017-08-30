@@ -13485,3 +13485,9 @@
     url: 'https://bllttrex.com'
     category: Phishing
     subcategory: Bittrex
+-
+    id: 2160
+    name: starbase.tech
+    url: 'https://starbase.tech'
+    category: Phishing
+    subcategory: Starbase
