@@ -287,7 +287,7 @@
   nameservers:
     - arch.ns.cloudflare.com
     - arya.ns.cloudflare.com
-  ip: 104.24.110.173
+  ip: 104.24.111.173
 '36':
   status:
     - time: 1501710861821
@@ -304,7 +304,7 @@
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
-  ip: 104.244.42.1
+  ip: 104.244.42.129
 '38':
   status:
     - time: 1501710861865
@@ -366,7 +366,7 @@
   nameservers:
     - karl.ns.cloudflare.com
     - violet.ns.cloudflare.com
-  ip: 104.28.19.25
+  ip: 104.28.18.25
 '48':
   status:
     - time: 1501710874047
@@ -509,6 +509,8 @@
   ip: 104.27.186.62
 '69':
   status:
+    - time: 1504117940891
+      status: Offline
     - time: 1504107922871
       status: Active
     - time: 1504002282134
@@ -530,7 +532,7 @@
   nameservers:
     - brad.ns.cloudflare.com
     - elma.ns.cloudflare.com
-  ip: 104.31.76.47
+  ip: 104.31.77.47
 '71':
   status:
     - time: 1501710861941
@@ -546,7 +548,7 @@
   nameservers:
     - dina.ns.cloudflare.com
     - ernest.ns.cloudflare.com
-  ip: 104.18.52.186
+  ip: 104.18.53.186
 '73':
   status:
     - time: 1501710860620
@@ -556,6 +558,8 @@
     - ns2.hosting.reg.ru
 '74':
   status:
+    - time: 1504127850224
+      status: Offline
     - time: 1503937538140
       status: Active
     - time: 1503603546357
@@ -1013,32 +1017,32 @@
     - time: 1501710861758
       status: Offline
   nameservers:
-    - ns1.privatensservice.com
-    - ns2.privatensservice.com
+    - ns1.above.com
+    - ns2.above.com
   ip: 103.224.212.184
 '127':
   status:
     - time: 1501710861717
       status: Offline
   nameservers:
-    - ns1.privatensservice.com
-    - ns2.privatensservice.com
+    - ns1.above.com
+    - ns2.above.com
   ip: 103.224.212.186
 '128':
   status:
     - time: 1501710861444
       status: Offline
   nameservers:
-    - ns1.privatensservice.com
-    - ns2.privatensservice.com
+    - ns1.above.com
+    - ns2.above.com
   ip: 103.224.212.188
 '129':
   status:
     - time: 1501710861385
       status: Offline
   nameservers:
-    - ns1.privatensservice.com
-    - ns2.privatensservice.com
+    - ns1.above.com
+    - ns2.above.com
   ip: 103.224.212.192
 '130':
   status:
@@ -3512,6 +3516,10 @@
       status: Offline
 '452':
   status:
+    - time: 1504127850211
+      status: Offline
+    - time: 1504117934879
+      status: Active
     - time: 1504107921532
       status: Offline
     - time: 1503937538031
@@ -5198,6 +5206,8 @@
       status: Offline
 '856':
   status:
+    - time: 1504117934281
+      status: Active
     - time: 1504107970159
       status: Offline
     - time: 1501710861535
@@ -8402,7 +8412,7 @@
   nameservers:
     - dns1.registrar-servers.com
     - dns2.registrar-servers.com
-  ip: 151.101.1.195
+  ip: 151.101.65.195
 '1622':
   status:
     - time: 1501710860283
@@ -10485,7 +10495,7 @@
   nameservers:
     - evan.ns.cloudflare.com
     - tess.ns.cloudflare.com
-  ip: 104.27.145.197
+  ip: 104.27.144.197
 '2131':
   status:
     - time: 1503603196532
@@ -10508,7 +10518,7 @@
     - ns1.wordpress.com
     - ns2.wordpress.com
     - ns3.wordpress.com
-  ip: 192.0.78.24
+  ip: 192.0.78.25
 '2133':
   status:
     - time: 1502314233079
@@ -10534,8 +10544,10 @@
     - time: 1502457742731
       status: Active
   nameservers:
-    - NS1.FIRSTVDS.RU
-    - NS2.FIRSTVDS.RU
+    - ns-136.awsdns-17.com
+    - ns-1529.awsdns-63.org
+    - ns-2037.awsdns-62.co.uk
+    - ns-957.awsdns-55.net
   ip: 62.109.18.185
 '2136':
   status:
@@ -10554,9 +10566,9 @@
     - time: 1502887349941
       status: Active
   nameservers:
-    - ns1.firstvds.ru
-    - ns2.firstvds.ru
-  ip: 62.109.27.100
+    - ns1.uniregistrymarket.link
+    - ns2.uniregistrymarket.link
+  ip: 69.172.201.153
 '2138':
   status:
     - time: 1503432455751
@@ -10723,9 +10735,11 @@
   nameservers:
     - dns1.registrar-servers.com
     - dns2.registrar-servers.com
-  ip: 54.247.114.13
+  ip: 54.217.241.176
 '2155':
   status:
+    - time: 1504127858760
+      status: Offline
     - time: 1503845691441
       status: Active
   nameservers:
@@ -10763,3 +10777,19 @@
     - chuck.ns.cloudflare.com
     - edna.ns.cloudflare.com
   ip: 104.18.34.77
+'2160':
+  status:
+    - time: 1504117933706
+      status: Active
+  nameservers:
+    - ns1.firstvds.ru
+    - ns2.firstvds.ru
+  ip: 213.159.210.209
+'2161':
+  status:
+    - time: 1504127846566
+      status: Active
+  ip: 213.159.210.209
+  nameservers:
+    - ns1.firstvds.ru
+    - ns2.firstvds.ru
