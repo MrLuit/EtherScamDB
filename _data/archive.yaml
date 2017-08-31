@@ -10809,21 +10809,18 @@
   ip: 213.159.210.209
 '2162':
   status:
-    - time: 1504173245670
+    - time: 1504176611902
       status: Active
-    - time: 1504173168853
-      status: Unknown
+  ip: 104.28.5.32
   nameservers:
-    - vera.ns.cloudflare.com
-    - west.ns.cloudflare.com
-  ip: 104.28.4.32
+    - parking-1.domains4bitcoins.com
+    - parking-2.domains4bitcoins.com
+
 '2163':
   status:
-    - time: 1504173257875
+    - time: 1504176611902
       status: Active
-    - time: 1504173168915
-      status: Unknown
+  ip: 213.159.210.98
   nameservers:
     - ns1.firstvds.ru
     - ns2.firstvds.ru
-  ip: 213.159.210.98
