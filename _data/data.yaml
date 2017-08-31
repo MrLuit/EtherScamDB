@@ -13499,3 +13499,9 @@
     subcategory: Monetha
     addresses:
       - '0x6fcf42fcd9c6a54b64d1b52083700142952a2805'
+-
+    id: 2162
+    name: monetha.co
+    url: 'https://monetha.co'
+    category: Phishing
+    subcategory: Starbase      
