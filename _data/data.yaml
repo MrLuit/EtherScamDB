@@ -346,12 +346,6 @@
     url: 'http://account-kigo.net'
     description: 'same guy as to eos-bonus eos-io update-mew and secure-mew. ?. keeping for recon'
 -
-    id: 53
-    name: 'classicetherwallet hijack'
-    url: 'http://classicetherwallet hijack'
-    category: Phishing
-    subcategory: 'Classic Ether Wallet'
--
     id: 54
     name: eos-bonus.com
     url: 'http://eos-bonus.com'

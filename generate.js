@@ -145,7 +145,7 @@ function writeToArchive(archive) {
     }
 }
 
-/* Convert data.yaml and archive.yaml to scams.json, ips.json, addresses.json and search.json */
+/* Convert data.yaml and archive.yaml to scams.json, ips.json, addresses.json, blacklist.json and search.json */
 function yaml2json() {
     console.log("Converting YAML to JSON...");
     let addresses = {};
@@ -171,8 +171,8 @@ function yaml2json() {
                 });
             }
 			if('url' in data[key]) {
-				blacklist.push(data[key]['url'].replace(/(^\w+:|^)\/\//, ''));
-				blacklist.push('www.' + data[key]['url'].replace(/(^\w+:|^)\/\//, ''));
+				blacklist.push(data[key]['url'].toLowerCase().replace(/(^\w+:|^)\/\//, ''));
+				blacklist.push('www.' + data[key]['url'].toLowerCase().replace(/(^\w+:|^)\/\//, ''));
 			}
             if (data[key]['id'] in archive) {
                 if ("ip" in archive[data[key]['id']]) {
