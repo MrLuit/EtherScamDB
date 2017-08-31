@@ -13521,3 +13521,9 @@
     subcategory: Monetha
     addresses:
       - '0x44A7fF01f7d38c73530C279e19d31527Bdcf8c78'
+-
+    id: 2166
+    name: bllttriex.com
+    url: 'https://bllttriex.com'
+    category: Phishing
+    subcategory: Bittrex
