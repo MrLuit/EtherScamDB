@@ -271,6 +271,8 @@
     category: 'Fake ICO'
     subcategory: district0x
     description: 'fake ICO site w/ fake address. Mirrored from district0x.io/ by HTTrack Website Copier/3.x [XR&CO''2014], Fri, 14 Jul 2017 08:59:16 GMT'
+    addresses:
+      - '0x2268751eAFC860781074D25f4bD10DED480310B9'
 -
     id: 42
     name: secure-myetherwallet.com
@@ -13504,4 +13506,10 @@
     name: monetha.co
     url: 'https://monetha.co'
     category: Phishing
-    subcategory: Starbase      
+    subcategory: Monetha
+-
+    id: 2163
+    name: omise-go.io
+    url: 'http://omise-go.io'
+    category: Phishing
+    subcategory: OmiseGO
