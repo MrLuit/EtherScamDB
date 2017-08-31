@@ -13519,3 +13519,11 @@
     url: 'https://shapeshift.pro'
     category: Phishing
     subcategory: Shapeshift
+-
+    id: 2165
+    name: monetha.me
+    url: 'https://monetha.me'
+    category: Phishing
+    subcategory: Monetha
+    addresses:
+      - '0x44A7fF01f7d38c73530C279e19d31527Bdcf8c78'
