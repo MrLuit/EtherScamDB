@@ -40,6 +40,7 @@ To make use of our database, the following files can be used:
 - [scams.json](https://etherscamdb.info/data/scams.json)
 - [addresses.json](https://etherscamdb.info/data/addresses.json)
 - [ips.json](https://etherscamdb.info/data/ips.json)
+- [blacklist.json](https://etherscamdb.info/data/blacklist.json)
 
 ## Donate
 

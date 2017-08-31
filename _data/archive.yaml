@@ -304,7 +304,7 @@
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
-  ip: 104.244.42.129
+  ip: 104.244.42.1
 '38':
   status:
     - time: 1501710861865
@@ -417,6 +417,8 @@
       status: Offline
 '55':
   status:
+    - time: 1504173261465
+      status: Active
     - time: 1504107920198
       status: Offline
     - time: 1503937538721
@@ -506,9 +508,11 @@
   nameservers:
     - brad.ns.cloudflare.com
     - elma.ns.cloudflare.com
-  ip: 104.27.186.62
+  ip: 104.27.187.62
 '69':
   status:
+    - time: 1504173260825
+      status: Active
     - time: 1504117940891
       status: Offline
     - time: 1504107922871
@@ -532,7 +536,7 @@
   nameservers:
     - brad.ns.cloudflare.com
     - elma.ns.cloudflare.com
-  ip: 104.31.77.47
+  ip: 104.31.76.47
 '71':
   status:
     - time: 1501710861941
@@ -548,7 +552,7 @@
   nameservers:
     - dina.ns.cloudflare.com
     - ernest.ns.cloudflare.com
-  ip: 104.18.53.186
+  ip: 104.18.52.186
 '73':
   status:
     - time: 1501710860620
@@ -558,6 +562,8 @@
     - ns2.hosting.reg.ru
 '74':
   status:
+    - time: 1504173258681
+      status: Active
     - time: 1504127850224
       status: Offline
     - time: 1503937538140
@@ -736,7 +742,7 @@
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
-  ip: 104.244.42.129
+  ip: 104.244.42.1
 '96':
   status:
     - time: 1501710860742
@@ -974,6 +980,8 @@
   ip: 81.169.145.84
 '123':
   status:
+    - time: 1504173258606
+      status: Offline
     - time: 1504002279334
       status: Active
     - time: 1503776405208
@@ -983,7 +991,7 @@
   nameservers:
     - graham.ns.cloudflare.com
     - vida.ns.cloudflare.com
-  ip: 104.18.40.33
+  ip: 104.18.41.33
 '124':
   status:
     - time: 1503937538018
@@ -1025,8 +1033,8 @@
     - time: 1501710861717
       status: Offline
   nameservers:
-    - ns1.above.com
-    - ns2.above.com
+    - ns1.privatensservice.com
+    - ns2.privatensservice.com
   ip: 103.224.212.186
 '128':
   status:
@@ -1041,8 +1049,8 @@
     - time: 1501710861385
       status: Offline
   nameservers:
-    - ns1.above.com
-    - ns2.above.com
+    - ns1.privatensservice.com
+    - ns2.privatensservice.com
   ip: 103.224.212.192
 '130':
   status:
@@ -3516,6 +3524,8 @@
       status: Offline
 '452':
   status:
+    - time: 1504173258534
+      status: Active
     - time: 1504127850211
       status: Offline
     - time: 1504117934879
@@ -3834,6 +3844,8 @@
       status: Offline
 '526':
   status:
+    - time: 1504173246737
+      status: Offline
     - time: 1503432501142
       status: Active
     - time: 1501710857470
@@ -10495,7 +10507,7 @@
   nameservers:
     - evan.ns.cloudflare.com
     - tess.ns.cloudflare.com
-  ip: 104.27.144.197
+  ip: 104.27.145.197
 '2131':
   status:
     - time: 1503603196532
@@ -10518,7 +10530,7 @@
     - ns1.wordpress.com
     - ns2.wordpress.com
     - ns3.wordpress.com
-  ip: 192.0.78.25
+  ip: 192.0.78.24
 '2133':
   status:
     - time: 1502314233079
@@ -10630,7 +10642,7 @@
   nameservers:
     - doug.ns.cloudflare.com
     - jamie.ns.cloudflare.com
-  ip: 104.18.44.67
+  ip: 104.18.45.67
 '2144':
   status:
     - time: 1503432581753
@@ -10735,9 +10747,11 @@
   nameservers:
     - dns1.registrar-servers.com
     - dns2.registrar-servers.com
-  ip: 54.217.241.176
+  ip: 176.34.191.84
 '2155':
   status:
+    - time: 1504173257798
+      status: Active
     - time: 1504127858760
       status: Offline
     - time: 1503845691441
@@ -10789,7 +10803,27 @@
   status:
     - time: 1504127846566
       status: Active
-  ip: 213.159.210.209
   nameservers:
     - ns1.firstvds.ru
     - ns2.firstvds.ru
+  ip: 213.159.210.209
+'2162':
+  status:
+    - time: 1504173245670
+      status: Active
+    - time: 1504173168853
+      status: Unknown
+  nameservers:
+    - vera.ns.cloudflare.com
+    - west.ns.cloudflare.com
+  ip: 104.28.4.32
+'2163':
+  status:
+    - time: 1504173257875
+      status: Active
+    - time: 1504173168915
+      status: Unknown
+  nameservers:
+    - ns1.firstvds.ru
+    - ns2.firstvds.ru
+  ip: 213.159.210.98

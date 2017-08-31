@@ -148,8 +148,9 @@ function writeToArchive(archive) {
 /* Convert data.yaml and archive.yaml to scams.json, ips.json, addresses.json and search.json */
 function yaml2json() {
     console.log("Converting YAML to JSON...");
-    let addresses = {}
-    let ips = {}
+    let addresses = {};
+    let ips = {};
+	let blacklist = [];
     let search = {
         "success": true,
         "results": []
@@ -169,6 +170,10 @@ function yaml2json() {
                     addresses[addr].unshift(data[key]['id']);
                 });
             }
+			if('url' in data[key]) {
+				blacklist.push(data[key]['url'].replace(/(^\w+:|^)\/\//, ''));
+				blacklist.push('www.' + data[key]['url'].replace(/(^\w+:|^)\/\//, ''));
+			}
             if (data[key]['id'] in archive) {
                 if ("ip" in archive[data[key]['id']]) {
                     if (!(archive[data[key]['id']]['ip'] in ips)) {
@@ -201,13 +206,16 @@ function yaml2json() {
                 console.log("Address file compiled.");
                 fs.writeFile("./_site/data/ips.json", JSON.stringify(ips), function(err) {
                     console.log("IPs file compiled.");
-                    if (job == "build" || job == false) {
-                        generatestatic();
-                    } else if (job == "update") {
-                        finish("updating");
-                    } else if (job == "archive") {
-                        archiveorg();
-                    }
+					fs.writeFile("./_site/data/blacklist.json", JSON.stringify(blacklist, null, "  "), function(err) {
+						console.log("Blacklist file compiled.");
+						if (job == "build" || job == false) {
+							generatestatic();
+						} else if (job == "update") {
+							finish("updating");
+						} else if (job == "archive") {
+							archiveorg();
+						}
+					});
                 });
             });
         });
