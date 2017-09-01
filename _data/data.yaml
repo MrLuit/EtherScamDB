@@ -13527,3 +13527,11 @@
     url: 'https://bllttriex.com'
     category: Phishing
     subcategory: Bittrex
+-
+    id: 2167
+    name: (omg.)omise.co
+    url: 'https://omise.co'
+    category: Phishing
+    subcategory: OmiseGO
+    addresses:
+      - '0x68b0e0db7918c0211ea1fb78292a879839137dd0'
