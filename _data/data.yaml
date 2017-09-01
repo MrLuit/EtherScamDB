@@ -13533,3 +13533,5 @@
     url: 'https://omise.co'
     category: Phishing
     subcategory: OmiseGO
+    addresses:
+      - '0x68b0e0db7918c0211ea1fb78292a879839137dd0'
