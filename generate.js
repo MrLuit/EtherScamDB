@@ -404,12 +404,12 @@ function generatestatic() {
         var layout = template.replace("{{ content }}", layout_addresses);
         var related = "";
         for (var i = 0, len = addresses[key].length; i < len; i++) {
-            related += "<div class='item'><a href='/scam/" + addresses[key][i] + "'>" + data.find(o => o['id'] === addresses[key][i])['name'] + "</a></div>"
+            related += "<div class='item'><a href='/scam/" + addresses[key][i] + "'>" + data.find(o => o['id'] === addresses[key][i])['name'] + "</a></div>";
         }
         if (related) {
-            related = '<div class="ui bulleted list">' + related + '</div>'
+            related = '<div class="ui bulleted list">' + related + '</div>';
         } else {
-            related = "None"
+            related = "None";
         }
         layout = layout.replace(/{{ address.address }}/ig, key);
         layout = layout.replace(/{{ address.scams }}/ig, related);
@@ -654,18 +654,18 @@ function preprocess() {
     fs.readdir('./_layouts/', function(err, files) {
         if (err) throw err;
         files.forEach(function(file) {
-            if (file != "address.html" && file != "default.html" && file != "scam.html" && file != "ip.html" && file != "scams.html" && file != "scams_2.html") {
+            if (!(["address.html", "default.html", "scam.html", "ip.html", "scams.html", "scams_2.html"].includes(file))) {
                 fs.readFile('./_layouts/' + file, 'utf8', function(err, data) {
                     var preprocess = template.replace("{{ content }}", data);
                     if (err) {
                         return console.log(err);
                     }
-                    if (file != "index.html" && file != "reportdomain.html" && file != "reportaddress.html") {
+                    if (!(["index.html", "reportdomain.html", "reportaddress.html", "search.html"].includes(file))) {
                         var filename = "./_site/" + file.replace('.html', '') + "/index.html";
                         if (!fs.existsSync("./_site/" + file.replace('.html', ''))) {
                             fs.mkdirSync("./_site/" + file.replace('.html', ''));
                         }
-                    } else if (file == "reportdomain.html" || file == "reportaddress.html") {
+                    } else if (["reportdomain.html", "reportaddress.html"].includes(file)) {
                         var filename = "./_site/" + file.replace('.html', '').replace("report", "report/") + "/index.html";
                         if (!fs.existsSync("./_site/report/")) {
                             fs.mkdirSync("./_site/report/");
@@ -675,7 +675,23 @@ function preprocess() {
                         }
                     } else if (file == "index.html") {
                         var filename = "./_site/index.html";
-                    }
+                    } else if(file == "search.html") {
+						var filename = "./_site/" + file.replace('.html', '') + "/index.html";
+						let trustedtable = "";
+						legiturls.sort(function(a, b) {
+							return (a.name < b.name) ? -1 : (a.name > b.name) ? 1 : 0;
+						});
+						Object.keys(legiturls).forEach(function(key) {
+							if('featured' in legiturls[key] && legiturls[key]['featured'] == true) {
+								if(fs.existsSync("_static/img/" + legiturls[key]['name'].toLowerCase().replace(' ','') + ".png")) {
+									trustedtable += "<tr><td><img class='icon' src='/img/" + legiturls[key]['name'].toLowerCase().replace(' ','') + ".png'>" + legiturls[key]['name'] + "</td><td>" + legiturls[key]['url'] + "</td></tr>";
+								} else {
+									trustedtable += "<tr><td>" + legiturls[key]['name'] + "</td><td>" + legiturls[key]['url'] + "</td></tr>";
+								}
+							}
+						}) ;
+						preprocess = preprocess.replace("{{ trusted.table }}",trustedtable);
+					}
                     if (minify) {
                         preprocess = htmlmin(preprocess);
                     }

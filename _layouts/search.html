@@ -1,9 +1,33 @@
-<h1>Search</h1>
-<div id="srch" class="ui fluid search selection dropdown">
+<link rel="stylesheet" href="/css/search.css">
+<h1>Check URL</h1>
+<!--<div id="srch" class="ui fluid search selection dropdown">
   <input id="sr" type="hidden" name="search">
   <i class="dropdown icon"></i>
   <div class="default text">Search a scam</div>
   <div class="menu">
 </div>
- </div>
+ </div>-->
+ <div class="ui icon message">
+  <i class="checkmark icon"></i>
+  <div class="content">
+    <div class="header">
+      Verified
+    </div>
+    <p>This is a verified domain. You can trust the contents.</p>
+  </div>
+</div>
+ <div class="ui action input">
+  <input type="text" placeholder="Search...">
+  <button class="ui button">Check</button>
+</div>
+ <h1>Trusted domains</h1>
+ <table class="ui celled table">
+  <thead>
+    <tr><th>Name</th>
+    <th>URL</th>
+  </tr></thead>
+  <tbody>
+    {{ trusted.table }}
+  </tbody>
+</table>
 <script src="/js/search.js"></script>

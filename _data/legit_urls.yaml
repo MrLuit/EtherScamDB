@@ -215,113 +215,108 @@
     url: 'https://www.kraken.com'
 -
     id: 52
-    name: Kraken
-    featured: true
-    url: 'https://www.kraken.com'
--
-    id: 53
     name: MyEtherWallet Knowledge Base
     url: 'https://myetherwallet.groovehq.com'
 -
-    id: 54
+    id: 53
     name: ShapeShift
     featured: true
     url: 'https://shapeshift.io'
 -
-    id: 55
+    id: 54
     name: webtask
     url: 'https://webtask.io'
 -
-    id: 56
+    id: 55
     name: Steem Supply
     url: 'http://steem.supply'
 -
-    id: 57
+    id: 56
     name: Aragon
     featured: true
     url: 'https://aragon.one'
 -
-    id: 58
+    id: 57
     name: Bittrex
     featured: true
     url: 'https://bittrex.com'
 -
-    id: 59
+    id: 58
     name: Coindash
     featured: true
     url: 'https://coindash.io'
 -
-    id: 60
+    id: 59
     name: Decentraland
     featured: true
     url: 'https://decentraland.org'
 -
-    id: 61
+    id: 60
     name: District0x
     featured: true
     url: 'https://district0x.io'
 -
-    id: 62
+    id: 61
     name: EOS
     featured: true
     url: 'https://eos.io'
 -
-    id: 63
+    id: 62
     name: EtherDelta
     featured: true
     url: 'https://etherdelta.github.io'
 -
-    id: 64
+    id: 63
     name: Indorse
     featured: true
     url: 'https://indorse.io'
 -
-    id: 65
+    id: 64
     name: KICKICO
     featured: true
     url: 'https://www.kickico.com'
 -
-    id: 66
+    id: 65
     name: Monetha
     featured: true
     url: 'https://www.monetha.io'
 -
-    id: 67
+    id: 66
     name: Numerai
     featured: true
     url: 'https://numer.ai'
 -
-    id: 68
+    id: 67
     name: OmiseGO
     featured: true
     url: 'https://omg.omise.co'
 -
-    id: 69
+    id: 68
     name: Starbase
     featured: true
     url: 'https://starbase.co'
 -
-    id: 70
+    id: 69
     name: Status
     featured: true
     url: 'https://status.im'
 -
-    id: 71
+    id: 70
     name: Substratum
     featured: true
     url: 'https://substratum.net'
 -
-    id: 72
+    id: 71
     name: TenX
     featured: true
     url: 'https://www.tenx.tech'
 -
-    id: 73
+    id: 72
     name: Ubiq
     featured: true
     url: 'https://ubiqsmart.com'
 -
-    id: 74
+    id: 73
     name: Unocoin
     featured: true
     url: 'https://www.unocoin.com'
