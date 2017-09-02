@@ -13530,8 +13530,9 @@
 -
     id: 2167
     name: etnerscan.io
+    description: Fake Etherscan site for a fake Monetha ICO address
     url: 'https://etnerscan.io'
     category: Phishing
-    subcategory: Monetha / Etherscan
+    subcategory: Etherscan
     addresses:
       - '0x1de23F02E185fDc4f6BACc98D6c6419370E38538'
