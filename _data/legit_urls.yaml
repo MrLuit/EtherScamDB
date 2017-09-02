@@ -1,0 +1,65 @@
+-
+    id: 1
+    name: MyEtherWallet
+    url: 'https://myetherwallet.com'
+    description: 'Free, open-source, client-side interface for generating Ethereum wallets & more'
+-
+    id: 2
+    name: MetaMask
+    url: 'https://metamask.io'
+    description: 'MetaMask is a bridge that allows you to visit the distributed web of tomorrow in your browser today. It allows you to run Ethereum dApps right in your browser without running a full Ethereum node'
+-
+    id: 3
+    name: MyEtherAPI
+    url: 'https://www.myetherapi.com'
+    description: 'Free, open-source, client-side interface for generating Ethereum wallets & more'
+-
+    id: 4
+    name: Ethereum
+    url: 'https://ethereum.org'
+    description: 'Official website of the Ethereum Foundation'
+-
+    id: 5
+    name: MyEtheroll
+    url: 'https://myetheroll.com'
+    description: 'Etheroll dividend calculator updated in real time'
+-
+    id: 6
+    name: Ledger Wallet
+    url: 'https://ledgerwallet.com'
+    description: 'Ledger Wallet is a smartcard based Bitcoin hardware wallet bringing maximum protection level to your bitcoins without sacrificing usability or control'
+-
+    id: 7
+    name: Etherscan
+    url: 'https://etherscan.io'
+    description: 'Ethereum blockchain explorer and search'
+-
+    id: 8
+    name: EtherID
+    url: 'http://etherid.org'
+    description: 'An Ethereum Name Registrar'
+-
+    id: 9
+    name: Ether Cards
+    url: 'http://ether.cards'
+    description: 'Ethereum gift cards'
+-
+    id: 10
+    name: Ether Cards
+    url: 'http://ether.cards'
+    description: 'Ethereum gift cards'
+-
+    id: 11
+    name: Etheroll
+    url: 'https://etheroll.com'
+    description: 'Provably fair, de-centralized Ethereum casino - gamble online using Ether on the Ethereum network - smart-contract gambling.'
+-
+    id: 12
+    name: ETHNews
+    url: 'https://www.ethnews.com'
+    description: 'Ethereum news, prices, information, and more'
+-
+    id: 13
+    name: ETHEX
+    url: 'http://ethex.market'
+    description: 'Buy and sell ethereum tokens on a fully decentralized exchange.'

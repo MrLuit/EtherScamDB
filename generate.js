@@ -11,7 +11,8 @@ const connect = require('connect');
 const serveStatic = require('serve-static');
 const htmlmin = require('htmlmin');
 const startTime = (new Date()).getTime();
-const data = yaml.safeLoad(fs.readFileSync('./_data/data.yaml'));
+const data = yaml.safeLoad(fs.readFileSync('./_data/scams.yaml'));
+const legiturls = yaml.safeLoad(fs.readFileSync('./_data/legit_urls.yaml'));
 const template = fs.readFileSync('./_layouts/default.html', 'utf8');
 
 /* Assign variables */
@@ -55,7 +56,7 @@ function clean() {
 function compile_archive() {
     console.log("Compiling archive file...");
     let archive = {};
-    fs.readFile("./_data/archive.yaml", 'utf8', function(err, old_archive) {
+    fs.readFile("./_data/archive_compiled.yaml", 'utf8', function(err, old_archive) {
         if (!err && typeof old_archive !== 'undefined') {
             var old_archive = yaml.safeLoad(old_archive);
         }
@@ -131,7 +132,7 @@ function compile_archive() {
 function writeToArchive(archive) {
     total++;
     if (total == Object.keys(data).length) {
-        fs.writeFile("./_data/archive.yaml", yaml.safeDump(archive), function(err) {
+        fs.writeFile("./_data/archive_compiled.yaml", yaml.safeDump(archive), function(err) {
             if (err) {
                 return console.log(err);
             }
@@ -145,18 +146,23 @@ function writeToArchive(archive) {
     }
 }
 
-/* Convert data.yaml and archive.yaml to scams.json, ips.json, addresses.json, blacklist.json and search.json */
+/* Convert data.yaml and archive.yaml to scams.json, ips.json, addresses.json, blacklist.json, whitelist.json and search.json */
 function yaml2json() {
     console.log("Converting YAML to JSON...");
     let addresses = {};
     let ips = {};
 	let blacklist = [];
+	let whitelist = [];
     let search = {
         "success": true,
         "results": []
     };
-    fs.readFile("./_data/archive.yaml", function(err, archive) {
+    fs.readFile("./_data/archive_compiled.yaml", function(err, archive) {
         var archive = yaml.safeLoad(archive);
+		Object.keys(legiturls).forEach(function(key) {
+			whitelist.push(legiturls[key]['url'].toLowerCase().replace('www.','').replace(/(^\w+:|^)\/\//, ''));
+			whitelist.push('www.' + legiturls[key]['url'].toLowerCase().replace('www.','').replace(/(^\w+:|^)\/\//, ''));
+		});
         Object.keys(data).reverse().forEach(function(key) {
             search.results.push({
                 "name": data[key]['name'],
@@ -208,13 +214,16 @@ function yaml2json() {
                     console.log("IPs file compiled.");
 					fs.writeFile("./_site/data/blacklist.json", JSON.stringify(blacklist, null, "  "), function(err) {
 						console.log("Blacklist file compiled.");
-						if (job == "build" || job == false) {
-							generatestatic();
-						} else if (job == "update") {
-							finish("updating");
-						} else if (job == "archive") {
-							archiveorg();
-						}
+						fs.writeFile("./_site/data/whitelist.json", JSON.stringify(whitelist, null, "  "), function(err) {
+							console.log("Whitelist file compiled.");
+							if (job == "build" || job == false) {
+								generatestatic();
+							} else if (job == "update") {
+								finish("updating");
+							} else if (job == "archive") {
+								archiveorg();
+							}
+						});
 					});
                 });
             });
