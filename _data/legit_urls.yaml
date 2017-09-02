@@ -2,64 +2,326 @@
     id: 1
     name: MyEtherWallet
     url: 'https://myetherwallet.com'
-    description: 'Free, open-source, client-side interface for generating Ethereum wallets & more'
+    featured: true
 -
     id: 2
     name: MetaMask
     url: 'https://metamask.io'
-    description: 'MetaMask is a bridge that allows you to visit the distributed web of tomorrow in your browser today. It allows you to run Ethereum dApps right in your browser without running a full Ethereum node'
+    featured: true
 -
     id: 3
     name: MyEtherAPI
     url: 'https://www.myetherapi.com'
-    description: 'Free, open-source, client-side interface for generating Ethereum wallets & more'
 -
     id: 4
     name: Ethereum
     url: 'https://ethereum.org'
-    description: 'Official website of the Ethereum Foundation'
+    featured: true
 -
     id: 5
     name: MyEtheroll
     url: 'https://myetheroll.com'
-    description: 'Etheroll dividend calculator updated in real time'
 -
     id: 6
     name: Ledger Wallet
+    featured: true
     url: 'https://ledgerwallet.com'
-    description: 'Ledger Wallet is a smartcard based Bitcoin hardware wallet bringing maximum protection level to your bitcoins without sacrificing usability or control'
 -
     id: 7
     name: Etherscan
     url: 'https://etherscan.io'
+    featured: true
     description: 'Ethereum blockchain explorer and search'
 -
     id: 8
     name: EtherID
     url: 'http://etherid.org'
-    description: 'An Ethereum Name Registrar'
 -
     id: 9
     name: Ether Cards
     url: 'http://ether.cards'
-    description: 'Ethereum gift cards'
 -
     id: 10
-    name: Ether Cards
-    url: 'http://ether.cards'
-    description: 'Ethereum gift cards'
--
-    id: 11
     name: Etheroll
     url: 'https://etheroll.com'
-    description: 'Provably fair, de-centralized Ethereum casino - gamble online using Ether on the Ethereum network - smart-contract gambling.'
 -
-    id: 12
+    id: 11
     name: ETHNews
     url: 'https://www.ethnews.com'
-    description: 'Ethereum news, prices, information, and more'
 -
-    id: 13
+    id: 12
     name: ETHEX
     url: 'http://ethex.market'
-    description: 'Buy and sell ethereum tokens on a fully decentralized exchange.'
+-
+    id: 13
+    name: Ethereum Dev
+    url: 'https://ethereumdev.io'
+-
+    id: 14
+    name: Ethereum Dev
+    url: 'https://ethereumdev.io'
+-
+    id: 15
+    name: Ethereum Dev Korea
+    url: 'https://ethereumdev.kr'
+-
+    id: 16
+    name: Dether
+    url: 'https://dether.io'
+-
+    id: 17
+    name: Ethermine
+    url: 'https://ethermine.org'
+-
+    id: 18
+    name: Slaask
+    url: 'https://slaask.com'
+-
+    id: 19
+    name: EtherBTC
+    url: 'https://etherbtc.io'
+-
+    id: 20
+    name: Ethereal Capital
+    url: 'http://ethereal.capital'
+-
+    id: 21
+    name: Etherisc
+    url: 'https://etherisc.com'
+-
+    id: 22
+    name: Ether Echo
+    url: 'https://etherecho.com'
+-
+    id: 23
+    name: Ethereum World News mailing list
+    url: 'https://ethereum.os.tc'
+-
+    id: 24
+    name: MetaJack
+    url: 'https://metajack.im'
+-
+    id: 25
+    name: Etherhub
+    url: 'https://etherhub.io'
+-
+    id: 26
+    name: Ethereum Network
+    url: 'https://ethereum.network'
+-
+    id: 27
+    name: Ethereum Linking Desk
+    url: 'https://ethereum.link'
+-
+    id: 28
+    name: Ethereum.com (for sale)
+    url: 'https://ethereum.com'
+-
+    id: 29
+    name: Prethereum
+    url: 'https://prethereum.com'
+-
+    id: 30
+    name: Etheraus
+    url: 'http://etheraus.com'
+-
+    id: 31
+    name: 1Ethereum
+    url: 'http://1ethereum.ru'
+-
+    id: 32
+    name: EthereumNZ
+    url: 'http://www.ethereum.nz'
+-
+    id: 33
+    name: nethereum
+    url: 'http://www.nethereum.com'
+-
+    id: 34
+    name: metamas
+    url: 'http://www.metamas.com'
+-
+    id: 35
+    name: Metabase
+    url: 'http://www.metabase.com'
+-
+    id: 36
+    name: FundRequest
+    url: 'https://fundrequest.io'
+-
+    id: 37
+    name: Dentacoin
+    url: 'https://www.dentacoin.com'
+-
+    id: 38
+    name: Etherplan
+    url: 'http://etherplan.com'
+-
+    id: 39
+    name: EtherAlert
+    url: 'https://etheralert.io'
+-
+    id: 40
+    name: Bity
+    url: 'https://bity.com'
+-
+    id: 41
+    name: Changelly
+    featured: true
+    description: Simple cryptocurrency exchange
+    url: 'https://changelly.com'
+-
+    id: 42
+    name: Coinbase
+    url: 'https://www.coinbase.com'
+-
+    id: 43
+    name: CryptoCompare
+    url: 'https://www.cryptocompare.com'
+-
+    id: 44
+    name: Easy Ethereum
+    url: 'https://www.easyeth.com'
+-
+    id: 45
+    name: Etherchain
+    featured: true
+    description: 'An Ethereum blockchain explorer'
+    url: 'https://etherchain.org'
+-
+    id: 46
+    name: Ether Domain
+    url: 'http://etherdomain.com'
+-
+    id: 47
+    name: Ethernodes
+    url: 'http://ethernodes.org'
+-
+    id: 48
+    name: Ethpool
+    url: 'http://ethpool.org'
+-
+    id: 49
+    name: Everex Wallet
+    url: 'https://everex.cash'
+-
+    id: 50
+    name: Everex Wallet
+    url: 'https://everex.io'
+-
+    id: 51
+    name: Kraken
+    featured: true
+    url: 'https://www.kraken.com'
+-
+    id: 52
+    name: Kraken
+    featured: true
+    url: 'https://www.kraken.com'
+-
+    id: 53
+    name: MyEtherWallet Knowledge Base
+    url: 'https://myetherwallet.groovehq.com'
+-
+    id: 54
+    name: ShapeShift
+    featured: true
+    url: 'https://shapeshift.io'
+-
+    id: 55
+    name: webtask
+    url: 'https://webtask.io'
+-
+    id: 56
+    name: Steem Supply
+    url: 'http://steem.supply'
+-
+    id: 57
+    name: Aragon
+    featured: true
+    url: 'https://aragon.one'
+-
+    id: 58
+    name: Bittrex
+    featured: true
+    url: 'https://bittrex.com'
+-
+    id: 59
+    name: Coindash
+    featured: true
+    url: 'https://coindash.io'
+-
+    id: 60
+    name: Decentraland
+    featured: true
+    url: 'https://decentraland.org'
+-
+    id: 61
+    name: District0x
+    featured: true
+    url: 'https://district0x.io'
+-
+    id: 62
+    name: EOS
+    featured: true
+    url: 'https://eos.io'
+-
+    id: 63
+    name: EtherDelta
+    featured: true
+    url: 'https://etherdelta.github.io'
+-
+    id: 64
+    name: Indorse
+    featured: true
+    url: 'https://indorse.io'
+-
+    id: 65
+    name: KICKICO
+    featured: true
+    url: 'https://www.kickico.com'
+-
+    id: 66
+    name: Monetha
+    featured: true
+    url: 'https://www.monetha.io'
+-
+    id: 67
+    name: Numerai
+    featured: true
+    url: 'https://numer.ai'
+-
+    id: 68
+    name: OmiseGO
+    featured: true
+    url: 'https://omg.omise.co'
+-
+    id: 69
+    name: Starbase
+    featured: true
+    url: 'https://starbase.co'
+-
+    id: 70
+    name: Status
+    featured: true
+    url: 'https://status.im'
+-
+    id: 71
+    name: Substratum
+    featured: true
+    url: 'https://substratum.net'
+-
+    id: 72
+    name: TenX
+    featured: true
+    url: 'https://www.tenx.tech'
+-
+    id: 73
+    name: Ubiq
+    featured: true
+    url: 'https://ubiqsmart.com'
+-
+    id: 74
+    name: Unocoin
+    featured: true
+    url: 'https://www.unocoin.com'
