@@ -13541,4 +13541,10 @@
     name: golem-network.com
     url: 'https://www.golem-network.com'
     category: Phishing
-    subcategory: Golem      
+    subcategory: Golem
+-
+    id: 2169
+    name: etherdelta.gilthub.io
+    url: 'https://etherdelta.gilthub.io'
+    category: Phishing
+    subcategory: EtherDelta
