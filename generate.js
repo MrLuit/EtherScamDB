@@ -153,10 +153,6 @@ function yaml2json() {
     let ips = {};
 	let blacklist = [];
 	let whitelist = [];
-    let search = {
-        "success": true,
-        "results": []
-    };
     fs.readFile("./_data/archive_compiled.yaml", function(err, archive) {
         var archive = yaml.safeLoad(archive);
 		Object.keys(legiturls).forEach(function(key) {
@@ -164,10 +160,6 @@ function yaml2json() {
 			whitelist.push('www.' + legiturls[key]['url'].toLowerCase().replace('www.','').replace(/(^\w+:|^)\/\//, ''));
 		});
         Object.keys(data).reverse().forEach(function(key) {
-            search.results.push({
-                "name": data[key]['name'],
-                "value": data[key]['id'].toString()
-            });
             if ('addresses' in data[key]) {
                 data[key]['addresses'].forEach(function(addr) {
                     if (!(addr in addresses)) {
@@ -203,8 +195,6 @@ function yaml2json() {
             if (!fs.existsSync("./_site/data")) {
                 fs.mkdirSync("./_site/data");
             }
-            fs.writeFileSync("./_site/data/search.json", JSON.stringify(search));
-            console.log("Search results file compiled.");
         }
         fs.writeFile("./_site/data/scams.json", JSON.stringify(data), function(err) {
             console.log("Scam file compiled.");
