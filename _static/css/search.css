@@ -1,39 +1,33 @@
 .icon {
-	margin-right: 5px;
-	width: 16px;
-	height: 16px;
-	vertical-align: middle;
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
 }
-
 .ui.action.input {
-	width: 40%;
+    width: 40%;
 }
-
 .ui.message {
-	padding: 3em 1.5em !important;
+    padding: 3em 1.5em !important;
 }
 .chevron.right.small.icon {
-	margin-left: 3px;
+    margin-left: 3px;
 }
-
 #details {
-	margin-left: 5px;
+    margin-left: 5px;
 }
-
 #verified {
-	background-color: #016936 !important;
-	color: white !important;
-	display: none;
+    background-color: #016936 !important;
+    color: white !important;
+    display: none;
 }
-
 #blocked {
-	background-color: #B03060 !important;
-	color: white !important;
-	display: none;
+    background-color: #B03060 !important;
+    color: white !important;
+    display: none;
 }
-
 #neutral {
-	background-color: #c86541 !important;
-	color: white !important;
-	display: none;
+    background-color: #c86541 !important;
+    color: white !important;
+    display: none;
 }

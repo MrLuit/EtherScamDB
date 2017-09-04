@@ -1,52 +1,47 @@
 <link rel="stylesheet" href="/css/search.css">
 <h1>Check URL</h1>
-<!--<div id="srch" class="ui fluid search selection dropdown">
-  <input id="sr" type="hidden" name="search">
-  <i class="dropdown icon"></i>
-  <div class="default text">Search a scam</div>
-  <div class="menu">
-</div>
- </div>-->
- <div id='verified' class="ui icon message">
-  <i class="checkmark icon"></i>
-  <div class="content">
-    <div class="header">
-      Verified
+<div id='verified' class="ui icon message">
+    <i class="checkmark icon"></i>
+    <div class="content">
+        <div class="header">
+            Verified
+        </div>
+        <p>This is a verified domain. You can trust the contents.</p>
     </div>
-    <p>This is a verified domain. You can trust the contents.</p>
-  </div>
 </div>
- <div id='blocked' class="ui icon message">
-  <i class="warning sign icon"></i>
-  <div class="content">
-    <div class="header">
-      Blocked
+<div id='blocked' class="ui icon message">
+    <i class="warning sign icon"></i>
+    <div class="content">
+        <div class="header">
+            Blocked
+        </div>
+        <p id='blacklistmessage'>This domain was put on the blacklist.</p>
     </div>
-    <p id='blacklistmessage'>This domain was put on the blacklist.</p>
-  </div>
 </div>
 <div id='neutral' class="ui icon message">
-  <i class="info circle icon"></i>
-  <div class="content">
-    <div class="header">
-      Neutral
+    <i class="info circle icon"></i>
+    <div class="content">
+        <div class="header">
+            Neutral
+        </div>
+        <p>This domain wasn't recognized as a malicious domain, nor as verified. Be careful!</p>
     </div>
-    <p>This domain wasn't recognized as a malicious domain, nor as verified. Be careful!</p>
-  </div>
 </div>
 <p id='helpmessage'>Enter an URL to check whether you can trust it or not.</p>
- <div class="ui action input">
-  <input type="text" placeholder="https://myetherwallet.com">
-  <button class="ui button">Check</button>
+<div class="ui action input">
+    <input type="text" placeholder="https://myetherwallet.com">
+    <button class="ui button">Check</button>
 </div>
- <h1>Trusted domains</h1>
- <table class="ui celled table">
-  <thead>
-    <tr><th>Name</th>
-    <th>URL</th>
-  </tr></thead>
-  <tbody>
-    {{ trusted.table }}
-  </tbody>
+<h1>Trusted domains</h1>
+<table class="ui celled table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>URL</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ trusted.table }}
+    </tbody>
 </table>
 <script src="/js/search.js"></script>

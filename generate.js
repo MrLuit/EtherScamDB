@@ -151,14 +151,14 @@ function yaml2json() {
     console.log("Converting YAML to JSON...");
     let addresses = {};
     let ips = {};
-	let blacklist = [];
-	let whitelist = [];
+    let blacklist = [];
+    let whitelist = [];
     fs.readFile("./_data/archive_compiled.yaml", function(err, archive) {
         var archive = yaml.safeLoad(archive);
-		Object.keys(legiturls).forEach(function(key) {
-			whitelist.push(legiturls[key]['url'].toLowerCase().replace('www.','').replace(/(^\w+:|^)\/\//, ''));
-			whitelist.push('www.' + legiturls[key]['url'].toLowerCase().replace('www.','').replace(/(^\w+:|^)\/\//, ''));
-		});
+        Object.keys(legiturls).forEach(function(key) {
+            whitelist.push(legiturls[key]['url'].toLowerCase().replace('www.', '').replace(/(^\w+:|^)\/\//, ''));
+            whitelist.push('www.' + legiturls[key]['url'].toLowerCase().replace('www.', '').replace(/(^\w+:|^)\/\//, ''));
+        });
         Object.keys(data).reverse().forEach(function(key) {
             if ('addresses' in data[key]) {
                 data[key]['addresses'].forEach(function(addr) {
@@ -168,10 +168,10 @@ function yaml2json() {
                     addresses[addr].unshift(data[key]['id']);
                 });
             }
-			if('url' in data[key]) {
-				blacklist.push(data[key]['url'].toLowerCase().replace(/(^\w+:|^)\/\//, ''));
-				blacklist.push('www.' + data[key]['url'].toLowerCase().replace(/(^\w+:|^)\/\//, ''));
-			}
+            if ('url' in data[key]) {
+                blacklist.push(data[key]['url'].toLowerCase().replace(/(^\w+:|^)\/\//, ''));
+                blacklist.push('www.' + data[key]['url'].toLowerCase().replace(/(^\w+:|^)\/\//, ''));
+            }
             if (data[key]['id'] in archive) {
                 if ("ip" in archive[data[key]['id']]) {
                     if (!(archive[data[key]['id']]['ip'] in ips)) {
@@ -202,19 +202,19 @@ function yaml2json() {
                 console.log("Address file compiled.");
                 fs.writeFile("./_site/data/ips.json", JSON.stringify(ips), function(err) {
                     console.log("IPs file compiled.");
-					fs.writeFile("./_site/data/blacklist.json", JSON.stringify(blacklist, null, "  "), function(err) {
-						console.log("Blacklist file compiled.");
-						fs.writeFile("./_site/data/whitelist.json", JSON.stringify(whitelist, null, "  "), function(err) {
-							console.log("Whitelist file compiled.");
-							if (job == "build" || job == false) {
-								generatestatic();
-							} else if (job == "update") {
-								finish("updating");
-							} else if (job == "archive") {
-								archiveorg();
-							}
-						});
-					});
+                    fs.writeFile("./_site/data/blacklist.json", JSON.stringify(blacklist, null, "  "), function(err) {
+                        console.log("Blacklist file compiled.");
+                        fs.writeFile("./_site/data/whitelist.json", JSON.stringify(whitelist, null, "  "), function(err) {
+                            console.log("Whitelist file compiled.");
+                            if (job == "build" || job == false) {
+                                generatestatic();
+                            } else if (job == "update") {
+                                finish("updating");
+                            } else if (job == "archive") {
+                                archiveorg();
+                            }
+                        });
+                    });
                 });
             });
         });
@@ -491,11 +491,11 @@ function preprocessScams() {
             const template_2 = template.replace("{{ content }}", data2);
             fs.readFile('./_site/data/scams.json', 'utf8', function(err, data3) {
                 const scams = JSON.parse(data3).sort(
-					function(x, y) {
+                    function(x, y) {
                         if ('status' in x && 'status' in y) {
-                            if (x['status'][x['status'].length-1]['time'] < y['status'][y['status'].length-1]['time']) {
+                            if (x['status'][x['status'].length - 1]['time'] < y['status'][y['status'].length - 1]['time']) {
                                 return 1;
-                            } else if (x['status'][x['status'].length-1]['time'] == y['status'][y['status'].length-1]['time']) {
+                            } else if (x['status'][x['status'].length - 1]['time'] == y['status'][y['status'].length - 1]['time']) {
                                 return 0;
                             } else {
                                 return -1;
@@ -521,7 +521,7 @@ function preprocessScams() {
                                 color_status = '<i class="warning sign icon"></i> Active';
                                 active++;
                             } else if (status == "Offline") {
-								status = "activ";
+                                status = "activ";
                                 color_status = '<i class="checkmark icon"></i> Offline';
                                 inactive++;
                             } else if (status == "Suspended") {
@@ -529,31 +529,31 @@ function preprocessScams() {
                             }
                         }
                         if ('category' in scams[key]) {
-							switch(scams[key]['category']) {
-								case "Phishing":
-									var category = '<i class="address book icon"></i> Phishing';
-									break;
-								case "Scamming":
-									var category = '<i class="payment icon"></i> Scamming';
-									break;
-								case "Fake ICO":
-									var category = '<i class="dollar icon"></i> Fake ICO';
-									break;
-								default:
-									var category = scams[key]['category'];
-							}
+                            switch (scams[key]['category']) {
+                                case "Phishing":
+                                    var category = '<i class="address book icon"></i> Phishing';
+                                    break;
+                                case "Scamming":
+                                    var category = '<i class="payment icon"></i> Scamming';
+                                    break;
+                                case "Fake ICO":
+                                    var category = '<i class="dollar icon"></i> Fake ICO';
+                                    break;
+                                default:
+                                    var category = scams[key]['category'];
+                            }
                         } else {
                             var category = '<i class="remove icon"></i> None';
                         }
                         if ('subcategory' in scams[key]) {
-							if(scams[key]['subcategory'].toLowerCase() == "wallets") {
-								var subcategory = '<i class="credit card alternative icon"></i> ' + scams[key]['subcategory'];
-							} else if(fs.existsSync("_static/img/" + scams[key]['subcategory'].toLowerCase().replace(/\s/g,'') + ".png")) {
-								var subcategory = "<img src='/img/" + scams[key]['subcategory'].toLowerCase().replace(/\s/g,'') + ".png' class='subcategoryicon'> " + scams[key]['subcategory'];
-							} else {
-								console.log("Warning: No subcategory icon was found for " + scams[key]['subcategory']);
-								var subcategory = scams[key]['subcategory'];
-							}
+                            if (scams[key]['subcategory'].toLowerCase() == "wallets") {
+                                var subcategory = '<i class="credit card alternative icon"></i> ' + scams[key]['subcategory'];
+                            } else if (fs.existsSync("_static/img/" + scams[key]['subcategory'].toLowerCase().replace(/\s/g, '') + ".png")) {
+                                var subcategory = "<img src='/img/" + scams[key]['subcategory'].toLowerCase().replace(/\s/g, '') + ".png' class='subcategoryicon'> " + scams[key]['subcategory'];
+                            } else {
+                                console.log("Warning: No subcategory icon was found for " + scams[key]['subcategory']);
+                                var subcategory = scams[key]['subcategory'];
+                            }
                         } else {
                             var subcategory = '<i class="remove icon"></i> None';
                         }
@@ -665,27 +665,27 @@ function preprocess() {
                         }
                     } else if (file == "index.html") {
                         var filename = "./_site/index.html";
-                    } else if(file == "search.html") {
-						if (!fs.existsSync("./_site/" + file.replace('.html', ''))) {
+                    } else if (file == "search.html") {
+                        if (!fs.existsSync("./_site/" + file.replace('.html', ''))) {
                             fs.mkdirSync("./_site/" + file.replace('.html', ''));
                         }
-						var filename = "./_site/" + file.replace('.html', '') + "/index.html";
-						let trustedtable = "";
-						legiturls.sort(function(a, b) {
-							return (a.name < b.name) ? -1 : (a.name > b.name) ? 1 : 0;
-						});
-						Object.keys(legiturls).forEach(function(key) {
-							if('featured' in legiturls[key] && legiturls[key]['featured'] == true) {
-								if(fs.existsSync("_static/img/" + legiturls[key]['name'].toLowerCase().replace(' ','') + ".png")) {
-									trustedtable += "<tr><td><img class='icon' src='/img/" + legiturls[key]['name'].toLowerCase().replace(' ','') + ".png'>" + legiturls[key]['name'] + "</td><td><a target='_blank' href='" + legiturls[key]['url'] + "'>" + legiturls[key]['url'] + "</a></td></tr>";
-								} else {
-									console.log("Warning: No verified icon was found for " + legiturls[key]['name']);
-									trustedtable += "<tr><td>" + legiturls[key]['name'] + "</td><td><a target='_blank' href='" + legiturls[key]['url'] + "'>" + legiturls[key]['url'] + "</a></td></tr>";
-								}
-							}
-						}) ;
-						preprocess = preprocess.replace("{{ trusted.table }}",trustedtable);
-					}
+                        var filename = "./_site/" + file.replace('.html', '') + "/index.html";
+                        let trustedtable = "";
+                        legiturls.sort(function(a, b) {
+                            return (a.name < b.name) ? -1 : (a.name > b.name) ? 1 : 0;
+                        });
+                        Object.keys(legiturls).forEach(function(key) {
+                            if ('featured' in legiturls[key] && legiturls[key]['featured'] == true) {
+                                if (fs.existsSync("_static/img/" + legiturls[key]['name'].toLowerCase().replace(' ', '') + ".png")) {
+                                    trustedtable += "<tr><td><img class='icon' src='/img/" + legiturls[key]['name'].toLowerCase().replace(' ', '') + ".png'>" + legiturls[key]['name'] + "</td><td><a target='_blank' href='" + legiturls[key]['url'] + "'>" + legiturls[key]['url'] + "</a></td></tr>";
+                                } else {
+                                    console.log("Warning: No verified icon was found for " + legiturls[key]['name']);
+                                    trustedtable += "<tr><td>" + legiturls[key]['name'] + "</td><td><a target='_blank' href='" + legiturls[key]['url'] + "'>" + legiturls[key]['url'] + "</a></td></tr>";
+                                }
+                            }
+                        });
+                        preprocess = preprocess.replace("{{ trusted.table }}", trustedtable);
+                    }
                     if (minify) {
                         preprocess = htmlmin(preprocess);
                     }
