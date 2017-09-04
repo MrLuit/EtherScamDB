@@ -684,9 +684,10 @@ function preprocess() {
 						Object.keys(legiturls).forEach(function(key) {
 							if('featured' in legiturls[key] && legiturls[key]['featured'] == true) {
 								if(fs.existsSync("_static/img/" + legiturls[key]['name'].toLowerCase().replace(' ','') + ".png")) {
-									trustedtable += "<tr><td><img class='icon' src='/img/" + legiturls[key]['name'].toLowerCase().replace(' ','') + ".png'>" + legiturls[key]['name'] + "</td><td>" + legiturls[key]['url'] + "</td></tr>";
+									trustedtable += "<tr><td><img class='icon' src='/img/" + legiturls[key]['name'].toLowerCase().replace(' ','') + ".png'>" + legiturls[key]['name'] + "</td><td><a target='_blank' href='" + legiturls[key]['url'] + "'>" + legiturls[key]['url'] + "</a></td></tr>";
 								} else {
-									trustedtable += "<tr><td>" + legiturls[key]['name'] + "</td><td>" + legiturls[key]['url'] + "</td></tr>";
+									console.log("Warning: No verified icon was found for " + legiturls[key]['name']);
+									trustedtable += "<tr><td>" + legiturls[key]['name'] + "</td><td><a target='_blank' href='" + legiturls[key]['url'] + "'>" + legiturls[key]['url'] + "</a></td></tr>";
 								}
 							}
 						}) ;

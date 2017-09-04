@@ -39,7 +39,7 @@
     name: etherswap.org
     url: 'http://etherswap.org'
     category: Phishing
-    subcategory: 'Ethereum Project'
+    subcategory: Ethereum
     addresses:
       - '0x4cdc1cba0aeb5539f2e0ba158281e67e0e54a9b1'
 -
