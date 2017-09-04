@@ -41,6 +41,7 @@ To make use of our database, the following files can be used:
 - [addresses.json](https://etherscamdb.info/data/addresses.json)
 - [ips.json](https://etherscamdb.info/data/ips.json)
 - [blacklist.json](https://etherscamdb.info/data/blacklist.json)
+- [whitelist.json](https://etherscamdb.info/data/whitelist.json)
 
 ## Donate
 

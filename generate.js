@@ -11,7 +11,8 @@ const connect = require('connect');
 const serveStatic = require('serve-static');
 const htmlmin = require('htmlmin');
 const startTime = (new Date()).getTime();
-const data = yaml.safeLoad(fs.readFileSync('./_data/data.yaml'));
+const data = yaml.safeLoad(fs.readFileSync('./_data/scams.yaml'));
+const legiturls = yaml.safeLoad(fs.readFileSync('./_data/legit_urls.yaml'));
 const template = fs.readFileSync('./_layouts/default.html', 'utf8');
 
 /* Assign variables */
@@ -55,7 +56,7 @@ function clean() {
 function compile_archive() {
     console.log("Compiling archive file...");
     let archive = {};
-    fs.readFile("./_data/archive.yaml", 'utf8', function(err, old_archive) {
+    fs.readFile("./_data/archive_compiled.yaml", 'utf8', function(err, old_archive) {
         if (!err && typeof old_archive !== 'undefined') {
             var old_archive = yaml.safeLoad(old_archive);
         }
@@ -131,7 +132,7 @@ function compile_archive() {
 function writeToArchive(archive) {
     total++;
     if (total == Object.keys(data).length) {
-        fs.writeFile("./_data/archive.yaml", yaml.safeDump(archive), function(err) {
+        fs.writeFile("./_data/archive_compiled.yaml", yaml.safeDump(archive), function(err) {
             if (err) {
                 return console.log(err);
             }
@@ -145,18 +146,23 @@ function writeToArchive(archive) {
     }
 }
 
-/* Convert data.yaml and archive.yaml to scams.json, ips.json, addresses.json, blacklist.json and search.json */
+/* Convert data.yaml and archive.yaml to scams.json, ips.json, addresses.json, blacklist.json, whitelist.json and search.json */
 function yaml2json() {
     console.log("Converting YAML to JSON...");
     let addresses = {};
     let ips = {};
 	let blacklist = [];
+	let whitelist = [];
     let search = {
         "success": true,
         "results": []
     };
-    fs.readFile("./_data/archive.yaml", function(err, archive) {
+    fs.readFile("./_data/archive_compiled.yaml", function(err, archive) {
         var archive = yaml.safeLoad(archive);
+		Object.keys(legiturls).forEach(function(key) {
+			whitelist.push(legiturls[key]['url'].toLowerCase().replace('www.','').replace(/(^\w+:|^)\/\//, ''));
+			whitelist.push('www.' + legiturls[key]['url'].toLowerCase().replace('www.','').replace(/(^\w+:|^)\/\//, ''));
+		});
         Object.keys(data).reverse().forEach(function(key) {
             search.results.push({
                 "name": data[key]['name'],
@@ -208,13 +214,16 @@ function yaml2json() {
                     console.log("IPs file compiled.");
 					fs.writeFile("./_site/data/blacklist.json", JSON.stringify(blacklist, null, "  "), function(err) {
 						console.log("Blacklist file compiled.");
-						if (job == "build" || job == false) {
-							generatestatic();
-						} else if (job == "update") {
-							finish("updating");
-						} else if (job == "archive") {
-							archiveorg();
-						}
+						fs.writeFile("./_site/data/whitelist.json", JSON.stringify(whitelist, null, "  "), function(err) {
+							console.log("Whitelist file compiled.");
+							if (job == "build" || job == false) {
+								generatestatic();
+							} else if (job == "update") {
+								finish("updating");
+							} else if (job == "archive") {
+								archiveorg();
+							}
+						});
 					});
                 });
             });
@@ -395,12 +404,12 @@ function generatestatic() {
         var layout = template.replace("{{ content }}", layout_addresses);
         var related = "";
         for (var i = 0, len = addresses[key].length; i < len; i++) {
-            related += "<div class='item'><a href='/scam/" + addresses[key][i] + "'>" + data.find(o => o['id'] === addresses[key][i])['name'] + "</a></div>"
+            related += "<div class='item'><a href='/scam/" + addresses[key][i] + "'>" + data.find(o => o['id'] === addresses[key][i])['name'] + "</a></div>";
         }
         if (related) {
-            related = '<div class="ui bulleted list">' + related + '</div>'
+            related = '<div class="ui bulleted list">' + related + '</div>';
         } else {
-            related = "None"
+            related = "None";
         }
         layout = layout.replace(/{{ address.address }}/ig, key);
         layout = layout.replace(/{{ address.scams }}/ig, related);
@@ -645,18 +654,18 @@ function preprocess() {
     fs.readdir('./_layouts/', function(err, files) {
         if (err) throw err;
         files.forEach(function(file) {
-            if (file != "address.html" && file != "default.html" && file != "scam.html" && file != "ip.html" && file != "scams.html" && file != "scams_2.html") {
+            if (!(["address.html", "default.html", "scam.html", "ip.html", "scams.html", "scams_2.html"].includes(file))) {
                 fs.readFile('./_layouts/' + file, 'utf8', function(err, data) {
                     var preprocess = template.replace("{{ content }}", data);
                     if (err) {
                         return console.log(err);
                     }
-                    if (file != "index.html" && file != "reportdomain.html" && file != "reportaddress.html") {
+                    if (!(["index.html", "reportdomain.html", "reportaddress.html", "search.html"].includes(file))) {
                         var filename = "./_site/" + file.replace('.html', '') + "/index.html";
                         if (!fs.existsSync("./_site/" + file.replace('.html', ''))) {
                             fs.mkdirSync("./_site/" + file.replace('.html', ''));
                         }
-                    } else if (file == "reportdomain.html" || file == "reportaddress.html") {
+                    } else if (["reportdomain.html", "reportaddress.html"].includes(file)) {
                         var filename = "./_site/" + file.replace('.html', '').replace("report", "report/") + "/index.html";
                         if (!fs.existsSync("./_site/report/")) {
                             fs.mkdirSync("./_site/report/");
@@ -666,7 +675,24 @@ function preprocess() {
                         }
                     } else if (file == "index.html") {
                         var filename = "./_site/index.html";
-                    }
+                    } else if(file == "search.html") {
+						var filename = "./_site/" + file.replace('.html', '') + "/index.html";
+						let trustedtable = "";
+						legiturls.sort(function(a, b) {
+							return (a.name < b.name) ? -1 : (a.name > b.name) ? 1 : 0;
+						});
+						Object.keys(legiturls).forEach(function(key) {
+							if('featured' in legiturls[key] && legiturls[key]['featured'] == true) {
+								if(fs.existsSync("_static/img/" + legiturls[key]['name'].toLowerCase().replace(' ','') + ".png")) {
+									trustedtable += "<tr><td><img class='icon' src='/img/" + legiturls[key]['name'].toLowerCase().replace(' ','') + ".png'>" + legiturls[key]['name'] + "</td><td><a target='_blank' href='" + legiturls[key]['url'] + "'>" + legiturls[key]['url'] + "</a></td></tr>";
+								} else {
+									console.log("Warning: No verified icon was found for " + legiturls[key]['name']);
+									trustedtable += "<tr><td>" + legiturls[key]['name'] + "</td><td><a target='_blank' href='" + legiturls[key]['url'] + "'>" + legiturls[key]['url'] + "</a></td></tr>";
+								}
+							}
+						}) ;
+						preprocess = preprocess.replace("{{ trusted.table }}",trustedtable);
+					}
                     if (minify) {
                         preprocess = htmlmin(preprocess);
                     }
