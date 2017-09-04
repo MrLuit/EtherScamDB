@@ -666,6 +666,9 @@ function preprocess() {
                     } else if (file == "index.html") {
                         var filename = "./_site/index.html";
                     } else if(file == "search.html") {
+						if (!fs.existsSync("./_site/" + file.replace('.html', ''))) {
+                            fs.mkdirSync("./_site/" + file.replace('.html', ''));
+                        }
 						var filename = "./_site/" + file.replace('.html', '') + "/index.html";
 						let trustedtable = "";
 						legiturls.sort(function(a, b) {
