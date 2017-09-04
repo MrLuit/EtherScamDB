@@ -13556,3 +13556,9 @@
     subcategory: DMarket
     addresses:
       - '0xf1e250F2a27ab7eC5B82B287F2799260448CD51D'
+-
+    id: 2171
+    name: kinico.net
+    url: 'http://kinico.net'
+    category: Phishing
+    subcategory: Kin
