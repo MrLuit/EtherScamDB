@@ -13527,3 +13527,46 @@
     url: 'https://bllttriex.com'
     category: Phishing
     subcategory: Bittrex
+-
+    id: 2167
+    name: etnerscan.io
+    description: Fake Etherscan site for a fake Monetha ICO address
+    url: 'https://etnerscan.io'
+    category: Phishing
+    subcategory: Etherscan
+    addresses:
+      - '0x1de23F02E185fDc4f6BACc98D6c6419370E38538'
+-
+    id: 2168
+    name: golem-network.com
+    url: 'https://www.golem-network.com'
+    category: Phishing
+    subcategory: Golem
+-
+    id: 2169
+    name: etherdelta.gilthub.io
+    url: 'https://etherdelta.gilthub.io'
+    category: Phishing
+    subcategory: EtherDelta
+-
+    id: 2170
+    name: dmarket.ltd
+    url: 'http://dmarket.ltd'
+    category: Phishing
+    subcategory: DMarket
+    addresses:
+      - '0xf1e250F2a27ab7eC5B82B287F2799260448CD51D'
+-
+    id: 2171
+    name: kinico.net
+    url: 'http://kinico.net'
+    category: Phishing
+    subcategory: Kin
+-
+    id: 2172
+    name: herotoken.co
+    url: 'http://herotoken.co'
+    category: Phishing
+    subcategory: Hero
+    addresses:
+      - '0xFBF6F29c126382cf15795bB209EE506a174cC709'
