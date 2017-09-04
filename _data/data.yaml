@@ -13562,3 +13562,11 @@
     url: 'http://kinico.net'
     category: Phishing
     subcategory: Kin
+-
+    id: 2172
+    name: herotoken.co
+    url: 'http://herotoken.co'
+    category: Phishing
+    subcategory: Hero
+    addresses:
+      - '0xFBF6F29c126382cf15795bB209EE506a174cC709'
