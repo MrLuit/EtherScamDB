@@ -31,7 +31,6 @@
     name: Etherscan
     url: 'https://etherscan.io'
     featured: true
-    description: 'Ethereum blockchain explorer and search'
 -
     id: 8
     name: EtherID
