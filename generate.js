@@ -491,11 +491,11 @@ function preprocessScams() {
             const template_2 = template.replace("{{ content }}", data2);
             fs.readFile('./_site/data/scams.json', 'utf8', function(err, data3) {
                 const scams = JSON.parse(data3).sort(
-                    function(x, y) {
+					function(x, y) {
                         if ('status' in x && 'status' in y) {
-                            if (x['status'][0]['time'] < y['status'][0]['time']) {
+                            if (x['status'][x['status'].length-1]['time'] < y['status'][y['status'].length-1]['time']) {
                                 return 1;
-                            } else if (x['status'][0]['time'] == y['status'][0]['time']) {
+                            } else if (x['status'][x['status'].length-1]['time'] == y['status'][y['status'].length-1]['time']) {
                                 return 0;
                             } else {
                                 return -1;

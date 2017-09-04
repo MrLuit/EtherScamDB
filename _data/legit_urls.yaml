@@ -319,3 +319,8 @@
     name: Unocoin
     featured: true
     url: 'https://www.unocoin.com'
+-
+    id: 74
+    name: Golem
+    featured: true
+    url: 'https://golem.network'
