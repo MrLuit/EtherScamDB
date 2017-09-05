@@ -13507,6 +13507,8 @@
     url: 'http://omise-go.io'
     category: Phishing
     subcategory: OmiseGO
+    addresses:
+      - '0xe2e6d4be086c6938b53b22144855eef674281639'
 -
     id: 2164
     name: shapeshift.pro
