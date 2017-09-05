@@ -13572,3 +13572,11 @@
     subcategory: Hero
     addresses:
       - '0xFBF6F29c126382cf15795bB209EE506a174cC709'
+-
+    id: 2173
+    name: etherdelta.githulb.io
+    url: 'https://etherdelta.githulb.io'
+    category: Phishing
+    subcategory: EtherDelta
+    addresses:
+      - '0x7CBC4E0D168744912C5Afc081499145BBDc51e69'
