@@ -13580,3 +13580,9 @@
     subcategory: EtherDelta
     addresses:
       - '0x7CBC4E0D168744912C5Afc081499145BBDc51e69'
+-
+    id: 2174
+    name: starbase.pro
+    url: 'http://starbase.pro'
+    category: Phishing
+    subcategory: Starbase
