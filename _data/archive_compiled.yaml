@@ -218,7 +218,7 @@
   nameservers:
     - ns1.expired.reg.ru
     - ns2.expired.reg.ru
-  ip: 194.58.56.83
+  ip: 194.58.56.47
 '28':
   status:
     - time: 1501710858934
@@ -308,7 +308,7 @@
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
-  ip: 104.244.42.193
+  ip: 104.244.42.129
 '38':
   status:
     - time: 1501710861865
@@ -511,6 +511,8 @@
   ip: 104.27.187.62
 '69':
   status:
+    - time: 1504719036192
+      status: Offline
     - time: 1504554868710
       status: Active
     - time: 1504212475427
@@ -540,7 +542,7 @@
   nameservers:
     - brad.ns.cloudflare.com
     - elma.ns.cloudflare.com
-  ip: 104.31.76.47
+  ip: 104.31.77.47
 '71':
   status:
     - time: 1501710861941
@@ -583,9 +585,11 @@
   nameservers:
     - ns45.domaincontrol.com
     - ns46.domaincontrol.com
-  ip: 50.63.202.63
+  ip: 50.63.202.61
 '75':
   status:
+    - time: 1504719034099
+      status: Offline
     - time: 1503937538031
       status: Active
     - time: 1503695324728
@@ -652,6 +656,8 @@
   ip: 103.16.229.16
 '84':
   status:
+    - time: 1504719039522
+      status: Offline
     - time: 1503937538236
       status: Active
     - time: 1503695352034
@@ -746,7 +752,7 @@
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
-  ip: 104.244.42.65
+  ip: 104.244.42.129
 '96':
   status:
     - time: 1501710860742
@@ -1006,6 +1012,8 @@
   ip: 104.18.40.33
 '124':
   status:
+    - time: 1504719038733
+      status: Offline
     - time: 1503937538018
       status: Active
     - time: 1503695324728
@@ -1064,12 +1072,14 @@
   ip: 141.8.224.93
 '129':
   status:
+    - time: 1504718861201
+      status: Active
     - time: 1501710861385
       status: Offline
   nameservers:
-    - ns1.above.com
-    - ns2.above.com
-  ip: 103.224.212.192
+    - ns27.rookdns.com
+    - ns28.rookdns.com
+  ip: 141.8.224.169
 '130':
   status:
     - time: 1501710861165
@@ -1194,7 +1204,7 @@
   nameservers:
     - ns1.parkingcrew.net
     - ns2.parkingcrew.net
-  ip: 54.217.222.113
+  ip: 54.72.9.51
 '142':
   status:
     - time: 1501710860414
@@ -3068,6 +3078,13 @@
   status:
     - time: 1501710853505
       status: Offline
+  nameservers:
+    - dns1.iidns.com
+    - dns2.iidns.com
+    - dns3.iidns.com
+    - dns4.iidns.com
+    - dns5.iidns.com
+    - dns6.iidns.com
 '340':
   status:
     - time: 1501710853046
@@ -3185,7 +3202,7 @@
   nameservers:
     - ns1.dnsnuts.com
     - ns2.dnsnuts.com
-  ip: 37.48.65.152
+  ip: 167.114.156.214
 '367':
   status:
     - time: 1501710859171
@@ -7537,8 +7554,14 @@
       status: Offline
 '1404':
   status:
+    - time: 1504718905418
+      status: Active
     - time: 1501710852814
       status: Offline
+  ip: 160.153.59.161
+  nameservers:
+    - ns53.domaincontrol.com
+    - ns54.domaincontrol.com
 '1405':
   status:
     - time: 1501710858969
@@ -8456,7 +8479,7 @@
   nameservers:
     - dns1.registrar-servers.com
     - dns2.registrar-servers.com
-  ip: 151.101.65.195
+  ip: 151.101.1.195
 '1622':
   status:
     - time: 1501710860283
@@ -10542,6 +10565,8 @@
   ip: 104.27.144.197
 '2131':
   status:
+    - time: 1504718802823
+      status: Active
     - time: 1504554880006
       status: Offline
     - time: 1503603196532
@@ -10555,7 +10580,7 @@
   nameservers:
     - ns1.firstvds.ru
     - ns2.firstvds.ru
-  ip: 188.120.242.110
+  ip: 213.159.210.211
 '2132':
   status:
     - time: 1501936189686
@@ -10575,6 +10600,8 @@
   ip: 37.140.192.125
 '2134':
   status:
+    - time: 1504718933871
+      status: Offline
     - time: 1502457074348
       status: Active
   nameservers:
@@ -10781,7 +10808,7 @@
   nameservers:
     - dns1.registrar-servers.com
     - dns2.registrar-servers.com
-  ip: 54.246.92.153
+  ip: 23.21.142.10
 '2155':
   status:
     - time: 1504173257798
@@ -10826,7 +10853,6 @@
   nameservers:
     - a.dnspod.com
     - b.dnspod.com
-    - c.dnspod.com
   ip: 104.18.34.77
 '2160':
   status:
@@ -10838,12 +10864,14 @@
   ip: 213.159.210.209
 '2161':
   status:
+    - time: 1504719123587
+      status: Offline
     - time: 1504127846566
       status: Active
   nameservers:
     - ns1.firstvds.ru
     - ns2.firstvds.ru
-  ip: 213.159.210.209
+  ip: 37.230.114.67
 '2162':
   status:
     - time: 1504176611902
@@ -10913,7 +10941,7 @@
   nameservers:
     - dns1.registrar-servers.com
     - dns2.registrar-servers.com
-  ip: 54.247.161.41
+  ip: 54.243.204.100
 '2171':
   status:
     - time: 1504554861065
@@ -10930,3 +10958,50 @@
     - ns1.firstvds.ru
     - ns2.firstvds.ru
   ip: 213.159.210.213
+'2173':
+  status:
+    - time: 1504718883447
+      status: Active
+  ip: 45.76.44.112
+'2174':
+  status:
+    - time: 1504718967761
+      status: Offline
+  nameservers:
+    - grace.ns.cloudflare.com
+    - ken.ns.cloudflare.com
+'2175':
+  status:
+    - time: 1504718856654
+      status: Offline
+  nameservers:
+    - donald.ns.cloudflare.com
+    - sharon.ns.cloudflare.com
+'2176':
+  status:
+    - time: 1504718905842
+      status: Offline
+'2177':
+  status:
+    - time: 1504718860780
+      status: Active
+  ip: 31.31.196.131
+  nameservers:
+    - ns1.hosting.reg.ru
+    - ns2.hosting.reg.ru
+'2178':
+  status:
+    - time: 1504719000421
+      status: Active
+  ip: 194.58.112.173
+  nameservers:
+    - ns1.reg.ru
+    - ns2.reg.ru
+'2179':
+  status:
+    - time: 1504718990118
+      status: Active
+  ip: 160.153.59.161
+  nameservers:
+    - ns53.domaincontrol.com
+    - ns54.domaincontrol.com
