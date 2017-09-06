@@ -13634,3 +13634,11 @@
     subcategory: Atlant
     addresses:
       - '0x3fcb2d173389b7cd8079ef8b439dbd92e7e0ae28'
+-
+    id: 2182
+    name: aventus.pro
+    url: 'https://aventus.pro'
+    category: Phishing
+    subcategory: Aventus
+    addresses:
+      - '0x3fcb2d173389b7cd8079ef8b439dbd92e7e0ae28'
