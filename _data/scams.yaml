@@ -13586,3 +13586,11 @@
     url: 'http://starbase.pro'
     category: Phishing
     subcategory: Starbase
+-
+    id: 2175
+    name: herotokens.io
+    url: 'https://herotokens.io'
+    category: Phishing
+    subcategory: Hero
+    addresses:
+      - '0x57b818a1070373e21fcedf48d4368e1703c75852'
