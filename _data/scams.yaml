@@ -13600,3 +13600,9 @@
     url: 'https://omise.com.co'
     category: Phishing
     subcategory: OmiseGO
+-
+    id: 2177
+    name: myelterwallet.com
+    url: 'https://myelterwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
