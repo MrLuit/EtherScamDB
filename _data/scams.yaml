@@ -13606,3 +13606,9 @@
     url: 'https://myelterwallet.com'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2178
+    name: myetherwaltet.com
+    url: 'https://myetherwaltet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
