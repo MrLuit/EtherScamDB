@@ -13594,3 +13594,9 @@
     subcategory: Hero
     addresses:
       - '0x57b818a1070373e21fcedf48d4368e1703c75852'
+-
+    id: 2176
+    name: omise.com.co
+    url: 'https://omise.com.co'
+    category: Phishing
+    subcategory: OmiseGO
