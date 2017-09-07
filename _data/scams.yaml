@@ -13674,3 +13674,11 @@
     subcategory: Monetha
     addresses:
       - '0x4999924fD714092FE92cA9A792a8549f798c1Dc2'
+-
+    id: 2187
+    name: kirkik.com
+    url: 'https://kirkik.com'
+    category: Phishing
+    subcategory: KIN
+    addresses:
+      - '0xF8E676094628776690DBf83fa31f08aA14FD3fb8 '
