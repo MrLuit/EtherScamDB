@@ -11067,6 +11067,9 @@
     - time: 1504820882137
       status: Active
   ip: 27.102.66.157
+  nameservers:
+    - dns1.registrar-servers.com
+    - dns2.registrar-servers.com
 '2185':
   status:
     - time: 1504820803803
