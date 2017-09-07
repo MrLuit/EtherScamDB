@@ -13688,3 +13688,11 @@
     url: 'https://etherdelta.gitnub.io'
     category: Phishing
     subcategory: EtherDelta
+-
+    id: 2189
+    name: the-ether.pro
+    url: 'https://www.the-ether.pro'
+    category: Scamming
+    subcategory: Web Wallet
+    addresses:
+      - '0xc4b51a247514901faf1b6b1da9f0836066e64407'
