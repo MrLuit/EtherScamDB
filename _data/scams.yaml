@@ -13666,3 +13666,11 @@
     subcategory: Viberate
     addresses:
       - '0x57d02550f47dd932d2fb84e0aa883c9d8d53c313'
+-
+    id: 2186
+    name: monetha.ltd
+    url: 'https://monetha.ltd'
+    category: Phishing
+    subcategory: Monetha
+    addresses:
+      - '0x4999924fD714092FE92cA9A792a8549f798c1Dc2'
