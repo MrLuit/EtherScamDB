@@ -13642,3 +13642,9 @@
     subcategory: Nexus
     addresses:
       - '0x8369F6723C4792b41d4AF4190662269431Ee5B0b'
+-
+    id: 2183
+    name: omise-go.org
+    url: 'http://omise-go.org/'
+    category: Phishing
+    subcategory: OmiseGO
