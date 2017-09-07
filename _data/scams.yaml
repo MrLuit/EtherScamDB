@@ -13658,3 +13658,11 @@
     url: 'https://www.ethereumwallet-kr.info/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2185
+    name: vlberate.io
+    url: 'https://vlberate.io'
+    category: Phishing
+    subcategory: Viberate
+    addresses:
+      - '0x57d02550f47dd932d2fb84e0aa883c9d8d53c313'
