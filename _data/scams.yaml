@@ -13550,6 +13550,8 @@
     url: 'https://etherdelta.gilthub.io'
     category: Phishing
     subcategory: EtherDelta
+    addresses:
+      - '0x6506827D91659e871fc7267160ba1C3407195270'
 -
     id: 2170
     name: dmarket.ltd
