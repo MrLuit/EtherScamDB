@@ -13681,4 +13681,10 @@
     category: Phishing
     subcategory: KIN
     addresses:
-      - '0xF8E676094628776690DBf83fa31f08aA14FD3fb8 '
+      - '0xF8E676094628776690DBf83fa31f08aA14FD3fb8'
+-
+    id: 2188
+    name: etherdelta.gitnub.io
+    url: 'https://etherdelta.gitnub.io'
+    category: Phishing
+    subcategory: EtherDelta
