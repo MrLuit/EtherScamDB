@@ -13636,9 +13636,9 @@
       - '0x3fcb2d173389b7cd8079ef8b439dbd92e7e0ae28'
 -
     id: 2182
-    name: aventus.pro
-    url: 'https://aventus.pro'
+    name: iconexus.social
+    url: 'https://iconexus.social'
     category: Phishing
-    subcategory: Aventus
+    subcategory: Nexus
     addresses:
-      - '0x3fcb2d173389b7cd8079ef8b439dbd92e7e0ae28'
+      - '0x8369F6723C4792b41d4AF4190662269431Ee5B0b'
