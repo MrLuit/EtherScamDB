@@ -13652,3 +13652,9 @@
     url: 'http://omise-go.org/'
     category: Phishing
     subcategory: OmiseGO
+-
+    id: 2184
+    name: ethereumwallet-kr.info
+    url: 'https://www.ethereumwallet-kr.info/'
+    category: Phishing
+    subcategory: MyEtherWallet
