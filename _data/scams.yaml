@@ -13702,3 +13702,9 @@
     url: 'https://etherdelta.one'
     category: Phishing
     subcategory: EtherDelta
+-
+    id: 2191
+    name: rivetzintl.org
+    url: 'https://rivetzintl.org'
+    category: Phishing
+    subcategory: Rivetzintl
