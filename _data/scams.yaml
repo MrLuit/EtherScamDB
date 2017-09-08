@@ -13696,3 +13696,9 @@
     subcategory: Web Wallet
     addresses:
       - '0xc4b51a247514901faf1b6b1da9f0836066e64407'
+-
+    id: 2190
+    name: etherdelta.one
+    url: 'https://etherdelta.one'
+    category: Phishing
+    subcategory: EtherDelta
