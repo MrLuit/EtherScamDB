@@ -13708,3 +13708,9 @@
     url: 'https://rivetzintl.org'
     category: Phishing
     subcategory: Rivetzintl
+-
+    id: 2192
+    name: omisego.com.co
+    url: 'https://omisego.com.co'
+    category: Phishing
+    subcategory: OmiseGO
