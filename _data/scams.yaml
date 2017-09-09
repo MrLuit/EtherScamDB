@@ -2451,6 +2451,8 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: Insertion
+    addresses:
+      - '0xaa1886de3f70a3ef502ea1379a311c5b4e05f3fd'
 -
     id: 361
     name: myatherwallet.com
