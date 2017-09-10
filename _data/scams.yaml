@@ -13716,3 +13716,9 @@
     url: 'https://omisego.com.co'
     category: Phishing
     subcategory: OmiseGO
+-
+    id: 2193
+    name: qtum-token.com
+    url: 'https://qtum-token.com'
+    category: Phishing
+    subcategory: Qtum
