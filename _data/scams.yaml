@@ -13722,3 +13722,11 @@
     url: 'https://qtum-token.com'
     category: Phishing
     subcategory: Qtum
+-
+    id: 2194
+    name: linknetwork.co
+    url: 'https://linknetwork.co'
+    category: Scamming
+    subcategory: Chainlink
+    addresses:
+      - '0xCbCD4b518890429C0Ffef3d782eD99b3ADFF009b'
