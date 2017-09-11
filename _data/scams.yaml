@@ -13736,3 +13736,15 @@
     url: 'http://myethereumwallet.uk'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2196
+    name: myethwallet.co.uk
+    url: 'http://myethwallet.co.uk'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2197
+    name: myelherwatlet.com
+    url: 'http://myelherwatlet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
