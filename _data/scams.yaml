@@ -13748,3 +13748,9 @@
     url: 'http://myelherwatlet.com'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2198
+    name: coindash.su
+    url: 'http://coindash.su'
+    category: Phishing
+    subcategory: MyEtherWallet
