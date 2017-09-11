@@ -13730,3 +13730,9 @@
     subcategory: Chainlink
     addresses:
       - '0xCbCD4b518890429C0Ffef3d782eD99b3ADFF009b'
+-
+    id: 2195
+    name: myethereumwallet.uk
+    url: 'http://myethereumwallet.uk'
+    category: Phishing
+    subcategory: MyEtherWallet
