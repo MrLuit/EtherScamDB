@@ -13786,3 +13786,9 @@
     subcategory: KIN
     addresses:
       - '0xaD0C88F3313ABbce2185597E87A15f764e948A46'
+-
+    id: 2204
+    name: kin-klk.com
+    url: 'https://kin-klk.com'
+    category: Phishing
+    subcategory: KIN
