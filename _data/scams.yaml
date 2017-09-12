@@ -13772,3 +13772,9 @@
     url: 'https://enigrna.co'
     category: Phishing
     subcategory: Enigma
+-
+    id: 2202
+    name: ethedelta.com
+    url: 'https://ethedelta.com'
+    category: Phishing
+    subcategory: EtherDelta
