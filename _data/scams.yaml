@@ -13766,3 +13766,9 @@
     url: 'https://wanchain.co'
     category: Phishing
     subcategory: Wanchain
+-
+    id: 2201
+    name: enigrna.co
+    url: 'https://enigrna.co'
+    category: Phishing
+    subcategory: Enigma
