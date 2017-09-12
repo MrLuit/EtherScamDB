@@ -13792,3 +13792,6 @@
     url: 'https://kin-klk.com'
     category: Phishing
     subcategory: KIN
+    addresses:
+      - '0x5d3f32f4b2e99fb79d2f6a1cbf3aa7390f8fc751'
+    
