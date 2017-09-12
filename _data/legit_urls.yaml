@@ -324,3 +324,7 @@
     name: Golem
     featured: true
     url: 'https://golem.network'
+-
+    id: 75
+    name: Nexus
+    url: 'https://ico.nexus.social/'
