@@ -13814,3 +13814,5 @@
     url: 'https://red-pulse.tech'
     category: Phishing
     subcategory: RedPulse
+    addresses:
+      - '0x052f585fa599bfb4bed290ff30c057627ccd8059'
