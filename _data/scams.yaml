@@ -13794,4 +13794,9 @@
     subcategory: KIN
     addresses:
       - '0x5d3f32f4b2e99fb79d2f6a1cbf3aa7390f8fc751'
-    
+-
+    id: 2205
+    name: xn--bttrex-bwa.com
+    url: 'https://xn--bttrex-bwa.com'
+    category: Phishing
+    subcategory: Bittrex
