@@ -13754,3 +13754,9 @@
     url: 'http://coindash.su'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2199
+    name: iconexu.social
+    url: 'https://iconexu.social/'
+    category: Phishing
+    subcategory: Nexus
