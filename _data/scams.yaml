@@ -13778,3 +13778,20 @@
     url: 'https://ethedelta.com'
     category: Phishing
     subcategory: EtherDelta
+-
+    id: 2203
+    name: kin-crowdsale.com
+    url: 'https://kin-crowdsale.com'
+    category: Scamming
+    subcategory: KIN
+    addresses:
+      - '0xaD0C88F3313ABbce2185597E87A15f764e948A46'
+-
+    id: 2204
+    name: kin-klk.com
+    url: 'https://kin-klk.com'
+    category: Phishing
+    subcategory: KIN
+    addresses:
+      - '0x5d3f32f4b2e99fb79d2f6a1cbf3aa7390f8fc751'
+    
