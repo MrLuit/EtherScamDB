@@ -13760,3 +13760,9 @@
     url: 'https://iconexu.social/'
     category: Phishing
     subcategory: Nexus
+-
+    id: 2200
+    name: wanchain.co
+    url: 'https://wanchain.co'
+    category: Phishing
+    subcategory: Wanchain
