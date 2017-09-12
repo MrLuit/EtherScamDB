@@ -13808,3 +13808,9 @@
     subcategory: Bitjob
     addresses:
       - '0xd821dfb705333d2c16e0c0c0be75ce360cca566a'
+-
+    id: 2207
+    name: red-pulse.tech
+    url: 'https://red-pulse.tech'
+    category: Phishing
+    subcategory: RedPulse
