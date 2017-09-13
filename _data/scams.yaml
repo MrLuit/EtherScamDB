@@ -13816,3 +13816,11 @@
     subcategory: RedPulse
     addresses:
       - '0x052f585fa599bfb4bed290ff30c057627ccd8059'
+-
+    id: 2208
+    name: ico-nexus.social
+    url: 'https://ico-nexus.social'
+    category: Phishing
+    subcategory: Nexus
+    addresses:
+      - '0x7fBf068316C5806A62D549441ae82b00Fdb10dE1'
