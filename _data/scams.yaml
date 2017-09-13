@@ -13842,3 +13842,9 @@
     url: 'https://xn--bittrx-mva.com'
     category: Phishing
     subcategory: Bittrex
+-
+    id: 2212
+    name: coinbase.com.eslogin.co
+    url: 'https://coinbase.com.eslogin.co'
+    category: Phishing
+    subcategory: Coinbase
