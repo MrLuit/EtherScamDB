@@ -13848,3 +13848,11 @@
     url: 'https://coinbase.com.eslogin.co'
     category: Phishing
     subcategory: Coinbase
+-
+    id: 2213
+    name: enigma-tokens.co
+    url: 'https://enigma-tokens.co'
+    category: Phishing
+    subcategory: Engima
+    addresses:
+      - '0x2D4498a2CF71F5b0946f0ebcfff97ca9D0cd5D04'
