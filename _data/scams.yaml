@@ -13824,3 +13824,15 @@
     subcategory: Nexus
     addresses:
       - '0x7fBf068316C5806A62D549441ae82b00Fdb10dE1'
+-
+    id: 2209
+    name: ethrdelta.github.io
+    url: 'https://ethrdelta.github.io'
+    category: Phishing
+    subcategory: EtherDelta
+-
+    id: 2210
+    name: etherdellta.com
+    url: 'https://etherdellta.com'
+    category: Phishing
+    subcategory: EtherDelta
