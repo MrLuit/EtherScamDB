@@ -13917,3 +13917,11 @@
     subcategory: ENS
     addresses:
       - '0x7C203685291149D5dAd4308781F42A6B945dF4E1'
+-
+    id: 2223
+    name: kyber-network.co
+    url: 'https://kyber-network.co'
+    category: Phishing
+    subcategory: Kyber
+    addresses:
+      - '0x5e5d6f6706420f932d796c0f28a83b26dabcfd8d'
