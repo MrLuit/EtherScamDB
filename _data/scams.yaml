@@ -13885,4 +13885,5 @@
     category: Phishing
     subcategory: ChangeBank
     addresses:
+      - '0xbe3364dfb8158A3e452FF96AEb247BF3f5F019B5'
       - '0x1E75f03fF928BCA6c1692179679AFC0223d7824F'
