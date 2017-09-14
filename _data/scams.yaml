@@ -13753,7 +13753,7 @@
     name: coindash.su
     url: 'http://coindash.su'
     category: Phishing
-    subcategory: MyEtherWallet
+    subcategory: Coindash
 -
     id: 2199
     name: iconexu.social
@@ -13848,3 +13848,9 @@
     url: 'https://coinbase.com.eslogin.co'
     category: Phishing
     subcategory: Coinbase
+-
+    id: 2213
+    name: myetherwallct.com
+    url: 'https://myetherwallct.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
