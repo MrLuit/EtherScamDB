@@ -13909,4 +13909,11 @@
     subcategory: Kyber
     addresses:
       - '0x7a18cfc4a36e48163034e51a9ed19d4bdea05f6f'
-      
+-
+    id: 2222
+    name: pyro0.github.io
+    url: 'https://pyro0.github.io'
+    category: Scam
+    subcategory: ENS
+    addresses:
+      - '0x7C203685291149D5dAd4308781F42A6B945dF4E1'
