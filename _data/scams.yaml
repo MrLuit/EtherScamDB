@@ -13901,3 +13901,12 @@
     url: 'http://omise-go.me'
     category: Phishing
     subcategory: OmiseGo
+-
+    id: 2221
+    name: tokensale.kyber.digital
+    url: 'https://tokensale.kyber.digital'
+    category: Phishing
+    subcategory: Kyber
+    addresses:
+      - '0x7a18cfc4a36e48163034e51a9ed19d4bdea05f6f'
+      
