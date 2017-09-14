@@ -13878,3 +13878,11 @@
     url: 'http://my.ethervvallet.eu'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2218
+    name: change-bank.co
+    url: 'http://change-bank.co'
+    category: Phishing
+    subcategory: ChangeBank
+    addresses:
+      - '0x1E75f03fF928BCA6c1692179679AFC0223d7824F'
