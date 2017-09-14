@@ -13851,6 +13851,30 @@
 -
     id: 2213
     name: myetherwallct.com
-    url: 'https://myetherwallct.com/'
+    url: 'https://myetherwallct.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2214
+    name: myetherwalilet.com
+    url: 'https://myetherwalilet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2215
+    name: myethwallet.uk
+    url: 'https://myethwallet.uk'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2216
+    name: myetherwalleit.com
+    url: 'https://myetherwalleit.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2217
+    name: my.ethervvallet.eu
+    url: 'http://my.ethervvallet.eu'
     category: Phishing
     subcategory: MyEtherWallet
