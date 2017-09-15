@@ -13937,3 +13937,11 @@
     url: 'http://my.ethervvallet.com'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2226
+    name: kin.kikpro.co
+    url: 'https://kin.kikpro.co'
+    category: Phishing
+    subcategory: KIN
+    addresses:
+      - '0x8b3b831d767FAD1ab0ad52A38777acb98630F8a7'
