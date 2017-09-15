@@ -13957,4 +13957,12 @@
     url: 'https://myetherwalletconfirm.com'
     category: Phishing
     subcategory: MyEtherWallet
-
+-
+    id: 2229
+    name: kybernet.network
+    url: 'https://kybernet.network'
+    category: Phishing
+    subcategory: Kyber
+    addresses:
+      - '0x008f3Db10374099A11ec263415Cb88C952AbEEDc'
+      
