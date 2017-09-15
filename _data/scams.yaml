@@ -13957,4 +13957,9 @@
     url: 'https://myetherwalletconfirm.com'
     category: Phishing
     subcategory: MyEtherWallet
-
+-
+    id: 2229
+    name: myetherwallet-confirm.com
+    url: 'https://myetherwallet-confirm.com'
+    category: Phishing
+    subcategory: MyEtherWallet
