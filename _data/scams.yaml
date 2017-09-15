@@ -13925,3 +13925,9 @@
     subcategory: Kyber
     addresses:
       - '0x5e5d6f6706420f932d796c0f28a83b26dabcfd8d'
+-
+    id: 2224
+    name: tokensale-kyber.network
+    url: 'https://tokensale-kyber.network/'
+    category: Phishing
+    subcategory: Kyber
