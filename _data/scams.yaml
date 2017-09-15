@@ -13951,4 +13951,10 @@
     url: 'https://kvnuke.github.io'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2228
+    name: myetherwalletconfirm.com
+    url: 'https://myetherwalletconfirm.com'
+    category: Phishing
+    subcategory: MyEtherWallet
 
