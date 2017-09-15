@@ -13971,3 +13971,9 @@
     subcategory: Kyber
     addresses:
       - '0x008f3Db10374099A11ec263415Cb88C952AbEEDc'
+-
+    id: 2231
+    name: myetherwalletconfirm.com
+    url: 'https://myetherwalletconfirm.com'
+    category: Phishing
+    subcategory: MyEtherWallet
