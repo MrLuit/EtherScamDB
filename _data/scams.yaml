@@ -13928,6 +13928,12 @@
 -
     id: 2224
     name: tokensale-kyber.network
-    url: 'https://tokensale-kyber.network/'
+    url: 'https://tokensale-kyber.network'
     category: Phishing
     subcategory: Kyber
+-
+    id: 2225
+    name: my.ethervvallet.com
+    url: 'http://my.ethervvallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
