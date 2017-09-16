@@ -13977,3 +13977,11 @@
     url: 'https://myetherwalletconfirm.com'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2232
+    name: change-bank.org
+    url: 'https://change-bank.org'
+    category: Phishing
+    subcategory: ChangeBank
+    addresses:
+      - '0x8eE2Ba41EF59b5773e5909451e0b8BaD4E59A81b'
