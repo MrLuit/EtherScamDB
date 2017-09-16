@@ -13977,3 +13977,9 @@
     url: 'https://myetherwalletconfirm.com'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2232
+    name: change-bank.io
+    url: 'http://change-bank.io'
+    category: Phishing
+    subcategory: ChangeBank
