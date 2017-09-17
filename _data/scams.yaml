@@ -14011,3 +14011,11 @@
     subcategory: ChangeBank
     addresses:
       - '0x34743FFA1f93e745668725e44EFEb3C50A237796'
+-
+    id: 2237
+    name: change-bank.org
+    url: 'https://change-bank.org'
+    category: Phishing
+    subcategory: ChangeBank
+    addresses:
+      - '0x8eE2Ba41EF59b5773e5909451e0b8BaD4E59A81b'
