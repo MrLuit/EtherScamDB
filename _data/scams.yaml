@@ -14003,3 +14003,11 @@
     url: 'https://myetherwalletsingin.com'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2236
+    name: charge-bank.com
+    url: 'http://charge-bank.com'
+    category: Phishing
+    subcategory: ChangeBank
+    addresses:
+      - '0x34743FFA1f93e745668725e44EFEb3C50A237796'
