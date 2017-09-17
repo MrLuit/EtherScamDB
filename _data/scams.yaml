@@ -14019,3 +14019,9 @@
     subcategory: ChangeBank
     addresses:
       - '0x8eE2Ba41EF59b5773e5909451e0b8BaD4E59A81b'
+-
+    id: 2238
+    name: 0xtoken.io
+    url: 'https://0xtoken.io'
+    category: Phishing
+    subcategory: 0xproject
