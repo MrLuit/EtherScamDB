@@ -14033,8 +14033,27 @@
     subcategory: Shapeshift
 -
     id: 2240
+    name: myetheriwallet.com
+    url: 'https://myetheriwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2241
+    name: myetherwiallet.com
+    url: 'https://myetherwiallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2242
+    name: smartcontractlink.com
+    url: 'https://smartcontractlink.com'
+    category: Phishing
+    subcategory: Chainlink
+    addresses:
+      - '0x1c50139c266559b29d7cb27635e0da13bef76a09'
+-
+    id: 2243
     name: myetherwallet-singin.com
     url: 'https://myetherwallet-singin.com'
     category: Phishing
     subcategory: MyEtherWallet
-    
