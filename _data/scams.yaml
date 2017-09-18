@@ -14031,3 +14031,10 @@
     url: 'https://shapesshift.io'
     category: Phishing
     subcategory: Shapeshift
+-
+    id: 2240
+    name: myetherwallet-singin.com
+    url: 'https://myetherwallet-singin.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    
