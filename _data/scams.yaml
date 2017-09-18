@@ -14031,3 +14031,12 @@
     url: 'https://shapesshift.io'
     category: Phishing
     subcategory: Shapeshift
+-
+    id: 2240
+    name: smartcontractlink.com
+    url: 'https://smartcontractlink.com'
+    category: Phishing
+    subcategory: Chainlink
+    addresses:
+      - '0x1c50139c266559b29d7cb27635e0da13bef76a09'
+      
