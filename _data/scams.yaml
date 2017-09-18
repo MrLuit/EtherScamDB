@@ -14051,3 +14051,9 @@
     subcategory: Chainlink
     addresses:
       - '0x1c50139c266559b29d7cb27635e0da13bef76a09'
+-
+    id: 2243
+    name: myetherwallet-singin.com
+    url: 'https://myetherwallet-singin.com'
+    category: Phishing
+    subcategory: MyEtherWallet
