@@ -14067,3 +14067,11 @@
     subcategory: CentraTech
     addresses:
       - '0xaff9e40f9b245b15a1d1bb45516ca213e682fa81'
+-
+    id: 2245
+    name: air-token.com
+    url: 'https://air-token.com'
+    category: Scamming
+    subcategory: AirToken
+    addresses:
+      - '0xE9aa3A74E3D62274f221ECa42736cAdC14CcfFaF'
