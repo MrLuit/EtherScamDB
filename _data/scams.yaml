@@ -14091,3 +14091,10 @@
     subcategory: LINK
     addresses:
       - '0xabc490af011C8E354B7D2112648883fe9E511695'
+    id: 2248
+    name: centra.vip
+    url: 'https://centra.vip'
+    category: Phishing
+    subcategory: CentraTech
+    addresses:
+      - '0xfAd17C9da2beBF758e3BC0c99D1aBe8Af7e96eD1'
