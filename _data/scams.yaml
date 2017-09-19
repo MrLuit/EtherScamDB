@@ -14091,6 +14091,7 @@
     subcategory: LINK
     addresses:
       - '0xabc490af011C8E354B7D2112648883fe9E511695'
+-
     id: 2248
     name: centra.vip
     url: 'https://centra.vip'
@@ -14098,3 +14099,11 @@
     subcategory: CentraTech
     addresses:
       - '0xfAd17C9da2beBF758e3BC0c99D1aBe8Af7e96eD1'
+-
+    id: 2249
+    name: iconn.foundation
+    url: 'https://iconn.foundation'
+    category: Phishing
+    subcategory: ICON
+    addresses:
+      - '0xFC74FB0D5df08EC546a3DA18CCc7FBcBe031F5D8'
