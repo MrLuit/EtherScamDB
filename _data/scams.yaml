@@ -14107,3 +14107,11 @@
     subcategory: ICON
     addresses:
       - '0xFC74FB0D5df08EC546a3DA18CCc7FBcBe031F5D8'
+-
+    id: 2250
+    name: cobinhood.org
+    url: 'http://cobinhood.org/'
+    category: Phishing
+    subcategory: CobinHood
+    addresses:
+      - '0x62eE4A3C690C9660762c52BF1a232365C86C879B'
