@@ -14059,3 +14059,11 @@
     url: 'https://myetherwallet-singin.com'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2244
+    name: centra.credit
+    url: 'https://centra.credit'
+    category: Phishing
+    subcategory: CentraTech
+    addresses:
+      - '0xaff9e40f9b245b15a1d1bb45516ca213e682fa81'
