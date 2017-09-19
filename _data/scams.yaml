@@ -14071,7 +14071,15 @@
     id: 2245
     name: air-token.com
     url: 'https://air-token.com'
-    category: Scamming
+    category: Phishing
     subcategory: AirToken
     addresses:
       - '0xE9aa3A74E3D62274f221ECa42736cAdC14CcfFaF'
+-
+    id: 2246
+    name: icon.community
+    url: 'https://icon.community'
+    category: Phishing
+    subcategory: ICON
+    addresses:
+      - '0xca4da1753336aa8340710e0E1a8c0BEE2bFbF56C'
