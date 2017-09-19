@@ -14083,3 +14083,11 @@
     subcategory: ICON
     addresses:
       - '0xca4da1753336aa8340710e0E1a8c0BEE2bFbF56C'
+-
+    id: 2247
+    name: smartcontract.live
+    url: 'https://smartcontract.live'
+    category: Phishing
+    subcategory: LINK
+    addresses:
+      - '0xabc490af011C8E354B7D2112648883fe9E511695'
