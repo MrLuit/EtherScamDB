@@ -14113,3 +14113,9 @@
     url: 'https://bitfienex.com'
     category: Phishing
     subcategory: Bitfinex
+-
+    id: 2251
+    name: bitfinex.com.co
+    url: 'https://bitfinex.com.co'
+    category: Phishing
+    subcategory: Bitfinex
