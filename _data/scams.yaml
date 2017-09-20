@@ -14107,3 +14107,9 @@
     subcategory: ICON
     addresses:
       - '0xFC74FB0D5df08EC546a3DA18CCc7FBcBe031F5D8'
+-
+    id: 2250
+    name: bitfienex.com
+    url: 'https://bitfienex.com'
+    category: Phishing
+    subcategory: Bitfinex
