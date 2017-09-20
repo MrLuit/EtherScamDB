@@ -14109,8 +14109,19 @@
       - '0xFC74FB0D5df08EC546a3DA18CCc7FBcBe031F5D8'
 -
     id: 2250
+    name: bitfienex.com
+    url: 'https://bitfienex.com'
+    category: Phishing
+    subcategory: Bitfinex
+-
+    id: 2251
+    name: bitfinex.com.co
+    url: 'https://bitfinex.com.co'
+    category: Phishing
+    subcategory: Bitfinex
+-
+    id: 2252
     name: happy-coin.org
     url: 'https://happy-coin.org'
     category: Scamming
     subcategory: WebWallet
-
