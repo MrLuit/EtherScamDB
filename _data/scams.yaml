@@ -14141,3 +14141,11 @@
     subcategory: REAL
     addresses:
       - '0xB116D83C919d6661dc20246D312B702f0cDf297C'
+-
+    id: 2255
+    name: kinkik.in
+    url: 'http://kinkik.in/'
+    category: Phishing
+    subcategory: KIN
+    addresses:
+      - '0x854b62b692aC8411C3a45463c44CBdAbAC2D6913'
