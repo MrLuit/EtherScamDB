@@ -14133,3 +14133,11 @@
     subcategory: CobinHood
     addresses:
       - '0x62eE4A3C690C9660762c52BF1a232365C86C879B'
+-
+    id: 2254
+    name: reall.markets
+    url: 'http://reall.markets/'
+    category: Phishing
+    subcategory: REAL
+    addresses:
+      - '0xB116D83C919d6661dc20246D312B702f0cDf297C'
