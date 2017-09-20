@@ -14141,3 +14141,11 @@
     subcategory: REAL
     addresses:
       - '0xB116D83C919d6661dc20246D312B702f0cDf297C'
+-
+    id: 2255
+    name: eventchain.co
+    url: 'http://eventchain.co/'
+    category: Phishing
+    subcategory: EVC
+    addresses:
+      - '0x37D0909CC7eC38F2d966092Ea3607F77bC6bc008'
