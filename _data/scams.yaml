@@ -14125,3 +14125,11 @@
     url: 'https://happy-coin.org'
     category: Scamming
     subcategory: WebWallet
+-
+    id: 2253
+    name: cobinhood.org
+    url: 'http://cobinhood.org/'
+    category: Phishing
+    subcategory: CobinHood
+    addresses:
+      - '0x62eE4A3C690C9660762c52BF1a232365C86C879B'
