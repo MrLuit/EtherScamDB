@@ -14119,3 +14119,9 @@
     url: 'https://bitfinex.com.co'
     category: Phishing
     subcategory: Bitfinex
+-
+    id: 2252
+    name: happy-coin.org
+    url: 'https://happy-coin.org'
+    category: Scamming
+    subcategory: WebWallet
