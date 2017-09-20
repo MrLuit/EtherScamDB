@@ -14141,3 +14141,10 @@
     subcategory: REAL
     addresses:
       - '0xB116D83C919d6661dc20246D312B702f0cDf297C'
+-
+    id: 2255
+    name: myetherwalletws.com
+    url: 'http://myetherwalletws.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW, stealing private keys with log.php'
