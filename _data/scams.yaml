@@ -14154,3 +14154,9 @@
     url: 'http://myetherwalletntw.com/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2257
+    name: myethereumwalletntw.com
+    url: 'http://myethereumwalletntw.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
