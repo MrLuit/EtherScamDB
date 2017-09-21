@@ -14166,3 +14166,9 @@
     url: 'http://omisegotoken.com/'
     category: Phishing
     subcategory: OmiseGo
+-
+    id: 2259
+    name: myetherwalletlogin.com
+    url: 'http://myetherwalletlogin.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
