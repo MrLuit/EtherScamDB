@@ -14184,3 +14184,11 @@
     url: 'http://myetherumwalletview.com/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2262
+    name: kinkik.in
+    url: 'http://kinkik.in/'
+    category: Phishing
+    subcategory: KIN
+    addresses:
+      - '0x854b62b692aC8411C3a45463c44CBdAbAC2D6913'
