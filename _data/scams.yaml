@@ -14143,6 +14143,43 @@
       - '0xB116D83C919d6661dc20246D312B702f0cDf297C'
 -
     id: 2255
+    name: myetherwalletws.com
+    url: 'http://myetherwalletws.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW, stealing private keys with log.php'
+-
+    id: 2256
+    name: myetherwalletntw.com
+    url: 'http://myetherwalletntw.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2257
+    name: myethereumwalletntw.com
+    url: 'http://myethereumwalletntw.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2258
+    name: omisegotoken.com
+    url: 'http://omisegotoken.com/'
+    category: Phishing
+    subcategory: OmiseGo
+-
+    id: 2259
+    name: myetherwalletlogin.com
+    url: 'http://myetherwalletlogin.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2260
+    name: coinrbase.com
+    url: 'http://coinrbase.com/'
+    category: Phishing
+    subcategory: Coinibase
+-
+    id: 2261
     name: myetherumwalletview.com
     url: 'http://myetherumwalletview.com/'
     category: Phishing
