@@ -14172,3 +14172,9 @@
     url: 'http://myetherwalletlogin.com/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2260
+    name: coinrbase.com
+    url: 'http://coinrbase.com/'
+    category: Phishing
+    subcategory: Coinibase
