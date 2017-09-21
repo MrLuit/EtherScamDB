@@ -14192,3 +14192,11 @@
     subcategory: KIN
     addresses:
       - '0x854b62b692aC8411C3a45463c44CBdAbAC2D6913'
+-
+    id: 2263
+    name: eventchain.co
+    url: 'http://eventchain.co/'
+    category: Phishing
+    subcategory: EVC
+    addresses:
+      - '0x37D0909CC7eC38F2d966092Ea3607F77bC6bc008'
