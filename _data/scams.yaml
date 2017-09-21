@@ -14160,3 +14160,9 @@
     url: 'http://myethereumwalletntw.com/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2258
+    name: omisegotoken.com
+    url: 'http://omisegotoken.com/'
+    category: Phishing
+    subcategory: OmiseGo
