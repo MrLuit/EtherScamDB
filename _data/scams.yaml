@@ -14200,3 +14200,9 @@
     subcategory: EVC
     addresses:
       - '0x37D0909CC7eC38F2d966092Ea3607F77bC6bc008'
+-
+    id: 2264
+    name: myetherwallets.co
+    url: 'http://myetherwallets.co/'
+    category: Phishing
+    subcategory: MyEtherWallet
