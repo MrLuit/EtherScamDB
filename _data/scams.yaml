@@ -14206,3 +14206,11 @@
     url: 'http://myetherwallets.co/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2265
+    name: protostokenhub.com
+    url: 'http://protostokenhub.com/'
+    category: Phishing
+    subcategory: Protos
+    addresses:
+      - '0xd92559E1F1d2E84F4964F45256693D03833D7D44'
