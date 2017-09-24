@@ -14214,3 +14214,10 @@
     subcategory: Protos
     addresses:
       - '0xd92559E1F1d2E84F4964F45256693D03833D7D44'
+-
+    id: 2266
+    name: myetherwallet.com.vc
+    url: 'http://myetherwallet.com.vc/'
+    category: Phishing
+    subcategory: MyEtherWallet
+
