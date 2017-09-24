@@ -14214,3 +14214,11 @@
     subcategory: Protos
     addresses:
       - '0xd92559E1F1d2E84F4964F45256693D03833D7D44'
+-
+    id: 2266
+    name: cindicator.pro
+    url: 'http://cindicator.pro/'
+    category: Phishing
+    subcategory: Cindicator
+    addresses:
+      - '0x17BD6f815fB71a77dc20E12177c4d763A3f67632'
