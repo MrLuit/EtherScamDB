@@ -14220,3 +14220,9 @@
     url: 'http://ethewallet.com/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2267
+    name: myetherwallet.com.vc
+    url: 'http://myetherwallet.com.vc/'
+    category: Phishing
+    subcategory: MyEtherWallet
