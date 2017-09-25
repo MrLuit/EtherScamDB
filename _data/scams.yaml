@@ -14250,3 +14250,9 @@
     url: 'http://myetherwallets.us/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2272
+    name: myetherwalletsignin.com
+    url: 'http://myetherwalletsignin.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
