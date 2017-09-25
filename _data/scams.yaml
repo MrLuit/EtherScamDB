@@ -14270,4 +14270,10 @@
     url: 'http://myetherwallet.money/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2275
+    name: coinkbase.com
+    url: 'http://coinkbase.com/'
+    category: Phishing
+    subcategory: Coinbase
     
