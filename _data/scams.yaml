@@ -14231,4 +14231,10 @@
     name: myetherwallets.info
     url: 'http://mmyetherwallets.info/'
     category: Phishing
+    subcategory: MyEtherWallet'
+-
+    id: 2269
+    name: myetherwallet.com.ailogin.me
+    url: 'http://myetherwallet.com.ailogin.me/'
+    category: Phishing
     subcategory: MyEtherWallet
