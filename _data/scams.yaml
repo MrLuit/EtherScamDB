@@ -14256,3 +14256,11 @@
     url: 'http://myetherwalletsignin.com/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2273
+    name: cindicator.pro
+    url: 'http://cindicator.pro/'
+    category: Phishing
+    subcategory: Cindicator
+    addresses:
+      - '0x17BD6f815fB71a77dc20E12177c4d763A3f67632'
