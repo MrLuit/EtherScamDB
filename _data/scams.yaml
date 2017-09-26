@@ -14282,3 +14282,10 @@
     url: 'http://ibittreix.com/'
     category: Phishing
     subcategory: Bittrex
+-
+    id: 2278
+    name: request-network.com
+    url: 'http://request-network.com/'
+    category: Phishing
+    subcategory: Request
+    
