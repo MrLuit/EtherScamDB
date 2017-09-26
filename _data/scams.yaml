@@ -14300,3 +14300,9 @@
     url: 'http://wallet-ethereum.org/'
     category: Scam
     subcategory: WebWallet
+-
+    id: 2281
+    name: myetherermwallet.com
+    url: 'http://myetherermwallet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
