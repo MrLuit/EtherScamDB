@@ -14276,4 +14276,9 @@
     url: 'http://coinkbase.com/'
     category: Phishing
     subcategory: Coinbase
-    
+-
+    id: 2277
+    name: ibittreix.com
+    url: 'http://ibittreix.com/'
+    category: Phishing
+    subcategory: Bittrex
