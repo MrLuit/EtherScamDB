@@ -14300,3 +14300,11 @@
     url: 'http://wallet-ethereum.org/'
     category: Scam
     subcategory: WebWallet
+-
+    id: 2281
+    name: real-markets.io
+    url: 'http://real-markets.io/'
+    category: Phishing
+    subcategory: REALMarkets
+    addresses:
+      - '0x143494359bBACC878308075C1c9FA05fcda96651'
