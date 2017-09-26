@@ -14282,3 +14282,16 @@
     url: 'http://ibittreix.com/'
     category: Phishing
     subcategory: Bittrex
+-
+    id: 2278
+    name: shapeshifth.io
+    url: 'http://shapeshifth.io/'
+    category: Phishing
+    subcategory: Shapeshift
+-
+    id: 2279
+    name: shiapeshift.in
+    url: 'http://shiapeshift.in/'
+    category: Phishing
+    subcategory: Shapeshift
+    
