@@ -14294,4 +14294,9 @@
     url: 'http://shiapeshift.in/'
     category: Phishing
     subcategory: Shapeshift
-    
+-
+    id: 2280
+    name: wallet-ethereum.org
+    url: 'http://wallet-ethereum.org/'
+    category: Scam
+    subcategory: WebWallet
