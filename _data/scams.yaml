@@ -14300,3 +14300,9 @@
     url: 'http://wallet-ethereum.org/'
     category: Scam
     subcategory: WebWallet
+-
+    id: 2281
+    name: request-network.com
+    url: 'http://request-network.com/'
+    category: Phishing
+    subcategory: Request
