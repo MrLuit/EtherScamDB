@@ -14284,8 +14284,25 @@
     subcategory: Bittrex
 -
     id: 2278
+    name: shapeshifth.io
+    url: 'http://shapeshifth.io/'
+    category: Phishing
+    subcategory: Shapeshift
+-
+    id: 2279
+    name: shiapeshift.in
+    url: 'http://shiapeshift.in/'
+    category: Phishing
+    subcategory: Shapeshift
+-
+    id: 2280
+    name: wallet-ethereum.org
+    url: 'http://wallet-ethereum.org/'
+    category: Scam
+    subcategory: WebWallet
+-
+    id: 2281
     name: request-network.com
     url: 'http://request-network.com/'
     category: Phishing
     subcategory: Request
-    
