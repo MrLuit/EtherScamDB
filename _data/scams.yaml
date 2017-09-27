@@ -14302,6 +14302,12 @@
     subcategory: WebWallet
 -
     id: 2281
+    name: request-network.com
+    url: 'http://request-network.com/'
+    category: Phishing
+    subcategory: Request
+-
+    id: 2282
     name: real-markets.io
     url: 'http://real-markets.io/'
     category: Phishing
