@@ -14314,3 +14314,9 @@
     subcategory: REALMarkets
     addresses:
       - '0x143494359bBACC878308075C1c9FA05fcda96651'
+-
+    id: 2283
+    name: myelheriwallet.com
+    url: 'http://myelheriwallet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
