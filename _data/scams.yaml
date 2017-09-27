@@ -14320,3 +14320,9 @@
     url: 'http://myelheriwallet.com/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2284
+    name: myetherermwallet.com
+    url: 'http://myetherermwallet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
