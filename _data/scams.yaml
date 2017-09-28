@@ -14344,3 +14344,9 @@
     url: 'http://myetherwallet-secure.com/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2288
+    name: myetherwallett.neocities.org
+    url: 'http://myetherwallett.neocities.org/'
+    category: Phishing
+    subcategory: MyEtherWallet
