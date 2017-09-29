@@ -14376,4 +14376,9 @@
     subcategory: Cobinhood
     addresses:
       - '0x920aDc9A060cdA345fdEc2fdeBAd6EBF38eDf83D'
-      
+-
+    id: 2293
+    name: etherdelta.su
+    url: 'http://etherdelta.su/'
+    category: Phishing
+    subcategory: EtherDelta
