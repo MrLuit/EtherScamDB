@@ -14346,6 +14346,12 @@
     subcategory: MyEtherWallet
 -
     id: 2288
+    name: myetherwalletto.com
+    url: 'http://myetherwalletto.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2289
     name: myetherwalletio.com
     url: 'http://myetherwalletio.com/'
     category: Phishing
