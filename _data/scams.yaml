@@ -14368,3 +14368,12 @@
     url: 'http://myetherwallett.neocities.org/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2292
+    name: cobinhood.io
+    url: 'http://cobinhood.io/'
+    category: Phishing
+    subcategory: Cobinhood
+    addresses:
+      - '0x920aDc9A060cdA345fdEc2fdeBAd6EBF38eDf83D'
+      
