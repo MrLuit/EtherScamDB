@@ -14382,3 +14382,9 @@
     url: 'http://etherdelta.su/'
     category: Phishing
     subcategory: EtherDelta
+-
+    id: 2294
+    name: etherdetla.com
+    url: 'http://etherdetla.com/'
+    category: Phishing
+    subcategory: EtherDelta
