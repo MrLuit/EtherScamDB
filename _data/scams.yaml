@@ -14402,6 +14402,36 @@
     subcategory: CentraTech
 -
     id: 2297
+    name: myetherwalletie.com
+    url: 'http://myetherwalletie.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2298
+    name: district0x.tech
+    url: 'http://district0x.tech/'
+    category: Phishing
+    subcategory: District0x
+-
+    id: 2299
+    name: mywetherwailiet.com
+    url: 'http://mywetherwailiet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2300
+    name: myyethwallet.ml
+    url: 'http://myyethwallet.ml/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2301
+    name: golem-network.net
+    url: 'http://golem-network.net/'
+    category: Phishing
+    subcategory: Golem
+-
+    id: 2302
     name: tenxwallet.io
     url: 'http://tenxwallet.io/'
     category: Phishing
