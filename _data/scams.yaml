@@ -14382,3 +14382,9 @@
     url: 'http://etherdelta.su/'
     category: Phishing
     subcategory: EtherDelta
+-
+    id: 2294
+    name: centra-token.com
+    url: 'http://centra-token.com/'
+    category: Phishing
+    subcategory: CentraTech
