@@ -14400,3 +14400,9 @@
     url: 'http://centra-token.com/'
     category: Phishing
     subcategory: CentraTech
+-
+    id: 2297
+    name: district0x.tech
+    url: 'http://district0x.tech/'
+    category: Phishing
+    subcategory: District0x
