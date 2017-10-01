@@ -14425,3 +14425,8 @@
     category: Phishing
     subcategory: MyEtherWallet
 -
+    id: 2301
+    name: golem-network.net
+    url: 'http://golem-network.net/'
+    category: Phishing
+    subcategory: Golem
