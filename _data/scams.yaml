@@ -14412,3 +14412,16 @@
     url: 'http://district0x.tech/'
     category: Phishing
     subcategory: District0x
+-
+    id: 2299
+    name: mywetherwailiet.com
+    url: 'http://mywetherwailiet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2300
+    name: myyethwallet.ml
+    url: 'http://myyethwallet.ml/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
