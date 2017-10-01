@@ -14400,3 +14400,9 @@
     url: 'http://centra-token.com/'
     category: Phishing
     subcategory: CentraTech
+-
+    id: 2297
+    name: golem-network.net
+    url: 'http://golem-network.net/'
+    category: Phishing
+    subcategory: Golem
