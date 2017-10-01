@@ -14406,3 +14406,9 @@
     url: 'http://myetherwalletie.com/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2298
+    name: district0x.tech
+    url: 'http://district0x.tech/'
+    category: Phishing
+    subcategory: District0x
