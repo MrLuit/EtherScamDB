@@ -14384,6 +14384,12 @@
     subcategory: EtherDelta
 -
     id: 2294
+    name: etnerparty.io
+    url: 'http://etnerparty.io/'
+    category: Phishing
+    subcategory: EtherParty
+-
+    id: 2295
     name: etherdetla.com
     url: 'http://etherdetla.com/'
     category: Phishing
