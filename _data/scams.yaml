@@ -14400,3 +14400,15 @@
     url: 'http://centra-token.com/'
     category: Phishing
     subcategory: CentraTech
+-
+    id: 2297
+    name: mywetherwailiet.com
+    url: 'http://mywetherwailiet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2298
+    name: myyethwallet.ml
+    url: 'http://myyethwallet.ml/'
+    category: Phishing
+    subcategory: MyEtherWallet
