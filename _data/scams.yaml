@@ -14430,3 +14430,9 @@
     url: 'http://golem-network.net/'
     category: Phishing
     subcategory: Golem
+-
+    id: 2302
+    name: tenxwallet.io
+    url: 'http://tenxwallet.io/'
+    category: Phishing
+    subcategory: TenX
