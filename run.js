@@ -83,11 +83,14 @@ function startWebServer() {
     });
 
     app.get('/scams/:page?/:sorting?/', function(req, res) {
+            const MAX_RESULTS_PER_PAGE = 30;
             let template = fs.readFileSync('./_layouts/scams.html', 'utf8');
 			let scams = getCache().scams;
-            template = template.replace("{{ scams.total }}", scams.length);
-            template = template.replace("{{ scams.active }}", 0);
             let addresses = {};
+
+            template = template.replace("{{ scams.total }}", scams.length.toLocaleString('en-US'));
+            template = template.replace("{{ scams.active }}", 0);
+
             scams.forEach(function(scam, index) {
                 if ('addresses' in scam) {
                     scams[index].addresses.forEach(function(address) {
@@ -95,20 +98,25 @@ function startWebServer() {
                     });
                 }
             });
-            template = template.replace("{{ addresses.total }}", Object.keys(addresses).length);
+
+            template = template.replace("{{ addresses.total }}", Object.keys(addresses).length.toLocaleString('en-US'));
             template = template.replace("{{ scams.inactive }}", 0);
+
             var table = "";
 			if(req.params.page == "all") {
-				var max = scams.length;
+				var max = scams.length - 1; //0-based indexing
 				var start = 0;
 			} else if(!isNaN(parseInt(req.params.page))) {
-				var max = (req.params.page*30)+30;
-				var start = req.params.page*30;
+				var max = (req.params.page*MAX_RESULTS_PER_PAGE)+MAX_RESULTS_PER_PAGE;
+				var start = req.params.page*MAX_RESULTS_PER_PAGE;
 			} else {
-				var max = 30;
+				var max = MAX_RESULTS_PER_PAGE;
 				var start = 0;
 			}
             for (var i = start; i <= max; i++) {
+			    if(scams.hasOwnProperty(i) === false) {
+			        continue;
+                }
 				if('status' in scams[i]) {
 					if (scams[i].status == "Active") {
 						var status = "<td class='offline'><i class='warning sign icon'></i> Active</td>";
@@ -152,32 +160,39 @@ function startWebServer() {
                 table += "<tr><td>" + category + "</td><td>" + subcategory + "</td>" + status + "<td>" + scams[i].name + "</td><td class='center'><a href='/scam/" + scams[i].id + "'><i class='search icon'></i></a></td></tr>";
             }
             template = template.replace("{{ scams.table }}", table);
-			var pagination = "";
-            var intCurrentPage = 0;
-            if(Number.parseInt(req.params.page) > 0) {
-                intCurrentPage = req.params.page;
-            }
-			if (intCurrentPage == 0) {
-                var loop = [1, 6];
-            } else if (intCurrentPage == 1) {
-                var loop = [0, 5];
-            } else {
-                var loop = [-1, 4];
-            }
 
-            for (var i = loop[0]; i < loop[1]; i++) {
-                var intPageNumber = (Number(intCurrentPage) + Number(i));
-                var item_class = "item";
-                var href = "/scams/" + intPageNumber + "/";
-                if ((intCurrentPage + i) > (scams.length)/30 || (intCurrentPage + i) < 1) {
-                    item_class = "disabled item";
-                    href = "#";
-                } else if (intCurrentPage == intPageNumber) {
-                    item_class = "active item";
+            if(req.params.page !== "all") {
+                var intCurrentPage = 0;
+                if (Number.parseInt(req.params.page) > 0) {
+                    intCurrentPage = req.params.page;
                 }
-                pagination += "<a href='" + href + "' class='" + item_class + "'>" + intPageNumber + "</a>";
+                var strPagination = "";
+                if (intCurrentPage == 0) {
+                    var arrLoop = [1, 6];
+                } else if (intCurrentPage == 1) {
+                    var arrLoop = [0, 5];
+                } else {
+                    var arrLoop = [-2, 4];
+                }
+                for (var i = arrLoop[0]; i < arrLoop[1]; i++) {
+                    var intPageNumber = (Number(intCurrentPage) + Number(i));
+                    var strItemClass = "item";
+                    var strHref = "/scams/" + intPageNumber + "/";
+                    console.log("Page number: " + intPageNumber);
+                    if ((intPageNumber > (scams.length) / MAX_RESULTS_PER_PAGE) || (intPageNumber < 1)) {
+                        console.log("DISABLE");
+                        strItemClass = "disabled item";
+                        strHref = "#";
+                    } else if (intCurrentPage == intPageNumber) {
+                        console.log("ACTIVE");
+                        strItemClass = "active item";
+                    }
+                    strPagination += "<a href='" + strHref + "' class='" + strItemClass + "'>" + intPageNumber + "</a>";
+                }
+            } else {
+                strPagination = "";
             }
-            template = template.replace("{{ scams.pagination }}", "<div class='ui pagination menu'>" + pagination + "</div>");
+            template = template.replace("{{ scams.pagination }}", "<div class='ui pagination menu'>" + strPagination + "</div>");
             res.send(default_template.replace('{{ content }}', template));
     });
 
