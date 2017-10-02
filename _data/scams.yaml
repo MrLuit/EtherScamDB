@@ -14442,4 +14442,5 @@
     url: 'http://enjincoin.sale/'
     category: Phishing
     subcategory: Enjin
-    
+    addresses:
+      - '0xbcc6c0fef89b87a12773db7a9a8ecbccccdb7aff'
