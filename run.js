@@ -88,8 +88,8 @@ function startWebServer() {
 			let scams = getCache().scams;
             let addresses = {};
 
-            template = template.replace("{{ scams.total }}", scams.length.toLocaleString('en-US'));
-            template = template.replace("{{ scams.active }}", 0);
+            var intActiveScams = 0;
+            var intInactiveScams = 0;
 
             scams.forEach(function(scam, index) {
                 if ('addresses' in scam) {
@@ -97,10 +97,20 @@ function startWebServer() {
                         addresses[address] = true;
                     });
                 }
+
+                if('status' in scam) {
+                    if(scam.status === 'Active') {
+                        ++intActiveScams;
+                    } else {
+                        ++intInactiveScams;
+                    }
+                }
             });
 
+            template = template.replace("{{ scams.total }}", scams.length.toLocaleString('en-US'));
+            template = template.replace("{{ scams.active }}", intActiveScams.toLocaleString('en-US'));
             template = template.replace("{{ addresses.total }}", Object.keys(addresses).length.toLocaleString('en-US'));
-            template = template.replace("{{ scams.inactive }}", 0);
+            template = template.replace("{{ scams.inactive }}", intInactiveScams.toLocaleString('en-US'));
 
             var table = "";
 			if(req.params.page == "all") {
@@ -178,13 +188,10 @@ function startWebServer() {
                     var intPageNumber = (Number(intCurrentPage) + Number(i));
                     var strItemClass = "item";
                     var strHref = "/scams/" + intPageNumber + "/";
-                    console.log("Page number: " + intPageNumber);
                     if ((intPageNumber > (scams.length) / MAX_RESULTS_PER_PAGE) || (intPageNumber < 1)) {
-                        console.log("DISABLE");
                         strItemClass = "disabled item";
                         strHref = "#";
                     } else if (intCurrentPage == intPageNumber) {
-                        console.log("ACTIVE");
                         strItemClass = "active item";
                     }
                     strPagination += "<a href='" + strHref + "' class='" + strItemClass + "'>" + intPageNumber + "</a>";
