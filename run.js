@@ -153,24 +153,30 @@ function startWebServer() {
             }
             template = template.replace("{{ scams.table }}", table);
 			var pagination = "";
-			if (req.params.page == 0) {
-                                    var loop = [1, 6];
-                                } else if (req.params.page == 1) {
-                                    var loop = [0, 5];
-                                } else {
-                                    var loop = [-1, 4];
-                                }
-                                for (var i = loop[0]; i < loop[1]; i++) {
-                                    var item_class = "item";
-                                    var href = "/scams/" + (req.params.page + i) + "/";
-                                    if ((req.params.page + i) > (scams.length)/30 || (req.params.page + i) < 1) {
-                                        item_class = "disabled item";
-                                        href = "#";
-                                    } else if (i == 1) {
-                                        item_class = "active item";
-                                    }
-                                    pagination += "<a href='" + href + "' class='" + item_class + "'>" + (req.params.page + i) + "</a>";
-                                }
+            var intCurrentPage = 0;
+            if(Number.parseInt(req.params.page) > 0) {
+                intCurrentPage = req.params.page;
+            }
+			if (intCurrentPage == 0) {
+                var loop = [1, 6];
+            } else if (intCurrentPage == 1) {
+                var loop = [0, 5];
+            } else {
+                var loop = [-1, 4];
+            }
+
+            for (var i = loop[0]; i < loop[1]; i++) {
+                var intPageNumber = (Number(intCurrentPage) + Number(i));
+                var item_class = "item";
+                var href = "/scams/" + intPageNumber + "/";
+                if ((intCurrentPage + i) > (scams.length)/30 || (intCurrentPage + i) < 1) {
+                    item_class = "disabled item";
+                    href = "#";
+                } else if (intCurrentPage == intPageNumber) {
+                    item_class = "active item";
+                }
+                pagination += "<a href='" + href + "' class='" + item_class + "'>" + intPageNumber + "</a>";
+            }
             template = template.replace("{{ scams.pagination }}", "<div class='ui pagination menu'>" + pagination + "</div>");
             res.send(default_template.replace('{{ content }}', template));
     });
