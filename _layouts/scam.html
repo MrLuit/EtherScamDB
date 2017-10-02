@@ -37,15 +37,6 @@
      Abuse Report
     </div>
     <div class="content">
-	<!--<div class="ui selection dropdown">
-  <input type="hidden" id="abusrep" name="abuserep">
-  <i class="dropdown icon"></i>
-  <div class="default text">Select a recipient</div>
-  <div class="menu">
-    <div class="item" data-value="1">Male</div>
-    <div class="item" data-value="0">Female</div>
-  </div>
-</div>-->
 	<div class="ui form">
   <div class="field">
     <textarea id="abuse">{{ scam.abusereport }}</textarea>
@@ -70,14 +61,12 @@
 {{ scam.description }}
 {{ scam.status }}
 {{ scam.ip }}
-{{ scam.ethaddresslookup }}
 {{ scam.googlethreat }}
 {{ scam.nameservers }}
 {{ scam.addresses }}<BR>
 <div id="disqus_thread"></div>
 <script>
 var disqus_config = function () {
-//this.page.url = "{{ site.url }}/scam/{{ scam.id }}";
 this.page.identifier = "{{ scam.id }}";
 };
 (function() {
