@@ -14436,3 +14436,10 @@
     url: 'http://tenxwallet.io/'
     category: Phishing
     subcategory: TenX
+-
+    id: 2303
+    name: enjincoin.sale
+    url: 'http://enjincoin.sale/'
+    category: Phishing
+    subcategory: Enjin
+    
