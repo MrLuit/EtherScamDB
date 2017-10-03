@@ -14445,13 +14445,35 @@
     addresses:
       - '0xbcc6c0fef89b87a12773db7a9a8ecbccccdb7aff'
 -
-    id: 2303
+    id: 2304
     name: myetherwlallet.com
     url: 'http://myetherwlallet.com/'
     category: Phishing
     subcategory: MyEtherWallet
 -
     id: 2304
+    name: myetherwalletiy.com
+    url: 'http://myetherwalletiy.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2305
+    name: wanchain.network
+    url: 'http://wanchain.network/'
+    category: Phishing
+    subcategory: Wanchain
+    addresses:
+      - '0xf9a5139E42c3ca13D5b24D23ab2B18C278805Dc4'
+-
+    id: 2306
+    name: enijncoin.io
+    url: 'http://enijncoin.io/'
+    category: Phishing
+    subcategory: Enjin
+    addresses:
+      - '0x8cF893F11f6037B14f0f827B9ed6AEef38931Fb4'
+-
+    id: 2307
     name: smartlands.tech
     url: 'http://smartlands.tech/'
     category: Phishing
