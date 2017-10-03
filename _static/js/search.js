@@ -8,22 +8,22 @@ function hideEverything() {
 window.addEventListener("load", function() {
     $('.ui.button').click(function() {
         $.getJSON("/api/check/" + encodeURIComponent($("input").val()), function(result) {
-			if(result.result == 1) {
-				hideEverything();
+            if (result.result == 'verified') {
+                hideEverything();
                 $("#verified").css('display', 'flex');
-			} else if(result.result == 0) {
-				hideEverything();
-                            $("#neutral").css('display', 'flex');
-			} else if(result.result == -1) {
-				hideEverything();
-                            blocked = true;
-                            if ('category' in scam) {
-                                $("#blacklistmessage").html('This domain was put on the blacklist for ' + scam.category.toLowerCase() + '.');
-                            }
-                            $("#blacklistmessage").html($("#blacklistmessage").html() + ' <a id="details" href="/scam/' + scam.id + '">Details <i class="chevron right small icon"></i></a>');
-                            $("#blocked").css('display', 'flex');
-			}
-            
+            } else if (result.result == 'neutral') {
+                hideEverything();
+                $("#neutral").css('display', 'flex');
+            } else if (result.result == 'blocked') {
+                hideEverything();
+                blocked = true;
+                if ('category' in result.entry) {
+                    $("#blacklistmessage").html('This domain was put on the blacklist for ' + result.entry.category.toLowerCase() + '.');
+                }
+                $("#blacklistmessage").html($("#blacklistmessage").html() + ' <a id="details" href="/scam/' + result.entry.id + '">Details <i class="chevron right small icon"></i></a>');
+                $("#blocked").css('display', 'flex');
+            }
+
         });
     });
 });

@@ -47,7 +47,7 @@ function startWebServer() {
 
     app.get('/search/', function(req, res) {
         let table = "";
-        getCache().legiturls.forEach(function(url) {
+        getCache().legiturls.sort(function(a, b) {return a.name - b.name;}).forEach(function(url) {
             if ('featured' in url && url.featured) {
                 if (fs.existsSync("_static/img/" + url.name.toLowerCase().replace(' ', '') + ".png")) {
                     table += "<tr><td><img class='icon' src='/img/" + url.name.toLowerCase().replace(' ', '') + ".png'>" + url.name + "</td><td><a target='_blank' href='" + url.url + "'>" + url.url + "</a></td></tr>";
@@ -278,7 +278,7 @@ function startWebServer() {
 				res.send(JSON.stringify({
 					success: true,
 					result: 'blocked',
-					id: getCache().scams.find(function(scam) { if(url.parse(scam.url).hostname == url.parse(req.params.domain).hostname || scam.url == req.params.domain || true) { return scam.id; } }) || false
+					entry: getCache().scams.find(function(scam) { if(url.parse(scam.url).hostname == url.parse(req.params.domain).hostname || scam.url == req.params.domain || true) { return scam.id; } }) || false
 				}));
 			} else {
 				res.send(JSON.stringify({
