@@ -181,8 +181,10 @@ function startWebServer() {
                     var arrLoop = [1, 6];
                 } else if (intCurrentPage == 1) {
                     var arrLoop = [0, 5];
+                } else if (intCurrentPage == 2) {
+                    var arrLoop = [-1, 4];
                 } else {
-                    var arrLoop = [-2, 4];
+                    var arrLoop = [-2, 3];
                 }
                 for (var i = arrLoop[0]; i < arrLoop[1]; i++) {
                     var intPageNumber = (Number(intCurrentPage) + Number(i));
