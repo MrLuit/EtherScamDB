@@ -65,11 +65,6 @@ function startWebServer() {
         res.send(default_template.replace('{{ content }}', fs.readFileSync('./_layouts/faq.html', 'utf8')));
     });
 
-    app.get('/redirect/:domain/', function(req, res) {
-        var template = fs.readFileSync('./_layouts/redirect.html', 'utf8').replace(/{{ redirect.url }}/g, req.params.domain);
-        res.send(default_template.replace('{{ content }}', template));
-    });
-
     app.get('/report/:type?/', function(req, res) {
         if (!req.params.type) {
             res.send(default_template.replace('{{ content }}', fs.readFileSync('./_layouts/report.html', 'utf8')));
@@ -237,7 +232,7 @@ function startWebServer() {
 			template = template.replace("{{ scam.ip }}",'');
 		}
 		if('url' in scam) {
-			template = template.replace("{{ scam.url }}",'<b>URL</b>: <a id="url" target="_blank" href="/redirect/?url=' + encodeURIComponent(scam.url) + '">' + scam.url + '</a><BR>');
+			template = template.replace("{{ scam.url }}",'<b>URL</b>: <a id="url" target="_blank" href="/redirect/' + encodeURIComponent(scam.url) + '">' + scam.url + '</a><BR>');
 			template = template.replace("{{ scam.googlethreat }}","<b>Google Safe Browsing</b>: <span id='googleblocked'>loading...</span><BR>");
 		} else {
 			template = template.replace("{{ scam.googlethreat }}",'');
@@ -252,6 +247,11 @@ function startWebServer() {
 
     app.get('/address/:address/', function(req, res) {
         let template = fs.readFileSync('./_layouts/address.html', 'utf8').replace(/{{ address.address }}/g, req.params.address);
+        res.send(default_template.replace('{{ content }}', template));
+    });
+	
+	app.get('/redirect/:url/', function(req, res) {
+        let template = fs.readFileSync('./_layouts/redirect.html', 'utf8').replace(/{{ redirect.domain }}/g, req.params.url);
         res.send(default_template.replace('{{ content }}', template));
     });
 
