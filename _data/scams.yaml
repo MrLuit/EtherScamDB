@@ -14494,3 +14494,11 @@
     subcategory: Enjin
     addresses:
       - '0x05Dd62c007CDe143B402fA5Da3937C40c70b4B14'
+-
+    id: 2311
+    name: wanchains.org
+    url: 'http://wanchains.org/'
+    category: Phishing
+    subcategory: Wanchain
+    addresses:
+      - '0x2A7D04018D7295D8069Ec9721eE415c4Bdc57909'
