@@ -14494,3 +14494,11 @@
     subcategory: Enjin
     addresses:
       - '0x05Dd62c007CDe143B402fA5Da3937C40c70b4B14'
+-
+    id: 2311
+    name: etherparty.in
+    url: 'http://etherparty.in/'
+    category: Phishing
+    subcategory: Etherparty
+    addresses:
+      - '0x0Dcc89F3091d3EF66E00Fb595Ed0FaFEf4434192'
