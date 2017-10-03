@@ -203,13 +203,6 @@ function startWebServer() {
     app.get('/scam/:id/', function(req, res) {
 		let scam = getCache().scams_by_id[req.params.id];
 		let template = fs.readFileSync('./_layouts/scam.html', 'utf8');
-		/*['id','url','category','description','status','ip','nameservers','addresses'].forEach(function(name) {
-			if(name in scam) {
-				template = template.replace("{{ scam." + name + " }}",scam[name]);
-			} else {
-				template = template.replace("{{ scam." + name + " }}",'');
-			}
-		});*/
 		template = template.replace("{{ scam.id }}",scam.id);
 		template = template.replace("{{ scam.name }}",scam.name);
 		if('category' in scam) {
@@ -221,13 +214,18 @@ function startWebServer() {
 		} else {
 			template = template.replace("{{ scam." + name + " }}",'');
 		}
+		if('status' in scam) {
+			template = template.replace("{{ scam.status }}",'<b>Status</b>: <span class="class_' + scam.status.toLowerCase() + '">' + scam.status + '</span><BR>');
+		} else {
+			template = template.replace("{{ scam.status }}",'');
+		}
 		if('description' in scam) {
 			template = template.replace("{{ scam.description }}",'<b>Description</b>: ' + scam.description + '<BR>');
 		} else {
 			template = template.replace("{{ scam.description }}",'');
 		}
 		if('ip' in scam) {
-			template = template.replace("{{ scam.ip }}",'<b>IP</b>: ' + scam.ip + '<BR>');
+			template = template.replace("{{ scam.ip }}",'<b>IP</b>: <a href="/ip/' + scam.ip + '">' + scam.ip + '</a><BR>');
 		} else {
 			template = template.replace("{{ scam.ip }}",'');
 		}

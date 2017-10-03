@@ -15,14 +15,14 @@
   text-align: right;
 }
 
-.activ {
+.class_offline {
 	color: green;
 }
 
-.offline {
+.class_active {
 	color: red;
 }
 
-.suspended {
+.class_suspended {
 	color: orange;
 }
