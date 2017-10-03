@@ -14456,3 +14456,5 @@
     url: 'http://wanchain.network/'
     category: Phishing
     subcategory: Wanchain
+    addresses:
+      - '0xf9a5139E42c3ca13D5b24D23ab2B18C278805Dc4'
