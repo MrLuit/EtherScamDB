@@ -14472,4 +14472,11 @@
     subcategory: Enjin
     addresses:
       - '0x8cF893F11f6037B14f0f827B9ed6AEef38931Fb4'
-    
+-
+    id: 2307
+    name: smartlands.tech
+    url: 'http://smartlands.tech/'
+    category: Phishing
+    subcategory: Smartlands
+    addresses:
+      - '0x893676c4A94F6EcdC33a18438BBdCfE9e6c68a9a'
