@@ -14510,3 +14510,11 @@
     subcategory: Wanchain
     addresses:
       - '0x2A7D04018D7295D8069Ec9721eE415c4Bdc57909'
+-
+    id: 2313
+    name: warchain.org
+    url: 'http://warchain.org/'
+    category: Phishing
+    subcategory: Wanchain
+    addresses:
+      - '0x1c2FB401D3Dc4fd8131ccFc4589F281D58921402'
