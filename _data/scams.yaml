@@ -14496,6 +14496,30 @@
       - '0x05Dd62c007CDe143B402fA5Da3937C40c70b4B14'
 -
     id: 2311
+    name: etherparty.in
+    url: 'http://etherparty.in/'
+    category: Phishing
+    subcategory: Etherparty
+    addresses:
+      - '0x0Dcc89F3091d3EF66E00Fb595Ed0FaFEf4434192'
+-
+    id: 2312
+    name: wanchains.org
+    url: 'http://wanchains.org/'
+    category: Phishing
+    subcategory: Wanchain
+    addresses:
+      - '0x2A7D04018D7295D8069Ec9721eE415c4Bdc57909'
+-
+    id: 2313
+    name: warchain.org
+    url: 'http://warchain.org/'
+    category: Phishing
+    subcategory: Wanchain
+    addresses:
+      - '0x1c2FB401D3Dc4fd8131ccFc4589F281D58921402'
+-
+    id: 2314
     name: shapeshiff.io
     url: 'http://shapeshiff.io/'
     category: Scam
