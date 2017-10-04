@@ -14518,3 +14518,9 @@
     subcategory: Wanchain
     addresses:
       - '0x1c2FB401D3Dc4fd8131ccFc4589F281D58921402'
+-
+    id: 2314
+    name: shapeshiff.io
+    url: 'http://shapeshiff.io/'
+    category: Scam
+    subcategory: Shapeshift
