@@ -14502,3 +14502,11 @@
     subcategory: Etherparty
     addresses:
       - '0x0Dcc89F3091d3EF66E00Fb595Ed0FaFEf4434192'
+-
+    id: 2312
+    name: wanchains.org
+    url: 'http://wanchains.org/'
+    category: Phishing
+    subcategory: Wanchain
+    addresses:
+      - '0x2A7D04018D7295D8069Ec9721eE415c4Bdc57909'
