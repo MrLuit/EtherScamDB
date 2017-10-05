@@ -14528,5 +14528,11 @@
     id: 2315
     name: myetherwalletip.com
     url: 'http://myetherwalletip.com/'
-    category: Scam
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2316
+    name: myetherwallcti.com
+    url: 'http://myetherwallcti.com/'
+    category: Phishing
     subcategory: MyEtherWallet
