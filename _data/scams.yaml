@@ -14542,4 +14542,10 @@
     url: 'http://myethereumwallet.su/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2318
+    name: omisegoairdrop.com
+    url: 'http://omisegoairdrop.com/'
+    category: Phishing
+    subcategory: OmiseGo
     
