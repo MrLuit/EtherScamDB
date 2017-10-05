@@ -14544,8 +14544,15 @@
     subcategory: MyEtherWallet
 -
     id: 2318
+    name: xn--enjncoin-41a.io
+    url: 'http://xn--enjncoin-41a.io/'
+    category: Phishing
+    subcategory: Enjin
+    addresses:
+      - '0x8cF893F11f6037B14f0f827B9ed6AEef38931Fb4'
+-
+    id: 2319
     name: omisegoairdrop.com
     url: 'http://omisegoairdrop.com/'
     category: Phishing
     subcategory: OmiseGo
-    
