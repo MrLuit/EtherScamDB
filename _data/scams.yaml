@@ -14536,3 +14536,10 @@
     url: 'http://myetherwallcti.com/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2317
+    name: myethereumwallet.su
+    url: 'http://myethereumwallet.su/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    
