@@ -51,7 +51,7 @@ scams.forEach(function(scam, index) {
                                 const browser = await puppeteer.launch();
                                 console.log("Taking screenshot");
                                 const page = await browser.newPage();
-                                await page.goto(scam.url);
+                                await page.goto(scam.url,{waitUntil:'networkidle'});
                                 await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36");
                                 page.setViewport({
                                     'width': 1024,
