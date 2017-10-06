@@ -84,7 +84,9 @@ function startWebServer() {
     app.get('/scams/:page?/:sorting?/', function(req, res) { // Serve /scams/
         const MAX_RESULTS_PER_PAGE = 30;
         let template = fs.readFileSync('./_layouts/scams.html', 'utf8');
-        let scams = getCache().scams;
+		if(!req.params.sorting) {
+			var scams = getCache().scams.sort(function(a,b) { return b.id-a.id; });
+		} //else if(req.params.sorting == ')
         let addresses = {};
 
         var intActiveScams = 0;
@@ -205,7 +207,7 @@ function startWebServer() {
     });
 
     app.get('/scam/:id/', function(req, res) { // Serve /scam/<id>/
-        let scam = getCache().scams_by_id[req.params.id];
+		let scam = getCache().scams.find(function(scam) { return scam.id == req.params.id; });
         let template = fs.readFileSync('./_layouts/scam.html', 'utf8');
         template = template.replace("{{ scam.id }}", scam.id);
         template = template.replace("{{ scam.name }}", scam.name);

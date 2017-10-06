@@ -8,7 +8,6 @@ let scams = yaml.safeLoad(fs.readFileSync('_data/scams.yaml'));
 let i = 0;
 let new_cache = {
     'scams': [],
-    'scams_by_id': {},
     'legiturls': [],
     'blacklist': [],
     'addresses': {},
@@ -25,17 +24,12 @@ yaml.safeLoad(fs.readFileSync('_data/legit_urls.yaml')).sort(function(a, b) {
 });
 scams.forEach(function(scam, index) {
     if ('url' in scam) {
-        var scam_details = new_cache.scams[new_cache.scams.push(Object.assign(scam, {
-            'id': scam.id
-        })) - 1];
+        var scam_details = new_cache.scams[new_cache.scams.push(scam) - 1];
         new_cache.blacklist.push(url.parse(scam.url).hostname.replace("www.", ""));
         new_cache.blacklist.push('www.' + url.parse(scam.url).hostname.replace("www.", ""));
         dns.lookup(url.parse(scam.url).hostname, (err, address, family) => {
             if (!err) {
                 scam_details.ip = address;
-                if (!(address in blacklist)) {
-                    new_cache.blacklist.push(address);
-                }
             }
             dns.resolveNs(url.parse(scam.url).hostname, (err, addresses) => {
                 if (!err) {
@@ -51,7 +45,6 @@ scams.forEach(function(scam, index) {
                         scam_details.status = 'Active';
                     }
                     new_cache.scams.push(scam_details);
-                    new_cache.scams_by_id[scam.id] = scam_details;
                     if ('ip' in scam_details) {
                         if (!(scam_details.ip in new_cache.ips)) {
                             new_cache.ips[scam_details.ip] = [];
@@ -67,6 +60,9 @@ scams.forEach(function(scam, index) {
                         });
                     }
                     if (i == scams.length - 1) {
+						Object.keys(new_cache.ips).forEach(function(ip) {
+							new_cache.blacklist.push(ip);
+						});
                         fs.writeFileSync("_data/cache.json", JSON.stringify(new_cache));
                     }
                 });
