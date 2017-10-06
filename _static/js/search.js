@@ -17,9 +17,11 @@ window.addEventListener("load", function() {
             } else if (result.result == 'blocked') {
                 hideEverything();
                 blocked = true;
-                if ('category' in result.entry) {
+                if ('category' in result.entries[0] && result.type == 'domain') {
                     $("#blacklistmessage").html('This domain was put on the blacklist for ' + result.entry.category.toLowerCase() + '.');
-                }
+                } else if(result.type == 'address') {
+					 $("#blacklistmessage").html('This address was put on the blacklist.');
+				}
                 $("#blacklistmessage").html($("#blacklistmessage").html() + ' <a id="details" href="/scam/' + result.entry.id + '">Details <i class="chevron right small icon"></i></a>');
                 $("#blocked").css('display', 'flex');
             }
