@@ -383,22 +383,39 @@ function startWebServer() {
         } else if (req.params.type == "whitelist") {
             res.send(JSON.stringify(getCache().whitelist, null, 2));
         } else if (req.params.type == "check" && req.params.domain) {
-            Object.keys(getCache().addresses).forEach(function(address, index) {
-                if (req.params.domain == address) {
-                    res.send(JSON.stringify({
-                        success: true,
-                        result: 'blocked',
-                        type: 'address',
-                        entries: getCache().scams.filter(function(scam) {
-                            if ('addresses' in scam) {
-                                return (scam.addresses.includes(req.params.domain));
-                            } else {
-                                return false;
-                            }
-                        })
-                    }));
-                }
-            });
+            //They can search for an address or domain.
+            if(/^0x?[0-9A-Fa-f]{40,42}$/.test(req.params.domain)) {
+                Object.keys(getCache().addresses).forEach(function(address, index) {
+                    //They searched for an address
+                    if (req.params.domain == address) {
+                        res.send(JSON.stringify({
+                            success: true,
+                            result: 'blocked',
+                            type: 'address',
+                            entries: getCache().scams.filter(function (scam) {
+                                if ('addresses' in scam) {
+                                    return (scam.addresses.includes(req.params.domain));
+                                } else {
+                                    return false;
+                                }
+                            })
+                        }));
+                    }
+                });
+            } else {
+                //They searched for a domain
+                Object.keys(getCache().scams[0]).forEach(function(scam, index) {
+                    if (req.params.domain == getCache().scams[index].name) {
+                        res.send(JSON.stringify({
+                            success: true,
+                            result: 'blocked',
+                            type: 'domain',
+                            entry: getCache().scams[index]
+                        }));
+                    }
+                });
+            }
+
 			if (!res.headersSent) {
 				if (getCache().whitelist.includes(url.parse(req.params.domain).hostname) || getCache().whitelist.includes(req.params.domain)) {
 					res.send(JSON.stringify({
