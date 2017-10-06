@@ -4,6 +4,7 @@ const fs = require('fs');
 const express = require('express');
 const dateFormat = require('dateformat');
 const url = require('url');
+const puppeteer = require('puppeteer');
 const spawn = require('child_process').spawn;
 const app = express();
 const default_template = fs.readFileSync('./_layouts/default.html', 'utf8');
@@ -212,10 +213,27 @@ function startWebServer() {
         template = template.replace("{{ scam.id }}", scam.id);
         template = template.replace("{{ scam.name }}", scam.name);
 
-        if(fs.existsSync('_static/screenshots/'+ scam.id +'.png')) {
-            template = template.replace("{{ scam.screenshot }}", '<a href="/screenshots/'+ scam.id +'.png" target="_blank"><img src="/screenshots/'+ scam.id +'.png" alt="Webpage Capture" title="Screenshot of website" id="scam-screenshot"/></a>');
+        if(fs.existsSync('_static/screenshots/'+ scam.id +'-thumb.png')) {
+            template = template.replace("{{ scam.screenshot }}", '<a href="/screenshots/'+ scam.id +'-full.png" target="_blank"><img src="/screenshots/'+ scam.id +'-thumb.png" alt="Webpage Capture" title="Screenshot of website" id="scam-screenshot"/></a>');
         } else {
-            template = template.replace("{{ scam.screenshot }}", 'No screenshot taken. Domain was not active when routine ran.');
+            if(scam.status.toLowerCase() == 'active') {
+                //No screenshot generated.... but it's active. Create a screenshot.
+                (async() => {
+                    const browser = await puppeteer.launch();
+                    console.log("Taking screenshot");
+                    const page = await browser.newPage();
+                    await page.goto(scam.url,{waitUntil:'networkidle'});
+                    await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36");
+                    page.setViewport({
+                        'width': 1024,
+                        'height': 768
+                    });
+                    await page.screenshot({path: '_static/screenshots/' + scam.id + '-full.png', fullPage: true});
+                    await page.screenshot({path: '_static/screenshots/' + scam.id + '-thumb.png', fullPage: false});
+                    await browser.close();
+                })();
+            }
+            template = template.replace("{{ scam.screenshot }}", 'No screenshot taken.');
         }
 
         if ('category' in scam) {
