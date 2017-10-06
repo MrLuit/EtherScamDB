@@ -46,7 +46,7 @@ scams.forEach(function(scam, index) {
                         scam_details.status = 'Active';
 
                         //Take a screenshot of the active site if there isn't a screenshot already
-                        if(fs.existsSync('_static/screenshots/'+ scam.id +'.png') === false) {
+                        if(fs.existsSync('_static/screenshots/'+ scam.id +'-thumb.png') === false) {
                             (async() => {
                                 const browser = await puppeteer.launch();
                                 console.log("Taking screenshot");
@@ -57,7 +57,8 @@ scams.forEach(function(scam, index) {
                                     'width': 1024,
                                     'height': 768
                                 });
-                                await page.screenshot({path: '_static/screenshots/' + scam.id + '.png', fullPage: false});
+                                await page.screenshot({path: '_static/screenshots/' + scam.id + '-full.png', fullPage: true});
+                                await page.screenshot({path: '_static/screenshots/' + scam.id + '-thumb.png', fullPage: false});
                                 await browser.close();
                             })();
                         }
