@@ -26,3 +26,17 @@
 .class_suspended {
 	color: orange;
 }
+
+#scam-screenshot {
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    width: 450px;
+    height: 300px;
+    border-radius: 1em;
+    border: 2px solid #000;
+}
+#scam-screenshot:hover {
+    -webkit-filter: grayscale(0);
+    filter: none;
+}

@@ -211,6 +211,13 @@ function startWebServer() {
         let template = fs.readFileSync('./_layouts/scam.html', 'utf8');
         template = template.replace("{{ scam.id }}", scam.id);
         template = template.replace("{{ scam.name }}", scam.name);
+
+        if(fs.existsSync('_static/screenshots/'+ scam.id +'.png')) {
+            template = template.replace("{{ scam.screenshot }}", '<a href="/screenshots/'+ scam.id +'.png" target="_blank"><img src="/screenshots/'+ scam.id +'.png" alt="Webpage Capture" title="Screenshot of website" id="scam-screenshot"/></a>');
+        } else {
+            template = template.replace("{{ scam.screenshot }}", 'No screenshot taken. Domain was not active when routine ran.');
+        }
+
         if ('category' in scam) {
             if ('subcategory' in scam) {
                 template = template.replace("{{ scam.category }}", '<b>Category</b>: ' + scam.category + ' - ' + scam.subcategory + '<BR>');

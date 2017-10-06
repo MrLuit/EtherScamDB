@@ -3,6 +3,7 @@ const url = require('url');
 const yaml = require('js-yaml');
 const fs = require('fs');
 const request = require("request");
+const puppeteer = require('puppeteer');
 
 let scams = yaml.safeLoad(fs.readFileSync('_data/scams.yaml'));
 let i = 0;
@@ -43,6 +44,23 @@ scams.forEach(function(scam, index) {
                         scam_details.status = 'Suspended';
                     } else if ((!('status' in scam_details) || scam_details.status != "Active") && !e && response.statusCode == 200 && r.uri.href.indexOf('cgi-sys/suspendedpage.cgi') === -1) {
                         scam_details.status = 'Active';
+
+                        //Take a screenshot of the active site if there isn't a screenshot already
+                        if(fs.existsSync('_static/screenshots/'+ scam.id +'.png') === false) {
+                            (async() => {
+                                const browser = await puppeteer.launch();
+                                console.log("Taking screenshot");
+                                const page = await browser.newPage();
+                                await page.goto(scam.url);
+                                await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36");
+                                page.setViewport({
+                                    'width': 1024,
+                                    'height': 768
+                                });
+                                await page.screenshot({path: '_static/screenshots/' + scam.id + '.png', fullPage: false});
+                                await browser.close();
+                            })();
+                        }
                     }
                     if ('ip' in scam_details) {
                         if (!(scam_details.ip in new_cache.ips)) {

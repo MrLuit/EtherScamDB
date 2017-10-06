@@ -54,7 +54,9 @@
   </div>
 <div class="ui grid">
   <div class="eight wide column"><h1>{{ scam.name }}</h1></div>
-  <div id="actions" class="eight wide column">{{ scam.actions }}</div>
+  <div id="actions" class="eight wide column">
+      {{ scam.actions }}
+  </div>
 </div>
 {{ scam.url }}
 {{ scam.category }}
@@ -63,7 +65,13 @@
 {{ scam.ip }}
 {{ scam.googlethreat }}
 {{ scam.nameservers }}
-{{ scam.addresses }}<BR>
+{{ scam.addresses }}<br />
+
+<h3>Screenshot</h3>
+{{ scam.screenshot }}
+
+<br /><br />
+
 <div id="disqus_thread"></div>
 <script>
 var disqus_config = function () {
