@@ -9,6 +9,7 @@ const app = express();
 const default_template = fs.readFileSync('./_layouts/default.html', 'utf8');
 let cache;
 
+/* See if there's an up-to-date cache, otherwise run `update.js` to create one. */
 function getCache(callback = false) {
     if (!fs.existsSync('_data/cache.json')) {
         console.log("No cache file found. Creating one...");
@@ -30,22 +31,23 @@ function getCache(callback = false) {
 		if(callback) {
 			callback();
 		}
-    } else if ((new Date()).getTime() - cache.updated < 1000 * 60 * 60 * 2) {
+    } else if ((new Date().getTime() - cache.updated) < 1000 * 60 * 60 * 2) {
         return cache;
-    } else if ((new Date()).getTime() - cache.updated >= 1000 * 60 * 60 * 2) {
+    } else if ((new Date().getTime() - cache.updated) >= 1000 * 60 * 60 * 2) {
 		spawn('node', ['update.js']);
         return cache;
     }
 }
 
+/* Start the web server */
 function startWebServer() {
-    app.use(express.static('_static'))
+    app.use(express.static('_static')); // Serve all static pages first
 
-    app.get('/(/|index.html)?', function(req, res) {
+    app.get('/(/|index.html)?', function(req, res) { // Serve index.html
         res.send(default_template.replace('{{ content }}', fs.readFileSync('./_layouts/index.html', 'utf8')));
     });
 
-    app.get('/search/', function(req, res) {
+    app.get('/search/', function(req, res) { // Serve /search/
         let table = "";
         getCache().legiturls.sort(function(a, b) {return a.name - b.name;}).forEach(function(url) {
             if ('featured' in url && url.featured) {
@@ -61,11 +63,11 @@ function startWebServer() {
         res.send(default_template.replace('{{ content }}', template));
     });
 
-    app.get('/faq/', function(req, res) {
+    app.get('/faq/', function(req, res) { // Serve /faq/
         res.send(default_template.replace('{{ content }}', fs.readFileSync('./_layouts/faq.html', 'utf8')));
     });
 
-    app.get('/report/:type?/', function(req, res) {
+    app.get('/report/:type?/', function(req, res) { // Serve /report/, /report/domain/, and /report/address/
         if (!req.params.type) {
             res.send(default_template.replace('{{ content }}', fs.readFileSync('./_layouts/report.html', 'utf8')));
         } else if (req.params.type == "address") {
@@ -77,7 +79,7 @@ function startWebServer() {
         }
     });
 
-    app.get('/scams/:page?/:sorting?/', function(req, res) {
+    app.get('/scams/:page?/:sorting?/', function(req, res) { // Serve /scams/
             const MAX_RESULTS_PER_PAGE = 30;
             let template = fs.readFileSync('./_layouts/scams.html', 'utf8');
 			let scams = getCache().scams;
@@ -200,7 +202,7 @@ function startWebServer() {
             res.send(default_template.replace('{{ content }}', template));
     });
 
-    app.get('/scam/:id/', function(req, res) {
+    app.get('/scam/:id/', function(req, res) { // Serve /scam/<id>/
 		let scam = getCache().scams_by_id[req.params.id];
 		let template = fs.readFileSync('./_layouts/scam.html', 'utf8');
 		template = template.replace("{{ scam.id }}",scam.id);
@@ -238,22 +240,42 @@ function startWebServer() {
         res.send(default_template.replace('{{ content }}', template));
     });
 
-    app.get('/ip/:ip/', function(req, res) {
-        let template = fs.readFileSync('./_layouts/ip.html', 'utf8').replace("{{ ip.ip }}", req.params.ip);
+    app.get('/ip/:ip/', function(req, res) { // Serve /ip/<ip>/
+        let template = fs.readFileSync('./_layouts/ip.html', 'utf8');
+		template = template.replace("{{ ip.ip }}", req.params.ip);
+		var related = '';
+		getCache().scams.filter(function(obj) {
+			return obj.ip === req.params.ip;
+		}).forEach(function(value) {
+			related += "<div class='item'><a href='/scam/" + value.id + "/'>" + value.name + "</div>";
+		});
+		template = template.replace("{{ ip.scams }}", '<div class="ui bulleted list">' + related + '</div>');
         res.send(default_template.replace('{{ content }}', template));
     });
 
-    app.get('/address/:address/', function(req, res) {
-        let template = fs.readFileSync('./_layouts/address.html', 'utf8').replace(/{{ address.address }}/g, req.params.address);
+    app.get('/address/:address/', function(req, res) { // Serve /address/<address>/
+        let template = fs.readFileSync('./_layouts/address.html', 'utf8');
+		template = template.replace("{{ address.address }}", req.params.address);
+		var related = '';
+		getCache().scams.filter(function(obj) {
+			if('addresses' in obj) {
+				return obj.addresses.includes(req.params.address);
+			} else {
+				return false;
+			}
+		}).forEach(function(value) {
+			related += "<div class='item'><a href='/scam/" + value.id + "/'>" + value.name + "</div>";
+		});
+		template = template.replace("{{ address.scams }}", '<div class="ui bulleted list">' + related + '</div>');
         res.send(default_template.replace('{{ content }}', template));
     });
 	
-	app.get('/redirect/:url/', function(req, res) {
+	app.get('/redirect/:url/', function(req, res) {  // Serve /redirect/<url>/
         let template = fs.readFileSync('./_layouts/redirect.html', 'utf8').replace(/{{ redirect.domain }}/g, req.params.url);
         res.send(default_template.replace('{{ content }}', template));
     });
 
-    app.get('/api/:type/:domain?/', function(req, res) {
+    app.get('/api/:type/:domain?/', function(req, res) { // Serve /api/<type>/
         if (req.params.type == "scams") {
             res.send(JSON.stringify({
                 success: true,
@@ -293,12 +315,17 @@ function startWebServer() {
             }));
         }
     });
+	
+	app.get('*', function(req, res){ // Serve all other pages as 404
+		res.status(404).send(default_template.replace('{{ content }}', fs.readFileSync('./_layouts/404.html', 'utf8')));
+	});
 
-    app.listen(8080, function() {
+    app.listen(8080, function() {  // Listen on port 8080
         console.log('Content served on http://localhost:8080');
     });
 }
 
+/* Update the local cache using the external cache every 60 seconds */
 setInterval(function() {
     if (fs.existsSync('_data/cache.json')) {
         fs.readFile('_data/cache.json', function(err, data) {
@@ -307,6 +334,7 @@ setInterval(function() {
     }
 }, 60000);
 
+/* Get the cache first, and start the webserver when it's got the cache */
 getCache(function() {
     startWebServer();
 });
