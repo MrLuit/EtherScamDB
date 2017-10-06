@@ -2,4 +2,4 @@ node_modules
 npm-debug.log
 _data/cache.json
 _site
-_static/screenshots/*
+_static/screenshots/*.png
