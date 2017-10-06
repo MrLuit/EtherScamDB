@@ -44,7 +44,6 @@ scams.forEach(function(scam, index) {
                     } else if ((!('status' in scam_details) || scam_details.status != "Active") && !e && response.statusCode == 200 && r.uri.href.indexOf('cgi-sys/suspendedpage.cgi') === -1) {
                         scam_details.status = 'Active';
                     }
-                    new_cache.scams.push(scam_details);
                     if ('ip' in scam_details) {
                         if (!(scam_details.ip in new_cache.ips)) {
                             new_cache.ips[scam_details.ip] = [];
