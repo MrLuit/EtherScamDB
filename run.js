@@ -226,6 +226,24 @@ function startWebServer() {
 		} else {
 			template = template.replace("{{ scam.description }}",'');
 		}
+		if('nameservers' in scam) {
+			var nameservers_text = '';
+			scam.nameservers.forEach(function(nameserver) {
+				nameservers_text += '<div class="ui item">' + nameserver + '</div>';
+			});
+			template = template.replace("{{ scam.nameservers }}",'<b>Nameservers</b>: <div class="ui bulleted list">' + nameservers_text + '</div>');
+		} else {
+			template = template.replace("{{ scam.nameservers }}",'');
+		}
+		if('addresses' in scam) {
+			var addresses_text = '';
+			scam.addresses.forEach(function(address) {
+				addresses_text += '<div class="ui item"><a href="/address/' + address + '">' + address + '</a></div>';
+			});
+			template = template.replace("{{ scam.addresses }}",'<b>Related addresses</b>: <div class="ui bulleted list">' + addresses_text + '</div>');
+		} else {
+			template = template.replace("{{ scam.addresses }}",'');
+		}
 		if('ip' in scam) {
 			template = template.replace("{{ scam.ip }}",'<b>IP</b>: <a href="/ip/' + scam.ip + '">' + scam.ip + '</a><BR>');
 		} else {
