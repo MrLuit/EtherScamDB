@@ -383,44 +383,64 @@ function startWebServer() {
         } else if (req.params.type == "whitelist") {
             res.send(JSON.stringify(getCache().whitelist, null, 2));
         } else if (req.params.type == "check" && req.params.domain) {
-            Object.keys(getCache().addresses).forEach(function(address, index) {
-                if (req.params.domain == address) {
-                    res.send(JSON.stringify({
-                        success: true,
-                        result: 'blocked',
-                        type: 'address',
-                        entries: getCache().scams.filter(function(scam) {
-                            if ('addresses' in scam) {
-                                return (scam.addresses.includes(req.params.domain));
-                            } else {
-                                return false;
-                            }
-                        })
-                    }));
-                }
-            });
-			if (!res.headersSent) {
-				if (getCache().whitelist.includes(url.parse(req.params.domain).hostname) || getCache().whitelist.includes(req.params.domain)) {
+            //They can search for an address or domain.
+            if(/^0x?[0-9A-Fa-f]{40,42}$/.test(req.params.domain)) {
+                Object.keys(getCache().addresses).forEach(function(address, index) {
+                    //They searched for an address
+                    if (req.params.domain == address) {
+                        res.send(JSON.stringify({
+                            success: true,
+                            result: 'blocked',
+                            type: 'address',
+                            entries: getCache().scams.filter(function (scam) {
+                                if ('addresses' in scam) {
+                                    return (scam.addresses.includes(req.params.domain));
+                                } else {
+                                    return false;
+                                }
+                            })
+                        }));
+                    }
+                });
+            } else {
+				//They searched for a domain or an ip address
+                if (getCache().whitelist.includes(url.parse(req.params.domain).hostname) || getCache().whitelist.includes(req.params.domain)) {
 					res.send(JSON.stringify({
 						success: true,
+						input: url.parse(req.params.domain).hostname || req.params.domain,
 						result: 'verified'
 					}));
-				} else if (getCache().blacklist.includes(url.parse(req.params.domain).hostname) || getCache().blacklist.includes(req.params.domain)) {
-					res.send(JSON.stringify({
-						success: true,
-						result: 'blocked',
-						type: 'domain',
-						entries: getCache().scams.filter(function(scam) {
-							return (url.parse(scam.url).hostname == url.parse(req.params.domain).hostname || scam.url == req.params.domain || scam.ip == req.params.domain);
-						}) || false
-					}));
+				} else if (getCache().blacklist.includes(url.parse(req.params.domain).hostname) || getCache().blacklist.includes(req.params.domain.replace(/(^\w+:|^)\/\//,''))) {
+					if(/^(([1-9]?\d|1\d\d|2[0-5][0-5]|2[0-4]\d)\.){3}([1-9]?\d|1\d\d|2[0-5][0-5]|2[0-4]\d)$/.test(req.params.domain.replace(/(^\w+:|^)\/\//,''))) {
+						//They searched for an ip address
+						res.send(JSON.stringify({
+							success: true,
+							input: req.params.domain.replace(/(^\w+:|^)\/\//,''),
+							result: 'blocked',
+							type: 'ip',
+							entries: getCache().scams.filter(function(scam) {
+								return (url.parse(scam.url).hostname == url.parse(req.params.domain).hostname || scam.url == req.params.domain || scam.ip == req.params.domain.replace(/(^\w+:|^)\/\//,''));
+							}) || false
+						}));
+					} else {
+						//They searched for a domain
+						res.send(JSON.stringify({
+							success: true,
+							input: url.parse(req.params.domain).hostname || req.params.domain,
+							result: 'blocked',
+							type: 'domain',
+							entries: getCache().scams.filter(function(scam) {
+								return (url.parse(scam.url).hostname == url.parse(req.params.domain).hostname || scam.url == req.params.domain || scam.ip == req.params.domain.replace(/(^\w+:|^)\/\//,''));
+							}) || false
+						}));
+					}
 				} else {
 					res.send(JSON.stringify({
 						success: true,
 						result: 'neutral'
 					}));
 				}
-			}
+            }
 		} else if(req.params.type == "abusereport") {
 			res.send(JSON.stringify({
 				success: true,
