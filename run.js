@@ -5,6 +5,7 @@ const express = require('express');
 const dateFormat = require('dateformat');
 const url = require('url');
 const spawn = require('child_process').spawn;
+const metamaskBlocked = require('eth-phishing-detect');
 const app = express();
 const default_template = fs.readFileSync('./_layouts/default.html', 'utf8');
 let cache;
@@ -310,6 +311,7 @@ function startWebServer() {
         if ('url' in scam) {
             template = template.replace("{{ scam.url }}", '<b>URL</b>: <a id="url" target="_blank" href="/redirect/' + encodeURIComponent(scam.url) + '">' + scam.url + '</a><BR>');
             template = template.replace("{{ scam.googlethreat }}", "<b>Google Safe Browsing</b>: <span id='googleblocked'>loading...</span><BR>");
+            template = template.replace("{{ scam.metamask }}", "<b>MetaMask Status:</b> "+(metamaskBlocked(url.parse(scam.url).hostname)?"<span style='color:green'>Blocked</span>":"<span style='color:red'>Not Blocked</span>")+"<br />");
 			actions_text += '<a target="_blank" href="http://web.archive.org/web/*/"' + scam.url + ' class="ui icon secondary button"><i class="archive icon"></i> Archive</a>';
         } else {
             template = template.replace("{{ scam.googlethreat }}", '');
