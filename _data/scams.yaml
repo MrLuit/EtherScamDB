@@ -14564,3 +14564,9 @@
     subcategory: Wanchain
     addresses:
       - '0x88698a2ff09506596a88a1af9d103a420ba46a3e'
+-
+    id: 2321
+    name: numerai-token.com
+    url: 'http://numerai-token.com/'
+    category: Phishing
+    subcategory: Numerai
