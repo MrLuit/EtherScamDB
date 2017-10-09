@@ -115,6 +115,7 @@ function startWebServer() {
 		} else if(req.params.sorting == 'oldest') {
 			var scams = getCache().scams.sort(function(a,b) { return a.id-b.id; });
 		} else if(req.params.sorting == 'status') {
+			template = template.replace("{{ sorting.status }}","sorted descending");
 			var scams = getCache().scams.sort(function(a,b) {
 				if('status' in a && 'status' in b) {
 					if(a.status == 'Active' && b.status != 'Active' || a.status == 'Suspended' && b.status == 'Offline')  {
@@ -129,15 +130,37 @@ function startWebServer() {
 				}
 			});
 		} else if(req.params.sorting == 'category') {
+			template = template.replace("{{ sorting.category }}","sorted descending");
 			var scams = getCache().scams.sort(function(a,b) {
 				if('category' in a && 'category' in b) {
-					console.log(a.id + ' ' + a.category + ' ' + b.category + ' ' + a.category.localeCompare(b.category));
 					return a.category.localeCompare(b.category);
 				} else {
 					return -1;
 				}
 			});
+		} else if(req.params.sorting == 'subcategory') {
+			template = template.replace("{{ sorting.subcategory }}","sorted descending");
+			var scams = getCache().scams.sort(function(a,b) {
+				if('subcategory' in a && 'subcategory' in b) {
+					return a.subcategory.localeCompare(b.subcategory);
+				} else {
+					return -1;
+				}
+			});
+		} else if(req.params.sorting == 'title') {
+			template = template.replace("{{ sorting.title }}","sorted descending");
+			var scams = getCache().scams.sort(function(a,b) {
+				return a.name.localeCompare(b.name);
+			});
+		} else {
+			res.status(404).send(default_template.replace('{{ content }}', fs.readFileSync('./_layouts/404.html', 'utf8')));
 		}
+		
+		template = template.replace("{{ sorting.category }}","");
+		template = template.replace("{{ sorting.subcategory }}","");
+		template = template.replace("{{ sorting.status }}","");
+		template = template.replace("{{ sorting.title }}","");
+		
         let addresses = {};
 
         var intActiveScams = 0;
@@ -228,7 +251,7 @@ function startWebServer() {
             if (Number.parseInt(req.params.page) > 0) {
                 intCurrentPage = req.params.page;
             }
-            var strPagination = "";
+			var strPagination = "";
             if (intCurrentPage == 0) {
                 var arrLoop = [1, 6];
             } else if (intCurrentPage == 1) {
@@ -253,6 +276,20 @@ function startWebServer() {
                 }
                 strPagination += "<a href='" + strHref + "' class='" + strItemClass + "'>" + intPageNumber + "</a>";
             }
+			if(intCurrentPage > 3) {
+				if(req.params.sorting) {
+					strPagination = "<a class='item' href='/scams/1/" + req.params.sorting + "'><i class='angle double left icon'></i></a>" + strPagination;
+				} else {
+					strPagination = "<a class='item' href='/scams/1/" + req.params.sorting + "'><i class='angle double left icon'></i></a>" + strPagination;
+				}
+			}
+			if(intCurrentPage < Math.ceil(scams.length/MAX_RESULTS_PER_PAGE)-3) {
+				if(req.params.sorting) {
+					strPagination += "<a class='item' href='/scams/" + (Math.ceil(scams.length/MAX_RESULTS_PER_PAGE)-1) + "/" + req.params.sorting + "'><i class='angle double right icon'></i></a>";
+				} else {
+					strPagination += "<a class='item' href='/scams/" + (Math.ceil(scams.length/MAX_RESULTS_PER_PAGE)-1) + "'><i class='angle double right icon'></i></a>";
+				}
+			}
         } else {
             strPagination = "";
         }

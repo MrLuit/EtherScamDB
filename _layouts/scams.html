@@ -42,12 +42,12 @@
   </div>
 </div>
 <h1 class="scams">Scams</h1>
-<table class="ui celled table">
+<table class="ui sortable celled table">
   <thead>
-    <tr><th>Category</th>
-	<th>Subcategory</th>
-	<th>Status</th>
-    <th>Title</th>
+    <tr><th class="{{ sorting.category }}">Category</th>
+	<th class="{{ sorting.subcategory }}">Subcategory</th>
+	<th class="{{ sorting.status }}">Status</th>
+    <th class="{{ sorting.title }}">Title</th>
     <th id='info'>Info</th>
   </tr></thead>
   <tbody>
@@ -56,3 +56,4 @@
 </table>
 
 {{ scams.pagination }}
+<script src="/js/scams.js"></script>
