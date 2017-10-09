@@ -1,5 +1,4 @@
 node_modules
 npm-debug.log
-_data/cache.json
+_cache
 _site
-_static/screenshots/*.png

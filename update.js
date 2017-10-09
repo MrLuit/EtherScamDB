@@ -3,7 +3,8 @@ const url = require('url');
 const yaml = require('js-yaml');
 const fs = require('fs');
 const request = require("request");
-const puppeteer = require('puppeteer');
+const webshot = require('webshot');
+const shuffle = require('shuffle-array');
 
 let scams = yaml.safeLoad(fs.readFileSync('_data/scams.yaml'));
 let i = 0;
@@ -16,6 +17,11 @@ let new_cache = {
     'whitelist': [],
     'updated': (new Date()).getTime()
 };
+
+if (!fs.existsSync('_cache')) {
+    fs.mkdirSync('_cache');
+}
+
 yaml.safeLoad(fs.readFileSync('_data/legit_urls.yaml')).sort(function(a, b) {
     return a.name - b.name;
 }).forEach(function(legit_url) {
@@ -44,24 +50,6 @@ scams.forEach(function(scam, index) {
                         scam_details.status = 'Suspended';
                     } else if ((!('status' in scam_details) || scam_details.status != "Active") && !e && response.statusCode == 200 && r.uri.href.indexOf('cgi-sys/suspendedpage.cgi') === -1) {
                         scam_details.status = 'Active';
-
-                        //Take a screenshot of the active site if there isn't a screenshot already
-                        if(fs.existsSync('_static/screenshots/'+ scam.id +'-thumb.png') === false) {
-                            (async() => {
-                                const browser = await puppeteer.launch();
-                                console.log("Taking screenshot");
-                                const page = await browser.newPage();
-                                await page.goto(scam.url,{waitUntil:'networkidle'});
-                                await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36");
-                                page.setViewport({
-                                    'width': 1024,
-                                    'height': 768
-                                });
-                                await page.screenshot({path: '_static/screenshots/' + scam.id + '-full.png', fullPage: true});
-                                await page.screenshot({path: '_static/screenshots/' + scam.id + '-thumb.png', fullPage: false});
-                                await browser.close();
-                            })();
-                        }
                     }
                     if ('ip' in scam_details) {
                         if (!(scam_details.ip in new_cache.ips)) {
@@ -78,17 +66,56 @@ scams.forEach(function(scam, index) {
                         });
                     }
                     if (i == scams.length - 1) {
-						Object.keys(new_cache.ips).forEach(function(ip) {
-							new_cache.blacklist.push(ip);
-						});
-                        fs.writeFileSync("_data/cache.json", JSON.stringify(new_cache));
+                        Object.keys(new_cache.ips).forEach(function(ip) {
+                            new_cache.blacklist.push(ip);
+                        });
+                        fs.writeFile("_cache/cache.json", JSON.stringify(new_cache), function() {
+                            archive(new_cache);
+                            take_screenshots(new_cache);
+                        });
                     }
                 });
             });
         });
     } else if (i == scams.length - 1) {
-        fs.writeFileSync("_data/cache.json", JSON.stringify(new_cache));
+        fs.writeFile("_cache/cache.json", JSON.stringify(new_cache), function() {
+            archive(new_cache);
+            take_screenshots(new_cache);
+        });
     } else {
         i++;
     }
 });
+
+function archive(new_cache) {
+    var timeout = 0;
+    shuffle(new_cache.scams).forEach(function(scam) {
+        if ('url' in scam && 'status' in scam && scam.status == "Active") {
+            timeout++;
+            setTimeout(function() {
+				try {
+					request("https://web.archive.org/save/" + scam.url);
+				} catch(err) {
+					console.log(err);
+				}
+            }, timeout * 10000);
+        }
+    });
+}
+
+function take_screenshots(new_cache) {
+    if (!fs.existsSync('_cache/screenshots')) {
+        fs.mkdirSync('_cache/screenshots');
+    }
+	var timeout = 0;
+    shuffle(new_cache.scams).forEach(function(scam) {
+        if ('url' in scam && 'status' in scam && scam.status == "Active") {
+			timeout++;
+			setTimeout(function() {
+				webshot(scam.url, '_cache/screenshots/' + scam.id + '.png', function(err) {
+
+				});
+            }, timeout * 1000);
+        }
+    });
+}

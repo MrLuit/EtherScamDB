@@ -12,13 +12,13 @@ let cache;
 
 /* See if there's an up-to-date cache, otherwise run `update.js` to create one. */
 function getCache(callback = false) {
-    if (!fs.existsSync('_data/cache.json')) {
+    if (!fs.existsSync('_cache/cache.json')) {
         console.log("No cache file found. Creating one...");
         if (callback) {
             spawn('node', ['update.js']);
             let checkDone = setInterval(function() {
-                if (fs.existsSync('_data/cache.json')) {
-                    cache = JSON.parse(fs.readFileSync('_data/cache.json'));
+                if (fs.existsSync('_cache/cache.json')) {
+                    cache = JSON.parse(fs.readFileSync('_cache/cache.json'));
                     clearInterval(checkDone);
                     console.log("Successfully updated cache!");
                     callback();
@@ -28,7 +28,7 @@ function getCache(callback = false) {
             spawn('node', ['update.js']);
         }
     } else if (!cache) {
-        cache = JSON.parse(fs.readFileSync('_data/cache.json'));
+        cache = JSON.parse(fs.readFileSync('_cache/cache.json'));
         if (callback) {
             callback();
         }
@@ -405,8 +405,8 @@ function startWebServer() {
 
 /* Update the local cache using the external cache every 60 seconds */
 setInterval(function() {
-    if (fs.existsSync('_data/cache.json')) {
-        fs.readFile('_data/cache.json', function(err, data) {
+    if (fs.existsSync('_cache/cache.json')) {
+        fs.readFile('_cache/cache.json', function(err, data) {
             cache = JSON.parse(data);
         });
     }
