@@ -14590,3 +14590,11 @@
     url: 'http://paypie.tech/'
     category: Phishing
     subcategory: Paypie
+-
+    id: 2325
+    name: upfirng.com
+    url: 'http://upfirng.com/'
+    category: Phishing
+    subcategory: Upfiring
+    addresses:
+      - '0x801D03f4d053242aFbc2949c141BAB4270Ca6707'
