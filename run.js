@@ -5,6 +5,7 @@ const express = require('express');
 const dateFormat = require('dateformat');
 const url = require('url');
 const spawn = require('child_process').spawn;
+const metamaskBlocked = require('eth-phishing-detect');
 const app = express();
 const default_template = fs.readFileSync('./_layouts/default.html', 'utf8');
 let cache;
@@ -39,6 +40,31 @@ function getCache(callback = false) {
     }
 }
 
+/* Generate an abuse report for a scam domain */
+function generateAbuseReport(scam) {
+    let abusereport = "";
+    abusereport += "I would like to inform you of suspicious activities at the domain " + url.parse(scam.url).hostname;
+    if ('ip' in scam) {
+        abusereport += " located at IP address " + scam['ip'] + ".";
+    } else {
+        abusereport += ".";
+    }
+    if ('subcategory' in scam && scam.subcategory == "MyEtherWallet") {
+        abusereport += "The domain is impersonating MyEtherWallet.com, a website where people can create Ethereum wallets (a cryptocurrency like Bitcoin).";
+    } else if ('subcategory' in scam && scam.subcategory == "Classic Ether Wallet") {
+        abusereport += "The domain is impersonating classicetherwallet.com, a website where people can create Ethereum Classic wallets (a cryptocurrency like Bitcoin).";
+    } else if ('category' in scam && scam.category == "Fake ICO") {
+        abusereport += "The domain is impersonating a website where an ICO is being held (initial coin offering, like an initial public offering but it's for cryptocurrencies).";
+    }
+    if ('category' in scam && scam.category == "Phishing") {
+        abusereport += "\r\n\r\nThe attackers wish to steal funds by using phishing to get the victim's private keys (passwords to a wallet) and using them to send funds to their own wallets.";
+    } else if ('category' in scam && scam.category == "Fake ICO") {
+        abusereport += "\r\n\r\nThe attackers wish to steal funds by cloning the real website and changing the ethereum address so people will send funds to the attackers' address instead of the real address.";
+    }
+    abusereport += "\r\n\r\nPlease shut down this domain so further attacks will be prevented.";
+    return abusereport;
+}
+
 /* Start the web server */
 function startWebServer() {
     app.use(express.static('_static')); // Serve all static pages first
@@ -50,7 +76,7 @@ function startWebServer() {
     app.get('/search/', function(req, res) { // Serve /search/
         let table = "";
         getCache().legiturls.sort(function(a, b) {
-            return a.name - b.name;
+            return a.name.localeCompare(b.name);
         }).forEach(function(url) {
             if ('featured' in url && url.featured) {
                 if (fs.existsSync("_static/img/" + url.name.toLowerCase().replace(' ', '') + ".png")) {
@@ -84,9 +110,57 @@ function startWebServer() {
     app.get('/scams/:page?/:sorting?/', function(req, res) { // Serve /scams/
         const MAX_RESULTS_PER_PAGE = 30;
         let template = fs.readFileSync('./_layouts/scams.html', 'utf8');
-		if(!req.params.sorting) {
+		if(!req.params.sorting || req.params.sorting == 'latest') {
 			var scams = getCache().scams.sort(function(a,b) { return b.id-a.id; });
-		} //else if(req.params.sorting == ')
+		} else if(req.params.sorting == 'oldest') {
+			var scams = getCache().scams.sort(function(a,b) { return a.id-b.id; });
+		} else if(req.params.sorting == 'status') {
+			template = template.replace("{{ sorting.status }}","sorted descending");
+			var scams = getCache().scams.sort(function(a,b) {
+				if('status' in a && 'status' in b) {
+					if(a.status == 'Active' && b.status != 'Active' || a.status == 'Suspended' && b.status == 'Offline')  {
+						return -1;
+					} else if(a.status == b.status) {
+						return 0;
+					} else {
+						return 1;
+					}
+				} else {
+					return 1;
+				}
+			});
+		} else if(req.params.sorting == 'category') {
+			template = template.replace("{{ sorting.category }}","sorted descending");
+			var scams = getCache().scams.sort(function(a,b) {
+				if('category' in a && 'category' in b) {
+					return a.category.localeCompare(b.category);
+				} else {
+					return -1;
+				}
+			});
+		} else if(req.params.sorting == 'subcategory') {
+			template = template.replace("{{ sorting.subcategory }}","sorted descending");
+			var scams = getCache().scams.sort(function(a,b) {
+				if('subcategory' in a && 'subcategory' in b) {
+					return a.subcategory.localeCompare(b.subcategory);
+				} else {
+					return -1;
+				}
+			});
+		} else if(req.params.sorting == 'title') {
+			template = template.replace("{{ sorting.title }}","sorted descending");
+			var scams = getCache().scams.sort(function(a,b) {
+				return a.name.localeCompare(b.name);
+			});
+		} else {
+			res.status(404).send(default_template.replace('{{ content }}', fs.readFileSync('./_layouts/404.html', 'utf8')));
+		}
+		
+		template = template.replace("{{ sorting.category }}","");
+		template = template.replace("{{ sorting.subcategory }}","");
+		template = template.replace("{{ sorting.status }}","");
+		template = template.replace("{{ sorting.title }}","");
+		
         let addresses = {};
 
         var intActiveScams = 0;
@@ -177,7 +251,7 @@ function startWebServer() {
             if (Number.parseInt(req.params.page) > 0) {
                 intCurrentPage = req.params.page;
             }
-            var strPagination = "";
+			var strPagination = "";
             if (intCurrentPage == 0) {
                 var arrLoop = [1, 6];
             } else if (intCurrentPage == 1) {
@@ -191,6 +265,9 @@ function startWebServer() {
                 var intPageNumber = (Number(intCurrentPage) + Number(i));
                 var strItemClass = "item";
                 var strHref = "/scams/" + intPageNumber + "/";
+				if(req.params.sorting) {
+					strHref += req.params.sorting + "/";
+				}
                 if ((intPageNumber > (scams.length) / MAX_RESULTS_PER_PAGE) || (intPageNumber < 1)) {
                     strItemClass = "disabled item";
                     strHref = "#";
@@ -199,6 +276,20 @@ function startWebServer() {
                 }
                 strPagination += "<a href='" + strHref + "' class='" + strItemClass + "'>" + intPageNumber + "</a>";
             }
+			if(intCurrentPage > 3) {
+				if(req.params.sorting) {
+					strPagination = "<a class='item' href='/scams/1/" + req.params.sorting + "'><i class='angle double left icon'></i></a>" + strPagination;
+				} else {
+					strPagination = "<a class='item' href='/scams/1/" + req.params.sorting + "'><i class='angle double left icon'></i></a>" + strPagination;
+				}
+			}
+			if(intCurrentPage < Math.ceil(scams.length/MAX_RESULTS_PER_PAGE)-3) {
+				if(req.params.sorting) {
+					strPagination += "<a class='item' href='/scams/" + (Math.ceil(scams.length/MAX_RESULTS_PER_PAGE)-1) + "/" + req.params.sorting + "'><i class='angle double right icon'></i></a>";
+				} else {
+					strPagination += "<a class='item' href='/scams/" + (Math.ceil(scams.length/MAX_RESULTS_PER_PAGE)-1) + "'><i class='angle double right icon'></i></a>";
+				}
+			}
         } else {
             strPagination = "";
         }
@@ -209,6 +300,7 @@ function startWebServer() {
     app.get('/scam/:id/', function(req, res) { // Serve /scam/<id>/
 		let scam = getCache().scams.find(function(scam) { return scam.id == req.params.id; });
         let template = fs.readFileSync('./_layouts/scam.html', 'utf8');
+		var actions_text = "";
         template = template.replace("{{ scam.id }}", scam.id);
         template = template.replace("{{ scam.name }}", scam.name);
 
@@ -255,11 +347,17 @@ function startWebServer() {
             template = template.replace("{{ scam.ip }}", '');
         }
         if ('url' in scam) {
+			template = template.replace("{{ scam.abusereport }}",generateAbuseReport(scam));
+			actions_text += '<button id="gen" class="ui icon secondary button"><i class="setting icon"></i> Abuse Report</button>';
+			actions_text += '<a target="_blank" href="http://web.archive.org/web/*/' + url.parse(scam.url).hostname + '" class="ui icon secondary button"><i class="archive icon"></i> Archive</a>';
             template = template.replace("{{ scam.url }}", '<b>URL</b>: <a id="url" target="_blank" href="/redirect/' + encodeURIComponent(scam.url) + '">' + scam.url + '</a><BR>');
             template = template.replace("{{ scam.googlethreat }}", "<b>Google Safe Browsing</b>: <span id='googleblocked'>loading...</span><BR>");
+            template = template.replace("{{ scam.metamask }}", "<b>MetaMask Status:</b> "+(metamaskBlocked(url.parse(scam.url).hostname)?"<span style='color:green'>Blocked</span>":"<span style='color:red'>Not Blocked</span>")+"<br />");
         } else {
             template = template.replace("{{ scam.googlethreat }}", '');
         }
+		actions_text += '<button id="share" class="ui icon secondary button"><i class="share alternate icon"></i> Share</button>';
+		template = template.replace("{{ scam.actions }}", '<div id="actions" class="eight wide column">' + actions_text + '</div>');
         res.send(default_template.replace('{{ content }}', template));
     });
 
@@ -324,43 +422,78 @@ function startWebServer() {
         } else if (req.params.type == "whitelist") {
             res.send(JSON.stringify(getCache().whitelist, null, 2));
         } else if (req.params.type == "check" && req.params.domain) {
-            Object.keys(getCache().addresses).forEach(function(address, index) {
-                if (req.params.domain == address) {
-                    res.send(JSON.stringify({
-                        success: true,
-                        result: 'blocked',
-                        type: 'address',
-                        entries: getCache().scams.filter(function(scam) {
-                            if ('addresses' in scam) {
-                                return (scam.addresses.includes(req.params.domain));
-                            } else {
-                                return false;
-                            }
-                        })
-                    }));
-                }
-            });
-			if (!res.headersSent) {
-				if (getCache().whitelist.includes(url.parse(req.params.domain).hostname) || getCache().whitelist.includes(req.params.domain)) {
+            //They can search for an address or domain.
+            if(/^0x?[0-9A-Fa-f]{40,42}$/.test(req.params.domain)) {
+                Object.keys(getCache().addresses).forEach(function(address, index) {
+                    //They searched for an address
+                    if (req.params.domain == address) {
+                        res.send(JSON.stringify({
+                            success: true,
+                            result: 'blocked',
+                            type: 'address',
+                            entries: getCache().scams.filter(function (scam) {
+                                if ('addresses' in scam) {
+                                    return (scam.addresses.includes(req.params.domain));
+                                } else {
+                                    return false;
+                                }
+                            })
+                        }));
+                    }
+                });
+            } else {
+				//They searched for a domain or an ip address
+                if (getCache().whitelist.includes(url.parse(req.params.domain).hostname) || getCache().whitelist.includes(req.params.domain)) {
 					res.send(JSON.stringify({
 						success: true,
+						input: url.parse(req.params.domain).hostname || req.params.domain,
 						result: 'verified'
 					}));
-				} else if (getCache().blacklist.includes(url.parse(req.params.domain).hostname) || getCache().blacklist.includes(req.params.domain)) {
-					res.send(JSON.stringify({
-						success: true,
-						result: 'blocked',
-						type: 'domain',
-						entries: getCache().scams.filter(function(scam) {
-							return (url.parse(scam.url).hostname == url.parse(req.params.domain).hostname || scam.url == req.params.domain || scam.ip == req.params.domain);
-						}) || false
-					}));
+				} else if (getCache().blacklist.includes(url.parse(req.params.domain).hostname) || getCache().blacklist.includes(req.params.domain.replace(/(^\w+:|^)\/\//,''))) {
+					if(/^(([1-9]?\d|1\d\d|2[0-5][0-5]|2[0-4]\d)\.){3}([1-9]?\d|1\d\d|2[0-5][0-5]|2[0-4]\d)$/.test(req.params.domain.replace(/(^\w+:|^)\/\//,''))) {
+						//They searched for an ip address
+						res.send(JSON.stringify({
+							success: true,
+							input: req.params.domain.replace(/(^\w+:|^)\/\//,''),
+							result: 'blocked',
+							type: 'ip',
+							entries: getCache().scams.filter(function(scam) {
+								return (url.parse(scam.url).hostname == url.parse(req.params.domain).hostname || scam.url.replace(/(^\w+:|^)\/\//,'') == req.params.domain || scam.ip == req.params.domain.replace(/(^\w+:|^)\/\//,''));
+							}) || false
+						}));
+					} else {
+						//They searched for a domain
+						res.send(JSON.stringify({
+							success: true,
+							input: url.parse(req.params.domain).hostname || req.params.domain,
+							result: 'blocked',
+							type: 'domain',
+							entries: getCache().scams.filter(function(scam) {
+								return (url.parse(scam.url).hostname == url.parse(req.params.domain).hostname || scam.url.replace(/(^\w+:|^)\/\//,'') == req.params.domain);
+							}) || false
+						}));
+					}
 				} else {
 					res.send(JSON.stringify({
 						success: true,
 						result: 'neutral'
 					}));
 				}
+            }
+		} else if(req.params.type == "abusereport" && req.params.domain) {
+			var results = getCache().scams.filter(function(scam) {
+				return (url.parse(scam.url).hostname == url.parse(req.params.domain).hostname || scam.url.replace(/(^\w+:|^)\/\//,'') == req.params.domain);
+			}) || false;
+			if(results.length == 0) {
+				res.send(JSON.stringify({
+					success: false,
+					error: "URL wasn't found"
+				}));
+			} else {
+				res.send(JSON.stringify({
+					success: true,
+					result: generateAbuseReport(results[0])
+				}));
 			}
         } else {
             res.send(JSON.stringify({
@@ -379,16 +512,45 @@ function startWebServer() {
     });
 }
 
-/* Update the local cache using the external cache every 60 seconds */
-setInterval(function() {
-    if (fs.existsSync('_cache/cache.json')) {
-        fs.readFile('_cache/cache.json', function(err, data) {
-            cache = JSON.parse(data);
-        });
+if (2 in process.argv) {
+    if (process.argv[2] == "--clean") {
+        fs.unlinkSync('_data/cache.json');
+		console.log("Cleared cache");
+	} else if(process.argv[2] == "--update") {
+		if(fs.existsSync("_data/cache.json") && cache) {
+			spawn('node', ['update.js']);
+		} else {
+			console.log("Another update is already in progress...");
+		}
+    } else if (process.argv[2] == "--archive") {
+		var timeout = 0;
+		console.log("Sending all pages to archive.org...");
+		fs.readFile("./_site/data/scams.json", function(err, data) {
+			data = shuffle(JSON.parse(data));
+			data.forEach(function(val, key) {
+				if ('url' in data[key] && 'status' in data[key] && data[key]['status'][0]['status'] == "Active") {
+					timeout++;
+					setTimeout(function() {
+						request("https://web.archive.org/save/" + data[key]['url'], function(e, response) {
+                            console.log("Archived " + data[key]['url']);
+						});
+					}, timeout * 10000);
+				}
+			});
+		});
+    } else {
+        console.log("Unsupported flag: " + process.argv[2]);
     }
-}, 60000);
-
-/* Get the cache first, and start the webserver when it's got the cache */
-getCache(function() {
-    startWebServer();
-});
+} else {
+  /* Update the local cache using the external cache every 60 seconds */
+	setInterval(function() {
+		if (fs.existsSync('_data/cache.json')) {
+			fs.readFile('_data/cache.json', function(err, data) {
+				cache = JSON.parse(data);
+			});
+		}
+	}, 60000);
+    getCache(function() {
+		startWebServer();
+	});
+}
