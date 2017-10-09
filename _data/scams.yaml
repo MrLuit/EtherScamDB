@@ -14580,18 +14580,38 @@
       - '0x05E3650Bfc907Cc1b3C774F0c053C8B990ce1A4b'
 -
     id: 2323
+    name: paypie.net
+    url: 'http://paypie.net/'
+    category: Phishing
+    subcategory: Paypie
+-
+    id: 2324
+    name: paypie.tech
+    url: 'http://paypie.tech/'
+    category: Phishing
+    subcategory: Paypie
+-
+    id: 2325
+    name: upfirng.com
+    url: 'http://upfirng.com/'
+    category: Phishing
+    subcategory: Upfiring
+    addresses:
+      - '0x801D03f4d053242aFbc2949c141BAB4270Ca6707'
+-
+    id: 2326
     name: myethereumwallct.com
     url: 'http://myethereumwallct.com/'
     category: Phishing
     subcategory: MyEtherWallet
 -
-    id: 2324
+    id: 2327
     name: myetherwalletww.com
     url: 'http://myetherwalletww.com/'
     category: Phishing
     subcategory: MyEtherWallet
 -
-    id: 2325
+    id: 2328
     name: myethereunwallet.com
     url: 'http://myethereunwallet.com/'
     category: Phishing
