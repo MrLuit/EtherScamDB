@@ -17,7 +17,6 @@ Generating should take around 2 minutes the first time or after a clean, but whe
 
 - `--clean` Clean up all the old files and folders
 - `--update` Manually update all content
-- `--archive` Send all active domains to archive.org for caching [Takes a very long time because we don't want to flood their servers]
 
 ## Contribute
 

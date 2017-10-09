@@ -88,7 +88,7 @@ scams.forEach(function(scam, index) {
 });
 
 function archive(new_cache) {
-    var timeout = 0;
+    /*var timeout = 0;
     shuffle(new_cache.scams).forEach(function(scam) {
         if ('url' in scam && 'status' in scam && scam.status == "Active") {
             timeout++;
@@ -100,7 +100,7 @@ function archive(new_cache) {
                 }
             }, timeout * 10000);
         }
-    });
+    });*/
 }
 
 function take_screenshots(new_cache) {
