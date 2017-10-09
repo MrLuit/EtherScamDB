@@ -43,22 +43,22 @@ function getCache(callback = false) {
 /* Generate an abuse report for a scam domain */
 function generateAbuseReport(scam) {
     let abusereport = "";
-    abusereport += "I would like to inform you of suspicious activities at the domain " + url.parse(scam['url']).hostname;
+    abusereport += "I would like to inform you of suspicious activities at the domain " + url.parse(scam.url).hostname;
     if ('ip' in scam) {
         abusereport += " located at IP address " + scam['ip'] + ".";
     } else {
         abusereport += ".";
     }
-    if ('subcategory' in scam && scam['subcategory'] == "MyEtherWallet") {
+    if ('subcategory' in scam && scam.subcategory == "MyEtherWallet") {
         abusereport += "The domain is impersonating MyEtherWallet.com, a website where people can create Ethereum wallets (a cryptocurrency like Bitcoin).";
-    } else if ('subcategory' in scam && scam['subcategory'] == "Classic Ether Wallet") {
+    } else if ('subcategory' in scam && scam.subcategory == "Classic Ether Wallet") {
         abusereport += "The domain is impersonating classicetherwallet.com, a website where people can create Ethereum Classic wallets (a cryptocurrency like Bitcoin).";
-    } else if ('category' in scam && scam['category'] == "Fake ICO") {
+    } else if ('category' in scam && scam.category == "Fake ICO") {
         abusereport += "The domain is impersonating a website where an ICO is being held (initial coin offering, like an initial public offering but it's for cryptocurrencies).";
     }
-    if ('category' in scam && scam['category'] == "Phishing") {
+    if ('category' in scam && scam.category == "Phishing") {
         abusereport += "\r\n\r\nThe attackers wish to steal funds by using phishing to get the victim's private keys (passwords to a wallet) and using them to send funds to their own wallets.";
-    } else if ('category' in scam && scam['category'] == "Fake ICO") {
+    } else if ('category' in scam && scam.category == "Fake ICO") {
         abusereport += "\r\n\r\nThe attackers wish to steal funds by cloning the real website and changing the ethereum address so people will send funds to the attackers' address instead of the real address.";
     }
     abusereport += "\r\n\r\nPlease shut down this domain so further attacks will be prevented.";
@@ -76,7 +76,7 @@ function startWebServer() {
     app.get('/search/', function(req, res) { // Serve /search/
         let table = "";
         getCache().legiturls.sort(function(a, b) {
-            return a.name - b.name;
+            return a.name.localeCompare(b.name);
         }).forEach(function(url) {
             if ('featured' in url && url.featured) {
                 if (fs.existsSync("_static/img/" + url.name.toLowerCase().replace(' ', '') + ".png")) {
@@ -346,18 +346,17 @@ function startWebServer() {
             template = template.replace("{{ scam.ip }}", '');
         }
         if ('url' in scam) {
+			template = template.replace("{{ scam.abusereport }}",generateAbuseReport(scam));
+			actions_text += '<button id="gen" class="ui icon secondary button"><i class="setting icon"></i> Abuse Report</button>';
+			actions_text += '<a target="_blank" href="http://web.archive.org/web/*/' + url.parse(scam.url).hostname + '" class="ui icon secondary button"><i class="archive icon"></i> Archive</a>';
             template = template.replace("{{ scam.url }}", '<b>URL</b>: <a id="url" target="_blank" href="/redirect/' + encodeURIComponent(scam.url) + '">' + scam.url + '</a><BR>');
             template = template.replace("{{ scam.googlethreat }}", "<b>Google Safe Browsing</b>: <span id='googleblocked'>loading...</span><BR>");
             template = template.replace("{{ scam.metamask }}", "<b>MetaMask Status:</b> "+(metamaskBlocked(url.parse(scam.url).hostname)?"<span style='color:green'>Blocked</span>":"<span style='color:red'>Not Blocked</span>")+"<br />");
-			actions_text += '<a target="_blank" href="http://web.archive.org/web/*/"' + scam.url + ' class="ui icon secondary button"><i class="archive icon"></i> Archive</a>';
         } else {
             template = template.replace("{{ scam.googlethreat }}", '');
         }
-		if(actions_text != "") {
-			template = template.replace("{{ scam.actions }}", '<div id="actions" class="eight wide column">' + actions_text + '</div>');
-		} else {
-			template = template.replace("{{ scam.actions }}", '');
-		}
+		actions_text += '<button id="share" class="ui icon secondary button"><i class="share alternate icon"></i> Share</button>';
+		template = template.replace("{{ scam.actions }}", '<div id="actions" class="eight wide column">' + actions_text + '</div>');
         res.send(default_template.replace('{{ content }}', template));
     });
 
@@ -458,7 +457,7 @@ function startWebServer() {
 							result: 'blocked',
 							type: 'ip',
 							entries: getCache().scams.filter(function(scam) {
-								return (url.parse(scam.url).hostname == url.parse(req.params.domain).hostname || scam.url == req.params.domain || scam.ip == req.params.domain.replace(/(^\w+:|^)\/\//,''));
+								return (url.parse(scam.url).hostname == url.parse(req.params.domain).hostname || scam.url.replace(/(^\w+:|^)\/\//,'') == req.params.domain || scam.ip == req.params.domain.replace(/(^\w+:|^)\/\//,''));
 							}) || false
 						}));
 					} else {
@@ -469,7 +468,7 @@ function startWebServer() {
 							result: 'blocked',
 							type: 'domain',
 							entries: getCache().scams.filter(function(scam) {
-								return (url.parse(scam.url).hostname == url.parse(req.params.domain).hostname || scam.url == req.params.domain || scam.ip == req.params.domain.replace(/(^\w+:|^)\/\//,''));
+								return (url.parse(scam.url).hostname == url.parse(req.params.domain).hostname || scam.url.replace(/(^\w+:|^)\/\//,'') == req.params.domain);
 							}) || false
 						}));
 					}
@@ -480,11 +479,21 @@ function startWebServer() {
 					}));
 				}
             }
-		} else if(req.params.type == "abusereport") {
-			res.send(JSON.stringify({
-				success: true,
-				result: generateAbuseReport(getCache().scams.find(function(scam) { return (scam.url == req.params.domain); }))
-			}));
+		} else if(req.params.type == "abusereport" && req.params.domain) {
+			var results = getCache().scams.filter(function(scam) {
+				return (url.parse(scam.url).hostname == url.parse(req.params.domain).hostname || scam.url.replace(/(^\w+:|^)\/\//,'') == req.params.domain);
+			}) || false;
+			if(results.length == 0) {
+				res.send(JSON.stringify({
+					success: false,
+					error: "URL wasn't found"
+				}));
+			} else {
+				res.send(JSON.stringify({
+					success: true,
+					result: generateAbuseReport(results[0])
+				}));
+			}
         } else {
             res.send(JSON.stringify({
                 success: false,
