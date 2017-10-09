@@ -14598,3 +14598,21 @@
     subcategory: Upfiring
     addresses:
       - '0x801D03f4d053242aFbc2949c141BAB4270Ca6707'
+-
+    id: 2326
+    name: myethereumwallct.com
+    url: 'http://myethereumwallct.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2327
+    name: myetherwalletww.com
+    url: 'http://myetherwalletww.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2328
+    name: myethereunwallet.com
+    url: 'http://myethereunwallet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
