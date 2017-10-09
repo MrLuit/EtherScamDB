@@ -93,11 +93,11 @@ function archive(new_cache) {
         if ('url' in scam && 'status' in scam && scam.status == "Active") {
             timeout++;
             setTimeout(function() {
-				try {
-					request("https://web.archive.org/save/" + scam.url);
-				} catch(err) {
-					console.log(err);
-				}
+                try {
+                    request("https://web.archive.org/save/" + scam.url);
+                } catch (err) {
+                    console.log(err);
+                }
             }, timeout * 10000);
         }
     });
@@ -107,14 +107,14 @@ function take_screenshots(new_cache) {
     if (!fs.existsSync('_cache/screenshots')) {
         fs.mkdirSync('_cache/screenshots');
     }
-	var timeout = 0;
+    var timeout = 0;
     shuffle(new_cache.scams).forEach(function(scam) {
-        if ('url' in scam && 'status' in scam && scam.status == "Active") {
-			timeout++;
-			setTimeout(function() {
-				webshot(scam.url, '_cache/screenshots/' + scam.id + '.png', function(err) {
+        if ('url' in scam && 'status' in scam && (scam.status == "Active" || scam.status == "Suspended")) {
+            timeout++;
+            setTimeout(function() {
+                webshot(scam.url, '_cache/screenshots/' + scam.id + '.png', function(err) {
 
-				});
+                });
             }, timeout * 1000);
         }
     });
