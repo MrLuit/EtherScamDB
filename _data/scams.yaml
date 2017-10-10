@@ -14622,3 +14622,9 @@
     url: 'http://myethereumwaliet.com'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2330
+    name: security-steemit.com.mx
+    url: 'http://security-steemit.com.mx'
+    category: Phishing
+    subcategory: Steemit
