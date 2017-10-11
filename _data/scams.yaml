@@ -14628,3 +14628,9 @@
     url: 'http://security-steemit.com.mx'
     category: Phishing
     subcategory: Steemit
+-
+    id: 2331
+    name: cryptoinsidenews.com
+    url: 'http://cryptoinsidenews.com'
+    category: Phishing
+    subcategory: EtherDelta
