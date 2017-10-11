@@ -14646,3 +14646,9 @@
     url: 'http://www-request.network'
     category: Phishing
     subcategory: Request
+-
+    id: 2334
+    name: xn--bitrex-k17b.com
+    url: 'http://xn--bitrex-k17b.com'
+    category: Phishing
+    subcategory: Bittrex
