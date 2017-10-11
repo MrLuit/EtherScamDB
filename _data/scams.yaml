@@ -14640,3 +14640,9 @@
     url: 'http://www-enigma.co'
     category: Phishing
     subcategory: Enigma
+-
+    id: 2333
+    name: www-request.network
+    url: 'http://www-request.network'
+    category: Phishing
+    subcategory: Request
