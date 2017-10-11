@@ -14634,3 +14634,9 @@
     url: 'http://cryptoinsidenews.com'
     category: Phishing
     subcategory: EtherDelta
+-
+    id: 2332
+    name: www-enigma.co
+    url: 'http://www-enigma.co'
+    category: Phishing
+    subcategory: Enigma
