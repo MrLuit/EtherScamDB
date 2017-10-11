@@ -14664,3 +14664,9 @@
     url: 'http://airswap.in'
     category: Phishing
     subcategory: Airswap
+-
+    id: 2337
+    name: alrswap.io
+    url: 'http://alrswap.io'
+    category: Phishing
+    subcategory: Airswap
