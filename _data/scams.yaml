@@ -14648,6 +14648,36 @@
     subcategory: Request
 -
     id: 2334
+    name: airswaptoken.com
+    url: 'http://airswaptoken.com'
+    category: Phishing
+    subcategory: Airswap
+-
+    id: 2335
+    name: airswap.cc
+    url: 'http://airswap.cc'
+    category: Phishing
+    subcategory: Airswap
+-
+    id: 2336
+    name: airswap.in
+    url: 'http://airswap.in'
+    category: Phishing
+    subcategory: Airswap
+-
+    id: 2337
+    name: alrswap.io
+    url: 'http://alrswap.io'
+    category: Phishing
+    subcategory: Airswap
+-
+    id: 2338
+    name: myetnenwallet.com
+    url: 'http://myetnenwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2339
     name: xn--bitrex-k17b.com
     url: 'http://xn--bitrex-k17b.com'
     category: Phishing
