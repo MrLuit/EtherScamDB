@@ -14670,3 +14670,9 @@
     url: 'http://alrswap.io'
     category: Phishing
     subcategory: Airswap
+-
+    id: 2338
+    name: myetnenwallet.com
+    url: 'http://myetnenwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
