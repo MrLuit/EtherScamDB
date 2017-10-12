@@ -14682,3 +14682,9 @@
     url: 'http://xn--bitrex-k17b.com'
     category: Phishing
     subcategory: Bittrex
+-
+    id: 2340
+    name: myehterwailet.com
+    url: 'http://myehterwailet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
