@@ -14676,3 +14676,9 @@
     url: 'http://myetnenwallet.com'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2339
+    name: xn--bitrex-k17b.com
+    url: 'http://xn--bitrex-k17b.com'
+    category: Phishing
+    subcategory: Bittrex
