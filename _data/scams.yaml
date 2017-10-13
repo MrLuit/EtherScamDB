@@ -14690,6 +14690,14 @@
     subcategory: MyEtherWallet
 -
     id: 2341
+    name: enjincoin.pw
+    url: 'http://enjincoin.pw/'
+    category: Phishing
+    subcategory: Enjin
+    addresses:
+      - '0xB71dF0DbbB9754c1aa9115253F4eBb7EF3f8a57c'
+-
+    id: 2342
     name: myewerthwalliet.com
     url: 'http://myewerthwalliet.com/'
     category: Phishing
