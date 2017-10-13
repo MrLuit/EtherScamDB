@@ -14688,3 +14688,9 @@
     url: 'http://myehterwailet.com/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2341
+    name: first-eth.info
+    url: 'http://first-eth.info/'
+    category: Scamming
+    subcategory: WebWallet
