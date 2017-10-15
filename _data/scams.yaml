@@ -14714,3 +14714,11 @@
     url: 'http://binancie.com/'
     category: Phishing
     subcategory: Binance
+-
+    id: 2345
+    name: requestnetwork.live
+    url: 'http://requestnetwork.live/'
+    category: Phishing
+    subcategory: Request
+    addresses:
+      - '0x8374aa52Bf36EaBcA06E33c4163A081F53e39Aa3'
