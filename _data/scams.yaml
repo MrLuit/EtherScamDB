@@ -14730,9 +14730,15 @@
     subcategory: Request
     addresses:
       - '0x49311A81F5F5dF6C109599Ed5d7413d85b8bcA18'
- -
+-
     id: 2347
     name: polkodot.network
     url: 'http://polkodot.network/'
     category: Phishing
     subcategory: Polkadot
+-
+    id: 2348
+    name: slack.com.ru
+    url: 'http://slack.com.ru/'
+    category: Phishing
+    subcategory: Slack
