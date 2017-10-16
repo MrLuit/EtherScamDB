@@ -14749,4 +14749,12 @@
     category: Phishing
     subcategory: Omega
     addresses:
-      - '0x3AA65f17cdE339dF49AFd2F88B3C8495842D5FB0 '
+      - '0x3AA65f17cdE339dF49AFd2F88B3C8495842D5FB0'
+-
+    id: 2350
+    name: myehterwaliet.com
+    url: 'http://myehterwaliet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    addresses:
+      - '0x37c81cc9ff71d0f97849a947bf22e8e529b72230'      
