@@ -14742,3 +14742,11 @@
     url: 'http://slack.com.ru/'
     category: Phishing
     subcategory: Slack
+-
+    id: 2349
+    name: omegaone.co
+    url: 'http://omegaone.co/'
+    category: Phishing
+    subcategory: Omega
+    addresses:
+      - '0x3AA65f17cdE339dF49AFd2F88B3C8495842D5FB0 '
