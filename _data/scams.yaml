@@ -14769,4 +14769,10 @@
     name: myetherwalletiu.com
     url: 'http://myetherwalletiu.com/'
     category: Phishing
-    subcategory: MyEtherWallet      
+    subcategory: MyEtherWallet
+-
+    id: 2353
+    name: etheirdelta.com
+    url: 'http://etheirdelta.com/'
+    category: Phishing
+    subcategory: EtherDelta       
