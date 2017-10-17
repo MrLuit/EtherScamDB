@@ -14763,4 +14763,10 @@
     name: myetherwaiiett.com
     url: 'http://myetherwaiiett.com/'
     category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2352
+    name: myetherwalletiu.com
+    url: 'http://myetherwalletiu.com/'
+    category: Phishing
     subcategory: MyEtherWallet      
