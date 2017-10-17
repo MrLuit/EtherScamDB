@@ -14793,4 +14793,10 @@
     name: myetherwallet-forkprep.pagedemo.co
     url: 'http://myetherwallet-forkprep.pagedemo.co/'
     category: Phishing
-    subcategory: MyEtherWallet       
+    subcategory: MyEtherWallet    
+-
+    id: 2357
+    name: myethereum-wallet.com
+    url: 'http://myethereum-wallet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet        
