@@ -14757,4 +14757,46 @@
     category: Phishing
     subcategory: MyEtherWallet
     addresses:
-      - '0x37c81cc9ff71d0f97849a947bf22e8e529b72230'      
+      - '0x37c81cc9ff71d0f97849a947bf22e8e529b72230'
+-
+    id: 2351
+    name: myetherwaiiett.com
+    url: 'http://myetherwaiiett.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2352
+    name: myetherwalletiu.com
+    url: 'http://myetherwalletiu.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2353
+    name: etheirdelta.com
+    url: 'http://etheirdelta.com/'
+    category: Phishing
+    subcategory: EtherDelta     
+-
+    id: 2354
+    name: www-mvetherwallet.com
+    url: 'http://www-mvetherwallet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet    
+-
+    id: 2355
+    name: myetnerwailet.com
+    url: 'http://myetnerwailet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet    
+-
+    id: 2356
+    name: myetherwallet-forkprep.pagedemo.co
+    url: 'http://myetherwallet-forkprep.pagedemo.co/'
+    category: Phishing
+    subcategory: MyEtherWallet    
+-
+    id: 2357
+    name: myethereum-wallet.com
+    url: 'http://myethereum-wallet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet        
