@@ -14782,3 +14782,9 @@
     url: 'http://www-mvetherwallet.com/'
     category: Phishing
     subcategory: MyEtherWallet    
+-
+    id: 2355
+    name: myetnerwailet.com
+    url: 'http://myetnerwailet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet       
