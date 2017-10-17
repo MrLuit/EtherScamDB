@@ -14757,4 +14757,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     addresses:
-      - '0x37c81cc9ff71d0f97849a947bf22e8e529b72230'      
+      - '0x37c81cc9ff71d0f97849a947bf22e8e529b72230'
+-
+    id: 2351
+    name: myetherwaiiett.com
+    url: 'http://myetherwaiiett.com/'
+    category: Phishing
+    subcategory: MyEtherWallet      
