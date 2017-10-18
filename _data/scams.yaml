@@ -14800,3 +14800,11 @@
     url: 'http://myethereum-wallet.com/'
     category: Phishing
     subcategory: MyEtherWallet        
+-
+    id: 2358
+    name: worldofbattles.io 
+    url: 'http://worldofbattles.io/'
+    category: Scamming
+    subcategory: WorldOfBattles
+    addresses:
+      - '0xef57aa4b57587600fc209f345fe0a2687bc26985'
