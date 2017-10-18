@@ -14822,3 +14822,11 @@
     url: 'http://myetherwalletverify.info/'
     category: Phishing
     subcategory: MyEtherWallet 
+-
+    id: 2361
+    name: ralden.network 
+    url: 'http://ralden.network/'
+    category: Phishing
+    subcategory: Raiden
+    addresses:
+      - '0x3639b8B8edA816B2cb62b65159A183972a3cf863'    
