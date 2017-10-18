@@ -14846,3 +14846,11 @@
     subcategory: Raiden
     addresses:
       - '0xAF31bf4Fa017768E6426308Cf17E16d633700265'    
+-
+    id: 2364
+    name: privatix.live 
+    url: 'http://privatix.live/'
+    category: Phishing
+    subcategory: Privatix
+    addresses:
+      - '0xd055610c2d5151aDb3eaF994e08aBe45DeE936E0'         
