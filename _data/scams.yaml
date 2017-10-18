@@ -14838,3 +14838,11 @@
     subcategory: Raiden
     addresses:
       - '0xd3d7c71e4c5b1ff2f42fbb9b4a21f3373aa8b3b0'        
+-
+    id: 2363
+    name: riden.network 
+    url: 'http://riden.network/'
+    category: Phishing
+    subcategory: Raiden
+    addresses:
+      - '0xAF31bf4Fa017768E6426308Cf17E16d633700265'    
