@@ -14808,3 +14808,11 @@
     subcategory: WorldOfBattles
     addresses:
       - '0xef57aa4b57587600fc209f345fe0a2687bc26985'
+-
+    id: 2359
+    name: stormxtoken.com 
+    url: 'http://stormxtoken.com/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0xB7c4A4341c0A03460B6ceC4fa997dD2D748Ce281'
