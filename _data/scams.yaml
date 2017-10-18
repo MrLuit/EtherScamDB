@@ -14816,3 +14816,9 @@
     subcategory: Storm
     addresses:
       - '0xB7c4A4341c0A03460B6ceC4fa997dD2D748Ce281'
+-
+    id: 2360
+    name: myetherwalletverify.info
+    url: 'http://myetherwalletverify.info/'
+    category: Phishing
+    subcategory: MyEtherWallet 
