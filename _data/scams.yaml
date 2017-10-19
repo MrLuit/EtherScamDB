@@ -14854,3 +14854,9 @@
     subcategory: Privatix
     addresses:
       - '0xd055610c2d5151aDb3eaF994e08aBe45DeE936E0'         
+-
+    id: 2365
+    name: rnyetherwallet.pw
+    url: 'http://rnyetherwallet.pw/'
+    category: Phishing
+    subcategory: MyEtherWallet 
