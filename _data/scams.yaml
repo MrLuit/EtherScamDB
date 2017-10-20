@@ -14868,3 +14868,11 @@
     subcategory: Storm
     addresses:
       - '0x8dcdb7fc9f541825ba57fb47d5204317fc609590'     
+-
+    id: 2367
+    name: stormtokens.net 
+    url: 'http://stormtokens.net/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0xef6805af393c34fe772f8d827a5d26685215612a'   
