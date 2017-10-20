@@ -14859,4 +14859,12 @@
     name: rnyetherwallet.pw
     url: 'http://rnyetherwallet.pw/'
     category: Phishing
-    subcategory: MyEtherWallet 
+    subcategory: MyEtherWallet
+-
+    id: 2366
+    name: storrntoken.com 
+    url: 'http://storrntoken.com/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0x8dcdb7fc9f541825ba57fb47d5204317fc609590'     
