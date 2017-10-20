@@ -14868,3 +14868,11 @@
     subcategory: Storm
     addresses:
       - '0x8dcdb7fc9f541825ba57fb47d5204317fc609590'     
+-
+    id: 2367
+    name: myetereumwallet.com 
+    url: 'http://myetereumwallet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    addresses:
+      - '0x62404BFB3e1c464f17e3AF0c139e39D0703ae4A1'  
