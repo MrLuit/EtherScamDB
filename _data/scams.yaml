@@ -14884,3 +14884,11 @@
     subcategory: MyEtherWallet
     addresses:
       - '0x62404BFB3e1c464f17e3AF0c139e39D0703ae4A1'  
+- 
+    id: 2369
+    name: privatix.pro 
+    url: 'http://privatix.pro/'
+    category: Phishing
+    subcategory: Privatix
+    addresses:
+      - '0x071cf579507DD0661845694F709E68CF7Ea506a4' 
