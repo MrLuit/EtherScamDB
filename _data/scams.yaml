@@ -14884,3 +14884,11 @@
     subcategory: MyEtherWallet
     addresses:
       - '0x62404BFB3e1c464f17e3AF0c139e39D0703ae4A1'  
+-
+    id: 2370
+    name: privatix.top
+    url: 'http://privatix.top/'
+    category: Phishing
+    subcategory: Privatix
+    addresses:
+      - '0x1aef1E14108786e0B049f37758529d866cc3c7e6'  
