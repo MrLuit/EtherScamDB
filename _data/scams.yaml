@@ -14166,6 +14166,8 @@
     url: 'http://omisegotoken.com/'
     category: Phishing
     subcategory: OmiseGo
+    addresses:
+      - '0x7e3d7D8E31b3F472FCD3C1552a9F009131C50C6C'
 -
     id: 2259
     name: myetherwalletlogin.com
