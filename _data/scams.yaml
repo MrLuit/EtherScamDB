@@ -14884,3 +14884,11 @@
     subcategory: MyEtherWallet
     addresses:
       - '0x62404BFB3e1c464f17e3AF0c139e39D0703ae4A1'  
+-
+    id: 2369
+    name: raiden.online 
+    url: 'http://raiden.online/'
+    category: Phishing
+    subcategory: Raiden
+    addresses:
+      - '0x1b42BF30CD988Ad20500cE47ccE52098576Ec2a2'  
