@@ -14884,3 +14884,11 @@
     subcategory: MyEtherWallet
     addresses:
       - '0x62404BFB3e1c464f17e3AF0c139e39D0703ae4A1'  
+-
+    id: 2369
+    name: stormtoken.cc 
+    url: 'http://stormtoken.cc/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0xa2896b45f8bD313B777F1027724da1b5F2205A58'  
