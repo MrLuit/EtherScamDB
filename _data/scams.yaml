@@ -14892,3 +14892,11 @@
     subcategory: Storm
     addresses:
       - '0x9A95f2Ca24d1dCb01048E0623f63F9D174237dEb'         
+- 
+    id: 2370
+    name: privatix.pro 
+    url: 'http://privatix.pro/'
+    category: Phishing
+    subcategory: Privatix
+    addresses:
+      - '0x071cf579507DD0661845694F709E68CF7Ea506a4' 
