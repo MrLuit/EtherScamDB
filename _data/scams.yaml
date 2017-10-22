@@ -14900,3 +14900,11 @@
     subcategory: Privatix
     addresses:
       - '0x071cf579507DD0661845694F709E68CF7Ea506a4' 
+-
+    id: 2371
+    name: raiden.online 
+    url: 'http://raiden.online/'
+    category: Phishing
+    subcategory: Raiden
+    addresses:
+      - '0x1b42BF30CD988Ad20500cE47ccE52098576Ec2a2'  
