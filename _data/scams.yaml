@@ -14926,3 +14926,11 @@
     subcategory: Privatix
     addresses:
       - '0x1aef1E14108786e0B049f37758529d866cc3c7e6'  
+-
+    id: 2374
+    name: privatix.me
+    url: 'http://privatix.me/'
+    category: Phishing
+    subcategory: Privatix
+    addresses:
+      - '0x1aef1E14108786e0B049f37758529d866cc3c7e6'  
