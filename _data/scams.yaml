@@ -14884,8 +14884,16 @@
     subcategory: MyEtherWallet
     addresses:
       - '0x62404BFB3e1c464f17e3AF0c139e39D0703ae4A1'  
-- 
+-
     id: 2369
+    name: stormstoken.com 
+    url: 'http://stormstoken.com/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0x9A95f2Ca24d1dCb01048E0623f63F9D174237dEb'         
+- 
+    id: 2370
     name: privatix.pro 
     url: 'http://privatix.pro/'
     category: Phishing
