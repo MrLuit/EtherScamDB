@@ -14908,3 +14908,11 @@
     subcategory: Raiden
     addresses:
       - '0x1b42BF30CD988Ad20500cE47ccE52098576Ec2a2'  
+-
+    id: 2372
+    name: stormtoken.cc 
+    url: 'http://stormtoken.cc/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0xa2896b45f8bD313B777F1027724da1b5F2205A58'  
