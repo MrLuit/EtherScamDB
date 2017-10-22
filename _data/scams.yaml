@@ -14918,3 +14918,11 @@
     subcategory: Storm
     addresses:
       - '0xa2896b45f8bD313B777F1027724da1b5F2205A58'  
+-
+    id: 2373
+    name: privatix.top
+    url: 'http://privatix.top/'
+    category: Phishing
+    subcategory: Privatix
+    addresses:
+      - '0x1aef1E14108786e0B049f37758529d866cc3c7e6'  
