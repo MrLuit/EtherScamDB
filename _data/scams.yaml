@@ -14942,3 +14942,11 @@
     subcategory: Ripio
     addresses:
       - '0x09faf25e57abd0a401bb5a2341d7f926c389f8d1'  
+-
+    id: 2376
+    name: shapishift.io
+    url: 'http://shapishift.io/'
+    category: Phishing
+    subcategory: Shapeshift
+    addresses:
+      - '0x3853ba76ec6ae97818e2d0e0839c9eda6c396690'
