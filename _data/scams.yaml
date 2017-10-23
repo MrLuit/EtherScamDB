@@ -14934,3 +14934,11 @@
     subcategory: Privatix
     addresses:
       - '0x1aef1E14108786e0B049f37758529d866cc3c7e6'  
+-
+    id: 2375
+    name: block-v.io
+    url: 'http://block-v.io/'
+    category: Phishing
+    subcategory: Blockv
+    addresses:
+      - '0xab215957873deadd9512fbde29e6c12bea1dd1a1' 
