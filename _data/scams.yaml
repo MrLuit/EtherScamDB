@@ -14948,3 +14948,9 @@
     url: 'http://ether24.info/'
     category: Scamming
     subcategory: WebWallet
+-
+    id: 2377
+    name: myetherwallet.com.byzantiumfork.com
+    url: 'http://myetherwallet.com.byzantiumfork.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
