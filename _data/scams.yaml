@@ -14940,4 +14940,5 @@
     url: 'http://shapishift.io/'
     category: Phishing
     subcategory: Shapeshift
-    
+    addresses:
+      - '0x3853ba76ec6ae97818e2d0e0839c9eda6c396690'
