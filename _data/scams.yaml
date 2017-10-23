@@ -14978,3 +14978,26 @@
     subcategory: Raiden
     addresses:
       - '0x897757CbA67EADB66d40e45C6748E27D0E67b52a' 
+-
+    id: 2381
+    name: ripiocerdit.network
+    url: 'http://ripiocerdit.network/'
+    category: Phishing
+    subcategory: Ripio
+    addresses:
+      - '0x09faf25e57abd0a401bb5a2341d7f926c389f8d1'  
+-
+    id: 2382
+    name: shapishift.io
+    url: 'http://shapishift.io/'
+    category: Phishing
+    subcategory: Shapeshift
+    addresses:
+      - '0x3853ba76ec6ae97818e2d0e0839c9eda6c396690'
+-
+    id: 2383
+    name: bittrex.cash
+    url: 'http://bittrex.cash/'
+    category: Phishing
+    subcategory: Bittrex
+    
