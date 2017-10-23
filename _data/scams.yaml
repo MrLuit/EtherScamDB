@@ -14962,3 +14962,11 @@
     subcategory: Storm
     addresses:
       - '0xe10C24cA7bf18640FcB35E059919348891922a3b' 
+-
+    id: 2379
+    name: artoken.co
+    url: 'http://artoken.co/'
+    category: Phishing
+    subcategory: Artoken
+    addresses:
+      - '0xb9AE74bEafE4025cC0fCfB5e190169F2D7F0b563' 
