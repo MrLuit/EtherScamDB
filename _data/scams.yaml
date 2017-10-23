@@ -14970,3 +14970,11 @@
     subcategory: Artoken
     addresses:
       - '0xb9AE74bEafE4025cC0fCfB5e190169F2D7F0b563' 
+-
+    id: 2380
+    name: raidens.network
+    url: 'http://raidens.network/'
+    category: Phishing
+    subcategory: Raiden
+    addresses:
+      - '0x897757CbA67EADB66d40e45C6748E27D0E67b52a' 
