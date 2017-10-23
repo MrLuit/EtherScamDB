@@ -14936,6 +14936,14 @@
       - '0x1aef1E14108786e0B049f37758529d866cc3c7e6'  
 -
     id: 2375
+    name: ripiocerdit.network
+    url: 'http://ripiocerdit.network/'
+    category: Phishing
+    subcategory: Ripio
+    addresses:
+      - '0x09faf25e57abd0a401bb5a2341d7f926c389f8d1'  
+-
+    id: 2376
     name: shapishift.io
     url: 'http://shapishift.io/'
     category: Phishing
