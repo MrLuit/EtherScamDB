@@ -14942,3 +14942,9 @@
     subcategory: Blockv
     addresses:
       - '0xab215957873deadd9512fbde29e6c12bea1dd1a1' 
+-
+    id: 2376
+    name: ether24.info
+    url: 'http://ether24.info/'
+    category: Scamming
+    subcategory: WebWallet
