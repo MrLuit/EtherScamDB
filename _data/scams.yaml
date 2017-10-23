@@ -14936,6 +14936,50 @@
       - '0x1aef1E14108786e0B049f37758529d866cc3c7e6'  
 -
     id: 2375
+    name: block-v.io
+    url: 'http://block-v.io/'
+    category: Phishing
+    subcategory: Blockv
+    addresses:
+      - '0xab215957873deadd9512fbde29e6c12bea1dd1a1' 
+-
+    id: 2376
+    name: ether24.info
+    url: 'http://ether24.info/'
+    category: Scamming
+    subcategory: WebWallet
+-
+    id: 2377
+    name: myetherwallet.com.byzantiumfork.com
+    url: 'http://myetherwallet.com.byzantiumfork.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2378
+    name: stormtoken.site
+    url: 'http://stormtoken.site/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0xe10C24cA7bf18640FcB35E059919348891922a3b' 
+-
+    id: 2379
+    name: artoken.co
+    url: 'http://artoken.co/'
+    category: Phishing
+    subcategory: Artoken
+    addresses:
+      - '0xb9AE74bEafE4025cC0fCfB5e190169F2D7F0b563' 
+-
+    id: 2380
+    name: raidens.network
+    url: 'http://raidens.network/'
+    category: Phishing
+    subcategory: Raiden
+    addresses:
+      - '0x897757CbA67EADB66d40e45C6748E27D0E67b52a' 
+-
+    id: 2381
     name: ripiocerdit.network
     url: 'http://ripiocerdit.network/'
     category: Phishing
@@ -14943,7 +14987,7 @@
     addresses:
       - '0x09faf25e57abd0a401bb5a2341d7f926c389f8d1'  
 -
-    id: 2376
+    id: 2382
     name: shapishift.io
     url: 'http://shapishift.io/'
     category: Phishing
@@ -14951,8 +14995,9 @@
     addresses:
       - '0x3853ba76ec6ae97818e2d0e0839c9eda6c396690'
 -
-    id: 2377
+    id: 2383
     name: bittrex.cash
     url: 'http://bittrex.cash/'
     category: Phishing
     subcategory: Bittrex
+    
