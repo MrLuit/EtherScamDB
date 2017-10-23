@@ -14954,3 +14954,11 @@
     url: 'http://myetherwallet.com.byzantiumfork.com/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2378
+    name: stormtoken.site
+    url: 'http://stormtoken.site/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0xe10C24cA7bf18640FcB35E059919348891922a3b' 
