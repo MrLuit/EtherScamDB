@@ -15008,3 +15008,11 @@
     subcategory: Ripio
     addresses:
       - '0x33f6eE23eE223c4558a95bF4C0e9f5eD21e06319'
+-
+    id: 2385
+    name: ripiocredit.net
+    url: 'http://ripiocredit.net/'
+    category: Phishing
+    subcategory: Ripio
+    addresses:
+      - '0x501577Cd4865D7D50664a1519A79f1c0E7069154'
