@@ -15000,4 +15000,11 @@
     url: 'http://bittrex.cash/'
     category: Phishing
     subcategory: Bittrex
-    
+-
+    id: 2384
+    name: ico.ripiocredits.com
+    url: 'http://ico.ripiocredits.com/'
+    category: Phishing
+    subcategory: Ripio
+    addresses:
+      - '0x33f6eE23eE223c4558a95bF4C0e9f5eD21e06319'
