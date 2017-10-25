@@ -15016,3 +15016,9 @@
     subcategory: Ripio
     addresses:
       - '0x501577Cd4865D7D50664a1519A79f1c0E7069154'
+-
+    id: 2386
+    name: myetherwallat.services
+    url: 'http://myetherwallat.services/'
+    category: Phishing
+    subcategory: MyEtherWallet
