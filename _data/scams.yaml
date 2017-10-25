@@ -15030,3 +15030,9 @@
     subcategory: Sense
     addresses:
       - '0x22374A2E9E19bcea56E64F9De3329670CD1a458c'
+-
+    id: 2388
+    name: reqest.network
+    url: 'http://reqest.network/'
+    category: Phishing
+    subcategory: Request
