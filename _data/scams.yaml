@@ -15022,3 +15022,11 @@
     url: 'http://myetherwallat.services/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2387
+    name: senstoken.com
+    url: 'http://senstoken.com/'
+    category: Phishing
+    subcategory: Sense
+    addresses:
+      - '0x22374A2E9E19bcea56E64F9De3329670CD1a458c'
