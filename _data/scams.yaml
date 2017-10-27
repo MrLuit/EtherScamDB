@@ -15036,3 +15036,11 @@
     url: 'http://reqest.network/'
     category: Phishing
     subcategory: Request
+-
+    id: 2389
+    name: riaden.network
+    url: 'http://riaden.network/'
+    category: Phishing
+    subcategory: Raiden
+    addresses:
+      - '0x619f18aEC5f8EeF483fbfe654a269f1186ddA915'
