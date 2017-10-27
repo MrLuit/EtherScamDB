@@ -15052,3 +15052,15 @@
     subcategory: Ripio
     addresses:
       - '0x85704b506E10b10D714eAd28CdE947bAA58F0EA4'
+-
+    id: 2391
+    name: myetherwallat.services
+    url: 'http://xn--myeherwallet-vk5f.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2392
+    name: myetherwallat.services
+    url: 'http://xn--myeherwallt-kbb8039g.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
