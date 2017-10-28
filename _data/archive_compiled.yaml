@@ -338,7 +338,7 @@
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
-  ip: 104.244.42.65
+  ip: 104.244.42.1
 '38':
   status:
     - time: 1506019951989
@@ -432,7 +432,7 @@
   nameservers:
     - karl.ns.cloudflare.com
     - violet.ns.cloudflare.com
-  ip: 104.28.19.25
+  ip: 104.28.18.25
 '48':
   status:
     - time: 1501710874047
@@ -578,7 +578,7 @@
   nameservers:
     - brad.ns.cloudflare.com
     - elma.ns.cloudflare.com
-  ip: 104.27.187.62
+  ip: 104.27.186.62
 '69':
   status:
     - time: 1506361343068
@@ -624,7 +624,7 @@
   nameservers:
     - brad.ns.cloudflare.com
     - elma.ns.cloudflare.com
-  ip: 104.31.77.47
+  ip: 104.31.76.47
 '71':
   status:
     - time: 1501710861941
@@ -688,6 +688,8 @@
   ip: 50.63.202.61
 '75':
   status:
+    - time: 1509223047496
+      status: Active
     - time: 1508964554944
       status: Offline
     - time: 1508872729157
@@ -926,7 +928,7 @@
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
-  ip: 104.244.42.65
+  ip: 104.244.42.1
 '96':
   status:
     - time: 1506361135562
@@ -1122,6 +1124,8 @@
   ip: 184.168.221.48
 '107':
   status:
+    - time: 1509223050420
+      status: Active
     - time: 1509133740511
       status: Offline
     - time: 1508797214350
@@ -1333,9 +1337,13 @@
   nameservers:
     - graham.ns.cloudflare.com
     - vida.ns.cloudflare.com
-  ip: 104.18.40.33
+  ip: 104.18.41.33
 '124':
   status:
+    - time: 1509233191125
+      status: Active
+    - time: 1509223047546
+      status: Offline
     - time: 1508691896928
       status: Active
     - time: 1508523342245
@@ -3621,6 +3629,8 @@
       status: Offline
 '366':
   status:
+    - time: 1509232920158
+      status: Active
     - time: 1507572228642
       status: Offline
     - time: 1507479033797
@@ -3642,7 +3652,7 @@
   nameservers:
     - ns1.dnsnuts.com
     - ns2.dnsnuts.com
-  ip: 37.48.65.148
+  ip: 37.48.65.152
 '367':
   status:
     - time: 1501710859171
@@ -3700,7 +3710,7 @@
   nameservers:
     - blocked1.nic.ru
     - blocked2.nic.ru
-  ip: 109.70.26.37
+  ip: 194.85.61.76
 '376':
   status:
     - time: 1501710858947
@@ -3863,7 +3873,7 @@
   nameservers:
     - isaac.ns.cloudflare.com
     - jasmine.ns.cloudflare.com
-  ip: 104.31.81.97
+  ip: 104.31.80.97
 '411':
   status:
     - time: 1506539189920
@@ -4032,8 +4042,14 @@
       status: Offline
 '437':
   status:
+    - time: 1509223026818
+      status: Active
     - time: 1501710858403
       status: Offline
+  nameservers:
+    - dns1.registrar-servers.com
+    - dns2.registrar-servers.com
+  ip: 192.64.119.218
 '438':
   status:
     - time: 1501710853065
@@ -4769,6 +4785,8 @@
       status: Offline
 '559':
   status:
+    - time: 1509223037427
+      status: Suspended
     - time: 1509126553580
       status: Active
     - time: 1501710860262
@@ -7975,6 +7993,8 @@
       status: Offline
 '1284':
   status:
+    - time: 1509222648802
+      status: Offline
     - time: 1505843303821
       status: Active
     - time: 1501710860530
@@ -9516,7 +9536,7 @@
   nameservers:
     - dns1.registrar-servers.com
     - dns2.registrar-servers.com
-  ip: 151.101.1.195
+  ip: 151.101.65.195
 '1622':
   status:
     - time: 1501710860283
@@ -11804,7 +11824,7 @@
   nameservers:
     - evan.ns.cloudflare.com
     - tess.ns.cloudflare.com
-  ip: 104.27.144.197
+  ip: 104.27.145.197
 '2131':
   status:
     - time: 1505199556303
@@ -11835,7 +11855,7 @@
     - ns1.wordpress.com
     - ns2.wordpress.com
     - ns3.wordpress.com
-  ip: 192.0.78.25
+  ip: 192.0.78.24
 '2133':
   status:
     - time: 1505765411854
@@ -12064,7 +12084,7 @@
   nameservers:
     - dns1.registrar-servers.com
     - dns2.registrar-servers.com
-  ip: 23.23.120.204
+  ip: 23.23.155.247
 '2155':
   status:
     - time: 1507157381211
@@ -12170,7 +12190,7 @@
   nameservers:
     - elma.ns.cloudflare.com
     - ken.ns.cloudflare.com
-  ip: 104.18.51.1
+  ip: 104.18.50.1
 '2165':
   status:
     - time: 1504212227356
@@ -12222,7 +12242,7 @@
   nameservers:
     - dns1.registrar-servers.com
     - dns2.registrar-servers.com
-  ip: 23.21.45.51
+  ip: 54.225.108.200
 '2171':
   status:
     - time: 1508964554986
@@ -12535,7 +12555,7 @@
   nameservers:
     - hope.ns.cloudflare.com
     - karl.ns.cloudflare.com
-  ip: 104.27.161.68
+  ip: 104.27.160.68
 '2202':
   status:
     - time: 1505330813079
@@ -12619,6 +12639,10 @@
   ip: 108.61.209.96
 '2211':
   status:
+    - time: 1509233174468
+      status: Offline
+    - time: 1509223026569
+      status: Suspended
     - time: 1509133728728
       status: Offline
     - time: 1509126566080
@@ -13157,6 +13181,8 @@
   ip: 145.249.107.230
 '2260':
   status:
+    - time: 1509232664888
+      status: Offline
     - time: 1509133703400
       status: Active
     - time: 1509126463618
@@ -13328,6 +13354,10 @@
   ip: 80.211.226.53
 '2275':
   status:
+    - time: 1509233006480
+      status: Active
+    - time: 1509222712273
+      status: Offline
     - time: 1509133718433
       status: Active
     - time: 1509040259292
@@ -13487,7 +13517,7 @@
   nameservers:
     - ken.ns.cloudflare.com
     - nelly.ns.cloudflare.com
-  ip: 104.18.44.213
+  ip: 104.18.45.213
 '2293':
   status:
     - time: 1507066015934
@@ -13793,7 +13823,7 @@
   nameservers:
     - ed.ns.cloudflare.com
     - elle.ns.cloudflare.com
-  ip: 104.31.71.198
+  ip: 104.31.70.198
 '2323':
   status:
     - time: 1508872707082
@@ -13828,6 +13858,8 @@
   ip: 213.159.210.209
 '2325':
   status:
+    - time: 1509233303777
+      status: Offline
     - time: 1508175233386
       status: Suspended
     - time: 1507572177616
@@ -13923,7 +13955,7 @@
   nameservers:
     - dora.ns.cloudflare.com
     - micah.ns.cloudflare.com
-  ip: 104.31.70.127
+  ip: 104.31.71.127
 '2336':
   status:
     - time: 1507842310787
@@ -14093,7 +14125,7 @@
   nameservers:
     - adam.ns.cloudflare.com
     - elsa.ns.cloudflare.com
-  ip: 104.27.160.167
+  ip: 104.27.161.167
 '2354':
   status:
     - time: 1508872711446
@@ -14299,6 +14331,8 @@
   ip: 46.101.170.139
 '2376':
   status:
+    - time: 1509223014400
+      status: Suspended
     - time: 1508797179385
       status: Active
   nameservers:
@@ -14322,7 +14356,7 @@
   nameservers:
     - dale.ns.cloudflare.com
     - ivy.ns.cloudflare.com
-  ip: 104.27.180.29
+  ip: 104.27.181.29
 '2379':
   status:
     - time: 1508964538570
@@ -14389,7 +14423,7 @@
   status:
     - time: 1508964492843
       status: Offline
-  ip: 54.228.242.114
+  ip: 54.228.233.47
 '2387':
   status:
     - time: 1508964518241
@@ -14418,22 +14452,36 @@
   ip: 46.166.133.197
 '2390':
   status:
+    - time: 1509222888061
+      status: Active
     - time: 1509126548639
       status: Offline
+  nameservers:
+    - ns39.domaincontrol.com
+    - ns40.domaincontrol.com
+  ip: 192.30.252.153
 '2391':
   status:
     - time: 1509133618005
       status: Active
-  ip: 93.88.74.77
   nameservers:
     - ns-canada.topdns.com
     - ns-uk.topdns.com
     - ns-usa.topdns.com
+  ip: 93.88.74.77
 '2392':
   status:
     - time: 1509133732467
       status: Active
-  ip: 104.27.181.28
   nameservers:
     - abby.ns.cloudflare.com
     - dilbert.ns.cloudflare.com
+  ip: 104.27.180.28
+'2393':
+  status:
+    - time: 1509222907364
+      status: Active
+  nameservers:
+    - ns1.abelons.com
+    - ns2.abelons.com
+  ip: 185.207.206.49
