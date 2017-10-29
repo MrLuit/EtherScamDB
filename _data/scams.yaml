@@ -15070,3 +15070,9 @@
     url: 'http://mycthewallet.com/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2394
+    name: xn--yethewallet-iw8ejl.com
+    url: 'http://xn--yethewallet-iw8ejl.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
