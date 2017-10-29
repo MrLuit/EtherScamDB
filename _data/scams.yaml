@@ -15076,3 +15076,11 @@
     url: 'http://xn--yethewallet-iw8ejl.com/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2395
+    name: dentacoin.in
+    url: 'http://dentacoin.in/'
+    category: Phishing
+    subcategory: Dentacoin
+    addresses:
+      - '0xA35e3534917E471540345733B8f23e7bAd54681b'
