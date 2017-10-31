@@ -15087,6 +15087,42 @@
 -
     id: 2396
     name: myetlherwa11et.com
-    url: 'myetlherwa11et.com/'
+    url: 'http://myetlherwa11et.com/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2397
+    name: ripiocredlt.network
+    url: 'http://ripiocredlt.network/'
+    category: Phishing
+    subcategory: Ripio
+    addresses:
+      - '0xa6B60dd3bE491aAfE5AbA8622b35C0eAd608D3FD'
+-
+    id: 2398
+    name: universa.sale
+    url: 'http://universa.sale/'
+    category: Phishing
+    subcategory: Universa
+    addresses:
+      - '0x6D8A1BC0AE09aE5cFd4a7A2a59194598734CEea5'
+-
+    id: 2399
+    name: myethwalet.com
+    url: 'http://myethwalet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2400
+    name: unlversa.io
+    url: 'http://unlversa.io/'
+    category: Phishing
+    subcategory: Universa
+    addresses:
+      - '0x6D8A1BC0AE09aE5cFd4a7A2a59194598734CEea5'
+-
+    id: 2401
+    name: etherdeltla.com
+    url: 'http://etherdeltla.com/'
+    category: Phishing
+    subcategory: EtherDelta
