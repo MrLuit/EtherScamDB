@@ -15090,3 +15090,11 @@
     url: 'myetlherwa11et.com/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2397
+    name: ripiocredlt.network
+    url: 'http://ripiocredlt.network/'
+    category: Phishing
+    subcategory: Ripio
+    addresses:
+      - '0xa6B60dd3bE491aAfE5AbA8622b35C0eAd608D3FD'
