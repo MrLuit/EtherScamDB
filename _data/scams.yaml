@@ -15098,3 +15098,11 @@
     subcategory: Ripio
     addresses:
       - '0xa6B60dd3bE491aAfE5AbA8622b35C0eAd608D3FD'
+-
+    id: 2398
+    name: universa.sale
+    url: 'http://universa.sale/'
+    category: Phishing
+    subcategory: Universa
+    addresses:
+      - '0x6D8A1BC0AE09aE5cFd4a7A2a59194598734CEea5'
