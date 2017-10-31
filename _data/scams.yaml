@@ -15112,3 +15112,11 @@
     url: 'http://myethwalet.com/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2400
+    name: unlversa.io
+    url: 'http://unlversa.io/'
+    category: Phishing
+    subcategory: Universa
+    addresses:
+      - '0x6D8A1BC0AE09aE5cFd4a7A2a59194598734CEea5'
