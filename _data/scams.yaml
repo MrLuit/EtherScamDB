@@ -15120,3 +15120,9 @@
     subcategory: Universa
     addresses:
       - '0x6D8A1BC0AE09aE5cFd4a7A2a59194598734CEea5'
+-
+    id: 2401
+    name: etherdeltla.com
+    url: 'http://etherdeltla.com/'
+    category: Phishing
+    subcategory: EtherDelta
