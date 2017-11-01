@@ -15140,3 +15140,9 @@
     url: 'http://kraken-wallet.com/'
     category: Phishing
     subcategory: Coinbase
+-
+    id: 2404
+    name: metallpay.com
+    url: 'http://metallpay.com/'
+    category: Phishing
+    subcategory: Metal
