@@ -15126,3 +15126,11 @@
     url: 'http://etherdeltla.com/'
     category: Phishing
     subcategory: EtherDelta
+-
+    id: 2402
+    name: dmarkt.io
+    url: 'http://dmarkt.io/'
+    category: Phishing
+    subcategory: Dmarket
+    addresses:
+      - '0xF3Ae45D5A0B8EfB41444101267b56E6795051FaC'
