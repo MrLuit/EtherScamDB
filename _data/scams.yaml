@@ -15166,3 +15166,9 @@
     url: 'http://bittrexy.com/'
     category: Phishing
     subcategory: Bittrex
+-
+    id: 2408
+    name: mettalpay.com
+    url: 'http://mettalpay.com/'
+    category: Phishing
+    subcategory: Metal
