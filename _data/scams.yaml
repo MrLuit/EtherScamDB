@@ -15160,3 +15160,9 @@
     subcategory: Utrust
     addresses:
       - '0x8A46Aa04725b2E2029bdCb924D671Fd6a9c11daB'
+-
+    id: 2407
+    name: bittrexy.com
+    url: 'http://bittrexy.com/'
+    category: Phishing
+    subcategory: Bittrex
