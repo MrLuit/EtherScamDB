@@ -15146,3 +15146,9 @@
     url: 'http://metallpay.com/'
     category: Phishing
     subcategory: Metal
+-
+    id: 2405
+    name: myethierwallet.org
+    url: 'http://myethierwallet.org/'
+    category: Phishing
+    subcategory: MyEtherWallet
