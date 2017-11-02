@@ -15152,3 +15152,11 @@
     url: 'http://myethierwallet.org/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2406
+    name: utrust.so
+    url: 'http://utrust.so/'
+    category: Phishing
+    subcategory: Utrust
+    addresses:
+      - '0x8A46Aa04725b2E2029bdCb924D671Fd6a9c11daB'
