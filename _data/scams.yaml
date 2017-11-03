@@ -15184,3 +15184,9 @@
     url: 'http://xn--metherwallet-1vc.com/'
     category: Phishing
     subcategory: MyEtherWallet    
+-
+    id: 2411
+    name: myetherwalletext.com
+    url: 'http://myetherwalletext.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
