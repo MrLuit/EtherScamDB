@@ -15172,3 +15172,15 @@
     url: 'http://mettalpay.com/'
     category: Phishing
     subcategory: Metal
+-
+    id: 2409
+    name: myetherwalletjson.com
+    url: 'http://myetherwalletjson.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2410
+    name: xn--metherwallet-1vc.com
+    url: 'http://xn--metherwallet-1vc.com/'
+    category: Phishing
+    subcategory: MyEtherWallet    
