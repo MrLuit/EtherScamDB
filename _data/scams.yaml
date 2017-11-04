@@ -15190,3 +15190,9 @@
     url: 'http://myetherwalletext.com/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2412
+    name: myetherwalletmist.com
+    url: 'http://myetherwalletmist.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
