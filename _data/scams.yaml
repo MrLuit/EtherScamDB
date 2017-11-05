@@ -15276,3 +15276,9 @@
     subcategory: QuantStamp
     addresses:
       - '0x7c57981AF4cee87567774B53F9da1bFCeb8B944b'    
+-
+    id: 2425
+    name: augur-network.com
+    url: 'http://augur-network.com/'
+    category: Phishing
+    subcategory: Augur 
