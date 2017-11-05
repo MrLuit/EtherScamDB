@@ -15222,3 +15222,9 @@
     subcategory: Quantstamp
     addresses:
       - '0xda1cC010259496d407a764c381D0E82182D68D89'
+-
+    id: 2417
+    name: myethereumwallets.com
+    url: 'http://myethereumwallets.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
