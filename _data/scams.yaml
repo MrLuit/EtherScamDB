@@ -15240,3 +15240,12 @@
     url: 'http://changellyl.net/'
     category: Phishing
     subcategory: Changelly
+-
+    id: 2420
+    name: quantsstamps.com
+    url: 'http://quantsstamps.com'
+    category: Phishing
+    subcategory: QuantStamp
+    addresses:
+      - '0x42ff5fff0e369ef6880875efcacb3b7c77974abc'
+    
