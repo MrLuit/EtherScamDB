@@ -15208,3 +15208,9 @@
     url: 'http://xn--eterdelta-m75d.com/'
     category: Phishing
     subcategory: EtherDelta
+-
+    id: 2415
+    name: metelpay.com
+    url: 'http://metelpay.com/'
+    category: Phishing
+    subcategory: Metal
