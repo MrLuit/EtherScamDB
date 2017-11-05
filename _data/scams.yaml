@@ -15214,3 +15214,11 @@
     url: 'http://metelpay.com/'
     category: Phishing
     subcategory: Metal
+-
+    id: 2416
+    name: quantslamp.com
+    url: 'http://quantslamp.com/'
+    category: Phishing
+    subcategory: Quantstamp
+    addresses:
+      - '0xda1cC010259496d407a764c381D0E82182D68D89'
