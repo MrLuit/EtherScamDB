@@ -15196,3 +15196,9 @@
     url: 'http://myetherwalletmist.com/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2413
+    name: linksmartcontract.com
+    url: 'http://linksmartcontract.com/'
+    category: Phishing
+    subcategory: LINK
