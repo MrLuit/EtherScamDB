@@ -15256,3 +15256,9 @@
     subcategory: QuantStamp
     addresses:
       - '0xEeD7072FCF46733833249D1E979c44fE4F2a23a2'    
+-
+    id: 2422
+    name: myetherumwalletts.com
+    url: 'http://myetherumwalletts.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
