@@ -15248,4 +15248,11 @@
     subcategory: QuantStamp
     addresses:
       - '0x42ff5fff0e369ef6880875efcacb3b7c77974abc'
-    
+-
+    id: 2421
+    name: xn--quanstamp-tmd.com
+    url: 'https://xn--quanstamp-tmd.com'
+    category: Phishing
+    subcategory: QuantStamp
+    addresses:
+      - '0xEeD7072FCF46733833249D1E979c44fE4F2a23a2'    
