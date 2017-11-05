@@ -15268,3 +15268,11 @@
     url: 'http://myetherwalletmew.com/'
     category: Phishing
     subcategory: MyEtherWallet    
+-
+    id: 2424
+    name: quantstamp.com.ua
+    url: 'https://quantstamp.com.ua'
+    category: Phishing
+    subcategory: QuantStamp
+    addresses:
+      - '0x7c57981AF4cee87567774B53F9da1bFCeb8B944b'    
