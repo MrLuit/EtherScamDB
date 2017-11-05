@@ -15228,3 +15228,9 @@
     url: 'http://myethereumwallets.com/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2418
+    name: xn--myetherwalet-1fb.com
+    url: 'http://xn--myetherwalet-1fb.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
