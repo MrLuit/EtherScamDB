@@ -15202,3 +15202,9 @@
     url: 'http://linksmartcontract.com/'
     category: Phishing
     subcategory: LINK
+-
+    id: 2414
+    name: xn--eterdelta-m75d.com
+    url: 'http://xn--eterdelta-m75d.com/'
+    category: Phishing
+    subcategory: EtherDelta
