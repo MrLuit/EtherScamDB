@@ -15290,3 +15290,9 @@
     subcategory: QuantStamp
     addresses:
       - '0xfbc79A80ffA84253611e8f9A82F18e9E93Ceee81'  
+-
+    id: 2427
+    name: xn--bttrex-3va.net
+    url: 'http://xn--bttrex-3va.net/'
+    category: Phishing
+    subcategory: Bittrex 
