@@ -15324,3 +15324,11 @@
     subcategory: Wanchain
     addresses:
       - '0xD754B5Bf41B84Bcb49CB952F858318640aBC60E0'    
+-    
+    id: 2432
+    name: stormtokens.io
+    url: 'http://stormtokens.io/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0x902d0d5bb6a34307bbd1da33e61ae1654b6cbe1e'   
