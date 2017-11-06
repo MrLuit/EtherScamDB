@@ -15302,3 +15302,9 @@
     url: 'http://ethconnect.trade/'
     category: Phishing
     subcategory: Ethconnect 
+-
+    id: 2429
+    name: ethconnect.live
+    url: 'http://ethconnect.live/'
+    category: Phishing
+    subcategory: Ethconnect 
