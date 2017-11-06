@@ -15308,3 +15308,5 @@
     url: 'http://ethconnect.live/'
     category: Phishing
     subcategory: Ethconnect 
+    addresses:
+      - '0x943DB403251105195F56cE69c7c48A6320475AB1'  
