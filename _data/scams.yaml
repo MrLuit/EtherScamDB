@@ -15234,3 +15234,11 @@
     url: 'http://xn--myetherwalet-1fb.com/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2419
+    name: wancha.in
+    url: 'http://wancha.in/'
+    category: Phishing
+    subcategory: Wanchain
+    addresses:
+      - '0xD754B5Bf41B84Bcb49CB952F858318640aBC60E0'    
