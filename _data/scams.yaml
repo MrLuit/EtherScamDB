@@ -15310,3 +15310,9 @@
     subcategory: Ethconnect 
     addresses:
       - '0x943DB403251105195F56cE69c7c48A6320475AB1'  
+-
+    id: 2430
+    name: ether-delta.com
+    url: 'http://ether-delta.com/'
+    category: Phishing
+    subcategory: EtherDelta 
