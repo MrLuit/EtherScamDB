@@ -15282,3 +15282,11 @@
     url: 'http://augur-network.com/'
     category: Phishing
     subcategory: Augur 
+-
+    id: 2426
+    name: quantstamp.com.co
+    url: 'https://quantstamp.com.co'
+    category: Phishing
+    subcategory: QuantStamp
+    addresses:
+      - '0xfbc79A80ffA84253611e8f9A82F18e9E93Ceee81'  
