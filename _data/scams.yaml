@@ -15296,3 +15296,9 @@
     url: 'http://xn--bttrex-3va.net/'
     category: Phishing
     subcategory: Bittrex 
+-
+    id: 2428
+    name: ethconnect.trade
+    url: 'http://ethconnect.trade/'
+    category: Phishing
+    subcategory: Ethconnect 
