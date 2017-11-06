@@ -15282,3 +15282,53 @@
     url: 'http://augur-network.com/'
     category: Phishing
     subcategory: Augur 
+-
+    id: 2426
+    name: quantstamp.com.co
+    url: 'https://quantstamp.com.co'
+    category: Phishing
+    subcategory: QuantStamp
+    addresses:
+      - '0xfbc79A80ffA84253611e8f9A82F18e9E93Ceee81'  
+-
+    id: 2427
+    name: xn--bttrex-3va.net
+    url: 'http://xn--bttrex-3va.net/'
+    category: Phishing
+    subcategory: Bittrex 
+-
+    id: 2428
+    name: ethconnect.trade
+    url: 'http://ethconnect.trade/'
+    category: Phishing
+    subcategory: Ethconnect 
+-
+    id: 2429
+    name: ethconnect.live
+    url: 'http://ethconnect.live/'
+    category: Phishing
+    subcategory: Ethconnect 
+    addresses:
+      - '0x943DB403251105195F56cE69c7c48A6320475AB1'  
+-
+    id: 2430
+    name: ether-delta.com
+    url: 'http://ether-delta.com/'
+    category: Phishing
+    subcategory: EtherDelta 
+-    
+    id: 2431
+    name: wancha.in
+    url: 'http://wancha.in/'
+    category: Phishing
+    subcategory: Wanchain
+    addresses:
+      - '0xD754B5Bf41B84Bcb49CB952F858318640aBC60E0'    
+-    
+    id: 2432
+    name: stormtokens.io
+    url: 'http://stormtokens.io/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0x902d0d5bb6a34307bbd1da33e61ae1654b6cbe1e'   
