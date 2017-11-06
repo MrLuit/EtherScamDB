@@ -15234,3 +15234,51 @@
     url: 'http://xn--myetherwalet-1fb.com/'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2419
+    name: changellyl.net
+    url: 'http://changellyl.net/'
+    category: Phishing
+    subcategory: Changelly
+-
+    id: 2420
+    name: quantsstamps.com
+    url: 'http://quantsstamps.com'
+    category: Phishing
+    subcategory: QuantStamp
+    addresses:
+      - '0x42ff5fff0e369ef6880875efcacb3b7c77974abc'
+-
+    id: 2421
+    name: xn--quanstamp-tmd.com
+    url: 'https://xn--quanstamp-tmd.com'
+    category: Phishing
+    subcategory: QuantStamp
+    addresses:
+      - '0xEeD7072FCF46733833249D1E979c44fE4F2a23a2'    
+-
+    id: 2422
+    name: myetherumwalletts.com
+    url: 'http://myetherumwalletts.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2423
+    name: myetherwalletmew.com
+    url: 'http://myetherwalletmew.com/'
+    category: Phishing
+    subcategory: MyEtherWallet    
+-
+    id: 2424
+    name: quantstamp.com.ua
+    url: 'https://quantstamp.com.ua'
+    category: Phishing
+    subcategory: QuantStamp
+    addresses:
+      - '0x7c57981AF4cee87567774B53F9da1bFCeb8B944b'    
+-
+    id: 2425
+    name: augur-network.com
+    url: 'http://augur-network.com/'
+    category: Phishing
+    subcategory: Augur 
