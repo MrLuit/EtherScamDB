@@ -15364,3 +15364,11 @@
     subcategory: Storm
     addresses:
       - '0x316b3b83c33B20249B61DEd124F2620d8E823793' 
+-    
+    id: 2437
+    name: xn--quanttamp-42b.com
+    url: 'http://xn--quanttamp-42b.com/'
+    category: Phishing
+    subcategory: Quantstamp
+    addresses:
+      - '0x0ae775637e63Fa95855246Fd82e96802D05883Fc' 
