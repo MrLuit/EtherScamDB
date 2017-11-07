@@ -15356,3 +15356,11 @@
     subcategory: Storm
     addresses:
       - '0x1E67F055367bcBCe045E1211F09355Eb7411236F'  
+-    
+    id: 2436
+    name: stormtoken.co
+    url: 'http://stormtoken.co/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0x316b3b83c33B20249B61DEd124F2620d8E823793' 
