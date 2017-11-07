@@ -15332,3 +15332,11 @@
     subcategory: Storm
     addresses:
       - '0x902d0d5bb6a34307bbd1da33e61ae1654b6cbe1e'   
+-    
+    id: 2433
+    name: storm-token.com
+    url: 'http://storm-token.com/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0xF0Fc2d4d550253d8C165C599E0cCCf221c7eb7b5'   
