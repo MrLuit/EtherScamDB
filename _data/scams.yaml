@@ -15340,3 +15340,11 @@
     subcategory: Storm
     addresses:
       - '0xF0Fc2d4d550253d8C165C599E0cCCf221c7eb7b5'   
+-    
+    id: 2434
+    name: stromtoken.com
+    url: 'http://stromtoken.com/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0x52005B77fbEBf53cfD9527A388f58d0431AaaA3e'   
