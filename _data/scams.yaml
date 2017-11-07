@@ -15348,3 +15348,11 @@
     subcategory: Storm
     addresses:
       - '0x52005B77fbEBf53cfD9527A388f58d0431AaaA3e'   
+-    
+    id: 2435
+    name: storntoken.com
+    url: 'http://storntoken.com/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0x1E67F055367bcBCe045E1211F09355Eb7411236F'  
