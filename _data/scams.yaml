@@ -15393,3 +15393,11 @@
     category: Phishing
     subcategory: OmiseGO
     description: 'Fake airdrop site, asking for private keys'
+-    
+    id: 2441
+    name: stormtoken.eu
+    url: 'http://stormtoken.eu/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0xA3e52a23060cCDfE186822b52BF60A07451e094e' 
