@@ -15380,3 +15380,9 @@
     subcategory: Storm
     addresses:
       - '0x71108Be9C232722Dd6839A6fbaD171cf44d3FfAf' 
+-
+    id: 2439
+    name: saltending.com
+    url: 'http://saltending.com/'
+    category: Phishing
+    subcategory: SALT
