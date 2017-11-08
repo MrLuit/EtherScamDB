@@ -15386,3 +15386,10 @@
     url: 'http://saltending.com/'
     category: Phishing
     subcategory: SALT
+-
+    id: 2440
+    name: omise-go.tech
+    url: 'http://omise-go.tech/'
+    category: Phishing
+    subcategory: OmiseGO
+    description: 'Fake airdrop site, asking for private keys'
