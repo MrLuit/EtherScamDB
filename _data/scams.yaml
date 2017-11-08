@@ -15372,3 +15372,11 @@
     subcategory: Quantstamp
     addresses:
       - '0x0ae775637e63Fa95855246Fd82e96802D05883Fc' 
+-    
+    id: 2438
+    name: stormltoken.com
+    url: 'http://stormltoken.com/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0x71108Be9C232722Dd6839A6fbaD171cf44d3FfAf' 
