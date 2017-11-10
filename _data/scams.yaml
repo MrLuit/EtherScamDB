@@ -15421,3 +15421,9 @@
     subcategory: Elite888
     addresses:
       - '0xD50fCd07007255599A9A8CedD881F863bcD65eb1' 
+-
+    id: 2445
+    name: walton-chain.org
+    url: 'http://walton-chain.org/'
+    category: Phishing
+    subcategory: Walton
