@@ -9,6 +9,7 @@ const rimraf = require('rimraf');
 const metamaskBlocked = require('eth-phishing-detect');
 const app = express();
 const default_template = fs.readFileSync('./_layouts/default.html', 'utf8');
+const auto_update = true;
 let cache;
 
 /* See if there's an up-to-date cache, otherwise run `update.js` to create one. */
@@ -404,6 +405,7 @@ function startWebServer() {
     });
 
     app.get('/api/:type/:domain?/', function(req, res) { // Serve /api/<type>/
+		res.header('Access-Control-Allow-Origin', '*');
         if (req.params.type == "scams") {
             res.send(JSON.stringify({
                 success: true,
