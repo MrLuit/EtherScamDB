@@ -15407,3 +15407,9 @@
     url: 'http://chainlinksmartcontract.com/'
     category: Phishing
     subcategory: Chainlink
+-
+    id: 2440
+    name: bitflyerjp.com
+    url: 'http://bitflyerjp.com/'
+    category: Phishing
+    subcategory: Bitflyer
