@@ -15401,3 +15401,9 @@
     subcategory: Storm
     addresses:
       - '0xA3e52a23060cCDfE186822b52BF60A07451e094e' 
+-
+    id: 2439
+    name: chainlinksmartcontract.com
+    url: 'http://chainlinksmartcontract.com/'
+    category: Phishing
+    subcategory: Chainlink
