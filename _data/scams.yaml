@@ -15402,14 +15402,22 @@
     addresses:
       - '0xA3e52a23060cCDfE186822b52BF60A07451e094e' 
 -
-    id: 2439
+    id: 2442
     name: chainlinksmartcontract.com
     url: 'http://chainlinksmartcontract.com/'
     category: Phishing
     subcategory: Chainlink
 -
-    id: 2440
+    id: 2443
     name: bitflyerjp.com
     url: 'http://bitflyerjp.com/'
     category: Phishing
     subcategory: Bitflyer
+-    
+    id: 2444
+    name: elite888-ico.com
+    url: 'http://elite888-ico.com/'
+    category: Phishing
+    subcategory: Elite888
+    addresses:
+      - '0xD50fCd07007255599A9A8CedD881F863bcD65eb1' 
