@@ -15433,3 +15433,9 @@
     url: 'http://omisegoairdrop.net/'
     category: Phishing
     subcategory: OmiseGo
+-
+    id: 2447
+    name: golemairdrop.com
+    url: 'http://golemairdrop.com/'
+    category: Phishing
+    subcategory: Golem
