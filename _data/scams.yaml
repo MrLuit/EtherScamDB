@@ -15439,3 +15439,58 @@
     url: 'http://golemairdrop.com/'
     category: Phishing
     subcategory: Golem
+-
+    id: 2448
+    name: myetherwailetclient.com
+    url: 'http://myetherwailetclient.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2449
+    name: quantstamp-ico.com
+    url: 'http://quantstamp-ico.com'
+    category: Phishing
+    subcategory: Quanstamp
+    description: 'Fake crowdsale site'
+    addresses:
+      - '0x7F85D875EAF39525004E8Ac2BC1e83786D7Dfd77' 	
+-
+    id: 2450
+    name: metalpayme.com
+    url: 'http://metalpayme.com'
+    category: Phishing
+    subcategory: Metal
+    description: 'Fake Metal Pay airdrop site - asking for private keys'
+-
+    id: 2451
+    name: raiden-network.com
+    url: 'http://raiden-network.com'
+    category: Phishing
+    subcategory: Raiden
+    description: 'Fake Raiden Network airdrop site - asking for private keys'
+-
+    id: 2452
+    name: qauntstamp.com
+    url: 'http://qauntstamp.com'
+    category: Phishing
+    subcategory: Quanstamp
+    description: 'Fake crowdsale site'
+    addresses:
+      - '0x504f1E10da987490Db4f0D92931497f635E240e8' 	
+-
+    id: 2453
+    name: simpletoken.live
+    url: 'http://simpletoken.live'
+    category: Phishing
+    subcategory: Simple
+    description: 'Fake simpletoken.org crowdsale site'
+    addresses:
+      - '0x24C00035b050BeC633287c2bABfBb9f4fE3C8A83' 	
+-
+    id: 2454
+    name: powerledgr.com
+    url: 'http://powerledgr.com'
+    category: Phishing
+    subcategory: Power
+    description: 'Fake power airdrop site - asking for private keys'
