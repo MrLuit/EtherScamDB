@@ -15503,5 +15503,13 @@
     description: 'Fake spectre.ai site crowd sale site'
     addresses:
       - '0x6e3E57E536aab05950774945d9cdBf506865c52f' 
-    
+-
+    id: 2456
+    name: datum.sale
+    url: 'http://datum.sale'
+    category: Phishing
+    subcategory: Datum
+    description: 'Fake datum.network crowdsale site'
+    addresses:
+      - '0x2804e8B4c04c655376D18aDA84d46fC345240E0A' 
     
