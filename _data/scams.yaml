@@ -15427,3 +15427,15 @@
     url: 'http://walton-chain.org/'
     category: Phishing
     subcategory: Walton
+-
+    id: 2446
+    name: omisegoairdrop.net
+    url: 'http://omisegoairdrop.net/'
+    category: Phishing
+    subcategory: OmiseGo
+-
+    id: 2447
+    name: golemairdrop.com
+    url: 'http://golemairdrop.com/'
+    category: Phishing
+    subcategory: Golem
