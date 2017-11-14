@@ -15494,3 +15494,14 @@
     category: Phishing
     subcategory: Power
     description: 'Fake power airdrop site - asking for private keys'
+-
+    id: 2455
+    name: spectre-ai.org
+    url: 'http://spectre-ai.org'
+    category: Phishing
+    subcategory: Spectre
+    description: 'Fake spectre.ai site crowd sale site'
+    addresses:
+      - '0x6e3E57E536aab05950774945d9cdBf506865c52f' 
+    
+    
