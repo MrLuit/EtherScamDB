@@ -15512,4 +15512,10 @@
     description: 'Fake datum.network crowdsale site'
     addresses:
       - '0x2804e8B4c04c655376D18aDA84d46fC345240E0A' 
-    
+-
+    id: 2457
+    name: myetherwalletfork.com
+    url: 'http://myetherwalletfork.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
