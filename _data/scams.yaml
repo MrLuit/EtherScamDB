@@ -15528,3 +15528,12 @@
     description: 'Fake tzero crowdsale site'
     addresses:
       - '0xA0D67BF1aE91B6b705abD4f695Cc13edAAcd0D02' 
+-
+    id: 2459
+    name: t-zero.org
+    url: 'http://t-zero.org'
+    category: Phishing
+    subcategory: Tzero
+    description: 'Fake tzero crowdsale site'
+    addresses:
+      - '0xe54659243F8542d6ABfd15bbff69f62465786756' 
