@@ -15546,3 +15546,10 @@
     description: 'Fake auctus crowdsale site'
     addresses:
       - '0x784205ACD9423a2044D09E41642A71E087162861' 
+-
+    id: 2461
+    name: bittrex.com11648724328774.cf
+    url: 'http://bittrex.com11648724328774.cf'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex, phishing for login details'
