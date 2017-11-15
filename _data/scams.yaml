@@ -15562,3 +15562,12 @@
     description: 'Fake dmarket crowdsale site'
     addresses:
       - '0xd912289C9F079b0655737a55FD5D745501ECEfc7' 
+-
+    id: 2463
+    name: xn--waxtokn-y8a.com
+    url: 'http://xn--waxtokn-y8a.com'
+    category: Phishing
+    subcategory: Wax
+    description: 'Fake wax crowdsale site'
+    addresses:
+      - '0x1494403137159bb0dc545d11963fDF797ea1eCAb' 
