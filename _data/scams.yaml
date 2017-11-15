@@ -15537,3 +15537,12 @@
     description: 'Fake tzero crowdsale site'
     addresses:
       - '0xe54659243F8542d6ABfd15bbff69f62465786756' 
+-
+    id: 2460
+    name: autcus.org
+    url: 'http://autcus.org'
+    category: Phishing
+    subcategory: Auctus
+    description: 'Fake auctus crowdsale site'
+    addresses:
+      - '0x784205ACD9423a2044D09E41642A71E087162861' 
