@@ -15519,3 +15519,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'
+-
+    id: 2458
+    name: xn--zero-zxb.com
+    url: 'http://xn--zero-zxb.com'
+    category: Phishing
+    subcategory: Tzero
+    description: 'Fake tzero crowdsale site'
+    addresses:
+      - '0xA0D67BF1aE91B6b705abD4f695Cc13edAAcd0D02' 
