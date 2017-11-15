@@ -15553,3 +15553,12 @@
     category: Phishing
     subcategory: Bittrex
     description: 'Fake Bittrex, phishing for login details'
+-
+    id: 2462
+    name: dmarket.pro
+    url: 'http://dmarket.pro'
+    category: Phishing
+    subcategory: Dmarket
+    description: 'Fake dmarket crowdsale site'
+    addresses:
+      - '0xd912289C9F079b0655737a55FD5D745501ECEfc7' 
