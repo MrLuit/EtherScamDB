@@ -15528,3 +15528,46 @@
     description: 'Fake tzero crowdsale site'
     addresses:
       - '0xA0D67BF1aE91B6b705abD4f695Cc13edAAcd0D02' 
+-
+    id: 2459
+    name: t-zero.org
+    url: 'http://t-zero.org'
+    category: Phishing
+    subcategory: Tzero
+    description: 'Fake tzero crowdsale site'
+    addresses:
+      - '0xe54659243F8542d6ABfd15bbff69f62465786756' 
+-
+    id: 2460
+    name: autcus.org
+    url: 'http://autcus.org'
+    category: Phishing
+    subcategory: Auctus
+    description: 'Fake auctus crowdsale site'
+    addresses:
+      - '0x784205ACD9423a2044D09E41642A71E087162861' 
+-
+    id: 2461
+    name: bittrex.com11648724328774.cf
+    url: 'http://bittrex.com11648724328774.cf'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex, phishing for login details'
+-
+    id: 2462
+    name: dmarket.pro
+    url: 'http://dmarket.pro'
+    category: Phishing
+    subcategory: Dmarket
+    description: 'Fake dmarket crowdsale site'
+    addresses:
+      - '0xd912289C9F079b0655737a55FD5D745501ECEfc7' 
+-
+    id: 2463
+    name: xn--waxtokn-y8a.com
+    url: 'http://xn--waxtokn-y8a.com'
+    category: Phishing
+    subcategory: Wax
+    description: 'Fake wax crowdsale site'
+    addresses:
+      - '0x1494403137159bb0dc545d11963fDF797ea1eCAb' 
