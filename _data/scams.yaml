@@ -15537,6 +15537,7 @@
     description: 'Fake tzero crowdsale site'
     addresses:
       - '0xe54659243F8542d6ABfd15bbff69f62465786756' 
+      - '0x51DcD13361C5D921D2C4818e419011301e7BE34e' 
 -
     id: 2460
     name: autcus.org
