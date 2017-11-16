@@ -15604,3 +15604,12 @@
     description: 'Fake tzero crowdsale site'
     addresses:
       - '0x51DcD13361C5D921D2C4818e419011301e7BE34e'   
+-
+    id: 2468
+    name: blockstack.network
+    url: 'http://blockstack.network'
+    category: Phishing
+    subcategory: Blockstack
+    description: 'Fake blockstack crowdsale site'
+    addresses:
+      - '0xaD0C88F3313ABbce2185597E87A15f764e948A46' 
