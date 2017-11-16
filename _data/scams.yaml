@@ -15612,4 +15612,11 @@
     subcategory: Blockstack
     description: 'Fake blockstack crowdsale site'
     addresses:
-      - '0xaD0C88F3313ABbce2185597E87A15f764e948A46' 
+      - '0xaD0C88F3313ABbce2185597E87A15f764e948A46'  
+-
+    id: 2469
+    name: tzero.website
+    url: 'http://tzero.website'
+    category: Phishing
+    subcategory: Tzero
+    description: 'Fake tzero crowdsale site'
