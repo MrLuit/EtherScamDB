@@ -15579,3 +15579,11 @@
     category: Phishing
     subcategory: Spectre
     description: 'Fake spectre.ai site crowd sale site'
+ -
+    id: 2465
+    name: tzero.pw
+    url: 'http://tzero.pw'
+    category: Phishing
+    subcategory: Tzero
+    description: 'Fake tzero crowdsale site'
+
