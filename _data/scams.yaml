@@ -15611,3 +15611,5 @@
     category: Phishing
     subcategory: Blockstack
     description: 'Fake blockstack crowdsale site'
+    addresses:
+      - '0xaD0C88F3313ABbce2185597E87A15f764e948A46' 
