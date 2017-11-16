@@ -15570,4 +15570,11 @@
     subcategory: Wax
     description: 'Fake wax crowdsale site'
     addresses:
-      - '0x1494403137159bb0dc545d11963fDF797ea1eCAb' 
+      - '0x1494403137159bb0dc545d11963fDF797ea1eCAb'       
+-
+    id: 2464
+    name: spectre-ai.net
+    url: 'http://spectre-ai.net'
+    category: Phishing
+    subcategory: Spectre
+    description: 'Fake spectre.ai site crowd sale site'
