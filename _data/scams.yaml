@@ -15586,4 +15586,12 @@
     category: Phishing
     subcategory: Tzero
     description: 'Fake tzero crowdsale site'
-
+-
+    id: 2466
+    name: spectre.site
+    url: 'http://spectre.site'
+    category: Phishing
+    subcategory: Spectre
+    description: 'Fake spectre.ai site crowd sale site'
+    addresses:
+      - ' 0x43AC6AaE3c5dd21855C3aABe3CADB7dFdCf2E5be'   
