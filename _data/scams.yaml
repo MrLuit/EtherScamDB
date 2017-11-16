@@ -15620,3 +15620,10 @@
     category: Phishing
     subcategory: Tzero
     description: 'Fake tzero crowdsale site'
+-
+    id: 2470
+    name: tzero.su
+    url: 'http://tzero.su'
+    category: Phishing
+    subcategory: Tzero
+    description: 'Fake tzero crowdsale site'
