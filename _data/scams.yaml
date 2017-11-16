@@ -15594,4 +15594,13 @@
     subcategory: Spectre
     description: 'Fake spectre.ai site crowd sale site'
     addresses:
-      - ' 0x43AC6AaE3c5dd21855C3aABe3CADB7dFdCf2E5be'   
+      - '0x43AC6AaE3c5dd21855C3aABe3CADB7dFdCf2E5be'   
+-
+    id: 2467
+    name: ico-tzero.com
+    url: 'http://ico-tzero.com'
+    category: Phishing
+    subcategory: Tzero
+    description: 'Fake tzero crowdsale site'
+    addresses:
+      - '0x51DcD13361C5D921D2C4818e419011301e7BE34e'   
