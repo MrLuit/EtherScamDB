@@ -15627,3 +15627,12 @@
     category: Phishing
     subcategory: Tzero
     description: 'Fake tzero crowdsale site'
+-
+    id: 2471
+    name: tzero-ico.com
+    url: 'http://tzero-ico.com'
+    category: Phishing
+    subcategory: Tzero
+    description: 'Fake tzero crowdsale site'
+    addresses:
+      - '0x51DcD13361C5D921D2C4818e419011301e7BE34e'  
