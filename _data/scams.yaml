@@ -15642,3 +15642,12 @@
     url: 'http://xn--metherwalet-ns8ez1g.com'
     category: Phishing
     subcategory: MyEtherWallet
+-
+    id: 2473
+    name: t0-ico.com
+    url: 'http://0-ico.com'
+    category: Phishing
+    subcategory: Tzero
+    description: 'Fake tzero crowdsale site'
+    addresses:
+      - '0x51DcD13361C5D921D2C4818e419011301e7BE34e'  
