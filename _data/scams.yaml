@@ -15657,3 +15657,12 @@
     url: 'http://bittrex.one'
     category: Phishing
     subcategory: Bittex
+-
+    id: 2475
+    name: urtust.io
+    url: 'http://urtust.io'
+    category: Phishing
+    subcategory: Utrust
+    description: 'Fake UTRUST crowdsale site'
+    addresses:
+      - '0x738a4dAAE8d4A640172fAC4F45B41707BD2197be'  
