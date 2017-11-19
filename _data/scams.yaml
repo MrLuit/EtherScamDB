@@ -15675,3 +15675,12 @@
     description: 'Fake Blockstack crowdsale site'
     addresses:
       - '0xea6e18FD3C301e4300BC99B6Db792fcff376Abb4'  
+-
+    id: 2477
+    name: oracles-network.org
+    url: 'http://oracles-network.org'
+    category: Phishing
+    subcategory: Oracles
+    description: 'Fake Oracles crowdsale site'
+    addresses:
+      - '0xc31fB4c352cb68c847715D46D97C1fa2Aa2d0f00' 
