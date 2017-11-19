@@ -15637,7 +15637,7 @@
     addresses:
       - '0x51DcD13361C5D921D2C4818e419011301e7BE34e'  
 -
-    id: 2742
+    id: 2472
     name: xn--metherwalet-ns8ez1g.com
     url: 'http://xn--metherwalet-ns8ez1g.com'
     category: Phishing
@@ -15651,3 +15651,9 @@
     description: 'Fake tzero crowdsale site'
     addresses:
       - '0x51DcD13361C5D921D2C4818e419011301e7BE34e'  
+-
+    id: 2474
+    name: bittrex.one
+    url: 'http://bittrex.one'
+    category: Phishing
+    subcategory: Bittex
