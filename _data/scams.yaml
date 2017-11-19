@@ -15666,3 +15666,12 @@
     description: 'Fake UTRUST crowdsale site'
     addresses:
       - '0x738a4dAAE8d4A640172fAC4F45B41707BD2197be'  
+-
+    id: 2476
+    name: blockstack.one
+    url: 'http://blockstack.one'
+    category: Phishing
+    subcategory: Blockstack
+    description: 'Fake Blockstack crowdsale site'
+    addresses:
+      - '0xea6e18FD3C301e4300BC99B6Db792fcff376Abb4'  
