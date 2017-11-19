@@ -15637,7 +15637,7 @@
     addresses:
       - '0x51DcD13361C5D921D2C4818e419011301e7BE34e'  
 -
-    id: 2742
+    id: 2472
     name: xn--metherwalet-ns8ez1g.com
     url: 'http://xn--metherwalet-ns8ez1g.com'
     category: Phishing
@@ -15651,3 +15651,36 @@
     description: 'Fake tzero crowdsale site'
     addresses:
       - '0x51DcD13361C5D921D2C4818e419011301e7BE34e'  
+-
+    id: 2474
+    name: bittrex.one
+    url: 'http://bittrex.one'
+    category: Phishing
+    subcategory: Bittex
+-
+    id: 2475
+    name: urtust.io
+    url: 'http://urtust.io'
+    category: Phishing
+    subcategory: Utrust
+    description: 'Fake UTRUST crowdsale site'
+    addresses:
+      - '0x738a4dAAE8d4A640172fAC4F45B41707BD2197be'  
+-
+    id: 2476
+    name: blockstack.one
+    url: 'http://blockstack.one'
+    category: Phishing
+    subcategory: Blockstack
+    description: 'Fake Blockstack crowdsale site'
+    addresses:
+      - '0xea6e18FD3C301e4300BC99B6Db792fcff376Abb4'  
+-
+    id: 2477
+    name: oracles-network.org
+    url: 'http://oracles-network.org'
+    category: Phishing
+    subcategory: Oracles
+    description: 'Fake Oracles crowdsale site'
+    addresses:
+      - '0xc31fB4c352cb68c847715D46D97C1fa2Aa2d0f00' 
