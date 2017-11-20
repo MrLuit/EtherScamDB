@@ -15696,3 +15696,12 @@
     url: 'http://sirinlabs.website'
     category: Phishing
     subcategory: SirinLabs
+-
+    id: 2480
+    name: oracls.network
+    url: 'http://oracls.network'
+    category: Phishing
+    subcategory: Oracles
+    description: 'Fake Oracles crowdsale site'
+    addresses:
+      - '0x1447b1cB205158D98FdBd312b37ed9dd1481fB62' 
