@@ -15690,3 +15690,9 @@
     url: 'http://shape-shift.io'
     category: Phishing
     subcategory: Shapeshift
+-
+    id: 2479
+    name: sirinlabs.website
+    url: 'http://sirinlabs.website'
+    category: Phishing
+    subcategory: SirinLabs
