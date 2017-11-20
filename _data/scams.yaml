@@ -15684,3 +15684,9 @@
     description: 'Fake Oracles crowdsale site'
     addresses:
       - '0xc31fB4c352cb68c847715D46D97C1fa2Aa2d0f00' 
+-
+    id: 2478
+    name: shape-shift.io
+    url: 'http://shape-shift.io'
+    category: Phishing
+    subcategory: Shapeshift
