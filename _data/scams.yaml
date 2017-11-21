@@ -15712,3 +15712,10 @@
     category: Phishing
     subcategory: Request
     description: 'Fake Request airdrop site'    
+-
+    id: 2482
+    name: xn--coinbas-pya.com
+    url: 'http://xn--coinbas-pya.com'
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Fake coinbase site - phishing for logins'    
