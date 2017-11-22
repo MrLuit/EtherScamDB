@@ -15719,3 +15719,10 @@
     category: Phishing
     subcategory: Coinbase
     description: 'Fake coinbase site - phishing for logins'    
+-
+    id: 2483
+    name: bitstannp.net
+    url: 'http://bitstannp.net'
+    category: Phishing
+    subcategory: Bitstamp
+    description: 'Fake bitstamp site - phishing for logins - https://twitter.com/Bitstamp/status/933401197171675136'    
