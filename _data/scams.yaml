@@ -15726,3 +15726,10 @@
     category: Phishing
     subcategory: Bitstamp
     description: 'Fake bitstamp site - phishing for logins - https://twitter.com/Bitstamp/status/933401197171675136'    
+-
+    id: 2484
+    name: xn--myetherwllet-0cb.com
+    url: 'http://xn--myetherwllet-0cb.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - https://twitter.com/phishingalert/status/933618502178672640'  
