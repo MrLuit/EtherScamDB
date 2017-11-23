@@ -15733,3 +15733,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - https://twitter.com/phishingalert/status/933618502178672640'  
+-
+    id: 2485
+    name: envoin.org
+    url: 'http://envoin.org'
+    category: Phishing
+    subcategory: Envion
+    description: 'Fake Envion crowdsale site'
+    addresses:
+      - '0x25CE2252a80c1c4FDf12FD9c608858c23b3094Ef' 
