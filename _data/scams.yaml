@@ -15742,3 +15742,17 @@
     description: 'Fake Envion crowdsale site'
     addresses:
       - '0x25CE2252a80c1c4FDf12FD9c608858c23b3094Ef' 
+-
+    id: 2486
+    name: coinbasenews.co.uk
+    url: 'http://coinbasenews.co.uk'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'URL redirect to a fake MEW' 
+-
+    id: 2487
+    name: xn--metherwallet-hmb.com
+    url: 'http://xn--metherwallet-hmb.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - Bot message through Slack'     
