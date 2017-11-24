@@ -15793,3 +15793,10 @@
     category: Phishing
     subcategory: Powerledger
     description: 'Fake airdrop site - linking to fake MEW sites' 
+-
+    id: 2493
+    name: ethereumstorage.net
+    url: 'http://ethereumstorage.net'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet stealing private keys with process.php' 
