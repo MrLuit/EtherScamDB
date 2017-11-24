@@ -15777,3 +15777,12 @@
     category: Phishing
     subcategory: Quanstamp
     description: 'Fake Quantstamp airdrop site' 
+-
+    id: 2491
+    name: xn--myetherallet-4k5fwn.com
+    url: 'http://xn--myetherallet-4k5fwn.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
+    addresses:
+      - '0x628551FFa57e2cBBBF220B7100968844E6918a9C'     
