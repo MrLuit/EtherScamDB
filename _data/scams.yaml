@@ -15786,3 +15786,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW' 
+-
+    id: 2492
+    name: powerledgerr.com
+    url: 'http://powerledgerr.com'
+    category: Phishing
+    subcategory: Powerledger
+    description: 'Fake airdrop site - linking to fake MEW sites' 
