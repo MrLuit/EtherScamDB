@@ -15763,3 +15763,10 @@
     category: Phishing
     subcategory: Shapeshift
     description: 'Fake Shapeshift site' 
+-
+    id: 2489
+    name: xn--changely-j59c.com
+    url: 'http://xn--changely-j59c.com'
+    category: Phishing
+    subcategory: Changelly
+    description: 'Fake Changelly site' 
