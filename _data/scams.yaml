@@ -15770,3 +15770,10 @@
     category: Phishing
     subcategory: Changelly
     description: 'Fake Changelly site' 
+-
+    id: 2490
+    name: quntstamp.com
+    url: 'http://quntstamp.com'
+    category: Phishing
+    subcategory: Quanstamp
+    description: 'Fake Quantstamp airdrop site' 
