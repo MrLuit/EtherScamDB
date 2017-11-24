@@ -15756,3 +15756,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - Bot message through Slack'     
+-
+    id: 2488
+    name: shapeshlft.com
+    url: 'http://shapeshlft.com'
+    category: Phishing
+    subcategory: Shapeshift
+    description: 'Fake Shapeshift site' 
