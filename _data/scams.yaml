@@ -15779,3 +15779,10 @@
     category: Phishing
     subcategory: Quantstamp
     description: 'Fake Quantstamp airdrop site - also linking to fake MEW sites' 
+-
+    id: 2491
+    name: xn--myeherwallet-4j5f.com
+    url: 'http://xn--myeherwallet-4j5f.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW' 
