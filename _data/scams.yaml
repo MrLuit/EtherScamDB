@@ -15772,3 +15772,10 @@
     category: Phishing
     subcategory: Changelly
     description: 'Fake Changelly site' 
+-
+    id: 2490
+    name: quamtstamp.com
+    url: 'http://quamtstamp.com'
+    category: Phishing
+    subcategory: Quantstamp
+    description: 'Fake Quantstamp airdrop site - also linking to fake MEW sites' 
