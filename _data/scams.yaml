@@ -15469,6 +15469,8 @@
     category: Phishing
     subcategory: Raiden
     description: 'Fake Raiden Network airdrop site - asking for private keys'
+    addresses:
+      - '0x4Bf722014E54AeAB05fcF1519E6e4C0c3F742e43'
 -
     id: 2452
     name: qauntstamp.com
