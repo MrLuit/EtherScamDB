@@ -15469,6 +15469,8 @@
     category: Phishing
     subcategory: Raiden
     description: 'Fake Raiden Network airdrop site - asking for private keys'
+    addresses:
+      - '0x4Bf722014E54AeAB05fcF1519E6e4C0c3F742e43'
 -
     id: 2452
     name: qauntstamp.com
@@ -15770,3 +15772,31 @@
     category: Phishing
     subcategory: Changelly
     description: 'Fake Changelly site' 
+-
+    id: 2490
+    name: quamtstamp.com
+    url: 'http://quamtstamp.com'
+    category: Phishing
+    subcategory: Quantstamp
+    description: 'Fake Quantstamp airdrop site - also linking to fake MEW sites' 
+-
+    id: 2491
+    name: xn--myeherwallet-4j5f.com
+    url: 'http://xn--myeherwallet-4j5f.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW' 
+-
+    id: 2492
+    name: powerledgerr.com
+    url: 'http://powerledgerr.com'
+    category: Phishing
+    subcategory: Powerledger
+    description: 'Fake airdrop site - linking to fake MEW sites' 
+-
+    id: 2493
+    name: ethereumstorage.net
+    url: 'http://ethereumstorage.net'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet stealing private keys with process.php' 
