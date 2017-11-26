@@ -15800,3 +15800,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet stealing private keys with process.php' 
+-
+    id: 2494
+    name: gladius.im
+    url: 'http://gladius.im'
+    category: Phishing
+    subcategory: Gladius
+    description: 'Fake Gladius token sale site' 
