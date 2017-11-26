@@ -15807,3 +15807,5 @@
     category: Phishing
     subcategory: Gladius
     description: 'Fake Gladius token sale site' 
+    addresses:
+      - '0x55456cBd1F11298B80A53c896F4B1dC9Bc16c731' 
