@@ -1233,6 +1233,8 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: Addition
+    addresses:
+      - '0x33F74739ce6bE3B2c38AF76F5aDB3866CB4784c4'    
 -
     id: 183
     name: myethetwallet.com
