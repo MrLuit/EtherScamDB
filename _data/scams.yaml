@@ -15811,3 +15811,10 @@
     description: 'Fake Gladius token sale site' 
     addresses:
       - '0x55456cBd1F11298B80A53c896F4B1dC9Bc16c731' 
+-
+    id: 2495
+    name: quanttstamp.com
+    url: 'http://quanttstamp.com'
+    category: Phishing
+    subcategory: Quantstamp
+    description: 'Fake Quantstamp airdrop site - linking to fake MEW' 
