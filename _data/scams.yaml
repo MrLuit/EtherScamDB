@@ -15813,6 +15813,24 @@
       - '0x55456cBd1F11298B80A53c896F4B1dC9Bc16c731' 
 -
     id: 2495
+    name: wabitoken.com
+    url: 'http://wabitoken.com'
+    category: Phishing
+    subcategory: Wabi
+    description: 'Fake Wabi token sale site' 
+    addresses:
+      - '0x57DCF20135B0Cb9D167e8ebFe13b84bfD67645ed' 
+-
+    id: 2496
+    name: tokensale.gizer.in
+    url: 'http://tokensale.gizer.in'
+    category: Phishing
+    subcategory: Gizer
+    description: 'Fake Gizer token sale site' 
+    addresses:
+      - '0xa2A3a8e4a1877da1C913df7591ac0D72f27D4510' 
+-
+    id: 2497
     name: quanttstamp.com
     url: 'http://quanttstamp.com'
     category: Phishing
