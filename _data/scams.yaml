@@ -15818,3 +15818,12 @@
     description: 'Fake Wabi token sale site' 
     addresses:
       - '0x57DCF20135B0Cb9D167e8ebFe13b84bfD67645ed' 
+-
+    id: 2496
+    name: tokensale.gizer.in
+    url: 'http://tokensale.gizer.in'
+    category: Phishing
+    subcategory: Gizer
+    description: 'Fake Gizer token sale site' 
+    addresses:
+      - '0xa2A3a8e4a1877da1C913df7591ac0D72f27D4510' 
