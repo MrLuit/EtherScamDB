@@ -1233,6 +1233,8 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: Addition
+    addresses:
+      - '0x33F74739ce6bE3B2c38AF76F5aDB3866CB4784c4'    
 -
     id: 183
     name: myethetwallet.com
@@ -15827,3 +15829,10 @@
     description: 'Fake Gizer token sale site' 
     addresses:
       - '0xa2A3a8e4a1877da1C913df7591ac0D72f27D4510' 
+-
+    id: 2497
+    name: quanttstamp.com
+    url: 'http://quanttstamp.com'
+    category: Phishing
+    subcategory: Quantstamp
+    description: 'Fake Quantstamp airdrop site - linking to fake MEW' 
