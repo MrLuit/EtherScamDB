@@ -15843,3 +15843,10 @@
     category: Phishing
     subcategory: Tzero
     description: 'Fake tzero crowdsale site'
+-
+    id: 2499
+    name: xn--myeterwalet-nl8enj.com
+    url: 'http://xn--myeterwalet-nl8enj.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW (IDN homograph attack)'
