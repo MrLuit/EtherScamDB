@@ -15859,3 +15859,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW (IDN homograph attack)'
+-
+    id: 2501
+    name: nnyetherwallelt.ru.com
+    url: 'http://nnyetherwallelt.ru.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
