@@ -15845,24 +15845,10 @@
     description: 'Fake tzero crowdsale site'
 -
     id: 2499
-    name: ico-wacoin.com
-    url: 'http://ico-wacoin.com'
+    name: bitclaive.com
+    url: 'http://bitclaive.com'
     category: Phishing
-    subcategory: Wabi
-    description: 'Fake Wabi token sale site' 
+    subcategory: BitClave
+    description: 'Fake BitClave crowdsale site'
     addresses:
-      - '0x1cea7999fdafe5d156952ebf1816e8aa67a5485e' 
--
-    id: 2500
-    name: xn--myeterwalet-nl8enj.com
-    url: 'http://xn--myeterwalet-nl8enj.com'
-    category: Phishing
-    subcategory: MyEtherWallet
-    description: 'Fake MEW (IDN homograph attack)'
--
-    id: 2501
-    name: nnyetherwallelt.ru.com
-    url: 'http://nnyetherwallelt.ru.com'
-    category: Phishing
-    subcategory: MyEtherWallet
-    description: 'Fake MEW'
+      - '0xAb1C30cd2d9964b3B845ef744E2E4043739430e5'
