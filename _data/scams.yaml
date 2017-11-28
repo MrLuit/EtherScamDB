@@ -15836,3 +15836,10 @@
     category: Phishing
     subcategory: Quantstamp
     description: 'Fake Quantstamp airdrop site - linking to fake MEW' 
+-
+    id: 2498
+    name: t0zero.com
+    url: 'http://t0zero.com'
+    category: Phishing
+    subcategory: Tzero
+    description: 'Fake tzero crowdsale site'
