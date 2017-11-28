@@ -15843,3 +15843,12 @@
     category: Phishing
     subcategory: Tzero
     description: 'Fake tzero crowdsale site'
+-
+    id: 2499
+    name: ico-wacoin.com
+    url: 'http://ico-wacoin.com'
+    category: Phishing
+    subcategory: Wabi
+    description: 'Fake Wabi token sale site' 
+    addresses:
+      - '0x1cea7999fdafe5d156952ebf1816e8aa67a5485e' 
