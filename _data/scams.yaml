@@ -15889,3 +15889,24 @@
     category: Phishing
     subcategory: Gladius
     description: 'Fake Gladius token sale site'
+-
+    id: 2505
+    name: myerherwalet.com
+    url: 'http://myerherwalet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2506
+    name: xn--mytherwallet-2d6f.com
+    url: 'http://xn--mytherwallet-2d6f.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2507
+    name: xn--cointeegraph-wz4f.com
+    url: 'http://xn--cointeegraph-wz4f.com'
+    category: Phishing
+    subcategory: Cointelegraph
+    description: 'Fake Cointelegraph, fake article on MEW, pointing to a fake MEW'
