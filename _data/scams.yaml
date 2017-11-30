@@ -15889,3 +15889,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'
+-
+    id: 2506
+    name: xn--mytherwallet-2d6f.com
+    url: 'http://xn--mytherwallet-2d6f.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
