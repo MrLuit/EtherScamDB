@@ -15884,6 +15884,13 @@
     description: 'Fake Quantstamp site'
 -
     id: 2504
+    name: gladius.ws
+    url: 'http://gladius.ws'
+    category: Phishing
+    subcategory: Gladius
+    description: 'Fake Gladius token sale site'
+-
+    id: 2505
     name: myerherwalet.com
     url: 'http://myerherwalet.com'
     category: Phishing
