@@ -15910,3 +15910,10 @@
     category: Phishing
     subcategory: Cointelegraph
     description: 'Fake Cointelegraph, fake article on MEW, pointing to a fake MEW'
+-
+    id: 2508
+    name: powerrledger.com
+    url: 'http://powerrledger.com'
+    category: Phishing
+    subcategory: Powerledger
+    description: 'Fake Power ledger airdrop site'
