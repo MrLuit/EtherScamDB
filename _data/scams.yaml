@@ -15882,3 +15882,10 @@
     category: Phishing
     subcategory: Quantstamp
     description: 'Fake Quantstamp site'
+-
+    id: 2504
+    name: myerherwalet.com
+    url: 'http://myerherwalet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
