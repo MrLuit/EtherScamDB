@@ -15926,3 +15926,10 @@
     category: Phishing
     subcategory: Bittrex
     description: 'Fake Bittrex (IDN homograph attack)'
+-
+    id: 2510
+    name: myethlerwallet.eu
+    url: 'http://myethlerwallet.eu'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
