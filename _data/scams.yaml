@@ -15919,3 +15919,10 @@
     category: Phishing
     subcategory: Powerledger
     description: 'Fake Power ledger airdrop site'
+-
+    id: 2509
+    name: xn--btrex-b4a.com
+    url: 'http://xn--btrex-b4a.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex (IDN homograph attack)'
