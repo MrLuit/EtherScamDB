@@ -15969,3 +15969,10 @@
     category: Phishing
     subcategory: Poloniex
     description: 'Fake Poloniex login Site'
+-
+    id: 2516
+    name: xn--myetherwalet-39b.com
+    url: 'http://xn--myetherwalet-39b.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
