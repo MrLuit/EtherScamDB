@@ -15948,3 +15948,31 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'
+-
+    id: 2513
+    name: raiden-network.org
+    url: 'http://raiden-network.org'
+    category: Phishing
+    subcategory: Raiden
+    description: 'Fake Raiden Network Site'
+-
+    id: 2514
+    name: xn--birex-leba.com
+    url: 'http://xn--birex-leba.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex login Site'
+-
+    id: 2515
+    name: xn--polonex-ffb.com
+    url: 'http://xn--polonex-ffb.com'
+    category: Phishing
+    subcategory: Poloniex
+    description: 'Fake Poloniex login Site'
+-
+    id: 2516
+    name: xn--myetherwalet-39b.com
+    url: 'http://xn--myetherwalet-39b.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
