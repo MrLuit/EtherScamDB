@@ -15933,3 +15933,17 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'
+-
+    id: 2511
+    name: xn--myethrwllet-2kb3p.com
+    url: 'http://xn--myethrwllet-2kb3p.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2512
+    name: xn--metherwallt-79a30a.com
+    url: 'http://xn--metherwallt-79a30a.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
