@@ -15962,3 +15962,10 @@
     category: Phishing
     subcategory: Bittrex
     description: 'Fake Bittrex login Site'
+-
+    id: 2515
+    name: xn--polonex-ffb.com
+    url: 'http://xn--polonex-ffb.com'
+    category: Phishing
+    subcategory: Poloniex
+    description: 'Fake Poloniex login Site'
