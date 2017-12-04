@@ -15948,3 +15948,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'
+-
+    id: 2513
+    name: raiden-network.org
+    url: 'http://raiden-network.org'
+    category: Phishing
+    subcategory: Raiden
+    description: 'Fake Raiden Network Site'
