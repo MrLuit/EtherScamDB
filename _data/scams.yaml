@@ -15955,3 +15955,10 @@
     category: Phishing
     subcategory: Raiden
     description: 'Fake Raiden Network Site'
+-
+    id: 2514
+    name: xn--birex-leba.com
+    url: 'http://xn--birex-leba.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex login Site'
