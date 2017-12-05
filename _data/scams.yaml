@@ -15976,3 +15976,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'
+-
+    id: 2517
+    name: xn--myeherwalle-vici.com
+    url: 'http://xn--myeherwalle-vici.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
