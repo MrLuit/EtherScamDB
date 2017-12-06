@@ -16015,3 +16015,12 @@
     category: Phishing
     subcategory: Powerledger
     description: 'Fake Power ledger airdrop site'
+-
+    id: 2522
+    name: mobus.network
+    url: 'http://mobus.network'
+    category: Phishing
+    subcategory: Mobius
+    description: 'Fake Mobius token sale site'
+    addresses:
+      - '0xa5797eA738AbF85Db7B3f2e04A4a40A5180044A8'
