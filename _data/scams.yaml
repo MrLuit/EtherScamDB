@@ -16024,3 +16024,12 @@
     description: 'Fake Mobius token sale site'
     addresses:
       - '0xa5797eA738AbF85Db7B3f2e04A4a40A5180044A8'
+-
+    id: 2523
+    name: hellobloom.me
+    url: 'http://hellobloom.me'
+    category: Phishing
+    subcategory: Hellobloom
+    description: 'Fake HelloBloom token sale site'
+    addresses:
+      - '0x51DcD13361C5D921D2C4818e419011301e7BE34e'
