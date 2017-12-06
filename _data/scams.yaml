@@ -16001,3 +16001,10 @@
     description: 'Fake Qlink token sale site'
     addresses:
       - '0xeB8b629Df028f5353649460F1c06bF394dE8641f'
+-
+    id: 2520
+    name: xn--myeherwalet-ms8eyy.com
+    url: 'http://xn--myeherwalet-ms8eyy.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
