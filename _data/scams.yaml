@@ -16008,3 +16008,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'
+-
+    id: 2521
+    name: powrrledger.com
+    url: 'http://powrrledger.com'
+    category: Phishing
+    subcategory: Powerledger
+    description: 'Fake Power ledger airdrop site'
