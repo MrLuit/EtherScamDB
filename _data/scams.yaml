@@ -15992,3 +15992,12 @@
     description: 'Fake Gameflip token sale site'
     addresses:
       - '0x9D0b8447f16d6bC1de2B52d63e9c487bD778a91D'
+-
+    id: 2519
+    name: qlink-ico.com
+    url: 'http://qlink-ico.com'
+    category: Phishing
+    subcategory: Qlink
+    description: 'Fake Qlink token sale site'
+    addresses:
+      - '0xeB8b629Df028f5353649460F1c06bF394dE8641f'
