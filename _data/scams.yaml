@@ -16070,3 +16070,10 @@
     category: Phishing
     subcategory: SirinLabs
     description: 'Fake SirinLabs token sale site'
+-
+    id: 2529
+    name: sirintabs.com
+    url: 'http://sirintabs.com'
+    category: Phishing
+    subcategory: SirinLabs
+    description: 'Fake SirinLabs token sale site'
