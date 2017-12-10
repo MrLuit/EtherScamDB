@@ -16042,3 +16042,10 @@
     category: Phishing
     subcategory: Blockchain
     description: 'Fake blockchain site'
+-
+    id: 2525
+    name: xn--myetherwalle-xoc.com
+    url: 'http://xn--myetherwalle-xoc.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
