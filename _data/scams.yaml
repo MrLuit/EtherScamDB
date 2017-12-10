@@ -16033,3 +16033,10 @@
     description: 'Fake HelloBloom token sale site'
     addresses:
       - '0x51DcD13361C5D921D2C4818e419011301e7BE34e'
+-
+    id: 2524
+    name: superbitcoin-blockchain.info
+    url: 'http://superbitcoin-blockchain.info'
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake blockchain site'
