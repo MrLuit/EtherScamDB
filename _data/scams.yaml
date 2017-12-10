@@ -16056,3 +16056,10 @@
     category: Phishing
     subcategory: Powerledger
     description: 'Fake Power ledger airdrop site'
+-
+    id: 2527
+    name: xn--myeterwalet-nl8emj.com
+    url: 'http://xn--myeterwalet-nl8emj.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
