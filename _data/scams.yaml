@@ -16123,3 +16123,5 @@
     category: Phishing
     subcategory: Props
     description: 'Fake PROPSProject token sale site'    
+    addresses:
+      - '0x72A66Bba491F0C696c4c4e3154D07B241d371944'
