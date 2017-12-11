@@ -16107,3 +16107,19 @@
     category: Phishing
     subcategory: Decentraland
     description: 'Fake Decentraland airdrop site'    
+-
+    id: 2534
+    name: propsprojects.com
+    url: 'http://propsprojects.com'
+    category: Phishing
+    subcategory: Props
+    description: 'Fake PROPSProject token sale site'
+    addresses:
+      - '0xfCDd417b449C982Fc9b6d7B117E417682E81b627'
+-
+    id: 2535
+    name: propsproject.org
+    url: 'http://propsproject.org'
+    category: Phishing
+    subcategory: Props
+    description: 'Fake PROPSProject token sale site'    
