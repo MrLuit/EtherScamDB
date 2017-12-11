@@ -16077,3 +16077,51 @@
     category: Phishing
     subcategory: SirinLabs
     description: 'Fake SirinLabs token sale site'
+-
+    id: 2530
+    name: propsproject.tech
+    url: 'http://propsproject.tech'
+    category: Phishing
+    subcategory: Props
+    description: 'Fake PROPSProject token sale site'
+    addresses:
+      - '0x57DCF20135B0Cb9D167e8ebFe13b84bfD67645ed'
+-
+    id: 2531
+    name: redpulsetoken.co
+    url: 'http://redpulsetoken.co'
+    category: Phishing
+    subcategory: Redpulse
+    description: 'Fake Red-Pulse airdrop site asking for private keys'
+-
+    id: 2532
+    name: xn--metherwalet-ns8ep4b.com
+    url: 'http://xn--metherwalet-ns8ep4b.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2533
+    name: decentralland.org
+    url: 'http://decentralland.org/'
+    category: Phishing
+    subcategory: Decentraland
+    description: 'Fake Decentraland airdrop site'    
+-
+    id: 2534
+    name: propsprojects.com
+    url: 'http://propsprojects.com'
+    category: Phishing
+    subcategory: Props
+    description: 'Fake PROPSProject token sale site'
+    addresses:
+      - '0xfCDd417b449C982Fc9b6d7B117E417682E81b627'
+-
+    id: 2535
+    name: propsproject.org
+    url: 'http://propsproject.org'
+    category: Phishing
+    subcategory: Props
+    description: 'Fake PROPSProject token sale site'    
+    addresses:
+      - '0x72A66Bba491F0C696c4c4e3154D07B241d371944'
