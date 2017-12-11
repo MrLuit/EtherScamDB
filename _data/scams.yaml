@@ -16093,3 +16093,17 @@
     category: Phishing
     subcategory: Redpulse
     description: 'Fake Red-Pulse airdrop site asking for private keys'
+-
+    id: 2532
+    name: xn--metherwalet-ns8ep4b.com
+    url: 'http://xn--metherwalet-ns8ep4b.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2533
+    name: decentralland.org
+    url: 'http://decentralland.org/'
+    category: Phishing
+    subcategory: Decentraland
+    description: 'Fake Decentraland airdrop site'    
