@@ -16086,3 +16086,10 @@
     description: 'Fake PROPSProject token sale site'
     addresses:
       - '0x57DCF20135B0Cb9D167e8ebFe13b84bfD67645ed'
+-
+    id: 2531
+    name: redpulsetoken.co
+    url: 'http://redpulsetoken.co'
+    category: Phishing
+    subcategory: Redpulse
+    description: 'Fake Red-Pulse airdrop site asking for private keys'
