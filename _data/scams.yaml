@@ -16077,3 +16077,12 @@
     category: Phishing
     subcategory: SirinLabs
     description: 'Fake SirinLabs token sale site'
+-
+    id: 2530
+    name: propsproject.tech
+    url: 'http://propsproject.tech'
+    category: Phishing
+    subcategory: Props
+    description: 'Fake PROPSProject token sale site'
+    addresses:
+      - '0x57DCF20135B0Cb9D167e8ebFe13b84bfD67645ed'
