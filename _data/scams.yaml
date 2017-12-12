@@ -16173,3 +16173,10 @@
     category: Phishing
     subcategory: Spectiv
     description: 'Fake Spectiv token sale site'
+-
+    id: 2542
+    name: xn--btstamp-rfb.net
+    url: 'http://xn--btstamp-rfb.net'
+    category: Phishing
+    subcategory: Bitstamp
+    description: 'Fake bitstamp site - IDN homograph attack'    
