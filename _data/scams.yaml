@@ -16148,3 +16148,10 @@
     description: 'Fake SirinLabs token sale site'
     addresses:
       - '0xEed48722238b98317D849fA591D96B7efBE9B06F'
+-
+    id: 2539
+    name: spectivvr.org
+    url: 'http://spectivvr.org'
+    category: Phishing
+    subcategory: Spectiv
+    description: 'Fake Spectiv token sale site'
