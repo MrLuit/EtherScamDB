@@ -16146,3 +16146,5 @@
     category: Phishing
     subcategory: SirinLabs
     description: 'Fake SirinLabs token sale site'
+    addresses:
+      - '0xEed48722238b98317D849fA591D96B7efBE9B06F'
