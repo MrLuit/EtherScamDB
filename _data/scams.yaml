@@ -16139,3 +16139,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'
+-
+    id: 2538
+    name: sirinlabs.co
+    url: 'http://sirinlabs.co'
+    category: Phishing
+    subcategory: SirinLabs
+    description: 'Fake SirinLabs token sale site'
