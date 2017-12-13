@@ -16173,3 +16173,12 @@
     category: Phishing
     subcategory: Spectiv
     description: 'Fake Spectiv token sale site'
+-
+    id: 2542
+    name: xn--envon-1sa.org
+    url: 'http://xn--envon-1sa.org'
+    category: Phishing
+    subcategory: Envion
+    description: 'Fake Envion token sale site'
+    addresses:
+      - '0x0387cfC283fFcF25A4a6A61E832545Bbeb7c8fdA'
