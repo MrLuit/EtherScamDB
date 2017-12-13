@@ -16182,3 +16182,10 @@
     description: 'Fake Envion token sale site'
     addresses:
       - '0x0387cfC283fFcF25A4a6A61E832545Bbeb7c8fdA'
+-
+    id: 2543
+    name: ethereumchain.info
+    url: 'http://ethereumchain.info'
+    category: Phishing
+    subcategory: Ethereum
+    description: 'Fake Ethereum site'
