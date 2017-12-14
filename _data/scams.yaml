@@ -16132,6 +16132,8 @@
     category: Phishing
     subcategory: SirinLabs
     description: 'Fake SirinLabs token sale site'
+    addresses:
+      - '0xeacEB8e777dC8b1c11b8730904D13fBDA070846f'
 -
     id: 2537
     name: xn--myetherwllet-fnb.com
