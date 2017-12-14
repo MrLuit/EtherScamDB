@@ -16189,3 +16189,10 @@
     category: Phishing
     subcategory: Ethereum
     description: 'Fake Ethereum site'
+-
+    id: 2544
+    name: xn--btstamp-rfb.net
+    url: 'http://xn--btstamp-rfb.net'
+    category: Phishing
+    subcategory: Bitstamp
+    description: 'Fake bitstamp site - IDN homograph attack'    
