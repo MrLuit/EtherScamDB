@@ -16198,3 +16198,12 @@
     category: Phishing
     subcategory: Bitstamp
     description: 'Fake bitstamp site - IDN homograph attack'    
+-
+    id: 2545
+    name: sirinlbs.com
+    url: 'http://sirinlbs.com'
+    category: Phishing
+    subcategory: SirinLabs
+    description: 'Fake SirinLabs token sale site'
+    addresses:
+      - '0xa7a020aE798A0a026c57eD6cBE48b21D3DBBEc5B'
