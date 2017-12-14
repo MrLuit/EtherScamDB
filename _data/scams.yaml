@@ -16175,6 +16175,22 @@
     description: 'Fake Spectiv token sale site'
 -
     id: 2542
+    name: xn--envon-1sa.org
+    url: 'http://xn--envon-1sa.org'
+    category: Phishing
+    subcategory: Envion
+    description: 'Fake Envion token sale site'
+    addresses:
+      - '0x0387cfC283fFcF25A4a6A61E832545Bbeb7c8fdA'
+-
+    id: 2543
+    name: ethereumchain.info
+    url: 'http://ethereumchain.info'
+    category: Phishing
+    subcategory: Ethereum
+    description: 'Fake Ethereum site'
+-
+    id: 2544
     name: xn--btstamp-rfb.net
     url: 'http://xn--btstamp-rfb.net'
     category: Phishing
