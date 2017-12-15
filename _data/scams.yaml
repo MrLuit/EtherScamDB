@@ -16216,3 +16216,10 @@
     description: 'Fake Envion token sale site'
     addresses:
       - '0x8c9d299cc3C2111499416Cf4E3677328486cFac2'
+-
+    id: 2547
+    name: xn--plonex-6va6c.com
+    url: 'http://xn--plonex-6va6c.comt'
+    category: Phishing
+    subcategory: Poloniex
+    description: 'Fake Poloniex site - IDN homograph attack'    
