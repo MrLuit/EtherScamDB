@@ -16233,3 +16233,12 @@
     category: Phishing
     subcategory: ?
     description: 'Using Ethereum name guaranteeing $10k a week'   
+-
+    id: 2549
+    name: changellyli.com
+    url: 'http://changellyli.com'
+    category: Phishing
+    subcategory: Changelly
+    description: 'Fake Changelly site'
+    addresses:
+      - '0x4C191DCa6cecFA1e55CAA3CF178eea52728B13E7'
