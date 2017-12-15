@@ -16207,3 +16207,17 @@
     description: 'Fake SirinLabs token sale site'
     addresses:
       - '0xa7a020aE798A0a026c57eD6cBE48b21D3DBBEc5B'
+-
+    id: 2546
+    name: envion.cc
+    url: 'http://envion.cc'
+    category: Phishing
+    subcategory: Envion
+    description: 'Fake Envion token sale site'
+-
+    id: 2547
+    name: envion.site
+    url: 'http://envion.site'
+    category: Phishing
+    subcategory: Envion
+    description: 'Fake Envion token sale site'
