@@ -16210,7 +16210,7 @@
 -
     id: 2546
     name: envion.cc
-    url: 'http://encion.cc'
+    url: 'http://envion.cc'
     category: Phishing
     subcategory: Envion
     description: 'Fake Envion token sale site'
