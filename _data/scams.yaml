@@ -16225,3 +16225,10 @@
     category: Phishing
     subcategory: Poloniex
     description: 'Fake Poloniex site - IDN homograph attack'    
+-
+    id: 2548
+    name: ethereum-code.com
+    url: 'http://ethereum-code.com'
+    category: Phishing
+    subcategory: ?
+    description: 'Using Ethereum name guaranteeing $10k a week'   
