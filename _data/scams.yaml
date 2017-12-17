@@ -16296,3 +16296,10 @@
     category: Phishing
     subcategory: Tron
     description: 'Fake Tron airdrop site asking for private keys'
+-
+    id: 2557
+    name: envion.live
+    url: 'http://envion.live'
+    category: Phishing
+    subcategory: Envion
+    description: 'Fake Envion token sale site'
