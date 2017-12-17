@@ -16303,3 +16303,12 @@
     category: Phishing
     subcategory: Envion
     description: 'Fake Envion token sale site'
+-
+    id: 2558
+    name: sirin-labs.org
+    url: 'http://sirin-labs.org'
+    category: Phishing
+    subcategory: SirinLabs
+    description: 'Fake SirinLabs token sale site'
+    addresses:
+      - '0x2bcC8aefa2fc9D8E52DaD098778Bb0A8D08a4aA3'
