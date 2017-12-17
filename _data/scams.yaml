@@ -16289,3 +16289,10 @@
     category: Scam
     subcategory: Paxful
     description: 'Fake Paxful site' 
+-
+    id: 2556
+    name: tronlab.co
+    url: 'http://tronlab.co'
+    category: Phishing
+    subcategory: Tron
+    description: 'Fake Tron airdrop site asking for private keys'
