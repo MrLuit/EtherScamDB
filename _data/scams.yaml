@@ -16137,6 +16137,7 @@
     description: 'Fake SirinLabs token sale site'
     addresses:
       - '0xeacEB8e777dC8b1c11b8730904D13fBDA070846f'
+      - '0x0A78fa6Dab70385dD46fbDD20DA5d868EB43F904'
 -
     id: 2537
     name: xn--myetherwllet-fnb.com
