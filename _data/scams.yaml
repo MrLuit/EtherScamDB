@@ -16282,3 +16282,10 @@
     description: 'Fake Envion token sale site'
     addresses:
       - '0x0387cfC283fFcF25A4a6A61E832545Bbeb7c8fdA'
+-
+    id: 2555
+    name: paxful.com.ng
+    url: 'http://paxful.com.ng'
+    category: Scam
+    subcategory: Paxful
+    description: 'Fake Paxful site' 
