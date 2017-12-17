@@ -16273,3 +16273,12 @@
     description: 'Fake Envion token sale site'
     addresses:
       - '0x514E9CA5406F112aBa902b0CbA87395b914D861e'
+-
+    id: 2554
+    name: envion-ico.org
+    url: 'http://envion-ico.org'
+    category: Phishing
+    subcategory: Envion
+    description: 'Fake Envion token sale site'
+    addresses:
+      - '0x0387cfC283fFcF25A4a6A61E832545Bbeb7c8fdA'
