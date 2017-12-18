@@ -16312,3 +16312,10 @@
     description: 'Fake SirinLabs token sale site'
     addresses:
       - '0x2bcC8aefa2fc9D8E52DaD098778Bb0A8D08a4aA3'
+-
+    id: 2559
+    name: sirinslabs.com
+    url: 'http://sirinslabs.com'
+    category: Phishing
+    subcategory: SirinLabs
+    description: 'Fake SirinLabs token sale site'
