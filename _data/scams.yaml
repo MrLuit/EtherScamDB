@@ -16319,3 +16319,12 @@
     category: Phishing
     subcategory: SirinLabs
     description: 'Fake SirinLabs token sale site'
+-
+    id: 2560
+    name: wabicoin.co
+    url: 'http://wabicoin.co'
+    category: Phishing
+    subcategory: Wabi
+    description: 'Fake Wabi airdrop site asking for private keys'
+    addresses:
+      - '0x29e225d888cf11c5e67613bffd30bcf071eb3d4a'
