@@ -16328,3 +16328,10 @@
     description: 'Fake Wabi airdrop site asking for private keys'
     addresses:
       - '0x29e225d888cf11c5e67613bffd30bcf071eb3d4a'
+-
+    id: 2561
+    name: ethtools.com
+    url: 'http://ethtools.com'
+    category: Phishing
+    subcategory: Ethtools
+    description: 'Asking for private keys to use various tools'
