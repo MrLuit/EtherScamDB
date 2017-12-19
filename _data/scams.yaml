@@ -16335,3 +16335,10 @@
     category: Phishing
     subcategory: Ethtools
     description: 'Asking for private keys to use various tools'
+-
+    id: 2562
+    name: canay.io
+    url: 'http://canay.io'
+    category: Phishing
+    subcategory: Canya
+    description: 'Fake Canya crowdsale site - https://blog.canya.com.au/2017/12/18/security-alert-beware-sophisticated-phishing-scam/'
