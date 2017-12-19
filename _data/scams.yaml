@@ -16342,3 +16342,10 @@
     category: Phishing
     subcategory: Canya
     description: 'Fake Canya crowdsale site - https://blog.canya.com.au/2017/12/18/security-alert-beware-sophisticated-phishing-scam/'
+-
+    id: 2563
+    name: singularitynet.in
+    url: 'http://singularitynet.in'
+    category: Phishing
+    subcategory: SingularityNET
+    description: 'Fake SingularityNET crowdsale site'
