@@ -16349,3 +16349,10 @@
     category: Phishing
     subcategory: SingularityNET
     description: 'Fake SingularityNET crowdsale site'
+-
+    id: 2564
+    name: kittystat.com
+    url: 'http://kittystat.com'
+    category: Phishing
+    subcategory: Cryptokitties
+    description: 'Asking for private keys to verify your kitties'
