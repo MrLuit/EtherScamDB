@@ -16356,3 +16356,12 @@
     category: Phishing
     subcategory: Cryptokitties
     description: 'Asking for private keys to verify your kitties'
+-
+    id: 2565
+    name: singularty.net
+    url: 'http://singularty.net'
+    category: Phishing
+    subcategory: Singularity
+    description: 'Fake Singularity crowdsale site'
+    addresses:
+      - '0x7F2b4801c338A7B3cc322bFAf151aFea8708E8e0'
