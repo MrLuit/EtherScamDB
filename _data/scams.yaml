@@ -16330,6 +16330,50 @@
       - '0x29e225d888cf11c5e67613bffd30bcf071eb3d4a'
 -
     id: 2561
+    name: ethtools.com
+    url: 'http://ethtools.com'
+    category: Phishing
+    subcategory: Ethtools
+    description: 'Asking for private keys to use various tools'
+-
+    id: 2562
+    name: canay.io
+    url: 'http://canay.io'
+    category: Phishing
+    subcategory: Canya
+    description: 'Fake Canya crowdsale site - https://blog.canya.com.au/2017/12/18/security-alert-beware-sophisticated-phishing-scam/'
+-
+    id: 2563
+    name: singularitynet.in
+    url: 'http://singularitynet.in'
+    category: Phishing
+    subcategory: SingularityNET
+    description: 'Fake SingularityNET crowdsale site'
+-
+    id: 2564
+    name: kittystat.com
+    url: 'http://kittystat.com'
+    category: Phishing
+    subcategory: Cryptokitties
+    description: 'Asking for private keys to verify your kitties'
+-
+    id: 2565
+    name: singularty.net
+    url: 'http://singularty.net'
+    category: Phishing
+    subcategory: Singularity
+    description: 'Fake Singularity crowdsale site'
+    addresses:
+      - '0x7F2b4801c338A7B3cc322bFAf151aFea8708E8e0'
+-
+    id: 2566
+    name: iconfoundation.io
+    url: 'http://iconfoundation.io'
+    category: Phishing
+    subcategory: Icon
+    description: 'Fake Icon airdrop site asking for private keys'
+-
+    id: 2567
     name: envion.top
     url: 'http://envion.top'
     category: Phishing
