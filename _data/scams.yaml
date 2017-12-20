@@ -16328,3 +16328,12 @@
     description: 'Fake Wabi airdrop site asking for private keys'
     addresses:
       - '0x29e225d888cf11c5e67613bffd30bcf071eb3d4a'
+-
+    id: 2561
+    name: envion.top
+    url: 'http://envion.top'
+    category: Phishing
+    subcategory: Envion
+    description: 'Fake Envion token sale site'
+    addresses:
+      - '0xdbe6dba965afc52f5b3d51e4b15e372f45d4106a'
