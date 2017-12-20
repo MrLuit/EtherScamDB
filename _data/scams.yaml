@@ -16372,3 +16372,12 @@
     category: Phishing
     subcategory: Icon
     description: 'Fake Icon airdrop site asking for private keys'
+-
+    id: 2567
+    name: envion.top
+    url: 'http://envion.top'
+    category: Phishing
+    subcategory: Envion
+    description: 'Fake Envion token sale site'
+    addresses:
+      - '0xdbe6dba965afc52f5b3d51e4b15e372f45d4106a'
