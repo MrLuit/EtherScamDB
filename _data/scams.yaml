@@ -16365,3 +16365,10 @@
     description: 'Fake Singularity crowdsale site'
     addresses:
       - '0x7F2b4801c338A7B3cc322bFAf151aFea8708E8e0'
+-
+    id: 2566
+    name: iconfoundation.io
+    url: 'http://iconfoundation.io'
+    category: Phishing
+    subcategory: Icon
+    description: 'Fake Icon airdrop site asking for private keys'
