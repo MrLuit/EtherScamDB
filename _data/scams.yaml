@@ -16399,3 +16399,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'
+-
+    id: 2570
+    name: myltherwallet.ru.com
+    url: 'http://myltherwallet.ru.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
