@@ -16381,3 +16381,12 @@
     description: 'Fake Envion token sale site'
     addresses:
       - '0xdbe6dba965afc52f5b3d51e4b15e372f45d4106a'
+-
+    id: 2568
+    name: envion.one
+    url: 'http://envion.one'
+    category: Phishing
+    subcategory: Envion
+    description: 'Fake Envion token sale site'
+    addresses:
+      - '0x9441A81FB67f44Ce7B31C311317e136E7067F8cA'
