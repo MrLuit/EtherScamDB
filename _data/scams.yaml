@@ -16406,3 +16406,17 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'
+-
+    id: 2571
+    name: xn--yeterwallet-ml8euo.com
+    url: 'http://xn--yeterwallet-ml8euo.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2572
+    name: ripiocreditnetwork.in
+    url: 'http://ripiocreditnetwork.in/'
+    category: Phishing
+    subcategory: Ripio
+    description: 'Fake Ripio airdrop site, linking to fake MEW'    
