@@ -15401,6 +15401,8 @@
     category: Phishing
     subcategory: OmiseGO
     description: 'Fake airdrop site, asking for private keys'
+    addresses:
+      - '0x29e225d888cf11c5e67613bffd30bcf071eb3d4a'     
 -    
     id: 2441
     name: stormtoken.eu
