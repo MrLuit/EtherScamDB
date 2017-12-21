@@ -16390,3 +16390,10 @@
     description: 'Fake Envion token sale site'
     addresses:
       - '0x9441A81FB67f44Ce7B31C311317e136E7067F8cA'
+-
+    id: 2569
+    name: xn--yeterwallet-bm8ewn.com
+    url: 'http://xn--yeterwallet-bm8ewn.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
