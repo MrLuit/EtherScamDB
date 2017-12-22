@@ -225,7 +225,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '21':
   status:
     - time: 1501710853481
@@ -381,7 +381,7 @@
   nameservers:
     - arch.ns.cloudflare.com
     - arya.ns.cloudflare.com
-  ip: 104.24.111.173
+  ip: 104.24.110.173
 '36':
   status:
     - time: 1510247609651
@@ -406,7 +406,7 @@
     - ns4.p34.dynect.net
     - r01-01.ns.twtrdns.net
     - r01-02.ns.twtrdns.net
-  ip: 104.244.42.129
+  ip: 104.244.42.65
 '38':
   status:
     - time: 1506019951989
@@ -516,7 +516,7 @@
   nameservers:
     - karl.ns.cloudflare.com
     - violet.ns.cloudflare.com
-  ip: 104.28.18.25
+  ip: 104.28.19.25
 '48':
   status:
     - time: 1501710874047
@@ -525,7 +525,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '49':
   status:
     - time: 1501710873750
@@ -534,7 +534,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '50':
   status:
     - time: 1501710874060
@@ -543,7 +543,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '51':
   status:
     - time: 1501710874045
@@ -552,7 +552,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '52':
   status:
     - time: 1501710857460
@@ -776,7 +776,7 @@
   nameservers:
     - dina.ns.cloudflare.com
     - ernest.ns.cloudflare.com
-  ip: 104.18.52.186
+  ip: 104.18.53.186
 '73':
   status:
     - time: 1501710860620
@@ -786,6 +786,8 @@
     - ns2.hosting.reg.ru
 '74':
   status:
+    - time: 1513900098029
+      status: Offline
     - time: 1513727309793
       status: Active
     - time: 1513641785603
@@ -952,7 +954,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '83':
   status:
     - time: 1501710881285
@@ -961,7 +963,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '84':
   status:
     - time: 1509655829275
@@ -1110,6 +1112,8 @@
       status: Offline
 '95':
   status:
+    - time: 1513900096308
+      status: Offline
     - time: 1513813191526
       status: Active
     - time: 1513641785609
@@ -1354,7 +1358,7 @@
   nameservers:
     - ns39.domaincontrol.com
     - ns40.domaincontrol.com
-  ip: 50.63.202.37
+  ip: 184.168.221.50
 '107':
   status:
     - time: 1509806368911
@@ -1408,7 +1412,7 @@
   nameservers:
     - ns81.domaincontrol.com
     - ns82.domaincontrol.com
-  ip: 50.63.202.41
+  ip: 50.63.202.59
 '108':
   status:
     - time: 1501710858935
@@ -1654,7 +1658,7 @@
   nameservers:
     - graham.ns.cloudflare.com
     - vida.ns.cloudflare.com
-  ip: 104.18.40.33
+  ip: 104.18.41.33
 '124':
   status:
     - time: 1513290128498
@@ -1700,7 +1704,7 @@
   nameservers:
     - ns33.domaincontrol.com
     - ns34.domaincontrol.com
-  ip: 50.63.202.35
+  ip: 184.168.221.34
 '125':
   status:
     - time: 1513203024373
@@ -1848,6 +1852,8 @@
   ip: 104.28.29.246
 '136':
   status:
+    - time: 1513900098012
+      status: Offline
     - time: 1513813192198
       status: Active
     - time: 1513727445927
@@ -1936,6 +1942,8 @@
   ip: 104.27.141.74
 '141':
   status:
+    - time: 1513900096316
+      status: Offline
     - time: 1513727309814
       status: Active
     - time: 1501710853336
@@ -1988,15 +1996,21 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '146':
   status:
     - time: 1501710879665
       status: Offline
   nameservers:
+    - ns21.cloudns.net
+    - ns22.cloudns.net
+    - ns23.cloudns.net
+    - ns24.cloudns.net
     - pns21.cloudns.net
     - pns22.cloudns.net
-  ip: 103.16.229.16
+    - pns23.cloudns.net
+    - pns24.cloudns.net
+  ip: 209.182.216.43
 '147':
   status:
     - time: 1501710879418
@@ -2010,7 +2024,7 @@
     - pns22.cloudns.net
     - pns23.cloudns.net
     - pns24.cloudns.net
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '148':
   status:
     - time: 1501710874056
@@ -2024,7 +2038,7 @@
     - pns22.cloudns.net
     - pns23.cloudns.net
     - pns24.cloudns.net
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '149':
   status:
     - time: 1501710874051
@@ -2038,7 +2052,7 @@
     - pns22.cloudns.net
     - pns23.cloudns.net
     - pns24.cloudns.net
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '150':
   status:
     - time: 1501710880172
@@ -2052,7 +2066,7 @@
     - pns22.cloudns.net
     - pns23.cloudns.net
     - pns24.cloudns.net
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '151':
   status:
     - time: 1501710879358
@@ -2066,7 +2080,7 @@
     - pns22.cloudns.net
     - pns23.cloudns.net
     - pns24.cloudns.net
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '152':
   status:
     - time: 1501710874491
@@ -2080,7 +2094,7 @@
     - pns22.cloudns.net
     - pns23.cloudns.net
     - pns24.cloudns.net
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '153':
   status:
     - time: 1501710879344
@@ -2094,7 +2108,7 @@
     - pns22.cloudns.net
     - pns23.cloudns.net
     - pns24.cloudns.net
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '154':
   status:
     - time: 1501710877017
@@ -2108,15 +2122,21 @@
     - pns22.cloudns.net
     - pns23.cloudns.net
     - pns24.cloudns.net
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '155':
   status:
     - time: 1501710874282
       status: Offline
   nameservers:
+    - ns21.cloudns.net
+    - ns22.cloudns.net
+    - ns23.cloudns.net
+    - ns24.cloudns.net
     - pns21.cloudns.net
     - pns22.cloudns.net
-  ip: 103.16.229.16
+    - pns23.cloudns.net
+    - pns24.cloudns.net
+  ip: 209.182.216.43
 '156':
   status:
     - time: 1501710873807
@@ -2130,7 +2150,7 @@
     - pns22.cloudns.net
     - pns23.cloudns.net
     - pns24.cloudns.net
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '157':
   status:
     - time: 1501710874248
@@ -2144,7 +2164,7 @@
     - pns22.cloudns.net
     - pns23.cloudns.net
     - pns24.cloudns.net
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '158':
   status:
     - time: 1501710881627
@@ -2158,7 +2178,7 @@
     - pns22.cloudns.net
     - pns23.cloudns.net
     - pns24.cloudns.net
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '159':
   status:
     - time: 1501710874294
@@ -2172,7 +2192,7 @@
     - pns22.cloudns.net
     - pns23.cloudns.net
     - pns24.cloudns.net
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '160':
   status:
     - time: 1501710876895
@@ -2186,7 +2206,7 @@
     - pns22.cloudns.net
     - pns23.cloudns.net
     - pns24.cloudns.net
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '161':
   status:
     - time: 1501710879340
@@ -2200,7 +2220,7 @@
     - pns22.cloudns.net
     - pns23.cloudns.net
     - pns24.cloudns.net
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '162':
   status:
     - time: 1501710874262
@@ -2214,7 +2234,7 @@
     - pns22.cloudns.net
     - pns23.cloudns.net
     - pns24.cloudns.net
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '163':
   status:
     - time: 1501710874050
@@ -2228,15 +2248,21 @@
     - pns22.cloudns.net
     - pns23.cloudns.net
     - pns24.cloudns.net
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '164':
   status:
     - time: 1501710874486
       status: Offline
   nameservers:
+    - ns21.cloudns.net
+    - ns22.cloudns.net
+    - ns23.cloudns.net
+    - ns24.cloudns.net
     - pns21.cloudns.net
     - pns22.cloudns.net
-  ip: 103.16.229.16
+    - pns23.cloudns.net
+    - pns24.cloudns.net
+  ip: 209.182.216.43
 '165':
   status:
     - time: 1501710879972
@@ -2250,15 +2276,21 @@
     - pns22.cloudns.net
     - pns23.cloudns.net
     - pns24.cloudns.net
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '166':
   status:
     - time: 1501710878443
       status: Offline
   nameservers:
+    - ns21.cloudns.net
+    - ns22.cloudns.net
+    - ns23.cloudns.net
+    - ns24.cloudns.net
     - pns21.cloudns.net
     - pns22.cloudns.net
-  ip: 103.16.229.16
+    - pns23.cloudns.net
+    - pns24.cloudns.net
+  ip: 209.182.216.43
 '167':
   status:
     - time: 1501710879675
@@ -2272,7 +2304,7 @@
     - pns22.cloudns.net
     - pns23.cloudns.net
     - pns24.cloudns.net
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '168':
   status:
     - time: 1501710879939
@@ -2286,7 +2318,7 @@
     - pns22.cloudns.net
     - pns23.cloudns.net
     - pns24.cloudns.net
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '169':
   status:
     - time: 1501710879357
@@ -2300,7 +2332,7 @@
     - pns22.cloudns.net
     - pns23.cloudns.net
     - pns24.cloudns.net
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '170':
   status:
     - time: 1501710876892
@@ -2314,7 +2346,7 @@
     - pns22.cloudns.net
     - pns23.cloudns.net
     - pns24.cloudns.net
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '171':
   status:
     - time: 1501710873791
@@ -2328,7 +2360,7 @@
     - pns22.cloudns.net
     - pns23.cloudns.net
     - pns24.cloudns.net
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '172':
   status:
     - time: 1501710874057
@@ -2342,7 +2374,7 @@
     - pns22.cloudns.net
     - pns23.cloudns.net
     - pns24.cloudns.net
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '173':
   status:
     - time: 1501710881279
@@ -2356,7 +2388,7 @@
     - pns22.cloudns.net
     - pns23.cloudns.net
     - pns24.cloudns.net
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '174':
   status:
     - time: 1501710873814
@@ -2370,7 +2402,7 @@
     - pns22.cloudns.net
     - pns23.cloudns.net
     - pns24.cloudns.net
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '175':
   status:
     - time: 1501710874503
@@ -2384,7 +2416,7 @@
     - pns22.cloudns.net
     - pns23.cloudns.net
     - pns24.cloudns.net
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '176':
   status:
     - time: 1501710881531
@@ -2398,7 +2430,7 @@
     - pns22.cloudns.net
     - pns23.cloudns.net
     - pns24.cloudns.net
-  ip: 117.156.119.46
+  ip: 104.244.157.122
 '177':
   status:
     - time: 1501710853643
@@ -2489,7 +2521,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '186':
   status:
     - time: 1501710879966
@@ -2498,7 +2530,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '188':
   status:
     - time: 1501710874488
@@ -2507,7 +2539,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '189':
   status:
     - time: 1501710879353
@@ -2516,7 +2548,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '190':
   status:
     - time: 1501710873748
@@ -2525,7 +2557,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '191':
   status:
     - time: 1501710879662
@@ -2534,7 +2566,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '192':
   status:
     - time: 1501710874273
@@ -2543,7 +2575,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '193':
   status:
     - time: 1501710874048
@@ -2552,7 +2584,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '194':
   status:
     - time: 1501710881275
@@ -2561,7 +2593,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '195':
   status:
     - time: 1501710879660
@@ -2570,7 +2602,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '196':
   status:
     - time: 1501710874075
@@ -2579,7 +2611,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '197':
   status:
     - time: 1501710879969
@@ -2588,7 +2620,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '198':
   status:
     - time: 1501710873804
@@ -2597,7 +2629,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '199':
   status:
     - time: 1501710874065
@@ -2606,7 +2638,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '200':
   status:
     - time: 1501710874048
@@ -2615,7 +2647,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '201':
   status:
     - time: 1501710874065
@@ -2624,7 +2656,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '202':
   status:
     - time: 1501710881283
@@ -2633,7 +2665,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '203':
   status:
     - time: 1501710879970
@@ -2642,7 +2674,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '204':
   status:
     - time: 1501710879971
@@ -2651,7 +2683,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '205':
   status:
     - time: 1501710874062
@@ -2660,7 +2692,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '206':
   status:
     - time: 1501710878471
@@ -2669,7 +2701,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '207':
   status:
     - time: 1501710881251
@@ -2678,7 +2710,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '208':
   status:
     - time: 1501710879941
@@ -2687,7 +2719,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '209':
   status:
     - time: 1501710873803
@@ -2696,7 +2728,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '210':
   status:
     - time: 1501710873796
@@ -2705,7 +2737,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '211':
   status:
     - time: 1501710876913
@@ -2714,7 +2746,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '212':
   status:
     - time: 1501710873819
@@ -2723,7 +2755,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '213':
   status:
     - time: 1501710873746
@@ -2732,7 +2764,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '214':
   status:
     - time: 1501710879418
@@ -2741,7 +2773,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '215':
   status:
     - time: 1501710881769
@@ -2750,7 +2782,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '216':
   status:
     - time: 1501710874049
@@ -2759,7 +2791,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '217':
   status:
     - time: 1501710873814
@@ -2768,7 +2800,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '218':
   status:
     - time: 1501710879967
@@ -2777,7 +2809,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '219':
   status:
     - time: 1501710881280
@@ -2786,7 +2818,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '220':
   status:
     - time: 1501710879969
@@ -2795,7 +2827,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '221':
   status:
     - time: 1501710879972
@@ -2804,7 +2836,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '222':
   status:
     - time: 1501710879309
@@ -2813,7 +2845,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '223':
   status:
     - time: 1501710874291
@@ -2822,7 +2854,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '224':
   status:
     - time: 1501710879968
@@ -2831,7 +2863,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '225':
   status:
     - time: 1501710873789
@@ -2840,7 +2872,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '226':
   status:
     - time: 1501710873811
@@ -2849,7 +2881,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '227':
   status:
     - time: 1501710874054
@@ -2858,7 +2890,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '228':
   status:
     - time: 1501710879411
@@ -2867,7 +2899,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '229':
   status:
     - time: 1501710879944
@@ -2876,7 +2908,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '230':
   status:
     - time: 1501710873816
@@ -2885,7 +2917,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '231':
   status:
     - time: 1501710873787
@@ -2894,7 +2926,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '232':
   status:
     - time: 1501710879359
@@ -2903,7 +2935,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '233':
   status:
     - time: 1501710879970
@@ -2912,7 +2944,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '234':
   status:
     - time: 1501710873806
@@ -2921,7 +2953,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '235':
   status:
     - time: 1501710877048
@@ -2930,7 +2962,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '236':
   status:
     - time: 1501710874053
@@ -2939,7 +2971,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '237':
   status:
     - time: 1501710876904
@@ -2948,7 +2980,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '238':
   status:
     - time: 1501710874264
@@ -2957,7 +2989,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '239':
   status:
     - time: 1501710874280
@@ -2966,7 +2998,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '240':
   status:
     - time: 1501710881251
@@ -2975,7 +3007,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '241':
   status:
     - time: 1501710879653
@@ -2984,7 +3016,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '242':
   status:
     - time: 1501710874075
@@ -2993,7 +3025,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '243':
   status:
     - time: 1501710873804
@@ -3002,7 +3034,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '244':
   status:
     - time: 1501710873816
@@ -3011,7 +3043,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '245':
   status:
     - time: 1501710878453
@@ -3020,7 +3052,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '246':
   status:
     - time: 1501710874045
@@ -3029,7 +3061,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '247':
   status:
     - time: 1501710873805
@@ -3038,7 +3070,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '248':
   status:
     - time: 1501710881252
@@ -3047,7 +3079,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '249':
   status:
     - time: 1501710874253
@@ -3056,7 +3088,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '250':
   status:
     - time: 1501710881532
@@ -3065,7 +3097,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '251':
   status:
     - time: 1501710879677
@@ -3074,7 +3106,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '252':
   status:
     - time: 1501710873817
@@ -3083,7 +3115,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '253':
   status:
     - time: 1501710881286
@@ -3092,7 +3124,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '254':
   status:
     - time: 1501710874296
@@ -3101,7 +3133,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '255':
   status:
     - time: 1501710880160
@@ -3110,7 +3142,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '256':
   status:
     - time: 1501710879938
@@ -3119,7 +3151,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '257':
   status:
     - time: 1501710874065
@@ -3128,7 +3160,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '258':
   status:
     - time: 1501710881531
@@ -3137,7 +3169,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '259':
   status:
     - time: 1501710879664
@@ -3146,7 +3178,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '260':
   status:
     - time: 1501710878443
@@ -3155,7 +3187,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '261':
   status:
     - time: 1501710879420
@@ -3164,7 +3196,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '262':
   status:
     - time: 1501710874284
@@ -3173,7 +3205,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '264':
   status:
     - time: 1501710874064
@@ -3182,7 +3214,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '265':
   status:
     - time: 1501710874284
@@ -3191,7 +3223,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '266':
   status:
     - time: 1501710881775
@@ -3200,7 +3232,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '267':
   status:
     - time: 1501710880177
@@ -3209,7 +3241,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '268':
   status:
     - time: 1501710874047
@@ -3218,7 +3250,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '269':
   status:
     - time: 1501710874498
@@ -3227,7 +3259,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '270':
   status:
     - time: 1501710873818
@@ -3236,7 +3268,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '271':
   status:
     - time: 1501710874288
@@ -3245,7 +3277,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '272':
   status:
     - time: 1501710874276
@@ -3254,7 +3286,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '273':
   status:
     - time: 1501710881279
@@ -3263,7 +3295,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '274':
   status:
     - time: 1501710881255
@@ -3272,7 +3304,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '275':
   status:
     - time: 1501710874267
@@ -3281,7 +3313,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '276':
   status:
     - time: 1501710881534
@@ -3290,7 +3322,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '277':
   status:
     - time: 1501710879943
@@ -3299,7 +3331,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '279':
   status:
     - time: 1501710874296
@@ -3308,7 +3340,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '280':
   status:
     - time: 1501710873804
@@ -3317,7 +3349,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '281':
   status:
     - time: 1501710873786
@@ -3326,7 +3358,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '282':
   status:
     - time: 1501710873791
@@ -3335,7 +3367,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '283':
   status:
     - time: 1501710881526
@@ -3344,7 +3376,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '284':
   status:
     - time: 1501710874293
@@ -3353,7 +3385,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '285':
   status:
     - time: 1501710881285
@@ -3362,7 +3394,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '286':
   status:
     - time: 1501710873796
@@ -3371,7 +3403,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '287':
   status:
     - time: 1501710874289
@@ -3380,7 +3412,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '288':
   status:
     - time: 1501710874075
@@ -3389,7 +3421,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '289':
   status:
     - time: 1501710881285
@@ -3398,7 +3430,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '290':
   status:
     - time: 1501710874059
@@ -3407,7 +3439,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '291':
   status:
     - time: 1501710874276
@@ -3416,7 +3448,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '292':
   status:
     - time: 1501710873803
@@ -3425,7 +3457,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '293':
   status:
     - time: 1501710879339
@@ -3434,7 +3466,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '294':
   status:
     - time: 1501710874050
@@ -3443,7 +3475,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '295':
   status:
     - time: 1501710879674
@@ -3452,7 +3484,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '296':
   status:
     - time: 1501710874056
@@ -3461,7 +3493,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '297':
   status:
     - time: 1501710874264
@@ -3470,7 +3502,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '298':
   status:
     - time: 1501710874048
@@ -3479,7 +3511,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '299':
   status:
     - time: 1501710874054
@@ -3488,7 +3520,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '300':
   status:
     - time: 1501710874074
@@ -3497,7 +3529,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '301':
   status:
     - time: 1501710881759
@@ -3506,7 +3538,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '302':
   status:
     - time: 1501710873814
@@ -3515,7 +3547,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '303':
   status:
     - time: 1501710879395
@@ -3524,7 +3556,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '304':
   status:
     - time: 1501710873812
@@ -3533,7 +3565,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '305':
   status:
     - time: 1501710880155
@@ -3542,7 +3574,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '306':
   status:
     - time: 1501710879336
@@ -3551,7 +3583,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '307':
   status:
     - time: 1501710873813
@@ -3560,7 +3592,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '308':
   status:
     - time: 1501710881769
@@ -3569,7 +3601,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '309':
   status:
     - time: 1501710879950
@@ -3578,7 +3610,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '311':
   status:
     - time: 1501710879967
@@ -3587,7 +3619,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '312':
   status:
     - time: 1501710879353
@@ -3596,7 +3628,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '313':
   status:
     - time: 1501710881261
@@ -3605,7 +3637,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '314':
   status:
     - time: 1501710874287
@@ -3614,7 +3646,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '315':
   status:
     - time: 1501710879344
@@ -3623,7 +3655,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '316':
   status:
     - time: 1501710877014
@@ -3632,7 +3664,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '317':
   status:
     - time: 1501710879359
@@ -3641,7 +3673,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '318':
   status:
     - time: 1501710877014
@@ -3650,7 +3682,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '319':
   status:
     - time: 1501710874486
@@ -3659,7 +3691,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '320':
   status:
     - time: 1501710879971
@@ -3668,7 +3700,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '321':
   status:
     - time: 1501710877024
@@ -3677,7 +3709,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '322':
   status:
     - time: 1501710874489
@@ -3686,7 +3718,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '323':
   status:
     - time: 1501710879968
@@ -3695,7 +3727,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '324':
   status:
     - time: 1501710878461
@@ -3704,7 +3736,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '325':
   status:
     - time: 1501710873812
@@ -3713,7 +3745,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '326':
   status:
     - time: 1501710879940
@@ -3722,7 +3754,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '327':
   status:
     - time: 1501710881755
@@ -3731,7 +3763,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '328':
   status:
     - time: 1501710873751
@@ -3740,7 +3772,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '329':
   status:
     - time: 1501710877033
@@ -3749,7 +3781,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '330':
   status:
     - time: 1501710877050
@@ -3758,7 +3790,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '331':
   status:
     - time: 1501710878465
@@ -3767,7 +3799,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '332':
   status:
     - time: 1501710879407
@@ -3776,7 +3808,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '333':
   status:
     - time: 1501710874278
@@ -3785,7 +3817,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '334':
   status:
     - time: 1501710876904
@@ -3794,7 +3826,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '335':
   status:
     - time: 1501710879672
@@ -3803,7 +3835,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '336':
   status:
     - time: 1509806357471
@@ -4084,9 +4116,9 @@
     - time: 1501710852806
       status: Offline
   nameservers:
-    - ns1.dnsnuts.com
-    - ns2.dnsnuts.com
-  ip: 207.244.67.216
+    - ns1.chookdns.com
+    - ns2.chookdns.com
+  ip: 167.114.142.0
 '367':
   status:
     - time: 1501710859171
@@ -4144,7 +4176,7 @@
   nameservers:
     - blocked1.nic.ru
     - blocked2.nic.ru
-  ip: 109.70.26.37
+  ip: 194.85.61.76
 '376':
   status:
     - time: 1501710858947
@@ -4350,6 +4382,8 @@
   ip: 104.24.110.152
 '408':
   status:
+    - time: 1513900096299
+      status: Offline
     - time: 1513458580272
       status: Active
     - time: 1513381846568
@@ -4397,7 +4431,7 @@
   nameservers:
     - melissa.ns.cloudflare.com
     - tom.ns.cloudflare.com
-  ip: 104.24.124.143
+  ip: 104.24.125.143
 '412':
   status:
     - time: 1507478651940
@@ -4555,6 +4589,8 @@
       status: Offline
 '428':
   status:
+    - time: 1513900096325
+      status: Offline
     - time: 1513813141747
       status: Active
     - time: 1501710853042
@@ -4631,6 +4667,8 @@
       status: Offline
 '437':
   status:
+    - time: 1513900098016
+      status: Offline
     - time: 1513458590554
       status: Active
     - time: 1513381802179
@@ -4674,7 +4712,7 @@
   nameservers:
     - amit.ns.cloudflare.com
     - kim.ns.cloudflare.com
-  ip: 104.28.30.238
+  ip: 104.28.31.238
 '440':
   status:
     - time: 1501710860253
@@ -4808,7 +4846,7 @@
   nameservers:
     - ns09.domaincontrol.com
     - ns10.domaincontrol.com
-  ip: 184.168.221.36
+  ip: 184.168.221.33
 '453':
   status:
     - time: 1511473949416
@@ -4836,6 +4874,8 @@
   ip: 54.72.9.51
 '455':
   status:
+    - time: 1513900096310
+      status: Offline
     - time: 1513009567885
       status: Active
     - time: 1512919241158
@@ -4851,7 +4891,7 @@
   nameservers:
     - bart.ns.cloudflare.com
     - kiki.ns.cloudflare.com
-  ip: 104.18.32.168
+  ip: 104.18.33.168
 '456':
   status:
     - time: 1501710853282
@@ -5172,6 +5212,8 @@
       status: Offline
 '493':
   status:
+    - time: 1513900096318
+      status: Offline
     - time: 1513031719252
       status: Suspended
     - time: 1513009632653
@@ -5701,7 +5743,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '590':
   status:
     - time: 1501710881279
@@ -5710,7 +5752,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '591':
   status:
     - time: 1501710874076
@@ -5719,7 +5761,7 @@
     - ns1.dnsowl.com
     - ns2.dnsowl.com
     - ns3.dnsowl.com
-  ip: 103.16.229.16
+  ip: 209.182.216.43
 '592':
   status:
     - time: 1501710859155
@@ -6073,6 +6115,8 @@
       status: Offline
 '671':
   status:
+    - time: 1513900096307
+      status: Offline
     - time: 1511817143053
       status: Active
     - time: 1511645117169
@@ -6537,6 +6581,8 @@
       status: Offline
 '783':
   status:
+    - time: 1513900096325
+      status: Offline
     - time: 1513458616318
       status: Active
     - time: 1513381846567
@@ -7186,6 +7232,8 @@
       status: Offline
 '914':
   status:
+    - time: 1513899980831
+      status: Active
     - time: 1513813263093
       status: Offline
     - time: 1513727301540
@@ -9139,7 +9187,7 @@
   nameservers:
     - cody.ns.cloudflare.com
     - nina.ns.cloudflare.com
-  ip: 104.27.128.196
+  ip: 104.27.129.196
 '1325':
   status:
     - time: 1501710852782
@@ -9683,12 +9731,12 @@
       status: Active
     - time: 1501710853043
       status: Offline
-  ip: 208.91.197.91
   nameservers:
     - ns1.ititch.com
     - ns2.ititch.com
     - ns3.ititch.com
     - ns4.ititch.com
+  ip: 208.91.197.91
 '1445':
   status:
     - time: 1501710853261
@@ -10582,6 +10630,8 @@
       status: Offline
 '1621':
   status:
+    - time: 1513900096306
+      status: Offline
     - time: 1513458599215
       status: Active
     - time: 1513381846563
@@ -10605,7 +10655,7 @@
   nameservers:
     - dns1.registrar-servers.com
     - dns2.registrar-servers.com
-  ip: 151.101.1.195
+  ip: 151.101.65.195
 '1622':
   status:
     - time: 1501710860283
@@ -11242,6 +11292,8 @@
       status: Offline
 '1760':
   status:
+    - time: 1513900098029
+      status: Offline
     - time: 1511817138202
       status: Suspended
     - time: 1511644717457
@@ -11469,7 +11521,7 @@
   nameservers:
     - ns09.domaincontrol.com
     - ns10.domaincontrol.com
-  ip: 50.63.202.53
+  ip: 50.63.202.46
 '1798':
   status:
     - time: 1509998311790
@@ -12377,6 +12429,8 @@
       status: Offline
 '2004':
   status:
+    - time: 1513900055339
+      status: Offline
     - time: 1513813045829
       status: Active
     - time: 1513551773247
@@ -12406,6 +12460,8 @@
   ip: 218.241.116.40
 '2005':
   status:
+    - time: 1513900009260
+      status: Offline
     - time: 1513812257626
       status: Active
     - time: 1513551821031
@@ -13049,7 +13105,7 @@
   nameservers:
     - evan.ns.cloudflare.com
     - tess.ns.cloudflare.com
-  ip: 104.27.145.197
+  ip: 104.27.144.197
 '2131':
   status:
     - time: 1511817131772
@@ -13234,9 +13290,11 @@
   nameservers:
     - doug.ns.cloudflare.com
     - jamie.ns.cloudflare.com
-  ip: 104.18.44.67
+  ip: 104.18.45.67
 '2144':
   status:
+    - time: 1513899887661
+      status: Offline
     - time: 1505492885132
       status: Active
     - time: 1503432581753
@@ -13347,7 +13405,7 @@
   nameservers:
     - dns1.registrar-servers.com
     - dns2.registrar-servers.com
-  ip: 54.225.121.197
+  ip: 23.23.128.216
 '2155':
   status:
     - time: 1507157381211
@@ -13508,7 +13566,7 @@
   nameservers:
     - dns1.registrar-servers.com
     - dns2.registrar-servers.com
-  ip: 54.225.132.188
+  ip: 23.23.155.247
 '2171':
   status:
     - time: 1509806368904
@@ -13550,7 +13608,7 @@
   nameservers:
     - ns09.domaincontrol.com
     - ns10.domaincontrol.com
-  ip: 184.168.221.57
+  ip: 50.63.202.61
 '2172':
   status:
     - time: 1511907475191
@@ -13913,7 +13971,7 @@
   nameservers:
     - erin.ns.cloudflare.com
     - rudy.ns.cloudflare.com
-  ip: 104.24.111.253
+  ip: 104.24.110.253
 '2207':
   status:
     - time: 1507670316308
@@ -14065,7 +14123,7 @@
   status:
     - time: 1505330629201
       status: Offline
-  ip: 34.197.201.244
+  ip: 54.175.37.123
 '2213':
   status:
     - time: 1510698733714
@@ -14128,6 +14186,8 @@
   ip: 81.177.139.12
 '2217':
   status:
+    - time: 1513900096321
+      status: Offline
     - time: 1513458588203
       status: Active
     - time: 1513381846562
@@ -14216,6 +14276,8 @@
     - dummysecondary.pleasecontactsupport.com
 '2225':
   status:
+    - time: 1513900098017
+      status: Offline
     - time: 1513813105114
       status: Active
     - time: 1513727444231
@@ -14517,7 +14579,7 @@
   nameservers:
     - ns1.firstvds.ru
     - ns2.firstvds.ru
-  ip: 37.230.114.67
+  ip: 62.109.6.53
 '2253':
   status:
     - time: 1510698829987
@@ -14841,6 +14903,8 @@
   ip: 80.211.226.53
 '2275':
   status:
+    - time: 1513899887723
+      status: Offline
     - time: 1513812409542
       status: Active
     - time: 1513727240006
@@ -14931,8 +14995,9 @@
     - time: 1506539246033
       status: Active
   nameservers:
-    - ns1.njal.la
-    - ns2.njal.la
+    - 1-you.njalla.no
+    - 2-can.njalla.in
+    - 3-get.njalla.fo
   ip: 104.28.15.242
 '2279':
   status:
@@ -14966,6 +15031,8 @@
   ip: 62.109.13.250
 '2281':
   status:
+    - time: 1513900096304
+      status: Offline
     - time: 1511817142347
       status: Active
     - time: 1511642235469
@@ -14993,7 +15060,7 @@
   nameservers:
     - mona.ns.cloudflare.com
     - toby.ns.cloudflare.com
-  ip: 104.28.27.212
+  ip: 104.28.26.212
 '2283':
   status:
     - time: 1506539121774
@@ -15046,6 +15113,8 @@
   ip: 145.249.107.230
 '2290':
   status:
+    - time: 1513900096308
+      status: Offline
     - time: 1513458590331
       status: Suspended
     - time: 1513381846567
@@ -15096,9 +15165,11 @@
   nameservers:
     - ken.ns.cloudflare.com
     - nelly.ns.cloudflare.com
-  ip: 104.18.44.213
+  ip: 104.18.45.213
 '2293':
   status:
+    - time: 1513900096318
+      status: Offline
     - time: 1511817142190
       status: Suspended
     - time: 1511643468264
@@ -15201,6 +15272,8 @@
   ip: 31.204.155.170
 '2301':
   status:
+    - time: 1513900098028
+      status: Offline
     - time: 1513727343816
       status: Active
     - time: 1513641785605
@@ -15334,9 +15407,11 @@
   nameservers:
     - ns09.domaincontrol.com
     - ns10.domaincontrol.com
-  ip: 184.168.221.35
+  ip: 50.63.202.36
 '2309':
   status:
+    - time: 1513900096304
+      status: Offline
     - time: 1513727310121
       status: Suspended
     - time: 1513641785601
@@ -15362,6 +15437,8 @@
     - roxy.ns.cloudflare.com
 '2311':
   status:
+    - time: 1513900096309
+      status: Offline
     - time: 1513031751387
       status: Active
     - time: 1513009632641
@@ -15489,7 +15566,7 @@
   nameservers:
     - ns37.domaincontrol.com
     - ns38.domaincontrol.com
-  ip: 50.63.202.38
+  ip: 184.168.221.44
 '2319':
   status:
     - time: 1510698740258
@@ -15784,6 +15861,8 @@
   ip: 199.188.200.148
 '2338':
   status:
+    - time: 1513900096316
+      status: Offline
     - time: 1513290116484
       status: Suspended
     - time: 1513203011386
@@ -15998,6 +16077,8 @@
   ip: 104.27.161.167
 '2354':
   status:
+    - time: 1513900098025
+      status: Offline
     - time: 1513727348874
       status: Suspended
     - time: 1513641787313
@@ -16026,6 +16107,8 @@
   ip: 31.31.196.251
 '2355':
   status:
+    - time: 1513900096320
+      status: Offline
     - time: 1513727444232
       status: Suspended
     - time: 1513641785602
@@ -16235,7 +16318,7 @@
   nameservers:
     - dean.ns.cloudflare.com
     - miki.ns.cloudflare.com
-  ip: 104.28.26.229
+  ip: 104.28.27.229
 '2369':
   status:
     - time: 1510449871289
@@ -16485,7 +16568,7 @@
   nameservers:
     - dns1.registrar-servers.com
     - dns2.registrar-servers.com
-  ip: 184.73.221.50
+  ip: 54.235.191.108
 '2387':
   status:
     - time: 1511995798583
@@ -16604,7 +16687,7 @@
   nameservers:
     - cash.ns.cloudflare.com
     - lisa.ns.cloudflare.com
-  ip: 104.27.185.248
+  ip: 104.27.184.248
 '2396':
   status:
     - time: 1509558230066
@@ -16691,7 +16774,7 @@
   nameservers:
     - isaac.ns.cloudflare.com
     - uma.ns.cloudflare.com
-  ip: 104.31.73.123
+  ip: 104.31.72.123
 '2403':
   status:
     - time: 1509806318846
@@ -16724,9 +16807,8 @@
     - time: 1509655784741
       status: Active
   nameservers:
-    - ns1.abelons.com
-    - ns2.abelons.com
-    - ns3.abelons.com
+    - ns1.anons.io
+    - ns2.anons.io
   ip: 185.207.206.169
 '2406':
   status:
@@ -16859,7 +16941,7 @@
   nameservers:
     - clark.ns.cloudflare.com
     - jade.ns.cloudflare.com
-  ip: 104.27.187.226
+  ip: 104.27.186.226
 '2415':
   status:
     - time: 1509998054377
@@ -17139,7 +17221,7 @@
   nameservers:
     - igor.ns.cloudflare.com
     - pat.ns.cloudflare.com
-  ip: 104.31.95.226
+  ip: 104.31.94.226
 '2435':
   status:
     - time: 1513202835784
@@ -17149,7 +17231,7 @@
   nameservers:
     - jo.ns.cloudflare.com
     - theo.ns.cloudflare.com
-  ip: 104.27.191.89
+  ip: 104.27.190.89
 '2436':
   status:
     - time: 1511817142510
@@ -17212,6 +17294,8 @@
   ip: 94.102.60.3
 '2440':
   status:
+    - time: 1513900096315
+      status: Offline
     - time: 1513727307953
       status: Active
     - time: 1513641785605
@@ -17467,7 +17551,7 @@
   nameservers:
     - leah.ns.cloudflare.com
     - micah.ns.cloudflare.com
-  ip: 104.27.170.138
+  ip: 104.27.171.138
 '2461':
   status:
     - time: 1510787294682
@@ -17903,6 +17987,8 @@
   ip: 91.220.101.199
 '2505':
   status:
+    - time: 1513900096317
+      status: Offline
     - time: 1513203034084
       status: Active
     - time: 1513031641402
@@ -17920,6 +18006,9 @@
   nameservers:
     - ns1.he.net
     - ns2.he.net
+    - ns3.he.net
+    - ns4.he.net
+    - ns5.he.net
   ip: 185.189.112.226
 '2507':
   status:
@@ -17972,6 +18061,8 @@
   ip: 89.45.67.104
 '2512':
   status:
+    - time: 1513900096309
+      status: Offline
     - time: 1512427086663
       status: Active
   nameservers:
@@ -17990,6 +18081,8 @@
   ip: 94.102.60.3
 '2514':
   status:
+    - time: 1513900096327
+      status: Offline
     - time: 1513813172895
       status: Suspended
     - time: 1513727444221
@@ -18012,6 +18105,8 @@
   ip: 198.54.115.120
 '2515':
   status:
+    - time: 1513900098027
+      status: Offline
     - time: 1513727445926
       status: Suspended
     - time: 1513641785605
@@ -18182,6 +18277,8 @@
   ip: 213.159.210.36
 '2531':
   status:
+    - time: 1513900096319
+      status: Offline
     - time: 1513203041097
       status: Active
     - time: 1513031850026
@@ -18232,6 +18329,8 @@
   ip: 103.242.118.216
 '2536':
   status:
+    - time: 1513899953014
+      status: Suspended
     - time: 1513812965010
       status: Active
     - time: 1513551598832
@@ -18303,9 +18402,11 @@
   nameservers:
     - aragorn.ns.cloudflare.com
     - michelle.ns.cloudflare.com
-  ip: 104.18.50.22
+  ip: 104.18.51.22
 '2543':
   status:
+    - time: 1513900896725
+      status: Offline
     - time: 1513203041021
       status: Active
   nameservers:
@@ -18365,9 +18466,11 @@
     - ns22.godns.com
     - ns33.godns.com
     - ns44.godns.com
-  ip: 46.166.148.130
+  ip: 46.166.148.132
 '2551':
   status:
+    - time: 1513899880178
+      status: Offline
     - time: 1513381655443
       status: Active
   nameservers:
@@ -18386,6 +18489,8 @@
   ip: 31.31.196.116
 '2553':
   status:
+    - time: 1513900098007
+      status: Offline
     - time: 1513727311526
       status: Active
     - time: 1513641785601
@@ -18430,6 +18535,8 @@
   ip: 213.159.210.209
 '2557':
   status:
+    - time: 1513900098028
+      status: Offline
     - time: 1513641652043
       status: Suspended
     - time: 1513551603213
@@ -18460,6 +18567,8 @@
   ip: 141.105.67.17
 '2560':
   status:
+    - time: 1513900096310
+      status: Offline
     - time: 1513641656104
       status: Active
   nameservers:
@@ -18468,14 +18577,16 @@
   ip: 213.159.210.209
 '2561':
   status:
+    - time: 1513900098009
+      status: Offline
     - time: 1513813147513
       status: Active
-  ip: 54.174.30.6
   nameservers:
     - ns-1458.awsdns-54.org
     - ns-2041.awsdns-63.co.uk
     - ns-30.awsdns-03.com
     - ns-630.awsdns-14.net
+  ip: 54.174.30.6
 '2562':
   status:
     - time: 1513812908595
@@ -18484,35 +18595,77 @@
   status:
     - time: 1513813096477
       status: Active
-  ip: 104.24.124.225
   nameservers:
-    - earl.ns.cloudflare.com
-    - zita.ns.cloudflare.com
+    - ns1.reg.ru
+    - ns2.reg.ru
+  ip: 212.109.196.30
 '2564':
   status:
     - time: 1513812457697
       status: Active
-  ip: 74.220.199.9
   nameservers:
     - ns1.justhost.com
     - ns2.justhost.com
+  ip: 74.220.199.9
 '2565':
   status:
     - time: 1513812226667
       status: Active
-  ip: 31.31.196.206
   nameservers:
     - ns1.hosting.reg.ru
     - ns2.hosting.reg.ru
+  ip: 31.31.196.206
 '2566':
   status:
+    - time: 1513900096322
+      status: Offline
     - time: 1513813097036
       status: Active
-  ip: 213.159.210.36
   nameservers:
     - ns1.firstvds.ru
     - ns2.firstvds.ru
+  ip: 213.159.210.36
 '2567':
   status:
     - time: 1513812736557
       status: Offline
+'2568':
+  status:
+    - time: 1513900096321
+      status: Offline
+  ip: 212.109.196.30
+  nameservers:
+    - ns1.reg.ru
+    - ns2.reg.ru
+'2569':
+  status:
+    - time: 1513899949282
+      status: Active
+  ip: 104.28.0.153
+  nameservers:
+    - grace.ns.cloudflare.com
+    - jim.ns.cloudflare.com
+'2570':
+  status:
+    - time: 1513899905506
+      status: Active
+  ip: 185.110.132.218
+  nameservers:
+    - ns1.beget.info
+    - ns2.beget.info
+'2571':
+  status:
+    - time: 1513899889081
+      status: Active
+  ip: 94.102.60.3
+  nameservers:
+    - ns1.offshore-dns.net
+    - ns2.offshore-dns.net
+'2572':
+  status:
+    - time: 1513899878635
+      status: Active
+  ip: 94.102.60.3
+  nameservers:
+    - ns1.offshore-dns.net
+    - ns2.offshore-dns.net
