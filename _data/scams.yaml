@@ -16420,3 +16420,10 @@
     category: Phishing
     subcategory: Ripio
     description: 'Fake Ripio airdrop site, linking to fake MEW'    
+-
+    id: 2573
+    name: claimbcd.com
+    url: 'http://claimbcd.com/'
+    category: Phishing
+    subcategory: Bitcoin
+    description: 'Fake airdrop asking for private keys'
