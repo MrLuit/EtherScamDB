@@ -253,7 +253,7 @@ function startWebServer() {
             } else {
                 var category = '<i class="remove icon"></i> None';
             }
-            if ('subcategory' in scams[i]) {
+            if ('subcategory' in scams[i] && scams[i].subcategory) {
                 if (scams[i].subcategory.toLowerCase() == "wallets") {
                     var subcategory = '<i class="credit card alternative icon"></i> ' + scams[i].subcategory;
                 } else if (fs.existsSync("_static/img/" + scams[i].subcategory.toLowerCase().replace(/\s/g, '') + ".png")) {
