@@ -215,7 +215,7 @@
 -
     id: 52
     name: MyEtherWallet Knowledge Base
-    url: 'https://myetherwallet.groovehq.com'
+    url: 'https://myetherwallet.github.io/knowledge-base'
 -
     id: 53
     name: ShapeShift
@@ -324,3 +324,11 @@
     name: Golem
     featured: true
     url: 'https://golem.network'
+-
+    id: 75
+    name: Nexus
+    url: 'https://ico.nexus.social/'
+-
+    id: 76
+    name: Swapy Network
+    url: 'https://www.swapy.network/'

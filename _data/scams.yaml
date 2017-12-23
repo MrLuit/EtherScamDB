@@ -1233,6 +1233,8 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: Addition
+    addresses:
+      - '0x33F74739ce6bE3B2c38AF76F5aDB3866CB4784c4'    
 -
     id: 183
     name: myethetwallet.com
@@ -2451,6 +2453,8 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: Insertion
+    addresses:
+      - '0xaa1886de3f70a3ef502ea1379a311c5b4e05f3fd'
 -
     id: 361
     name: myatherwallet.com
@@ -13379,6 +13383,8 @@
     url: 'https://status-token.com'
     category: Phishing
     subcategory: Status
+    addresses:
+      - '0x4Bf722014E54AeAB05fcF1519E6e4C0c3F742e43'    
 -
     id: 2145
     name: myetthterwallet.com
@@ -13544,12 +13550,16 @@
     url: 'https://www.golem-network.com'
     category: Phishing
     subcategory: Golem
+    addresses:
+      - '0xdA657E9Fa116900fAB8178E5580a3a6CEDd89F3C'
 -
     id: 2169
     name: etherdelta.gilthub.io
     url: 'https://etherdelta.gilthub.io'
     category: Phishing
     subcategory: EtherDelta
+    addresses:
+      - '0x6506827D91659e871fc7267160ba1C3407195270'
 -
     id: 2170
     name: dmarket.ltd
@@ -13572,3 +13582,2841 @@
     subcategory: Hero
     addresses:
       - '0xFBF6F29c126382cf15795bB209EE506a174cC709'
+-
+    id: 2173
+    name: etherdelta.githulb.io
+    url: 'https://etherdelta.githulb.io'
+    category: Phishing
+    subcategory: EtherDelta
+    addresses:
+      - '0x7CBC4E0D168744912C5Afc081499145BBDc51e69'
+-
+    id: 2174
+    name: starbase.pro
+    url: 'http://starbase.pro'
+    category: Phishing
+    subcategory: Starbase
+-
+    id: 2175
+    name: herotokens.io
+    url: 'https://herotokens.io'
+    category: Phishing
+    subcategory: Hero
+    addresses:
+      - '0x57b818a1070373e21fcedf48d4368e1703c75852'
+-
+    id: 2176
+    name: omise.com.co
+    url: 'https://omise.com.co'
+    category: Phishing
+    subcategory: OmiseGO
+-
+    id: 2177
+    name: myelterwallet.com
+    url: 'https://myelterwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2178
+    name: myetherwaltet.com
+    url: 'http://myetherwaltet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2179
+    name: myetherwallet.mobi
+    url: 'https://myetherwallet.mobi'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2180
+    name: aventus.group
+    url: 'https://aventus.group'
+    category: Phishing
+    subcategory: Aventus
+    addresses:
+      - '0x3fcb2d173389b7cd8079ef8b439dbd92e7e0ae28'
+-
+    id: 2181
+    name: atlant.solutions
+    url: 'https://atlant.solutions'
+    category: Phishing
+    subcategory: Atlant
+    addresses:
+      - '0x3fcb2d173389b7cd8079ef8b439dbd92e7e0ae28'
+-
+    id: 2182
+    name: iconexus.social
+    url: 'https://iconexus.social'
+    category: Phishing
+    subcategory: Nexus
+    addresses:
+      - '0x8369F6723C4792b41d4AF4190662269431Ee5B0b'
+-
+    id: 2183
+    name: omise-go.org
+    url: 'http://omise-go.org/'
+    category: Phishing
+    subcategory: OmiseGO
+-
+    id: 2184
+    name: ethereumwallet-kr.info
+    url: 'https://ethereumwallet-kr.info/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2185
+    name: vlberate.io
+    url: 'https://vlberate.io'
+    category: Phishing
+    subcategory: Viberate
+    addresses:
+      - '0x57d02550f47dd932d2fb84e0aa883c9d8d53c313'
+-
+    id: 2186
+    name: monetha.ltd
+    url: 'https://monetha.ltd'
+    category: Phishing
+    subcategory: Monetha
+    addresses:
+      - '0x4999924fD714092FE92cA9A792a8549f798c1Dc2'
+-
+    id: 2187
+    name: kirkik.com
+    url: 'https://kirkik.com'
+    category: Phishing
+    subcategory: KIN
+    addresses:
+      - '0xF8E676094628776690DBf83fa31f08aA14FD3fb8'
+-
+    id: 2188
+    name: etherdelta.gitnub.io
+    url: 'https://etherdelta.gitnub.io'
+    category: Phishing
+    subcategory: EtherDelta
+-
+    id: 2189
+    name: the-ether.pro
+    url: 'https://www.the-ether.pro'
+    category: Scamming
+    subcategory: Web Wallet
+    addresses:
+      - '0xc4b51a247514901faf1b6b1da9f0836066e64407'
+-
+    id: 2190
+    name: etherdelta.one
+    url: 'https://etherdelta.one'
+    category: Phishing
+    subcategory: EtherDelta
+-
+    id: 2191
+    name: rivetzintl.org
+    url: 'https://rivetzintl.org'
+    category: Phishing
+    subcategory: Rivetzintl
+-
+    id: 2192
+    name: omisego.com.co
+    url: 'https://omisego.com.co'
+    category: Phishing
+    subcategory: OmiseGO
+-
+    id: 2193
+    name: qtum-token.com
+    url: 'https://qtum-token.com'
+    category: Phishing
+    subcategory: Qtum
+    addresses:
+      - '0x4Bf722014E54AeAB05fcF1519E6e4C0c3F742e43'
+-
+    id: 2194
+    name: linknetwork.co
+    url: 'https://linknetwork.co'
+    category: Scamming
+    subcategory: Chainlink
+    addresses:
+      - '0xCbCD4b518890429C0Ffef3d782eD99b3ADFF009b'
+-
+    id: 2195
+    name: myethereumwallet.uk
+    url: 'http://myethereumwallet.uk'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2196
+    name: myethwallet.co.uk
+    url: 'http://myethwallet.co.uk'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2197
+    name: myelherwatlet.com
+    url: 'http://myelherwatlet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2198
+    name: coindash.su
+    url: 'http://coindash.su'
+    category: Phishing
+    subcategory: Coindash
+-
+    id: 2199
+    name: iconexu.social
+    url: 'https://iconexu.social/'
+    category: Phishing
+    subcategory: Nexus
+-
+    id: 2200
+    name: wanchain.co
+    url: 'https://wanchain.co'
+    category: Phishing
+    subcategory: Wanchain
+-
+    id: 2201
+    name: enigrna.co
+    url: 'https://enigrna.co'
+    category: Phishing
+    subcategory: Enigma
+-
+    id: 2202
+    name: ethedelta.com
+    url: 'https://ethedelta.com'
+    category: Phishing
+    subcategory: EtherDelta
+-
+    id: 2203
+    name: kin-crowdsale.com
+    url: 'https://kin-crowdsale.com'
+    category: Scamming
+    subcategory: KIN
+    addresses:
+      - '0xaD0C88F3313ABbce2185597E87A15f764e948A46'
+-
+    id: 2204
+    name: kin-klk.com
+    url: 'https://kin-klk.com'
+    category: Phishing
+    subcategory: KIN
+    addresses:
+      - '0x5d3f32f4b2e99fb79d2f6a1cbf3aa7390f8fc751'
+-
+    id: 2205
+    name: xn--bttrex-bwa.com
+    url: 'https://xn--bttrex-bwa.com'
+    category: Phishing
+    subcategory: Bittrex
+-
+    id: 2206
+    name: bitj0b.io
+    url: 'https://bitj0b.io'
+    category: Phishing
+    subcategory: Bitjob
+    addresses:
+      - '0xd821dfb705333d2c16e0c0c0be75ce360cca566a'
+-
+    id: 2207
+    name: red-pulse.tech
+    url: 'https://red-pulse.tech'
+    category: Phishing
+    subcategory: RedPulse
+    addresses:
+      - '0x052f585fa599bfb4bed290ff30c057627ccd8059'
+-
+    id: 2208
+    name: ico-nexus.social
+    url: 'https://ico-nexus.social'
+    category: Phishing
+    subcategory: Nexus
+    addresses:
+      - '0x7fBf068316C5806A62D549441ae82b00Fdb10dE1'
+-
+    id: 2209
+    name: ethrdelta.github.io
+    url: 'https://ethrdelta.github.io'
+    category: Phishing
+    subcategory: EtherDelta
+-
+    id: 2210
+    name: etherdellta.com
+    url: 'https://etherdellta.com'
+    category: Phishing
+    subcategory: EtherDelta
+-
+    id: 2211
+    name: xn--bittrx-mva.com
+    url: 'https://xn--bittrx-mva.com'
+    category: Phishing
+    subcategory: Bittrex
+-
+    id: 2212
+    name: coinbase.com.eslogin.co
+    url: 'https://coinbase.com.eslogin.co'
+    category: Phishing
+    subcategory: Coinbase
+-
+    id: 2213
+    name: myetherwallct.com
+    url: 'https://myetherwallct.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2214
+    name: myetherwalilet.com
+    url: 'https://myetherwalilet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2215
+    name: myethwallet.uk
+    url: 'https://myethwallet.uk'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2216
+    name: myetherwalleit.com
+    url: 'https://myetherwalleit.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2217
+    name: my.ethervvallet.eu
+    url: 'http://my.ethervvallet.eu'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2218
+    name: enigma-tokens.co
+    url: 'https://enigma-tokens.co'
+    category: Phishing
+    subcategory: Engima
+    addresses:
+      - '0x2D4498a2CF71F5b0946f0ebcfff97ca9D0cd5D04'
+-
+    id: 2219
+    name: change-bank.co
+    url: 'http://change-bank.co'
+    category: Phishing
+    subcategory: ChangeBank
+    addresses:
+      - '0xbe3364dfb8158A3e452FF96AEb247BF3f5F019B5'
+      - '0x1E75f03fF928BCA6c1692179679AFC0223d7824F'
+-
+    id: 2220
+    name: omise-go.me
+    url: 'http://omise-go.me'
+    category: Phishing
+    subcategory: OmiseGo
+-
+    id: 2221
+    name: tokensale.kyber.digital
+    url: 'https://tokensale.kyber.digital'
+    category: Phishing
+    subcategory: Kyber
+    addresses:
+      - '0x7a18cfc4a36e48163034e51a9ed19d4bdea05f6f'
+-
+    id: 2222
+    name: pyro0.github.io
+    url: 'https://pyro0.github.io'
+    category: Scam
+    subcategory: ENS
+    addresses:
+      - '0x7C203685291149D5dAd4308781F42A6B945dF4E1'
+-
+    id: 2223
+    name: kyber-network.co
+    url: 'https://kyber-network.co'
+    category: Phishing
+    subcategory: Kyber
+    addresses:
+      - '0x5e5d6f6706420f932d796c0f28a83b26dabcfd8d'
+-
+    id: 2224
+    name: tokensale-kyber.network
+    url: 'https://tokensale-kyber.network'
+    category: Phishing
+    subcategory: Kyber
+-
+    id: 2225
+    name: my.ethervvallet.com
+    url: 'http://my.ethervvallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2226
+    name: kin.kikpro.co
+    url: 'https://kin.kikpro.co'
+    category: Phishing
+    subcategory: KIN
+    addresses:
+      - '0x8b3b831d767FAD1ab0ad52A38777acb98630F8a7'
+-
+    id: 2227
+    name: kvnuke.github.io
+    url: 'https://kvnuke.github.io'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2228
+    name: myetherwalletconfirm.com
+    url: 'https://myetherwalletconfirm.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2229
+    name: myetherwallet-confirm.com
+    url: 'https://myetherwallet-confirm.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2230
+    name: kybernet.network
+    url: 'https://kybernet.network'
+    category: Phishing
+    subcategory: Kyber
+    addresses:
+      - '0x008f3Db10374099A11ec263415Cb88C952AbEEDc'
+-
+    id: 2231
+    name: myetherwalletconfirm.com
+    url: 'https://myetherwalletconfirm.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2232
+    name: change-bank.io
+    url: 'http://change-bank.io'
+    category: Phishing
+    subcategory: ChangeBank
+    addresses:
+      - '0x4da9608F15c504a2B5C46491d9CCF257c5E2FF71'
+-
+    id: 2233
+    name: chainlink.tech
+    url: 'https://chainlink.tech'
+    category: Scamming
+    subcategory: Chainlink
+    addresses:
+      - '0x4da9608F15c504a2B5C46491d9CCF257c5E2FF71'
+-
+    id: 2234
+    name: myetherwalletcontract.com
+    url: 'https://myetherwalletcontract.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2235
+    name: myetherwalletsingin.com
+    url: 'https://myetherwalletsingin.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2236
+    name: charge-bank.com
+    url: 'http://charge-bank.com'
+    category: Phishing
+    subcategory: ChangeBank
+    addresses:
+      - '0x34743FFA1f93e745668725e44EFEb3C50A237796'
+-
+    id: 2237
+    name: change-bank.org
+    url: 'https://change-bank.org'
+    category: Phishing
+    subcategory: ChangeBank
+    addresses:
+      - '0x8eE2Ba41EF59b5773e5909451e0b8BaD4E59A81b'
+-
+    id: 2238
+    name: 0xtoken.io
+    url: 'https://0xtoken.io'
+    category: Phishing
+    subcategory: 0xproject
+-
+    id: 2239
+    name: shapesshift.io
+    url: 'https://shapesshift.io'
+    category: Phishing
+    subcategory: Shapeshift
+-
+    id: 2240
+    name: myetheriwallet.com
+    url: 'https://myetheriwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2241
+    name: myetherwiallet.com
+    url: 'https://myetherwiallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2242
+    name: smartcontractlink.com
+    url: 'https://smartcontractlink.com'
+    category: Phishing
+    subcategory: Chainlink
+    addresses:
+      - '0x1c50139c266559b29d7cb27635e0da13bef76a09'
+-
+    id: 2243
+    name: myetherwallet-singin.com
+    url: 'https://myetherwallet-singin.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2244
+    name: centra.credit
+    url: 'https://centra.credit'
+    category: Phishing
+    subcategory: CentraTech
+    addresses:
+      - '0xaff9e40f9b245b15a1d1bb45516ca213e682fa81'
+-
+    id: 2245
+    name: air-token.com
+    url: 'https://air-token.com'
+    category: Phishing
+    subcategory: AirToken
+    addresses:
+      - '0xE9aa3A74E3D62274f221ECa42736cAdC14CcfFaF'
+-
+    id: 2246
+    name: icon.community
+    url: 'https://icon.community'
+    category: Phishing
+    subcategory: ICON
+    addresses:
+      - '0xca4da1753336aa8340710e0E1a8c0BEE2bFbF56C'
+-
+    id: 2247
+    name: smartcontract.live
+    url: 'https://smartcontract.live'
+    category: Phishing
+    subcategory: LINK
+    addresses:
+      - '0xabc490af011C8E354B7D2112648883fe9E511695'
+-
+    id: 2248
+    name: centra.vip
+    url: 'https://centra.vip'
+    category: Phishing
+    subcategory: CentraTech
+    addresses:
+      - '0xfAd17C9da2beBF758e3BC0c99D1aBe8Af7e96eD1'
+-
+    id: 2249
+    name: iconn.foundation
+    url: 'https://iconn.foundation'
+    category: Phishing
+    subcategory: ICON
+    addresses:
+      - '0xFC74FB0D5df08EC546a3DA18CCc7FBcBe031F5D8'
+-
+    id: 2250
+    name: bitfienex.com
+    url: 'https://bitfienex.com'
+    category: Phishing
+    subcategory: Bitfinex
+-
+    id: 2251
+    name: bitfinex.com.co
+    url: 'https://bitfinex.com.co'
+    category: Phishing
+    subcategory: Bitfinex
+-
+    id: 2252
+    name: happy-coin.org
+    url: 'https://happy-coin.org'
+    category: Scamming
+    subcategory: WebWallet
+-
+    id: 2253
+    name: cobinhood.org
+    url: 'http://cobinhood.org/'
+    category: Phishing
+    subcategory: CobinHood
+    addresses:
+      - '0x62eE4A3C690C9660762c52BF1a232365C86C879B'
+-
+    id: 2254
+    name: reall.markets
+    url: 'http://reall.markets/'
+    category: Phishing
+    subcategory: REAL
+    addresses:
+      - '0xB116D83C919d6661dc20246D312B702f0cDf297C'
+-
+    id: 2255
+    name: myetherwalletws.com
+    url: 'http://myetherwalletws.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW, stealing private keys with log.php'
+-
+    id: 2256
+    name: myetherwalletntw.com
+    url: 'http://myetherwalletntw.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2257
+    name: myethereumwalletntw.com
+    url: 'http://myethereumwalletntw.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2258
+    name: omisegotoken.com
+    url: 'http://omisegotoken.com/'
+    category: Phishing
+    subcategory: OmiseGo
+    addresses:
+      - '0x7e3d7D8E31b3F472FCD3C1552a9F009131C50C6C'
+      - '0x4Bf722014E54AeAB05fcF1519E6e4C0c3F742e43'
+      - '0x29e225d888cf11c5e67613bffd30bcf071eb3d4a'
+-
+    id: 2259
+    name: myetherwalletlogin.com
+    url: 'http://myetherwalletlogin.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2260
+    name: coinrbase.com
+    url: 'http://coinrbase.com/'
+    category: Phishing
+    subcategory: Coinibase
+-
+    id: 2261
+    name: myetherumwalletview.com
+    url: 'http://myetherumwalletview.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2262
+    name: kinkik.in
+    url: 'http://kinkik.in/'
+    category: Phishing
+    subcategory: KIN
+    addresses:
+      - '0x854b62b692aC8411C3a45463c44CBdAbAC2D6913'
+-
+    id: 2263
+    name: eventchain.co
+    url: 'http://eventchain.co/'
+    category: Phishing
+    subcategory: EVC
+    addresses:
+      - '0x37D0909CC7eC38F2d966092Ea3607F77bC6bc008'
+-
+    id: 2264
+    name: myetherwallets.co
+    url: 'http://myetherwallets.co/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2265
+    name: protostokenhub.com
+    url: 'http://protostokenhub.com/'
+    category: Phishing
+    subcategory: Protos
+    addresses:
+      - '0xd92559E1F1d2E84F4964F45256693D03833D7D44'
+-
+    id: 2266
+    name: ethewallet.com
+    url: 'http://ethewallet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2267
+    name: myetherwallet.com.vc
+    url: 'http://myetherwallet.com.vc/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2268
+    name: myetherwallets.info
+    url: 'http://mmyetherwallets.info/'
+    category: Phishing
+    subcategory: MyEtherWallet'
+-
+    id: 2269
+    name: myetherwallet.com.ailogin.me
+    url: 'http://myetherwallet.com.ailogin.me/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2270
+    name: myetherwallets.cc
+    url: 'http://myetherwallets.cc/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2271
+    name: myetherwallets.us
+    url: 'http://myetherwallets.us/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2272
+    name: myetherwalletsignin.com
+    url: 'http://myetherwalletsignin.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2273
+    name: cindicator.pro
+    url: 'http://cindicator.pro/'
+    category: Phishing
+    subcategory: Cindicator
+    addresses:
+      - '0x17BD6f815fB71a77dc20E12177c4d763A3f67632'
+-
+    id: 2274
+    name: myetherwallet.money
+    url: 'http://myetherwallet.money/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2275
+    name: coinkbase.com
+    url: 'http://coinkbase.com/'
+    category: Phishing
+    subcategory: Coinbase
+-
+    id: 2277
+    name: ibittreix.com
+    url: 'http://ibittreix.com/'
+    category: Phishing
+    subcategory: Bittrex
+-
+    id: 2278
+    name: shapeshifth.io
+    url: 'http://shapeshifth.io/'
+    category: Phishing
+    subcategory: Shapeshift
+-
+    id: 2279
+    name: shiapeshift.in
+    url: 'http://shiapeshift.in/'
+    category: Phishing
+    subcategory: Shapeshift
+-
+    id: 2280
+    name: wallet-ethereum.org
+    url: 'http://wallet-ethereum.org/'
+    category: Scam
+    subcategory: WebWallet
+-
+    id: 2281
+    name: request-network.com
+    url: 'http://request-network.com/'
+    category: Phishing
+    subcategory: Request
+-
+    id: 2282
+    name: real-markets.io
+    url: 'http://real-markets.io/'
+    category: Phishing
+    subcategory: REALMarkets
+    addresses:
+      - '0x143494359bBACC878308075C1c9FA05fcda96651'
+-
+    id: 2283
+    name: myelheriwallet.com
+    url: 'http://myelheriwallet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2284
+    name: myetherermwallet.com
+    url: 'http://myetherermwallet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2285
+    name: myethwallct.com
+    url: 'http://myethwallct.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2286
+    name: myetheremwallet.com
+    url: 'http://myetheremwallet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2287
+    name: myetherwallet-secure.com
+    url: 'http://myetherwallet-secure.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2288
+    name: myetherwalletto.com
+    url: 'http://myetherwalletto.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2289
+    name: myetherwalletio.com
+    url: 'http://myetherwalletio.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2290
+    name: miyetherwallet.com
+    url: 'http://miyetherwallet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2291
+    name: myetherwallett.neocities.org
+    url: 'http://myetherwallett.neocities.org/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2292
+    name: cobinhood.io
+    url: 'http://cobinhood.io/'
+    category: Phishing
+    subcategory: Cobinhood
+    addresses:
+      - '0x920aDc9A060cdA345fdEc2fdeBAd6EBF38eDf83D'
+-
+    id: 2293
+    name: etherdelta.su
+    url: 'http://etherdelta.su/'
+    category: Phishing
+    subcategory: EtherDelta
+-
+    id: 2294
+    name: etnerparty.io
+    url: 'http://etnerparty.io/'
+    category: Phishing
+    subcategory: EtherParty
+-
+    id: 2295
+    name: etherdetla.com
+    url: 'http://etherdetla.com/'
+    category: Phishing
+    subcategory: EtherDelta
+-
+    id: 2296
+    name: centra-token.com
+    url: 'http://centra-token.com/'
+    category: Phishing
+    subcategory: CentraTech
+-
+    id: 2297
+    name: myetherwalletie.com
+    url: 'http://myetherwalletie.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2298
+    name: district0x.tech
+    url: 'http://district0x.tech/'
+    category: Phishing
+    subcategory: District0x
+-
+    id: 2299
+    name: mywetherwailiet.com
+    url: 'http://mywetherwailiet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2300
+    name: myyethwallet.ml
+    url: 'http://myyethwallet.ml/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2301
+    name: golem-network.net
+    url: 'http://golem-network.net/'
+    category: Phishing
+    subcategory: Golem
+-
+    id: 2302
+    name: tenxwallet.io
+    url: 'http://tenxwallet.io/'
+    category: Phishing
+    subcategory: TenX
+-
+    id: 2303
+    name: enjincoin.sale
+    url: 'http://enjincoin.sale/'
+    category: Phishing
+    subcategory: Enjin
+    addresses:
+      - '0xbcc6c0fef89b87a12773db7a9a8ecbccccdb7aff'
+-
+    id: 2304
+    name: myetherwlallet.com
+    url: 'http://myetherwlallet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2305
+    name: myetherwalletiy.com
+    url: 'http://myetherwalletiy.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2306
+    name: wanchain.network
+    url: 'http://wanchain.network/'
+    category: Phishing
+    subcategory: Wanchain
+    addresses:
+      - '0xf9a5139E42c3ca13D5b24D23ab2B18C278805Dc4'
+-
+    id: 2307
+    name: enijncoin.io
+    url: 'http://enijncoin.io/'
+    category: Phishing
+    subcategory: Enjin
+    addresses:
+      - '0x8cF893F11f6037B14f0f827B9ed6AEef38931Fb4'
+-
+    id: 2308
+    name: smartlands.tech
+    url: 'http://smartlands.tech/'
+    category: Phishing
+    subcategory: Smartlands
+    addresses:
+      - '0x893676c4A94F6EcdC33a18438BBdCfE9e6c68a9a'
+-
+    id: 2309
+    name: etiam.io
+    url: 'http://etiam.io/'
+    category: Scam
+    subcategory: SALT
+-
+    id: 2310
+    name: enjincoin.me
+    url: 'http://enjincoin.me/'
+    category: Phishing
+    subcategory: Enjin
+    addresses:
+      - '0x05Dd62c007CDe143B402fA5Da3937C40c70b4B14'
+-
+    id: 2311
+    name: etherparty.in
+    url: 'http://etherparty.in/'
+    category: Phishing
+    subcategory: Etherparty
+    addresses:
+      - '0x0Dcc89F3091d3EF66E00Fb595Ed0FaFEf4434192'
+-
+    id: 2312
+    name: wanchains.org
+    url: 'http://wanchains.org/'
+    category: Phishing
+    subcategory: Wanchain
+    addresses:
+      - '0x2A7D04018D7295D8069Ec9721eE415c4Bdc57909'
+-
+    id: 2313
+    name: warchain.org
+    url: 'http://warchain.org/'
+    category: Phishing
+    subcategory: Wanchain
+    addresses:
+      - '0x1c2FB401D3Dc4fd8131ccFc4589F281D58921402'
+-
+    id: 2314
+    name: shapeshiff.io
+    url: 'http://shapeshiff.io/'
+    category: Scam
+    subcategory: Shapeshift
+-
+    id: 2315
+    name: myetherwalletip.com
+    url: 'http://myetherwalletip.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2316
+    name: myetherwallcti.com
+    url: 'http://myetherwallcti.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2317
+    name: myethereumwallet.su
+    url: 'http://myethereumwallet.su/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2318
+    name: xn--enjncoin-41a.io
+    url: 'http://xn--enjncoin-41a.io/'
+    category: Phishing
+    subcategory: Enjin
+    addresses:
+      - '0x8cF893F11f6037B14f0f827B9ed6AEef38931Fb4'
+-
+    id: 2319
+    name: omisegoairdrop.com
+    url: 'http://omisegoairdrop.com/'
+    category: Phishing
+    subcategory: OmiseGo
+-
+    id: 2320
+    name: vvanchain.org
+    url: 'http://vvanchain.org/'
+    category: Phishing
+    subcategory: Wanchain
+    addresses:
+      - '0x88698a2ff09506596a88a1af9d103a420ba46a3e'
+-
+    id: 2321
+    name: numerai-token.com
+    url: 'http://numerai-token.com/'
+    category: Phishing
+    subcategory: Numerai
+-
+    id: 2322
+    name: soam.co
+    url: 'http://soam.co/'
+    category: Phishing
+    subcategory: Soam
+    addresses:
+      - '0x05E3650Bfc907Cc1b3C774F0c053C8B990ce1A4b'
+-
+    id: 2323
+    name: paypie.net
+    url: 'http://paypie.net/'
+    category: Phishing
+    subcategory: Paypie
+-
+    id: 2324
+    name: paypie.tech
+    url: 'http://paypie.tech/'
+    category: Phishing
+    subcategory: Paypie
+-
+    id: 2325
+    name: upfirng.com
+    url: 'http://upfirng.com/'
+    category: Phishing
+    subcategory: Upfiring
+    addresses:
+      - '0x801D03f4d053242aFbc2949c141BAB4270Ca6707'
+-
+    id: 2326
+    name: myethereumwallct.com
+    url: 'http://myethereumwallct.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2327
+    name: myetherwalletww.com
+    url: 'http://myetherwalletww.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2328
+    name: myethereunwallet.com
+    url: 'http://myethereunwallet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2329
+    name: myethereumwaliet.com
+    url: 'http://myethereumwaliet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2330
+    name: security-steemit.com.mx
+    url: 'http://security-steemit.com.mx'
+    category: Phishing
+    subcategory: Steemit
+-
+    id: 2331
+    name: cryptoinsidenews.com
+    url: 'http://cryptoinsidenews.com'
+    category: Phishing
+    subcategory: EtherDelta
+-
+    id: 2332
+    name: www-enigma.co
+    url: 'http://www-enigma.co'
+    category: Phishing
+    subcategory: Enigma
+-
+    id: 2333
+    name: www-request.network
+    url: 'http://www-request.network'
+    category: Phishing
+    subcategory: Request
+-
+    id: 2334
+    name: airswaptoken.com
+    url: 'http://airswaptoken.com'
+    category: Phishing
+    subcategory: Airswap
+-
+    id: 2335
+    name: airswap.cc
+    url: 'http://airswap.cc'
+    category: Phishing
+    subcategory: Airswap
+-
+    id: 2336
+    name: airswap.in
+    url: 'http://airswap.in'
+    category: Phishing
+    subcategory: Airswap
+-
+    id: 2337
+    name: alrswap.io
+    url: 'http://alrswap.io'
+    category: Phishing
+    subcategory: Airswap
+-
+    id: 2338
+    name: myetnenwallet.com
+    url: 'http://myetnenwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2339
+    name: xn--bitrex-k17b.com
+    url: 'http://xn--bitrex-k17b.com'
+    category: Phishing
+    subcategory: Bittrex
+-
+    id: 2340
+    name: myehterwailet.com
+    url: 'http://myehterwailet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2341
+    name: enjincoin.pw
+    url: 'http://enjincoin.pw/'
+    category: Phishing
+    subcategory: Enjin
+    addresses:
+      - '0xB71dF0DbbB9754c1aa9115253F4eBb7EF3f8a57c'
+-
+    id: 2342
+    name: myewerthwalliet.com
+    url: 'http://myewerthwalliet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2343
+    name: first-eth.info
+    url: 'http://first-eth.info/'
+    category: Scamming
+    subcategory: WebWallet
+-
+    id: 2344
+    name: binancie.com
+    url: 'http://binancie.com/'
+    category: Phishing
+    subcategory: Binance
+-
+    id: 2345
+    name: requestnetwork.live
+    url: 'http://requestnetwork.live/'
+    category: Phishing
+    subcategory: Request
+    addresses:
+      - '0x8374aa52Bf36EaBcA06E33c4163A081F53e39Aa3'
+-
+    id: 2346
+    name: request-network.net
+    url: 'http://request-network.net/'
+    category: Phishing
+    subcategory: Request
+    addresses:
+      - '0x49311A81F5F5dF6C109599Ed5d7413d85b8bcA18'
+-
+    id: 2347
+    name: polkodot.network
+    url: 'http://polkodot.network/'
+    category: Phishing
+    subcategory: Polkadot
+-
+    id: 2348
+    name: slack.com.ru
+    url: 'http://slack.com.ru/'
+    category: Phishing
+    subcategory: Slack
+-
+    id: 2349
+    name: omegaone.co
+    url: 'http://omegaone.co/'
+    category: Phishing
+    subcategory: Omega
+    addresses:
+      - '0x3AA65f17cdE339dF49AFd2F88B3C8495842D5FB0'
+-
+    id: 2350
+    name: myehterwaliet.com
+    url: 'http://myehterwaliet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    addresses:
+      - '0x37c81cc9ff71d0f97849a947bf22e8e529b72230'
+-
+    id: 2351
+    name: myetherwaiiett.com
+    url: 'http://myetherwaiiett.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2352
+    name: myetherwalletiu.com
+    url: 'http://myetherwalletiu.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2353
+    name: etheirdelta.com
+    url: 'http://etheirdelta.com/'
+    category: Phishing
+    subcategory: EtherDelta     
+-
+    id: 2354
+    name: www-mvetherwallet.com
+    url: 'http://www-mvetherwallet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet    
+-
+    id: 2355
+    name: myetnerwailet.com
+    url: 'http://myetnerwailet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet    
+-
+    id: 2356
+    name: myetherwallet-forkprep.pagedemo.co
+    url: 'http://myetherwallet-forkprep.pagedemo.co/'
+    category: Phishing
+    subcategory: MyEtherWallet    
+-
+    id: 2357
+    name: myethereum-wallet.com
+    url: 'http://myethereum-wallet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet        
+-
+    id: 2358
+    name: worldofbattles.io 
+    url: 'http://worldofbattles.io/'
+    category: Scamming
+    subcategory: WorldOfBattles
+    addresses:
+      - '0xef57aa4b57587600fc209f345fe0a2687bc26985'
+-
+    id: 2359
+    name: stormxtoken.com 
+    url: 'http://stormxtoken.com/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0xB7c4A4341c0A03460B6ceC4fa997dD2D748Ce281'
+-
+    id: 2360
+    name: myetherwalletverify.info
+    url: 'http://myetherwalletverify.info/'
+    category: Phishing
+    subcategory: MyEtherWallet 
+-
+    id: 2361
+    name: ralden.network 
+    url: 'http://ralden.network/'
+    category: Phishing
+    subcategory: Raiden
+    addresses:
+      - '0x3639b8B8edA816B2cb62b65159A183972a3cf863'    
+-
+    id: 2362
+    name: raidan.network 
+    url: 'http://raidan.network/'
+    category: Phishing
+    subcategory: Raiden
+    addresses:
+      - '0xd3d7c71e4c5b1ff2f42fbb9b4a21f3373aa8b3b0'        
+-
+    id: 2363
+    name: riden.network 
+    url: 'http://riden.network/'
+    category: Phishing
+    subcategory: Raiden
+    addresses:
+      - '0xAF31bf4Fa017768E6426308Cf17E16d633700265'    
+-
+    id: 2364
+    name: privatix.live 
+    url: 'http://privatix.live/'
+    category: Phishing
+    subcategory: Privatix
+    addresses:
+      - '0xd055610c2d5151aDb3eaF994e08aBe45DeE936E0'         
+-
+    id: 2365
+    name: rnyetherwallet.pw
+    url: 'http://rnyetherwallet.pw/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2366
+    name: storrntoken.com 
+    url: 'http://storrntoken.com/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0x8dcdb7fc9f541825ba57fb47d5204317fc609590'     
+-
+    id: 2367
+    name: stormtokens.net 
+    url: 'http://stormtokens.net/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0xef6805af393c34fe772f8d827a5d26685215612a'   
+-
+    id: 2368
+    name: myetereumwallet.com 
+    url: 'http://myetereumwallet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    addresses:
+      - '0x62404BFB3e1c464f17e3AF0c139e39D0703ae4A1'  
+-
+    id: 2369
+    name: stormstoken.com 
+    url: 'http://stormstoken.com/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0x9A95f2Ca24d1dCb01048E0623f63F9D174237dEb'         
+- 
+    id: 2370
+    name: privatix.pro 
+    url: 'http://privatix.pro/'
+    category: Phishing
+    subcategory: Privatix
+    addresses:
+      - '0x071cf579507DD0661845694F709E68CF7Ea506a4' 
+-
+    id: 2371
+    name: raiden.online 
+    url: 'http://raiden.online/'
+    category: Phishing
+    subcategory: Raiden
+    addresses:
+      - '0x1b42BF30CD988Ad20500cE47ccE52098576Ec2a2'  
+-
+    id: 2372
+    name: stormtoken.cc 
+    url: 'http://stormtoken.cc/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0xa2896b45f8bD313B777F1027724da1b5F2205A58'  
+-
+    id: 2373
+    name: privatix.top
+    url: 'http://privatix.top/'
+    category: Phishing
+    subcategory: Privatix
+    addresses:
+      - '0x1aef1E14108786e0B049f37758529d866cc3c7e6'  
+-
+    id: 2374
+    name: privatix.me
+    url: 'http://privatix.me/'
+    category: Phishing
+    subcategory: Privatix
+    addresses:
+      - '0x1aef1E14108786e0B049f37758529d866cc3c7e6'  
+-
+    id: 2375
+    name: block-v.io
+    url: 'http://block-v.io/'
+    category: Phishing
+    subcategory: Blockv
+    addresses:
+      - '0xab215957873deadd9512fbde29e6c12bea1dd1a1' 
+-
+    id: 2376
+    name: ether24.info
+    url: 'http://ether24.info/'
+    category: Scamming
+    subcategory: WebWallet
+-
+    id: 2377
+    name: myetherwallet.com.byzantiumfork.com
+    url: 'http://myetherwallet.com.byzantiumfork.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2378
+    name: stormtoken.site
+    url: 'http://stormtoken.site/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0xe10C24cA7bf18640FcB35E059919348891922a3b' 
+-
+    id: 2379
+    name: artoken.co
+    url: 'http://artoken.co/'
+    category: Phishing
+    subcategory: Artoken
+    addresses:
+      - '0xb9AE74bEafE4025cC0fCfB5e190169F2D7F0b563' 
+-
+    id: 2380
+    name: raidens.network
+    url: 'http://raidens.network/'
+    category: Phishing
+    subcategory: Raiden
+    addresses:
+      - '0x897757CbA67EADB66d40e45C6748E27D0E67b52a' 
+-
+    id: 2381
+    name: ripiocerdit.network
+    url: 'http://ripiocerdit.network/'
+    category: Phishing
+    subcategory: Ripio
+    addresses:
+      - '0x09faf25e57abd0a401bb5a2341d7f926c389f8d1'  
+-
+    id: 2382
+    name: shapishift.io
+    url: 'http://shapishift.io/'
+    category: Phishing
+    subcategory: Shapeshift
+    addresses:
+      - '0x3853ba76ec6ae97818e2d0e0839c9eda6c396690'
+-
+    id: 2383
+    name: bittrex.cash
+    url: 'http://bittrex.cash/'
+    category: Phishing
+    subcategory: Bittrex
+-
+    id: 2384
+    name: ico.ripiocredits.com
+    url: 'http://ico.ripiocredits.com/'
+    category: Phishing
+    subcategory: Ripio
+    addresses:
+      - '0x33f6eE23eE223c4558a95bF4C0e9f5eD21e06319'
+-
+    id: 2385
+    name: ripiocredit.net
+    url: 'http://ripiocredit.net/'
+    category: Phishing
+    subcategory: Ripio
+    addresses:
+      - '0x501577Cd4865D7D50664a1519A79f1c0E7069154'
+-
+    id: 2386
+    name: myetherwallat.services
+    url: 'http://myetherwallat.services/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2387
+    name: senstoken.com
+    url: 'http://senstoken.com/'
+    category: Phishing
+    subcategory: Sense
+    addresses:
+      - '0x22374A2E9E19bcea56E64F9De3329670CD1a458c'
+-
+    id: 2388
+    name: reqest.network
+    url: 'http://reqest.network/'
+    category: Phishing
+    subcategory: Request
+-
+    id: 2389
+    name: riaden.network
+    url: 'http://riaden.network/'
+    category: Phishing
+    subcategory: Raiden
+    addresses:
+      - '0x619f18aEC5f8EeF483fbfe654a269f1186ddA915'
+-
+    id: 2390
+    name: ripiocreditnetwork.co
+    url: 'http://ripiocreditnetwork.co/'
+    category: Phishing
+    subcategory: Ripio
+    addresses:
+      - '0x85704b506E10b10D714eAd28CdE947bAA58F0EA4'
+-
+    id: 2391
+    name: xn--myeherwallet-vk5f.com
+    url: 'http://xn--myeherwallet-vk5f.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2392
+    name: xn--myeherwallt-kbb8039g.com
+    url: 'http://xn--myeherwallt-kbb8039g.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2393
+    name: mycthewallet.com
+    url: 'http://mycthewallet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2394
+    name: xn--yethewallet-iw8ejl.com
+    url: 'http://xn--yethewallet-iw8ejl.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2395
+    name: dentacoin.in
+    url: 'http://dentacoin.in/'
+    category: Phishing
+    subcategory: Dentacoin
+    addresses:
+      - '0xA35e3534917E471540345733B8f23e7bAd54681b'
+-
+    id: 2396
+    name: myetlherwa11et.com
+    url: 'http://myetlherwa11et.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2397
+    name: ripiocredlt.network
+    url: 'http://ripiocredlt.network/'
+    category: Phishing
+    subcategory: Ripio
+    addresses:
+      - '0xa6B60dd3bE491aAfE5AbA8622b35C0eAd608D3FD'
+-
+    id: 2398
+    name: universa.sale
+    url: 'http://universa.sale/'
+    category: Phishing
+    subcategory: Universa
+    addresses:
+      - '0x6D8A1BC0AE09aE5cFd4a7A2a59194598734CEea5'
+-
+    id: 2399
+    name: myethwalet.com
+    url: 'http://myethwalet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2400
+    name: unlversa.io
+    url: 'http://unlversa.io/'
+    category: Phishing
+    subcategory: Universa
+    addresses:
+      - '0x6D8A1BC0AE09aE5cFd4a7A2a59194598734CEea5'
+-
+    id: 2401
+    name: etherdeltla.com
+    url: 'http://etherdeltla.com/'
+    category: Phishing
+    subcategory: EtherDelta
+-
+    id: 2402
+    name: dmarkt.io
+    url: 'http://dmarkt.io/'
+    category: Phishing
+    subcategory: Dmarket
+    addresses:
+      - '0xF3Ae45D5A0B8EfB41444101267b56E6795051FaC'
+-
+    id: 2403
+    name: kraken-wallet.com
+    url: 'http://kraken-wallet.com/'
+    category: Phishing
+    subcategory: Coinbase
+-
+    id: 2404
+    name: metallpay.com
+    url: 'http://metallpay.com/'
+    category: Phishing
+    subcategory: Metal
+-
+    id: 2405
+    name: myethierwallet.org
+    url: 'http://myethierwallet.org/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2406
+    name: utrust.so
+    url: 'http://utrust.so/'
+    category: Phishing
+    subcategory: Utrust
+    addresses:
+      - '0x8A46Aa04725b2E2029bdCb924D671Fd6a9c11daB'
+-
+    id: 2407
+    name: bittrexy.com
+    url: 'http://bittrexy.com/'
+    category: Phishing
+    subcategory: Bittrex
+-
+    id: 2408
+    name: mettalpay.com
+    url: 'http://mettalpay.com/'
+    category: Phishing
+    subcategory: Metal
+-
+    id: 2409
+    name: myetherwalletjson.com
+    url: 'http://myetherwalletjson.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2410
+    name: xn--metherwallet-1vc.com
+    url: 'http://xn--metherwallet-1vc.com/'
+    category: Phishing
+    subcategory: MyEtherWallet    
+-
+    id: 2411
+    name: myetherwalletext.com
+    url: 'http://myetherwalletext.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2412
+    name: myetherwalletmist.com
+    url: 'http://myetherwalletmist.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2413
+    name: linksmartcontract.com
+    url: 'http://linksmartcontract.com/'
+    category: Phishing
+    subcategory: LINK
+-
+    id: 2414
+    name: xn--eterdelta-m75d.com
+    url: 'http://xn--eterdelta-m75d.com/'
+    category: Phishing
+    subcategory: EtherDelta
+-
+    id: 2415
+    name: metelpay.com
+    url: 'http://metelpay.com/'
+    category: Phishing
+    subcategory: Metal
+-
+    id: 2416
+    name: quantslamp.com
+    url: 'http://quantslamp.com/'
+    category: Phishing
+    subcategory: Quantstamp
+    addresses:
+      - '0xda1cC010259496d407a764c381D0E82182D68D89'
+-
+    id: 2417
+    name: myethereumwallets.com
+    url: 'http://myethereumwallets.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2418
+    name: xn--myetherwalet-1fb.com
+    url: 'http://xn--myetherwalet-1fb.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2419
+    name: changellyl.net
+    url: 'http://changellyl.net/'
+    category: Phishing
+    subcategory: Changelly
+-
+    id: 2420
+    name: quantsstamps.com
+    url: 'http://quantsstamps.com'
+    category: Phishing
+    subcategory: QuantStamp
+    addresses:
+      - '0x42ff5fff0e369ef6880875efcacb3b7c77974abc'
+-
+    id: 2421
+    name: xn--quanstamp-tmd.com
+    url: 'https://xn--quanstamp-tmd.com'
+    category: Phishing
+    subcategory: QuantStamp
+    addresses:
+      - '0xEeD7072FCF46733833249D1E979c44fE4F2a23a2'    
+-
+    id: 2422
+    name: myetherumwalletts.com
+    url: 'http://myetherumwalletts.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2423
+    name: myetherwalletmew.com
+    url: 'http://myetherwalletmew.com/'
+    category: Phishing
+    subcategory: MyEtherWallet    
+-
+    id: 2424
+    name: quantstamp.com.ua
+    url: 'https://quantstamp.com.ua'
+    category: Phishing
+    subcategory: QuantStamp
+    addresses:
+      - '0x7c57981AF4cee87567774B53F9da1bFCeb8B944b'    
+-
+    id: 2425
+    name: augur-network.com
+    url: 'http://augur-network.com/'
+    category: Phishing
+    subcategory: Augur 
+-
+    id: 2426
+    name: quantstamp.com.co
+    url: 'https://quantstamp.com.co'
+    category: Phishing
+    subcategory: QuantStamp
+    addresses:
+      - '0xfbc79A80ffA84253611e8f9A82F18e9E93Ceee81'  
+-
+    id: 2427
+    name: xn--bttrex-3va.net
+    url: 'http://xn--bttrex-3va.net/'
+    category: Phishing
+    subcategory: Bittrex 
+-
+    id: 2428
+    name: ethconnect.trade
+    url: 'http://ethconnect.trade/'
+    category: Phishing
+    subcategory: Ethconnect 
+-
+    id: 2429
+    name: ethconnect.live
+    url: 'http://ethconnect.live/'
+    category: Phishing
+    subcategory: Ethconnect 
+    addresses:
+      - '0x943DB403251105195F56cE69c7c48A6320475AB1'  
+-
+    id: 2430
+    name: ether-delta.com
+    url: 'http://ether-delta.com/'
+    category: Phishing
+    subcategory: EtherDelta 
+-    
+    id: 2431
+    name: wancha.in
+    url: 'http://wancha.in/'
+    category: Phishing
+    subcategory: Wanchain
+    addresses:
+      - '0xD754B5Bf41B84Bcb49CB952F858318640aBC60E0'    
+-    
+    id: 2432
+    name: stormtokens.io
+    url: 'http://stormtokens.io/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0x902d0d5bb6a34307bbd1da33e61ae1654b6cbe1e'   
+-    
+    id: 2433
+    name: storm-token.com
+    url: 'http://storm-token.com/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0xF0Fc2d4d550253d8C165C599E0cCCf221c7eb7b5'   
+-    
+    id: 2434
+    name: stromtoken.com
+    url: 'http://stromtoken.com/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0x52005B77fbEBf53cfD9527A388f58d0431AaaA3e'   
+-    
+    id: 2435
+    name: storntoken.com
+    url: 'http://storntoken.com/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0x1E67F055367bcBCe045E1211F09355Eb7411236F'  
+-    
+    id: 2436
+    name: stormtoken.co
+    url: 'http://stormtoken.co/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0x316b3b83c33B20249B61DEd124F2620d8E823793' 
+-    
+    id: 2437
+    name: xn--quanttamp-42b.com
+    url: 'http://xn--quanttamp-42b.com/'
+    category: Phishing
+    subcategory: Quantstamp
+    addresses:
+      - '0x0ae775637e63Fa95855246Fd82e96802D05883Fc' 
+-    
+    id: 2438
+    name: stormltoken.com
+    url: 'http://stormltoken.com/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0x71108Be9C232722Dd6839A6fbaD171cf44d3FfAf' 
+-
+    id: 2439
+    name: saltending.com
+    url: 'http://saltending.com/'
+    category: Phishing
+    subcategory: SALT
+-
+    id: 2440
+    name: omise-go.tech
+    url: 'http://omise-go.tech/'
+    category: Phishing
+    subcategory: OmiseGO
+    description: 'Fake airdrop site, asking for private keys'
+    addresses:
+      - '0x29e225d888cf11c5e67613bffd30bcf071eb3d4a'     
+-    
+    id: 2441
+    name: stormtoken.eu
+    url: 'http://stormtoken.eu/'
+    category: Phishing
+    subcategory: Storm
+    addresses:
+      - '0xA3e52a23060cCDfE186822b52BF60A07451e094e' 
+-
+    id: 2442
+    name: chainlinksmartcontract.com
+    url: 'http://chainlinksmartcontract.com/'
+    category: Phishing
+    subcategory: Chainlink
+-
+    id: 2443
+    name: bitflyerjp.com
+    url: 'http://bitflyerjp.com/'
+    category: Phishing
+    subcategory: Bitflyer
+-    
+    id: 2444
+    name: elite888-ico.com
+    url: 'http://elite888-ico.com/'
+    category: Phishing
+    subcategory: Elite888
+    addresses:
+      - '0xD50fCd07007255599A9A8CedD881F863bcD65eb1' 
+-
+    id: 2445
+    name: walton-chain.org
+    url: 'http://walton-chain.org/'
+    category: Phishing
+    subcategory: Walton
+-
+    id: 2446
+    name: omisegoairdrop.net
+    url: 'http://omisegoairdrop.net/'
+    category: Phishing
+    subcategory: OmiseGo
+-
+    id: 2447
+    name: golemairdrop.com
+    url: 'http://golemairdrop.com/'
+    category: Phishing
+    subcategory: Golem
+-
+    id: 2448
+    name: myetherwailetclient.com
+    url: 'http://myetherwailetclient.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2449
+    name: quantstamp-ico.com
+    url: 'http://quantstamp-ico.com'
+    category: Phishing
+    subcategory: Quanstamp
+    description: 'Fake crowdsale site'
+    addresses:
+      - '0x7F85D875EAF39525004E8Ac2BC1e83786D7Dfd77' 	
+-
+    id: 2450
+    name: metalpayme.com
+    url: 'http://metalpayme.com'
+    category: Phishing
+    subcategory: Metal
+    description: 'Fake Metal Pay airdrop site - asking for private keys'
+-
+    id: 2451
+    name: raiden-network.com
+    url: 'http://raiden-network.com'
+    category: Phishing
+    subcategory: Raiden
+    description: 'Fake Raiden Network airdrop site - asking for private keys'
+    addresses:
+      - '0x4Bf722014E54AeAB05fcF1519E6e4C0c3F742e43'
+-
+    id: 2452
+    name: qauntstamp.com
+    url: 'http://qauntstamp.com'
+    category: Phishing
+    subcategory: Quanstamp
+    description: 'Fake crowdsale site'
+    addresses:
+      - '0x504f1E10da987490Db4f0D92931497f635E240e8' 	
+-
+    id: 2453
+    name: simpletoken.live
+    url: 'http://simpletoken.live'
+    category: Phishing
+    subcategory: Simple
+    description: 'Fake simpletoken.org crowdsale site'
+    addresses:
+      - '0x24C00035b050BeC633287c2bABfBb9f4fE3C8A83' 	
+-
+    id: 2454
+    name: powerledgr.com
+    url: 'http://powerledgr.com'
+    category: Phishing
+    subcategory: Power
+    description: 'Fake power airdrop site - asking for private keys'
+-
+    id: 2455
+    name: spectre-ai.org
+    url: 'http://spectre-ai.org'
+    category: Phishing
+    subcategory: Spectre
+    description: 'Fake spectre.ai site crowd sale site'
+    addresses:
+      - '0x6e3E57E536aab05950774945d9cdBf506865c52f' 
+-
+    id: 2456
+    name: datum.sale
+    url: 'http://datum.sale'
+    category: Phishing
+    subcategory: Datum
+    description: 'Fake datum.network crowdsale site'
+    addresses:
+      - '0x2804e8B4c04c655376D18aDA84d46fC345240E0A' 
+-
+    id: 2457
+    name: myetherwalletfork.com
+    url: 'http://myetherwalletfork.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2458
+    name: xn--zero-zxb.com
+    url: 'http://xn--zero-zxb.com'
+    category: Phishing
+    subcategory: Tzero
+    description: 'Fake tzero crowdsale site'
+    addresses:
+      - '0xA0D67BF1aE91B6b705abD4f695Cc13edAAcd0D02' 
+-
+    id: 2459
+    name: t-zero.org
+    url: 'http://t-zero.org'
+    category: Phishing
+    subcategory: Tzero
+    description: 'Fake tzero crowdsale site'
+    addresses:
+      - '0xe54659243F8542d6ABfd15bbff69f62465786756' 
+      - '0x51DcD13361C5D921D2C4818e419011301e7BE34e' 
+-
+    id: 2460
+    name: autcus.org
+    url: 'http://autcus.org'
+    category: Phishing
+    subcategory: Auctus
+    description: 'Fake auctus crowdsale site'
+    addresses:
+      - '0x784205ACD9423a2044D09E41642A71E087162861' 
+-
+    id: 2461
+    name: bittrex.com11648724328774.cf
+    url: 'http://bittrex.com11648724328774.cf'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex, phishing for login details'
+-
+    id: 2462
+    name: dmarket.pro
+    url: 'http://dmarket.pro'
+    category: Phishing
+    subcategory: Dmarket
+    description: 'Fake dmarket crowdsale site'
+    addresses:
+      - '0xd912289C9F079b0655737a55FD5D745501ECEfc7' 
+-
+    id: 2463
+    name: xn--waxtokn-y8a.com
+    url: 'http://xn--waxtokn-y8a.com'
+    category: Phishing
+    subcategory: Wax
+    description: 'Fake wax crowdsale site'
+    addresses:
+      - '0x1494403137159bb0dc545d11963fDF797ea1eCAb'       
+-
+    id: 2464
+    name: spectre-ai.net
+    url: 'http://spectre-ai.net'
+    category: Phishing
+    subcategory: Spectre
+    description: 'Fake spectre.ai site crowd sale site'
+-
+    id: 2465
+    name: tzero.pw
+    url: 'http://tzero.pw'
+    category: Phishing
+    subcategory: Tzero
+    description: 'Fake tzero crowdsale site'
+-
+    id: 2466
+    name: spectre.site
+    url: 'http://spectre.site'
+    category: Phishing
+    subcategory: Spectre
+    description: 'Fake spectre.ai site crowd sale site'
+    addresses:
+      - '0x43AC6AaE3c5dd21855C3aABe3CADB7dFdCf2E5be'   
+-
+    id: 2467
+    name: ico-tzero.com
+    url: 'http://ico-tzero.com'
+    category: Phishing
+    subcategory: Tzero
+    description: 'Fake tzero crowdsale site'
+    addresses:
+      - '0x51DcD13361C5D921D2C4818e419011301e7BE34e'   
+-
+    id: 2468
+    name: blockstack.network
+    url: 'http://blockstack.network'
+    category: Phishing
+    subcategory: Blockstack
+    description: 'Fake blockstack crowdsale site'
+    addresses:
+      - '0xaD0C88F3313ABbce2185597E87A15f764e948A46'  
+-
+    id: 2469
+    name: tzero.website
+    url: 'http://tzero.website'
+    category: Phishing
+    subcategory: Tzero
+    description: 'Fake tzero crowdsale site'
+-
+    id: 2470
+    name: tzero.su
+    url: 'http://tzero.su'
+    category: Phishing
+    subcategory: Tzero
+    description: 'Fake tzero crowdsale site'
+-
+    id: 2471
+    name: tzero-ico.com
+    url: 'http://tzero-ico.com'
+    category: Phishing
+    subcategory: Tzero
+    description: 'Fake tzero crowdsale site'
+    addresses:
+      - '0x51DcD13361C5D921D2C4818e419011301e7BE34e'  
+-
+    id: 2472
+    name: xn--metherwalet-ns8ez1g.com
+    url: 'http://xn--metherwalet-ns8ez1g.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+-
+    id: 2473
+    name: t0-ico.com
+    url: 'http://0-ico.com'
+    category: Phishing
+    subcategory: Tzero
+    description: 'Fake tzero crowdsale site'
+    addresses:
+      - '0x51DcD13361C5D921D2C4818e419011301e7BE34e'  
+-
+    id: 2474
+    name: bittrex.one
+    url: 'http://bittrex.one'
+    category: Phishing
+    subcategory: Bittex
+-
+    id: 2475
+    name: urtust.io
+    url: 'http://urtust.io'
+    category: Phishing
+    subcategory: Utrust
+    description: 'Fake UTRUST crowdsale site'
+    addresses:
+      - '0x738a4dAAE8d4A640172fAC4F45B41707BD2197be'  
+-
+    id: 2476
+    name: blockstack.one
+    url: 'http://blockstack.one'
+    category: Phishing
+    subcategory: Blockstack
+    description: 'Fake Blockstack crowdsale site'
+    addresses:
+      - '0xea6e18FD3C301e4300BC99B6Db792fcff376Abb4'  
+-
+    id: 2477
+    name: oracles-network.org
+    url: 'http://oracles-network.org'
+    category: Phishing
+    subcategory: Oracles
+    description: 'Fake Oracles crowdsale site'
+    addresses:
+      - '0xc31fB4c352cb68c847715D46D97C1fa2Aa2d0f00' 
+-
+    id: 2478
+    name: shape-shift.io
+    url: 'http://shape-shift.io'
+    category: Phishing
+    subcategory: Shapeshift
+-
+    id: 2479
+    name: sirinlabs.website
+    url: 'http://sirinlabs.website'
+    category: Phishing
+    subcategory: SirinLabs
+-
+    id: 2480
+    name: oracls.network
+    url: 'http://oracls.network'
+    category: Phishing
+    subcategory: Oracles
+    description: 'Fake Oracles crowdsale site'
+    addresses:
+      - '0x1447b1cB205158D98FdBd312b37ed9dd1481fB62' 
+-
+    id: 2481
+    name: requestt.network
+    url: 'http://requestt.network'
+    category: Phishing
+    subcategory: Request
+    description: 'Fake Request airdrop site'    
+-
+    id: 2482
+    name: xn--coinbas-pya.com
+    url: 'http://xn--coinbas-pya.com'
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Fake coinbase site - phishing for logins'    
+-
+    id: 2483
+    name: bitstannp.net
+    url: 'http://bitstannp.net'
+    category: Phishing
+    subcategory: Bitstamp
+    description: 'Fake bitstamp site - phishing for logins - https://twitter.com/Bitstamp/status/933401197171675136'    
+-
+    id: 2484
+    name: xn--myetherwllet-0cb.com
+    url: 'http://xn--myetherwllet-0cb.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - https://twitter.com/phishingalert/status/933618502178672640'  
+-
+    id: 2485
+    name: envoin.org
+    url: 'http://envoin.org'
+    category: Phishing
+    subcategory: Envion
+    description: 'Fake Envion crowdsale site'
+    addresses:
+      - '0x25CE2252a80c1c4FDf12FD9c608858c23b3094Ef' 
+-
+    id: 2486
+    name: coinbasenews.co.uk
+    url: 'http://coinbasenews.co.uk'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'URL redirect to a fake MEW' 
+-
+    id: 2487
+    name: xn--metherwallet-hmb.com
+    url: 'http://xn--metherwallet-hmb.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - Bot message through Slack'     
+-
+    id: 2488
+    name: shapeshlft.com
+    url: 'http://shapeshlft.com'
+    category: Phishing
+    subcategory: Shapeshift
+    description: 'Fake Shapeshift site' 
+-
+    id: 2489
+    name: xn--changely-j59c.com
+    url: 'http://xn--changely-j59c.com'
+    category: Phishing
+    subcategory: Changelly
+    description: 'Fake Changelly site' 
+-
+    id: 2490
+    name: quamtstamp.com
+    url: 'http://quamtstamp.com'
+    category: Phishing
+    subcategory: Quantstamp
+    description: 'Fake Quantstamp airdrop site - also linking to fake MEW sites' 
+-
+    id: 2491
+    name: xn--myeherwallet-4j5f.com
+    url: 'http://xn--myeherwallet-4j5f.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW' 
+-
+    id: 2492
+    name: powerledgerr.com
+    url: 'http://powerledgerr.com'
+    category: Phishing
+    subcategory: Powerledger
+    description: 'Fake airdrop site - linking to fake MEW sites' 
+-
+    id: 2493
+    name: ethereumstorage.net
+    url: 'http://ethereumstorage.net'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet stealing private keys with process.php' 
+-
+    id: 2494
+    name: gladius.im
+    url: 'http://gladius.im'
+    category: Phishing
+    subcategory: Gladius
+    description: 'Fake Gladius token sale site' 
+    addresses:
+      - '0x55456cBd1F11298B80A53c896F4B1dC9Bc16c731' 
+-
+    id: 2495
+    name: wabitoken.com
+    url: 'http://wabitoken.com'
+    category: Phishing
+    subcategory: Wabi
+    description: 'Fake Wabi token sale site' 
+    addresses:
+      - '0x57DCF20135B0Cb9D167e8ebFe13b84bfD67645ed' 
+-
+    id: 2496
+    name: tokensale.gizer.in
+    url: 'http://tokensale.gizer.in'
+    category: Phishing
+    subcategory: Gizer
+    description: 'Fake Gizer token sale site' 
+    addresses:
+      - '0xa2A3a8e4a1877da1C913df7591ac0D72f27D4510' 
+-
+    id: 2497
+    name: quanttstamp.com
+    url: 'http://quanttstamp.com'
+    category: Phishing
+    subcategory: Quantstamp
+    description: 'Fake Quantstamp airdrop site - linking to fake MEW' 
+-
+    id: 2498
+    name: t0zero.com
+    url: 'http://t0zero.com'
+    category: Phishing
+    subcategory: Tzero
+    description: 'Fake tzero crowdsale site'
+-
+    id: 2499
+    name: ico-wacoin.com
+    url: 'http://ico-wacoin.com'
+    category: Phishing
+    subcategory: Wabi
+    description: 'Fake Wabi token sale site' 
+    addresses:
+      - '0x1cea7999fdafe5d156952ebf1816e8aa67a5485e' 
+-
+    id: 2500
+    name: xn--myeterwalet-nl8enj.com
+    url: 'http://xn--myeterwalet-nl8enj.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW (IDN homograph attack)'
+-
+    id: 2501
+    name: nnyetherwallelt.ru.com
+    url: 'http://nnyetherwallelt.ru.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2502
+    name: bitclaive.com
+    url: 'http://bitclaive.com'
+    category: Phishing
+    subcategory: BitClave
+    description: 'Fake BitClave crowdsale site' 
+    addresses:
+      - '0xAb1C30cd2d9964b3B845ef744E2E4043739430e5'
+-
+    id: 2503
+    name: qauntstanp.com
+    url: 'http://qauntstanp.com'
+    category: Phishing
+    subcategory: Quantstamp
+    description: 'Fake Quantstamp site'
+-
+    id: 2504
+    name: gladius.ws
+    url: 'http://gladius.ws'
+    category: Phishing
+    subcategory: Gladius
+    description: 'Fake Gladius token sale site'
+    addresses:
+      - '0x55456cBd1F11298B80A53c896F4B1dC9Bc16c731'
+-
+    id: 2505
+    name: myerherwalet.com
+    url: 'http://myerherwalet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2506
+    name: xn--mytherwallet-2d6f.com
+    url: 'http://xn--mytherwallet-2d6f.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2507
+    name: xn--cointeegraph-wz4f.com
+    url: 'http://xn--cointeegraph-wz4f.com'
+    category: Phishing
+    subcategory: Cointelegraph
+    description: 'Fake Cointelegraph, fake article on MEW, pointing to a fake MEW'
+-
+    id: 2508
+    name: powerrledger.com
+    url: 'http://powerrledger.com'
+    category: Phishing
+    subcategory: Powerledger
+    description: 'Fake Power ledger airdrop site'
+-
+    id: 2509
+    name: xn--btrex-b4a.com
+    url: 'http://xn--btrex-b4a.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex (IDN homograph attack)'
+-
+    id: 2510
+    name: myethlerwallet.eu
+    url: 'http://myethlerwallet.eu'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2511
+    name: xn--myethrwllet-2kb3p.com
+    url: 'http://xn--myethrwllet-2kb3p.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2512
+    name: xn--metherwallt-79a30a.com
+    url: 'http://xn--metherwallt-79a30a.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2513
+    name: raiden-network.org
+    url: 'http://raiden-network.org'
+    category: Phishing
+    subcategory: Raiden
+    description: 'Fake Raiden Network Site'
+-
+    id: 2514
+    name: xn--birex-leba.com
+    url: 'http://xn--birex-leba.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex login Site'
+-
+    id: 2515
+    name: xn--polonex-ffb.com
+    url: 'http://xn--polonex-ffb.com'
+    category: Phishing
+    subcategory: Poloniex
+    description: 'Fake Poloniex login Site'
+-
+    id: 2516
+    name: xn--myetherwalet-39b.com
+    url: 'http://xn--myetherwalet-39b.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2517
+    name: xn--myeherwalle-vici.com
+    url: 'http://xn--myeherwalle-vici.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2518
+    name: tokensale.gamefllp.com
+    url: 'http://tokensale.gamefllp.com'
+    category: Phishing
+    subcategory: Gameflip
+    description: 'Fake Gameflip token sale site'
+    addresses:
+      - '0x9D0b8447f16d6bC1de2B52d63e9c487bD778a91D'
+-
+    id: 2519
+    name: qlink-ico.com
+    url: 'http://qlink-ico.com'
+    category: Phishing
+    subcategory: Qlink
+    description: 'Fake Qlink token sale site'
+    addresses:
+      - '0xeB8b629Df028f5353649460F1c06bF394dE8641f'
+-
+    id: 2520
+    name: xn--myeherwalet-ms8eyy.com
+    url: 'http://xn--myeherwalet-ms8eyy.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2521
+    name: powrrledger.com
+    url: 'http://powrrledger.com'
+    category: Phishing
+    subcategory: Powerledger
+    description: 'Fake Power ledger airdrop site'
+-
+    id: 2522
+    name: mobus.network
+    url: 'http://mobus.network'
+    category: Phishing
+    subcategory: Mobius
+    description: 'Fake Mobius token sale site'
+    addresses:
+      - '0xa5797eA738AbF85Db7B3f2e04A4a40A5180044A8'
+-
+    id: 2523
+    name: hellobloom.me
+    url: 'http://hellobloom.me'
+    category: Phishing
+    subcategory: Hellobloom
+    description: 'Fake HelloBloom token sale site'
+    addresses:
+      - '0x51DcD13361C5D921D2C4818e419011301e7BE34e'
+-
+    id: 2524
+    name: superbitcoin-blockchain.info
+    url: 'http://superbitcoin-blockchain.info'
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake blockchain site'
+-
+    id: 2525
+    name: xn--myetherwalle-xoc.com
+    url: 'http://xn--myetherwalle-xoc.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2526
+    name: powrerledger.com
+    url: 'http://powrerledger.com'
+    category: Phishing
+    subcategory: Powerledger
+    description: 'Fake Power ledger airdrop site'
+-
+    id: 2527
+    name: xn--myeterwalet-nl8emj.com
+    url: 'http://xn--myeterwalet-nl8emj.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2528
+    name: sirinlabs.pro
+    url: 'http://sirinlabs.pro'
+    category: Phishing
+    subcategory: SirinLabs
+    description: 'Fake SirinLabs token sale site'
+-
+    id: 2529
+    name: sirintabs.com
+    url: 'http://sirintabs.com'
+    category: Phishing
+    subcategory: SirinLabs
+    description: 'Fake SirinLabs token sale site'
+-
+    id: 2530
+    name: propsproject.tech
+    url: 'http://propsproject.tech'
+    category: Phishing
+    subcategory: Props
+    description: 'Fake PROPSProject token sale site'
+    addresses:
+      - '0x57DCF20135B0Cb9D167e8ebFe13b84bfD67645ed'
+-
+    id: 2531
+    name: redpulsetoken.co
+    url: 'http://redpulsetoken.co'
+    category: Phishing
+    subcategory: Redpulse
+    description: 'Fake Red-Pulse airdrop site asking for private keys'
+-
+    id: 2532
+    name: xn--metherwalet-ns8ep4b.com
+    url: 'http://xn--metherwalet-ns8ep4b.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2533
+    name: decentralland.org
+    url: 'http://decentralland.org/'
+    category: Phishing
+    subcategory: Decentraland
+    description: 'Fake Decentraland airdrop site'    
+-
+    id: 2534
+    name: propsprojects.com
+    url: 'http://propsprojects.com'
+    category: Phishing
+    subcategory: Props
+    description: 'Fake PROPSProject token sale site'
+    addresses:
+      - '0xfCDd417b449C982Fc9b6d7B117E417682E81b627'
+-
+    id: 2535
+    name: propsproject.org
+    url: 'http://propsproject.org'
+    category: Phishing
+    subcategory: Props
+    description: 'Fake PROPSProject token sale site'    
+    addresses:
+      - '0x72A66Bba491F0C696c4c4e3154D07B241d371944'
+-
+    id: 2536
+    name: sirin-labs.com
+    url: 'http://sirin-labs.com'
+    category: Phishing
+    subcategory: SirinLabs
+    description: 'Fake SirinLabs token sale site'
+    addresses:
+      - '0xeacEB8e777dC8b1c11b8730904D13fBDA070846f'
+      - '0x0A78fa6Dab70385dD46fbDD20DA5d868EB43F904'
+-
+    id: 2537
+    name: xn--myetherwllet-fnb.com
+    url: 'http://xn--myetherwllet-fnb.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2538
+    name: sirinlabs.co
+    url: 'http://sirinlabs.co'
+    category: Phishing
+    subcategory: SirinLabs
+    description: 'Fake SirinLabs token sale site'
+    addresses:
+      - '0xEed48722238b98317D849fA591D96B7efBE9B06F'
+-
+    id: 2539
+    name: envlon.org
+    url: 'http://envlon.org'
+    category: Phishing
+    subcategory: Envion
+    description: 'Fake Envion token sale site'
+    addresses:
+      - '0x0D502F90C0a740b9C069ddec1c436D483ED7ab8E'
+-
+    id: 2540
+    name: sirnlabs.com
+    url: 'http://sirnlabs.com'
+    category: Phishing
+    subcategory: SirinLabs
+    description: 'Fake SirinLabs token sale site'
+    addresses:
+      - '0xb37722E14FcFc78A56312A9a746C5474822002F2'
+-
+    id: 2541
+    name: spectivvr.org
+    url: 'http://spectivvr.org'
+    category: Phishing
+    subcategory: Spectiv
+    description: 'Fake Spectiv token sale site'
+-
+    id: 2542
+    name: xn--envon-1sa.org
+    url: 'http://xn--envon-1sa.org'
+    category: Phishing
+    subcategory: Envion
+    description: 'Fake Envion token sale site'
+    addresses:
+      - '0x0387cfC283fFcF25A4a6A61E832545Bbeb7c8fdA'
+-
+    id: 2543
+    name: ethereumchain.info
+    url: 'http://ethereumchain.info'
+    category: Phishing
+    subcategory: Ethereum
+    description: 'Fake Ethereum site'
+-
+    id: 2544
+    name: xn--btstamp-rfb.net
+    url: 'http://xn--btstamp-rfb.net'
+    category: Phishing
+    subcategory: Bitstamp
+    description: 'Fake bitstamp site - IDN homograph attack'    
+-
+    id: 2545
+    name: sirinlbs.com
+    url: 'http://sirinlbs.com'
+    category: Phishing
+    subcategory: SirinLabs
+    description: 'Fake SirinLabs token sale site'
+    addresses:
+      - '0xa7a020aE798A0a026c57eD6cBE48b21D3DBBEc5B'
+-
+    id: 2546
+    name: envion.cc
+    url: 'http://envion.cc'
+    category: Phishing
+    subcategory: Envion
+    description: 'Fake Envion token sale site'
+-
+    id: 2547
+    name: envion.site
+    url: 'http://envion.site'
+    category: Phishing
+    subcategory: Envion
+    description: 'Fake Envion token sale site'
+-
+    id: 2548
+    name: envion.co
+    url: 'http://envion.co'
+    category: Phishing
+    subcategory: Envion
+    description: 'Fake Envion token sale site'
+    addresses:
+      - '0x8c9d299cc3C2111499416Cf4E3677328486cFac2'
+-
+    id: 2549
+    name: xn--plonex-6va6c.com
+    url: 'http://xn--plonex-6va6c.comt'
+    category: Phishing
+    subcategory: Poloniex
+    description: 'Fake Poloniex site - IDN homograph attack'    
+-
+    id: 2550
+    name: ethereum-code.com
+    url: 'http://ethereum-code.com'
+    category: Phishing
+    subcategory: ?
+    description: 'Using Ethereum name guaranteeing $10k a week'   
+-
+    id: 2551
+    name: changellyli.com
+    url: 'http://changellyli.com'
+    category: Phishing
+    subcategory: Changelly
+    description: 'Fake Changelly site'
+    addresses:
+      - '0x4C191DCa6cecFA1e55CAA3CF178eea52728B13E7'
+-
+    id: 2552
+    name: gatcoin.in
+    url: 'http://gatcoin.in'
+    category: Phishing
+    subcategory: Gatcoin
+    description: 'Fake Gatcoin token sale site'  
+-
+    id: 2553
+    name: xn--nvion-hza.org
+    url: 'http://xn--nvion-hza.org'
+    category: Phishing
+    subcategory: Envion
+    description: 'Fake Envion token sale site'
+    addresses:
+      - '0x514E9CA5406F112aBa902b0CbA87395b914D861e'
+-
+    id: 2554
+    name: envion-ico.org
+    url: 'http://envion-ico.org'
+    category: Phishing
+    subcategory: Envion
+    description: 'Fake Envion token sale site'
+    addresses:
+      - '0x0387cfC283fFcF25A4a6A61E832545Bbeb7c8fdA'
+-
+    id: 2555
+    name: paxful.com.ng
+    url: 'http://paxful.com.ng'
+    category: Scam
+    subcategory: Paxful
+    description: 'Fake Paxful site' 
+-
+    id: 2556
+    name: tronlab.co
+    url: 'http://tronlab.co'
+    category: Phishing
+    subcategory: Tron
+    description: 'Fake Tron airdrop site asking for private keys'
+-
+    id: 2557
+    name: envion.live
+    url: 'http://envion.live'
+    category: Phishing
+    subcategory: Envion
+    description: 'Fake Envion token sale site'
+-
+    id: 2558
+    name: sirin-labs.org
+    url: 'http://sirin-labs.org'
+    category: Phishing
+    subcategory: SirinLabs
+    description: 'Fake SirinLabs token sale site'
+    addresses:
+      - '0x2bcC8aefa2fc9D8E52DaD098778Bb0A8D08a4aA3'
+-
+    id: 2559
+    name: sirinslabs.com
+    url: 'http://sirinslabs.com'
+    category: Phishing
+    subcategory: SirinLabs
+    description: 'Fake SirinLabs token sale site'
+-
+    id: 2560
+    name: wabicoin.co
+    url: 'http://wabicoin.co'
+    category: Phishing
+    subcategory: Wabi
+    description: 'Fake Wabi airdrop site asking for private keys'
+    addresses:
+      - '0x29e225d888cf11c5e67613bffd30bcf071eb3d4a'
+-
+    id: 2561
+    name: ethtools.com
+    url: 'http://ethtools.com'
+    category: Phishing
+    subcategory: Ethtools
+    description: 'Asking for private keys to use various tools'
+-
+    id: 2562
+    name: canay.io
+    url: 'http://canay.io'
+    category: Phishing
+    subcategory: Canya
+    description: 'Fake Canya crowdsale site - https://blog.canya.com.au/2017/12/18/security-alert-beware-sophisticated-phishing-scam/'
+-
+    id: 2563
+    name: singularitynet.in
+    url: 'http://singularitynet.in'
+    category: Phishing
+    subcategory: SingularityNET
+    description: 'Fake SingularityNET crowdsale site'
+-
+    id: 2564
+    name: kittystat.com
+    url: 'http://kittystat.com'
+    category: Phishing
+    subcategory: Cryptokitties
+    description: 'Asking for private keys to verify your kitties'
+-
+    id: 2565
+    name: singularty.net
+    url: 'http://singularty.net'
+    category: Phishing
+    subcategory: Singularity
+    description: 'Fake Singularity crowdsale site'
+    addresses:
+      - '0x7F2b4801c338A7B3cc322bFAf151aFea8708E8e0'
+-
+    id: 2566
+    name: iconfoundation.io
+    url: 'http://iconfoundation.io'
+    category: Phishing
+    subcategory: Icon
+    description: 'Fake Icon airdrop site asking for private keys'
+-
+    id: 2567
+    name: envion.top
+    url: 'http://envion.top'
+    category: Phishing
+    subcategory: Envion
+    description: 'Fake Envion token sale site'
+    addresses:
+      - '0xdbe6dba965afc52f5b3d51e4b15e372f45d4106a'
+-
+    id: 2568
+    name: envion.one
+    url: 'http://envion.one'
+    category: Phishing
+    subcategory: Envion
+    description: 'Fake Envion token sale site'
+    addresses:
+      - '0x9441A81FB67f44Ce7B31C311317e136E7067F8cA'
+-
+    id: 2569
+    name: xn--yeterwallet-bm8ewn.com
+    url: 'http://xn--yeterwallet-bm8ewn.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2570
+    name: myltherwallet.ru.com
+    url: 'http://myltherwallet.ru.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2571
+    name: xn--yeterwallet-ml8euo.com
+    url: 'http://xn--yeterwallet-ml8euo.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2572
+    name: ripiocreditnetwork.in
+    url: 'http://ripiocreditnetwork.in/'
+    category: Phishing
+    subcategory: Ripio
+    description: 'Fake Ripio airdrop site, linking to fake MEW'    
