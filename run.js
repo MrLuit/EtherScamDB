@@ -38,9 +38,9 @@ function getCache(callback = false) {
         if (callback) {
             callback();
         }
-    } else if ((new Date().getTime() - cache.updated) < 1000 * 60 * 60 * 2) {
+    } else if ((new Date().getTime() - cache.updated) < config.cache_refreshing_interval) {
         return cache;
-    } else if ((new Date().getTime() - cache.updated) >= 1000 * 60 * 60 * 2) {
+    } else if ((new Date().getTime() - cache.updated) >= config.cache_refreshing_interval) {
         spawn('node', ['update.js']);
         return cache;
     }
@@ -387,7 +387,7 @@ function startWebServer() {
             template = template.replace("{{ scam.googlethreat }}", '');
 			template = template.replace("{{ scam.screenshot }}",'');
         }
-        actions_text += '<a target="_blank" href="https://github.com/MrLuit/EtherScamDB/blob/v2/_data/scams.yaml" class="ui icon secondary button"><i class="write alternate icon"></i> Improve</a><button id="share" class="ui icon secondary button"><i class="share alternate icon"></i> Share</button>';
+        actions_text += '<a target="_blank" href="https://github.com/' + config.repository.author + '/' + config.repository.name + '/blob/' + config.repository.branch + '/_data/scams.yaml" class="ui icon secondary button"><i class="write alternate icon"></i> Improve</a><button id="share" class="ui icon secondary button"><i class="share alternate icon"></i> Share</button>';
         template = template.replace("{{ scam.actions }}", '<div id="actions" class="eight wide column">' + actions_text + '</div>');
 		if('Google_SafeBrowsing_API_Key' in config && config.Google_SafeBrowsing_API_Key) {
 			var options = {
@@ -568,26 +568,27 @@ function startWebServer() {
     });
 	
 	app.get('/update/', function(req, res) { // New github update?
-		if('hook' in req.body && 'config' in req.body.hook && 'secret' in req.body.hook.config && fs.existsSync('/root/key.txt') && fs.readFileSync('/root/key.txt','utf8') == req.body.hook.config.secret) {
-			download("https://raw.githubusercontent.com/MrLuit/EtherScamDB/v2/_data/scams.yaml", { directory: "_data/", filename: "scams.yaml" }, function(err){
+		if('hook' in req.body && 'config' in req.body.hook && 'secret' in req.body.hook.config && 'Github_Hook_Secret' in config && config.Github_Hook_Secret && config.Github_Hook_Secret == req.body.hook.config.secret) {
+			download("https://raw.githubusercontent.com/" + config.repository.author + "/" + config.repository.name + "/" + config.repository.branch + "/_data/scams.yaml", { directory: "_data/", filename: "scams.yaml" }, function(err){
 				if (err) throw err;
-				download("https://github.com/MrLuit/EtherScamDB/blob/v2/_data/legit_urls.yaml", { directory: "_data/", filename: "legit_urls.yaml" }, function(err){
+				download("https://raw.githubusercontent.com/" + config.repository.author + "/" + config.repository.name + "/" + config.repository.branch + "/_data/legit_urls.yaml", { directory: "_data/", filename: "legit_urls.yaml" }, function(err){
 					if (err) throw err;
+						res.status(200).end();
 						spawn('node', ['update.js']);
 					});
 			});
 		} else {
+			res.status(500).end();
 			console.log('Failed update attempt');
 		}
-        res.end();
     });
 
     app.get('*', function(req, res) { // Serve all other pages as 404
         res.status(404).send(default_template.replace('{{ content }}', fs.readFileSync('./_layouts/404.html', 'utf8')));
     });
 
-    app.listen(8080, function() { // Listen on port 8080
-        console.log('Content served on http://localhost:8080');
+    app.listen(config.port, function() { // Listen on port (defined in config)
+        console.log('Content served on http://localhost:' + config.port);
     });
 }
 
