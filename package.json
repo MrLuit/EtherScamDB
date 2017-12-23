@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "main": "generate.js",
   "dependencies": {
-    "connect": "^3.6.2",
+    "body-parser": "^1.18.2",
     "dateformat": "^2.0.0",
-    "graceful-fs": "^4.1.11",
-    "htmlmin": "0.0.7",
+    "download-file": "^0.1.5",
+    "eth-phishing-detect": "^1.1.12",
+    "express": "^4.15.4",
     "js-yaml": "^3.9.0",
-    "request": "^2.81.0",
-    "serve-static": "^1.12.3",
+    "request": "^2.83.0",
+    "rimraf": "^2.6.2",
+    "shuffle-array": "^1.0.1",
     "url": "^0.11.0",
-    "whois": "^2.4.1"
+    "webshot": "^0.18.0"
   }
 }
