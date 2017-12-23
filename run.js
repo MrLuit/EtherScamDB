@@ -3,8 +3,10 @@
 const fs = require('fs');
 const express = require('express');
 const dateFormat = require('dateformat');
+const bodyParser = require('body-parser');
 const url = require('url');
 const spawn = require('child_process').spawn;
+const download = require('download-file');
 const rimraf = require('rimraf');
 const metamaskBlocked = require('eth-phishing-detect');
 const app = express();
@@ -70,6 +72,8 @@ function generateAbuseReport(scam) {
 /* Start the web server */
 function startWebServer() {
     app.use(express.static('_static')); // Serve all static pages first
+	
+	app.use(bodyParser.json()); // to support JSON-encoded bodies
 
     app.get('/(/|index.html)?', function(req, res) { // Serve index.html
         res.send(default_template.replace('{{ content }}', fs.readFileSync('./_layouts/index.html', 'utf8')));
@@ -510,6 +514,21 @@ function startWebServer() {
                 error: 'Unknown API type'
             }));
         }
+    });
+	
+	app.get('/update/', function(req, res) { // New github update?
+		if('hook' in req.body && 'config' in req.body.hook && 'secret' in req.body.hook.config && fs.existsSync('/root/key.txt') && fs.readFileSync('/root/key.txt','utf8') == req.body.hook.config.secret) {
+			download("https://raw.githubusercontent.com/MrLuit/EtherScamDB/v2/_data/scams.yaml", { directory: "_data/", filename: "scams.yaml" }, function(err){
+				if (err) throw err;
+				download("https://github.com/MrLuit/EtherScamDB/blob/v2/_data/legit_urls.yaml", { directory: "_data/", filename: "legit_urls.yaml" }, function(err){
+					if (err) throw err;
+						spawn('node', ['update.js']);
+					});
+			});
+		} else {
+			console.log('Failed update attempt');
+		}
+        res.end();
     });
 
     app.get('*', function(req, res) { // Serve all other pages as 404
