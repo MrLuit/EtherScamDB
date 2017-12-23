@@ -1,6 +1,6 @@
 'use strict';
 
-const fs = require('fs');
+const fs = require('fs-extra');
 const express = require('express');
 const dateFormat = require('dateformat');
 const bodyParser = require('body-parser');
@@ -9,9 +9,12 @@ const spawn = require('child_process').spawn;
 const download = require('download-file');
 const rimraf = require('rimraf');
 const metamaskBlocked = require('eth-phishing-detect');
+const request = require('request');
 const app = express();
 const default_template = fs.readFileSync('./_layouts/default.html', 'utf8');
 let cache;
+checkConfig();
+const config = require('./config');
 
 /* See if there's an up-to-date cache, otherwise run `update.js` to create one. */
 function getCache(callback = false) {
@@ -66,6 +69,15 @@ function generateAbuseReport(scam) {
     }
     abusereport += "\r\n\r\nPlease shut down this domain so further attacks will be prevented.";
     return abusereport;
+}
+
+/*  Copy config.example.js to config.js, if it does not exist yet */
+function checkConfig() {
+    if (!fs.existsSync('config.js')) {
+        fs.copySync('config.example.js', 'config.js');
+		console.log('Config file was copied. Please update with correct values');
+		process.abort();
+    }
 }
 
 /* Start the web server */
@@ -364,7 +376,7 @@ function startWebServer() {
             actions_text += '<button id="gen" class="ui icon secondary button"><i class="setting icon"></i> Abuse Report</button>';
             actions_text += '<a target="_blank" href="http://web.archive.org/web/*/' + url.parse(scam.url).hostname + '" class="ui icon secondary button"><i class="archive icon"></i> Archive</a>';
             template = template.replace("{{ scam.url }}", '<b>URL</b>: <a id="url" target="_blank" href="/redirect/' + encodeURIComponent(scam.url) + '">' + scam.url + '</a><BR>');
-            template = template.replace("{{ scam.googlethreat }}", "<b>Google Safe Browsing</b>: <span id='googleblocked'>loading...</span><BR>");
+            template = template.replace("{{ scam.googlethreat }}", "<b>Google Safe Browsing</b>: {{ scam.googlethreat }}<BR>");
             template = template.replace("{{ scam.metamask }}", "<b>MetaMask Status:</b> " + (metamaskBlocked(url.parse(scam.url).hostname) ? "<span style='color:green'>Blocked</span>" : "<span style='color:red'>Not Blocked</span>") + "<br />");
 			if('status' in scam && scam.status != 'Offline' && fs.existsSync('_cache/screenshots/' + scam.id + '.png')) {
 				template = template.replace("{{ scam.screenshot }}",'<h3>Screenshot</h3><img src="/screenshot/' + scam.id + '.png">');
@@ -377,7 +389,36 @@ function startWebServer() {
         }
         actions_text += '<a target="_blank" href="https://github.com/MrLuit/EtherScamDB/blob/v2/_data/scams.yaml" class="ui icon secondary button"><i class="write alternate icon"></i> Improve</a><button id="share" class="ui icon secondary button"><i class="share alternate icon"></i> Share</button>';
         template = template.replace("{{ scam.actions }}", '<div id="actions" class="eight wide column">' + actions_text + '</div>');
-        res.send(default_template.replace('{{ content }}', template));
+		var options = {
+			uri: 'https://safebrowsing.googleapis.com/v4/threatMatches:find?key=' + config.Google_SafeBrowsing_API_Key,
+			method: 'POST',
+			json: {
+                client: {
+                    clientId: "Ethereum Scam Database",
+                    clientVersion: "1.0.0"
+                },
+                threatInfo: {
+                    threatTypes: ["THREAT_TYPE_UNSPECIFIED", "MALWARE", "SOCIAL_ENGINEERING", "UNWANTED_SOFTWARE", "POTENTIALLY_HARMFUL_APPLICATION"],
+                    platformTypes: ["ANY_PLATFORM"],
+                    threatEntryTypes: ["THREAT_ENTRY_TYPE_UNSPECIFIED", "URL", "EXECUTABLE"],
+                    threatEntries: [{
+                        "url": scam.url
+                    }]
+                }
+            }
+		};
+		request(options, function (error, response, body) {
+			if (!error && response.statusCode == 200) {
+				if('matches' in body && 0 in body.matches) {
+					//$("#googleblocked").css("color", "green");
+					template = template.replace("{{ scam.googlethreat }}","<span class='class_offline'>Blocked for " + body.matches[0]['threatType'] + '</span>');
+				} else {
+					//$("#googleblocked").css("color", "red");
+					template = template.replace("{{ scam.googlethreat }}","<span class='class_active'>Not Blocked</span> <a target='_blank' href='https://safebrowsing.google.com/safebrowsing/report_phish/'><i class='warning sign icon'></i></a>");
+				}
+			}
+			res.send(default_template.replace('{{ content }}', template));
+		});
     });
 
     app.get('/ip/:ip/', function(req, res) { // Serve /ip/<ip>/
