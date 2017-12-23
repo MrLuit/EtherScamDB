@@ -389,36 +389,39 @@ function startWebServer() {
         }
         actions_text += '<a target="_blank" href="https://github.com/MrLuit/EtherScamDB/blob/v2/_data/scams.yaml" class="ui icon secondary button"><i class="write alternate icon"></i> Improve</a><button id="share" class="ui icon secondary button"><i class="share alternate icon"></i> Share</button>';
         template = template.replace("{{ scam.actions }}", '<div id="actions" class="eight wide column">' + actions_text + '</div>');
-		var options = {
-			uri: 'https://safebrowsing.googleapis.com/v4/threatMatches:find?key=' + config.Google_SafeBrowsing_API_Key,
-			method: 'POST',
-			json: {
-                client: {
-                    clientId: "Ethereum Scam Database",
-                    clientVersion: "1.0.0"
-                },
-                threatInfo: {
-                    threatTypes: ["THREAT_TYPE_UNSPECIFIED", "MALWARE", "SOCIAL_ENGINEERING", "UNWANTED_SOFTWARE", "POTENTIALLY_HARMFUL_APPLICATION"],
-                    platformTypes: ["ANY_PLATFORM"],
-                    threatEntryTypes: ["THREAT_ENTRY_TYPE_UNSPECIFIED", "URL", "EXECUTABLE"],
-                    threatEntries: [{
-                        "url": scam.url
-                    }]
-                }
-            }
-		};
-		request(options, function (error, response, body) {
-			if (!error && response.statusCode == 200) {
-				if('matches' in body && 0 in body.matches) {
-					//$("#googleblocked").css("color", "green");
-					template = template.replace("{{ scam.googlethreat }}","<span class='class_offline'>Blocked for " + body.matches[0]['threatType'] + '</span>');
-				} else {
-					//$("#googleblocked").css("color", "red");
-					template = template.replace("{{ scam.googlethreat }}","<span class='class_active'>Not Blocked</span> <a target='_blank' href='https://safebrowsing.google.com/safebrowsing/report_phish/'><i class='warning sign icon'></i></a>");
+		if('Google_SafeBrowsing_API_Key' in config && config.Google_SafeBrowsing_API_Key) {
+			var options = {
+				uri: 'https://safebrowsing.googleapis.com/v4/threatMatches:find?key=' + config.Google_SafeBrowsing_API_Key,
+				method: 'POST',
+				json: {
+					client: {
+						clientId: "Ethereum Scam Database",
+						clientVersion: "1.0.0"
+					},
+					threatInfo: {
+						threatTypes: ["THREAT_TYPE_UNSPECIFIED", "MALWARE", "SOCIAL_ENGINEERING", "UNWANTED_SOFTWARE", "POTENTIALLY_HARMFUL_APPLICATION"],
+						platformTypes: ["ANY_PLATFORM"],
+						threatEntryTypes: ["THREAT_ENTRY_TYPE_UNSPECIFIED", "URL", "EXECUTABLE"],
+						threatEntries: [{
+							"url": scam.url
+						}]
+					}
 				}
-			}
+			};
+			request(options, function (error, response, body) {
+				if (!error && response.statusCode == 200) {
+					if('matches' in body && 0 in body.matches) {
+						template = template.replace("{{ scam.googlethreat }}","<span class='class_offline'>Blocked for " + body.matches[0]['threatType'] + '</span>');
+					} else {
+						template = template.replace("{{ scam.googlethreat }}","<span class='class_active'>Not Blocked</span> <a target='_blank' href='https://safebrowsing.google.com/safebrowsing/report_phish/'><i class='warning sign icon'></i></a>");
+					}
+				}
+				res.send(default_template.replace('{{ content }}', template));
+			});
+		} else {
+			console.log("Warning: No Google Safe Browsing API key found");
 			res.send(default_template.replace('{{ content }}', template));
-		});
+		}
     });
 
     app.get('/ip/:ip/', function(req, res) { // Serve /ip/<ip>/
