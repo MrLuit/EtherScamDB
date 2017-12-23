@@ -375,7 +375,7 @@ function startWebServer() {
             template = template.replace("{{ scam.googlethreat }}", '');
 			template = template.replace("{{ scam.screenshot }}",'');
         }
-        actions_text += '<button id="share" class="ui icon secondary button"><i class="share alternate icon"></i> Share</button>';
+        actions_text += '<a target="_blank" href="https://github.com/MrLuit/EtherScamDB/blob/v2/_data/scams.yaml" class="ui icon secondary button"><i class="write alternate icon"></i> Improve</a><button id="share" class="ui icon secondary button"><i class="share alternate icon"></i> Share</button>';
         template = template.replace("{{ scam.actions }}", '<div id="actions" class="eight wide column">' + actions_text + '</div>');
         res.send(default_template.replace('{{ content }}', template));
     });
