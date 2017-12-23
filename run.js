@@ -11,7 +11,6 @@ const rimraf = require('rimraf');
 const metamaskBlocked = require('eth-phishing-detect');
 const app = express();
 const default_template = fs.readFileSync('./_layouts/default.html', 'utf8');
-const auto_update = true;
 let cache;
 
 /* See if there's an up-to-date cache, otherwise run `update.js` to create one. */
@@ -72,6 +71,8 @@ function generateAbuseReport(scam) {
 /* Start the web server */
 function startWebServer() {
     app.use(express.static('_static')); // Serve all static pages first
+	
+	app.use('/screenshot', express.static('_cache/screenshots/')); // Serve all screenshots
 	
 	app.use(bodyParser.json()); // to support JSON-encoded bodies
 
@@ -365,8 +366,14 @@ function startWebServer() {
             template = template.replace("{{ scam.url }}", '<b>URL</b>: <a id="url" target="_blank" href="/redirect/' + encodeURIComponent(scam.url) + '">' + scam.url + '</a><BR>');
             template = template.replace("{{ scam.googlethreat }}", "<b>Google Safe Browsing</b>: <span id='googleblocked'>loading...</span><BR>");
             template = template.replace("{{ scam.metamask }}", "<b>MetaMask Status:</b> " + (metamaskBlocked(url.parse(scam.url).hostname) ? "<span style='color:green'>Blocked</span>" : "<span style='color:red'>Not Blocked</span>") + "<br />");
-        } else {
+			if('status' in scam && scam.status != 'Offline' && fs.existsSync('_cache/screenshots/' + scam.id + '.png')) {
+				template = template.replace("{{ scam.screenshot }}",'<h3>Screenshot</h3><img src="/screenshot/' + scam.id + '.png">');
+			} else {
+				template = template.replace("{{ scam.screenshot }}",'');
+			}
+	   } else {
             template = template.replace("{{ scam.googlethreat }}", '');
+			template = template.replace("{{ scam.screenshot }}",'');
         }
         actions_text += '<button id="share" class="ui icon secondary button"><i class="share alternate icon"></i> Share</button>';
         template = template.replace("{{ scam.actions }}", '<div id="actions" class="eight wide column">' + actions_text + '</div>');
