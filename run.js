@@ -390,7 +390,7 @@ function startWebServer() {
         }
         actions_text += '<a target="_blank" href="https://github.com/' + config.repository.author + '/' + config.repository.name + '/blob/' + config.repository.branch + '/_data/scams.yaml" class="ui icon secondary button"><i class="write alternate icon"></i> Improve</a><button id="share" class="ui icon secondary button"><i class="share alternate icon"></i> Share</button>';
         template = template.replace("{{ scam.actions }}", '<div id="actions" class="eight wide column">' + actions_text + '</div>');
-		if('Google_SafeBrowsing_API_Key' in config && config.Google_SafeBrowsing_API_Key) {
+		if('Google_SafeBrowsing_API_Key' in config && config.Google_SafeBrowsing_API_Key && 'url' in scam) {
 			var options = {
 				uri: 'https://safebrowsing.googleapis.com/v4/threatMatches:find?key=' + config.Google_SafeBrowsing_API_Key,
 				method: 'POST',
@@ -404,7 +404,7 @@ function startWebServer() {
 						platformTypes: ["ANY_PLATFORM"],
 						threatEntryTypes: ["THREAT_ENTRY_TYPE_UNSPECIFIED", "URL", "EXECUTABLE"],
 						threatEntries: [{
-							"url": scam.url
+							"url": url.parse(scam.url).hostname
 						}]
 					}
 				}
@@ -578,6 +578,7 @@ function startWebServer() {
     });
 	
 	app.post('/update/', verifyGithubWebhook(config.Github_Hook_Secret), function(req, res) { // New github update?
+		console.log("New commit pushed");
 		download("https://raw.githubusercontent.com/" + config.repository.author + "/" + config.repository.name + "/" + config.repository.branch + "/_data/scams.yaml", { directory: "_data/", filename: "scams.yaml" }, function(err){
 			if (err) throw err;
 			download("https://raw.githubusercontent.com/" + config.repository.author + "/" + config.repository.name + "/" + config.repository.branch + "/_data/legit_urls.yaml", { directory: "_data/", filename: "legit_urls.yaml" }, function(err){
