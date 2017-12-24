@@ -156,7 +156,7 @@ function startWebServer() {
         } else if (req.params.sorting == 'category') {
             template = template.replace("{{ sorting.category }}", "sorted descending");
             var scams = getCache().scams.sort(function(a, b) {
-                if ('category' in a && 'category' in b) {
+                if ('category' in a && 'category' in b && a.category && b.category) {
                     return a.category.localeCompare(b.category);
                 } else {
                     return -1;
@@ -165,7 +165,7 @@ function startWebServer() {
         } else if (req.params.sorting == 'subcategory') {
             template = template.replace("{{ sorting.subcategory }}", "sorted descending");
             var scams = getCache().scams.sort(function(a, b) {
-                if ('subcategory' in a && 'subcategory' in b) {
+                if ('subcategory' in a && 'subcategory' in b && a.subcategory && b.subcategory) {
                     return a.subcategory.localeCompare(b.subcategory);
                 } else {
                     return -1;
