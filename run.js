@@ -22,7 +22,7 @@ function getCache(callback = false) {
     if (!fs.existsSync('_cache/cache.json')) {
         console.log("No cache file found. Creating one...");
         if (callback) {
-            spawn('node', ['update.js']);
+            spawn('node', ['update.js'], { detached: true });
             let checkDone = setInterval(function() {
                 if (fs.existsSync('_cache/cache.json')) {
                     cache = JSON.parse(fs.readFileSync('_cache/cache.json'));
@@ -32,7 +32,7 @@ function getCache(callback = false) {
                 }
             }, 1000);
         } else {
-            spawn('node', ['update.js']);
+            spawn('node', ['update.js'], { detached: true });
         }
     } else if (!cache) {
         cache = JSON.parse(fs.readFileSync('_cache/cache.json'));
@@ -42,7 +42,7 @@ function getCache(callback = false) {
     } else if ((new Date().getTime() - cache.updated) < config.cache_refreshing_interval) {
         return cache;
     } else if ((new Date().getTime() - cache.updated) >= config.cache_refreshing_interval) {
-        spawn('node', ['update.js']);
+        spawn('node', ['update.js'], { detached: true });
         return cache;
     }
 }
@@ -583,7 +583,7 @@ function startWebServer() {
 			download("https://raw.githubusercontent.com/" + config.repository.author + "/" + config.repository.name + "/" + config.repository.branch + "/_data/legit_urls.yaml", { directory: "_data/", filename: "legit_urls.yaml" }, function(err){
 				if (err) throw err;
 					res.status(200).end();
-					spawn('node', ['update.js']);
+					spawn('node', ['update.js'], { detached: true });
 				});
 		});
     });
@@ -604,7 +604,7 @@ if (2 in process.argv) {
         });
     } else if (process.argv[2] == "--update") {
         if (fs.existsSync("_cache/cache.json") && cache) {
-            spawn('node', ['update.js']);
+            spawn('node', ['update.js'], { detached: true });
         } else {
             console.log("Another update is already in progress...");
         }
