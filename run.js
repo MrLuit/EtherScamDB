@@ -459,6 +459,15 @@ function startWebServer() {
         let template = fs.readFileSync('./_layouts/redirect.html', 'utf8').replace(/{{ redirect.domain }}/g, req.params.url);
         res.send(default_template.replace('{{ content }}', template));
     });
+	
+	app.get('/rss/', function(req, res) { // Serve /rss/ (rss feed)
+        let template = fs.readFileSync('./_layouts/rss.html', 'utf8');
+		var entries = '';
+		getCache().scams.forEach(function(scam,index) {
+			entries += "<item><title>" + scam.name + "</title><link>https://etherscamdb.info/scam/" + scam.id + "/</link><description>" + scam.category + "</description></item>";
+		});
+        res.send(template.replace('{{ rss.entries }}', entries));
+    });
 
     app.get('/api/:type/:domain?/', function(req, res) { // Serve /api/<type>/
 		res.header('Access-Control-Allow-Origin', '*');
@@ -568,7 +577,7 @@ function startWebServer() {
         }
     });
 	
-	app.get('/update/', verifyGithubWebhook(config.Github_Hook_Secret), function(req, res) { // New github update?
+	app.post('/update/', verifyGithubWebhook(config.Github_Hook_Secret), function(req, res) { // New github update?
 		download("https://raw.githubusercontent.com/" + config.repository.author + "/" + config.repository.name + "/" + config.repository.branch + "/_data/scams.yaml", { directory: "_data/", filename: "scams.yaml" }, function(err){
 			if (err) throw err;
 			download("https://raw.githubusercontent.com/" + config.repository.author + "/" + config.repository.name + "/" + config.repository.branch + "/_data/legit_urls.yaml", { directory: "_data/", filename: "legit_urls.yaml" }, function(err){
