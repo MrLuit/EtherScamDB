@@ -9,6 +9,7 @@ const spawn = require('child_process').spawn;
 const download = require('download-file');
 const rimraf = require('rimraf');
 const metamaskBlocked = require('eth-phishing-detect');
+const verifyGithubWebhook = require('github-express-webhook-verifying');
 const request = require('request');
 const app = express();
 const default_template = fs.readFileSync('./_layouts/default.html', 'utf8');
@@ -567,20 +568,15 @@ function startWebServer() {
         }
     });
 	
-	app.get('/update/', function(req, res) { // New github update?
-		if('hook' in req.body && 'config' in req.body.hook && 'secret' in req.body.hook.config && 'Github_Hook_Secret' in config && config.Github_Hook_Secret && config.Github_Hook_Secret == req.body.hook.config.secret) {
-			download("https://raw.githubusercontent.com/" + config.repository.author + "/" + config.repository.name + "/" + config.repository.branch + "/_data/scams.yaml", { directory: "_data/", filename: "scams.yaml" }, function(err){
+	app.get('/update/', verifyGithubWebhook(config.Github_Hook_Secret), function(req, res) { // New github update?
+		download("https://raw.githubusercontent.com/" + config.repository.author + "/" + config.repository.name + "/" + config.repository.branch + "/_data/scams.yaml", { directory: "_data/", filename: "scams.yaml" }, function(err){
+			if (err) throw err;
+			download("https://raw.githubusercontent.com/" + config.repository.author + "/" + config.repository.name + "/" + config.repository.branch + "/_data/legit_urls.yaml", { directory: "_data/", filename: "legit_urls.yaml" }, function(err){
 				if (err) throw err;
-				download("https://raw.githubusercontent.com/" + config.repository.author + "/" + config.repository.name + "/" + config.repository.branch + "/_data/legit_urls.yaml", { directory: "_data/", filename: "legit_urls.yaml" }, function(err){
-					if (err) throw err;
-						res.status(200).end();
-						spawn('node', ['update.js']);
-					});
-			});
-		} else {
-			res.status(500).end();
-			console.log('Failed update attempt');
-		}
+					res.status(200).end();
+					spawn('node', ['update.js']);
+				});
+		});
     });
 
     app.get('*', function(req, res) { // Serve all other pages as 404
