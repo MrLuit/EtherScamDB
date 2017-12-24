@@ -16427,3 +16427,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'    
+-
+    id: 2574
+    name: envione.org
+    url: 'http://envione.org'
+    category: Phishing
+    subcategory: Envion
+    description: 'Fake Envion token sale site'
+    addresses:
+      - '0xF855fEE50A8915634a105385cb6cB9e442D15457'
