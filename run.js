@@ -9,7 +9,7 @@ const spawn = require('child_process').spawn;
 const download = require('download-file');
 const rimraf = require('rimraf');
 const metamaskBlocked = require('eth-phishing-detect');
-import verifyGithubWebhook from "verify-github-webhook";
+const crypto = require("crypto");
 const request = require('request');
 const app = express();
 const default_template = fs.readFileSync('./_layouts/default.html', 'utf8');
@@ -578,7 +578,16 @@ function startWebServer() {
     });
 	
 	app.post('/update/', function(req, res) { // New github update?
-		if('X-Hub-Signature' in req.headers && verifyGithubWebhook(req.headers.X-Hub-Signature, req.body, config.Github_Hook_Secret)) {
+		req.rawBody = '';
+		req.setEncoding('utf8');
+
+		req.on('data', function(chunk) { 
+			req.rawBody += chunk;
+		});
+
+		req.on('end', function() {
+
+		if('x-hub-signature' in req.headers && crypto.timingSafeEqual(Buffer.from(req.headers['x-hub-signature']), Buffer.from("sha1=" + crypto.createHmac("sha1", config.Github_Hook_Secret).update(req.rawBody).digest("hex")))) {
 			console.log("New commit pushed");
 			download("https://raw.githubusercontent.com/" + config.repository.author + "/" + config.repository.name + "/" + config.repository.branch + "/_data/scams.yaml?no-cache=" + (new Date()).getTime(), { directory: "_data/", filename: "scams.yaml" }, function(err){
 				if (err) throw err;
@@ -590,7 +599,10 @@ function startWebServer() {
 			});
 		} else {
 			console.log("Incorrect webhook attempt");
+			console.log(req.headers['x-hub-signature']);
+			console.log(req.body);
 		}
+		});
     });
 
     app.get('*', function(req, res) { // Serve all other pages as 404

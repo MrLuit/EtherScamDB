@@ -13,7 +13,6 @@
     "rimraf": "^2.6.2",
     "shuffle-array": "^1.0.1",
     "url": "^0.11.0",
-    "verify-github-webhook": "^1.0.1",
     "webshot": "^0.18.0"
   }
 }
