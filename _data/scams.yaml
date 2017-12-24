@@ -16419,4 +16419,11 @@
     url: 'http://ripiocreditnetwork.in/'
     category: Phishing
     subcategory: Ripio
-    description: 'Fake Ripio airdrop site, linking to fake MEW'    
+    description: 'Fake Ripio airdrop site, linking to fake MEW'   
+-
+    id: 2573
+    name: myetherwalletet.com
+    url: 'http://myetherwalletet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'    
