@@ -8,12 +8,12 @@
     "download-file": "^0.1.5",
     "eth-phishing-detect": "^1.1.12",
     "express": "^4.15.4",
-    "github-express-webhook-verifying": "^1.1.0",
     "js-yaml": "^3.9.0",
     "request": "^2.83.0",
     "rimraf": "^2.6.2",
     "shuffle-array": "^1.0.1",
     "url": "^0.11.0",
+    "verify-github-webhook": "^1.0.1",
     "webshot": "^0.18.0"
   }
 }

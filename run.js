@@ -9,7 +9,7 @@ const spawn = require('child_process').spawn;
 const download = require('download-file');
 const rimraf = require('rimraf');
 const metamaskBlocked = require('eth-phishing-detect');
-const verifyGithubWebhook = require('github-express-webhook-verifying');
+import verifyGithubWebhook from "verify-github-webhook";
 const request = require('request');
 const app = express();
 const default_template = fs.readFileSync('./_layouts/default.html', 'utf8');
@@ -577,16 +577,20 @@ function startWebServer() {
         }
     });
 	
-	app.post('/update/', verifyGithubWebhook(config.Github_Hook_Secret), function(req, res) { // New github update?
-		console.log("New commit pushed");
-		download("https://raw.githubusercontent.com/" + config.repository.author + "/" + config.repository.name + "/" + config.repository.branch + "/_data/scams.yaml?no-cache=" + (new Date()).getTime(), { directory: "_data/", filename: "scams.yaml" }, function(err){
-			if (err) throw err;
-			download("https://raw.githubusercontent.com/" + config.repository.author + "/" + config.repository.name + "/" + config.repository.branch + "/_data/legit_urls.yaml?no-cache=" + (new Date()).getTime(), { directory: "_data/", filename: "legit_urls.yaml" }, function(err){
+	app.post('/update/', function(req, res) { // New github update?
+		if('X-Hub-Signature' in req.headers && verifyGithubWebhook(req.headers.X-Hub-Signature, req.body, config.Github_Hook_Secret)) {
+			console.log("New commit pushed");
+			download("https://raw.githubusercontent.com/" + config.repository.author + "/" + config.repository.name + "/" + config.repository.branch + "/_data/scams.yaml?no-cache=" + (new Date()).getTime(), { directory: "_data/", filename: "scams.yaml" }, function(err){
 				if (err) throw err;
-					res.status(200).end();
-					spawn('node', ['update.js'], { detached: true });
-				});
-		});
+				download("https://raw.githubusercontent.com/" + config.repository.author + "/" + config.repository.name + "/" + config.repository.branch + "/_data/legit_urls.yaml?no-cache=" + (new Date()).getTime(), { directory: "_data/", filename: "legit_urls.yaml" }, function(err){
+					if (err) throw err;
+						res.status(200).end();
+						spawn('node', ['update.js'], { detached: true });
+					});
+			});
+		} else {
+			console.log("Incorrect webhook attempt");
+		}
     });
 
     app.get('*', function(req, res) { // Serve all other pages as 404
