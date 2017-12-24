@@ -579,9 +579,9 @@ function startWebServer() {
 	
 	app.post('/update/', verifyGithubWebhook(config.Github_Hook_Secret), function(req, res) { // New github update?
 		console.log("New commit pushed");
-		download("https://raw.githubusercontent.com/" + config.repository.author + "/" + config.repository.name + "/" + config.repository.branch + "/_data/scams.yaml", { directory: "_data/", filename: "scams.yaml" }, function(err){
+		download("https://raw.githubusercontent.com/" + config.repository.author + "/" + config.repository.name + "/" + config.repository.branch + "/_data/scams.yaml?no-cache=" + (new Date()).getTime(), { directory: "_data/", filename: "scams.yaml" }, function(err){
 			if (err) throw err;
-			download("https://raw.githubusercontent.com/" + config.repository.author + "/" + config.repository.name + "/" + config.repository.branch + "/_data/legit_urls.yaml", { directory: "_data/", filename: "legit_urls.yaml" }, function(err){
+			download("https://raw.githubusercontent.com/" + config.repository.author + "/" + config.repository.name + "/" + config.repository.branch + "/_data/legit_urls.yaml?no-cache=" + (new Date()).getTime(), { directory: "_data/", filename: "legit_urls.yaml" }, function(err){
 				if (err) throw err;
 					res.status(200).end();
 					spawn('node', ['update.js'], { detached: true });
