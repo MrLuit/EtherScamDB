@@ -16419,7 +16419,7 @@
     url: 'http://ripiocreditnetwork.in/'
     category: Phishing
     subcategory: Ripio
-    description: 'Fake Ripio airdrop site, linking to fake MEW'   
+    description: 'Fake Ripio airdrop site, linking to fake MEW'    
 -
     id: 2573
     name: myetherwalletet.com
@@ -16445,3 +16445,10 @@
     description: 'Fake Gatcoin token sale site'
     addresses:
       - '0xDaa29859836D97C810c7F9D350D4A1B3E8CafC9a'
+-
+    id: 2576
+    name: claimbcd.com
+    url: 'http://claimbcd.com/'
+    category: Phishing
+    subcategory: Bitcoin
+    description: 'Fake airdrop asking for private keys'
