@@ -16374,6 +16374,8 @@
     category: Phishing
     subcategory: Icon
     description: 'Fake Icon airdrop site asking for private keys'
+    addresses:
+      - '0x2da8703d18afed53b303119e4ff06cf035a9fadb'
 -
     id: 2567
     name: envion.top
