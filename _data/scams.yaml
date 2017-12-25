@@ -16475,3 +16475,10 @@
     description: 'Fake SingularityNET token sale site'
     addresses:
       - '0xFE68DE56A07cD3AF0Ec40c22b0193115eCdD0501'
+-
+    id: 2580
+    name: tenxwallet.co
+    url: 'http://tenxwallet.co/'
+    category: Phishing
+    subcategory: TenX
+    description: 'Fake TenX airdrop asking for private keys' 
