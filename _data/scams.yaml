@@ -16452,3 +16452,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW' 
+-
+    id: 2577
+    name: iconmainnet.ml
+    url: 'http://iconmainnet.ml/'
+    category: Phishing
+    subcategory: Icon
+    description: 'Private key phishing' 
