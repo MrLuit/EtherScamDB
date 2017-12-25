@@ -16422,6 +16422,31 @@
     description: 'Fake Ripio airdrop site, linking to fake MEW'    
 -
     id: 2573
+    name: myetherwalletet.com
+    url: 'http://myetherwalletet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'    
+-
+    id: 2574
+    name: envione.org
+    url: 'http://envione.org'
+    category: Phishing
+    subcategory: Envion
+    description: 'Fake Envion token sale site'
+    addresses:
+      - '0xF855fEE50A8915634a105385cb6cB9e442D15457'
+-
+    id: 2575
+    name: gatscoin.io
+    url: 'http://gatscoin.io'
+    category: Phishing
+    subcategory: Gatcoin
+    description: 'Fake Gatcoin token sale site'
+    addresses:
+      - '0xDaa29859836D97C810c7F9D350D4A1B3E8CafC9a'
+-
+    id: 2576
     name: claimbcd.com
     url: 'http://claimbcd.com/'
     category: Phishing

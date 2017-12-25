@@ -9,17 +9,14 @@ If you haven't already, click [here](https://nodejs.org/en/download/) to downloa
 - Download the latest release from [here](https://github.com/MrLuit/EtherScamDB/archive/master.zip).
 - Go ahead and open a command line in the release folder
 - Install all necessary packages by running ```npm install```
-- Build and serve the project using `node generate.js`
+- Build and serve the project using `node run.js`
 
-Generating should take around 2 minutes the first time or after a clean, but when `_site` is already present it should only take around 2-5 seconds.
+Generating should take around 2 minutes the first time or after a clean, but when `cache.json` is already present it should launch instantly.
 
 ## Flags
 
 - `--clean` Clean up all the old files and folders
-- `--build` Build the project without actually serving the content
-- `--serve` Serve the content in the main folder without building anything
-- `--update` Update all ip addresses, nameservers and update status [May take some time]
-- `--archive` Send all active domains to archive.org for caching [Takes a very long time because we don't want to flood their servers]
+- `--update` Manually update all content
 
 ## Contribute
 
@@ -35,13 +32,15 @@ Fork this project and edit `_data/data.yaml`. Every item can have the following 
 
 ## API
 
-To make use of our database, the following files can be used:
+To make use of our database, the following API can be used:
 
-- [scams.json](https://etherscamdb.info/data/scams.json)
-- [addresses.json](https://etherscamdb.info/data/addresses.json)
-- [ips.json](https://etherscamdb.info/data/ips.json)
-- [blacklist.json](https://etherscamdb.info/data/blacklist.json)
-- [whitelist.json](https://etherscamdb.info/data/whitelist.json)
+- [api/scams](https://etherscamdb.info/api/scams/)
+- [api/addresses](https://etherscamdb.info/api/addresses/)
+- [api/ips](https://etherscamdb.info/api/ips/)
+- [api/verified](https://etherscamdb.info/api/verified/)
+- [api/blacklist](https://etherscamdb.info/api/blacklist/)
+- [api/whitelist](https://etherscamdb.info/api/whitelist/)
+- [api/check/<domain/ip/address>](https://etherscamdb.info/api/check/myetherwallet.com)
 
 ## Donate
 

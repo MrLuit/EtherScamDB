@@ -17,35 +17,12 @@
       </div>
     </div>
   </div>
-<div id="historymodal" class="ui small modal">
-	<i class="close icon"></i>
-    <div class="header">
-     History
-    </div>
-    <div class="content">
-	{{ scam.history }}
-    </div>
-    <div class="actions">
-      <div class="ui positive button">
-        Ok
-      </div>
-    </div>
-  </div>
 <div id="abusemodal" class="ui small modal">
 	<i class="close icon"></i>
     <div class="header">
      Abuse Report
     </div>
     <div class="content">
-	<!--<div class="ui selection dropdown">
-  <input type="hidden" id="abusrep" name="abuserep">
-  <i class="dropdown icon"></i>
-  <div class="default text">Select a recipient</div>
-  <div class="menu">
-    <div class="item" data-value="1">Male</div>
-    <div class="item" data-value="0">Female</div>
-  </div>
-</div>-->
 	<div class="ui form">
   <div class="field">
     <textarea id="abuse">{{ scam.abusereport }}</textarea>
@@ -63,21 +40,24 @@
   </div>
 <div class="ui grid">
   <div class="eight wide column"><h1>{{ scam.name }}</h1></div>
-  <div id="actions" class="eight wide column">{{ scam.actions }}</div>
+  <div id="actions" class="eight wide column">
+      {{ scam.actions }}
+  </div>
 </div>
 {{ scam.url }}
 {{ scam.category }}
 {{ scam.description }}
 {{ scam.status }}
 {{ scam.ip }}
-{{ scam.ethaddresslookup }}
+{{ scam.metamask }}
 {{ scam.googlethreat }}
 {{ scam.nameservers }}
-{{ scam.addresses }}<BR>
+{{ scam.addresses }}
+{{ scam.screenshot }}<br /><br />
+
 <div id="disqus_thread"></div>
 <script>
 var disqus_config = function () {
-//this.page.url = "{{ site.url }}/scam/{{ scam.id }}";
 this.page.identifier = "{{ scam.id }}";
 };
 (function() {

@@ -2,7 +2,7 @@
 <h1><i class="warning sign icon"></i> Warning</h1>
 <h3>You are about to leave the official website to an untrusted domain.</h3>
 <div class="ui divider"></div>
-<h3>Domain: <b id='domain'></b></h3>
+<h3>Domain: <b id='domain'>{{ redirect.domain }}</b></h3>
 <div class="ui divider"></div>
 <div class="ui list">
 <div class="item"><h4>Do not click anything.</h4></div>
@@ -12,4 +12,5 @@
 <div class="ui center aligned segment">
 <button class="huge negative ui button">I understand</button>
 </div>
+<script>let url = "{{ redirect.domain }}";</script>
 <script src="/js/redirect.js"></script>
