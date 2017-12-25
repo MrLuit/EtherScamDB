@@ -16421,7 +16421,7 @@
     url: 'http://ripiocreditnetwork.in/'
     category: Phishing
     subcategory: Ripio
-    description: 'Fake Ripio airdrop site, linking to fake MEW'   
+    description: 'Fake Ripio airdrop site, linking to fake MEW'    
 -
     id: 2573
     name: myetherwalletet.com
@@ -16484,3 +16484,10 @@
     category: Phishing
     subcategory: TenX
     description: 'Fake TenX airdrop asking for private keys' 
+-
+    id: 2581
+    name: claimbcd.com
+    url: 'http://claimbcd.com/'
+    category: Phishing
+    subcategory: Bitcoin
+    description: 'Fake airdrop asking for private keys'
