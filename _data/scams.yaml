@@ -16466,3 +16466,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW' 
+-
+    id: 2579
+    name: singularitynet.info
+    url: 'http://singularitynet.info'
+    category: Phishing
+    subcategory: SingularityNET
+    description: 'Fake SingularityNET token sale site'
+    addresses:
+      - '0xFE68DE56A07cD3AF0Ec40c22b0193115eCdD0501'
