@@ -16374,6 +16374,8 @@
     category: Phishing
     subcategory: Icon
     description: 'Fake Icon airdrop site asking for private keys'
+    addresses:
+      - '0x2da8703d18afed53b303119e4ff06cf035a9fadb'
 -
     id: 2567
     name: envion.top
@@ -16447,6 +16449,43 @@
       - '0xDaa29859836D97C810c7F9D350D4A1B3E8CafC9a'
 -
     id: 2576
+    name: xn--myetewallet-cm8e5y.com
+    url: 'http://xn--myetewallet-cm8e5y.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW' 
+-
+    id: 2577
+    name: iconmainnet.ml
+    url: 'http://iconmainnet.ml/'
+    category: Phishing
+    subcategory: Icon
+    description: 'Private key phishing' 
+-
+    id: 2578
+    name: mytlherwaliet.info
+    url: 'http://mytlherwaliet.info/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW' 
+-
+    id: 2579
+    name: singularitynet.info
+    url: 'http://singularitynet.info'
+    category: Phishing
+    subcategory: SingularityNET
+    description: 'Fake SingularityNET token sale site'
+    addresses:
+      - '0xFE68DE56A07cD3AF0Ec40c22b0193115eCdD0501'
+-
+    id: 2580
+    name: tenxwallet.co
+    url: 'http://tenxwallet.co/'
+    category: Phishing
+    subcategory: TenX
+    description: 'Fake TenX airdrop asking for private keys' 
+-
+    id: 2581
     name: claimbcd.com
     url: 'http://claimbcd.com/'
     category: Phishing
