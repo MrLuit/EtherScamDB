@@ -16459,3 +16459,10 @@
     category: Phishing
     subcategory: Icon
     description: 'Private key phishing' 
+-
+    id: 2578
+    name: mytlherwaliet.info
+    url: 'http://mytlherwaliet.info/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW' 
