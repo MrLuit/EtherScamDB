@@ -15668,7 +15668,7 @@
     name: bittrex.one
     url: 'http://bittrex.one'
     category: Phishing
-    subcategory: Bittex
+    subcategory: Bittrex
 -
     id: 2475
     name: urtust.io
@@ -16045,7 +16045,7 @@
     name: superbitcoin-blockchain.info
     url: 'http://superbitcoin-blockchain.info'
     category: Phishing
-    subcategory: Blockchain
+    subcategory: Blockchain.info
     description: 'Fake blockchain site'
 -
     id: 2525

@@ -633,7 +633,11 @@ if (2 in process.argv) {
     setInterval(function() {
         if (fs.existsSync('_cache/cache.json')) {
             fs.readFile('_cache/cache.json', function(err, data) {
-                cache = JSON.parse(data);
+				try {
+					cache = JSON.parse(data);
+				} catch(e) {
+					console.log(e);
+				}
             });
         }
     }, 60000);
