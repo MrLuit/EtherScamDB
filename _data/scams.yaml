@@ -16491,3 +16491,12 @@
     category: Phishing
     subcategory: Bitcoin
     description: 'Fake airdrop asking for private keys'
+-
+    id: 2582
+    name: xn--hapeshit-ez9c2y.com
+    url: 'http://xn--hapeshit-ez9c2y.com/'
+    category: Phishing
+    subcategory: Bitcoin
+    description: 'Fake Shapeshift'
+    addresses:
+      - '0x3853BA76eC6AE97818E2d0e0839c9EDa6C396690'
