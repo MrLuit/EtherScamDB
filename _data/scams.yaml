@@ -16374,6 +16374,8 @@
     category: Phishing
     subcategory: Icon
     description: 'Fake Icon airdrop site asking for private keys'
+    addresses:
+      - '0x2da8703d18afed53b303119e4ff06cf035a9fadb'
 -
     id: 2567
     name: envion.top
@@ -16419,7 +16421,7 @@
     url: 'http://ripiocreditnetwork.in/'
     category: Phishing
     subcategory: Ripio
-    description: 'Fake Ripio airdrop site, linking to fake MEW'   
+    description: 'Fake Ripio airdrop site, linking to fake MEW'    
 -
     id: 2573
     name: myetherwalletet.com
@@ -16445,3 +16447,56 @@
     description: 'Fake Gatcoin token sale site'
     addresses:
       - '0xDaa29859836D97C810c7F9D350D4A1B3E8CafC9a'
+-
+    id: 2576
+    name: xn--myetewallet-cm8e5y.com
+    url: 'http://xn--myetewallet-cm8e5y.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW' 
+-
+    id: 2577
+    name: iconmainnet.ml
+    url: 'http://iconmainnet.ml/'
+    category: Phishing
+    subcategory: Icon
+    description: 'Private key phishing' 
+-
+    id: 2578
+    name: mytlherwaliet.info
+    url: 'http://mytlherwaliet.info/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW' 
+-
+    id: 2579
+    name: singularitynet.info
+    url: 'http://singularitynet.info'
+    category: Phishing
+    subcategory: SingularityNET
+    description: 'Fake SingularityNET token sale site'
+    addresses:
+      - '0xFE68DE56A07cD3AF0Ec40c22b0193115eCdD0501'
+-
+    id: 2580
+    name: tenxwallet.co
+    url: 'http://tenxwallet.co/'
+    category: Phishing
+    subcategory: TenX
+    description: 'Fake TenX airdrop asking for private keys' 
+-
+    id: 2581
+    name: claimbcd.com
+    url: 'http://claimbcd.com/'
+    category: Phishing
+    subcategory: Bitcoin
+    description: 'Fake airdrop asking for private keys'
+-
+    id: 2582
+    name: xn--hapeshit-ez9c2y.com
+    url: 'http://xn--hapeshit-ez9c2y.com/'
+    category: Phishing
+    subcategory: Bitcoin
+    description: 'Fake Shapeshift'
+    addresses:
+      - '0x3853BA76eC6AE97818E2d0e0839c9EDa6C396690'
