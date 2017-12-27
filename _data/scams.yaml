@@ -16500,3 +16500,12 @@
     description: 'Fake Shapeshift'
     addresses:
       - '0x3853BA76eC6AE97818E2d0e0839c9EDa6C396690'
+-
+    id: 2583
+    name: elherdelta.io
+    url: 'http://elherdelta.io/'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta'
+    addresses:
+      - '0xE10270BFb1eD82E120BfC392efb3C94a1604DeD6'
