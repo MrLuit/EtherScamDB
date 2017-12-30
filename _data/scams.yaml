@@ -16525,3 +16525,10 @@
     category: Phishing
     subcategory: Binance
     description: 'Fake Binance exchange site'
+-
+    id: 2586
+    name: mysimpletoken.org
+    url: 'http://mysimpletoken.org/'
+    category: Phishing
+    subcategory: Simple
+    description: 'Fake simpletoken airdrop site asking for private keys'
