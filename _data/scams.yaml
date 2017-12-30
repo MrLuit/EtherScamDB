@@ -16518,3 +16518,10 @@
     category: Phishing
     subcategory: Binance
     description: 'Fake Binance exchange site'
+-
+    id: 2585
+    name: binancc.com
+    url: 'http://binancc.com/'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance exchange site'
