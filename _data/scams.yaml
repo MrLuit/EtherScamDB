@@ -16298,6 +16298,8 @@
     category: Phishing
     subcategory: Tron
     description: 'Fake Tron airdrop site asking for private keys'
+    addresses:
+      - '0x2da8703d18AFeD53B303119E4fF06CF035a9fadB'    
 -
     id: 2557
     name: envion.live
