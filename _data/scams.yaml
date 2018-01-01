@@ -16541,3 +16541,10 @@
     description: 'Fake Giveway site asking to pay miner fees'
     addresses:
       - '0x8444173280E5fDC0525494638123b014CfFcC521'
+-
+    id: 2588
+    name: etherdelta.pw
+    url: 'http://etherdelta.pw/'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta domain - hosted on the same server as the fake airdrop. Assuming bad actor. Russain park page'
