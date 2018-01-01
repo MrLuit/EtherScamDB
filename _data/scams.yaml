@@ -16532,3 +16532,12 @@
     category: Phishing
     subcategory: Simple
     description: 'Fake simpletoken airdrop site asking for private keys'
+-
+    id: 2587
+    name: ethereum-giveaway.org
+    url: 'http://ethereum-giveaway.org/'
+    category: Scamming
+    subcategory: Giveaway
+    description: 'Fake Giveway site asking to pay miner fees'
+    addresses:
+      - '0x8444173280E5fDC0525494638123b014CfFcC521'
