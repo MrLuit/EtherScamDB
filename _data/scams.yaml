@@ -16300,6 +16300,7 @@
     description: 'Fake Tron airdrop site asking for private keys'
     addresses:
       - '0x2da8703d18AFeD53B303119E4fF06CF035a9fadB'    
+      - '0x6d0b90ea2951ca5ad3abdb606e4146e9765f1ee4'
 -
     id: 2557
     name: envion.live
