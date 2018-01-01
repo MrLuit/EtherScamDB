@@ -16298,6 +16298,8 @@
     category: Phishing
     subcategory: Tron
     description: 'Fake Tron airdrop site asking for private keys'
+    addresses:
+      - '0x2da8703d18AFeD53B303119E4fF06CF035a9fadB'    
 -
     id: 2557
     name: envion.live
@@ -16509,3 +16511,40 @@
     description: 'Fake EtherDelta'
     addresses:
       - '0xE10270BFb1eD82E120BfC392efb3C94a1604DeD6'
+-
+    id: 2584
+    name: blnance.org
+    url: 'http://blnance.org/'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance exchange site'
+-
+    id: 2585
+    name: binancc.com
+    url: 'http://binancc.com/'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance exchange site'
+-
+    id: 2586
+    name: mysimpletoken.org
+    url: 'http://mysimpletoken.org/'
+    category: Phishing
+    subcategory: Simple
+    description: 'Fake simpletoken airdrop site asking for private keys'
+-
+    id: 2587
+    name: ethereum-giveaway.org
+    url: 'http://ethereum-giveaway.org/'
+    category: Scamming
+    subcategory: Giveaway
+    description: 'Fake Giveway site asking to pay miner fees'
+    addresses:
+      - '0x8444173280E5fDC0525494638123b014CfFcC521'
+-
+    id: 2588
+    name: etherdelta.pw
+    url: 'http://etherdelta.pw/'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta domain - hosted on the same server as the fake airdrop. Assuming bad actor. Russain park page'
