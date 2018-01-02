@@ -16549,3 +16549,10 @@
     category: Phishing
     subcategory: EtherDelta
     description: 'Fake EtherDelta domain - hosted on the same server as the fake airdrop. Assuming bad actor. Russain park page'
+-
+    id: 2589
+    name: reqestnetwork.com
+    url: 'http://reqestnetwork.com/'
+    category: Phishing
+    subcategory: Request
+    description: 'Fake Request airdrop site asking for private keys'
