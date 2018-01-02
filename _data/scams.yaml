@@ -16564,3 +16564,10 @@
     category: Phishing
     subcategory: Props
     description: 'Fake props site'
+-    
+    id: 2591
+    name: zilliaq.com
+    url: 'http://zilliaq.com/'
+    category: Phishing
+    subcategory: Zilliqa
+    description: 'Fake Zilliqa site'
