@@ -14317,6 +14317,8 @@
     url: 'http://request-network.com/'
     category: Phishing
     subcategory: Request
+    addresses:
+      - '0x6D0b90eA2951ca5ad3ABdb606e4146e9765f1ee4'
 -
     id: 2282
     name: real-markets.io
