@@ -16557,3 +16557,10 @@
     category: Phishing
     subcategory: Request
     description: 'Fake Request airdrop site asking for private keys'
+-    
+    id: 2590
+    name: props-project.com
+    url: 'http://props-project.com/'
+    category: Phishing
+    subcategory: Props
+    description: 'Fake props site'
