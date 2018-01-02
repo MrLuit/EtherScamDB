@@ -14176,6 +14176,7 @@
       - '0x7e3d7D8E31b3F472FCD3C1552a9F009131C50C6C'
       - '0x4Bf722014E54AeAB05fcF1519E6e4C0c3F742e43'
       - '0x29e225d888cf11c5e67613bffd30bcf071eb3d4a'
+      - '0x6d0b90ea2951ca5ad3abdb606e4146e9765f1ee4'
 -
     id: 2259
     name: myetherwalletlogin.com
@@ -14316,6 +14317,8 @@
     url: 'http://request-network.com/'
     category: Phishing
     subcategory: Request
+    addresses:
+      - '0x6D0b90eA2951ca5ad3ABdb606e4146e9765f1ee4'
 -
     id: 2282
     name: real-markets.io
@@ -16556,3 +16559,21 @@
     category: Phishing
     subcategory: Request
     description: 'Fake Request airdrop site asking for private keys'
+-    
+    id: 2590
+    name: props-project.com
+    url: 'http://props-project.com/'
+    category: Phishing
+    subcategory: Props
+    description: 'Fake props site'
+    addresses:
+      - '0x72A66Bba491F0C696c4c4e3154D07B241d371944'
+-    
+    id: 2591
+    name: zilliaq.com
+    url: 'http://zilliaq.com/'
+    category: Phishing
+    subcategory: Zilliqa
+    description: 'Fake Zilliqa site'
+    addresses:
+      - '0x72A66Bba491F0C696c4c4e3154D07B241d371944'
