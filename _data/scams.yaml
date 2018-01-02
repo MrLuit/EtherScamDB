@@ -16564,6 +16564,8 @@
     category: Phishing
     subcategory: Props
     description: 'Fake props site'
+    addresses:
+      - '0x72A66Bba491F0C696c4c4e3154D07B241d371944'
 -    
     id: 2591
     name: zilliaq.com
@@ -16571,3 +16573,5 @@
     category: Phishing
     subcategory: Zilliqa
     description: 'Fake Zilliqa site'
+    addresses:
+      - '0x72A66Bba491F0C696c4c4e3154D07B241d371944'
