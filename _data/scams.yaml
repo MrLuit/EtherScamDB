@@ -16584,3 +16584,10 @@
     category: Phishing
     subcategory: Wanchain
     description: 'Fake wanchain airdrop site asking for private keys'
+-
+    id: 2593
+    name: myetterrwallet.com
+    url: 'http://myetterrwallet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW phishing for private keys'
