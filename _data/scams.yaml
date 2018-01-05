@@ -16591,3 +16591,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW phishing for private keys'
+-
+    id: 2594
+    name: xn--inance-hrb.com
+    url: 'http://xn--inance-hrb.com/'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake binance domain'
