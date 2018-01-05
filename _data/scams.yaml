@@ -16598,3 +16598,12 @@
     category: Phishing
     subcategory: Binance
     description: 'Fake binance domain'
+-    
+    id: 2595
+    name: cashaa.co
+    url: 'http://cashaa.co/'
+    category: Phishing
+    subcategory: Cashaa
+    description: 'Fake Cashaa crowdsale site'
+    addresses:
+      - '0xEC2D5cC008Ba6D2237d33CA9CF74B684737FCaE8'
