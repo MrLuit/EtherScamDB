@@ -16577,3 +16577,33 @@
     description: 'Fake Zilliqa site'
     addresses:
       - '0x72A66Bba491F0C696c4c4e3154D07B241d371944'
+-
+    id: 2592
+    name: wanchain.tech
+    url: 'http://wanchain.tech/'
+    category: Phishing
+    subcategory: Wanchain
+    description: 'Fake wanchain airdrop site asking for private keys'
+-
+    id: 2593
+    name: myetterrwallet.com
+    url: 'http://myetterrwallet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW phishing for private keys'
+-
+    id: 2594
+    name: xn--inance-hrb.com
+    url: 'http://xn--inance-hrb.com/'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake binance domain'
+-    
+    id: 2595
+    name: cashaa.co
+    url: 'http://cashaa.co/'
+    category: Phishing
+    subcategory: Cashaa
+    description: 'Fake Cashaa crowdsale site'
+    addresses:
+      - '0xEC2D5cC008Ba6D2237d33CA9CF74B684737FCaE8'
