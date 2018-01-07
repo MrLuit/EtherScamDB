@@ -16607,3 +16607,12 @@
     description: 'Fake Cashaa crowdsale site'
     addresses:
       - '0xEC2D5cC008Ba6D2237d33CA9CF74B684737FCaE8'
+-    
+    id: 2596
+    name: bluzelle.promo
+    url: 'http://tokensale.bluzelle.promo/'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluezelle crowdsale site'
+    addresses:
+      - '0xAc82537fae701B2046F62BB718c4857787b0b647'
