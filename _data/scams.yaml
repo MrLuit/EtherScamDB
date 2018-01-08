@@ -14177,6 +14177,7 @@
       - '0x4Bf722014E54AeAB05fcF1519E6e4C0c3F742e43'
       - '0x29e225d888cf11c5e67613bffd30bcf071eb3d4a'
       - '0x6d0b90ea2951ca5ad3abdb606e4146e9765f1ee4'
+      - '0x64f3502c4b6b7e7f106e7ab1f175a4e2c2fde45f'
 -
     id: 2259
     name: myetherwalletlogin.com
@@ -16304,6 +16305,7 @@
     addresses:
       - '0x2da8703d18AFeD53B303119E4fF06CF035a9fadB'    
       - '0x6d0b90ea2951ca5ad3abdb606e4146e9765f1ee4'
+      - '0x64f3502c4b6b7e7f106e7ab1f175a4e2c2fde45f'
 -
     id: 2557
     name: envion.live
@@ -16623,3 +16625,10 @@
     category: Phishing
     subcategory: Cryptokitties
     description: 'Fake Cryptokitties site'
+-
+    id: 2598
+    name: breadtokenapp.com
+    url: 'http://breadtokenapp.com/'
+    category: Phishing
+    subcategory: Bread
+    description: 'Fake Bread airdrop site asking for private keys'
