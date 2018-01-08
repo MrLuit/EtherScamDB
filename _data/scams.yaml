@@ -16616,3 +16616,10 @@
     description: 'Fake Bluezelle crowdsale site'
     addresses:
       - '0xAc82537fae701B2046F62BB718c4857787b0b647'
+-
+    id: 2597
+    name: cloudpetstore.com
+    url: 'http://cloudpetstore.com/'
+    category: Phishing
+    subcategory: Cryptokitties
+    description: 'Fake Cryptokitties site'
