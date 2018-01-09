@@ -16653,3 +16653,10 @@
     category: Phishing
     subcategory: 0x
     description: 'Fake 0x airdrop site asking for private keys'
+-
+    id: 2602
+    name: tronlab.tech
+    url: 'http://tronlab.tech'
+    category: Phishing
+    subcategory: Tron
+    description: 'Fake Tron airdrop site asking for private keys'
