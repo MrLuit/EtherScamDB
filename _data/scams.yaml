@@ -16646,3 +16646,10 @@
     category: Phishing
     subcategory: Bittrex
     description: 'Fake Bittrex site - sent via e-mail'
+-
+    id: 2601
+    name: 0x-project.com
+    url: 'http://0x-project.com'
+    category: Phishing
+    subcategory: 0x
+    description: 'Fake 0x airdrop site asking for private keys'
