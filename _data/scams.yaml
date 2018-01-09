@@ -16632,3 +16632,10 @@
     category: Phishing
     subcategory: Bread
     description: 'Fake Bread airdrop site asking for private keys'
+-
+    id: 2599
+    name: funfairtoken.org
+    url: 'http://funfairtoken.org'
+    category: Phishing
+    subcategory: Funfair
+    description: 'Fake Funfair airdrop site asking for private keys'
