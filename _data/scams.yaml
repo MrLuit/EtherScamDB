@@ -16660,3 +16660,12 @@
     category: Phishing
     subcategory: Tron
     description: 'Fake Tron airdrop site asking for private keys'
+-    
+    id: 2603
+    name: nucleusico.com
+    url: 'http://nucleusico.com/'
+    category: Phishing
+    subcategory: Nucleus
+    description: 'Fake Nucleus crowdsale site'
+    addresses:
+      - '0xf962933e44b1DFC771738A034c80D87bDcd96eCC'    
