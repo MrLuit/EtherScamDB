@@ -16669,3 +16669,10 @@
     description: 'Fake Nucleus crowdsale site'
     addresses:
       - '0xf962933e44b1DFC771738A034c80D87bDcd96eCC'    
+-
+    id: 2604
+    name: myehterumswallet.com
+    url: 'http://myehterumswallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
