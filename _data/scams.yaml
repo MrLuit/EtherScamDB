@@ -16639,3 +16639,10 @@
     category: Phishing
     subcategory: Funfair
     description: 'Fake Funfair airdrop site asking for private keys'
+-
+    id: 2600
+    name: bittrex.com1987465798.ga
+    url: 'http://bittrex.com1987465798.ga'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex site - sent via e-mail'
