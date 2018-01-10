@@ -16676,3 +16676,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'
+-
+    id: 2605
+    name: xn--bittrx-th8b.com
+    url: 'http://xn--bittrx-th8b.com'
+    category: Phishing
+    subcategory: Bittex
+    description: 'Fake Bittrex - IDN homographic attack'
