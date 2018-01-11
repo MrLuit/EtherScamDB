@@ -16690,3 +16690,10 @@
     category: Phishing
     subcategory: Selfkey
     description: 'Fake Selfkey token sale site'
+-
+    id: 2607
+    name: myehvterwallet.com
+    url: 'http://myehvterwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
