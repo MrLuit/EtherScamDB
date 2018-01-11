@@ -16683,3 +16683,10 @@
     category: Phishing
     subcategory: Bittex
     description: 'Fake Bittrex - IDN homographic attack'
+-
+    id: 2606
+    name: selfkeys.org
+    url: 'http://selfkeys.org'
+    category: Phishing
+    subcategory: Selfkey
+    description: 'Fake Selfkey token sale site'
