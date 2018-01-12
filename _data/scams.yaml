@@ -16704,3 +16704,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'
+-
+    id: 2608
+    name: myetherwalililet.info
+    url: 'http://myetherwalililet.info'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
