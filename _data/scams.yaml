@@ -16734,3 +16734,10 @@
     category: Phishing
     subcategory: Vechain
     description: 'Fake airdrop site asking for private keys'  
+-
+    id: 2613
+    name: eos-token.org
+    url: 'http://eos-token.org'
+    category: Phishing
+    subcategory: Eos
+    description: 'Fake airdrop site asking for private keys' 
