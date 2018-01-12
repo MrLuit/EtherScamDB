@@ -16741,3 +16741,12 @@
     category: Phishing
     subcategory: Eos
     description: 'Fake airdrop site asking for private keys' 
+-
+    id: 2614
+    name: dai-stablecoin.com
+    url: 'http://dai-stablecoin.com'
+    category: Phishing
+    subcategory: Dai
+    description: 'Fake Dai secret sale'
+    addresses:
+      - '0xc94a6e7776bade5da316cf6fd8c751fb0d5c3c5e'
