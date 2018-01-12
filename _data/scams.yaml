@@ -16697,3 +16697,10 @@
     category: Phishing
     subcategory: Poloniex
     description: 'Fake Poloniex - IDN homographic attack'
+-
+    id: 2608
+    name: myehvterwallet.com
+    url: 'http://myehvterwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
