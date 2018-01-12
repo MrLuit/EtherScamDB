@@ -16699,3 +16699,24 @@
     description: 'Fake Selfkey token sale site'
     addresses:
       - '0x52005B77fbEBf53cfD9527A388f58d0431AaaA3e'  
+-
+    id: 2608
+    name: xn--polniex-n0a.com
+    url: 'http://xn--polniex-n0a.com'
+    category: Phishing
+    subcategory: Poloniex
+    description: 'Fake Poloniex - IDN homographic attack'
+-
+    id: 2609
+    name: myehvterwallet.com
+    url: 'http://myehvterwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2610
+    name: myetherwalililet.info
+    url: 'http://myetherwalililet.info'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
