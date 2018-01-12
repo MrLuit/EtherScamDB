@@ -16720,3 +16720,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'
+-
+    id: 2611
+    name: deepbrainchain.co
+    url: 'http://deepbrainchain.co'
+    category: Phishing
+    subcategory: Deepbrain
+    description: 'Fake airdrop site asking for private keys'    
