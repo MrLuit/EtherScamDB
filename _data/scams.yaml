@@ -16690,3 +16690,10 @@
     category: Phishing
     subcategory: Selfkey
     description: 'Fake Selfkey token sale site'
+-
+    id: 2607
+    name: tokenselfkey.org
+    url: 'http://tokenselfkey.org'
+    category: Phishing
+    subcategory: Selfkey
+    description: 'Fake Selfkey token sale site'
