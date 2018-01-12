@@ -71,7 +71,7 @@ scams.forEach(function(scam, index) {
                         });
                         fs.writeFile("_cache/cache.json", JSON.stringify(new_cache), function() {
                             archive(new_cache);
-                            take_screenshots(new_cache);
+                            //take_screenshots(new_cache);
                         });
                     }
                 });
@@ -80,7 +80,7 @@ scams.forEach(function(scam, index) {
     } else if (i == scams.length - 1) {
         fs.writeFile("_cache/cache.json", JSON.stringify(new_cache), function() {
             archive(new_cache);
-            take_screenshots(new_cache);
+            //take_screenshots(new_cache);
         });
     } else {
         i++;
