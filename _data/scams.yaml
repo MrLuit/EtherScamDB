@@ -14176,6 +14176,8 @@
       - '0x7e3d7D8E31b3F472FCD3C1552a9F009131C50C6C'
       - '0x4Bf722014E54AeAB05fcF1519E6e4C0c3F742e43'
       - '0x29e225d888cf11c5e67613bffd30bcf071eb3d4a'
+      - '0x6d0b90ea2951ca5ad3abdb606e4146e9765f1ee4'
+      - '0x64f3502c4b6b7e7f106e7ab1f175a4e2c2fde45f'
 -
     id: 2259
     name: myetherwalletlogin.com
@@ -14316,6 +14318,8 @@
     url: 'http://request-network.com/'
     category: Phishing
     subcategory: Request
+    addresses:
+      - '0x6D0b90eA2951ca5ad3ABdb606e4146e9765f1ee4'
 -
     id: 2282
     name: real-markets.io
@@ -16298,6 +16302,10 @@
     category: Phishing
     subcategory: Tron
     description: 'Fake Tron airdrop site asking for private keys'
+    addresses:
+      - '0x2da8703d18AFeD53B303119E4fF06CF035a9fadB'    
+      - '0x6d0b90ea2951ca5ad3abdb606e4146e9765f1ee4'
+      - '0x64f3502c4b6b7e7f106e7ab1f175a4e2c2fde45f'
 -
     id: 2557
     name: envion.live
@@ -16500,3 +16508,215 @@
     description: 'Fake Shapeshift'
     addresses:
       - '0x3853BA76eC6AE97818E2d0e0839c9EDa6C396690'
+-
+    id: 2583
+    name: elherdelta.io
+    url: 'http://elherdelta.io/'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta'
+    addresses:
+      - '0xE10270BFb1eD82E120BfC392efb3C94a1604DeD6'
+-
+    id: 2584
+    name: blnance.org
+    url: 'http://blnance.org/'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance exchange site'
+-
+    id: 2585
+    name: binancc.com
+    url: 'http://binancc.com/'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance exchange site'
+-
+    id: 2586
+    name: mysimpletoken.org
+    url: 'http://mysimpletoken.org/'
+    category: Phishing
+    subcategory: Simple
+    description: 'Fake simpletoken airdrop site asking for private keys'
+-
+    id: 2587
+    name: ethereum-giveaway.org
+    url: 'http://ethereum-giveaway.org/'
+    category: Scamming
+    subcategory: Giveaway
+    description: 'Fake Giveway site asking to pay miner fees'
+    addresses:
+      - '0x8444173280E5fDC0525494638123b014CfFcC521'
+-
+    id: 2588
+    name: etherdelta.pw
+    url: 'http://etherdelta.pw/'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta domain - hosted on the same server as the fake airdrop. Assuming bad actor. Russain park page'
+-
+    id: 2589
+    name: reqestnetwork.com
+    url: 'http://reqestnetwork.com/'
+    category: Phishing
+    subcategory: Request
+    description: 'Fake Request airdrop site asking for private keys'
+-    
+    id: 2590
+    name: props-project.com
+    url: 'http://props-project.com/'
+    category: Phishing
+    subcategory: Props
+    description: 'Fake props site'
+    addresses:
+      - '0x72A66Bba491F0C696c4c4e3154D07B241d371944'
+-    
+    id: 2591
+    name: zilliaq.com
+    url: 'http://zilliaq.com/'
+    category: Phishing
+    subcategory: Zilliqa
+    description: 'Fake Zilliqa site'
+    addresses:
+      - '0x72A66Bba491F0C696c4c4e3154D07B241d371944'
+-
+    id: 2592
+    name: wanchain.tech
+    url: 'http://wanchain.tech/'
+    category: Phishing
+    subcategory: Wanchain
+    description: 'Fake wanchain airdrop site asking for private keys'
+-
+    id: 2593
+    name: myetterrwallet.com
+    url: 'http://myetterrwallet.com/'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW phishing for private keys'
+-
+    id: 2594
+    name: xn--inance-hrb.com
+    url: 'http://xn--inance-hrb.com/'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake binance domain'
+-    
+    id: 2595
+    name: cashaa.co
+    url: 'http://cashaa.co/'
+    category: Phishing
+    subcategory: Cashaa
+    description: 'Fake Cashaa crowdsale site'
+    addresses:
+      - '0xEC2D5cC008Ba6D2237d33CA9CF74B684737FCaE8'
+-    
+    id: 2596
+    name: bluzelle.promo
+    url: 'http://tokensale.bluzelle.promo/'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluezelle crowdsale site'
+    addresses:
+      - '0xAc82537fae701B2046F62BB718c4857787b0b647'
+-
+    id: 2597
+    name: cloudpetstore.com
+    url: 'http://cloudpetstore.com/'
+    category: Phishing
+    subcategory: Cryptokitties
+    description: 'Fake Cryptokitties site'
+-
+    id: 2598
+    name: breadtokenapp.com
+    url: 'http://breadtokenapp.com/'
+    category: Phishing
+    subcategory: Bread
+    description: 'Fake Bread airdrop site asking for private keys'
+-
+    id: 2599
+    name: funfairtoken.org
+    url: 'http://funfairtoken.org'
+    category: Phishing
+    subcategory: Funfair
+    description: 'Fake Funfair airdrop site asking for private keys'
+-
+    id: 2600
+    name: bittrex.com1987465798.ga
+    url: 'http://bittrex.com1987465798.ga'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex site - sent via e-mail'
+-
+    id: 2601
+    name: 0x-project.com
+    url: 'http://0x-project.com'
+    category: Phishing
+    subcategory: 0x
+    description: 'Fake 0x airdrop site asking for private keys'
+-
+    id: 2602
+    name: tronlab.tech
+    url: 'http://tronlab.tech'
+    category: Phishing
+    subcategory: Tron
+    description: 'Fake Tron airdrop site asking for private keys'
+-    
+    id: 2603
+    name: nucleusico.com
+    url: 'http://nucleusico.com/'
+    category: Phishing
+    subcategory: Nucleus
+    description: 'Fake Nucleus crowdsale site'
+    addresses:
+      - '0xf962933e44b1DFC771738A034c80D87bDcd96eCC'    
+-
+    id: 2604
+    name: myehterumswallet.com
+    url: 'http://myehterumswallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2605
+    name: xn--bittrx-th8b.com
+    url: 'http://xn--bittrx-th8b.com'
+    category: Phishing
+    subcategory: Bittex
+    description: 'Fake Bittrex - IDN homographic attack'
+-
+    id: 2606
+    name: selfkeys.org
+    url: 'http://selfkeys.org'
+    category: Phishing
+    subcategory: Selfkey
+    description: 'Fake Selfkey token sale site'
+-
+    id: 2607
+    name: tokenselfkey.org
+    url: 'http://tokenselfkey.org'
+    category: Phishing
+    subcategory: Selfkey
+    description: 'Fake Selfkey token sale site'
+    addresses:
+      - '0x52005B77fbEBf53cfD9527A388f58d0431AaaA3e'  
+-
+    id: 2608
+    name: xn--polniex-n0a.com
+    url: 'http://xn--polniex-n0a.com'
+    category: Phishing
+    subcategory: Poloniex
+    description: 'Fake Poloniex - IDN homographic attack'
+-
+    id: 2609
+    name: myehvterwallet.com
+    url: 'http://myehvterwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2610
+    name: myetherwalililet.info
+    url: 'http://myetherwalililet.info'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
