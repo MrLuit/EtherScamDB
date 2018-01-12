@@ -16750,3 +16750,17 @@
     description: 'Fake Dai secret sale'
     addresses:
       - '0xc94a6e7776bade5da316cf6fd8c751fb0d5c3c5e'
+-
+    id: 2615
+    name: xn--os-g7s.com
+    url: 'http://xn--os-g7s.com'
+    category: Phishing
+    subcategory: Eos
+    description: 'Fake airdrop site redirecting to a fake MEW xn--myeherwalet-ns8exy.com' 
+-
+    id: 2616
+    name: xn--myeherwalet-ns8exy.com
+    url: 'http://xn--myeherwalet-ns8exy.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'    
