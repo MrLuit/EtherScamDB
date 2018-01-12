@@ -16727,3 +16727,10 @@
     category: Phishing
     subcategory: Deepbrain
     description: 'Fake airdrop site asking for private keys'    
+-
+    id: 2612
+    name: venchain.org
+    url: 'http://venchain.org'
+    category: Phishing
+    subcategory: Vechain
+    description: 'Fake airdrop site asking for private keys'  
