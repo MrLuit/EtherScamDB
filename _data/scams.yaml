@@ -16793,3 +16793,10 @@
     description: 'Fake Bluzelle crowdsale site'
     addresses:
       - '0x119240Ef17333E8DCB19A0DD4f5fC848981b0Ff4'
+-
+    id: 2620
+    name: xn--ttrex-ysa9423c.com
+    url: 'http://xn--ttrex-ysa9423c.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake bittrex phishing for logins' 
