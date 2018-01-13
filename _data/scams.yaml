@@ -16771,3 +16771,12 @@
     category: Phishing
     subcategory: Gifto
     description: 'Fake airdrop site asking for private keys'
+-
+    id: 2618
+    name: bluzelle.site
+    url: 'http://bluzelle.site'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle crowdsale site'
+    addresses:
+      - '0xFa1F0b67B9b48b2E87467D72f09722E19eD601bd'
