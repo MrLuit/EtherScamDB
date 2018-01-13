@@ -16764,3 +16764,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'    
+-
+    id: 2617
+    name: selfkey.co
+    url: 'http://selfkey.co'
+    category: Phishing
+    subcategory: Selfkey
+    description: 'Fake Selfkey token sale site'
+    addresses:
+      - '0xB2AC8e363eA34201df532A01522a006fCAa389Ee'  
