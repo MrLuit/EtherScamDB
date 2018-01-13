@@ -16780,3 +16780,12 @@
     description: 'Fake Bluzelle crowdsale site'
     addresses:
       - '0xFa1F0b67B9b48b2E87467D72f09722E19eD601bd'
+-
+    id: 2619
+    name: bluzelle.eu
+    url: 'http://bluzelle.eu'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle crowdsale site'
+    addresses:
+      - '0x119240Ef17333E8DCB19A0DD4f5fC848981b0Ff4'
