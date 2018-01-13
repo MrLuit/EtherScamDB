@@ -16800,3 +16800,12 @@
     category: Phishing
     subcategory: Bittrex
     description: 'Fake bittrex phishing for logins' 
+-
+    id: 2621
+    name: sether.in
+    url: 'http://sether.in'
+    category: Phishing
+    subcategory: Sether
+    description: 'Fake Sether crowdsale site'
+    addresses:
+      - '0x6AF114154A8850B1c54d48bD9103BDCdB420611B'
