@@ -16764,3 +16764,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'    
+-
+    id: 2617
+    name: gifto.tech
+    url: 'http://gifto.tech'
+    category: Phishing
+    subcategory: Gifto
+    description: 'Fake airdrop site asking for private keys'
