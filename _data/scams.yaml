@@ -16844,7 +16844,7 @@
     addresses:
       - '0xB2AC8e363eA34201df532A01522a006fCAa389Ee'  
 -
-    id: 2618
+    id: 2626
     name: token-selfkey.org
     url: 'http://token-selfkey.org'
     category: Phishing
