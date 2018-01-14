@@ -16861,4 +16861,5 @@
     subcategory: Gatcoin
     description: 'Fake Gatcoin token sale site'
     addresses:
-      - '0xb37DA5c9179345341Fe50D37cfc961ba47C01f9a'  
+      - '0xb37DA5c9179345341Fe50D37cfc961ba47C01f9a'
+      - '0x5d1bCBDE56db05BeaD0FF7C87C9dC85BAF98ab32'
