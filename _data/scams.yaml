@@ -16833,4 +16833,13 @@
     subcategory: Etherzero
     description: 'Etherzero chain split but need to send coins to this address to buy the new coins - does not add up.'
     addresses:
-      - '0xf33068d5e798f6519349Ce32669D1EC940Db1193'
+      - '0xf33068d5e798f6519349Ce32669D1EC940Db1193' 
+-
+    id: 2625
+    name: selfkey.co
+    url: 'http://selfkey.co'
+    category: Phishing
+    subcategory: Selfkey
+    description: 'Fake Selfkey token sale site'
+    addresses:
+      - '0xB2AC8e363eA34201df532A01522a006fCAa389Ee'  
