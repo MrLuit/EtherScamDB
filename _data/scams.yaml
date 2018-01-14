@@ -16809,3 +16809,10 @@
     description: 'Fake Sether crowdsale site'
     addresses:
       - '0x6AF114154A8850B1c54d48bD9103BDCdB420611B'
+-
+    id: 2622
+    name: xn--etherdlta-0f7d.com
+    url: 'http://xn--etherdlta-0f7d.com'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta phishing for private keys' 
