@@ -16756,16 +16756,86 @@
     url: 'http://xn--os-g7s.com'
     category: Phishing
     subcategory: Eos
-    description: 'Fake airdrop site redirecting to a fake MEW xn--myeherwalet-ns8exy.com' 
+    description: 'Fake airdrop site redirecting to a fake MEW xn--myeherwalet-ns8exy.com'
+    addresses:
+      - '0x58a166f9a6ff996e2349eea90d42cc198529a037'
 -
     id: 2616
     name: xn--myeherwalet-ns8exy.com
     url: 'http://xn--myeherwalet-ns8exy.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: 'Fake MEW'    
+    description: 'Fake MEW'
+    addresses:
+      - '0x58a166f9a6ff996e2349eea90d42cc198529a037'    
 -
     id: 2617
+    name: gifto.tech
+    url: 'http://gifto.tech'
+    category: Phishing
+    subcategory: Gifto
+    description: 'Fake airdrop site asking for private keys'
+-
+    id: 2618
+    name: bluzelle.site
+    url: 'http://bluzelle.site'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle crowdsale site'
+    addresses:
+      - '0xFa1F0b67B9b48b2E87467D72f09722E19eD601bd'
+-
+    id: 2619
+    name: bluzelle.eu
+    url: 'http://bluzelle.eu'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle crowdsale site'
+    addresses:
+      - '0x119240Ef17333E8DCB19A0DD4f5fC848981b0Ff4'
+-
+    id: 2620
+    name: xn--ttrex-ysa9423c.com
+    url: 'http://xn--ttrex-ysa9423c.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake bittrex phishing for logins' 
+-
+    id: 2621
+    name: sether.in
+    url: 'http://sether.in'
+    category: Phishing
+    subcategory: Sether
+    description: 'Fake Sether crowdsale site'
+    addresses:
+      - '0x6AF114154A8850B1c54d48bD9103BDCdB420611B'
+-
+    id: 2622
+    name: xn--etherdlta-0f7d.com
+    url: 'http://xn--etherdlta-0f7d.com'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta phishing for private keys' 
+-
+    id: 2623
+    name: bluzelle.pro
+    url: 'http://bluzelle.pro'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle crowdsale site'
+    addresses:
+      - '0x0B7f284D74F549731499C44aEd2A10ADCc9E9cC0'
+-
+    id: 2624
+    name: etherzero.org
+    url: 'http://etherzero.org'
+    category: Scamming
+    subcategory: Etherzero
+    description: 'Etherzero chain split but need to send coins to this address to buy the new coins - does not add up.'
+    addresses:
+      - '0xf33068d5e798f6519349Ce32669D1EC940Db1193' 
+-
+    id: 2625
     name: selfkey.co
     url: 'http://selfkey.co'
     category: Phishing
