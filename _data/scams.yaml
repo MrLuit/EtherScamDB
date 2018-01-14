@@ -16816,3 +16816,12 @@
     category: Phishing
     subcategory: EtherDelta
     description: 'Fake EtherDelta phishing for private keys' 
+-
+    id: 2623
+    name: bluzelle.pro
+    url: 'http://bluzelle.pro'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle crowdsale site'
+    addresses:
+      - '0x0B7f284D74F549731499C44aEd2A10ADCc9E9cC0'
