@@ -16773,3 +16773,12 @@
     description: 'Fake Selfkey token sale site'
     addresses:
       - '0xB2AC8e363eA34201df532A01522a006fCAa389Ee'  
+-
+    id: 2618
+    name: token-selfkey.org
+    url: 'http://token-selfkey.org'
+    category: Phishing
+    subcategory: Selfkey
+    description: 'Fake Selfkey token sale site'
+    addresses:
+      - '0x02673ebfbfaed5891f6b14248b0e2753a8758fbf'  
