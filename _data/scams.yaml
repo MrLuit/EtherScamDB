@@ -16934,3 +16934,10 @@
     description: 'Fake blender, does not send to your destination address'
     addresses:
       - '0x91619a3456FDbAc90bD93f51F2917981f0ED3097'
+-
+    id: 2637
+    name: bluzelle.cc
+    url: 'http://bluzelle.cc'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle crowdsale site'  
