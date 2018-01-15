@@ -16879,3 +16879,17 @@
     category: Scamming
     subcategory: Digitexfutures
     description: 'Fake Digitexfutures crowdsale site'
+-
+    id: 2630
+    name: thekey-vip.com
+    url: 'http://thekey-vip.com'
+    category: Scamming
+    subcategory: Key
+    description: 'Fake thekey crowdsale site'
+-
+    id: 2631
+    name: thekey.vin
+    url: 'http://thekey.vin'
+    category: Scamming
+    subcategory: Key
+    description: 'Fake thekey crowdsale site'    
