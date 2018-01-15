@@ -16941,3 +16941,10 @@
     category: Phishing
     subcategory: Bluzelle
     description: 'Fake Bluzelle crowdsale site'  
+-
+    id: 2638
+    name: tronlabs.network
+    url: 'http://tronlabs.network'
+    category: Phishing
+    subcategory: Tron
+    description: 'Fake tron airdrop site asking for private keys'  
