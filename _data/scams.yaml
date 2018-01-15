@@ -16909,3 +16909,12 @@
     category: Phishing
     subcategory: Etherzero
     description: 'Fake claim site phishing for wallet seed phrases'    
+-
+    id: 2634
+    name: waltontoken.org
+    url: 'http://waltontoken.org'
+    category: Phishing
+    subcategory: Walton
+    description: 'Fake airdrop site asking for private keys'
+    addresses:
+      - '0x660d30d1fbafdc88a1951370cbe2b3094dbf224b'
