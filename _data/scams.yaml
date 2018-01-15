@@ -16948,3 +16948,10 @@
     category: Phishing
     subcategory: Tron
     description: 'Fake tron airdrop site asking for private keys'  
+-
+    id: 2639
+    name: tronlab.site
+    url: 'http://tronlab.site'
+    category: Phishing
+    subcategory: Tron
+    description: 'Fake tron airdrop site asking for private keys'  
