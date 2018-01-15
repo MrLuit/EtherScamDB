@@ -16909,3 +16909,35 @@
     category: Phishing
     subcategory: Etherzero
     description: 'Fake claim site phishing for wallet seed phrases'    
+-
+    id: 2634
+    name: waltontoken.org
+    url: 'http://waltontoken.org'
+    category: Phishing
+    subcategory: Walton
+    description: 'Fake airdrop site asking for private keys'
+    addresses:
+      - '0x660d30d1fbafdc88a1951370cbe2b3094dbf224b'
+-
+    id: 2635
+    name: ethpaperwallet.net
+    url: 'http://ethpaperwallet.net'
+    category: Phishing
+    subcategory: Wallets
+    description: 'Phishing for private keys'    
+-
+    id: 2636
+    name: ethblender.com
+    url: 'http://ethblender.com'
+    category: Scamming
+    subcategory: Blender
+    description: 'Fake blender, does not send to your destination address'
+    addresses:
+      - '0x91619a3456FDbAc90bD93f51F2917981f0ED3097'
+-
+    id: 2637
+    name: bluzelle.cc
+    url: 'http://bluzelle.cc'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle crowdsale site'  
