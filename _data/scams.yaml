@@ -16918,3 +16918,10 @@
     description: 'Fake airdrop site asking for private keys'
     addresses:
       - '0x660d30d1fbafdc88a1951370cbe2b3094dbf224b'
+-
+    id: 2635
+    name: ethpaperwallet.net
+    url: 'http://ethpaperwallet.net'
+    category: Phishing
+    subcategory: Wallets
+    description: 'Phishing for private keys'    
