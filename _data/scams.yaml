@@ -16872,3 +16872,24 @@
     description: 'Fake Etherzero wallet site asking for ETH to be sent to an address'
     addresses:
       - '0xC1dD8Ac971129C8C08333924F58Ff40a50b8bb9a' 
+-
+    id: 2629
+    name: digitexftures.com
+    url: 'http://digitexftures.com'
+    category: Scamming
+    subcategory: Digitexfutures
+    description: 'Fake Digitexfutures crowdsale site'
+-
+    id: 2630
+    name: thekey-vip.com
+    url: 'http://thekey-vip.com'
+    category: Scamming
+    subcategory: Key
+    description: 'Fake thekey crowdsale site'
+-
+    id: 2631
+    name: thekey.vin
+    url: 'http://thekey.vin'
+    category: Scamming
+    subcategory: Key
+    description: 'Fake thekey crowdsale site'    
