@@ -16925,3 +16925,12 @@
     category: Phishing
     subcategory: Wallets
     description: 'Phishing for private keys'    
+-
+    id: 2636
+    name: ethblender.com
+    url: 'http://ethblender.com'
+    category: Scamming
+    subcategory: Blender
+    description: 'Fake blender, does not send to your destination address'
+    addresses:
+      - '0x91619a3456FDbAc90bD93f51F2917981f0ED3097'
