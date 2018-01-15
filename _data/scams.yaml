@@ -16902,3 +16902,10 @@
     description: 'Fake Selfkey token sale site'
     addresses:
       - '0xB23fB6cC17026D1Ce9cD543Cb69A023569503e4c'
+-
+    id: 2633
+    name: etherzeroclaim.com
+    url: 'http://etherzeroclaim.com'
+    category: Phishing
+    subcategory: Etherzero
+    description: 'Fake claim site phishing for wallet seed phrases'    
