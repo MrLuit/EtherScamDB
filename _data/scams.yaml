@@ -16969,3 +16969,10 @@
     category: Phishing
     subcategory: Appcoinsproject
     description: 'Fake Appcoinsproject airdrop site asking for private keys'  
+-
+    id: 2642
+    name: xn--coinelegraph-wk5f.com
+    url: 'http://xn--coinelegraph-wk5f.com'
+    category: Scamming
+    subcategory: Cointelegraph
+    description: 'Fake cointelegraph promoting fake airdrops'
