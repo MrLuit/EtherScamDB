@@ -16962,3 +16962,10 @@
     category: Phishing
     subcategory: Vechain
     description: 'Fake Vechain airdrop site asking for private keys'  
+-
+    id: 2641
+    name: appcoinsproject.com
+    url: 'http://appcoinsproject.com'
+    category: Phishing
+    subcategory: Appcoinsproject
+    description: 'Fake Appcoinsproject airdrop site asking for private keys'  
