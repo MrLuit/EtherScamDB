@@ -17017,3 +17017,10 @@
     category: Phishing
     subcategory: Etherzero
     description: 'Etherzero domain, but nothing supporting it being the legit domain. Also hosted on a server used before to host other phishing campaigns. Asking for your chain code.'
+-
+    id: 2648
+    name: myetherwallet.applytoken.tk
+    url: 'http://myetherwallet.applytoken.tk'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW - Slack phishing'
