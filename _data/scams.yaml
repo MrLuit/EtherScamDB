@@ -17003,3 +17003,10 @@
     description: 'Fake bluzelle crowdsale site'
     addresses:
       - '0xc169a0e826f22fc7d37a48aaa346ffb4521c35cd'
+-
+    id: 2646
+    name: quanstamptoken.tk
+    url: 'http://quanstamptoken.tk'
+    category: Phishing
+    subcategory: Quanstamp
+    description: 'Fake Quanstamp site - hosted on the same server as many other scams/phishing domains'
