@@ -16976,3 +16976,12 @@
     category: Scamming
     subcategory: Cointelegraph
     description: 'Fake cointelegraph promoting fake airdrops'
+-
+    id: 2643
+    name: tron-wallet.info
+    url: 'http://tron-wallet.info'
+    category: Scamming
+    subcategory: Tron
+    description: 'Fake tron web-wallet'
+    addresses:
+      - '0xf4c87c851d772b0f9e72cca0690327f2bc505015'
