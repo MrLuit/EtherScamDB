@@ -17010,3 +17010,10 @@
     category: Phishing
     subcategory: Quanstamp
     description: 'Fake Quanstamp site - hosted on the same server as many other scams/phishing domains'
+-
+    id: 2647
+    name: ethereum-zero.com
+    url: 'http://ethereum-zero.com'
+    category: Phishing
+    subcategory: Etherzero
+    description: 'Etherzero domain, but nothing supporting it being the legit domain. Also hosted on a server used before to host other phishing campaigns. Asking for your chain code.'
