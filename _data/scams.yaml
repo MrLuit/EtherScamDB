@@ -16985,3 +16985,12 @@
     description: 'Fake tron web-wallet'
     addresses:
       - '0xf4c87c851d772b0f9e72cca0690327f2bc505015'
+-
+    id: 2644
+    name: ether-wallet.org
+    url: 'http://ether-wallet.org'
+    category: Scamming
+    subcategory: WebWallet
+    description: 'Fake ETH web-wallet'
+    addresses:
+      - '0xc0fed35b43f59c2bfb1eb544bd8921bfb18140c2'
