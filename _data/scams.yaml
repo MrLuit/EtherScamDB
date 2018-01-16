@@ -16955,3 +16955,10 @@
     category: Phishing
     subcategory: Tron
     description: 'Fake tron airdrop site asking for private keys'  
+-
+    id: 2640
+    name: vechain.foundation
+    url: 'http://vechain.foundation'
+    category: Phishing
+    subcategory: Vechain
+    description: 'Fake Vechain airdrop site asking for private keys'  
