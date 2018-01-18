@@ -17033,3 +17033,12 @@
     description: 'Fake Sether crowdsale site'
     addresses:
       - '0x1c39d6E0278D1A28Ce21DBD73826559b010224E5'
+-
+    id: 2650
+    name: bluzele.co
+    url: 'http://bluzele.co'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle crowdsale site'
+    addresses:
+      - '0xB2A3FCf38979898e695c88947e3373bf1c2E9b37'
