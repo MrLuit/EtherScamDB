@@ -17074,3 +17074,10 @@
     description: 'Fake Bluzelle crowdsale site'
     addresses:
       - '0x33bf8bde242216da572d6486d641ae0a18137306'
+-
+    id: 2655
+    name: myeherwalllet.com
+    url: 'http://myeherwalllet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
