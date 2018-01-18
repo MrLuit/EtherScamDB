@@ -17065,3 +17065,12 @@
     category: Phishing
     subcategory: Bluzelle
     description: 'Fake Bluzelle site'
+-
+    id: 2654
+    name: ico-bluzelle.com
+    url: 'http://ico-bluzelle.com'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle crowdsale site'
+    addresses:
+      - '0x33bf8bde242216da572d6486d641ae0a18137306'
