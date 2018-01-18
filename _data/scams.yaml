@@ -17081,3 +17081,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'
+-
+    id: 2656
+    name: myehntersvvailct.com
+    url: 'http://myehntersvvailct.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
