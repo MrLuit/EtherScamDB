@@ -17057,4 +17057,11 @@
     url: 'http://bluzelle.one'
     category: Phishing
     subcategory: Bluzelle
-    description: 'Fake Bluzelle crowdsale site'
+    description: 'Fake Bluzelle site'
+-
+    id: 2652
+    name: bluzelle.im
+    url: 'http://bluzelle.im'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle site'
