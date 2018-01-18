@@ -17051,3 +17051,10 @@
     description: 'Fake Bluzelle crowdsale site'
     addresses:
       - '0xB2A3FCf38979898e695c88947e3373bf1c2E9b37'
+-
+    id: 2652
+    name: bluzelle.one
+    url: 'http://bluzelle.one'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle crowdsale site'
