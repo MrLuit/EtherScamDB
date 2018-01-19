@@ -17089,3 +17089,33 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'
+-
+    id: 2657
+    name: xn--quanstamp-8s6d.com
+    url: 'http://xn--quanstamp-8s6d.com'
+    category: Phishing
+    subcategory: Quanstamp
+    description: 'Fake Quanstamp'
+-
+    id: 2658
+    name: appcoinstoken.org
+    url: 'http://appcoinstoken.org'
+    category: Phishing
+    subcategory: Appcoins
+    description: 'Fake airdrop asking for private keys'
+-
+    id: 2659
+    name: vechainfoundation.com
+    url: 'http://vechainfoundation.com'
+    category: Phishing
+    subcategory: Vechain
+    description: 'Fake Vechain'
+-
+    id: 2660
+    name: bleuzelle.com
+    url: 'http://bleuzelle.com'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle crowdsale site'
+    addresses:
+      - '0x0eF2724a6D8be9f72f3d35b62E1e8a37CEaF721e'
