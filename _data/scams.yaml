@@ -17103,3 +17103,10 @@
     category: Phishing
     subcategory: Appcoins
     description: 'Fake airdrop asking for private keys'
+-
+    id: 2659
+    name: vechainfoundation.com
+    url: 'http://vechainfoundation.com'
+    category: Phishing
+    subcategory: Vechain
+    description: 'Fake Vechain'
