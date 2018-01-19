@@ -17089,3 +17089,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'
+-
+    id: 2657
+    name: xn--quanstamp-8s6d.com
+    url: 'http://xn--quanstamp-8s6d.com'
+    category: Phishing
+    subcategory: Quanstamp
+    description: 'Fake Quanstamp'
