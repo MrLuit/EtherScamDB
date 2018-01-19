@@ -17128,3 +17128,10 @@
     description: 'Fake Bluzelle crowdsale site'
     addresses:
       - '0xf747726200C7FC14Ef4CE267b1F070128C2260Dd'
+-
+    id: 2662
+    name: eterzero.org
+    url: 'http://eterzero.org'
+    category: Phishing
+    subcategory: Etherzero
+    description: 'Fake Etherzero'
