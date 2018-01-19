@@ -17096,3 +17096,10 @@
     category: Phishing
     subcategory: Quanstamp
     description: 'Fake Quanstamp'
+-
+    id: 2658
+    name: appcoinstoken.org
+    url: 'http://appcoinstoken.org'
+    category: Phishing
+    subcategory: Appcoins
+    description: 'Fake airdrop asking for private keys'
