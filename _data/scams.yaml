@@ -17188,3 +17188,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW - stealing private keys with log.php'
+-
+    id: 2670
+    name: venchainfoundation.com
+    url: 'http://venchainfoundation.com'
+    category: Phishing
+    subcategory: Vechain
+    description: 'Fake Vechain coin fork creditor asking for private keys'
