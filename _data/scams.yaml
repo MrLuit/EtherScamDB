@@ -17172,3 +17172,10 @@
     description: 'Fake zeepln.io phishing for login details and fake crowdsale address'
     addresses:
       - '0x0C8b0b3e963beCf16cda410fe1Eb4B5D64022C94'
+-
+    id: 2668
+    name: ether-zero.net
+    url: 'http://ether-zero.net'
+    category: Phishing
+    subcategory: Etherzero
+    description: 'Fake Etherzero coin fork creditor asking for private keys'
