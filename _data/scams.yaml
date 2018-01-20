@@ -17135,3 +17135,10 @@
     category: Phishing
     subcategory: Etherzero
     description: 'Fake Etherzero'
+-
+    id: 2663
+    name: ether0.org
+    url: 'http://ether0.org'
+    category: Phishing
+    subcategory: Etherzero
+    description: 'Fake Etherzero wallet - saving users passwords'
