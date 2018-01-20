@@ -17156,3 +17156,10 @@
     category: Phishing
     subcategory: Nas
     description: 'Fake Nastoken airdrop asking for private keys'
+-
+    id: 2666
+    name: ins.foundation
+    url: 'http://ins.foundation'
+    category: Phishing
+    subcategory: Ins
+    description: 'Fake Ins airdrop asking for private keys'
