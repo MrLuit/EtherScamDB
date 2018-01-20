@@ -16306,6 +16306,7 @@
       - '0x2da8703d18AFeD53B303119E4fF06CF035a9fadB'    
       - '0x6d0b90ea2951ca5ad3abdb606e4146e9765f1ee4'
       - '0x64f3502c4b6b7e7f106e7ab1f175a4e2c2fde45f'
+      - '0x660d30d1fbafdc88a1951370cbe2b3094dbf224b'
 -
     id: 2557
     name: envion.live
@@ -16720,3 +16721,424 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'
+-
+    id: 2611
+    name: deepbrainchain.co
+    url: 'http://deepbrainchain.co'
+    category: Phishing
+    subcategory: Deepbrain
+    description: 'Fake airdrop site asking for private keys'    
+-
+    id: 2612
+    name: venchain.org
+    url: 'http://venchain.org'
+    category: Phishing
+    subcategory: Vechain
+    description: 'Fake airdrop site asking for private keys'  
+-
+    id: 2613
+    name: eos-token.org
+    url: 'http://eos-token.org'
+    category: Phishing
+    subcategory: Eos
+    description: 'Fake airdrop site asking for private keys' 
+-
+    id: 2614
+    name: dai-stablecoin.com
+    url: 'http://dai-stablecoin.com'
+    category: Phishing
+    subcategory: Dai
+    description: 'Fake Dai secret sale'
+    addresses:
+      - '0xc94a6e7776bade5da316cf6fd8c751fb0d5c3c5e'
+-
+    id: 2615
+    name: xn--os-g7s.com
+    url: 'http://xn--os-g7s.com'
+    category: Phishing
+    subcategory: Eos
+    description: 'Fake airdrop site redirecting to a fake MEW xn--myeherwalet-ns8exy.com'
+    addresses:
+      - '0x58a166f9a6ff996e2349eea90d42cc198529a037'
+-
+    id: 2616
+    name: xn--myeherwalet-ns8exy.com
+    url: 'http://xn--myeherwalet-ns8exy.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+    addresses:
+      - '0x58a166f9a6ff996e2349eea90d42cc198529a037'    
+-
+    id: 2617
+    name: gifto.tech
+    url: 'http://gifto.tech'
+    category: Phishing
+    subcategory: Gifto
+    description: 'Fake airdrop site asking for private keys'
+-
+    id: 2618
+    name: bluzelle.site
+    url: 'http://bluzelle.site'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle crowdsale site'
+    addresses:
+      - '0xFa1F0b67B9b48b2E87467D72f09722E19eD601bd'
+-
+    id: 2619
+    name: bluzelle.eu
+    url: 'http://bluzelle.eu'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle crowdsale site'
+    addresses:
+      - '0x119240Ef17333E8DCB19A0DD4f5fC848981b0Ff4'
+      - '0x0310c4385311D225CBCACa26FEFc9Ab45D3eba3E'
+-
+    id: 2620
+    name: xn--ttrex-ysa9423c.com
+    url: 'http://xn--ttrex-ysa9423c.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake bittrex phishing for logins' 
+-
+    id: 2621
+    name: sether.in
+    url: 'http://sether.in'
+    category: Phishing
+    subcategory: Sether
+    description: 'Fake Sether crowdsale site'
+    addresses:
+      - '0x6AF114154A8850B1c54d48bD9103BDCdB420611B'
+-
+    id: 2622
+    name: xn--etherdlta-0f7d.com
+    url: 'http://xn--etherdlta-0f7d.com'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta phishing for private keys' 
+-
+    id: 2623
+    name: bluzelle.pro
+    url: 'http://bluzelle.pro'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle crowdsale site'
+    addresses:
+      - '0x0B7f284D74F549731499C44aEd2A10ADCc9E9cC0'
+-
+    id: 2624
+    name: etherzero.org
+    url: 'http://etherzero.org'
+    category: Scamming
+    subcategory: Etherzero
+    description: 'Etherzero chain split but need to send coins to this address to buy the new coins - does not add up.'
+    addresses:
+      - '0xf33068d5e798f6519349Ce32669D1EC940Db1193' 
+-
+    id: 2625
+    name: selfkey.co
+    url: 'http://selfkey.co'
+    category: Phishing
+    subcategory: Selfkey
+    description: 'Fake Selfkey token sale site'
+    addresses:
+      - '0xB2AC8e363eA34201df532A01522a006fCAa389Ee'  
+-
+    id: 2626
+    name: token-selfkey.org
+    url: 'http://token-selfkey.org'
+    category: Phishing
+    subcategory: Selfkey
+    description: 'Fake Selfkey token sale site'
+    addresses:
+      - '0x02673ebfbfaed5891f6b14248b0e2753a8758fbf'  
+-
+    id: 2627
+    name: gatcoins.io
+    url: 'http://gatcoins.io'
+    category: Phishing
+    subcategory: Gatcoin
+    description: 'Fake Gatcoin token sale site'
+    addresses:
+      - '0xb37DA5c9179345341Fe50D37cfc961ba47C01f9a'
+      - '0x5d1bCBDE56db05BeaD0FF7C87C9dC85BAF98ab32'
+-
+    id: 2628
+    name: ethzero-wallet.org
+    url: 'http://ethzero-wallet.org'
+    category: Scamming
+    subcategory: Etherzero
+    description: 'Fake Etherzero wallet site asking for ETH to be sent to an address'
+    addresses:
+      - '0xC1dD8Ac971129C8C08333924F58Ff40a50b8bb9a' 
+-
+    id: 2629
+    name: digitexftures.com
+    url: 'http://digitexftures.com'
+    category: Scamming
+    subcategory: Digitexfutures
+    description: 'Fake Digitexfutures crowdsale site'
+-
+    id: 2630
+    name: thekey-vip.com
+    url: 'http://thekey-vip.com'
+    category: Scamming
+    subcategory: Key
+    description: 'Fake thekey crowdsale site'
+-
+    id: 2631
+    name: thekey.vin
+    url: 'http://thekey.vin'
+    category: Scamming
+    subcategory: Key
+    description: 'Fake thekey crowdsale site'    
+-
+    id: 2632
+    name: icoselfkey.org
+    url: 'http://icoselfkey.org'
+    category: Phishing
+    subcategory: Selfkey
+    description: 'Fake Selfkey token sale site'
+    addresses:
+      - '0xB23fB6cC17026D1Ce9cD543Cb69A023569503e4c'
+-
+    id: 2633
+    name: etherzeroclaim.com
+    url: 'http://etherzeroclaim.com'
+    category: Phishing
+    subcategory: Etherzero
+    description: 'Fake claim site phishing for wallet seed phrases'    
+-
+    id: 2634
+    name: waltontoken.org
+    url: 'http://waltontoken.org'
+    category: Phishing
+    subcategory: Walton
+    description: 'Fake airdrop site asking for private keys'
+    addresses:
+      - '0x660d30d1fbafdc88a1951370cbe2b3094dbf224b'
+-
+    id: 2635
+    name: ethpaperwallet.net
+    url: 'http://ethpaperwallet.net'
+    category: Phishing
+    subcategory: Wallets
+    description: 'Phishing for private keys'    
+-
+    id: 2636
+    name: ethblender.com
+    url: 'http://ethblender.com'
+    category: Scamming
+    subcategory: Blender
+    description: 'Fake blender, does not send to your destination address'
+    addresses:
+      - '0x91619a3456FDbAc90bD93f51F2917981f0ED3097'
+-
+    id: 2637
+    name: bluzelle.cc
+    url: 'http://bluzelle.cc'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle crowdsale site'  
+-
+    id: 2638
+    name: tronlabs.network
+    url: 'http://tronlabs.network'
+    category: Phishing
+    subcategory: Tron
+    description: 'Fake tron airdrop site asking for private keys'  
+-
+    id: 2639
+    name: tronlab.site
+    url: 'http://tronlab.site'
+    category: Phishing
+    subcategory: Tron
+    description: 'Fake tron airdrop site asking for private keys'  
+-
+    id: 2640
+    name: vechain.foundation
+    url: 'http://vechain.foundation'
+    category: Phishing
+    subcategory: Vechain
+    description: 'Fake Vechain airdrop site asking for private keys'  
+-
+    id: 2641
+    name: appcoinsproject.com
+    url: 'http://appcoinsproject.com'
+    category: Phishing
+    subcategory: Appcoinsproject
+    description: 'Fake Appcoinsproject airdrop site asking for private keys'  
+-
+    id: 2642
+    name: xn--coinelegraph-wk5f.com
+    url: 'http://xn--coinelegraph-wk5f.com'
+    category: Scamming
+    subcategory: Cointelegraph
+    description: 'Fake cointelegraph promoting fake airdrops'
+-
+    id: 2643
+    name: tron-wallet.info
+    url: 'http://tron-wallet.info'
+    category: Scamming
+    subcategory: Tron
+    description: 'Fake tron web-wallet'
+    addresses:
+      - '0xf4c87c851d772b0f9e72cca0690327f2bc505015'
+-
+    id: 2644
+    name: ether-wallet.org
+    url: 'http://ether-wallet.org'
+    category: Scamming
+    subcategory: WebWallet
+    description: 'Fake ETH web-wallet'
+    addresses:
+      - '0xc0fed35b43f59c2bfb1eb544bd8921bfb18140c2'
+-
+    id: 2645
+    name: bluzelle.network
+    url: 'http://bluzelle.network'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake bluzelle crowdsale site'
+    addresses:
+      - '0xc169a0e826f22fc7d37a48aaa346ffb4521c35cd'
+-
+    id: 2646
+    name: quanstamptoken.tk
+    url: 'http://quanstamptoken.tk'
+    category: Phishing
+    subcategory: Quanstamp
+    description: 'Fake Quanstamp site - hosted on the same server as many other scams/phishing domains'
+-
+    id: 2647
+    name: ethereum-zero.com
+    url: 'http://ethereum-zero.com'
+    category: Phishing
+    subcategory: Etherzero
+    description: 'Etherzero domain, but nothing supporting it being the legit domain. Also hosted on a server used before to host other phishing campaigns. Asking for your chain code.'
+-
+    id: 2648
+    name: myetherwallet.applytoken.tk
+    url: 'http://myetherwallet.applytoken.tk'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW - Slack phishing'
+-
+    id: 2649
+    name: sether.ws
+    url: 'http://sether.ws'
+    category: Phishing
+    subcategory: Sether
+    description: 'Fake Sether crowdsale site'
+    addresses:
+      - '0x1c39d6E0278D1A28Ce21DBD73826559b010224E5'
+-
+    id: 2650
+    name: bluzele.co
+    url: 'http://bluzele.co'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle crowdsale site'
+    addresses:
+      - '0xB2A3FCf38979898e695c88947e3373bf1c2E9b37'
+-
+    id: 2651
+    name: bluzele.sale
+    url: 'http://bluzele.sale'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle crowdsale site'
+    addresses:
+      - '0xB2A3FCf38979898e695c88947e3373bf1c2E9b37'
+-
+    id: 2652
+    name: bluzelle.one
+    url: 'http://bluzelle.one'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle site'
+-
+    id: 2653
+    name: bluzelle.im
+    url: 'http://bluzelle.im'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle site'
+-
+    id: 2654
+    name: ico-bluzelle.com
+    url: 'http://ico-bluzelle.com'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle crowdsale site'
+    addresses:
+      - '0x33bf8bde242216da572d6486d641ae0a18137306'
+-
+    id: 2655
+    name: myeherwalllet.com
+    url: 'http://myeherwalllet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2656
+    name: myehntersvvailct.com
+    url: 'http://myehntersvvailct.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2657
+    name: xn--quanstamp-8s6d.com
+    url: 'http://xn--quanstamp-8s6d.com'
+    category: Phishing
+    subcategory: Quanstamp
+    description: 'Fake Quanstamp'
+-
+    id: 2658
+    name: appcoinstoken.org
+    url: 'http://appcoinstoken.org'
+    category: Phishing
+    subcategory: Appcoins
+    description: 'Fake airdrop asking for private keys'
+-
+    id: 2659
+    name: vechainfoundation.com
+    url: 'http://vechainfoundation.com'
+    category: Phishing
+    subcategory: Vechain
+    description: 'Fake Vechain'
+-
+    id: 2660
+    name: bleuzelle.com
+    url: 'http://bleuzelle.com'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle crowdsale site'
+    addresses:
+      - '0x0eF2724a6D8be9f72f3d35b62E1e8a37CEaF721e'
+-
+    id: 2661
+    name: bluzelle-ico.eu
+    url: 'http://bluzelle-ico.eu'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle crowdsale site'
+    addresses:
+      - '0xf747726200C7FC14Ef4CE267b1F070128C2260Dd'
+-
+    id: 2662
+    name: eterzero.org
+    url: 'http://eterzero.org'
+    category: Phishing
+    subcategory: Etherzero
+    description: 'Fake Etherzero'
+-
+    id: 2663
+    name: ether0.org
+    url: 'http://ether0.org'
+    category: Phishing
+    subcategory: Etherzero
+    description: 'Fake Etherzero wallet - saving users passwords'
