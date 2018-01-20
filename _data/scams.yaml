@@ -17142,3 +17142,24 @@
     category: Phishing
     subcategory: Etherzero
     description: 'Fake Etherzero wallet - saving users passwords'
+-
+    id: 2664
+    name: telcointoken.com
+    url: 'http://telcointoken.com'
+    category: Phishing
+    subcategory: Telcoin
+    description: 'Fake telcointoken airdrop asking for private keys'
+-
+    id: 2665
+    name: nastoken.org
+    url: 'http://nastoken.org'
+    category: Phishing
+    subcategory: Nas
+    description: 'Fake Nastoken airdrop asking for private keys'
+-
+    id: 2666
+    name: ins.foundation
+    url: 'http://ins.foundation'
+    category: Phishing
+    subcategory: Ins
+    description: 'Fake Ins airdrop asking for private keys'
