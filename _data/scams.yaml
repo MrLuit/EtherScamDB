@@ -17181,3 +17181,10 @@
     category: Phishing
     subcategory: Etherzero
     description: 'Fake Etherzero coin fork creditor asking for private keys'
+-
+    id: 2669
+    name: myenhtersvvailot.com
+    url: 'http://myenhtersvvailot.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW - stealing private keys with log.php'
