@@ -17195,3 +17195,17 @@
     category: Phishing
     subcategory: Vechain
     description: 'Fake Vechain coin fork creditor asking for private keys'
+-
+    id: 2671
+    name: xn--metherwalle-jb9et7d.com
+    url: 'http://xn--metherwalle-jb9et7d.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2672
+    name: xn--coinesk-jo3c.com
+    url: 'http://xn--coinesk-jo3c.com'
+    category: Phishing
+    subcategory: Coindesk
+    description: 'Fake Coindesk promoting a fake MEW'    
