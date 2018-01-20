@@ -17209,3 +17209,10 @@
     category: Phishing
     subcategory: Coindesk
     description: 'Fake Coindesk promoting a fake MEW'    
+-
+    id: 2673
+    name: ethzero-wallet.com
+    url: 'http://ethzero-wallet.com'
+    category: Phishing
+    subcategory: Etherzero
+    description: 'Fake Etherzero wallet phishing for private keys'    
