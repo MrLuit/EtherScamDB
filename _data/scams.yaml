@@ -17163,3 +17163,10 @@
     category: Phishing
     subcategory: Ins
     description: 'Fake Ins airdrop asking for private keys'
+-
+    id: 2667
+    name: zeepln.io
+    url: 'http://zeepln.io'
+    category: Phishing
+    subcategory: Ins
+    description: 'Fake zeepln.io phishing for login details'
