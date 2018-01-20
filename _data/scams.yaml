@@ -17018,6 +17018,8 @@
     category: Phishing
     subcategory: Etherzero
     description: 'Etherzero domain, but nothing supporting it being the legit domain. Also hosted on a server used before to host other phishing campaigns. Asking for your chain code.'
+    addresses:
+      - '0xac3800002e45ed2e1a55dedfa2aca137f6dba61e'
 -
     id: 2648
     name: myetherwallet.applytoken.tk
