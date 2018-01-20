@@ -14,6 +14,8 @@ const request = require('request');
 const app = express();
 const default_template = fs.readFileSync('./_layouts/default.html', 'utf8');
 let cache;
+var older_cache_time;
+let updating_now = false;
 checkConfig();
 const config = require('./config');
 
@@ -22,8 +24,11 @@ function getCache(callback = false) {
     if (!fs.existsSync('_cache/cache.json')) {
         console.log("No cache file found. Creating one...");
         if (callback) {
-            spawn('node', ['update.js'], { detached: true });
-            let checkDone = setInterval(function() {
+			if(!updating_now) {
+				updating_now = true;
+				spawn('node', ['update.js'], { detached: true });
+			}
+            var checkDone = setInterval(function() {
                 if (fs.existsSync('_cache/cache.json')) {
                     cache = JSON.parse(fs.readFileSync('_cache/cache.json'));
                     clearInterval(checkDone);
@@ -42,7 +47,18 @@ function getCache(callback = false) {
     } else if ((new Date().getTime() - cache.updated) < config.cache_refreshing_interval) {
         return cache;
     } else if ((new Date().getTime() - cache.updated) >= config.cache_refreshing_interval) {
-        spawn('node', ['update.js'], { detached: true });
+		if(!updating_now) {
+			updating_now = true;
+			older_cache_time = cache.updated;
+			spawn('node', ['update.js'], { detached: true });
+			var checkDone2 = setInterval(function() {
+                if (cache.updated != older_cache_time) {
+                    clearInterval(checkDone2);
+                    console.log("Successfully updated cache!");
+                    updating_now = false;
+                }
+            }, 1000);
+		}
         return cache;
     }
 }
