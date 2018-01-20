@@ -17142,3 +17142,10 @@
     category: Phishing
     subcategory: Etherzero
     description: 'Fake Etherzero wallet - saving users passwords'
+-
+    id: 2664
+    name: telcointoken.com
+    url: 'http://telcointoken.com'
+    category: Phishing
+    subcategory: Telcoin
+    description: 'Fake telcointoken airdrop asking for private keys'
