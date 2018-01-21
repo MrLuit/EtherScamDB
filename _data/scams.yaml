@@ -17273,3 +17273,10 @@
     description: 'Fake Telegram crowdsale site'
     addresses:
       - '0xB9Cfb36060785F6800B1aB9ccC9B4F341d097399'
+-
+    id: 2681
+    name: iexecplatform.com
+    url: 'http://iexecplatform.com'
+    category: Phishing
+    subcategory: Iexec
+    description: 'Fake iExec airdrop site asking for private keys'  
