@@ -17250,3 +17250,17 @@
     description: 'Fake Nucleus crowdsale site'
     addresses:
       - '0x2789b7b3557f39643198433daEBF6b43512Be65B'
+-
+    id: 2678
+    name: wepowers.network
+    url: 'http://wepowers.network'
+    category: Phishing
+    subcategory: Wepower
+    description: 'Fake Wepower site'
+-
+    id: 2679
+    name: wepower.vision
+    url: 'http://wepower.vision'
+    category: Phishing
+    subcategory: Wepower
+    description: 'Fake Wepower site'    
