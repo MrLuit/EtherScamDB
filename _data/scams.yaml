@@ -17216,3 +17216,37 @@
     category: Phishing
     subcategory: Etherzero
     description: 'Fake Etherzero wallet phishing for private keys'    
+-
+    id: 2674
+    name: bluzelle-ico.com
+    url: 'http://bluzelle-ico.com'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle crowdsale site'
+    addresses:
+      - '0xce686d019E6f692aF646A8dF3BfE789dA97a484f'
+-
+    id: 2675
+    name: wanchain.cloud
+    url: 'http://wanchain.cloud'
+    category: Phishing
+    subcategory: Wanchain
+    description: 'Fake Wanchain crowdsale site and phishing for private keys'
+    addresses:
+      - '0x6d64486A5C99139b53239297E0b653D196d05777'
+-
+    id: 2676
+    name: intchain.network
+    url: 'http://intchain.network'
+    category: Phishing
+    subcategory: Int
+    description: 'Fake INT airdrop phishing for private keys'  
+-
+    id: 2677
+    name: nucleus-vision.eu
+    url: 'http://nucleus-vision.eu'
+    category: Phishing
+    subcategory: Nucleus
+    description: 'Fake Nucleus crowdsale site'
+    addresses:
+      - '0x2789b7b3557f39643198433daEBF6b43512Be65B'
