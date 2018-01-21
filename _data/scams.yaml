@@ -17264,3 +17264,12 @@
     category: Phishing
     subcategory: Wepower
     description: 'Fake Wepower site'    
+-
+    id: 2680
+    name: tongramico.com
+    url: 'http://tongramico.com'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'
+    addresses:
+      - '0xB9Cfb36060785F6800B1aB9ccC9B4F341d097399'
