@@ -17234,3 +17234,10 @@
     description: 'Fake Wanchain crowdsale site and phishing for private keys'
     addresses:
       - '0x6d64486A5C99139b53239297E0b653D196d05777'
+-
+    id: 2676
+    name: intchain.network
+    url: 'http://intchain.network'
+    category: Phishing
+    subcategory: Int
+    description: 'Fake INT airdrop phishing for private keys'  
