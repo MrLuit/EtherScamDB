@@ -17216,3 +17216,12 @@
     category: Phishing
     subcategory: Etherzero
     description: 'Fake Etherzero wallet phishing for private keys'    
+-
+    id: 2674
+    name: bluzelle-ico.com
+    url: 'http://bluzelle-ico.com'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle crowdsale site'
+    addresses:
+      - '0xce686d019E6f692aF646A8dF3BfE789dA97a484f'
