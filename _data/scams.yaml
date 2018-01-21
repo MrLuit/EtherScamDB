@@ -17225,3 +17225,12 @@
     description: 'Fake Bluzelle crowdsale site'
     addresses:
       - '0xce686d019E6f692aF646A8dF3BfE789dA97a484f'
+-
+    id: 2675
+    name: wanchain.cloud
+    url: 'http://wanchain.cloud'
+    category: Phishing
+    subcategory: Wanchain
+    description: 'Fake Wanchain crowdsale site and phishing for private keys'
+    addresses:
+      - '0x6d64486A5C99139b53239297E0b653D196d05777'
