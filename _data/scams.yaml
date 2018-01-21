@@ -17241,3 +17241,12 @@
     category: Phishing
     subcategory: Int
     description: 'Fake INT airdrop phishing for private keys'  
+-
+    id: 2677
+    name: nucleus-vision.eu
+    url: 'http://nucleus-vision.eu'
+    category: Phishing
+    subcategory: Nucleus
+    description: 'Fake Nucleus crowdsale site'
+    addresses:
+      - '0x2789b7b3557f39643198433daEBF6b43512Be65B'
