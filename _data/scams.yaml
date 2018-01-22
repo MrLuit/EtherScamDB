@@ -17324,3 +17324,12 @@
     description: 'Fake OmiseGo airdrop site asking for private keys'
     addresses:
       - '0x75dbe6e21e38a05a82ad64281a9e28a627619273'
+-
+    id: 2688
+    name: nucleus-vision.org
+    url: 'http://nucleus-vision.org'
+    category: Phishing
+    subcategory: Nucleus
+    description: 'Fake Nucleus crowdsale site'
+    addresses:
+      - '0x93574D7c405717D80520944Ee1Cb72D327B01dF5'
