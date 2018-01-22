@@ -17356,3 +17356,17 @@
     category: Phishing
     subcategory: Binance
     description: 'Fake Binance exchange IDN homograph attack'  
+-
+    id: 2692
+    name: xn--bttrx-esay.com
+    url: 'http://xn--bttrx-esay.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex exchange IDN homograph attack' 
+-
+    id: 2693
+    name: xn--bttrex-w8a.com
+    url: 'http://xn--bttrex-w8a.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex exchange IDN homograph attack'     
