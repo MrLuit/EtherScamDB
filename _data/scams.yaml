@@ -17315,3 +17315,12 @@
     category: Phishing
     subcategory: Etherzero
     description: 'Fake Etherzero'     
+-
+    id: 2687
+    name: omisegonetwork.site
+    url: 'http://omisegonetwork.site'
+    category: Phishing
+    subcategory: OmiseGo
+    description: 'Fake OmiseGo airdrop site asking for private keys'
+    addresses:
+      - '0x75dbe6e21e38a05a82ad64281a9e28a627619273'
