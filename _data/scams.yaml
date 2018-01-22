@@ -17379,3 +17379,10 @@
     description: 'Fake Pundi crowdsale site'
     addresses:
       - '0xaC513396Ee50091972eE6fc07D120b6Ad360b233'
+-
+    id: 2695
+    name: iluminatto.com.br
+    url: 'http://iluminatto.com.br'
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Hosting a fake coinbase - https://twitter.com/switchingtoguns/status/955460254191570945' 
