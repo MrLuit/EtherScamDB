@@ -17370,3 +17370,12 @@
     category: Phishing
     subcategory: Bittrex
     description: 'Fake Bittrex exchange IDN homograph attack'     
+-
+    id: 2694
+    name: pundix.eu
+    url: 'http://pundix.eu'
+    category: Phishing
+    subcategory: Pundi
+    description: 'Fake Pundi crowdsale site'
+    addresses:
+      - '0xaC513396Ee50091972eE6fc07D120b6Ad360b233'
