@@ -17300,4 +17300,11 @@
     url: 'xn--coindsk-vs4c.com'
     category: Phishing
     subcategory: Coindesk
-    description: 'Fake coindesk promoting fake SingularityNET '      
+    description: 'Fake coindesk promoting fake SingularityNET'     
+-
+    id: 2685
+    name: etlherdelta.com
+    url: 'etlherdelta.com'
+    category: Phishing
+    subcategory: Etherdelta
+    description: 'Fake Etherdelta'       
