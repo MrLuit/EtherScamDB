@@ -17280,3 +17280,31 @@
     category: Phishing
     subcategory: Iexec
     description: 'Fake iExec airdrop site asking for private keys'  
+-
+    id: 2682
+    name: xn--condesk-0ya.com
+    url: 'xn--condesk-0ya.com'
+    category: Phishing
+    subcategory: Coindesk
+    description: 'IDN homograph attack'  
+-
+    id: 2683
+    name: xn--condesk-sfb.com
+    url: 'xn--condesk-sfb.com'
+    category: Phishing
+    subcategory: Coindesk
+    description: 'Fake coindesk - redirecting to a uplink referral, but IDN homograph attack on the domain'     
+-
+    id: 2684
+    name: xn--coindsk-vs4c.com
+    url: 'xn--coindsk-vs4c.com'
+    category: Phishing
+    subcategory: Coindesk
+    description: 'Fake coindesk promoting fake SingularityNET'     
+-
+    id: 2685
+    name: etlherdelta.com
+    url: 'etlherdelta.com'
+    category: Phishing
+    subcategory: Etherdelta
+    description: 'Fake Etherdelta'       
