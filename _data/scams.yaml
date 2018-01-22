@@ -17308,3 +17308,10 @@
     category: Phishing
     subcategory: Etherdelta
     description: 'Fake Etherdelta'       
+-
+    id: 2686
+    name: etlherzero.com
+    url: 'etlherzero.com'
+    category: Phishing
+    subcategory: Etherzero
+    description: 'Fake Etherzero'     
