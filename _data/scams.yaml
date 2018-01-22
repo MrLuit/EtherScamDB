@@ -17349,3 +17349,10 @@
     category: Phishing
     subcategory: Bluzelle
     description: 'Suspicious domain name'      
+-
+    id: 2691
+    name: xn--bnance-bwa.com
+    url: 'http://xn--bnance-bwa.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance exchange IDN homograph attack'  
