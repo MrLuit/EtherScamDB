@@ -17333,3 +17333,19 @@
     description: 'Fake Nucleus crowdsale site'
     addresses:
       - '0x93574D7c405717D80520944Ee1Cb72D327B01dF5'
+-
+    id: 2689
+    name: bluzelie.com
+    url: 'http://bluzelie.com'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle crowdsale site'
+    addresses:
+      - '0xd5EDb088b7382b397238f5010D14cf10Dd395007'
+-
+    id: 2690
+    name: wwwbluzelle.com
+    url: 'http://wwwbluzelle.com'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Suspicious domain name'      
