@@ -17434,3 +17434,10 @@
     category: Phishing
     subcategory: Telegram
     description: 'Fake Telegram site'   
+-
+    id: 2702
+    name: venchain.foundation
+    url: 'http://venchain.foundation'
+    category: Phishing
+    subcategory: Vechain
+    description: 'Fake Vechain airdrop site asking for private keys'   
