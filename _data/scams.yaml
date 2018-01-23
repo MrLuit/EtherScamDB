@@ -17402,3 +17402,10 @@
     category: Phishing
     subcategory: Ink
     description: 'Fake Ink crowdsale site'
+-
+    id: 2698
+    name: coniomi.com
+    url: 'http://coniomi.com'
+    category: Phishing
+    subcategory: Coinomi
+    description: 'Fake Coinomi site'
