@@ -17418,3 +17418,19 @@
     description: 'Fake Telegram crowdsale site'
     addresses:
       - '0x8202b590Eca4662446102b3a97E3536aAc8ab941'
+-
+    id: 2700
+    name: grampreico.com
+    url: 'http://grampreico.com'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'
+    addresses:
+      - '0x26F7Eb488661C33c43089aD61944f3231222b32f'
+-
+    id: 2701
+    name: tgram.cc
+    url: 'http://tgram.cc'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram site'   
