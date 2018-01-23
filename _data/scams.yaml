@@ -17395,3 +17395,10 @@
     description: 'Fake Ink crowdsale site'
     addresses:
       - '0x94D55B6f8b53903026399ab45294140EAfbFbF44'
+-
+    id: 2697
+    name: paywithnk.com
+    url: 'http://paywithnk.com'
+    category: Phishing
+    subcategory: Ink
+    description: 'Fake Ink crowdsale site'
