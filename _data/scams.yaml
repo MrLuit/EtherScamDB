@@ -17409,3 +17409,12 @@
     category: Phishing
     subcategory: Coinomi
     description: 'Fake Coinomi site'
+-
+    id: 2699
+    name: ton-gramico.com
+    url: 'http://ton-gramico.com'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'
+    addresses:
+      - '0x8202b590Eca4662446102b3a97E3536aAc8ab941'
