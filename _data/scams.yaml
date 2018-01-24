@@ -17448,3 +17448,10 @@
     category: Phishing
     subcategory: Kucoin
     description: 'Fake Kucoin login, phishing for login details'   
+-
+    id: 2704
+    name: www-gemini.com
+    url: 'http://www-gemini.com'
+    category: Phishing
+    subcategory: Gemini
+    description: 'Fake Gemini exchange login, phishing for login details'  
