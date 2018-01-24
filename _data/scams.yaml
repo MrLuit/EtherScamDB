@@ -17473,3 +17473,59 @@
     description: 'Fake Telegram crowdsale site'
     addresses:
       - '0xcae77a05ab518492144944fb50572ebfa3595870'
+-
+    id: 2707
+    name: xn--polniex-ex4c.com
+    url: 'http://xn--polniex-ex4c.com'
+    category: Phishing
+    subcategory: Poloniex
+    description: 'IDN homograph attack on poloniex exchange'
+-
+    id: 2708
+    name: xn--polniex-s1a.com
+    url: 'http://xn--polniex-s1a.com'
+    category: Phishing
+    subcategory: Poloniex
+    description: 'IDN homograph attack on poloniex exchange'
+-
+    id: 2709
+    name: xn--polonex-ieb.com
+    url: 'http://xn--polonex-ieb.com'
+    category: Phishing
+    subcategory: Poloniex
+    description: 'IDN homograph attack on poloniex exchange'
+-
+    id: 2710
+    name: xn--polonex-sza.com
+    url: 'http://xn--polonex-sza.com'
+    category: Phishing
+    subcategory: Poloniex
+    description: 'IDN homograph attack on poloniex exchange'
+-
+    id: 2711
+    name: xn--polonex-zw4c.com
+    url: 'http://xn--polonex-zw4c.com'
+    category: Phishing
+    subcategory: Poloniex
+    description: 'IDN homograph attack on poloniex exchange'
+-
+    id: 2712
+    name: xn--polonix-ws4c.com
+    url: 'http://xn--polonix-ws4c.com'
+    category: Phishing
+    subcategory: Poloniex
+    description: 'IDN homograph attack on poloniex exchange'		
+-
+    id: 2713
+    name: xn--polonix-y8a.com
+    url: 'http://xn--polonix-y8a.com'
+    category: Phishing
+    subcategory: Poloniex
+    description: 'IDN homograph attack on poloniex exchange'	
+-
+    id: 2714
+    name: xn--pooniex-ojb.com
+    url: 'http://xn--pooniex-ojb.com'
+    category: Phishing
+    subcategory: Poloniex
+    description: 'IDN homograph attack on poloniex exchange'
