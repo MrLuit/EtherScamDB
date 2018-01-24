@@ -17455,3 +17455,12 @@
     category: Phishing
     subcategory: Gemini
     description: 'Fake Gemini exchange login, phishing for login details'  
+-
+    id: 2705
+    name: dimnsions.network
+    url: 'http://dimnsions.network'
+    category: Phishing
+    subcategory: Dimensions
+    description: 'Fake Dimensions crowdsale site'
+    addresses:
+      - '0xF394D807795ff57373F1fe903046596CB0f69ACC'
