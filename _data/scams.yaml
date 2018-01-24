@@ -17529,3 +17529,12 @@
     category: Phishing
     subcategory: Poloniex
     description: 'IDN homograph attack on poloniex exchange'
+-
+    id: 2715
+    name: wanchainfoundation.org
+    url: 'http://wanchainfoundation.org'
+    category: Phishing
+    subcategory: Wachain
+    description: 'Fake Wachain crowdsale site'
+    addresses:
+      - '0xBbDEF8b12BABD3ab6018566BC17eC3Aa302b8348'
