@@ -17464,3 +17464,12 @@
     description: 'Fake Dimensions crowdsale site'
     addresses:
       - '0xF394D807795ff57373F1fe903046596CB0f69ACC'
+-
+    id: 2706
+    name: gramico.info
+    url: 'http://gramico.info'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'
+    addresses:
+      - '0xcae77a05ab518492144944fb50572ebfa3595870'
