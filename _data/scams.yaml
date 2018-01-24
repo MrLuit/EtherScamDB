@@ -17441,3 +17441,10 @@
     category: Phishing
     subcategory: Vechain
     description: 'Fake Vechain airdrop site asking for private keys'   
+-
+    id: 2703
+    name: login-kucoin.net
+    url: 'http://login-kucoin.net'
+    category: Phishing
+    subcategory: Kucoin
+    description: 'Fake Kucoin login, phishing for login details'   
