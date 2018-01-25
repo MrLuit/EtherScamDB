@@ -17554,3 +17554,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'
+-
+    id: 2718
+    name: nucleuss.vision
+    url: 'http://nucleuss.vision'
+    category: Phishing
+    subcategory: Nucleus
+    description: 'Fake Nucleus crowdsale site'
+    addresses:
+      - '0x6122EE683dbEe50fD432fE5BdD8Ac055aA3D42b1'
