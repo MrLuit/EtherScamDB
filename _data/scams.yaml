@@ -17577,3 +17577,12 @@
     category: Phishing
     subcategory: Ledger
     description: 'Fake Ledger store'    
+-
+    id: 2721
+    name: wanchainalliance.org
+    url: 'http://wanchainalliance.org'
+    category: Phishing
+    subcategory: Wanchain
+    description: 'Fake Wanchain crowdsale site'
+    addresses:
+      - '0xdF3e77CD5e563f93fC7ecA905d3302e95f9bb150'
