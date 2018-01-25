@@ -17563,3 +17563,17 @@
     description: 'Fake Nucleus crowdsale site'
     addresses:
       - '0x6122EE683dbEe50fD432fE5BdD8Ac055aA3D42b1'
+-
+    id: 2719
+    name: nucleus-vision.net
+    url: 'http://nucleus-vision.net'
+    category: Phishing
+    subcategory: Nucleus
+    description: 'Fake Nucleus crowdsale site'
+-
+    id: 2720
+    name: ledgerwallet.by
+    url: 'http://ledgerwallet.by'
+    category: Phishing
+    subcategory: Ledger
+    description: 'Fake Ledger store'    
