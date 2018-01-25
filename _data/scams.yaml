@@ -17538,3 +17538,12 @@
     description: 'Fake Wachain crowdsale site'
     addresses:
       - '0xBbDEF8b12BABD3ab6018566BC17eC3Aa302b8348'
+-
+    id: 2716
+    name: cobin-hood.com
+    url: 'http://cobin-hood.com'
+    category: Phishing
+    subcategory: Cobinhood
+    description: 'Fake Cobinhood crowdsale site'
+    addresses:
+      - '0xD362C189cb0056159d2fE22bD8203e26579f620D'
