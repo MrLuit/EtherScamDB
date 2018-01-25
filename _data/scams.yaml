@@ -17547,3 +17547,10 @@
     description: 'Fake Cobinhood crowdsale site'
     addresses:
       - '0xD362C189cb0056159d2fE22bD8203e26579f620D'
+-
+    id: 2717
+    name: myenhterswailct.com
+    url: 'http://myenhterswailct.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
