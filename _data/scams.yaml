@@ -17604,3 +17604,12 @@
     description: 'Fake Wanchain crowdsale site'
     addresses:
       - '0x9B521529D04329C2B0a9F9B7DB18ed775c6cA8FC'
+-
+    id: 2724
+    name: cindicator.network
+    url: 'http://cindicator.network'
+    category: Phishing
+    subcategory: Cindicator
+    description: 'Fake Cindicator airdrop site asking for private keys'
+    addresses:
+      - '0x545f5e5c54d8ac72af1c7de8c070387b73841a24'
