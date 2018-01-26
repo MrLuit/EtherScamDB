@@ -17622,3 +17622,10 @@
     description: 'Fake Beetoken crowdsale site'
     addresses:
       - '0xE0b13c073e8173b06062c69A160EbB54e2AF86c3'
+-
+    id: 2726
+    name: iost.co
+    url: 'http://iost.co'
+    category: Phishing
+    subcategory: Iost
+    description: 'Fake Iost airdrop site asking for private keys'
