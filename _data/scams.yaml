@@ -17595,3 +17595,12 @@
     description: 'Fake Wanchain crowdsale site'
     addresses:
       - '0xd9D25DcE4c3765855c76F3d2BAccc0755C4d0bc5'
+-
+    id: 2723
+    name: wanchainetwork.org
+    url: 'http://wanchainetwork.org'
+    category: Phishing
+    subcategory: Wanchain
+    description: 'Fake Wanchain crowdsale site'
+    addresses:
+      - '0x9B521529D04329C2B0a9F9B7DB18ed775c6cA8FC'
