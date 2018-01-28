@@ -17636,3 +17636,12 @@
     category: Phishing
     subcategory: Icon
     description: 'Fake Icon airdrop site asking for private keys'
+-
+    id: 2728
+    name: ico-telegram.io
+    url: 'http://ico-telegram.io'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'
+    addresses:
+      - '0x88436c2a2f427f2aa641dfd8c6763facf2bad7bf'
