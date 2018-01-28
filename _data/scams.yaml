@@ -17645,3 +17645,12 @@
     description: 'Fake Telegram crowdsale site'
     addresses:
       - '0x88436c2a2f427f2aa641dfd8c6763facf2bad7bf'
+-
+    id: 2729
+    name: wanchainfunding.org
+    url: 'http://wanchainfunding.org'
+    category: Phishing
+    subcategory: Wanchain
+    description: 'Fake Wanchain crowdsale site'
+    addresses:
+      - '0xB76a4770587f76d6c644DeeC275a2c76069b5F14'
