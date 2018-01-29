@@ -16776,6 +16776,8 @@
     category: Phishing
     subcategory: Gifto
     description: 'Fake airdrop site asking for private keys'
+    addresses:
+      - '0x0059b14e35daB1b4EEe1e2926C7A5660dA66F747'
 -
     id: 2618
     name: bluzelle.site
