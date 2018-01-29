@@ -17688,3 +17688,12 @@
     description: 'Fake Dadi crowdsale site'
     addresses:
       - '0xbE11D0d38Ef4857224032afc9C96647492F726cE'
+-
+    id: 2734
+    name: daddi.cloud
+    url: 'http://daddi.cloud'
+    category: Phishing
+    subcategory: Dadi
+    description: 'Fake Dadi crowdsale site'
+    addresses:
+      - '0xD0Ac32Ab01D9D3EC145EF63f73BF4e222dBCc0fb'
