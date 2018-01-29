@@ -17679,3 +17679,12 @@
     description: 'Fake EtherDelta Andriod app, phishing for private keys'
     addresses:
       - '0xbb53be0690ae7256833099a1f01125eb33445692'
+-
+    id: 2733
+    name: daditoken.com
+    url: 'http://daditoken.com'
+    category: Phishing
+    subcategory: Dadi
+    description: 'Fake Dadi crowdsale site'
+    addresses:
+      - '0xbE11D0d38Ef4857224032afc9C96647492F726cE'
