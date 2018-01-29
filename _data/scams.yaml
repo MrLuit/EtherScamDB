@@ -17670,3 +17670,12 @@
     category: Phishing
     subcategory: BlockArray
     description: 'Fake BlockArray airdrop site - phishing for private keys'
+-
+    id: 2732
+    name: https://play.google.com/store/apps/details?id=com.ether.etherdelta
+    url: 'https://play.google.com/store/apps/details?id=com.ether.etherdelta'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta Andriod app, phishing for private keys'
+    addresses:
+      - '0xbb53be0690ae7256833099a1f01125eb33445692'
