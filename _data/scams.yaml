@@ -17663,3 +17663,10 @@
     description: 'Fake Dadi crowdsale site'
     addresses:
       - '0x0d9786138578fcdcce04435592545ef08422d755'
+-
+    id: 2731
+    name: blockarray.org
+    url: 'http://blockarray.org'
+    category: Phishing
+    subcategory: BlockArray
+    description: 'Fake BlockArray airdrop site - phishing for private keys'
