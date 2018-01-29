@@ -17654,3 +17654,12 @@
     description: 'Fake Wanchain crowdsale site'
     addresses:
       - '0xB76a4770587f76d6c644DeeC275a2c76069b5F14'
+-
+    id: 2730
+    name: dadi-cloud.net
+    url: 'http://dadi-cloud.net'
+    category: Phishing
+    subcategory: Dadi
+    description: 'Fake Dadi crowdsale site'
+    addresses:
+      - '0x0d9786138578fcdcce04435592545ef08422d755'
