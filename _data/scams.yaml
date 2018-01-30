@@ -17706,3 +17706,12 @@
     category: Phishing
     subcategory: Telegram
     description: 'Fake Telegram crowdsale site'
+-
+    id: 2736
+    name: iost.co
+    url: 'http://iost.co'
+    category: Phishing
+    subcategory: Iost
+    description: 'Fake Isot airdrop site, phishing for private keys'
+    addresses:
+      - '0x545f5E5c54d8ac72AF1c7DE8c070387b73841A24'
