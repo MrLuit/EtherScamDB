@@ -17858,3 +17858,10 @@
     description: 'Fake Aion airdrop site phishing for private keys'
     addresses:
       - '0x0059b14e35daB1b4EEe1e2926C7A5660dA66F747'     
+-
+    id: 2753
+    name: http://tron-labs.com
+    url: 'http://tron-labs.com'
+    category: Phishing
+    subcategory: Tron
+    description: 'Fake Tron airdrop site phishing for private keys'
