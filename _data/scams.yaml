@@ -17699,3 +17699,10 @@
     description: 'Fake Dadi crowdsale site'
     addresses:
       - '0xD0Ac32Ab01D9D3EC145EF63f73BF4e222dBCc0fb'
+-
+    id: 2735
+    name: telegramcoin.us
+    url: 'http://telegramcoin.us'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'
