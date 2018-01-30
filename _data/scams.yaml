@@ -17752,3 +17752,12 @@
     description: 'Trust trading 0.1ETH for 2ETH'
     addresses:
       - '0xA82C7c0Ef05080463E4ac55DB8b8531007f3A66C'
+-
+    id: 2741
+    name: https://twitter.com/2017_binance
+    url: 'http://twitter.com/2017_binance'
+    category: Scamming
+    subcategory: Trust Trading
+    description: 'Trust trading 0.1ETH for 2ETH'
+    addresses:
+      - '0xdcd2fb1c1b103c5a591e76798704cfaa27baf6b9'
