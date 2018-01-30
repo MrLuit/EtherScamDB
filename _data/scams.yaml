@@ -17897,3 +17897,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'
+-
+    id: 2758
+    name: nyeihitervvallet.com
+    url: 'http://nyeihitervvallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
