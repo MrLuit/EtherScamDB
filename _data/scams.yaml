@@ -17734,3 +17734,12 @@
     description: 'Fake Telegram crowdsale site'
     addresses:
       - '0xAC1a4f4D49715e31f54CB8e0bf867Bb9170C10Cb'
+-
+    id: 2739
+    name: https://twitter.com/VitalikButeriin
+    url: 'http://twitter.com/VitalikButeriin'
+    category: Scamming
+    subcategory: Trust Trading
+    description: 'Trust trading 0.1ETH for 2ETH'
+    addresses:
+      - '0x5d82db63cf0c54d47006d416bdc7dab09ea2f3f1'
