@@ -17904,3 +17904,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'
+-
+    id: 2759
+    name: kodakone.cc
+    url: 'http://kodakone.cc'
+    category: Phishing
+    subcategory: Kodak
+    description: 'Fake Kodak ICO site'
