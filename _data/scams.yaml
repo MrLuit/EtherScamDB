@@ -17722,3 +17722,5 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'
+    addresses:
+      - '0xdafc2a2d4e070f863cfcb5887bc2516e05e18877'
