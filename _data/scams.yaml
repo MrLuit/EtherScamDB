@@ -17715,6 +17715,7 @@
     description: 'Fake Isot airdrop site, phishing for private keys'
     addresses:
       - '0x545f5E5c54d8ac72AF1c7DE8c070387b73841A24'
+      - '0x0059b14e35daB1b4EEe1e2926C7A5660dA66F747'
 -
     id: 2737
     name: nyeihitervvallat.com
