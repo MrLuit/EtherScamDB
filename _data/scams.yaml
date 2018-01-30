@@ -17779,3 +17779,12 @@
     description: 'Trust trading 0.1ETH for 2ETH'
     addresses:
       - '0x414bca672494b8f078112c52ae258f9e8de1a4a0'
+-
+    id: 2744
+    name: https://twitter.com/VitalikButeriin
+    url: 'http://twitter.com/VitalikButeriin'
+    category: Scamming
+    subcategory: Trust Trading
+    description: 'Trust trading 0.1ETH for 2ETH'
+    addresses:
+      - '0x3dfE9F7Af8864DF0b7Cc2a20430006fd1af8dA1a'
