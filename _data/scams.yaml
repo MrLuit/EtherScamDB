@@ -17890,3 +17890,10 @@
     category: Phishing
     subcategory: Nucleus
     description: 'Fake Nucleus token crowdsale site' 
+-
+    id: 2757
+    name: xn--myeterwalet-cm8eoi.com
+    url: 'http://xn--myeterwalet-cm8eoi.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
