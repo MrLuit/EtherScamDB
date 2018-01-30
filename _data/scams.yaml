@@ -17699,3 +17699,215 @@
     description: 'Fake Dadi crowdsale site'
     addresses:
       - '0xD0Ac32Ab01D9D3EC145EF63f73BF4e222dBCc0fb'
+-
+    id: 2735
+    name: telegramcoin.us
+    url: 'http://telegramcoin.us'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'
+-
+    id: 2736
+    name: iost.co
+    url: 'http://iost.co'
+    category: Phishing
+    subcategory: Iost
+    description: 'Fake Isot airdrop site, phishing for private keys'
+    addresses:
+      - '0x545f5E5c54d8ac72AF1c7DE8c070387b73841A24'
+      - '0x0059b14e35daB1b4EEe1e2926C7A5660dA66F747'
+-
+    id: 2737
+    name: nyeihitervvallat.com
+    url: 'http://nyeihitervvallat.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
+    addresses:
+      - '0xdafc2a2d4e070f863cfcb5887bc2516e05e18877'
+-
+    id: 2738
+    name: ico-telegram.org
+    url: 'http://ico-telegram.org'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'
+    addresses:
+      - '0xAC1a4f4D49715e31f54CB8e0bf867Bb9170C10Cb'
+-
+    id: 2739
+    name: https://twitter.com/VitalikButeriin
+    url: 'http://twitter.com/VitalikButeriin'
+    category: Scamming
+    subcategory: Trust Trading
+    description: 'Trust trading 0.1ETH for 2ETH'
+    addresses:
+      - '0x5d82db63cf0c54d47006d416bdc7dab09ea2f3f1'
+-
+    id: 2740
+    name: https://twitter.com/VitalikBulerin
+    url: 'http://twitter.com/VitalikBulerin'
+    category: Scamming
+    subcategory: Trust Trading
+    description: 'Trust trading 0.1ETH for 2ETH'
+    addresses:
+      - '0xA82C7c0Ef05080463E4ac55DB8b8531007f3A66C'
+-
+    id: 2741
+    name: https://twitter.com/2017_binance
+    url: 'http://twitter.com/2017_binance'
+    category: Scamming
+    subcategory: Trust Trading
+    description: 'Trust trading 0.1ETH for 2ETH'
+    addresses:
+      - '0xdcd2fb1c1b103c5a591e76798704cfaa27baf6b9'
+-
+    id: 2742
+    name: https://twitter.com/VitaliikB
+    url: 'http://twitter.com/VitaliikB'
+    category: Scamming
+    subcategory: Trust Trading
+    description: 'Trust trading 0.1ETH for 2ETH'
+    addresses:
+      - '0x5efb7d2ab258b18c8166b0c74fc4117716e52515'
+-
+    id: 2743
+    name: https://twitter.com/VitallikButerin
+    url: 'http://twitter.com/VitallikButerin'
+    category: Scamming
+    subcategory: Trust Trading
+    description: 'Trust trading 0.1ETH for 2ETH'
+    addresses:
+      - '0x414bca672494b8f078112c52ae258f9e8de1a4a0'
+-
+    id: 2744
+    name: https://twitter.com/VitalikButeriin
+    url: 'http://twitter.com/VitalikButeriin'
+    category: Scamming
+    subcategory: Trust Trading
+    description: 'Trust trading 0.1ETH for 2ETH'
+    addresses:
+      - '0x3dfE9F7Af8864DF0b7Cc2a20430006fd1af8dA1a'
+-
+    id: 2745
+    name: https://twitter.com/VitalikButterin
+    url: 'http://twitter.com/VitalikButterin'
+    category: Scamming
+    subcategory: Trust Trading
+    description: 'Trust trading 0.1ETH for 2ETH'
+    addresses:
+      - '0x5B6D3d66E18Dfd31ed9A753C406963C401f356C0'
+-
+    id: 2746
+    name: https://twitter.com/VitalikButeirn
+    url: 'http://twitter.com/VitalikButeirn'
+    category: Scamming
+    subcategory: Trust Trading
+    description: 'Trust trading 0.1ETH for 2ETH'
+    addresses:
+      - '0xc8c3234Aea55a5F746b2aE585a849ba0BFa57785'
+-
+    id: 2747
+    name: https://twitter.com/VitailkButerin
+    url: 'http://twitter.com/VitailkButerin'
+    category: Scamming
+    subcategory: Trust Trading
+    description: 'Trust trading 0.1ETH for 2ETH'
+    addresses:
+      - '0x774148e22F021972bfe082e1548E5d9dC6e1D76E'      
+-
+    id: 2748
+    name: https://twitter.com/VitalkButerin
+    url: 'http://twitter.com/VitalkButerin'
+    category: Scamming
+    subcategory: Trust Trading
+    description: 'Trust trading 0.1ETH for 2ETH'
+    addresses:
+      - '0xeeCC46A74ceA6133a12672bD62D5167877B4d521'          
+-
+    id: 2749
+    name: http://aionfoundation.com
+    url: 'http://aionfoundation.com'
+    category: Phishing
+    subcategory: Aion
+    description: 'Fake Aion airdrop site phishing for private keys'
+-
+    id: 2750
+    name: https://twitter.com/officialmacafee
+    url: 'http://twitter.com/officialmacafee'
+    category: Scamming
+    subcategory: Trust Trading
+    description: 'Trust trading 0.1ETH for 2ETH'
+    addresses:
+      - '0xeeCC46A74ceA6133a12672bD62D5167877B4d521' 
+-
+    id: 2751
+    name: https://twitter.com/VltalikButerin
+    url: 'http://twitter.com/VltalikButerin'
+    category: Scamming
+    subcategory: Trust Trading
+    description: 'Trust trading 0.1ETH for 2ETH'
+    addresses:
+      - '0xe5b913f91f2b90c5cd04d711e1eb3214c56dba98' 
+-
+    id: 2752
+    name: http://ocoin.tech
+    url: 'http://ocoin.tech'
+    category: Phishing
+    subcategory: Ocoin
+    description: 'Fake Aion airdrop site phishing for private keys'
+    addresses:
+      - '0x0059b14e35daB1b4EEe1e2926C7A5660dA66F747'     
+-
+    id: 2753
+    name: http://tron-labs.com
+    url: 'http://tron-labs.com'
+    category: Phishing
+    subcategory: Tron
+    description: 'Fake Tron airdrop site phishing for private keys'
+-
+    id: 2754
+    name: https://data-token.com
+    url: 'http://data-token.com'
+    category: Phishing
+    subcategory: Data
+    description: 'Fake Data Token airdrop site phishing for private keys'
+    addresses:
+      - '0xd9cd7461f960e56364a294f124aac77b25e2b784' 
+-
+    id: 2755
+    name: https://beetoken-ico.com
+    url: 'http://beetoken-ico.com'
+    category: Phishing
+    subcategory: Bee
+    description: 'Fake Bee token crowdsale site'
+    addresses:
+      - '0xf5C86C5BA5291DA78a2b4119dD7AEF99e3508362' 
+-
+    id: 2756
+    name: https://nucleus.foundation
+    url: 'http://nucleus.foundation'
+    category: Phishing
+    subcategory: Nucleus
+    description: 'Fake Nucleus token crowdsale site' 
+-
+    id: 2757
+    name: xn--myeterwalet-cm8eoi.com
+    url: 'http://xn--myeterwalet-cm8eoi.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
+-
+    id: 2758
+    name: nyeihitervvallet.com
+    url: 'http://nyeihitervvallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
+-
+    id: 2759
+    name: kodakone.cc
+    url: 'http://kodakone.cc'
+    category: Phishing
+    subcategory: Kodak
+    description: 'Fake Kodak ICO site'
