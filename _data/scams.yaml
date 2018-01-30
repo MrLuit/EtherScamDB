@@ -17715,3 +17715,10 @@
     description: 'Fake Isot airdrop site, phishing for private keys'
     addresses:
       - '0x545f5E5c54d8ac72AF1c7DE8c070387b73841A24'
+-
+    id: 2737
+    name: nyeihitervvallat.com
+    url: 'http://nyeihitervvallat.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
