@@ -17865,3 +17865,12 @@
     category: Phishing
     subcategory: Tron
     description: 'Fake Tron airdrop site phishing for private keys'
+-
+    id: 2754
+    name: https://data-token.com
+    url: 'http://data-token.com'
+    category: Phishing
+    subcategory: Data
+    description: 'Fake Data Token airdrop site phishing for private keys'
+    addresses:
+      - '0xd9cd7461f960e56364a294f124aac77b25e2b784' 
