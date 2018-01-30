@@ -17883,3 +17883,10 @@
     description: 'Fake Bee token crowdsale site'
     addresses:
       - '0xf5C86C5BA5291DA78a2b4119dD7AEF99e3508362' 
+-
+    id: 2756
+    name: https://nucleus.foundation
+    url: 'http://nucleus.foundation'
+    category: Phishing
+    subcategory: Nucleus
+    description: 'Fake Nucleus token crowdsale site' 
