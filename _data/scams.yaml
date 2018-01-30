@@ -17849,3 +17849,12 @@
     description: 'Trust trading 0.1ETH for 2ETH'
     addresses:
       - '0xe5b913f91f2b90c5cd04d711e1eb3214c56dba98' 
+-
+    id: 2752
+    name: http://ocoin.tech
+    url: 'http://ocoin.tech'
+    category: Phishing
+    subcategory: Ocoin
+    description: 'Fake Aion airdrop site phishing for private keys'
+    addresses:
+      - '0x0059b14e35daB1b4EEe1e2926C7A5660dA66F747'     
