@@ -17874,3 +17874,12 @@
     description: 'Fake Data Token airdrop site phishing for private keys'
     addresses:
       - '0xd9cd7461f960e56364a294f124aac77b25e2b784' 
+-
+    id: 2755
+    name: https://beetoken-ico.com
+    url: 'http://beetoken-ico.com'
+    category: Phishing
+    subcategory: Bee
+    description: 'Fake Bee token crowdsale site'
+    addresses:
+      - '0xf5C86C5BA5291DA78a2b4119dD7AEF99e3508362' 
