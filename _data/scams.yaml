@@ -17911,3 +17911,10 @@
     category: Phishing
     subcategory: Kodak
     description: 'Fake Kodak ICO site'
+-
+    id: 2760
+    name: myetherwallet.uk.com
+    url: 'http://myetherwallet.uk.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
