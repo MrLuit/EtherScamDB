@@ -17761,3 +17761,12 @@
     description: 'Trust trading 0.1ETH for 2ETH'
     addresses:
       - '0xdcd2fb1c1b103c5a591e76798704cfaa27baf6b9'
+-
+    id: 2742
+    name: https://twitter.com/VitaliikB
+    url: 'http://twitter.com/VitaliikB'
+    category: Scamming
+    subcategory: Trust Trading
+    description: 'Trust trading 0.1ETH for 2ETH'
+    addresses:
+      - '0x5efb7d2ab258b18c8166b0c74fc4117716e52515'
