@@ -17995,3 +17995,17 @@
     category: Phishing
     subcategory: Blockchain
     description: 'Fake Blockchain web wallet'
+-
+    id: 2772
+    name: beetolen.com
+    url: 'http://beetolen.com'
+    category: Phishing
+    subcategory: Beetoken
+    description: 'Fake beetoken redirecting to a binance referral. Blacklisted for worst case.'
+-
+    id: 2773
+    name: beetokem.com
+    url: 'http://beetokem.com'
+    category: Phishing
+    subcategory: Beetoken
+    description: 'Fake beetoken redirecting to a binance referral. Blacklisted for worst case.'    
