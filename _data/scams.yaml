@@ -18058,3 +18058,12 @@
     category: Phishing
     subcategory: Shapeshift
     description: 'Fake Shapeshift - IDN homograph attack'     
+-
+    id: 2781
+    name: https://token-gram.org
+    url: 'http://token-gram.org'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram token crowdsale site'
+    addresses:
+      - '0xb2172027cb233198A3945A2c864f1Ec5b7E3b3Da' 
