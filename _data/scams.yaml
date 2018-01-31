@@ -17925,3 +17925,52 @@
     category: Phishing
     subcategory: Kodak
     description: 'Fake kodakcoin domain (www.kodakcoin.com) redirecting to a binance referral. Blacklisted for worst case.'
+-
+    id: 2762
+    name: xn--mytherwalet-3qb08c.com
+    url: 'http://xn--mytherwalet-3qb08c.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
+-
+    id: 2763
+    name: xn--myeterwllet-cm8et1d.com
+    url: 'http://xn--myeterwllet-cm8et1d.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'    
+-
+    id: 2764
+    name: xn--mytherwllet-q7a01e.com
+    url: 'http://xn--mytherwllet-q7a01e.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'     
+-
+    id: 2765
+    name: xn--biance-xt7b.com
+    url: 'http://xn--biance-xt7b.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance'    
+-
+    id: 2766
+    name: xn--bnance-wic.com
+    url: 'http://xn--bnance-wic.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance'     
+-
+    id: 2767
+    name: xn--biance-jeb.com
+    url: 'http://xn--biance-jeb.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance'     
+-
+    id: 2768
+    name: xn--bttrx-9za8334c.com
+    url: 'http://xn--bttrx-9za8334c.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex'      
