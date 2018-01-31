@@ -17896,7 +17896,7 @@
     url: 'http://xn--myeterwalet-cm8eoi.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: 'Fake MyEtherWallet'
+    description: 'Fake MyEtherWallet - IDN homograph attack'
 -
     id: 2758
     name: nyeihitervvallet.com
@@ -17931,46 +17931,53 @@
     url: 'http://xn--mytherwalet-3qb08c.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: 'Fake MyEtherWallet'
+    description: 'Fake MyEtherWallet - IDN homograph attack'
 -
     id: 2763
     name: xn--myeterwllet-cm8et1d.com
     url: 'http://xn--myeterwllet-cm8et1d.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: 'Fake MyEtherWallet'    
+    description: 'Fake MyEtherWallet - IDN homograph attack'    
 -
     id: 2764
     name: xn--mytherwllet-q7a01e.com
     url: 'http://xn--mytherwllet-q7a01e.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: 'Fake MyEtherWallet'     
+    description: 'Fake MyEtherWallet - IDN homograph attack'     
 -
     id: 2765
     name: xn--biance-xt7b.com
     url: 'http://xn--biance-xt7b.com'
     category: Phishing
     subcategory: Binance
-    description: 'Fake Binance'    
+    description: 'Fake Binance - IDN homograph attack'    
 -
     id: 2766
     name: xn--bnance-wic.com
     url: 'http://xn--bnance-wic.com'
     category: Phishing
     subcategory: Binance
-    description: 'Fake Binance'     
+    description: 'Fake Binance - IDN homograph attack'     
 -
     id: 2767
     name: xn--biance-jeb.com
     url: 'http://xn--biance-jeb.com'
     category: Phishing
     subcategory: Binance
-    description: 'Fake Binance'     
+    description: 'Fake Binance - IDN homograph attack'     
 -
     id: 2768
     name: xn--bttrx-9za8334c.com
     url: 'http://xn--bttrx-9za8334c.com'
     category: Phishing
     subcategory: Bittrex
-    description: 'Fake Bittrex'      
+    description: 'Fake Bittrex - IDN homograph attack'      
+-
+    id: 2769
+    name: xn--myetherallet-nu5f.com
+    url: 'http://xn--myetherallet-nu5f.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack'   
