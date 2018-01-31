@@ -18009,3 +18009,52 @@
     category: Phishing
     subcategory: Beetoken
     description: 'Fake beetoken redirecting to a binance referral. Blacklisted for worst case.'    
+-
+    id: 2774
+    name: xn--shapshift-e4a.com
+    url: 'http://xn--shapshift-e4a.com'
+    category: Phishing
+    subcategory: Shapeshift
+    description: 'Fake Shapeshift - IDN homograph attack' 
+-
+    id: 2775
+    name: xn--shapshift-y4a.com
+    url: 'http://xn--shapshift-y4a.com'
+    category: Phishing
+    subcategory: Shapeshift
+    description: 'Fake Shapeshift - IDN homograph attack'  
+-
+    id: 2776
+    name: xn--shpeshift-c2a.com
+    url: 'http://xn--shpeshift-c2a.com'
+    category: Phishing
+    subcategory: Shapeshift
+    description: 'Fake Shapeshift - IDN homograph attack'     
+-
+    id: 2777
+    name: xn--shpeshift-r1a.com
+    url: 'http://xn--shpeshift-r1a.com'
+    category: Phishing
+    subcategory: Shapeshift
+    description: 'Fake Shapeshift - IDN homograph attack'   
+-
+    id: 2778
+    name: xn--shapshift-o4a.com
+    url: 'http://xn--shapshift-o4a.com'
+    category: Phishing
+    subcategory: Shapeshift
+    description: 'Fake Shapeshift - IDN homograph attack'     
+-
+    id: 2779
+    name: xn--shpeshift-w2a.com
+    url: 'http://xn--shpeshift-w2a.com'
+    category: Phishing
+    subcategory: Shapeshift
+    description: 'Fake Shapeshift - IDN homograph attack'     
+-
+    id: 2780
+    name: xn--shapeshft-w5a.com
+    url: 'http://xn--shapeshft-w5a.com'
+    category: Phishing
+    subcategory: Shapeshift
+    description: 'Fake Shapeshift - IDN homograph attack'     
