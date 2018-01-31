@@ -17988,3 +17988,10 @@
     category: Phishing
     subcategory: Origin
     description: 'Fake Origin Token airdrop site phishing for private keys'
+-
+    id: 2771
+    name: https://block.chaiins.in
+    url: 'http://block.chaiins.in'
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake Blockchain web wallet'
