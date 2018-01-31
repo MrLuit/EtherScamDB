@@ -17918,3 +17918,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'
+-
+    id: 2761
+    name: wwwkodakcoin.com
+    url: 'http://wwwkodakcoin.com'
+    category: Phishing
+    subcategory: Kodak
+    description: 'Fake kodakcoin domain (www.kodakcoin.com) redirecting to a binance referral. Blacklisted for worst case.'
