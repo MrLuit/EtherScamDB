@@ -17981,3 +17981,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - IDN homograph attack'   
+-
+    id: 2770
+    name: https://origintrail.in
+    url: 'http://origintrail.in'
+    category: Phishing
+    subcategory: Origin
+    description: 'Fake Origin Token airdrop site phishing for private keys'
