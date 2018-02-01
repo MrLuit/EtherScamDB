@@ -18120,3 +18120,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'
+-
+    id: 2789
+    name: https://myeahteirwaliet.com
+    url: 'http://myeahteirwaliet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
