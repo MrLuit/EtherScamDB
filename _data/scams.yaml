@@ -18127,3 +18127,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'
+-
+    id: 2790
+    name: https://medicalchian.com
+    url: 'https://medicalchian.com'
+    category: Phishing
+    subcategory: MedicalChain
+    description: 'Fake Medicalchain crowdsale site'
+    addresses:
+      - '0x25F8b4acD2c37D7eBAE0066fdf9f13F327c0c4EB' 
