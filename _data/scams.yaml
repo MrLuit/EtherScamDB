@@ -18083,3 +18083,56 @@
     description: 'Fake Sparc token crowdsale site'
     addresses:
       - '0x94763846b1fcB75fcCfcb51a9636dDc26Af281b1' 
+-
+    id: 2784
+    name: https://twitter.com/VltalkButerin
+    url: 'https://twitter.com/VltalkButerin'
+    category: Scamming
+    subcategory: Trust Trading
+    description: 'Trust trading 0.1ETH for 2ETH'
+    addresses:
+      - '0x7bb386c33486fe345168d0af94bef03897e16022' 
+-
+    id: 2785
+    name: https://trinity-token.com
+    url: 'http://trinity-token.com'
+    category: Phishing
+    subcategory: Trinity
+    description: 'Fake Trinity airdrop site phishing for private keys'
+-
+    id: 2786
+    name: https://xn--eo-yzs.com
+    url: 'http://xn--eo-yzs.com'
+    category: Phishing
+    subcategory: Eos
+    description: 'Fake Eos airdrop site phishing for private keys'
+-
+    id: 2787
+    name: https://zilliqa.in
+    url: 'http://zilliqa.in'
+    category: Phishing
+    subcategory: Zilliqa
+    description: 'Fake Zilliqa airdrop site phishing for private keys'
+-
+    id: 2788
+    name: https://myenhtersvvailct.com
+    url: 'http://myenhtersvvailct.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
+-
+    id: 2789
+    name: https://myeahteirwaliet.com
+    url: 'http://myeahteirwaliet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
+-
+    id: 2790
+    name: https://medicalchian.com
+    url: 'https://medicalchian.com'
+    category: Phishing
+    subcategory: MedicalChain
+    description: 'Fake Medicalchain crowdsale site'
+    addresses:
+      - '0x25F8b4acD2c37D7eBAE0066fdf9f13F327c0c4EB' 
