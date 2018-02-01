@@ -18067,3 +18067,10 @@
     description: 'Fake Telegram token crowdsale site'
     addresses:
       - '0xb2172027cb233198A3945A2c864f1Ec5b7E3b3Da' 
+-
+    id: 2782
+    name: https://myetherwallet.import-tokens.com
+    url: 'http://myetherwallet.import-tokens.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
