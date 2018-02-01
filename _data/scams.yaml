@@ -18106,3 +18106,10 @@
     category: Phishing
     subcategory: Eos
     description: 'Fake Eos airdrop site phishing for private keys'
+-
+    id: 2787
+    name: https://zilliqa.in
+    url: 'http://zilliqa.in'
+    category: Phishing
+    subcategory: Zilliqa
+    description: 'Fake Zilliqa airdrop site phishing for private keys'
