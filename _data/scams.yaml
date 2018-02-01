@@ -18113,3 +18113,10 @@
     category: Phishing
     subcategory: Zilliqa
     description: 'Fake Zilliqa airdrop site phishing for private keys'
+-
+    id: 2788
+    name: https://myenhtersvvailct.com
+    url: 'http://myenhtersvvailct.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
