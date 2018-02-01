@@ -18092,3 +18092,10 @@
     description: 'Trust trading 0.1ETH for 2ETH'
     addresses:
       - '0x7bb386c33486fe345168d0af94bef03897e16022' 
+-
+    id: 2785
+    name: https://trinity-token.com
+    url: 'http://trinity-token.com'
+    category: Phishing
+    subcategory: Trinity
+    description: 'Fake Trinity airdrop site phishing for private keys'
