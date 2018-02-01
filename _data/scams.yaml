@@ -18074,3 +18074,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'
+-
+    id: 2783
+    name: https://sparc.pro
+    url: 'http://sparc.pro'
+    category: Phishing
+    subcategory: Sparc
+    description: 'Fake Sparc token crowdsale site'
+    addresses:
+      - '0x94763846b1fcB75fcCfcb51a9636dDc26Af281b1' 
