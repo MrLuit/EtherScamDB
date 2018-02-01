@@ -18099,3 +18099,10 @@
     category: Phishing
     subcategory: Trinity
     description: 'Fake Trinity airdrop site phishing for private keys'
+-
+    id: 2786
+    name: https://xn--eo-yzs.com
+    url: 'http://xn--eo-yzs.com'
+    category: Phishing
+    subcategory: Eos
+    description: 'Fake Eos airdrop site phishing for private keys'
