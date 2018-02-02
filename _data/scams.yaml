@@ -18145,3 +18145,10 @@
     description: 'Fake Fusion crowdsale site'
     addresses:
       - '0x3CF71871d2f56A6af21bf17ca2652cbC12E8ba1f' 
+-
+    id: 2792
+    name: https://myetherwalletjoin.com
+    url: 'http://myetherwalletjoin.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
