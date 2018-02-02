@@ -18136,3 +18136,12 @@
     description: 'Fake Medicalchain crowdsale site'
     addresses:
       - '0x25F8b4acD2c37D7eBAE0066fdf9f13F327c0c4EB' 
+-
+    id: 2791
+    name: https://fusion-ico.com
+    url: 'https://fusion-ico.com'
+    category: Phishing
+    subcategory: Fusion
+    description: 'Fake Fusion crowdsale site'
+    addresses:
+      - '0x3CF71871d2f56A6af21bf17ca2652cbC12E8ba1f' 
