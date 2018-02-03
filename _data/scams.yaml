@@ -18195,3 +18195,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'
+-
+    id: 2798
+    name: https://xn--mytherwallt-cbbv.com
+    url: 'http://xn--mytherwallt-cbbv.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
