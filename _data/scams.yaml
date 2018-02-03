@@ -18172,3 +18172,10 @@
     description: 'Fake Arcblock crowdsale site'
     addresses:
       - '0xd1BDD067f5F1CbD358E2DDe444f8d9f41dE8AE76' 
+-
+    id: 2795
+    name: https://nyeihitervvallatt.com
+    url: 'http://nyeihitervvallatt.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
