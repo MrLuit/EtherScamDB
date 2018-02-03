@@ -18188,3 +18188,10 @@
     description: 'Fake Republic crowdsale site'
     addresses:
       - '0xFA956f10da5E16f120EB299dF963c1f7563Bf66b' 
+-
+    id: 2797
+    name: https://rnyetherumwallet.com
+    url: 'http://rnyetherumwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
