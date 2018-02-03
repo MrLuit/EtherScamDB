@@ -18179,3 +18179,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'
+-
+    id: 2796
+    name: https://republic-protocol.net
+    url: 'https://republic-protocol.net'
+    category: Phishing
+    subcategory: Republic
+    description: 'Fake Republic crowdsale site'
+    addresses:
+      - '0xFA956f10da5E16f120EB299dF963c1f7563Bf66b' 
