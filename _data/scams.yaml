@@ -17243,6 +17243,8 @@
     category: Phishing
     subcategory: Int
     description: 'Fake INT airdrop phishing for private keys'  
+    addresses:
+      - '0xcc66ea7ef61a67df02afb18706c68a5f30b22300'
 -
     id: 2677
     name: nucleus-vision.eu
