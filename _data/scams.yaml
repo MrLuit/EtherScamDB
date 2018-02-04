@@ -18202,3 +18202,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'
+-
+    id: 2799
+    name: https://docs.google.com/forms/d/e/1FAIpQLSeRw1qALR7-rbvOKRM-Wgs1TxmAN5BC7_XzATFiHIVRuRlegQ/viewform
+    url: 'https://docs.google.com/forms/d/e/1FAIpQLSeRw1qALR7-rbvOKRM-Wgs1TxmAN5BC7_XzATFiHIVRuRlegQ/viewform'
+    category: Phishing
+    subcategory: Nucleus
+    description: 'Fake Nucleus airdrop using Google forms'
+    addresses:
+      - '0x9eb041AF96d44583110565ABeC79aedf22Eb60b5' 
