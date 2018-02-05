@@ -18241,3 +18241,10 @@
     description: 'Fake Datawallet crowdsale site'
     addresses:
       - '0xc9a08162b95915Edf6570F0439757e1F655De576' 
+-
+    id: 2804
+    name: https://xmoneta.co
+    url: 'https://xmoneta.co'
+    category: Phishing
+    subcategory: Xmoneta
+    description: 'Fake Xmoneta crowdsale site'
