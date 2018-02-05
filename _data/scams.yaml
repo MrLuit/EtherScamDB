@@ -18248,3 +18248,12 @@
     category: Phishing
     subcategory: Xmoneta
     description: 'Fake Xmoneta crowdsale site'
+-
+    id: 2805
+    name: https://fintrux.co
+    url: 'https://fintrux.co'
+    category: Phishing
+    subcategory: Fintrux
+    description: 'Fake Fintrux crowdsale site'
+    addresses:
+      - '0x7Eb28833082eB28fD423aB30Df20afDE98C47DBF' 
