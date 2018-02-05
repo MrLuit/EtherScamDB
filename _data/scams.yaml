@@ -18248,3 +18248,49 @@
     category: Phishing
     subcategory: Xmoneta
     description: 'Fake Xmoneta crowdsale site'
+-
+    id: 2805
+    name: https://fintrux.co
+    url: 'https://fintrux.co'
+    category: Phishing
+    subcategory: Fintrux
+    description: 'Fake Fintrux crowdsale site'
+    addresses:
+      - '0x7Eb28833082eB28fD423aB30Df20afDE98C47DBF' 
+-
+    id: 2805
+    name: https://ico-ton.org
+    url: 'https://ico-ton.org'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'
+    addresses:
+      - '0x8f0bca6b1b2b522082d46f3eec31340f113b029a' 
+-
+    id: 2806
+    name: https://refereum-token.com
+    url: 'https://refereum-token.com'
+    category: Phishing
+    subcategory: Refereum
+    description: 'Fake Refereum crowdsale site'
+    addresses:
+      - '0x636e5292882e2342aaf82d651322aea09a3e5392' 
+-
+    id: 2807
+    name: https://refereum-ico.eu
+    url: 'https://refereum-ico.eu'
+    category: Phishing
+    subcategory: Refereum
+    description: 'Fake Refereum crowdsale site'
+    addresses:
+      - '0xE276c66Af8853cDD91c1a25608B4E8B599F4da0e' 
+      - '0x7Eb28833082eB28fD423aB30Df20afDE98C47DBF'       
+-
+    id: 2808
+    name: https://fintrux.eu
+    url: 'https://fintrux.eu'
+    category: Phishing
+    subcategory: Fintrux
+    description: 'Fake Fintrux crowdsale site'
+    addresses:
+      - '0xE276c66Af8853cDD91c1a25608B4E8B599F4da0e' 
