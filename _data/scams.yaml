@@ -18211,3 +18211,24 @@
     description: 'Fake Nucleus airdrop using Google forms'
     addresses:
       - '0x9eb041AF96d44583110565ABeC79aedf22Eb60b5' 
+-
+    id: 2800
+    name: https://xn--myeterwalle-cm8ev6a.com
+    url: 'http://xn--myeterwalle-cm8ev6a.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
+-
+    id: 2801
+    name: https://xn--myeterwalet-cm8epi.com
+    url: 'http://xn--myeterwalet-cm8epi.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'    
+-
+    id: 2802
+    name: https://xn--myeerhwallot-ooc.com
+    url: 'http://xn--myeerhwallot-ooc.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'    
