@@ -18285,3 +18285,12 @@
     addresses:
       - '0xE276c66Af8853cDD91c1a25608B4E8B599F4da0e' 
       - '0x7Eb28833082eB28fD423aB30Df20afDE98C47DBF'       
+-
+    id: 2808
+    name: https://fintrux.eu
+    url: 'https://fintrux.eu'
+    category: Phishing
+    subcategory: Fintrux
+    description: 'Fake Fintrux crowdsale site'
+    addresses:
+      - '0xE276c66Af8853cDD91c1a25608B4E8B599F4da0e' 
