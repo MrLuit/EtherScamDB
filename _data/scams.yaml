@@ -18275,3 +18275,13 @@
     description: 'Fake Refereum crowdsale site'
     addresses:
       - '0x636e5292882e2342aaf82d651322aea09a3e5392' 
+-
+    id: 2807
+    name: https://refereum-ico.eu
+    url: 'https://refereum-ico.eu'
+    category: Phishing
+    subcategory: Refereum
+    description: 'Fake Refereum crowdsale site'
+    addresses:
+      - '0xE276c66Af8853cDD91c1a25608B4E8B599F4da0e' 
+      - '0x7Eb28833082eB28fD423aB30Df20afDE98C47DBF'       
