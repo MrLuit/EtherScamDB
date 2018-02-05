@@ -18257,3 +18257,12 @@
     description: 'Fake Fintrux crowdsale site'
     addresses:
       - '0x7Eb28833082eB28fD423aB30Df20afDE98C47DBF' 
+-
+    id: 2805
+    name: https://ico-ton.org
+    url: 'https://ico-ton.org'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'
+    addresses:
+      - '0x8f0bca6b1b2b522082d46f3eec31340f113b029a' 
