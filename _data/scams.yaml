@@ -18266,3 +18266,12 @@
     description: 'Fake Telegram crowdsale site'
     addresses:
       - '0x8f0bca6b1b2b522082d46f3eec31340f113b029a' 
+-
+    id: 2806
+    name: https://refereum-token.com
+    url: 'https://refereum-token.com'
+    category: Phishing
+    subcategory: Refereum
+    description: 'Fake Refereum crowdsale site'
+    addresses:
+      - '0x636e5292882e2342aaf82d651322aea09a3e5392' 
