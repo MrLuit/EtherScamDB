@@ -18294,3 +18294,12 @@
     description: 'Fake Fintrux crowdsale site'
     addresses:
       - '0xE276c66Af8853cDD91c1a25608B4E8B599F4da0e' 
+-
+    id: 2809
+    name: https://tokensale-fusion.org
+    url: 'https://tokensale-fusion.org'
+    category: Phishing
+    subcategory: Fusion
+    description: 'Fake Fusion crowdsale site'
+    addresses:
+      - '0xe350160E3C8A07E92Ec58DDcb8DF81A73Aedc6f9' 
