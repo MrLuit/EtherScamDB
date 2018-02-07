@@ -18312,3 +18312,12 @@
     description: 'Fake Fusion crowdsale site'
     addresses:
       - '0xf021428381172eF96988b31F241f4000259488F7' 
+-
+    id: 2811
+    name: https://tokensale-fusion.com
+    url: 'https://tokensale-fusion.com'
+    category: Phishing
+    subcategory: Fusion
+    description: 'Fake Fusion crowdsale site'
+    addresses:
+      - '0xe350160E3C8A07E92Ec58DDcb8DF81A73Aedc6f9' 
