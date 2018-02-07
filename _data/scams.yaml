@@ -18303,3 +18303,12 @@
     description: 'Fake Fusion crowdsale site'
     addresses:
       - '0xe350160E3C8A07E92Ec58DDcb8DF81A73Aedc6f9' 
+-
+    id: 2810
+    name: https://xn--fuson-1sa.org
+    url: 'https://xn--fuson-1sa.org'
+    category: Phishing
+    subcategory: Fusion
+    description: 'Fake Fusion crowdsale site'
+    addresses:
+      - '0xf021428381172eF96988b31F241f4000259488F7' 
