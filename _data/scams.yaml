@@ -18321,3 +18321,10 @@
     description: 'Fake Fusion crowdsale site'
     addresses:
       - '0xe350160E3C8A07E92Ec58DDcb8DF81A73Aedc6f9' 
+-
+    id: 2812
+    name: https://cryptoexploite.com
+    url: 'https://cryptoexploite.com'
+    category: Scamming
+    subcategory: Giveaway
+    description: 'Fake giveaway, asks you for a deposit for gas funds'
