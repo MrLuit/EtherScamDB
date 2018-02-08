@@ -43,3 +43,9 @@
     -webkit-filter: grayscale(0);
     filter: none;
 }
+
+.built {
+	font-size: 8pt;
+	font-style: italic;
+	margin-top: 7%;
+}

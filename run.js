@@ -2,9 +2,9 @@
 
 const fs = require('fs-extra');
 const express = require('express');
-const dateFormat = require('dateformat');
 const bodyParser = require('body-parser');
 const url = require('url');
+const dateFormat = require('dateformat');
 const spawn = require('child_process').spawn;
 const download = require('download-file');
 const rimraf = require('rimraf');
@@ -30,6 +30,7 @@ function getCache(callback = false) {
 			}
             var checkDone = setInterval(function() {
                 if (fs.existsSync('_cache/cache.json')) {
+					updating_now = false;
                     cache = JSON.parse(fs.readFileSync('_cache/cache.json'));
                     clearInterval(checkDone);
                     console.log("Successfully updated cache!");
@@ -74,6 +75,8 @@ function generateAbuseReport(scam) {
     }
     if ('subcategory' in scam && scam.subcategory == "MyEtherWallet") {
         abusereport += "The domain is impersonating MyEtherWallet.com, a website where people can create Ethereum wallets (a cryptocurrency like Bitcoin).";
+	} else if ('subcategory' in scam && scam.subcategory == "MyCrypto") {
+		abusereport += "The domain is impersonating MyCrypto.com, a website where people can create Ethereum wallets (a cryptocurrency like Bitcoin).";
     } else if ('subcategory' in scam && scam.subcategory == "Classic Ether Wallet") {
         abusereport += "The domain is impersonating classicetherwallet.com, a website where people can create Ethereum Classic wallets (a cryptocurrency like Bitcoin).";
     } else if ('category' in scam && scam.category == "Fake ICO") {
@@ -116,7 +119,7 @@ function startWebServer() {
         }).forEach(function(url) {
             if ('featured' in url && url.featured) {
                 if (fs.existsSync("_static/img/" + url.name.toLowerCase().replace(' ', '') + ".png")) {
-                    table += "<tr><td><img class='icon' src='/img/" + url.name.toLowerCase().replace(' ', '') + ".png'>" + url.name + "</td><td><a target='_blank' href='" + url.url + "'>" + url.url + "</a></td></tr>";
+                    table += "<tr><td><img class='project icon' src='/img/" + url.name.toLowerCase().replace(' ', '') + ".png'>" + url.name + "</td><td><a target='_blank' href='" + url.url + "'>" + url.url + "</a></td></tr>";
                 } else {
                     console.log("Warning: No verified icon was found for " + url.name);
                     table += "<tr><td>" + url.name + "</td><td><a target='_blank' href='" + url.url + "'>" + url.url + "</a></td></tr>";
@@ -338,6 +341,7 @@ function startWebServer() {
     });
 
     app.get('/scam/:id/', function(req, res) { // Serve /scam/<id>/
+		let startTime = (new Date()).getTime();
         let scam = getCache().scams.find(function(scam) {
             return scam.id == req.params.id;
         });
@@ -433,6 +437,7 @@ function startWebServer() {
 						template = template.replace("{{ scam.googlethreat }}","<span class='class_active'>Not Blocked</span> <a target='_blank' href='https://safebrowsing.google.com/safebrowsing/report_phish/'><i class='warning sign icon'></i></a>");
 					}
 				}
+				template = template.replace("{{ page.built }}", '<p class="built">This page was built in <b>' + ((new Date()).getTime()-startTime) + '</b>ms, and last updated at <b>' + dateFormat(getCache().updated, "fullDate") + ' ' + dateFormat(getCache().updated, "longTime") + '</b></p>');
 				res.send(default_template.replace('{{ content }}', template));
 			});
 		} else {
@@ -456,7 +461,7 @@ function startWebServer() {
 
     app.get('/address/:address/', function(req, res) { // Serve /address/<address>/
         let template = fs.readFileSync('./_layouts/address.html', 'utf8');
-        template = template.replace("{{ address.address }}", req.params.address);
+        template = template.replace(/{{ address.address }}/g, req.params.address);
         var related = '';
         getCache().scams.filter(function(obj) {
             if ('addresses' in obj) {
@@ -485,7 +490,7 @@ function startWebServer() {
         res.send(template.replace('{{ rss.entries }}', entries));
     });
 
-    app.get('/api/:type/:domain?/', function(req, res) { // Serve /api/<type>/
+    app.get('/api/:type?/:domain?/', function(req, res) { // Serve /api/<type>/
 		res.header('Access-Control-Allow-Origin', '*');
         if (req.params.type == "scams") {
             res.send(JSON.stringify({
@@ -586,10 +591,7 @@ function startWebServer() {
                 }));
             }
         } else {
-            res.send(JSON.stringify({
-                success: false,
-                error: 'Unknown API type'
-            }));
+            res.send(default_template.replace('{{ content }}', fs.readFileSync('./_layouts/api.html', 'utf8')));
         }
     });
 	

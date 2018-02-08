@@ -1,14 +1,14 @@
 window.addEventListener("load", function() {
 	$("#github").click(function() {
-		window.location = 'https://github.com/MrLuit/EtherScamDB';
+		window.open('https://github.com/MrLuit/EtherScamDB');
 	});
 	$("#scams").click(function() {
-		window.location = '/scams';
+		window.open('/scams');
 	});
 	$("#report").click(function() {
-		window.location = '/report';
+		window.open('/report');
 	});
 	$("#donate").click(function() {
-		window.location = 'https://etherscan.io/address/etherscamdb.eth';
+		window.open('https://etherscan.io/address/etherscamdb.eth');
 	});
 });

@@ -3,7 +3,6 @@ const url = require('url');
 const yaml = require('js-yaml');
 const fs = require('fs');
 const request = require("request");
-const webshot = require('webshot');
 const shuffle = require('shuffle-array');
 
 let scams = yaml.safeLoad(fs.readFileSync('_data/scams.yaml'));
@@ -70,8 +69,7 @@ scams.forEach(function(scam, index) {
                             new_cache.blacklist.push(ip);
                         });
                         fs.writeFile("_cache/cache.json", JSON.stringify(new_cache), function() {
-                            archive(new_cache);
-                            //take_screenshots(new_cache);
+                            //urlscan(new_cache);
                         });
                     }
                 });
@@ -79,43 +77,39 @@ scams.forEach(function(scam, index) {
         });
     } else if (i == scams.length - 1) {
         fs.writeFile("_cache/cache.json", JSON.stringify(new_cache), function() {
-            archive(new_cache);
-            //take_screenshots(new_cache);
+            //urlscan(new_cache);
         });
     } else {
         i++;
     }
 });
 
-function archive(new_cache) {
-    /*var timeout = 0;
-    shuffle(new_cache.scams).forEach(function(scam) {
-        if ('url' in scam && 'status' in scam && scam.status == "Active") {
-            timeout++;
-            setTimeout(function() {
-                try {
-                    request("https://web.archive.org/save/" + scam.url);
-                } catch (err) {
-                    console.log(err);
-                }
-            }, timeout * 10000);
-        }
-    });*/
-}
-
-function take_screenshots(new_cache) {
-    if (!fs.existsSync('_cache/screenshots')) {
-        fs.mkdirSync('_cache/screenshots');
-    }
+/* WIP: function urlscan(new_cache) {
     var timeout = 0;
     shuffle(new_cache.scams).forEach(function(scam) {
         if ('url' in scam && 'status' in scam && (scam.status == "Active" || scam.status == "Suspended")) {
             timeout++;
             setTimeout(function() {
-                webshot(scam.url, '_cache/screenshots/' + scam.id + '.png', function(err) {
-
+                request('https://urlscan.io/api/v1/scan/', { method: 'POST', json: { 'url': scam.url, 'public': 'off' }, headers: { 'API-Key': 'x' }}, function(err,response,body) {
+					if(err || response.statusCode != 200) {
+						console.log(err);
+						console.log('Status code: ' + response.statusCode);
+					} else if(body.message != 'Submission successful' || !('api' in body)) {
+						console.log(body.message);
+					} else {
+						setTimeout(function() {
+							request(body.api, { method: 'POST', json: { 'url': scam.api, 'public': 'off' }, headers: { 'API-Key': 'ac990d71-dc66-4b07-b971-4514840afc14' }}, function(err,response,body) {
+								if(err || response.statusCode != 200) {
+									console.log(err);
+									console.log('Status code: ' + response.statusCode);
+								} else {
+									console.log(body);
+								}
+							});
+						}, 2000);
+					}
                 });
-            }, timeout * 1000);
+            }, timeout * 8000);
         }
     });
-}
+}*/ 

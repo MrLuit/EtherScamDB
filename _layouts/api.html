@@ -1,0 +1,150 @@
+<h1><i class="settings icon"></i> API</h1>
+<style>
+.ui.long.segment {
+	height: 200px;
+}
+pre {
+	margin: 0;
+}
+</style>
+<div class="ui divider"></div>
+<h2>Check</h2>
+<b>URL</b>: <div class="ui segment">GET "https://etherscamdb.info/api/check/0xDaa29859836D97C810c7F9D350D4A1B3E8CafC9a/" (can be a domain, ethereum address, or ip address)</div><BR>
+<b>Response: </b>
+<div id="check_segment" class="ui long inverted segment">
+	<div id="check_loader" class="ui active dimmer">
+		<div class="ui loader"></div>
+	</div>
+<pre><code class="check_response">
+
+    </code></pre>
+</div>
+<h2>Scams</h2>
+<b>URL</b>: <div class="ui segment">GET "https://etherscamdb.info/api/scams/"</div><BR>
+<b>Response: </b>
+<div id="scams_segment" class="ui long inverted segment">
+	<div id="scams_loader" class="ui active dimmer">
+		<div class="ui loader"></div>
+	</div>
+<pre><code class="scams_response">
+
+    </code></pre>
+</div>
+<h2>Addresses</h2>
+<b>URL</b>: <div class="ui segment">GET "https://etherscamdb.info/api/addresses/"</div><BR>
+<b>Response: </b>
+<div id="addresses_segment" class="ui long inverted segment">
+	<div id="addresses_loader" class="ui active dimmer">
+		<div class="ui loader"></div>
+	</div>
+<pre><code class="addresses_response">
+
+    </code></pre>
+</div>
+<h2>IPs</h2>
+<b>URL</b>: <div class="ui segment">GET "https://etherscamdb.info/api/ips/"</div><BR>
+<b>Response: </b>
+<div id="ips_segment" class="ui long inverted segment">
+	<div id="ips_loader" class="ui active dimmer">
+		<div class="ui loader"></div>
+	</div>
+<pre><code class="ips_response">
+
+    </code></pre>
+</div>
+<h2>Verified</h2>
+<b>URL</b>: <div class="ui segment">GET "https://etherscamdb.info/api/verified/"</div><BR>
+<b>Response: </b>
+<div id="verified_segment" class="ui long inverted segment">
+	<div id="verified_loader" class="ui active dimmer">
+		<div class="ui loader"></div>
+	</div>
+<pre><code class="verified_response">
+
+    </code></pre>
+</div>
+<h2>Blacklist</h2>
+<b>URL</b>: <div class="ui segment">GET "https://etherscamdb.info/api/blacklist/"</div><BR>
+<b>Response: </b>
+<div id="blacklist_segment" class="ui long inverted segment">
+	<div id="blacklist_loader" class="ui active dimmer">
+		<div class="ui loader"></div>
+	</div>
+<pre><code class="blacklist_response">
+
+    </code></pre>
+</div>
+<h2>Whitelist</h2>
+<b>URL</b>: <div class="ui segment">GET "https://etherscamdb.info/api/whitelist/"</div><BR>
+<b>Response: </b>
+<div id="whitelist_segment" class="ui long inverted segment">
+	<div id="whitelist_loader" class="ui active dimmer">
+		<div class="ui loader"></div>
+	</div>
+<pre><code class="whitelist_response">
+
+    </code></pre>
+</div>
+<h2>Abuse report</h2>
+<b>URL</b>: <div class="ui segment">GET "https://etherscamdb.info/api/changellyli.com/"</div><BR>
+<b>Response: </b>
+<div id="abusereport_segment" class="ui long inverted segment">
+	<div id="abusereport_loader" class="ui active dimmer">
+		<div class="ui loader"></div>
+	</div>
+<pre><code class="abusereport_response">
+
+    </code></pre>
+</div>
+<script>
+window.addEventListener("load", function() {
+	$.get("https://etherscamdb.info/api/check/0xDaa29859836D97C810c7F9D350D4A1B3E8CafC9a",function(data) {
+		data = JSON.stringify(JSON.parse(data), null, 2);
+		$("#check_loader").remove();
+		$("#check_segment").css("overflow","scroll");
+		$(".check_response").html(data);
+	});
+	$.get("https://etherscamdb.info/api/scams/",function(data) {
+		data = JSON.stringify(JSON.parse(data), null, 2);
+		$("#scams_loader").remove();
+		$("#scams_segment").css("overflow","scroll");
+		$(".scams_response").html(data);
+	});
+	$.get("https://etherscamdb.info/api/addresses/",function(data) {
+		data = JSON.stringify(JSON.parse(data), null, 2);
+		$("#addresses_loader").remove();
+		$("#addresses_segment").css("overflow","scroll");
+		$(".addresses_response").html(data);
+	});
+	$.get("https://etherscamdb.info/api/ips/",function(data) {
+		data = JSON.stringify(JSON.parse(data), null, 2);
+		$("#ips_loader").remove();
+		$("#ips_segment").css("overflow","scroll");
+		$(".ips_response").html(data);
+	});
+	$.get("https://etherscamdb.info/api/verified/",function(data) {
+		data = JSON.stringify(JSON.parse(data), null, 2);
+		$("#verified_loader").remove();
+		$("#verified_segment").css("overflow","scroll");
+		$(".verified_response").html(data);
+	});
+	$.get("https://etherscamdb.info/api/blacklist/",function(data) {
+		data = JSON.stringify(JSON.parse(data), null, 2);
+		$("#blacklist_loader").remove();
+		$("#blacklist_segment").css("overflow","scroll");
+		$(".blacklist_response").html(data);
+	});
+	$.get("https://etherscamdb.info/api/whitelist/",function(data) {
+		data = JSON.stringify(JSON.parse(data), null, 2);
+		$("#whitelist_loader").remove();
+		$("#whitelist_segment").css("overflow","scroll");
+		$(".whitelist_response").html(data);
+	});
+	$.get("https://etherscamdb.info/api/abusereport/changellyli.com",function(data) {
+		data = JSON.stringify(JSON.parse(data), null, 2);
+		$("#abusereport_loader").remove();
+		$("#abusereport_segment").css("overflow","scroll");
+		$(".abusereport_response").html(data);
+	});
+});
+</script>
