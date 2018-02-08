@@ -6,7 +6,6 @@ const request = require("request");
 const shuffle = require('shuffle-array');
 
 let scams = yaml.safeLoad(fs.readFileSync('_data/scams.yaml'));
-let i = 0;
 let new_cache = {
     'scams': [],
     'legiturls': [],
@@ -42,7 +41,6 @@ scams.forEach(function(scam, index) {
                     scam_details.nameservers = addresses;
                 }
                 var r = request(scam.url, function(e, response, body) {
-                    i++;
                     if ((e || response.statusCode != 200) && (!('status' in scam_details) || scam_details.status != "Offline")) {
                         scam_details.status = 'Offline';
                     } else if (r.uri.href.indexOf('cgi-sys/suspendedpage.cgi') !== -1 && (!('status' in scam_details) || scam_details.status != "Suspended")) {
@@ -64,7 +62,7 @@ scams.forEach(function(scam, index) {
                             new_cache.addresses[address] = scam_details;
                         });
                     }
-                    if (i == scams.length - 1) {
+                    if (index == scams.length - 1) {
                         Object.keys(new_cache.ips).forEach(function(ip) {
                             new_cache.blacklist.push(ip);
                         });
@@ -75,13 +73,10 @@ scams.forEach(function(scam, index) {
                 });
             });
         });
-    } else if (i == scams.length - 1) {
-        fs.writeFile("_cache/cache.json", JSON.stringify(new_cache), function() {
-            //urlscan(new_cache);
-        });
     } else {
-        i++;
-    }
+		console.log("Fatal error: Scam without URL found (" + scam.id + ")");
+		process.abort();
+	}
 });
 
 /* WIP: function urlscan(new_cache) {
@@ -98,7 +93,7 @@ scams.forEach(function(scam, index) {
 						console.log(body.message);
 					} else {
 						setTimeout(function() {
-							request(body.api, { method: 'POST', json: { 'url': scam.api, 'public': 'off' }, headers: { 'API-Key': 'ac990d71-dc66-4b07-b971-4514840afc14' }}, function(err,response,body) {
+							request(body.api, { method: 'POST', json: { 'url': scam.api, 'public': 'off' }, headers: { 'API-Key': 'x' }}, function(err,response,body) {
 								if(err || response.statusCode != 200) {
 									console.log(err);
 									console.log('Status code: ' + response.statusCode);

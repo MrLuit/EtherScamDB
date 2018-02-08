@@ -7,9 +7,12 @@
 Make sure you have both [Node.JS](https://nodejs.org/en/download/) and [Git](https://git-scm.com/downloads) installed.
 
 Then, open a command line anywhere and run the following commands:
-`git clone https://github.com/MrLuit/EtherScamDB.git
-npm install
-node run.js`
+
+> git clone https://github.com/MrLuit/EtherScamDB.git
+
+> npm install
+
+> node run.js
 
 Generating should take a couple of minutes the first time or after a clean, but when `cache.json` is already present it should launch instantly.
 
