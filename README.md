@@ -14,6 +14,10 @@ Then, open a command line anywhere and run the following commands:
 
 > node run.js
 
+The command line should now exit, asking you to update the config.js file with correct values. Please use your own API keys. When you're done, launch run.js again:
+
+> node run.js
+
 Generating should take a couple of minutes the first time or after a clean, but when `cache.json` is already present it should launch instantly.
 
 ## Flags

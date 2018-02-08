@@ -27,6 +27,10 @@
 	color: orange;
 }
 
+.class_inactive {
+	color: orange;
+}
+
 #scam-screenshot {
     filter: gray;
     -webkit-filter: grayscale(1);

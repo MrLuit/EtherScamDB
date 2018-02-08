@@ -4,8 +4,10 @@ const yaml = require('js-yaml');
 const fs = require('fs');
 const request = require("request");
 const shuffle = require('shuffle-array');
+const config = require('./config');
 
 let scams = yaml.safeLoad(fs.readFileSync('_data/scams.yaml'));
+let urlscan_timeout = 0;
 let new_cache = {
     'scams': [],
     'legiturls': [],
@@ -28,7 +30,11 @@ yaml.safeLoad(fs.readFileSync('_data/legit_urls.yaml')).sort(function(a, b) {
     new_cache.whitelist.push('www.' + url.parse(legit_url.url).hostname.replace("www.", ""));
 });
 scams.forEach(function(scam, index) {
-    if ('url' in scam) {
+	if ('url' in scam) {
+		if(!scam.url.includes('http://') && !scam.url.includes('https://')) {
+			console.log('Warning! Entry ' + scam.id + ' has no protocol (http or https) specified. Please update!');
+			scam.url = 'http://' + scam.url;
+		}
         var scam_details = new_cache.scams[new_cache.scams.push(scam) - 1];
         new_cache.blacklist.push(url.parse(scam.url).hostname.replace("www.", ""));
         new_cache.blacklist.push('www.' + url.parse(scam.url).hostname.replace("www.", ""));
@@ -40,30 +46,26 @@ scams.forEach(function(scam, index) {
                 if (!err) {
                     scam_details.nameservers = addresses;
                 }
-                request(scam.url, function(e, response, body) {
-                    if ((e || response.statusCode != 200) && (!('status' in scam_details) || scam_details.status != "Offline")) {
+				var r = request(scam.url, function(e, response, body) {
+                    if (e || !([200,301,302].includes(response.statusCode))) {
                         scam_details.status = 'Offline';
-                    } else if (r.uri.href.indexOf('cgi-sys/suspendedpage.cgi') !== -1 && (!('status' in scam_details) || scam_details.status != "Suspended")) {
+                    } else if (r.uri.href.indexOf('cgi-sys/suspendedpage.cgi') !== -1) {
                         scam_details.status = 'Suspended';
-                    } else if ((!('status' in scam_details) || scam_details.status != "Active") && !e && response.statusCode == 200 && r.uri.href.indexOf('cgi-sys/suspendedpage.cgi') === -1) {
+                    } else {
 						if('subcategory' in scam && scam.subcategory == 'MyEtherWallet') {
-							request(url.parse(scam.url).hostname.replace("www.", "") + '/js/etherwallet-static.min.js', function(e, response, body) {
-								if(e) {
-									scam_details.status = 'Offline';
-								} else if(response.statusCode != 200) {
-									scam_details.status = 'Inactive';
-								} else {
+							request('http://' + url.parse(scam.url).hostname.replace("www.", "") + '/js/etherwallet-static.min.js', function(e, response, body) {
+								if(!e && response.statusCode == 200) {
 									scam_details.status = 'Active';
+								} else {
+									scam_details.status = 'Inactive';
 								}
 							});
 						} else if('subcategory' in scam && scam.subcategory == 'MyCrypto') {
-							request(url.parse(scam.url).hostname.replace("www.", "") + '/js/mycrypto-static.min.js', function(e, response, body) {
-								if(e) {
-									scam_details.status = 'Offline';
-								} else if(response.statusCode != 200) {
-									scam_details.status = 'Inactive';
-								} else {
+							request('http://' + url.parse(scam.url).hostname.replace("www.", "") + '/js/mycrypto-static.min.js', function(e, response, body) {
+								if(!e && response.statusCode == 200) {
 									scam_details.status = 'Active';
+								} else {
+									scam_details.status = 'Inactive';
 								}
 							});
 						} else if(body == '') {
@@ -72,6 +74,30 @@ scams.forEach(function(scam, index) {
 							scam_details.status = 'Active';
 						}
                     }
+					/*if(scam_details.status != 'Offline' && 'Urlscan_API_Key' in config) {
+						urlscan_timeout++;
+						setTimeout(function() {
+							request('https://urlscan.io/api/v1/scan/', { method: 'POST', json: { 'url': scam.url, 'public': 'off' }, headers: { 'API-Key': config.Urlscan_API_Key }}, function(err,response,body) {
+								if(err || response.statusCode != 200) {
+									console.log(err);
+									console.log('Status code: ' + response.statusCode);
+								} else if(body.message != 'Submission successful' || !('api' in body)) {
+									console.log(body.message);
+								} else {
+									setTimeout(function() {
+										request(body.api, { method: 'POST', json: { 'url': scam.api, 'public': 'off' }, headers: { 'API-Key': config.Urlscan_API_Key }}, function(err,response,body) {
+											if(err || response.statusCode != 200) {
+												console.log(err);
+												console.log('Status code: ' + response.statusCode);
+											} else {
+												console.log(body);
+											}
+										});
+									}, 2000);
+								}
+							});
+						}, urlscan_timeout * 8000);
+					}*/
                     if ('ip' in scam_details) {
                         if (!(scam_details.ip in new_cache.ips)) {
                             new_cache.ips[scam_details.ip] = [];
@@ -91,46 +117,14 @@ scams.forEach(function(scam, index) {
                             new_cache.blacklist.push(ip);
                         });
 						setTimeout(function() { /* Some timeout for all http requests to finish */
-							fs.writeFile("_cache/cache.json", JSON.stringify(new_cache), function() {
-								//urlscan(new_cache);
-							});
-						},5000);
+							fs.writeFileSync("_cache/cache.json", JSON.stringify(new_cache));
+						},10000);
                     }
                 });
             });
         });
     } else {
-		console.log("Fatal error: Scam without URL found (" + scam.id + ")");
-		process.abort();
+		//console.log("Fatal error: Scam without URL found (" + scam.id + ")");
+		//process.abort();
 	}
 });
-
-/* WIP: function urlscan(new_cache) {
-    var timeout = 0;
-    shuffle(new_cache.scams).forEach(function(scam) {
-        if ('url' in scam && 'status' in scam && (scam.status == "Active" || scam.status == "Suspended")) {
-            timeout++;
-            setTimeout(function() {
-                request('https://urlscan.io/api/v1/scan/', { method: 'POST', json: { 'url': scam.url, 'public': 'off' }, headers: { 'API-Key': 'x' }}, function(err,response,body) {
-					if(err || response.statusCode != 200) {
-						console.log(err);
-						console.log('Status code: ' + response.statusCode);
-					} else if(body.message != 'Submission successful' || !('api' in body)) {
-						console.log(body.message);
-					} else {
-						setTimeout(function() {
-							request(body.api, { method: 'POST', json: { 'url': scam.api, 'public': 'off' }, headers: { 'API-Key': 'x' }}, function(err,response,body) {
-								if(err || response.statusCode != 200) {
-									console.log(err);
-									console.log('Status code: ' + response.statusCode);
-								} else {
-									console.log(body);
-								}
-							});
-						}, 2000);
-					}
-                });
-            }, timeout * 8000);
-        }
-    });
-}*/ 

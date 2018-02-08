@@ -12,12 +12,11 @@ const metamaskBlocked = require('eth-phishing-detect');
 const crypto = require("crypto");
 const request = require('request');
 const app = express();
+const config = require('./config');
 const default_template = fs.readFileSync('./_layouts/default.html', 'utf8');
 let cache;
-var older_cache_time;
 let updating_now = false;
-checkConfig();
-const config = require('./config');
+var older_cache_time;
 
 /* See if there's an up-to-date cache, otherwise run `update.js` to create one. */
 function getCache(callback = false) {
@@ -91,15 +90,6 @@ function generateAbuseReport(scam) {
     return abusereport;
 }
 
-/*  Copy config.example.js to config.js, if it does not exist yet */
-function checkConfig() {
-    if (!fs.existsSync('config.js')) {
-        fs.copySync('config.example.js', 'config.js');
-		console.log('Config file was copied. Please update with correct values');
-		process.abort();
-    }
-}
-
 /* Start the web server */
 function startWebServer() {
     app.use(express.static('_static')); // Serve all static pages first
@@ -161,7 +151,7 @@ function startWebServer() {
             template = template.replace("{{ sorting.status }}", "sorted descending");
             var scams = getCache().scams.sort(function(a, b) {
                 if ('status' in a && 'status' in b) {
-                    if (a.status == 'Active' && b.status != 'Active' || a.status == 'Suspended' && b.status == 'Offline') {
+					if ((a.status == 'Active' && b.status != 'Active') || (a.status == 'Inactive' && (b.status == 'Suspended' || b.status == 'Offline')) || (a.status == 'Suspended' && b.status == 'Offline')) {
                         return -1;
                     } else if (a.status == b.status) {
                         return 0;
@@ -248,6 +238,8 @@ function startWebServer() {
             if ('status' in scams[i]) {
                 if (scams[i].status == "Active") {
                     var status = "<td class='offline'><i class='warning sign icon'></i> Active</td>";
+				} else if (scams[i].status == "Inactive") {
+                    var status = "<td class='suspended'><i class='remove icon'></i> Inactive</td>";
                 } else if (scams[i].status == "Offline") {
                     var status = "<td class='activ'><i class='checkmark icon'></i> Offline</td>";
                 } else if (scams[i].status == "Suspended") {
@@ -437,7 +429,7 @@ function startWebServer() {
 						template = template.replace("{{ scam.googlethreat }}","<span class='class_active'>Not Blocked</span> <a target='_blank' href='https://safebrowsing.google.com/safebrowsing/report_phish/'><i class='warning sign icon'></i></a>");
 					}
 				}
-				template = template.replace("{{ page.built }}", '<p class="built">This page was built in <b>' + ((new Date()).getTime()-startTime) + '</b>ms, and last updated at <b>' + dateFormat(getCache().updated, "fullDate") + ' ' + dateFormat(getCache().updated, "longTime") + '</b></p>');
+				template = template.replace("{{ page.built }}", '<p class="built">This page was built in <b>' + ((new Date()).getTime()-startTime) + '</b>ms, and last updated at <b>' + dateFormat(getCache().updated, "UTC:mmm dd yyyy HH:MM") + ' UTC</b></p>');
 				res.send(default_template.replace('{{ content }}', template));
 			});
 		} else {
@@ -632,7 +624,12 @@ function startWebServer() {
     });
 }
 
-if (2 in process.argv) {
+/*  Copy config.example.js to config.js, if it does not exist yet */
+if (!fs.existsSync('config.js')) {
+	fs.copySync('config.example.js', 'config.js');
+	console.log('Config file was copied. Please update with correct values');
+	process.abort();
+} else if (2 in process.argv) {
     if (process.argv[2] == "--clean") {
         rimraf('_cache', function() {
             console.log("Cleared cache");
