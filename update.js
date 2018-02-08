@@ -40,13 +40,37 @@ scams.forEach(function(scam, index) {
                 if (!err) {
                     scam_details.nameservers = addresses;
                 }
-                var r = request(scam.url, function(e, response, body) {
+                request(scam.url, function(e, response, body) {
                     if ((e || response.statusCode != 200) && (!('status' in scam_details) || scam_details.status != "Offline")) {
                         scam_details.status = 'Offline';
                     } else if (r.uri.href.indexOf('cgi-sys/suspendedpage.cgi') !== -1 && (!('status' in scam_details) || scam_details.status != "Suspended")) {
                         scam_details.status = 'Suspended';
                     } else if ((!('status' in scam_details) || scam_details.status != "Active") && !e && response.statusCode == 200 && r.uri.href.indexOf('cgi-sys/suspendedpage.cgi') === -1) {
-                        scam_details.status = 'Active';
+						if('subcategory' in scam && scam.subcategory == 'MyEtherWallet') {
+							request(url.parse(scam.url).hostname.replace("www.", "") + '/js/etherwallet-static.min.js', function(e, response, body) {
+								if(e) {
+									scam_details.status = 'Offline';
+								} else if(response.statusCode != 200) {
+									scam_details.status = 'Inactive';
+								} else {
+									scam_details.status = 'Active';
+								}
+							});
+						} else if('subcategory' in scam && scam.subcategory == 'MyCrypto') {
+							request(url.parse(scam.url).hostname.replace("www.", "") + '/js/mycrypto-static.min.js', function(e, response, body) {
+								if(e) {
+									scam_details.status = 'Offline';
+								} else if(response.statusCode != 200) {
+									scam_details.status = 'Inactive';
+								} else {
+									scam_details.status = 'Active';
+								}
+							});
+						} else if(body == '') {
+							scam_details.status = 'Inactive';
+						} else {
+							scam_details.status = 'Active';
+						}
                     }
                     if ('ip' in scam_details) {
                         if (!(scam_details.ip in new_cache.ips)) {
@@ -66,9 +90,11 @@ scams.forEach(function(scam, index) {
                         Object.keys(new_cache.ips).forEach(function(ip) {
                             new_cache.blacklist.push(ip);
                         });
-                        fs.writeFile("_cache/cache.json", JSON.stringify(new_cache), function() {
-                            //urlscan(new_cache);
-                        });
+						setTimeout(function() { /* Some timeout for all http requests to finish */
+							fs.writeFile("_cache/cache.json", JSON.stringify(new_cache), function() {
+								//urlscan(new_cache);
+							});
+						},5000);
                     }
                 });
             });
