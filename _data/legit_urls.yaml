@@ -336,3 +336,11 @@
     id: 77
     name: COPYTRACK
     url: 'https://copytrack.io/'
+-
+    id: 78
+    name: Parity
+    url: 'https://www.parity.io/'
+-
+    id: 79
+    name: Parity Technologies
+    url: 'https://paritytech.io/'
