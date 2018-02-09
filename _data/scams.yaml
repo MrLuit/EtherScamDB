@@ -18328,3 +18328,12 @@
     category: Scamming
     subcategory: Giveaway
     description: 'Fake giveaway, asks you for a deposit for gas funds'
+-
+    id: 2813
+    name: https://decentral.market
+    url: 'https://decentral.market'
+    category: Phishing
+    subcategory: News
+    description: 'Fake news site publishing ICOs with fake contribution addresses'
+    addresses:
+      - '0xdefb014b9e2f3bd81cdb084821f99b681cfca695' 
