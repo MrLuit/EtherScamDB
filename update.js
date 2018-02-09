@@ -8,6 +8,7 @@ const config = require('./config');
 
 let scams = yaml.safeLoad(fs.readFileSync('_data/scams.yaml'));
 let urlscan_timeout = 0;
+let scams_checked = 0;
 let requests_pending = 0;
 let new_cache = {
     'scams': [],
@@ -31,8 +32,8 @@ yaml.safeLoad(fs.readFileSync('_data/legit_urls.yaml')).sort(function(a, b) {
     new_cache.whitelist.push('www.' + url.parse(legit_url.url).hostname.replace("www.", ""));
 });
 setInterval(function() {
-    console.log(requests_pending);
-}, 500);
+    console.log(scams_checked + '/' + (scams.length-1) + ' (' + requests_pending + ' requests pending)');
+}, 1000);
 scams.forEach(function(scam, index) {
     if ('url' in scam) {
         if (!scam.url.includes('http://') && !scam.url.includes('https://')) {
@@ -122,17 +123,20 @@ scams.forEach(function(scam, index) {
                             new_cache.addresses[address] = scam_details;
                         });
                     }
-                    var done_interval = setInterval(function() {
-                        if (requests_pending == 0) {
-                            clearInterval(done_interval);
-                            Object.keys(new_cache.ips).forEach(function(ip) {
-                                new_cache.blacklist.push(ip);
-                            });
-                            setTimeout(function() { /* Some timeout for all http requests to finish */
-                                fs.writeFileSync("_cache/cache.json", JSON.stringify(new_cache));
-                            }, 10000);
-                        }
-                    }, 500);
+					scams_checked++;
+					if(index == (scams.length-1)) {
+						var done_interval = setInterval(function() {
+							if (requests_pending == 0) {
+								clearInterval(done_interval);
+								Object.keys(new_cache.ips).forEach(function(ip) {
+									new_cache.blacklist.push(ip);
+								});
+								fs.writeFileSync("_cache/cache.json", JSON.stringify(new_cache));
+								console.log("Done");
+								process.abort();
+							}
+						}, 500);
+					}
                 });
             });
         });
