@@ -98,7 +98,7 @@ pre {
 </div>
 <script>
 window.addEventListener("load", function() {
-	$.get("h/api/check/0xDaa29859836D97C810c7F9D350D4A1B3E8CafC9a",function(data) {
+	$.get("/api/check/0xDaa29859836D97C810c7F9D350D4A1B3E8CafC9a",function(data) {
 		data = JSON.stringify(JSON.parse(data), null, 2);
 		$("#check_loader").remove();
 		$("#check_segment").css("overflow","scroll");
