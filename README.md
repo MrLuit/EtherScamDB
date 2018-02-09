@@ -4,14 +4,21 @@
 
 ## Usage
 
-If you haven't already, click [here](https://nodejs.org/en/download/) to download Node.JS
+Make sure you have both [Node.JS](https://nodejs.org/en/download/) and [Git](https://git-scm.com/downloads) installed.
 
-- Download the latest release from [here](https://github.com/MrLuit/EtherScamDB/archive/master.zip).
-- Go ahead and open a command line in the release folder
-- Install all necessary packages by running ```npm install```
-- Build and serve the project using `node run.js`
+Then, open a command line anywhere and run the following commands:
 
-Generating should take around 2 minutes the first time or after a clean, but when `cache.json` is already present it should launch instantly.
+> git clone https://github.com/MrLuit/EtherScamDB.git
+
+> npm install
+
+> node run.js
+
+The command line should now exit, asking you to update the config.js file with correct values. Please use your own API keys. When you're done, launch run.js again:
+
+> node run.js
+
+Generating should take a couple of minutes the first time or after a clean, but when `cache.json` is already present it should launch instantly.
 
 ## Flags
 
@@ -32,16 +39,8 @@ Fork this project and edit `_data/data.yaml`. Every item can have the following 
 
 ## API
 
-To make use of our database, the following API can be used:
-
-- [api/scams](https://etherscamdb.info/api/scams/)
-- [api/addresses](https://etherscamdb.info/api/addresses/)
-- [api/ips](https://etherscamdb.info/api/ips/)
-- [api/verified](https://etherscamdb.info/api/verified/)
-- [api/blacklist](https://etherscamdb.info/api/blacklist/)
-- [api/whitelist](https://etherscamdb.info/api/whitelist/)
-- [api/check/<domain/ip/address>](https://etherscamdb.info/api/check/myetherwallet.com)
+To make use of our database, the following API can be used: https://etherscamdb.info/api/
 
 ## Donate
 
-If you would like to help without contributing on GitHub yourself you can send some ETH or any other ERC20 token to [etherscamdb.eth](https://etherscan.io/address/etherscamdb.eth) :clap:
+If you would like to help without contributing on GitHub yourself you can send some ETH or ERC20 tokens to [etherscamdb.eth](https://etherscan.io/address/etherscamdb.eth) :clap:

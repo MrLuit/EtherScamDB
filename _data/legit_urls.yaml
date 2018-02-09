@@ -1,7 +1,7 @@
 -
     id: 1
-    name: MyEtherWallet
-    url: 'https://myetherwallet.com'
+    name: MyCrypto
+    url: 'https://mycrypto.com'
     featured: true
 -
     id: 2
@@ -10,8 +10,8 @@
     featured: true
 -
     id: 3
-    name: MyEtherAPI
-    url: 'https://www.myetherapi.com'
+    name: MyCryptoAPI
+    url: 'https://www.mycryptoapi.com'
 -
     id: 4
     name: Ethereum

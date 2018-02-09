@@ -2,9 +2,9 @@
 
 const fs = require('fs-extra');
 const express = require('express');
-const dateFormat = require('dateformat');
 const bodyParser = require('body-parser');
 const url = require('url');
+const dateFormat = require('dateformat');
 const spawn = require('child_process').spawn;
 const download = require('download-file');
 const rimraf = require('rimraf');
@@ -12,12 +12,11 @@ const metamaskBlocked = require('eth-phishing-detect');
 const crypto = require("crypto");
 const request = require('request');
 const app = express();
+const config = require('./config');
 const default_template = fs.readFileSync('./_layouts/default.html', 'utf8');
 let cache;
-var older_cache_time;
 let updating_now = false;
-checkConfig();
-const config = require('./config');
+var older_cache_time;
 
 /* See if there's an up-to-date cache, otherwise run `update.js` to create one. */
 function getCache(callback = false) {
@@ -30,6 +29,7 @@ function getCache(callback = false) {
 			}
             var checkDone = setInterval(function() {
                 if (fs.existsSync('_cache/cache.json')) {
+					updating_now = false;
                     cache = JSON.parse(fs.readFileSync('_cache/cache.json'));
                     clearInterval(checkDone);
                     console.log("Successfully updated cache!");
@@ -74,6 +74,8 @@ function generateAbuseReport(scam) {
     }
     if ('subcategory' in scam && scam.subcategory == "MyEtherWallet") {
         abusereport += "The domain is impersonating MyEtherWallet.com, a website where people can create Ethereum wallets (a cryptocurrency like Bitcoin).";
+	} else if ('subcategory' in scam && scam.subcategory == "MyCrypto") {
+		abusereport += "The domain is impersonating MyCrypto.com, a website where people can create Ethereum wallets (a cryptocurrency like Bitcoin).";
     } else if ('subcategory' in scam && scam.subcategory == "Classic Ether Wallet") {
         abusereport += "The domain is impersonating classicetherwallet.com, a website where people can create Ethereum Classic wallets (a cryptocurrency like Bitcoin).";
     } else if ('category' in scam && scam.category == "Fake ICO") {
@@ -86,15 +88,6 @@ function generateAbuseReport(scam) {
     }
     abusereport += "\r\n\r\nPlease shut down this domain so further attacks will be prevented.";
     return abusereport;
-}
-
-/*  Copy config.example.js to config.js, if it does not exist yet */
-function checkConfig() {
-    if (!fs.existsSync('config.js')) {
-        fs.copySync('config.example.js', 'config.js');
-		console.log('Config file was copied. Please update with correct values');
-		process.abort();
-    }
 }
 
 /* Start the web server */
@@ -116,7 +109,7 @@ function startWebServer() {
         }).forEach(function(url) {
             if ('featured' in url && url.featured) {
                 if (fs.existsSync("_static/img/" + url.name.toLowerCase().replace(' ', '') + ".png")) {
-                    table += "<tr><td><img class='icon' src='/img/" + url.name.toLowerCase().replace(' ', '') + ".png'>" + url.name + "</td><td><a target='_blank' href='" + url.url + "'>" + url.url + "</a></td></tr>";
+                    table += "<tr><td><img class='project icon' src='/img/" + url.name.toLowerCase().replace(' ', '') + ".png'>" + url.name + "</td><td><a target='_blank' href='" + url.url + "'>" + url.url + "</a></td></tr>";
                 } else {
                     console.log("Warning: No verified icon was found for " + url.name);
                     table += "<tr><td>" + url.name + "</td><td><a target='_blank' href='" + url.url + "'>" + url.url + "</a></td></tr>";
@@ -158,7 +151,7 @@ function startWebServer() {
             template = template.replace("{{ sorting.status }}", "sorted descending");
             var scams = getCache().scams.sort(function(a, b) {
                 if ('status' in a && 'status' in b) {
-                    if (a.status == 'Active' && b.status != 'Active' || a.status == 'Suspended' && b.status == 'Offline') {
+					if ((a.status == 'Active' && b.status != 'Active') || (a.status == 'Inactive' && (b.status == 'Suspended' || b.status == 'Offline')) || (a.status == 'Suspended' && b.status == 'Offline')) {
                         return -1;
                     } else if (a.status == b.status) {
                         return 0;
@@ -245,6 +238,8 @@ function startWebServer() {
             if ('status' in scams[i]) {
                 if (scams[i].status == "Active") {
                     var status = "<td class='offline'><i class='warning sign icon'></i> Active</td>";
+				} else if (scams[i].status == "Inactive") {
+                    var status = "<td class='suspended'><i class='remove icon'></i> Inactive</td>";
                 } else if (scams[i].status == "Offline") {
                     var status = "<td class='activ'><i class='checkmark icon'></i> Offline</td>";
                 } else if (scams[i].status == "Suspended") {
@@ -338,6 +333,7 @@ function startWebServer() {
     });
 
     app.get('/scam/:id/', function(req, res) { // Serve /scam/<id>/
+		let startTime = (new Date()).getTime();
         let scam = getCache().scams.find(function(scam) {
             return scam.id == req.params.id;
         });
@@ -433,6 +429,7 @@ function startWebServer() {
 						template = template.replace("{{ scam.googlethreat }}","<span class='class_active'>Not Blocked</span> <a target='_blank' href='https://safebrowsing.google.com/safebrowsing/report_phish/'><i class='warning sign icon'></i></a>");
 					}
 				}
+				template = template.replace("{{ page.built }}", '<p class="built">This page was built in <b>' + ((new Date()).getTime()-startTime) + '</b>ms, and last updated at <b>' + dateFormat(getCache().updated, "UTC:mmm dd yyyy HH:MM") + ' UTC</b></p>');
 				res.send(default_template.replace('{{ content }}', template));
 			});
 		} else {
@@ -456,7 +453,7 @@ function startWebServer() {
 
     app.get('/address/:address/', function(req, res) { // Serve /address/<address>/
         let template = fs.readFileSync('./_layouts/address.html', 'utf8');
-        template = template.replace("{{ address.address }}", req.params.address);
+        template = template.replace(/{{ address.address }}/g, req.params.address);
         var related = '';
         getCache().scams.filter(function(obj) {
             if ('addresses' in obj) {
@@ -485,7 +482,7 @@ function startWebServer() {
         res.send(template.replace('{{ rss.entries }}', entries));
     });
 
-    app.get('/api/:type/:domain?/', function(req, res) { // Serve /api/<type>/
+    app.get('/api/:type?/:domain?/', function(req, res) { // Serve /api/<type>/
 		res.header('Access-Control-Allow-Origin', '*');
         if (req.params.type == "scams") {
             res.send(JSON.stringify({
@@ -586,10 +583,7 @@ function startWebServer() {
                 }));
             }
         } else {
-            res.send(JSON.stringify({
-                success: false,
-                error: 'Unknown API type'
-            }));
+            res.send(default_template.replace('{{ content }}', fs.readFileSync('./_layouts/api.html', 'utf8')));
         }
     });
 	
@@ -630,7 +624,12 @@ function startWebServer() {
     });
 }
 
-if (2 in process.argv) {
+/*  Copy config.example.js to config.js, if it does not exist yet */
+if (!fs.existsSync('config.js')) {
+	fs.copySync('config.example.js', 'config.js');
+	console.log('Config file was copied. Please update with correct values');
+	process.abort();
+} else if (2 in process.argv) {
     if (process.argv[2] == "--clean") {
         rimraf('_cache', function() {
             console.log("Cleared cache");
