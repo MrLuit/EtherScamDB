@@ -1,12 +1,5 @@
 <h1><i class="settings icon"></i> API</h1>
-<style>
-.ui.long.segment {
-	height: 200px;
-}
-pre {
-	margin: 0;
-}
-</style>
+<link rel="stylesheet" href="/css/api.css">
 <div class="ui divider"></div>
 <h2>Check</h2>
 <b>URL</b>: <div class="ui segment">GET "https://etherscamdb.info/api/check/0xDaa29859836D97C810c7F9D350D4A1B3E8CafC9a/" (can be a domain, ethereum address, or ip address)</div><BR>
@@ -19,6 +12,10 @@ pre {
 
     </code></pre>
 </div>
+<h2>Report</h2>
+<b>Example URL</b>: <a target="_blank" href="/report/domain/fake-mycrypto.com/">https://etherscamdb.info/report/domain/fake-mycrypto.com/</a><BR>
+<b>Another example URL</b>: <a target="_blank" href="/report/address/0x0000000000000000000000000000000000000000/">https://etherscamdb.info/report/address/0x0000000000000000000000000000000000000000/</a><BR><BR>
+All of the values (fake-mycrypto.com and 0x0000000000000000000000000000000000000000) are optional.
 <h2>Scams</h2>
 <b>URL</b>: <div class="ui segment">GET "https://etherscamdb.info/api/scams/"</div><BR>
 <b>Response: </b>
@@ -96,55 +93,4 @@ pre {
 
     </code></pre>
 </div>
-<script>
-window.addEventListener("load", function() {
-	$.get("/api/check/0xDaa29859836D97C810c7F9D350D4A1B3E8CafC9a",function(data) {
-		data = JSON.stringify(JSON.parse(data), null, 2);
-		$("#check_loader").remove();
-		$("#check_segment").css("overflow","scroll");
-		$(".check_response").html(data);
-	});
-	$.get("/api/scams/",function(data) {
-		data = JSON.stringify(JSON.parse(data), null, 2);
-		$("#scams_loader").remove();
-		$("#scams_segment").css("overflow","scroll");
-		$(".scams_response").html(data);
-	});
-	$.get("/api/addresses/",function(data) {
-		data = JSON.stringify(JSON.parse(data), null, 2);
-		$("#addresses_loader").remove();
-		$("#addresses_segment").css("overflow","scroll");
-		$(".addresses_response").html(data);
-	});
-	$.get("/api/ips/",function(data) {
-		data = JSON.stringify(JSON.parse(data), null, 2);
-		$("#ips_loader").remove();
-		$("#ips_segment").css("overflow","scroll");
-		$(".ips_response").html(data);
-	});
-	$.get("/api/verified/",function(data) {
-		data = JSON.stringify(JSON.parse(data), null, 2);
-		$("#verified_loader").remove();
-		$("#verified_segment").css("overflow","scroll");
-		$(".verified_response").html(data);
-	});
-	$.get("/api/blacklist/",function(data) {
-		data = JSON.stringify(JSON.parse(data), null, 2);
-		$("#blacklist_loader").remove();
-		$("#blacklist_segment").css("overflow","scroll");
-		$(".blacklist_response").html(data);
-	});
-	$.get("/api/whitelist/",function(data) {
-		data = JSON.stringify(JSON.parse(data), null, 2);
-		$("#whitelist_loader").remove();
-		$("#whitelist_segment").css("overflow","scroll");
-		$(".whitelist_response").html(data);
-	});
-	$.get("/api/abusereport/changellyli.com",function(data) {
-		data = JSON.stringify(JSON.parse(data), null, 2);
-		$("#abusereport_loader").remove();
-		$("#abusereport_segment").css("overflow","scroll");
-		$(".abusereport_response").html(data);
-	});
-});
-</script>
+<script src="/js/api.js"></script>
