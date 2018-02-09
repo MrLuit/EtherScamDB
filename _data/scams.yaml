@@ -18346,3 +18346,10 @@
     description: 'Fake Adhive crowdsale site'
     addresses:
       - '0x74104E8C7F546C7398d198F6678310cE9D1b8814' 
+-
+    id: 2815
+    name: https://trx.foundation
+    url: 'https://trx.foundation'
+    category: Phishing
+    subcategory: Tron
+    description: 'Fake tron airdrop site, phishing for private keys'
