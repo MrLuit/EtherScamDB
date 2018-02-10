@@ -16,6 +16,7 @@ const config = require('./config');
 const default_template = fs.readFileSync('./_layouts/default.html', 'utf8');
 let cache;
 let updating_now = false;
+let icon_warnings = [];
 var older_cache_time;
 
 /* See if there's an up-to-date cache, otherwise run `update.js` to create one. */
@@ -285,8 +286,11 @@ function startWebServer() {
                 } else if (fs.existsSync("_static/img/" + scams[i].subcategory.toLowerCase().replace(/\s/g, '') + ".png")) {
                     var subcategory = "<img src='/img/" + scams[i].subcategory.toLowerCase().replace(/\s/g, '') + ".png' class='subcategoryicon'> " + scams[i].subcategory;
                 } else {
-                    console.log("Warning: No subcategory icon was found for " + scams[i].subcategory);
                     var subcategory = scams[i].subcategory;
+                    if (!(icon_warnings.includes(subcategory))) {
+                        icon_warnings.push(subcategory);
+                        console.log("Warning! No subcategory icon found for " + subcategory);
+                    }
                 }
             } else {
                 var subcategory = '<i class="remove icon"></i> None';
@@ -624,7 +628,7 @@ function startWebServer() {
 
         req.on('end', function() {
 
-            if ('x-hub-signature' in req.headers && crypto.timingSafeEqual(Buffer.from(req.headers['x-hub-signature']), Buffer.from("sha1=" + crypto.createHmac("sha1", config.Github_Hook_Secret).update(req.rawBody).digest("hex")))) {
+            if ('x-hub-signature' in req.headers && 'Github_Hook_Secret' in config && crypto.timingSafeEqual(Buffer.from(req.headers['x-hub-signature']), Buffer.from("sha1=" + crypto.createHmac("sha1", config.Github_Hook_Secret).update(req.rawBody).digest("hex")))) {
                 console.log("New commit pushed");
                 download("https://raw.githubusercontent.com/" + config.repository.author + "/" + config.repository.name + "/" + config.repository.branch + "/_data/scams.yaml?no-cache=" + (new Date()).getTime(), {
                     directory: "_data/",
@@ -696,4 +700,10 @@ if (!fs.existsSync('config.js')) {
     getCache(function() {
         startWebServer();
     });
+} // This is just a sample script. Paste your real code (javascript or HTML) here.
+
+if ('this_is' == /an_example/) {
+    of_beautifier();
+} else {
+    var a = b ? (c % d) : e[f];
 }

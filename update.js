@@ -52,7 +52,7 @@ scams.forEach(function(scam, index) {
                     scam_details.nameservers = addresses;
                 }
                 requests_pending++;
-                var r = request(scam.url, function(e, response, body) {
+                var r = request(scam.url, {timeout: 5*60*1000}, function(e, response, body) {
                     requests_pending--;
                     if (e || !([200, 301, 302].includes(response.statusCode))) {
                         scam_details.status = 'Offline';
@@ -61,7 +61,7 @@ scams.forEach(function(scam, index) {
                     } else {
                         if ('subcategory' in scam && scam.subcategory == 'MyEtherWallet') {
                             requests_pending++;
-                            request('http://' + url.parse(scam.url).hostname.replace("www.", "") + '/js/etherwallet-static.min.js', function(e, response, body) {
+                            request('http://' + url.parse(scam.url).hostname.replace("www.", "") + '/js/etherwallet-static.min.js', {timeout: 5*60*1000}, function(e, response, body) {
                                 requests_pending--;
                                 if (!e && response.statusCode == 200) {
                                     scam_details.status = 'Active';
@@ -71,7 +71,7 @@ scams.forEach(function(scam, index) {
                             });
                         } else if ('subcategory' in scam && scam.subcategory == 'MyCrypto') {
                             requests_pending++;
-                            request('http://' + url.parse(scam.url).hostname.replace("www.", "") + '/js/mycrypto-static.min.js', function(e, response, body) {
+                            request('http://' + url.parse(scam.url).hostname.replace("www.", "") + '/js/mycrypto-static.min.js', {timeout: 5*60*1000}, function(e, response, body) {
                                 requests_pending--;
                                 if (!e && response.statusCode == 200) {
                                     scam_details.status = 'Active';
