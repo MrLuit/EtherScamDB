@@ -18353,3 +18353,12 @@
     category: Phishing
     subcategory: Tron
     description: 'Fake tron airdrop site, phishing for private keys'
+-
+    id: 2816
+    name: https://globitexico.online/
+    url: 'https://globitexico.online/'
+    category: Phishing
+    subcategory: Globitex
+    description: 'Fake Globitex crowdsale site'
+    addresses:
+      - '0x16b9c4333559256CA7D87B28C6fb2e8415b4711f' 
