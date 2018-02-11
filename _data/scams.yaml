@@ -18353,3 +18353,10 @@
     category: Phishing
     subcategory: Tron
     description: 'Fake tron airdrop site, phishing for private keys'
+-
+    id: 2816
+    name: https://fusion.tokencrowdsale.online
+    url: 'https://fusion.tokencrowdsale.online'
+    category: Phishing
+    subcategory: Fusion
+    description: 'Fake Fusion crowdsale site'
