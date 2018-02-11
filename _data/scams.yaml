@@ -18385,3 +18385,12 @@
     description: 'Fake Globitex crowdsale site'
     addresses:
       - '0x16b9c4333559256CA7D87B28C6fb2e8415b4711f' 
+-
+    id: 2820
+    name: https://nucleus-vision.cc
+    url: 'https://nucleus-vision.cc'
+    category: Phishing
+    subcategory: Nucleus
+    description: 'Fake Nucleus crowdsale site'
+    addresses:
+      - '0x89E5124B5162A0CEEc512e8bA97Cd5E6F065fd13' 
