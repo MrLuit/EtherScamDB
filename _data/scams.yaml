@@ -18410,3 +18410,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'
+-
+    id: 2823
+    name: https://xn--yethewalle-to2exkhi.com
+    url: 'https://xn--yethewalle-to2exkhi.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
