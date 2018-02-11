@@ -18360,3 +18360,12 @@
     category: Phishing
     subcategory: Fusion
     description: 'Fake Fusion crowdsale site'
+-
+    id: 2817
+    name: https://originprotocol.io
+    url: 'https://originprotocol.io'
+    category: Phishing
+    subcategory: Origin
+    description: 'Fake Origin crowdsale site'
+    addresses:
+      - '0x4c569022016eBa68EA10DEE702670dc82d2749af'
