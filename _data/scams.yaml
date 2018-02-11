@@ -18394,3 +18394,12 @@
     description: 'Fake Nucleus crowdsale site'
     addresses:
       - '0x89E5124B5162A0CEEc512e8bA97Cd5E6F065fd13' 
+-
+    id: 2821
+    name: https://sale-earn.com
+    url: 'https://sale-earn.com'
+    category: Phishing
+    subcategory: Earn
+    description: 'Fake Earn crowdsale site'
+    addresses:
+      - '0x9e009c57b36aC7e3382697b4c9d3E7092A1CDb42' 
