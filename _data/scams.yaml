@@ -18369,3 +18369,10 @@
     description: 'Fake Origin crowdsale site'
     addresses:
       - '0x4c569022016eBa68EA10DEE702670dc82d2749af'
+-
+    id: 2818
+    name: https://bankera.live
+    url: 'https://bankera.live'
+    category: Phishing
+    subcategory: Bankera
+    description: 'Fake Bankera crowdsale site'
