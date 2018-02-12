@@ -18394,3 +18394,12 @@
     description: 'Fake Nucleus crowdsale site'
     addresses:
       - '0x89E5124B5162A0CEEc512e8bA97Cd5E6F065fd13' 
+ -
+    id: 2820
+    name: https://remme.live
+    url: 'https://remme.live'
+    category: Phishing
+    subcategory: Remme
+    description: 'Fake Remme crowdsale site'
+    addresses:
+      - '0xE41031233301370491d47477E1171daB212d5352'  
