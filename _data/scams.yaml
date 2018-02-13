@@ -18417,3 +18417,24 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'
+-
+    id: 2824
+    name: http://nyeitthervvallet.com
+    url: 'http://nyeitthervvallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2825
+    name: https://xn--myeerhwailet-ooc.com
+    url: 'https://xn--myeerhwailet-ooc.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2826
+    name: https://myeterhwaliot.com
+    url: 'https://myeterhwaliot.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
