@@ -18470,3 +18470,12 @@
     category: Phishing
     subcategory: Jibrel
     description: 'Fake Jibrel airdrop phishing for private keys'
+-
+    id: 2831
+    name: https://nucleus-vision.cc
+    url: 'https://nucleus-vision.cc'
+    category: Phishing
+    subcategory: Nucleus
+    description: 'Fake Nucleus crowdsale site'
+    addresses:
+      - '0x89E5124B5162A0CEEc512e8bA97Cd5E6F065fd13' 
