@@ -18504,3 +18504,12 @@
     category: Phishing
     subcategory: Gonetwork
     description: 'Suspicious domain for a Gonetwork crowdsale site'
+-
+    id: 2835
+    name: https://remme-ico.eu
+    url: 'https://remme-ico.eu'
+    category: Phishing
+    subcategory: Remme
+    description: 'Fake Remme crowdsale site'
+    addresses:
+      - '0x89E5124B5162A0CEEc512e8bA97Cd5E6F065fd13' 
