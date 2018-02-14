@@ -18543,3 +18543,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW - IDN homograph attack'
+-
+    id: 2840
+    name: https://xn--myethrwalle-jb9e19a.com
+    url: 'https://xn--myethrwalle-jb9e19a.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW - IDN homograph attack'
