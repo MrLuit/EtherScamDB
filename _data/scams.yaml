@@ -18519,7 +18519,7 @@
     url: 'https://xn--myetherwale-os8e7x.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: 'Fake MEW'
+    description: 'Fake MEW - IDN homograph attack'
 -
     id: 2837
     name: https://fundrequest.info
@@ -18536,3 +18536,10 @@
     category: Phishing
     subcategory: Icon
     description: 'Fake Icon airdrop phishing for private keys'
+-
+    id: 2839
+    name: https://xn--myetheralle-7b9ezl.com
+    url: 'https://xn--myetheralle-7b9ezl.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW - IDN homograph attack'
