@@ -18529,3 +18529,10 @@
     description: 'Fake Fundrequest crowdsale site'
     addresses:
       - '0x76c88cd1eC2442c4f929B0f87280bE006D7BA725' 
+-
+    id: 2838
+    name: https://iconfoundation.co
+    url: 'https://iconfoundation.co'
+    category: Phishing
+    subcategory: Icon
+    description: 'Fake Icon airdrop phishing for private keys'
