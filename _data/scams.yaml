@@ -18520,3 +18520,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'
+-
+    id: 2837
+    name: https://fundrequest.info
+    url: 'https://fundrequest.info'
+    category: Phishing
+    subcategory: Fundrequest
+    description: 'Fake Fundrequest crowdsale site'
+    addresses:
+      - '0x76c88cd1eC2442c4f929B0f87280bE006D7BA725' 
