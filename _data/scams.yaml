@@ -18497,3 +18497,10 @@
     description: 'Fake Gonetwork crowdsale site'
     addresses:
       - '0x4BDE78EaD56A30055D33Bf84f52E420b0f6070Ba' 
+-
+    id: 2834
+    name: https://gonetwork.live
+    url: 'https://gonetwork.live'
+    category: Phishing
+    subcategory: Gonetwork
+    description: 'Suspicious domain for a Gonetwork crowdsale site'
