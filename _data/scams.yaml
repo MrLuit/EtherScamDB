@@ -18463,3 +18463,10 @@
     description: 'Fake Dock crowdsale site'
     addresses:
       - '0x602026bD56bF9Ca9D86926669e4353035aCA2A88' 
+-
+    id: 2830
+    name: https://jibreltoken.in
+    url: 'https://jibreltoken.in'
+    category: Phishing
+    subcategory: Jibrel
+    description: 'Fake Jibrel airdrop phishing for private keys'
