@@ -18454,3 +18454,12 @@
     description: 'Fake Dock crowdsale site'
     addresses:
       - '0x0AF16719353EddC122eAf834638406c499197860'    
+-
+    id: 2829
+    name: https://dock.so
+    url: 'https://dock.so'
+    category: Phishing
+    subcategory: Dock
+    description: 'Fake Dock crowdsale site'
+    addresses:
+      - '0x602026bD56bF9Ca9D86926669e4353035aCA2A88' 
