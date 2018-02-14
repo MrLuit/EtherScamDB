@@ -18479,3 +18479,12 @@
     description: 'Fake Nucleus crowdsale site'
     addresses:
       - '0x89E5124B5162A0CEEc512e8bA97Cd5E6F065fd13' 
+-
+    id: 2832
+    name: https://gonetwork.eu
+    url: 'https://gonetwork.eu'
+    category: Phishing
+    subcategory: Gonetwork
+    description: 'Fake Gonetwork crowdsale site'
+    addresses:
+      - '0x629b2Aa7FddA8f7527d6f8ea742c1d5774E567EA' 
