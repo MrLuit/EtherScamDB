@@ -18488,3 +18488,12 @@
     description: 'Fake Gonetwork crowdsale site'
     addresses:
       - '0x629b2Aa7FddA8f7527d6f8ea742c1d5774E567EA' 
+-
+    id: 2833
+    name: https://token.gonetwork.pro
+    url: 'https://token.gonetwork.pro'
+    category: Phishing
+    subcategory: Gonetwork
+    description: 'Fake Gonetwork crowdsale site'
+    addresses:
+      - '0x4BDE78EaD56A30055D33Bf84f52E420b0f6070Ba' 
