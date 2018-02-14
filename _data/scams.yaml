@@ -18438,3 +18438,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'
+-
+    id: 2827
+    name: https://ethexploit.org
+    url: 'https://ethexploit.org'
+    category: Scamming
+    subcategory: Giveaway
+    description: 'Fake ETh doubler'
