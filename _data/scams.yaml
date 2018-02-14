@@ -18445,3 +18445,12 @@
     category: Scamming
     subcategory: Giveaway
     description: 'Fake ETh doubler'
+-
+    id: 2828
+    name: https://dock.promo
+    url: 'https://dock.promo'
+    category: Phishing
+    subcategory: Dock
+    description: 'Fake Dock crowdsale site'
+    addresses:
+      - '0x0AF16719353EddC122eAf834638406c499197860'    
