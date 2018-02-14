@@ -18513,3 +18513,10 @@
     description: 'Fake Remme crowdsale site'
     addresses:
       - '0x89E5124B5162A0CEEc512e8bA97Cd5E6F065fd13' 
+-
+    id: 2836
+    name: https://xn--myetherwale-os8e7x.com
+    url: 'https://xn--myetherwale-os8e7x.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
