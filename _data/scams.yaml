@@ -18470,3 +18470,69 @@
     category: Phishing
     subcategory: Jibrel
     description: 'Fake Jibrel airdrop phishing for private keys'
+-
+    id: 2831
+    name: https://nucleus-vision.cc
+    url: 'https://nucleus-vision.cc'
+    category: Phishing
+    subcategory: Nucleus
+    description: 'Fake Nucleus crowdsale site'
+    addresses:
+      - '0x89E5124B5162A0CEEc512e8bA97Cd5E6F065fd13' 
+-
+    id: 2832
+    name: https://gonetwork.eu
+    url: 'https://gonetwork.eu'
+    category: Phishing
+    subcategory: Gonetwork
+    description: 'Fake Gonetwork crowdsale site'
+    addresses:
+      - '0x629b2Aa7FddA8f7527d6f8ea742c1d5774E567EA' 
+-
+    id: 2833
+    name: https://token.gonetwork.pro
+    url: 'https://token.gonetwork.pro'
+    category: Phishing
+    subcategory: Gonetwork
+    description: 'Fake Gonetwork crowdsale site'
+    addresses:
+      - '0x4BDE78EaD56A30055D33Bf84f52E420b0f6070Ba' 
+-
+    id: 2834
+    name: https://gonetwork.live
+    url: 'https://gonetwork.live'
+    category: Phishing
+    subcategory: Gonetwork
+    description: 'Suspicious domain for a Gonetwork crowdsale site'
+-
+    id: 2835
+    name: https://remme-ico.eu
+    url: 'https://remme-ico.eu'
+    category: Phishing
+    subcategory: Remme
+    description: 'Fake Remme crowdsale site'
+    addresses:
+      - '0x89E5124B5162A0CEEc512e8bA97Cd5E6F065fd13' 
+-
+    id: 2836
+    name: https://xn--myetherwale-os8e7x.com
+    url: 'https://xn--myetherwale-os8e7x.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2837
+    name: https://fundrequest.info
+    url: 'https://fundrequest.info'
+    category: Phishing
+    subcategory: Fundrequest
+    description: 'Fake Fundrequest crowdsale site'
+    addresses:
+      - '0x76c88cd1eC2442c4f929B0f87280bE006D7BA725' 
+-
+    id: 2838
+    name: https://iconfoundation.co
+    url: 'https://iconfoundation.co'
+    category: Phishing
+    subcategory: Icon
+    description: 'Fake Icon airdrop phishing for private keys'
