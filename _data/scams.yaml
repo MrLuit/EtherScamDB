@@ -18568,3 +18568,31 @@
     description: 'Fake Remme crowdsale site'
     addresses:
       - '0xE41031233301370491d47477E1171daB212d5352
+-
+    id: 2843
+    name: https://vechain-foundation.com
+    url: 'https://vechain-foundation.com'
+    category: Phishing
+    subcategory: Vechain
+    description: 'Fake Vechain airdrop phishing for private keys'
+-
+    id: 2844
+    name: https://nebulastoken.in
+    url: 'https://nebulastoken.in'
+    category: Phishing
+    subcategory: Nebulas
+    description: 'Fake Nebulas airdrop phishing for private keys'
+-
+    id: 2845
+    name: https://waxtoken.in
+    url: 'https://waxtoken.in'
+    category: Phishing
+    subcategory: Wax
+    description: 'Fake Wax airdrop phishing for private keys'
+-
+    id: 2846
+    name: https://rightmesh.in
+    url: 'https://rightmesh.in'
+    category: Phishing
+    subcategory: Rightmesh
+    description: 'Fake Rightmesh crowdsale site, getting you to email your contribution for a deposit address'
