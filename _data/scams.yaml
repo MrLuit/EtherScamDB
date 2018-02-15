@@ -18394,12 +18394,177 @@
     description: 'Fake Nucleus crowdsale site'
     addresses:
       - '0x89E5124B5162A0CEEc512e8bA97Cd5E6F065fd13' 
- -
-    id: 2820
+-
+    id: 2821
+    name: https://sale-earn.com
+    url: 'https://sale-earn.com'
+    category: Phishing
+    subcategory: Earn
+    description: 'Fake Earn crowdsale site'
+    addresses:
+      - '0x9e009c57b36aC7e3382697b4c9d3E7092A1CDb42' 
+-
+    id: 2822
+    name: https://myetherwallet.custom-token.com
+    url: 'https://myetherwallet.custom-token.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2823
+    name: https://xn--yethewalle-to2exkhi.com
+    url: 'https://xn--yethewalle-to2exkhi.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2824
+    name: http://nyeitthervvallet.com
+    url: 'http://nyeitthervvallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2825
+    name: https://xn--myeerhwailet-ooc.com
+    url: 'https://xn--myeerhwailet-ooc.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2826
+    name: https://myeterhwaliot.com
+    url: 'https://myeterhwaliot.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2827
+    name: https://ethexploit.org
+    url: 'https://ethexploit.org'
+    category: Scamming
+    subcategory: Giveaway
+    description: 'Fake ETh doubler'
+-
+    id: 2828
+    name: https://dock.promo
+    url: 'https://dock.promo'
+    category: Phishing
+    subcategory: Dock
+    description: 'Fake Dock crowdsale site'
+    addresses:
+      - '0x0AF16719353EddC122eAf834638406c499197860'    
+-
+    id: 2829
+    name: https://dock.so
+    url: 'https://dock.so'
+    category: Phishing
+    subcategory: Dock
+    description: 'Fake Dock crowdsale site'
+    addresses:
+      - '0x602026bD56bF9Ca9D86926669e4353035aCA2A88' 
+-
+    id: 2830
+    name: https://jibreltoken.in
+    url: 'https://jibreltoken.in'
+    category: Phishing
+    subcategory: Jibrel
+    description: 'Fake Jibrel airdrop phishing for private keys'
+-
+    id: 2831
+    name: https://nucleus-vision.cc
+    url: 'https://nucleus-vision.cc'
+    category: Phishing
+    subcategory: Nucleus
+    description: 'Fake Nucleus crowdsale site'
+    addresses:
+      - '0x89E5124B5162A0CEEc512e8bA97Cd5E6F065fd13' 
+-
+    id: 2832
+    name: https://gonetwork.eu
+    url: 'https://gonetwork.eu'
+    category: Phishing
+    subcategory: Gonetwork
+    description: 'Fake Gonetwork crowdsale site'
+    addresses:
+      - '0x629b2Aa7FddA8f7527d6f8ea742c1d5774E567EA' 
+-
+    id: 2833
+    name: https://token.gonetwork.pro
+    url: 'https://token.gonetwork.pro'
+    category: Phishing
+    subcategory: Gonetwork
+    description: 'Fake Gonetwork crowdsale site'
+    addresses:
+      - '0x4BDE78EaD56A30055D33Bf84f52E420b0f6070Ba' 
+-
+    id: 2834
+    name: https://gonetwork.live
+    url: 'https://gonetwork.live'
+    category: Phishing
+    subcategory: Gonetwork
+    description: 'Suspicious domain for a Gonetwork crowdsale site'
+-
+    id: 2835
+    name: https://remme-ico.eu
+    url: 'https://remme-ico.eu'
+    category: Phishing
+    subcategory: Remme
+    description: 'Fake Remme crowdsale site'
+    addresses:
+      - '0x89E5124B5162A0CEEc512e8bA97Cd5E6F065fd13' 
+-
+    id: 2836
+    name: https://xn--myetherwale-os8e7x.com
+    url: 'https://xn--myetherwale-os8e7x.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW - IDN homograph attack'
+-
+    id: 2837
+    name: https://fundrequest.info
+    url: 'https://fundrequest.info'
+    category: Phishing
+    subcategory: Fundrequest
+    description: 'Fake Fundrequest crowdsale site'
+    addresses:
+      - '0x76c88cd1eC2442c4f929B0f87280bE006D7BA725' 
+-
+    id: 2838
+    name: https://iconfoundation.co
+    url: 'https://iconfoundation.co'
+    category: Phishing
+    subcategory: Icon
+    description: 'Fake Icon airdrop phishing for private keys'
+-
+    id: 2839
+    name: https://xn--myetheralle-7b9ezl.com
+    url: 'https://xn--myetheralle-7b9ezl.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW - IDN homograph attack'
+-
+    id: 2840
+    name: https://xn--myethrwalle-jb9e19a.com
+    url: 'https://xn--myethrwalle-jb9e19a.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW - IDN homograph attack'
+-
+    id: 2841
+    name: https://icotoken-current.top
+    url: 'https://icotoken-current.top'
+    category: Phishing
+    subcategory: Rightmesh
+    description: 'Fake Rightmesh crowdsale site'
+    addresses:
+      - '0x169b6c7Ed548e45bA9D87B2D32ff27e2D00051Ef' 
+-
+    id: 2842
     name: https://remme.live
     url: 'https://remme.live'
     category: Phishing
     subcategory: Remme
     description: 'Fake Remme crowdsale site'
     addresses:
-      - '0xE41031233301370491d47477E1171daB212d5352'  
+      - '0xE41031233301370491d47477E1171daB212d5352
