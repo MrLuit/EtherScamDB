@@ -18589,3 +18589,10 @@
     category: Phishing
     subcategory: Wax
     description: 'Fake Wax airdrop phishing for private keys'
+-
+    id: 2846
+    name: https://rightmesh.in
+    url: 'https://rightmesh.in'
+    category: Phishing
+    subcategory: Rightmesh
+    description: 'Fake Rightmesh crowdsale site, getting you to email your contribution for a deposit address'
