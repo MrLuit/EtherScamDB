@@ -18596,3 +18596,10 @@
     category: Phishing
     subcategory: Rightmesh
     description: 'Fake Rightmesh crowdsale site, getting you to email your contribution for a deposit address'
+-
+    id: 2847
+    name: https://openplatform.tech
+    url: 'https://openplatform.tech'
+    category: Phishing
+    subcategory: Open
+    description: 'Fake Open airdrop phishing for private keys'
