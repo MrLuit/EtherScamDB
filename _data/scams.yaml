@@ -18575,3 +18575,10 @@
     category: Phishing
     subcategory: Vechain
     description: 'Fake Vechain airdrop phishing for private keys'
+-
+    id: 2844
+    name: https://nebulastoken.in
+    url: 'https://nebulastoken.in'
+    category: Phishing
+    subcategory: Nebulas
+    description: 'Fake Nebulas airdrop phishing for private keys'
