@@ -18550,3 +18550,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW - IDN homograph attack'
+-
+    id: 2841
+    name: https://icotoken-current.top
+    url: 'https://icotoken-current.top'
+    category: Phishing
+    subcategory: Rightmesh
+    description: 'Fake Rightmesh crowdsale site'
+    addresses:
+      - '0x169b6c7Ed548e45bA9D87B2D32ff27e2D00051Ef' 
