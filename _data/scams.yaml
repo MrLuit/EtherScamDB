@@ -18582,3 +18582,10 @@
     category: Phishing
     subcategory: Nebulas
     description: 'Fake Nebulas airdrop phishing for private keys'
+-
+    id: 2845
+    name: https://waxtoken.in
+    url: 'https://waxtoken.in'
+    category: Phishing
+    subcategory: Wax
+    description: 'Fake Wax airdrop phishing for private keys'
