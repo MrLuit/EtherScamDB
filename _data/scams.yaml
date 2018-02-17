@@ -18603,3 +18603,10 @@
     category: Phishing
     subcategory: Open
     description: 'Fake Open airdrop phishing for private keys'
+-
+    id: 2848
+    name: https://metamaskgiveaway.xyz
+    url: 'https://metamaskgiveaway.xyz'
+    category: Phishing
+    subcategory: Metamask
+    description: 'Fake giveaway phishing for seed phrases'
