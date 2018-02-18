@@ -18696,3 +18696,33 @@
     category: Phishing
     subcategory: Dock
     description: 'Fake Dock site'
+-
+    id: 2859
+    name: https://xn--es-8bb.com
+    url: 'https://xn--es-8bb.com'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS airdrop site - linking to xn--myetherallt-pl9elw.com'
+-
+    id: 2860
+    name: https://xn--myetherallt-pl9elw.com
+    url: 'https://xn--myetherallt-pl9elw.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW - IDN homograph attack'    
+-
+    id: 2861
+    name: https://telcoin.pro
+    url: 'https://telcoin.pro'
+    category: Phishing
+    subcategory: Telcoin
+    description: 'Fake TEL airdrop phishing for private keys'  
+-
+    id: 2862
+    name: https://finetrux.com
+    url: 'https://finetrux.com'
+    category: Phishing
+    subcategory: Fintrux
+    description: 'Fake Fintrux crowdsale site'
+    addresses:
+      - '0xc7612D3EC1391081dab37504C19B2dd8E80e0192'
