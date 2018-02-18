@@ -18724,3 +18724,28 @@
     category: Phishing
     subcategory: Fintrux
     description: 'Fake Fintrux crowdsale site'
+    addresses:
+      - '0xcCdf72DE615b5158BB37931BbCE645aa69221520'
+-
+    id: 2863
+    name: https://fin-trux.com
+    url: 'https://fin-trux.com'
+    category: Phishing
+    subcategory: Fintrux
+    description: 'Fake Fintrux crowdsale site'
+    addresses:
+      - '0xcCdf72DE615b5158BB37931BbCE645aa69221520'
+-
+    id: 2864
+    name: https://myeithereiuwallet.com
+    url: 'https://myeithereiuwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
+-
+    id: 2865
+    name: https://myetlherewallet.org 
+    url: 'https://myetlherewallet.org '
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
