@@ -18717,3 +18717,12 @@
     category: Phishing
     subcategory: Telcoin
     description: 'Fake TEL airdrop phishing for private keys'  
+-
+    id: 2862
+    name: https://finetrux.com
+    url: 'https://finetrux.com'
+    category: Phishing
+    subcategory: Fintrux
+    description: 'Fake Fintrux crowdsale site'
+    addresses:
+      - '0xc7612D3EC1391081dab37504C19B2dd8E80e0192'
