@@ -18745,7 +18745,14 @@
 -
     id: 2865
     name: https://myetlherewallet.org 
-    url: 'https://myetlherewallet.org '
+    url: 'https://myetlherewallet.org'
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'
+-
+    id: 2866
+    name: https://xn--polonx-0va26t.com 
+    url: 'https://xn--polonx-0va26t.com'
+    category: Phishing
+    subcategory: Poloniex
+    description: 'Fake Poloniex'
