@@ -18742,3 +18742,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'
+-
+    id: 2865
+    name: https://myetlherewallet.org 
+    url: 'https://myetlherewallet.org '
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
