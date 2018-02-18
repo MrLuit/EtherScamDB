@@ -18756,3 +18756,10 @@
     category: Phishing
     subcategory: Poloniex
     description: 'Fake Poloniex'
+-
+    id: 2867
+    name: https://jiocoins.io
+    url: 'https://jiocoins.io'
+    category: Scamming
+    subcategory: ICO
+    description: 'An ICO but no team members know about the company - https://twitter.com/MayeeRama/status/965219691152183301'
