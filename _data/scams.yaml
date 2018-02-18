@@ -18710,3 +18710,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW - IDN homograph attack'    
+-
+    id: 2861
+    name: https://telcoin.pro
+    url: 'https://telcoin.pro'
+    category: Phishing
+    subcategory: Telcoin
+    description: 'Fake TEL airdrop phishing for private keys'  
