@@ -18724,5 +18724,3 @@
     category: Phishing
     subcategory: Fintrux
     description: 'Fake Fintrux crowdsale site'
-    addresses:
-      - '0xc7612D3EC1391081dab37504C19B2dd8E80e0192'
