@@ -18781,3 +18781,12 @@
     description: 'Fake Seele crowdsale site'
     addresses:
       - '0x4899F3371Fb9F8E68A0b639bf1FD75220A089c42'
+-
+    id: 2870
+    name: https://seele-ico.pro
+    url: 'https://seele-ico.pro'
+    category: Phishing
+    subcategory: Seele
+    description: 'Fake Seele crowdsale site'
+    addresses:
+      - '0x4bb1c210E3921E0F051ed00e898B9605c902114e'
