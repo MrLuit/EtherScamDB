@@ -18790,3 +18790,17 @@
     description: 'Fake Seele crowdsale site'
     addresses:
       - '0x4bb1c210E3921E0F051ed00e898B9605c902114e'
+-
+    id: 2871
+    name: https://xn--binnce-5nf.com 
+    url: 'https://xn--binnce-5nf.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance domain - IDN homograph attack'
+-
+    id: 2872
+    name: https://xn--biace-4l1bb.com 
+    url: 'https://xn--biace-4l1bb.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance domain - IDN homograph attack'    
