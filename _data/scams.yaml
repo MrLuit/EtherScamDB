@@ -18763,3 +18763,30 @@
     category: Scamming
     subcategory: ICO
     description: 'An ICO but no team members know about the company - https://twitter.com/MayeeRama/status/965219691152183301'
+-
+    id: 2868
+    name: https://seele.promo
+    url: 'https://seele.promo'
+    category: Phishing
+    subcategory: Seele
+    description: 'Fake Seele crowdsale site'
+    addresses:
+      - '0x4bb1c210E3921E0F051ed00e898B9605c902114e'
+-
+    id: 2869
+    name: https://seele-ico.eu
+    url: 'https://seele-ico.eu'
+    category: Phishing
+    subcategory: Seele
+    description: 'Fake Seele crowdsale site'
+    addresses:
+      - '0x4899F3371Fb9F8E68A0b639bf1FD75220A089c42'
+-
+    id: 2870
+    name: https://seele-ico.pro
+    url: 'https://seele-ico.pro'
+    category: Phishing
+    subcategory: Seele
+    description: 'Fake Seele crowdsale site'
+    addresses:
+      - '0x4bb1c210E3921E0F051ed00e898B9605c902114e'
