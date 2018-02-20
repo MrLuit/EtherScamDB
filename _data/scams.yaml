@@ -18889,3 +18889,10 @@
     category: Phishing
     subcategory: Blocklancer
     description: 'Fake Blocklancer crowdsale site. suspected address; 0x7DC66F5b59b34dF403B96FeC7E749703c157ebF8 0xcb142defC16C9B409272447D87c74B722B767f1F 0xE61dF1F5b8dd4e4E2a874157c2C97dAf7314b795'
+-
+    id: 2884
+    name: https://myethervallet.pro
+    url: 'https://myethervallet.pro'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
