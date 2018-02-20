@@ -18859,3 +18859,33 @@
     description: 'Fake Polyswarm crowdsale site'
     addresses:
       - '0x7dCfD020aD161fBD4C45894ab352582018eA9197'
+-
+    id: 2880
+    name: https://seele-token.pro
+    url: 'https://seele-token.pro'
+    category: Phishing
+    subcategory: Seele
+    description: 'Fake Seele crowdsale site'
+    addresses:
+      - '0x0b591a58137f154F59Aea1284166d6A7b49821Fd'
+-
+    id: 2881
+    name: https://myetherzero.com
+    url: 'https://myetherzero.com'
+    category: Phishing
+    subcategory: Wallets
+    description: 'Online wallet phishing for recovery phrases'
+-
+    id: 2882
+    name: https://tokentelegram.com
+    url: 'https://tokentelegram.com'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site. Harvesting emails or phishing for logins'
+-
+    id: 2883
+    name: https://blocklancer.me
+    url: 'https://blocklancer.me'
+    category: Phishing
+    subcategory: Blocklancer
+    description: 'Fake Blocklancer crowdsale site. suspected address; 0x7DC66F5b59b34dF403B96FeC7E749703c157ebF8 0xcb142defC16C9B409272447D87c74B722B767f1F 0xE61dF1F5b8dd4e4E2a874157c2C97dAf7314b795'
