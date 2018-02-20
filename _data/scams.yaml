@@ -18818,3 +18818,10 @@
     category: Phishing
     subcategory: Forkdelta
     description: 'Fake ForkDelta phishing for private keys'   
+-
+    id: 2875
+    name: https://ton.fund 
+    url: 'https://ton.fund'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site - suspected address 0x9a4a8d9133a7d7401904d72789b1a925b20499ca'  
