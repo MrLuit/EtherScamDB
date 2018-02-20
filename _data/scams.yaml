@@ -18804,3 +18804,10 @@
     category: Phishing
     subcategory: Binance
     description: 'Fake Binance domain - IDN homograph attack'    
+-
+    id: 2873
+    name: https://syncfab.tech 
+    url: 'https://syncfab.tech'
+    category: Phishing
+    subcategory: Syncfab
+    description: 'Fake Syncfab domain - currently redirecting to the legit domain, but can be used for phishing'    
