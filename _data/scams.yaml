@@ -18875,3 +18875,10 @@
     category: Phishing
     subcategory: Wallets
     description: 'Online wallet phishing for recovery phrases'
+-
+    id: 2882
+    name: https://tokentelegram.com
+    url: 'https://tokentelegram.com'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site. Harvesting emails or phishing for logins'
