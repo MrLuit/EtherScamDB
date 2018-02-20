@@ -18903,3 +18903,12 @@
     category: Phishing
     subcategory: Dock
     description: 'Fake Dock site'
+-
+    id: 2886
+    name: https://dock-io.org
+    url: 'https://dock-io.org'
+    category: Phishing
+    subcategory: Dock
+    description: 'Fake Dock crowdsale site'
+    addresses:
+      - '0xEc970BbF167beee6fb536f1839418f3D19cE2a69'    
