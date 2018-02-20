@@ -18896,3 +18896,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'
+-
+    id: 2885
+    name: https://dock.network
+    url: 'https://dock.network'
+    category: Phishing
+    subcategory: Dock
+    description: 'Fake Dock site'
