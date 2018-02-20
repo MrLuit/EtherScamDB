@@ -18834,3 +18834,10 @@
     description: 'Fake Polyswarm crowdsale site'
     addresses:
       - '0xe88379631857c0d8174EFEfDf8DCA25b29610f08'
+-
+    id: 2878
+    name: https://polyswarm.co
+    url: 'https://polyswarm.co'
+    category: Phishing
+    subcategory: Polyswarm
+    description: 'Fake Polyswarm crowdsale site'
