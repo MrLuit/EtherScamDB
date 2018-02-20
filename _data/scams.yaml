@@ -18841,3 +18841,12 @@
     category: Phishing
     subcategory: Polyswarm
     description: 'Fake Polyswarm crowdsale site'
+-
+    id: 2878
+    name: https://sale-dock.com
+    url: 'https://sale-dock.com'
+    category: Phishing
+    subcategory: Dock
+    description: 'Fake Dock crowdsale site'
+    addresses:
+      - '0x7ba85E2e55c7598378Fe927aD2Aef2DAc6c45218'
