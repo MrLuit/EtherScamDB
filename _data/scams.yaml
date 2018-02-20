@@ -18811,3 +18811,10 @@
     category: Phishing
     subcategory: Syncfab
     description: 'Fake Syncfab domain - currently redirecting to the legit domain, but can be used for phishing'    
+-
+    id: 2874
+    name: https://forkdeita.github.io 
+    url: 'https://forkdeita.github.io'
+    category: Phishing
+    subcategory: Forkdelta
+    description: 'Fake ForkDelta phishing for private keys'   
