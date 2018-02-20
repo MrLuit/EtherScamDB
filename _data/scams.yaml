@@ -18825,3 +18825,19 @@
     category: Phishing
     subcategory: Telegram
     description: 'Fake Telegram crowdsale site - suspected address 0x9a4a8d9133a7d7401904d72789b1a925b20499ca'  
+-
+    id: 2876
+    name: https://polyswarm.bid
+    url: 'https://polyswarm.bid'
+    category: Phishing
+    subcategory: Polyswarm
+    description: 'Fake Polyswarm crowdsale site'
+    addresses:
+      - '0xe88379631857c0d8174EFEfDf8DCA25b29610f08'
+-
+    id: 2877
+    name: https://polyswarm.co
+    url: 'https://polyswarm.co'
+    category: Phishing
+    subcategory: Polyswarm
+    description: 'Fake Polyswarm crowdsale site'
