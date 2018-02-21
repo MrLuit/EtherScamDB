@@ -18912,3 +18912,12 @@
     description: 'Fake Dock crowdsale site'
     addresses:
       - '0xEc970BbF167beee6fb536f1839418f3D19cE2a69'    
+-
+    id: 2887
+    name: https://polyswarm.pw
+    url: 'https://polyswarm.pw'
+    category: Phishing
+    subcategory: Polyswarm
+    description: 'Fake Polyswarm crowdsale site'
+    addresses:
+      - '0x247733aF8B2BB8e63e3a2A419761c0fd71D40499'  
