@@ -18964,3 +18964,10 @@
     description: 'Fake Dfinity crowdsale site'
     addresses:
       - '0xf4710562c804087AF20b7396Ce7CbA38B43fB61F'
+-
+    id: 2893
+    name: https://tron-foundation.org
+    url: 'https://tron-foundation.org'
+    category: Phishing
+    subcategory: Tron
+    description: 'Fake Tron airdrop site phishing for private keys'
