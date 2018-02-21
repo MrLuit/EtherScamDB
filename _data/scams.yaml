@@ -18989,3 +18989,10 @@
     description: 'Fake Orchid crowdsale site'
     addresses:
       - '0x79A9e902cFbE87fa5065905293992C15dE7F6095'
+-
+    id: 2896
+    name: https://xn--yeterwallet-bm8eym.com
+    url: 'https://xn--yeterwallet-bm8eym.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW - IDN homograph attack'
