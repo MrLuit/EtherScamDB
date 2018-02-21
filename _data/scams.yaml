@@ -18921,3 +18921,12 @@
     description: 'Fake Polyswarm crowdsale site'
     addresses:
       - '0x247733aF8B2BB8e63e3a2A419761c0fd71D40499'  
+-
+    id: 2888
+    name: https://dock.click
+    url: 'https://dock.click'
+    category: Phishing
+    subcategory: Dock
+    description: 'Fake Dock crowdsale site'
+    addresses:
+      - '0x9CdfC5b0ACA4527a0916412E9dbD6AD85556A49'
