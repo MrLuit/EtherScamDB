@@ -18971,3 +18971,12 @@
     category: Phishing
     subcategory: Tron
     description: 'Fake Tron airdrop site phishing for private keys'
+-
+    id: 2894
+    name: https://electrify-asia.info
+    url: 'https://electrify-asia.info'
+    category: Phishing
+    subcategory: ElectrifyAsia
+    description: 'Fake ElectrifyAsia crowdsale site'
+    addresses:
+      - '0x71B7767A9464ea1AD82DB434F06d9330d34a9fE5'
