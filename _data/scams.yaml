@@ -18955,3 +18955,12 @@
     description: 'Fake Polyswarm crowdsale site'
     addresses:
       - '0x570AC27D1048dCBA1a4c58FE80109b9cf9b0e2Ef'
+-
+    id: 2892
+    name: https://dflnlty.org
+    url: 'https://dflnlty.org'
+    category: Phishing
+    subcategory: Dfinity
+    description: 'Fake Dfinity crowdsale site'
+    addresses:
+      - '0xf4710562c804087AF20b7396Ce7CbA38B43fB61F'
