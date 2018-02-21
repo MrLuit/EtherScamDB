@@ -18939,3 +18939,10 @@
     description: 'Fake Dock crowdsale site'
     addresses:
       - '0x4899F3371Fb9F8E68A0b639bf1FD75220A089c42'
+-
+    id: 2890
+    name: https://polyswarm.ru
+    url: 'https://polyswarm.ru'
+    category: Phishing
+    subcategory: Polyswarm
+    description: 'Fake polyswarm domain'
