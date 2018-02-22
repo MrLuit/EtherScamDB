@@ -19005,3 +19005,17 @@
     description: 'Fake Petro crowdsale site'
     addresses:
       - '0xE977419eF28e71Ed541fF6318cEA9a6392709a48'
+-
+    id: 2898
+    name: https://xn--myethewalle-w48erh.com
+    url: 'https://xn--myethewalle-w48erh.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW - IDN homograph attack'
+-
+    id: 2899
+    name: https://myetherwallett.site
+    url: 'https://myetherwallett.site'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
