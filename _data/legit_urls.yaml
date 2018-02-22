@@ -352,3 +352,7 @@
     id: 81
     name: Remme
     url: 'https://remme.io'
+-
+    id: 82
+    name: MyEtherWallet
+    url: 'https://www.myetherwallet.com'
