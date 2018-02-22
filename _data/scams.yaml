@@ -18996,3 +18996,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW - IDN homograph attack'
+-
+    id: 2897
+    name: https://el-petro-coin.com
+    url: 'https://el-petro-coin.com'
+    category: Phishing
+    subcategory: Petro
+    description: 'Fake Petro crowdsale site'
+    addresses:
+      - '0xE977419eF28e71Ed541fF6318cEA9a6392709a48'
