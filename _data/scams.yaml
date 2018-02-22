@@ -19012,3 +19012,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW - IDN homograph attack'
+-
+    id: 2899
+    name: https://myetherwallett.site
+    url: 'https://myetherwallett.site'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'
