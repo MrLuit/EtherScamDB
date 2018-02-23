@@ -19044,3 +19044,19 @@
     description: 'Fake Havven token sale site'
     addresses:
       - '0xD3D26c61401924939Bee67dffdb7aA7A0138844C'
+-
+    id: 2903
+    name: https://havven.live
+    url: 'https://havven.live'
+    category: Phishing
+    subcategory: Havven
+    description: 'Fake Havven token sale site'
+-
+    id: 2904
+    name: https://havven.info
+    url: 'https://havven.info'
+    category: Phishing
+    subcategory: Havven
+    description: 'Fake Havven token sale site'
+    addresses:
+      - '0xa1b70Dc70FB74767cd380985Cf93C4Fb132fC4F7 '
