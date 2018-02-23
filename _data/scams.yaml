@@ -19060,3 +19060,10 @@
     description: 'Fake Havven token sale site'
     addresses:
       - '0xa1b70Dc70FB74767cd380985Cf93C4Fb132fC4F7 '
+-
+    id: 2905
+    name: https://tokensale-havven.com
+    url: 'https://tokensale-havven.com'
+    category: Phishing
+    subcategory: Havven
+    description: 'Fake Havven token sale site'
