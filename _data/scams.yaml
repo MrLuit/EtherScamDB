@@ -19019,3 +19019,28 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'
+-
+    id: 2900
+    name: https://havven.promo
+    url: 'https://havven.promo'
+    category: Phishing
+    subcategory: Havven
+    description: 'Fake Havven token sale site'
+    addresses:
+      - '0xD3D26c61401924939Bee67dffdb7aA7A0138844C'
+-
+    id: 2901
+    name: https://havven-ico.com
+    url: 'https://havven-ico.com'
+    category: Phishing
+    subcategory: Havven
+    description: 'Fake Havven token sale site'
+-
+    id: 2902
+    name: https://havven-ico.eu
+    url: 'https://havven-ico.eu'
+    category: Phishing
+    subcategory: Havven
+    description: 'Fake Havven token sale site'
+    addresses:
+      - '0xD3D26c61401924939Bee67dffdb7aA7A0138844C'
