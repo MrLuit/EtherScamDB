@@ -19068,3 +19068,10 @@
     category: Phishing
     subcategory: Havven
     description: 'Fake Havven token sale site'
+-
+    id: 2906
+    name: https://tokensale-havven.com
+    url: 'https://tokensale-havven.com'
+    category: Phishing
+    subcategory: Havven
+    description: 'Fake Havven token sale site'    
