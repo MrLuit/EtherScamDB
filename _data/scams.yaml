@@ -19044,6 +19044,7 @@
     description: 'Fake Havven token sale site'
     addresses:
       - '0xD3D26c61401924939Bee67dffdb7aA7A0138844C'
+      - '0xB113a2c20471ff1efdf2735206C630707263F41C'
 -
     id: 2903
     name: https://havven.live
