@@ -19060,7 +19060,7 @@
     subcategory: Havven
     description: 'Fake Havven token sale site'
     addresses:
-      - '0xa1b70Dc70FB74767cd380985Cf93C4Fb132fC4F7 '
+      - '0xa1b70Dc70FB74767cd380985Cf93C4Fb132fC4F7'
 -
     id: 2905
     name: https://havven.pro
@@ -19131,3 +19131,12 @@
     category: Phishing
     subcategory: Coindesk
     description: 'Fake Coindesk domain - IDN homograph attack'
+-
+    id: 2915
+    name: https://address-transfer-confirmation.droppages.com
+    url: 'https://address-transfer-confirmation.droppages.com'
+    category: Scamming
+    subcategory: Twitter
+    description: 'Fake ETH giveaway by a SatoshiLite Twitter imposter (twitter id: 960570782152888320)'
+    addresses:
+      - '0x785a751B2E36b2B0Fdb80100B7ca14889a768A22'
