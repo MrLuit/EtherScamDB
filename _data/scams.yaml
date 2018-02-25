@@ -19089,3 +19089,10 @@
     category: Phishing
     subcategory: LocalEthereum
     description: 'Fake LocalEthereum - phishing for login details'
+-
+    id: 2909
+    name: https://myetherwallet.tokenimport.com
+    url: 'https://myetherwallet.tokenimport.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake/unofficial MyEtherWallet'
