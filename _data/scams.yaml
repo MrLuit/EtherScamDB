@@ -19124,3 +19124,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW domain - IDN homograph attack'
+-
+    id: 2914
+    name: https://xn--coindek-s73c.com
+    url: 'https://xn--coindek-s73c.com'
+    category: Phishing
+    subcategory: Coindesk
+    description: 'Fake Coindesk domain - IDN homograph attack'
