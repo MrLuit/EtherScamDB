@@ -19075,3 +19075,38 @@
     category: Phishing
     subcategory: Havven
     description: 'Fake Havven token sale site'    
+-
+    id: 2907
+    name: https://xn--myetheralle-jb9exm.com
+    url: 'https://xn--myetheralle-jb9exm.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW domain - IDN homograph attack'
+-
+    id: 2908
+    name: https://localethereom.com
+    url: 'https://localethereom.com'
+    category: Phishing
+    subcategory: LocalEthereum
+    description: 'Fake LocalEthereum - phishing for login details'
+-
+    id: 2909
+    name: https://myetherwallet.tokenimport.com
+    url: 'https://myetherwallet.tokenimport.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake/unofficial MyEtherWallet'
+-
+    id: 2910
+    name: https://locaeltherum.com
+    url: 'https://locaeltherum.com'
+    category: Phishing
+    subcategory: LocalEthereum
+    description: 'Fake LocalEthereum site'
+-
+    id: 2911
+    name: https://huobipro.com
+    url: 'https://huobipro.com'
+    category: Phishing
+    subcategory: Huobi
+    description: 'Fake Huobi site'
