@@ -19117,3 +19117,10 @@
     category: Phishing
     subcategory: Leadcoin
     description: 'Fake leadcoin tokensale site'
+-
+    id: 2913
+    name: https://xn--metherwalle-jb9ejq.com
+    url: 'https://xn--metherwalle-jb9ejq.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW domain - IDN homograph attack'
