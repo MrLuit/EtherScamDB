@@ -19103,3 +19103,10 @@
     category: Phishing
     subcategory: LocalEthereum
     description: 'Fake LocalEthereum site'
+-
+    id: 2911
+    name: https://huobipro.com
+    url: 'https://huobipro.com'
+    category: Phishing
+    subcategory: Huobi
+    description: 'Fake Huobi site'
