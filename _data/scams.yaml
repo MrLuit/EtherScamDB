@@ -19140,3 +19140,12 @@
     description: 'Fake ETH giveaway by a SatoshiLite Twitter imposter (twitter id: 960570782152888320)'
     addresses:
       - '0x785a751B2E36b2B0Fdb80100B7ca14889a768A22'
+-
+    id: 2916
+    name: https://akasha-world.com
+    url: 'https://akasha-world.com'
+    category: Scamming
+    subcategory: Akasha
+    description: 'Fake Akasha pre-sale site - https://twitter.com/AkashaProject/status/967856820579717121'
+    addresses:
+      - '0x8645eC394f7af95316639dcE6F99c01476B0d888'
