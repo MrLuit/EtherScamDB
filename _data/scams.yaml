@@ -19158,3 +19158,12 @@
     description: 'Fake ETH giveaway by a SatoshiLite Twitter imposter (twitter id: 4799304813)'
     addresses:
       - '0xaa2498d85bA7559006f90110A4Bc33c10A06c1AF'
+-
+    id: 2918
+    name: https://eth-transact.secure.droppages.com
+    url: 'https://eth-transact.secure.droppages.com'
+    category: Scamming
+    subcategory: Twitter
+    description: 'Fake ETH giveaway by a SatoshiLite Twitter imposter (twitter id: 2604889256)'
+    addresses:
+      - '0xe009321b26350c2CFF5DB607068c1f6813df40d7'
