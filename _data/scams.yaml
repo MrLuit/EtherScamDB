@@ -19149,3 +19149,12 @@
     description: 'Fake Akasha pre-sale site - https://twitter.com/AkashaProject/status/967856820579717121'
     addresses:
       - '0x8645eC394f7af95316639dcE6F99c01476B0d888'
+-
+    id: 2917
+    name: https://6khb.payment-checker-ethereum-id-bslyftexjuwcgv8.filesusr.com
+    url: 'https://6khb.payment-checker-ethereum-id-bslyftexjuwcgv8.filesusr.com'
+    category: Scamming
+    subcategory: Twitter
+    description: 'Fake ETH giveaway by a SatoshiLite Twitter imposter (twitter id: 4799304813)'
+    addresses:
+      - '0xaa2498d85bA7559006f90110A4Bc33c10A06c1AF'
