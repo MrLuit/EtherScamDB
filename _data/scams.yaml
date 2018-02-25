@@ -19075,3 +19075,10 @@
     category: Phishing
     subcategory: Havven
     description: 'Fake Havven token sale site'    
+-
+    id: 2907
+    name: https://xn--myetheralle-jb9exm.com
+    url: 'https://xn--myetheralle-jb9exm.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW domain - IDN homograph attack'
