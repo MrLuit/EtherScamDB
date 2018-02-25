@@ -19082,3 +19082,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW domain - IDN homograph attack'
+-
+    id: 2908
+    name: https://localethereom.com
+    url: 'https://localethereom.com'
+    category: Phishing
+    subcategory: LocalEthereum
+    description: 'Fake LocalEthereum - phishing for login details'
