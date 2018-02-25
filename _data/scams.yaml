@@ -19096,3 +19096,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake/unofficial MyEtherWallet'
+-
+    id: 2910
+    name: https://locaeltherum.com
+    url: 'https://locaeltherum.com'
+    category: Phishing
+    subcategory: LocalEthereum
+    description: 'Fake LocalEthereum site'
