@@ -19110,3 +19110,10 @@
     category: Phishing
     subcategory: Huobi
     description: 'Fake Huobi site'
+-
+    id: 2912
+    name: http://leadscoin.network
+    url: 'http://leadscoin.network'
+    category: Phishing
+    subcategory: Leadcoin
+    description: 'Fake Leadcoin tokensale site'
