@@ -19217,3 +19217,12 @@
     description: 'Fake Havven crowdsale site'
     addresses:
       - '0x717D2041c516573a0e27F552CdB6C5c3EC7B4e09'
+-      
+    id: 2925
+    name: https://havventoken.com
+    url: 'https://havventoken.com'
+    category: Phishing
+    subcategory: Havven
+    description: 'Fake Havven crowdsale site'
+    addresses:
+      - '0xCc49d1f23F01DEcD4E18B6AAACccb038c9648E30'
