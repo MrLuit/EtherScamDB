@@ -19240,3 +19240,10 @@
     category: Phishing
     subcategory: Telegram
     description: 'Fake Telegram crowdsale site'
+-
+    id: 2928
+    name: https://telegram.tokyo
+    url: 'https://telegram.tokyo'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'
