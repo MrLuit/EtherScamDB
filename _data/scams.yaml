@@ -19247,3 +19247,17 @@
     category: Phishing
     subcategory: Telegram
     description: 'Fake Telegram crowdsale site'
+-
+    id: 2929
+    name: https://vechain-foundation.org
+    url: 'https://vechain-foundation.org'
+    category: Phishing
+    subcategory: Vechain
+    description: 'Fake Vechain airdrop site phishing for private keys'
+-
+    id: 2930
+    name: https://poloniex.work
+    url: 'https://secure.poloniex.work'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex site phishing for login details'
