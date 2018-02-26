@@ -19167,3 +19167,12 @@
     description: 'Fake ETH giveaway by a SatoshiLite Twitter imposter (twitter id: 2604889256)'
     addresses:
       - '0xe009321b26350c2CFF5DB607068c1f6813df40d7'
+-
+    id: 2919
+    name: https://neonexchanges.org
+    url: 'https://neonexchanges.org'
+    category: Scamming
+    subcategory: Gonetwork
+    description: 'Fake Gonetwork presale'
+    addresses:
+      - '0xa8eb559EEb38C6CB6A8BC6C39bAdd86B113cd875'
