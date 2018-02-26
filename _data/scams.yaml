@@ -19201,3 +19201,10 @@
     category: Phishing
     subcategory: Telegram
     description: 'Fake Telegram crowdsale site'
+-
+    id: 2923
+    name: https://ico-telegram.online
+    url: 'https://ico-telegram.online'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'
