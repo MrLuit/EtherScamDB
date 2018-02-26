@@ -19194,3 +19194,17 @@
     description: 'Fake Gonetwork crowdsale site'
     addresses:
       - '0xa8eb559EEb38C6CB6A8BC6C39bAdd86B113cd875'
+-
+    id: 2922
+    name: https://telegramtoken.io
+    url: 'https://telegramtoken.io'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'
+-
+    id: 2923
+    name: https://ico-telegram.online
+    url: 'https://ico-telegram.online'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'
