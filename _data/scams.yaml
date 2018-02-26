@@ -19176,3 +19176,12 @@
     description: 'Fake Gonetwork presale'
     addresses:
       - '0xa8eb559EEb38C6CB6A8BC6C39bAdd86B113cd875'
+-
+    id: 2920
+    name: https://secure-transaction-confirmation.droppages.com
+    url: 'https://secure-transaction-confirmation.droppages.com'
+    category: Scamming
+    subcategory: TrustTrading
+    description: 'Trust-trading site (the twitter giveaway ones - cannot source the tweet)'
+    addresses:
+      - '0x52B34625687D6266a3B98fD5d214828F0670D7Ed'
