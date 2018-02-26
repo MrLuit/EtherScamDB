@@ -19226,3 +19226,10 @@
     description: 'Fake Havven crowdsale site'
     addresses:
       - '0xCc49d1f23F01DEcD4E18B6AAACccb038c9648E30'
+-      
+    id: 2926
+    name: https://forkdelta.io
+    url: 'https://forkdelta.io'
+    category: Phishing
+    subcategory: ForkDelta
+    description: 'Fake ForkDelta site - see https://github.com/MetaMask/eth-phishing-detect/issues/1004'
