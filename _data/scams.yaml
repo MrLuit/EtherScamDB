@@ -19261,3 +19261,12 @@
     category: Phishing
     subcategory: Bittrex
     description: 'Fake Bittrex site phishing for login details'
+-      
+    id: 2931
+    name: https://dfinlty.org
+    url: 'https://dfinlty.org'
+    category: Phishing
+    subcategory: Dfinity
+    description: 'Fake Dfinity crowdsale site'
+    addresses:
+      - '0xCB89576d5e1627f4a0C64C2bb4d51798e92E8b8F'
