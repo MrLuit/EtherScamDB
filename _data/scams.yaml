@@ -19185,3 +19185,12 @@
     description: 'Trust-trading site (the twitter giveaway ones - cannot source the tweet)'
     addresses:
       - '0x52B34625687D6266a3B98fD5d214828F0670D7Ed'
+-
+    id: 2921
+    name: https://gonetwork-airdrop.co
+    url: 'https://gonetwork-airdrop.co'
+    category: Phishing
+    subcategory: Gonetwork
+    description: 'Fake Gonetwork crowdsale site'
+    addresses:
+      - '0xa8eb559EEb38C6CB6A8BC6C39bAdd86B113cd875'
