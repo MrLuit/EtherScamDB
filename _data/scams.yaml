@@ -19270,3 +19270,21 @@
     description: 'Fake Dfinity crowdsale site'
     addresses:
       - '0xCB89576d5e1627f4a0C64C2bb4d51798e92E8b8F'
+-
+    id: 2932
+    name: https://transfer-address-confirmation.droppages.com
+    url: 'https://transfer-address-confirmation.droppages.com'
+    category: Scamming
+    subcategory: TrustTrading
+    description: 'Trust-trading site (the twitter giveaway ones - https://twitter.com/Palooniex twitter_id: 960212831235960832)'
+    addresses:
+      - '0x37c85A7523B1832B4D0380B2f513e88B66e8c850'
+-
+    id: 2933
+    name: https://ataritoken.ltd
+    url: 'https://ataritoken.ltd'
+    category: Phishing
+    subcategory: Atari
+    description: 'Fake Atari pre-sale site promoted by Atari_Official - https://twitter.com/Atari_Official/status/965121747874967552 - twitter id: 965120931659239424'
+    addresses:
+      - '0x560833296ef7A7F41b30c1065225Fa9b33830c19'
