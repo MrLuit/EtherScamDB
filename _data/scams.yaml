@@ -19270,3 +19270,12 @@
     description: 'Fake Dfinity crowdsale site'
     addresses:
       - '0xCB89576d5e1627f4a0C64C2bb4d51798e92E8b8F'
+-
+    id: 2932
+    name: https://transfer-address-confirmation.droppages.com
+    url: 'https://transfer-address-confirmation.droppages.com'
+    category: Scamming
+    subcategory: TrustTrading
+    description: 'Trust-trading site (the twitter giveaway ones - https://twitter.com/Palooniex twitter_id: 960212831235960832)'
+    addresses:
+      - '0x37c85A7523B1832B4D0380B2f513e88B66e8c850'
