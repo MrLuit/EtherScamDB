@@ -19306,3 +19306,12 @@
     description: 'Fake Havven crowdsale site'
     addresses:
       - '0x362291375bD3fc2Ff0f928184bD6f373F92Dea57'
+-      
+    id: 2936
+    name: http://tokensale.xn--havve-7l1b.com
+    url: 'http://tokensale.xn--havve-7l1b.com'
+    category: Phishing
+    subcategory: Havven
+    description: 'Fake Havven crowdsale site'
+    addresses:
+      - '0xc8ac47854a3fed2b444beb83f4c95ba092a3a735'
