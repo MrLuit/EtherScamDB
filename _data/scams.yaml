@@ -19288,3 +19288,21 @@
     description: 'Fake Atari pre-sale site promoted by Atari_Official - https://twitter.com/Atari_Official/status/965121747874967552 - twitter id: 965120931659239424'
     addresses:
       - '0x560833296ef7A7F41b30c1065225Fa9b33830c19'
+-      
+    id: 2934
+    name: https://hawen.io
+    url: 'https://hawen.io'
+    category: Phishing
+    subcategory: Havven
+    description: 'Fake Havven crowdsale site'
+    addresses:
+      - '0x175F6DbF87215A6DA7107977B4680bc3db31b2dE'
+-      
+    id: 2935
+    name: https://havven.xyz
+    url: 'https://havven.xyz'
+    category: Phishing
+    subcategory: Havven
+    description: 'Fake Havven crowdsale site'
+    addresses:
+      - '0x362291375bD3fc2Ff0f928184bD6f373F92Dea57'
