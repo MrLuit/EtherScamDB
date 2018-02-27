@@ -19331,3 +19331,11 @@
     subcategory: Havven
     description: 'Fake Havven crowdsale site'    
       - '0x86e00684EA92cb87F40d74C5EBde97ef9A17753e'
+-      
+    id: 2939
+    name: https://tokensale-adhive.com
+    url: 'https://tokensale-adhive.com'
+    category: Phishing
+    subcategory: Adhive
+    description: 'Fake Adhive crowdsale site'    
+      - '0xC4625787be3fcCfF6AC2971945806AcC167C8CBd'
