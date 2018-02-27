@@ -19339,3 +19339,11 @@
     subcategory: Adhive
     description: 'Fake Adhive crowdsale site'    
       - '0xC4625787be3fcCfF6AC2971945806AcC167C8CBd'
+-      
+    id: 2940
+    name: https://ipsx.promo
+    url: 'https://ipsx.promo'
+    category: Phishing
+    subcategory: Ipsx
+    description: 'Fake Ipsx crowdsale site'    
+      - '0xb8689c29bdc7c84f33706ff0f96eafc222ba6d86'
