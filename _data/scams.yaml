@@ -19347,3 +19347,11 @@
     subcategory: Ipsx
     description: 'Fake Ipsx crowdsale site'    
       - '0xb8689c29bdc7c84f33706ff0f96eafc222ba6d86'
+-      
+    id: 2941
+    name: https://dflinity.org
+    url: 'https://dflinity.org'
+    category: Phishing
+    subcategory: Dfinity
+    description: 'Fake Dfinity crowdsale site'    
+      - '0xe74b02131Ed2184eb94fD357b4f303E6935367f5'
