@@ -19314,7 +19314,7 @@
     subcategory: Havven
     description: 'Fake Havven crowdsale site'
     addresses:
-      - '0x86e00684EA92cb87F40d74C5EBde97ef9A17753e'
+      - '0xc8ac47854a3fed2b444beb83f4c95ba092a3a735'    
 -      
     id: 2937     
     name: https://havvens.win
@@ -19322,5 +19322,12 @@
     category: Phishing
     subcategory: Havven
     description: 'Fake Havven crowdsale site'    
-    addresses:    
       - '0xCc49d1f23F01DEcD4E18B6AAACccb038c9648E30'
+-      
+    id: 2938     
+    name: https://heavven.io
+    url: 'https://heavven.io'
+    category: Phishing
+    subcategory: Havven
+    description: 'Fake Havven crowdsale site'    
+      - '0x86e00684EA92cb87F40d74C5EBde97ef9A17753e'
