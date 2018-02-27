@@ -19308,10 +19308,19 @@
       - '0x362291375bD3fc2Ff0f928184bD6f373F92Dea57'
 -      
     id: 2936
-    name: http://heavven.io
-    url: 'http://heavven.io'
+    name: http://tokensale.xn--havve-7l1b.com
+    url: 'http://tokensale.xn--havve-7l1b.com'
     category: Phishing
     subcategory: Havven
     description: 'Fake Havven crowdsale site'
     addresses:
       - '0x86e00684EA92cb87F40d74C5EBde97ef9A17753e'
+-      
+    id: 2937     
+    name: https://havvens.win
+    url: 'https://havvens.win'
+    category: Phishing
+    subcategory: Havven
+    description: 'Fake Havven crowdsale site'    
+    addresses:    
+      - '0xCc49d1f23F01DEcD4E18B6AAACccb038c9648E30'
