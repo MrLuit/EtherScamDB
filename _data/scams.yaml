@@ -19495,3 +19495,12 @@
     description: 'Fake Havven crowdsale site'    
     addresses:    
       - '0xBC210eC2EFAda9DF4897Dc9B23c58E96c01eF711'
+-            
+    id: 2959
+    name: https://havvenio.com
+    url: 'https://havvenio.com'
+    category: Phishing
+    subcategory: Havven
+    description: 'Fake Havven crowdsale site'    
+    addresses:    
+      - '0xD77B95800f67deB52E0e0988DBf01A311A3ccd80'
