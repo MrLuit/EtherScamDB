@@ -19362,3 +19362,10 @@
     category: Phishing
     subcategory: Coindesk
     description: 'Fake Coindesk site promoting a fake MyEtherWallet xn--yetherwalle-tv8ezt.com'    
+-      
+    id: 2943
+    name: https://xn--yetherwalle-tv8ezt.com
+    url: 'https://xn--yetherwalle-tv8ezt.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack'    
