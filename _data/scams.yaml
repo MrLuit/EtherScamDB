@@ -19355,3 +19355,10 @@
     subcategory: Dfinity
     description: 'Fake Dfinity crowdsale site'    
       - '0xe74b02131Ed2184eb94fD357b4f303E6935367f5'
+-      
+    id: 2942
+    name: https://xn--coindek-873c.com
+    url: 'https://xn--coindek-873c.com'
+    category: Phishing
+    subcategory: Coindesk
+    description: 'Fake Coindesk site promoting a fake MyEtherWallet xn--yetherwalle-tv8ezt.com'    
