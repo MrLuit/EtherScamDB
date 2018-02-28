@@ -19321,7 +19321,8 @@
     url: 'https://havvens.win'
     category: Phishing
     subcategory: Havven
-    description: 'Fake Havven crowdsale site'    
+    description: 'Fake Havven crowdsale site'   
+    addresses:    
       - '0xCc49d1f23F01DEcD4E18B6AAACccb038c9648E30'
 -      
     id: 2938     
@@ -19330,6 +19331,7 @@
     category: Phishing
     subcategory: Havven
     description: 'Fake Havven crowdsale site'    
+    addresses:    
       - '0x86e00684EA92cb87F40d74C5EBde97ef9A17753e'
 -      
     id: 2939
@@ -19338,6 +19340,7 @@
     category: Phishing
     subcategory: Adhive
     description: 'Fake Adhive crowdsale site'    
+    addresses:    
       - '0xC4625787be3fcCfF6AC2971945806AcC167C8CBd'
 -      
     id: 2940
@@ -19345,7 +19348,8 @@
     url: 'https://ipsx.promo'
     category: Phishing
     subcategory: Ipsx
-    description: 'Fake Ipsx crowdsale site'    
+    description: 'Fake Ipsx crowdsale site'   
+    addresses:    
       - '0xb8689c29bdc7c84f33706ff0f96eafc222ba6d86'
 -      
     id: 2941
@@ -19354,6 +19358,7 @@
     category: Phishing
     subcategory: Dfinity
     description: 'Fake Dfinity crowdsale site'    
+    addresses:    
       - '0xe74b02131Ed2184eb94fD357b4f303E6935367f5'
 -      
     id: 2942
@@ -19391,10 +19396,20 @@
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'  
 -      
-    id: 2947     
+    id: 2947
+    name: https://havven.eu
+    url: 'https://havven.eu'
+    category: Phishing
+    subcategory: Havven
+    description: 'Fake Havven crowdsale site'   
+    addresses:    
+      - '0x18f3489D959Fd0e3fAC366646e08f9aEabeA4D75'
+-            
+    id: 2948   
     name: https://havven.sale
     url: 'https://havven.sale'
     category: Phishing
     subcategory: Havven
     description: 'Fake Havven crowdsale site'    
+    addresses:    
       - '0x1e12436889E2459202437077549e35b56f1299Cb'
