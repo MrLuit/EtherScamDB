@@ -19376,3 +19376,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'  
+-      
+    id: 2945
+    name: https://myetherwallet-team.com
+    url: 'https://myetherwallet-team.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'  
