@@ -19436,3 +19436,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet site - IDN homograph attack'    
+-            
+    id: 2952
+    name: https://meganfoxloveyou.com
+    url: 'https://meganfoxloveyou.com'
+    category: Phishing
+    subcategory: Generic
+    description: 'C&C for some phishing sites'    
