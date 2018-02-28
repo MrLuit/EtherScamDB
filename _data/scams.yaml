@@ -19486,3 +19486,12 @@
     category: Phishing
     subcategory: Nucleus
     description: 'Fake Nucleus airdrop site phishing for private keys. suspected address 0xBc66E774CE25000950786241b8c5EE3275311Bd7'    
+-            
+    id: 2958
+    name: https://havven.top
+    url: 'https://havven.top'
+    category: Phishing
+    subcategory: Havven
+    description: 'Fake Havven crowdsale site'    
+    addresses:    
+      - '0xBC210eC2EFAda9DF4897Dc9B23c58E96c01eF711'
