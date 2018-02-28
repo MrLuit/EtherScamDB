@@ -19429,3 +19429,10 @@
     description: 'Fake Tomo crowdsale site'    
     addresses:    
       - '0x878cce43a3b9d8A872a33d2d6CCD561E033707f4'
+-            
+    id: 2951
+    name: https://xn--yetherwalle-iw8e1s.com
+    url: 'https://xn--yetherwalle-iw8e1s.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet site - IDN homograph attack'    
