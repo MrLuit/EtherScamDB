@@ -19369,3 +19369,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - IDN homograph attack'    
+-      
+    id: 2944
+    name: https://myetherwallet.usermd.net
+    url: 'https://myetherwallet.usermd.net'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'  
