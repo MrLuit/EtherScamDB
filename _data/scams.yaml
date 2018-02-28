@@ -19479,3 +19479,10 @@
     description: 'Fake Havven crowdsale site'    
     addresses:    
       - '0xfb1a7CCf5bCd436DCc0acB49ba1fB9F57Bb4d064'
+-            
+    id: 2957
+    name: https://nucelus.vision
+    url: 'https://nucelus.vision'
+    category: Phishing
+    subcategory: Nucleus
+    description: 'Fake Nucleus airdrop site phishing for private keys. suspected address 0xBc66E774CE25000950786241b8c5EE3275311Bd7'    
