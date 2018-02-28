@@ -19443,3 +19443,12 @@
     category: Phishing
     subcategory: Generic
     description: 'C&C for some phishing sites'    
+-            
+    id: 2953
+    name: https://jsfiddle.net/Croxy/Luwtc9yu/33/show/ 
+    url: 'https://jsfiddle.net/Croxy/Luwtc9yu/33/show/'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0x24aa18952E80707dad3ab4c9C97E787f2Af337Ca'
