@@ -19436,3 +19436,28 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet site - IDN homograph attack'    
+-            
+    id: 2952
+    name: https://meganfoxloveyou.com
+    url: 'https://meganfoxloveyou.com'
+    category: Phishing
+    subcategory: Generic
+    description: 'C&C for some phishing sites'    
+-            
+    id: 2953
+    name: https://jsfiddle.net/Croxy/Luwtc9yu/33/show/ 
+    url: 'https://jsfiddle.net/Croxy/Luwtc9yu/33/show/'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0x24aa18952E80707dad3ab4c9C97E787f2Af337Ca'
+-            
+    id: 2954
+    name: https://metronometoken.io 
+    url: 'https://metronometoken.io'
+    category: Phishing
+    subcategory: Metronome
+    description: 'Fake Metronome crowdsale site'    
+    addresses:    
+      - '0x2F141d0cD81011436Df8fA04bDAC01cb6Cf51a65'
