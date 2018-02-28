@@ -19390,3 +19390,11 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'  
+-      
+    id: 2947
+    name: https://havven.eu
+    url: 'https://havven.eu'
+    category: Phishing
+    subcategory: Havven
+    description: 'Fake Havven crowdsale site'    
+      - '0x18f3489D959Fd0e3fAC366646e08f9aEabeA4D75'
