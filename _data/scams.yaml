@@ -19461,3 +19461,21 @@
     description: 'Fake Metronome crowdsale site'    
     addresses:    
       - '0x2F141d0cD81011436Df8fA04bDAC01cb6Cf51a65'
+-            
+    id: 2955
+    name: https://ico-havven.org
+    url: 'https://ico-havven.org'
+    category: Phishing
+    subcategory: Havven
+    description: 'Fake Havven crowdsale site'    
+    addresses:    
+      - '0x4fafc9291a0112a0ee0928361c02848ff2fdf6bd'
+-            
+    id: 2956
+    name: https://tokensale-havven.in
+    url: 'https://tokensale-havven.in'
+    category: Phishing
+    subcategory: Havven
+    description: 'Fake Havven crowdsale site'    
+    addresses:    
+      - '0xfb1a7CCf5bCd436DCc0acB49ba1fB9F57Bb4d064'
