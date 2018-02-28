@@ -19420,3 +19420,12 @@
     category: Phishing
     subcategory: Tron
     description: 'Fake Tron web wallet'    
+-            
+    id: 2950
+    name: https://tomo-coin.io
+    url: 'https://tomo-coin.io'
+    category: Phishing
+    subcategory: Tomo
+    description: 'Fake Tomo crowdsale site'    
+    addresses:    
+      - '0x878cce43a3b9d8A872a33d2d6CCD561E033707f4'
