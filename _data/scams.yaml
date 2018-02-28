@@ -19355,3 +19355,38 @@
     subcategory: Dfinity
     description: 'Fake Dfinity crowdsale site'    
       - '0xe74b02131Ed2184eb94fD357b4f303E6935367f5'
+-      
+    id: 2942
+    name: https://xn--coindek-873c.com
+    url: 'https://xn--coindek-873c.com'
+    category: Phishing
+    subcategory: Coindesk
+    description: 'Fake Coindesk site promoting a fake MyEtherWallet xn--yetherwalle-tv8ezt.com'    
+-      
+    id: 2943
+    name: https://xn--yetherwalle-tv8ezt.com
+    url: 'https://xn--yetherwalle-tv8ezt.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack'    
+-      
+    id: 2944
+    name: https://myetherwallet.usermd.net
+    url: 'https://myetherwallet.usermd.net'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'  
+-      
+    id: 2945
+    name: https://myetherwallet-team.com
+    url: 'https://myetherwallet-team.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'  
+-      
+    id: 2946
+    name: https://myenthereumwallet.com
+    url: 'https://myenthereumwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'  
