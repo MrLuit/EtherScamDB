@@ -19529,3 +19529,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'    
+-            
+    id: 2963
+    name: http://dftnity.org
+    url: 'http://dftnity.org'
+    category: Phishing
+    subcategory: Dfinity
+    description: 'Fake Dfinity crowdsale site'    
+    addresses:    
+      - '0xC5f6690F7b60FE739908E02AeC46aE07718CEc5f'
