@@ -19504,3 +19504,12 @@
     description: 'Fake Havven crowdsale site'    
     addresses:    
       - '0xD77B95800f67deB52E0e0988DBf01A311A3ccd80'
+-            
+    id: 2960
+    name: http://havven-sale.com
+    url: 'http://havven-sale.com'
+    category: Phishing
+    subcategory: Havven
+    description: 'Fake Havven crowdsale site'    
+    addresses:    
+      - '0x39D7C7acEc5bB282A4fB6E998D3D0099fF7780cf'
