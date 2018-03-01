@@ -19538,3 +19538,26 @@
     description: 'Fake Dfinity crowdsale site'    
     addresses:    
       - '0xC5f6690F7b60FE739908E02AeC46aE07718CEc5f'
+-            
+    id: 2964
+    name: http://ethereum-promo.bitballoon.com
+    url: 'http://ethereum-promo.bitballoon.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-Trading scam site'    
+    addresses:    
+      - '0x3715b1Ed9bbd5e165aF97619b5C5e13E39F55504'
+-            
+    id: 2965
+    name: http://polymathnetwork.org
+    url: 'http://polymathnetwork.org'
+    category: Phishing
+    subcategory: Polymath
+    description: 'Fake Polymath airdrop phishing for private keys. Suspected address: 0x63cfa80bbbee233a4257857dcdc9d78cbc8efe37'    
+-            
+    id: 2966
+    name: http://telegramfoundation.org
+    url: 'http://telegramfoundation.org'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Nothing has been announced for the Telegram public sale yet. Fake crowdsale site' 
