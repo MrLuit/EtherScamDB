@@ -19554,3 +19554,10 @@
     category: Phishing
     subcategory: Polymath
     description: 'Fake Polymath airdrop phishing for private keys. Suspected address: 0x63cfa80bbbee233a4257857dcdc9d78cbc8efe37'    
+-            
+    id: 2966
+    name: http://telegramfoundation.org
+    url: 'http://telegramfoundation.org'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Nothing has been announced for the Telegram public sale yet. Fake crowdsale site' 
