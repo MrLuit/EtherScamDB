@@ -19522,3 +19522,10 @@
     description: 'Fake Tomo crowdsale site'    
     addresses:    
       - '0x717D2041c516573a0e27F552CdB6C5c3EC7B4e09'
+-            
+    id: 2962
+    name: http://masanchez.usermd.net
+    url: 'http://masanchez.usermd.net'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'    
