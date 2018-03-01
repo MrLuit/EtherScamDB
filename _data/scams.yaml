@@ -19538,3 +19538,12 @@
     description: 'Fake Dfinity crowdsale site'    
     addresses:    
       - '0xC5f6690F7b60FE739908E02AeC46aE07718CEc5f'
+-            
+    id: 2964
+    name: http://ethereum-promo.bitballoon.com
+    url: 'http://ethereum-promo.bitballoon.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-Trading scam site'    
+    addresses:    
+      - '0x3715b1Ed9bbd5e165aF97619b5C5e13E39F55504'
