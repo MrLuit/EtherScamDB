@@ -19547,3 +19547,10 @@
     description: 'Trust-Trading scam site'    
     addresses:    
       - '0x3715b1Ed9bbd5e165aF97619b5C5e13E39F55504'
+-            
+    id: 2965
+    name: http://polymathnetwork.org
+    url: 'http://polymathnetwork.org'
+    category: Phishing
+    subcategory: Polymath
+    description: 'Fake Polymath airdrop phishing for private keys. Suspected address: 0x63cfa80bbbee233a4257857dcdc9d78cbc8efe37'    
