@@ -19577,3 +19577,10 @@
     description: 'Fake Abyss crowdsale site'    
     addresses:    
       - '0xB177fC9A7CAAa9c50D82c5D2533750F1D72aAC86'
+-            
+    id: 2969
+    name: http://rnyertherwallet.com
+    url: 'http://rnyertherwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'    
