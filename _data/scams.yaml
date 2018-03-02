@@ -19568,3 +19568,12 @@
     category: Phishing
     subcategory: Callisto
     description: 'Fake Callisto airdrop phishing for private keys' 
+-            
+    id: 2968
+    name: http://xn--thabyss-u8a.com
+    url: 'http://xn--thabyss-u8a.com'
+    category: Phishing
+    subcategory: Abyss
+    description: 'Fake Abyss crowdsale site'    
+    addresses:    
+      - '0xB177fC9A7CAAa9c50D82c5D2533750F1D72aAC86'
