@@ -19561,3 +19561,10 @@
     category: Phishing
     subcategory: Telegram
     description: 'Nothing has been announced for the Telegram public sale yet. Fake crowdsale site' 
+-            
+    id: 2967
+    name: http://callisto-airdrop.com
+    url: 'http://callisto-airdrop.com'
+    category: Phishing
+    subcategory: Callisto
+    description: 'Fake Callisto airdrop phishing for private keys' 
