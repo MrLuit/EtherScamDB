@@ -19607,3 +19607,12 @@
     category: Phishing
     subcategory: Policypal
     description: 'Fake Policypal crowdsale site - suspected address: 0x2b3F15a55a68C4C81ae8331C2FE8E90008993f51'   
+-            
+    id: 2973
+    name: http://bittrex-give.com
+    url: 'http://bittrex-give.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam'    
+    addresses:    
+      - '0x1363077895B20Ae90f80794cE4e575559517d033'
