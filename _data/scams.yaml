@@ -19600,3 +19600,10 @@
     description: 'Fake Docai crowdsale site - see https://github.com/MetaMask/eth-phishing-detect/issues/1078'   
     addresses:
       - '0xF2dcFa51F83e41c0e988477f939c7A5e5b9a6905'
+-            
+    id: 2972
+    name: http://policypal.info
+    url: 'http://policypal.info'
+    category: Phishing
+    subcategory: Policypal
+    description: 'Fake Policypal crowdsale site - suspected address: 0x2b3F15a55a68C4C81ae8331C2FE8E90008993f51'   
