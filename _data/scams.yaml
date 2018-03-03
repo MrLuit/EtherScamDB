@@ -19625,3 +19625,10 @@
     description: 'Trust-Trading scam'    
     addresses:    
       - '0xF23F9dda63ed0628609272DC0544C7a2f7189f51'
+-      
+    id: 2975
+    name: https://nnyiictehervvailiat.com
+    url: 'https://nnyiictehervvailiat.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet' 
