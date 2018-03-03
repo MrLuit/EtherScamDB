@@ -19616,3 +19616,12 @@
     description: 'Trust-Trading scam'    
     addresses:    
       - '0x1363077895B20Ae90f80794cE4e575559517d033'
+-            
+    id: 2974
+    name: http://odachi.neocities.org
+    url: 'http://odachi.neocities.org'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam'    
+    addresses:    
+      - '0xF23F9dda63ed0628609272DC0544C7a2f7189f51'
