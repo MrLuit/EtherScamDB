@@ -19632,3 +19632,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet' 
+-            
+    id: 2976
+    name: http://tomocoin.network
+    url: 'http://tomocoin.network'
+    category: Phishing
+    subcategory: Tomocoin
+    description: 'Fake tomocoin crowdsale site'    
+    addresses:    
+      - '0x38B7Ca3B78c51364095BC56146D25F55AEe0af21'
