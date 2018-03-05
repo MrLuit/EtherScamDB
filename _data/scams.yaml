@@ -19668,3 +19668,12 @@
     description: 'Trust-Trading scam (looks like a fake ICO - send ETH and have a 92% chance of winning 100ETH - no contract address)'    
     addresses:    
       - '0x3007a0Db9CAAD557CF4589Cfd550c21ce9399b15'
+-            
+    id: 2980
+    name: http://eth953883.htmlcomponentservice.com
+    url: 'http://eth953883.htmlcomponentservice.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam'    
+    addresses:    
+      - '0xfddBfa1b0B93612b95e3296690b63B74D019370C'
