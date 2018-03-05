@@ -19684,3 +19684,10 @@
     category: Phishing
     subcategory: Data
     description: 'Fake Data airdrop phishing for private keys'    
+-            
+    id: 2982
+    name: http://tron-online.org
+    url: 'http://tron-online.org'
+    category: Scamming
+    subcategory: Web-Wallet
+    description: 'Fake TRON web wallet'    
