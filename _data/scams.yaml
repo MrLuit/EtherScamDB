@@ -19650,3 +19650,12 @@
     description: 'Trust-Trading scam'    
     addresses:    
       - '0xb82bFd79d5A8C0cc0d4C045633288b48A2beDdcB'
+-            
+    id: 2978
+    name: http://transfer-eth.neocities.org
+    url: 'http://transfer-eth.neocities.org'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam'    
+    addresses:    
+      - '0xd79eB898431eA62636F08f738D10eB00446403dE'
