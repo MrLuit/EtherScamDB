@@ -19632,3 +19632,39 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet' 
+-            
+    id: 2976
+    name: http://tomocoin.network
+    url: 'http://tomocoin.network'
+    category: Phishing
+    subcategory: Tomocoin
+    description: 'Fake tomocoin crowdsale site'    
+    addresses:    
+      - '0x38B7Ca3B78c51364095BC56146D25F55AEe0af21'
+-            
+    id: 2977
+    name: http://eth.secure-transactionssecure.com
+    url: 'http://eth.secure-transactionssecure.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam'    
+    addresses:    
+      - '0xb82bFd79d5A8C0cc0d4C045633288b48A2beDdcB'
+-            
+    id: 2978
+    name: http://transfer-eth.neocities.org
+    url: 'http://transfer-eth.neocities.org'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam'    
+    addresses:    
+      - '0xd79eB898431eA62636F08f738D10eB00446403dE'
+-            
+    id: 2979
+    name: http://reeveclancy.wixsite.com
+    url: 'http://reeveclancy.wixsite.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam (looks like a fake ICO - send ETH and have a 92% chance of winning 100ETH - no contract address)'    
+    addresses:    
+      - '0x3007a0Db9CAAD557CF4589Cfd550c21ce9399b15'
