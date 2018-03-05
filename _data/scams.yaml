@@ -19698,3 +19698,12 @@
     category: Scamming
     subcategory: Web-Wallet
     description: 'Fake EOS web wallet'  
+-            
+    id: 2984
+    name: http://eth-transactions.neocities.org
+    url: 'http://eth-transactions.neocities.org'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam'    
+    addresses:    
+      - '0x0755e59d505c9b473Aec50B476dF3ea2045739aa'
