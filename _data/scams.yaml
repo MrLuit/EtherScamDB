@@ -19691,3 +19691,10 @@
     category: Scamming
     subcategory: Web-Wallet
     description: 'Fake TRON web wallet'    
+-            
+    id: 2983
+    name: http://online-eos.org
+    url: 'http://online-eos.org'
+    category: Scamming
+    subcategory: Web-Wallet
+    description: 'Fake EOS web wallet'  
