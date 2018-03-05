@@ -19641,3 +19641,12 @@
     description: 'Fake tomocoin crowdsale site'    
     addresses:    
       - '0x38B7Ca3B78c51364095BC56146D25F55AEe0af21'
+-            
+    id: 2977
+    name: http://eth.secure-transactionssecure.com
+    url: 'http://eth.secure-transactionssecure.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam'    
+    addresses:    
+      - '0xb82bFd79d5A8C0cc0d4C045633288b48A2beDdcB'
