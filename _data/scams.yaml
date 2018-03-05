@@ -19659,3 +19659,12 @@
     description: 'Trust-Trading scam'    
     addresses:    
       - '0xd79eB898431eA62636F08f738D10eB00446403dE'
+-            
+    id: 2979
+    name: http://reeveclancy.wixsite.com
+    url: 'http://reeveclancy.wixsite.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam (looks like a fake ICO - send ETH and have a 92% chance of winning 100ETH - no contract address)'    
+    addresses:    
+      - '0x3007a0Db9CAAD557CF4589Cfd550c21ce9399b15'
