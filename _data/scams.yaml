@@ -19677,3 +19677,10 @@
     description: 'Trust-Trading scam'    
     addresses:    
       - '0xfddBfa1b0B93612b95e3296690b63B74D019370C'
+-            
+    id: 2981
+    name: http://data-token.org
+    url: 'http://data-token.org'
+    category: Phishing
+    subcategory: Data
+    description: 'Fake Data airdrop phishing for private keys'    
