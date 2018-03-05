@@ -19707,3 +19707,10 @@
     description: 'Trust-Trading scam'    
     addresses:    
       - '0x0755e59d505c9b473Aec50B476dF3ea2045739aa'
+-            
+    id: 2985
+    name: http://miroskii.com
+    url: 'http://miroskii.com'
+    category: Scamming
+    subcategory: Crowdsale
+    description: 'Fake team - https://twitter.com/AppletonDave/status/970434000643751937'    
