@@ -19714,3 +19714,10 @@
     category: Scamming
     subcategory: Crowdsale
     description: 'Fake team - https://twitter.com/AppletonDave/status/970434000643751937'    
+-            
+    id: 2986
+    name: http://telegram.auction
+    url: 'http://telegram.auction'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'   
