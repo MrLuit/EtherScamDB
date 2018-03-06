@@ -19737,3 +19737,12 @@
     description: 'Trust-Trading scam'    
     addresses:    
       - '0x1CcC9b2769741aB0e1620721Df7Cf8FF1D70716B'
+-            
+    id: 2989
+    name: http://binance-give.com
+    url: 'http://binance-give.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam'    
+    addresses:    
+      - '0x915c95415D3449212FD0991CCF5eB42864118EC9'
