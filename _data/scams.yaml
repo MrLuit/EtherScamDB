@@ -19714,3 +19714,35 @@
     category: Scamming
     subcategory: Crowdsale
     description: 'Fake team - https://twitter.com/AppletonDave/status/970434000643751937'    
+-            
+    id: 2986
+    name: http://telegram.auction
+    url: 'http://telegram.auction'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'   
+-            
+    id: 2987
+    name: http://telegram.site
+    url: 'http://telegram.site'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site' 
+-            
+    id: 2988
+    name: http://myetherwallet.com.send-transaction_8hlg6z8mgt6zyg.ilil.pw
+    url: 'http://myetherwallet.com.send-transaction_8hlg6z8mgt6zyg.ilil.pw'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam'    
+    addresses:    
+      - '0x1CcC9b2769741aB0e1620721Df7Cf8FF1D70716B'
+-            
+    id: 2989
+    name: http://binance-give.com
+    url: 'http://binance-give.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam'    
+    addresses:    
+      - '0x915c95415D3449212FD0991CCF5eB42864118EC9'
