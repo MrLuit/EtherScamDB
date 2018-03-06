@@ -19721,3 +19721,10 @@
     category: Phishing
     subcategory: Telegram
     description: 'Fake Telegram crowdsale site'   
+-            
+    id: 2987
+    name: http://telegram.site
+    url: 'http://telegram.site'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site' 
