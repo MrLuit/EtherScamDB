@@ -19821,3 +19821,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW' 
+-            
+    id: 2999
+    name: http://ethfreepays.com
+    url: 'http://ethfreepays.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam'    
+    addresses:    
+      - '0x0A9f58EE19A7131Ed031eA66a032c05C7efe965A'
