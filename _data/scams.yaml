@@ -19798,3 +19798,12 @@
     description: 'Trust-Trading scam promoted by twitter id: 956921522102456320'    
     addresses:    
       - '0x23d56797f64640e96FEaF57b7874C897b53ef0E4'
+-            
+    id: 2996
+    name: http://bonus.etherpayout.com
+    url: 'http://bonus.etherpayout.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam'    
+    addresses:    
+      - '0x508e1101755a4a6ae228b0e18002a816ce3418cE'
