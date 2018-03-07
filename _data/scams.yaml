@@ -19807,3 +19807,10 @@
     description: 'Trust-Trading scam'    
     addresses:    
       - '0x508e1101755a4a6ae228b0e18002a816ce3418cE'
+-            
+    id: 2997
+    name: http://gram.vc
+    url: 'http://gram.vc'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site - suspected address: 0xfe821f5509fdea3f72362d001697ad8c11f0c111'    
