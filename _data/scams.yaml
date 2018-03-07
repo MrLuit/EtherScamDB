@@ -19830,3 +19830,10 @@
     description: 'Trust-Trading scam'    
     addresses:    
       - '0x0A9f58EE19A7131Ed031eA66a032c05C7efe965A'
+-            
+    id: 3000
+    name: http://xn--metherwallt-819eo1a.com
+    url: 'http://xn--metherwallt-819eo1a.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW - IDN homograph attack' 
