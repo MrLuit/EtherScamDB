@@ -19789,3 +19789,12 @@
     category: Phishing
     subcategory: Binance
     description: 'Fake Binance - IDN homograph attack' 
+-            
+    id: 2995
+    name: http://ethereum-giveaway.info
+    url: 'http://ethereum-giveaway.info'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam promoted by twitter id: 956921522102456320'    
+    addresses:    
+      - '0x23d56797f64640e96FEaF57b7874C897b53ef0E4'
