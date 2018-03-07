@@ -19764,3 +19764,12 @@
     description: 'Trust-Trading scam'    
     addresses:    
       - '0x0Dea8A35F4E39cDF65d3cC11f10612E9E0278b60'
+-            
+    id: 2992
+    name: http://geocities.ws
+    url: 'http://geocities.ws'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam'    
+    addresses:    
+      - '0x2b5268FDE5041f6B1Afd77166De4e9eA5D9e967a'
