@@ -19814,3 +19814,10 @@
     category: Phishing
     subcategory: Telegram
     description: 'Fake Telegram crowdsale site - suspected address: 0xfe821f5509fdea3f72362d001697ad8c11f0c111'    
+-            
+    id: 2998
+    name: http://nnyettiervwailet.com
+    url: 'http://nnyettiervwailet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW' 
