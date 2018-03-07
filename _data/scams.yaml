@@ -19807,3 +19807,33 @@
     description: 'Trust-Trading scam'    
     addresses:    
       - '0x508e1101755a4a6ae228b0e18002a816ce3418cE'
+-            
+    id: 2997
+    name: http://gram.vc
+    url: 'http://gram.vc'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site - suspected address: 0xfe821f5509fdea3f72362d001697ad8c11f0c111'    
+-            
+    id: 2998
+    name: http://nnyettiervwailet.com
+    url: 'http://nnyettiervwailet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW' 
+-            
+    id: 2999
+    name: http://ethfreepays.com
+    url: 'http://ethfreepays.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam'    
+    addresses:    
+      - '0x0A9f58EE19A7131Ed031eA66a032c05C7efe965A'
+-            
+    id: 3000
+    name: http://xn--metherwallt-819eo1a.com
+    url: 'http://xn--metherwallt-819eo1a.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW - IDN homograph attack' 
