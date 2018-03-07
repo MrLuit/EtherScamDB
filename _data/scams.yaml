@@ -19782,3 +19782,10 @@
     description: 'Trust-Trading scam'    
     addresses:    
       - '0xD0B473271e9D38dFD11925d62eF8c0a2cf033a9C'
+-            
+    id: 2994
+    name: http://xn--bnanc-fsax.com
+    url: 'http://xn--bnanc-fsax.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance - IDN homograph attack' 
