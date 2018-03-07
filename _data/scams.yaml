@@ -19746,3 +19746,12 @@
     description: 'Trust-Trading scam'    
     addresses:    
       - '0x915c95415D3449212FD0991CCF5eB42864118EC9'
+-            
+    id: 2990
+    name: http://binance.bitballoon.com
+    url: 'http://binance.bitballoon.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam'    
+    addresses:    
+      - '0xD43F2111e4055120196285eC094aA6e96998668b'
