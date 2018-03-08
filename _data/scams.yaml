@@ -19865,3 +19865,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW - IDN homograph attack' 
+-            
+    id: 3005
+    name: http://telegra.ph
+    url: 'http://telegra.ph'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam'    
+    addresses:    
+      - '0x5F58fE612DB5B3E97FAf4A2E8f38B4AE295288Aa'
