@@ -19890,3 +19890,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW - IDN homograph attack' 
+-            
+    id: 3008
+    name: http://eth-cz-319.htmlcomponentservice.com
+    url: 'http://eth-cz-319.htmlcomponentservice.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam'    
+    addresses:    
+      - '0x1e3c07Ce10973fCAebC81468af1d3F390d2A4c71'
