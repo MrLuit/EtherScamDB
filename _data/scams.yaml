@@ -19858,3 +19858,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW - IDN homograph attack' 
+-            
+    id: 3004
+    name: http://xn--mtherwallet-z19ex1a.com
+    url: 'http://xn--mtherwallet-z19ex1a.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW - IDN homograph attack' 
