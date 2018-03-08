@@ -19837,3 +19837,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW - IDN homograph attack' 
+-            
+    id: 3001
+    name: http://cosss.io
+    url: 'http://cosss.io'
+    category: Phishing
+    subcategory: Coss
+    description: 'Fake COSS' 
