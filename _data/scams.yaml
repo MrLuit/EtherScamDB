@@ -19851,3 +19851,10 @@
     category: Phishing
     subcategory: EOS
     description: 'Fake EOS airdrop site - IDN homograph attack' 
+-            
+    id: 3003
+    name: http://xn--metherwallt-819eo1a.com
+    url: 'http://xn--metherwallt-819eo1a.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW - IDN homograph attack' 
