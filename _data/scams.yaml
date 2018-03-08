@@ -19899,3 +19899,10 @@
     description: 'Trust-Trading scam'    
     addresses:    
       - '0x1e3c07Ce10973fCAebC81468af1d3F390d2A4c71'
+-            
+    id: 3009
+    name: http://blocikchair.info
+    url: 'http://blocikchair.info'
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake MBlockchain site phishing for login details' 
