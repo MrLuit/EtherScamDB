@@ -19837,3 +19837,31 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW - IDN homograph attack' 
+-            
+    id: 3001
+    name: http://cosss.io
+    url: 'http://cosss.io'
+    category: Phishing
+    subcategory: Coss
+    description: 'Fake COSS' 
+-            
+    id: 3002
+    name: http://xn--eo-e9a.com
+    url: 'http://xn--eo-e9a.com'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS airdrop site - IDN homograph attack' 
+-            
+    id: 3003
+    name: http://xn--metherwallt-819eo1a.com
+    url: 'http://xn--metherwallt-819eo1a.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW - IDN homograph attack' 
+-            
+    id: 3004
+    name: http://xn--mtherwallet-z19ex1a.com
+    url: 'http://xn--mtherwallet-z19ex1a.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW - IDN homograph attack' 
