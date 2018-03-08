@@ -19883,3 +19883,10 @@
     description: 'Trust-Trading scam'    
     addresses:    
       - '0x1e3c07Ce10973fCAebC81468af1d3F390d2A4c71'
+-            
+    id: 3007
+    name: http://xn--myetherwaet-0t8ea.com
+    url: 'http://xn--myetherwaet-0t8ea.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW - IDN homograph attack' 
