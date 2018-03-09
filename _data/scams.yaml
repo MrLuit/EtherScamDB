@@ -19933,7 +19933,7 @@
     url: 'http://ico-telegram.club'
     category: Phishing
     subcategory: Telegram
-    description: 'Fale Telegram crowdsale site'          
+    description: 'Fake Telegram crowdsale site'          
     addresses:    
       - '0xAF313b5cF52D7a2Ad7785d008660ab68421dB2D1'
 -     
@@ -19957,3 +19957,12 @@
     category: Phishing
     subcategory: Telegram
     description: 'Fake Telegram crowdsale site - asks for email for contribution address but no email is sent'   
+-            
+    id: 3017
+    name: http://eth4free.ml
+    url: 'http://eth4free.ml'
+    category: Scamming
+    subcategory: Giveaway
+    description: 'Fake ETH generator asking for funds to gas to send x eth to whatever address you want'          
+    addresses:    
+      - '0x693D47204555361D4d51311f97102a1507559802'
