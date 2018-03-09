@@ -20003,3 +20003,12 @@
     category: Phishing
     subcategory: Binance
     description: 'Fake Binance - phishing for login details posting to binance.msk.ru/gateway (cookie stealing too)' 
+-            
+    id: 3023
+    name: http://eth-giveaway-706.htmlcomponentservice.com
+    url: 'http://eth-giveaway-706.htmlcomponentservice.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam'    
+    addresses:    
+      - '0x1e3c07Ce10973fCAebC81468af1d3F390d2A4c71'    
