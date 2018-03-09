@@ -19913,3 +19913,10 @@
     category: Phishing
     subcategory: Coindesk
     description: 'Fake Coindesk domain - IDN homograph attack'
+-            
+    id: 3011
+    name: http://etharscan.io
+    url: 'http://etharscan.io'
+    category: Phishing
+    subcategory: Etherscan
+    description: 'Fake Etherscan phishing for paid ad space - https://twitter.com/etherscan/status/972055165074198528'
