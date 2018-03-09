@@ -19920,3 +19920,33 @@
     category: Phishing
     subcategory: Etherscan
     description: 'Fake Etherscan phishing for paid ad space - https://twitter.com/etherscan/status/972055165074198528'
+-            
+    id: 3012
+    name: http://telegram.one
+    url: 'http://telegram.one'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Reported as a fake Telegram crowdsale site - but is now down when archiving'      
+-            
+    id: 3013
+    name: http://ico-telegram.club
+    url: 'http://ico-telegram.club'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fale Telegram crowdsale site'          
+    addresses:    
+      - '0xAF313b5cF52D7a2Ad7785d008660ab68421dB2D1'
+-     
+    id: 3014
+    name: http://gramsap.enterprises
+    url: 'http://gramsap.enterprises'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Reported as a fake Telegram crowdsale site mirror - but is now down when archiving'      
+-     
+    id: 3015
+    name: http://gramton.info
+    url: 'http://gramton.info'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Reported as a fake Telegram crowdsale site - but is now down when archiving'     
