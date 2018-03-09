@@ -19992,7 +19992,14 @@
 -            
     id: 3021
     name: http://xn--myethewallet-kjc.com
-    url: 'http://xn--myethewallet-kjc.com
+    url: 'http://xn--myethewallet-kjc.com'
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW - IDN homograph attack'     
+-            
+    id: 3022
+    name: http://mybinance.info
+    url: 'http://mybinance.info'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance - phishing for login details posting to binance.msk.ru/gateway (cookie stealing too)' 
