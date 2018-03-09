@@ -19966,3 +19966,26 @@
     description: 'Fake ETH generator asking for funds to gas to send x eth to whatever address you want'          
     addresses:    
       - '0x693D47204555361D4d51311f97102a1507559802'
+-            
+    id: 3018
+    name: http://polyswarms.io
+    url: 'http://polyswarms.io'
+    category: Phishing
+    subcategory: Polyswarm
+    description: 'Fake Polyswarm crowdsale site'          
+-            
+    id: 3019
+    name: http://polyswarm.me
+    url: 'http://polyswarm.me'
+    category: Phishing
+    subcategory: Polyswarm
+    description: 'Fake Polyswarm crowdsale site'  
+-            
+    id: 3020
+    name: http://polyswamr.io
+    url: 'http://polyswamr.io'
+    category: Phishing
+    subcategory: Polyswarm
+    description: 'Fake Polyswarm crowdsale site'   
+    addresses:    
+      - '0xC7308d5A7220Dc021CCF417445cB28cBb8Fece66'    
