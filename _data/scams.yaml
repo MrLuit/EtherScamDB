@@ -19989,3 +19989,10 @@
     description: 'Fake Polyswarm crowdsale site'   
     addresses:    
       - '0xC7308d5A7220Dc021CCF417445cB28cBb8Fece66'    
+-            
+    id: 3021
+    name: http://xn--myethewallet-kjc.com
+    url: 'http://xn--myethewallet-kjc.com
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW - IDN homograph attack'     
