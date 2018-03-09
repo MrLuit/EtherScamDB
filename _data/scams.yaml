@@ -19906,3 +19906,10 @@
     category: Phishing
     subcategory: Blockchain
     description: 'Fake MBlockchain site phishing for login details' 
+-            
+    id: 3010
+    name: http://xn--coindes-jhb.com
+    url: 'http://xn--coindes-jhb.com'
+    category: Phishing
+    subcategory: Coindesk
+    description: 'Fake Coindesk domain - IDN homograph attack'
