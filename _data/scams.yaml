@@ -20012,3 +20012,12 @@
     description: 'Trust-Trading scam'    
     addresses:    
       - '0x1e3c07Ce10973fCAebC81468af1d3F390d2A4c71'    
+-            
+    id: 3024
+    name: http://icoeth.tk
+    url: 'http://icoeth.tk'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam'    
+    addresses:    
+      - '0x7bb386c33486fe345168d0af94bef03897e16022'    
