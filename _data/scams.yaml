@@ -20021,3 +20021,19 @@
     description: 'Trust-Trading scam'    
     addresses:    
       - '0x7bb386c33486fe345168d0af94bef03897e16022'    
+-            
+    id: 3025
+    name: http://eth-giveaway.com
+    url: 'http://eth-giveaway.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam'    
+    addresses:    
+      - '0xb65DB9F684F3BFa45Ad3fB4CDc4120618Ad81f00'  
+-            
+    id: 3026
+    name: http://tokensale.syncfab.eu
+    url: 'http://tokensale.syncfab.eu'
+    category: Phishing
+    subcategory: Syncfab
+    description: 'Communicating private keys to a remote server - dmsrnuimsnd8.net/tr-3425546.php?iii=xxxx'    
