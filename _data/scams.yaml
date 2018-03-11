@@ -20067,3 +20067,12 @@
     category: Phishing
     subcategory: Coindesk
     description: 'Fake coindesk - IDN homograph attack - writing about fake EOS promotions'  
+-            
+    id: 3031
+    name: http://ether-promo.bitballoon.com
+    url: 'http://ether-promo.bitballoon.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam'    
+    addresses:    
+      - '0xd868A76A1dcc34854903376e734e3CFe461DD08C'
