@@ -20085,3 +20085,12 @@
     description: 'Trust-Trading scam'    
     addresses:    
       - '0xA7Ce02b8195FE8e3116A7e1248f2725EaAC86FeC'
+-            
+    id: 3033
+    name: http://gramtoken.network
+    url: 'http://gramtoken.network'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0x0153775362C3071C1860e8dbfD53ccC82Fa226F5'
