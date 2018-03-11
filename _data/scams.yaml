@@ -20046,3 +20046,10 @@
     description: 'Trust-Trading scam'    
     addresses:    
       - '0xD33441A44Da0c1DCEE596aBB7ebDCdBa77c7DDBd'
+-            
+    id: 3028
+    name: http://myetherwalletico.blogspot.de
+    url: 'http://myetherwalletico.blogspot.de'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Phishing for private keys under the name MyEtherWallet'    
