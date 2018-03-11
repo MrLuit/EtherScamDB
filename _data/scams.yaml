@@ -20037,3 +20037,60 @@
     category: Phishing
     subcategory: Syncfab
     description: 'Communicating private keys to a remote server - dmsrnuimsnd8.net/tr-3425546.php?iii=xxxx'    
+-            
+    id: 3027
+    name: http://eth-giveaway.info
+    url: 'http://eth-giveaway.info'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam'    
+    addresses:    
+      - '0xD33441A44Da0c1DCEE596aBB7ebDCdBa77c7DDBd'
+-            
+    id: 3028
+    name: http://myetherwalletico.blogspot.de
+    url: 'http://myetherwalletico.blogspot.de'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Phishing for private keys under the name MyEtherWallet'    
+-            
+    id: 3029
+    name: http://theadsleader.000webhostapp.com
+    url: 'http://theadsleader.000webhostapp.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Phishing for private keys - related to id 3028'  
+-            
+    id: 3030
+    name: http://xn--cindesk-cx4c.com
+    url: 'http://xn--cindesk-cx4c.com'
+    category: Phishing
+    subcategory: Coindesk
+    description: 'Fake coindesk - IDN homograph attack - writing about fake EOS promotions'  
+-            
+    id: 3031
+    name: http://ether-promo.bitballoon.com
+    url: 'http://ether-promo.bitballoon.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam'    
+    addresses:    
+      - '0xd868A76A1dcc34854903376e734e3CFe461DD08C'
+-            
+    id: 3032
+    name: http://ethfreegive.com
+    url: 'http://ethfreegive.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam'    
+    addresses:    
+      - '0xA7Ce02b8195FE8e3116A7e1248f2725EaAC86FeC'
+-            
+    id: 3033
+    name: http://gramtoken.network
+    url: 'http://gramtoken.network'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0x0153775362C3071C1860e8dbfD53ccC82Fa226F5'
