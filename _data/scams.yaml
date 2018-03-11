@@ -20037,3 +20037,12 @@
     category: Phishing
     subcategory: Syncfab
     description: 'Communicating private keys to a remote server - dmsrnuimsnd8.net/tr-3425546.php?iii=xxxx'    
+-            
+    id: 3027
+    name: http://eth-giveaway.info
+    url: 'http://eth-giveaway.info'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam'    
+    addresses:    
+      - '0xD33441A44Da0c1DCEE596aBB7ebDCdBa77c7DDBd'
