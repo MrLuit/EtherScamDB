@@ -20076,3 +20076,12 @@
     description: 'Trust-Trading scam'    
     addresses:    
       - '0xd868A76A1dcc34854903376e734e3CFe461DD08C'
+-            
+    id: 3032
+    name: http://ethfreegive.com
+    url: 'http://ethfreegive.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-Trading scam'    
+    addresses:    
+      - '0xA7Ce02b8195FE8e3116A7e1248f2725EaAC86FeC'
