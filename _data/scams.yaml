@@ -20053,3 +20053,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Phishing for private keys under the name MyEtherWallet'    
+-            
+    id: 3029
+    name: http://theadsleader.000webhostapp.com
+    url: 'http://theadsleader.000webhostapp.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Phishing for private keys - related to id 3028'  
