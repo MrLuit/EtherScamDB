@@ -20094,3 +20094,12 @@
     description: 'Fake Telegram crowdsale site'    
     addresses:    
       - '0x0153775362C3071C1860e8dbfD53ccC82Fa226F5'
+-            
+    id: 3034
+    name: http://ico-gram.net
+    url: 'http://ico-gram.net'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0x6642cEc9d02e4e669103a3Ed4F3505F437b8fe73'
