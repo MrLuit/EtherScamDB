@@ -20060,3 +20060,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Phishing for private keys - related to id 3028'  
+-            
+    id: 3030
+    name: http://xn--cindesk-cx4c.com
+    url: 'http://xn--cindesk-cx4c.com'
+    category: Phishing
+    subcategory: Coindesk
+    description: 'Fake coindesk - IDN homograph attack - writing about fake EOS promotions'  
