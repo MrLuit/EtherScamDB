@@ -20103,3 +20103,10 @@
     description: 'Fake Telegram crowdsale site'    
     addresses:    
       - '0x6642cEc9d02e4e669103a3Ed4F3505F437b8fe73'
+-            
+    id: 3035
+    name: http://immvrse.io
+    url: 'http://immvrse.io'
+    category: ImmVRse
+    description: 'Fake crowdsale site'    
+ 
