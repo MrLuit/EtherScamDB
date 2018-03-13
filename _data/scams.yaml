@@ -20145,3 +20145,10 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x6067A95E7Bb071A5b73741628A0A5Cb5cC164203'
+-            
+    id: 3040
+    name: http://xn--oindesk-15a.com
+    url: 'http://xn--oindesk-15a.com'
+    category: Scamming
+    subcategory: Coindesk
+    description: 'Fake coindesk site - idn homograph attack'    
