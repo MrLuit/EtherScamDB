@@ -20118,3 +20118,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x34eeA3e741F9A3e77fB34E0793B1AF36EDC2b0AE'
+-            
+    id: 3037
+    name: http://ethfreecandy.bitballoon.com
+    url: 'http://ethfreecandy.bitballoon.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x69f8e87518129498da751f26ea2309db05e7270b'
