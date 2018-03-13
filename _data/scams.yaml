@@ -20152,3 +20152,12 @@
     category: Scamming
     subcategory: Coindesk
     description: 'Fake coindesk site - idn homograph attack'    
+-            
+    id: 3041
+    name: http://smartexchangecenter.tk
+    url: 'http://smartexchangecenter.tk'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x85e150d832942b10383b6d83211224c1ef37fad8'
