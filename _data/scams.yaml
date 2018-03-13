@@ -20136,3 +20136,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x13369B4654Cb11D0D3b31AbFf0a2d74A78485aC6'
+-            
+    id: 3039
+    name: http://eth-transaction.secure.kissr.com
+    url: 'http://eth-transaction.secure.kissr.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x6067A95E7Bb071A5b73741628A0A5Cb5cC164203'
