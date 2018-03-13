@@ -20263,3 +20263,10 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x1f6f1723d0db4e9783b7171392b6fa9ae1062fd9'
+-            
+    id: 3054
+    name: http://xn--condes-8bb1661d.com
+    url: 'http://xn--condes-8bb1661d.com'
+    category: Scamming
+    subcategory: Coindesk
+    description: 'Fake coindesk site - idn homograph attack'  
