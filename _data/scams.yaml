@@ -20127,3 +20127,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x69f8e87518129498da751f26ea2309db05e7270b'
+-            
+    id: 3038
+    name: http://otoeveryday.info
+    url: 'http://otoeveryday.info'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x13369B4654Cb11D0D3b31AbFf0a2d74A78485aC6'
