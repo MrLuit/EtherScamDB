@@ -20197,3 +20197,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x40949225c4a1745a9946F6AAf763241c082cb9ac'
+-            
+    id: 3046
+    name: http://promo-trx.tk
+    url: 'http://promo-trx.tk'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x3385D7af59359a63B411E84390dE380e90aFa7dC'
