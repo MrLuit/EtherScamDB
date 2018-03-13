@@ -20161,3 +20161,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x85e150d832942b10383b6d83211224c1ef37fad8'
+-            
+    id: 3042
+    name: http://coin-promos.com
+    url: 'http://coin-promos.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x3219eBDcBC9F79f59c8C53105f3E74E0289F3Ea9'
