@@ -20206,3 +20206,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x3385D7af59359a63B411E84390dE380e90aFa7dC'
+-            
+    id: 3047
+    name: http://ethfreepay.com
+    url: 'http://ethfreepay.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0xBe969917962EF564f936a3F93dD4cfb315EC41Ee'
