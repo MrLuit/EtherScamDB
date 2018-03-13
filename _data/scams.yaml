@@ -20240,3 +20240,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'    
+-            
+    id: 3051
+    name: http://nnyettiervwallat.com
+    url: 'http://nnyettiervwallat.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'   
