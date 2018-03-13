@@ -20108,5 +20108,13 @@
     name: http://immvrse.io
     url: 'http://immvrse.io'
     category: ImmVRse
+    description: 'Fake crowdsale site'
+-            
+    id: 3036
+    name: http://celsius-ico.network
+    url: 'http://celsius-ico.network'
+    category: Phishing
     description: 'Fake crowdsale site'    
+    addresses:    
+      - '0xb2b8d4337ADE6f8e6Da4954844b05b9A1AA9358a'    
  
