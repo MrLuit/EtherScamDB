@@ -20111,10 +20111,171 @@
     description: 'Fake crowdsale site'
 -            
     id: 3036
+    name: http://etherscanio.github.io
+    url: 'http://etherscanio.github.io'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x34eeA3e741F9A3e77fB34E0793B1AF36EDC2b0AE'
+-            
+    id: 3037
+    name: http://ethfreecandy.bitballoon.com
+    url: 'http://ethfreecandy.bitballoon.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x69f8e87518129498da751f26ea2309db05e7270b'
+-            
+    id: 3038
+    name: http://otoeveryday.info
+    url: 'http://otoeveryday.info'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x13369B4654Cb11D0D3b31AbFf0a2d74A78485aC6'
+-            
+    id: 3039
+    name: http://eth-transaction.secure.kissr.com
+    url: 'http://eth-transaction.secure.kissr.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x6067A95E7Bb071A5b73741628A0A5Cb5cC164203'
+-            
+    id: 3040
+    name: http://xn--oindesk-15a.com
+    url: 'http://xn--oindesk-15a.com'
+    category: Scamming
+    subcategory: Coindesk
+    description: 'Fake coindesk site - idn homograph attack'    
+-            
+    id: 3041
+    name: http://smartexchangecenter.tk
+    url: 'http://smartexchangecenter.tk'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x85e150d832942b10383b6d83211224c1ef37fad8'
+-            
+    id: 3042
+    name: http://coin-promos.com
+    url: 'http://coin-promos.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x3219eBDcBC9F79f59c8C53105f3E74E0289F3Ea9'
+-            
+    id: 3043
+    name: http://campaigntoken.blogspot.de
+    url: 'http://campaigntoken.blogspot.de'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x3219eBDcBC9F79f59c8C53105f3E74E0289F3Ea9'
+-            
+    id: 3044
+    name: http://cryptongram.org
+    url: 'http://cryptongram.org'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site (bitcoin)'    
+    addresses:    
+      - '1AfroW44dzHkjgbLEMLB3EvGDFegfkRewM'
+-            
+    id: 3045
+    name: http://paymentaddress.tumblr.com
+    url: 'http://paymentaddress.tumblr.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x40949225c4a1745a9946F6AAf763241c082cb9ac'
+-            
+    id: 3046
+    name: http://promo-trx.tk
+    url: 'http://promo-trx.tk'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x3385D7af59359a63B411E84390dE380e90aFa7dC'
+-            
+    id: 3047
+    name: http://ethfreepay.com
+    url: 'http://ethfreepay.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0xBe969917962EF564f936a3F93dD4cfb315EC41Ee'
+-            
+    id: 3048
+    name: http://eth-promo.bitballoon.com
+    url: 'http://eth-promo.bitballoon.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x6DE5f0c142DaF2EAb3c0d3751f3Be6af5F359795'
+-            
+    id: 3049
+    name: http://eth.vote
+    url: 'http://eth.vote'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0xc3853f32675AeBF17fF15E7fb0d2bfC7EB4CF11b'
+-            
+    id: 3050
+    name: http://nnyettiervwallet.com
+    url: 'http://nnyettiervwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'    
+-            
+    id: 3051
+    name: http://nnyettiervwallat.com
+    url: 'http://nnyettiervwallat.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'   
+-            
+    id: 3052
+    name: http://eth-giveaway.gq
+    url: 'http://eth-giveaway.gq'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam - suspected address: 0xEE14140F20fB737809ca206C238382b3F802Ca6C'    
+-            
+    id: 3053
+    name: http://ethergiveawaytweet.tk
+    url: 'http://ethergiveawaytweet.tk'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x1f6f1723d0db4e9783b7171392b6fa9ae1062fd9'
+-            
+    id: 3054
+    name: http://xn--condes-8bb1661d.com
+    url: 'http://xn--condes-8bb1661d.com'
+    category: Scamming
+    subcategory: Coindesk
+    description: 'Fake coindesk site - idn homograph attack'  
+-    
+    id: 3055
     name: http://celsius-ico.network
     url: 'http://celsius-ico.network'
     category: Phishing
+    subcategory: Celsius    
     description: 'Fake crowdsale site'    
     addresses:    
       - '0xb2b8d4337ADE6f8e6Da4954844b05b9A1AA9358a'    
- 
