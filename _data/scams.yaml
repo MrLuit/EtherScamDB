@@ -20188,3 +20188,12 @@
     description: 'Fake Telegram crowdsale site (bitcoin)'    
     addresses:    
       - '1AfroW44dzHkjgbLEMLB3EvGDFegfkRewM'
+-            
+    id: 3045
+    name: http://paymentaddress.tumblr.com
+    url: 'http://paymentaddress.tumblr.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x40949225c4a1745a9946F6AAf763241c082cb9ac'
