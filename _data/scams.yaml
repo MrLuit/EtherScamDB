@@ -20254,3 +20254,12 @@
     category: Scamming
     subcategory: Trust-trading
     description: 'Trust-trading scam - suspected address: 0xEE14140F20fB737809ca206C238382b3F802Ca6C'    
+-            
+    id: 3053
+    name: http://ethergiveawaytweet.tk
+    url: 'http://ethergiveawaytweet.tk'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x1f6f1723d0db4e9783b7171392b6fa9ae1062fd9'
