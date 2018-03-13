@@ -20215,3 +20215,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0xBe969917962EF564f936a3F93dD4cfb315EC41Ee'
+-            
+    id: 3048
+    name: http://eth-promo.bitballoon.com
+    url: 'http://eth-promo.bitballoon.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x6DE5f0c142DaF2EAb3c0d3751f3Be6af5F359795'
