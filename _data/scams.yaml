@@ -20179,3 +20179,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x3219eBDcBC9F79f59c8C53105f3E74E0289F3Ea9'
+-            
+    id: 3044
+    name: http://cryptongram.org
+    url: 'http://cryptongram.org'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site (bitcoin)'    
+    addresses:    
+      - '1AfroW44dzHkjgbLEMLB3EvGDFegfkRewM'
