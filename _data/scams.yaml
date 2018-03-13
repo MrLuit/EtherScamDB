@@ -20279,3 +20279,12 @@
     description: 'Fake crowdsale site'    
     addresses:    
       - '0xb2b8d4337ADE6f8e6Da4954844b05b9A1AA9358a'    
+-    
+    id: 3056
+    name: http://html.house/7htud1qm.html
+    url: 'http://html.house/7htud1qm.html'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0xAA90aE1b969bc96e82C80E834b5F739E335B7e47' 
