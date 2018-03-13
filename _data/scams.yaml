@@ -20247,3 +20247,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'   
+-            
+    id: 3052
+    name: http://eth-giveaway.gq
+    url: 'http://eth-giveaway.gq'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam - suspected address: 0xEE14140F20fB737809ca206C238382b3F802Ca6C'    
