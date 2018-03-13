@@ -20109,4 +20109,12 @@
     url: 'http://immvrse.io'
     category: ImmVRse
     description: 'Fake crowdsale site'    
- 
+-            
+    id: 3036
+    name: http://etherscanio.github.io
+    url: 'http://etherscanio.github.io'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x34eeA3e741F9A3e77fB34E0793B1AF36EDC2b0AE'
