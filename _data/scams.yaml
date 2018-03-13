@@ -20233,3 +20233,10 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0xc3853f32675AeBF17fF15E7fb0d2bfC7EB4CF11b'
+-            
+    id: 3050
+    name: http://nnyettiervwallet.com
+    url: 'http://nnyettiervwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'    
