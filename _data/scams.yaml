@@ -20224,3 +20224,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x6DE5f0c142DaF2EAb3c0d3751f3Be6af5F359795'
+-            
+    id: 3049
+    name: http://eth.vote
+    url: 'http://eth.vote'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0xc3853f32675AeBF17fF15E7fb0d2bfC7EB4CF11b'
