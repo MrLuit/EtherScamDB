@@ -20170,3 +20170,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x3219eBDcBC9F79f59c8C53105f3E74E0289F3Ea9'
+-            
+    id: 3043
+    name: http://campaigntoken.blogspot.de
+    url: 'http://campaigntoken.blogspot.de'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x3219eBDcBC9F79f59c8C53105f3E74E0289F3Ea9'
