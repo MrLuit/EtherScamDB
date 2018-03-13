@@ -20108,7 +20108,7 @@
     name: http://immvrse.io
     url: 'http://immvrse.io'
     category: ImmVRse
-    description: 'Fake crowdsale site'    
+    description: 'Fake crowdsale site'
 -            
     id: 3036
     name: http://etherscanio.github.io
@@ -20270,3 +20270,12 @@
     category: Scamming
     subcategory: Coindesk
     description: 'Fake coindesk site - idn homograph attack'  
+-    
+    id: 3055
+    name: http://celsius-ico.network
+    url: 'http://celsius-ico.network'
+    category: Phishing
+    subcategory: Celsius    
+    description: 'Fake crowdsale site'    
+    addresses:    
+      - '0xb2b8d4337ADE6f8e6Da4954844b05b9A1AA9358a'    
