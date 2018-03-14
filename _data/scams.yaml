@@ -20327,3 +20327,12 @@
     category: Phishing
     subcategory: Funfair
     description: 'Fake funfair airdrop phishing for private keys'    
+-    
+    id: 3062
+    name: http://tongram.me
+    url: 'http://tongram.me'
+    category: Phishing
+    subcategory: Telegram    
+    description: 'Fake Telegram site'    
+    addresses:    
+      - '0xa7fA566eF4F221737a7c89C3600F1e456c7D6604' 
