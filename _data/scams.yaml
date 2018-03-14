@@ -20304,3 +20304,10 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x4c7E065915F3B1461248Da453daE0609253E15f1' 
+-    
+    id: 3059
+    name: http://originprotocol.online
+    url: 'http://originprotocol.online'
+    category: Phishing
+    subcategory: Origin
+    description: 'Fake Origin protocol site'    
