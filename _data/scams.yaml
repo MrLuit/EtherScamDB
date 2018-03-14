@@ -20311,3 +20311,12 @@
     category: Phishing
     subcategory: Origin
     description: 'Fake Origin protocol site'    
+-    
+    id: 3060
+    name: http://coinbase-secure-a2k34j.bitballoon.com
+    url: 'http://coinbase-secure-a2k34j.bitballoon.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x98c29aFea6f69b59AD1790ce2e0EfFc0bd38433F' 
