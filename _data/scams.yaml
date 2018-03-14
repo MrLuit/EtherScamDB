@@ -20363,3 +20363,10 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x078c2b3B09528fD7B80C9ee715f378d382f9139B' 
+-    
+    id: 3066
+    name: http://icotonsale.com
+    url: 'http://icotonsale.com'
+    category: Phishing
+    subcategory: Telegram    
+    description: 'Fake Telegram site'    
