@@ -20370,3 +20370,12 @@
     category: Phishing
     subcategory: Telegram    
     description: 'Fake Telegram site'    
+-    
+    id: 3067
+    name: http://ethereum-transfer.online
+    url: 'http://ethereum-transfer.online'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x5Bf2Df6EBCf90665d513C761ce5e516D99AE748A' 
