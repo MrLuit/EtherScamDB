@@ -20336,3 +20336,12 @@
     description: 'Fake Telegram site'    
     addresses:    
       - '0xa7fA566eF4F221737a7c89C3600F1e456c7D6604' 
+-    
+    id: 3063
+    name: http://ethfreeget.com
+    url: 'http://ethfreeget.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x47fEa7bB88BECA144E82Ce96A20A25A0974BA6Ba' 
