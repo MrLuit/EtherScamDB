@@ -20295,3 +20295,12 @@
     category: Phishing
     subcategory: Celsius    
     description: 'Fake crowdsale site' 
+-    
+    id: 3058
+    name: http://ethereumtrans.com
+    url: 'http://ethereumtrans.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x4c7E065915F3B1461248Da453daE0609253E15f1' 
