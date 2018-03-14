@@ -20288,3 +20288,10 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0xAA90aE1b969bc96e82C80E834b5F739E335B7e47' 
+-    
+    id: 3057
+    name: http://celsiuss.network
+    url: 'http://celsiuss.network'
+    category: Phishing
+    subcategory: Celsius    
+    description: 'Fake crowdsale site' 
