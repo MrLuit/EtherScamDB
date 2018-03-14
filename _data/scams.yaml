@@ -20320,3 +20320,10 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x98c29aFea6f69b59AD1790ce2e0EfFc0bd38433F' 
+-    
+    id: 3061
+    name: http://funfaircoin.org
+    url: 'http://funfaircoin.org'
+    category: Phishing
+    subcategory: Funfair
+    description: 'Fake funfair airdrop phishing for private keys'    
