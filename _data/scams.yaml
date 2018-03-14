@@ -20336,3 +20336,30 @@
     description: 'Fake Telegram site'    
     addresses:    
       - '0xa7fA566eF4F221737a7c89C3600F1e456c7D6604' 
+-    
+    id: 3063
+    name: http://ethfreeget.com
+    url: 'http://ethfreeget.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x47fEa7bB88BECA144E82Ce96A20A25A0974BA6Ba' 
+-    
+    id: 3064
+    name: http://b197c5a2-4c4a-408f-8197-93c81bd6e165.htmlcomponentservice.com
+    url: 'http://b197c5a2-4c4a-408f-8197-93c81bd6e165.htmlcomponentservice.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x83885Fc61837B4A9e0960Be80DA2f2Bc581ecBC6' 
+-    
+    id: 3065
+    name: http://giveaway.etherbonuses.com
+    url: 'http://giveaway.etherbonuses.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x078c2b3B09528fD7B80C9ee715f378d382f9139B' 
