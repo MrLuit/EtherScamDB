@@ -8,7 +8,7 @@ const dateFormat = require('dateformat');
 const spawn = require('child_process').spawn;
 const download = require('download-file');
 const rimraf = require('rimraf');
-const metamaskBlocked = require('eth-phishing-detect');
+const phishingDetector = require('eth-phishing-detect/src/detector');
 const crypto = require("crypto");
 const request = require('request');
 const app = express();
@@ -362,7 +362,7 @@ function startWebServer() {
         var actions_text = "";
         template = template.replace("{{ scam.id }}", scam.id);
         template = template.replace("{{ scam.name }}", scam.name);
-
+        const detector = new phishingDetector('./_data/metamaskImports.json');
         if ('category' in scam) {
             if ('subcategory' in scam) {
                 template = template.replace("{{ scam.category }}", '<b>Category</b>: ' + scam.category + ' - ' + scam.subcategory + '<BR>');
@@ -411,7 +411,7 @@ function startWebServer() {
             actions_text += '<a target="_blank" href="http://web.archive.org/web/*/' + url.parse(scam.url).hostname + '" class="ui icon secondary button"><i class="archive icon"></i> Archive</a>';
             template = template.replace("{{ scam.url }}", '<b>URL</b>: <a id="url" target="_blank" href="/redirect/' + encodeURIComponent(scam.url) + '">' + scam.url + '</a><BR>');
             template = template.replace("{{ scam.googlethreat }}", "<b>Google Safe Browsing</b>: {{ scam.googlethreat }}<BR>");
-            template = template.replace("{{ scam.metamask }}", "<b>MetaMask Status:</b> " + (metamaskBlocked(url.parse(scam.url).hostname) ? "<span style='color:green'>Blocked</span>" : "<span style='color:red'>Not Blocked</span>") + "<br />");
+            template = template.replace("{{ scam.metamask }}", "<b>MetaMask Status:</b> " + (detector.check(url.parse(scam.url).hostname) ? "<span style='color:green'>Blocked</span>" : "<span style='color:red'>Not Blocked</span>") + "<br />");
             if ('status' in scam && scam.status != 'Offline' && fs.existsSync('_cache/screenshots/' + scam.id + '.png')) {
                 template = template.replace("{{ scam.screenshot }}", '<h3>Screenshot</h3><img src="/screenshot/' + scam.id + '.png">');
             } else {
