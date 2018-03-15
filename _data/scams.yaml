@@ -20379,3 +20379,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x5Bf2Df6EBCf90665d513C761ce5e516D99AE748A' 
+-    
+    id: 3068
+    name: http://trust-cryptopayment.com
+    url: 'http://trust-cryptopayment.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x4dbef9b86bb3174312d1377b2623db2a9caa5137' 
