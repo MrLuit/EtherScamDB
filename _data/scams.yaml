@@ -20388,3 +20388,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x4dbef9b86bb3174312d1377b2623db2a9caa5137' 
+-    
+    id: 3069
+    name: http://binance-promo.net
+    url: 'http://binance-promo.net'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x44ce1DE2379Aa6d6d4ad46c3531b9EEbB71f7F54' 
