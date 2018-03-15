@@ -354,6 +354,10 @@ function startWebServer() {
     });
 
     app.get('/scam/:id/', function(req, res) { // Serve /scam/<id>/
+        var whitelistImports;
+        var blacklistImports;
+        var fuzzylistImports;
+        var toleranceImports;
         let startTime = (new Date()).getTime();
         let scam = getCache().scams.find(function(scam) {
             return scam.id == req.params.id;
@@ -362,7 +366,19 @@ function startWebServer() {
         var actions_text = "";
         template = template.replace("{{ scam.id }}", scam.id);
         template = template.replace("{{ scam.name }}", scam.name);
-        const detector = new phishingDetector('./_data/metamaskImports.json');
+        if (fs.existsSync('_data/metamaskImports.json')) {
+            fs.readFile('_data/metamaskImports.json', function(err, importsData) {
+                try {
+                    whitelistImports = JSON.parse(importsData.whitelist);
+                    blacklistImports = JSON.parse(importsData.blacklist);
+                    fuzzylistImports = JSON.parse(importsData.fuzzylist);
+                    toleranceImports = JSON.parse(importsData.tolerance);
+                } catch (e) {
+                    console.log(e);
+                }
+            });
+        }
+        const detector = new phishingDetector({whitelistImports, blacklistImports, fuzzylistImports, toleranceImports});
         if ('category' in scam) {
             if ('subcategory' in scam) {
                 template = template.replace("{{ scam.category }}", '<b>Category</b>: ' + scam.category + ' - ' + scam.subcategory + '<BR>');
