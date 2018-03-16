@@ -20440,3 +20440,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW (IDN homograph attack)'
+-
+    id: 3075
+    name: xn--condesk-ww4c.com
+    url: 'http://xn--condesk-ww4c.com'
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Fake Coinbase (IDN homograph attack)'
