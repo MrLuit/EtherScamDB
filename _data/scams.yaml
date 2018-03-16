@@ -20433,3 +20433,10 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x4a12eeb35BD5187BE2d26e0fE8b906Abd88b6897' 
+-
+    id: 3074
+    name: xn--myethrwllet-6qb2249g.com
+    url: 'http://xn--myethrwllet-6qb2249g.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW (IDN homograph attack)'
