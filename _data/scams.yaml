@@ -20424,3 +20424,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0xA3C67d993bf73Aa4F17ec03f900c865A4326CD7F' 
+-    
+    id: 3073
+    name: http://html.house/8lt97peg.html
+    url: 'http://html.house/8lt97peg.html'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x4a12eeb35BD5187BE2d26e0fE8b906Abd88b6897' 
