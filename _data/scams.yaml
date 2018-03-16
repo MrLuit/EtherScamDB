@@ -20415,3 +20415,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x2a6C7867E605D0F0F940CeC1669D98a33cf4C299' 
+-    
+    id: 3072
+    name: http://airdrop-ether.bitballoon.com
+    url: 'http://airdrop-ether.bitballoon.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0xA3C67d993bf73Aa4F17ec03f900c865A4326CD7F' 
