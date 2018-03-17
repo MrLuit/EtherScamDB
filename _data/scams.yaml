@@ -20465,3 +20465,10 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x410ebb88525ea799ea9e15a03f794f7f6f2fbdcd' 
+-    
+    id: 3078
+    name: http://myetherwalletradeico.blogspot.de
+    url: 'http://myetherwalletradeico.blogspot.de'
+    category: Phishing
+    subcategory: Generic
+    description: 'Phishing for private keys and mnemonic phrases'    
