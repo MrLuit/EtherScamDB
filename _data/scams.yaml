@@ -20456,3 +20456,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0xfF2f6c6fbd71a078f1C1781855467D30897b5a33' 
+-    
+    id: 3077
+    name: http://owainpritchard.co.uk
+    url: 'http://owainpritchard.co.uk/request/index.php'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x410ebb88525ea799ea9e15a03f794f7f6f2fbdcd' 
