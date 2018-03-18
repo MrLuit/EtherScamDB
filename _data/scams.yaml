@@ -20499,3 +20499,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0xe00e1f7117a69c34694ac1815177c93491fc448f' 
+-    
+    id: 3082
+    name: http://secure-s28h3h2j54jehdh43jh3k5h42l4h23hk6l49sjxvsatoshilite.bitballoon.com
+    url: 'http://secure-s28h3h2j54jehdh43jh3k5h42l4h23hk6l49sjxvsatoshilite.bitballoon.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0xa746d613d9b3A267Ad470E5CE980dBC12473247C' 
