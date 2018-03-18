@@ -20472,3 +20472,12 @@
     category: Phishing
     subcategory: Generic
     description: 'Phishing for private keys and mnemonic phrases'    
+-    
+    id: 3079
+    name: http://ethgive.github.io
+    url: 'http://ethgive.github.io'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0xd11d565Ba23b523ef7737AA24BdbB75a06521d87' 
