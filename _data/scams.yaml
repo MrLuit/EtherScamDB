@@ -20517,3 +20517,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x3a992c15aae6d9b9062f6533cd12fc9f89e9a3be' 
+-    
+    id: 3084
+    name: http://etherfreegive.com
+    url: 'http://etherfreegive.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x303345349Da72a28D12d5515F145dD77cB84BACC' 
