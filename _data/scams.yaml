@@ -20490,3 +20490,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x14d3cb89bfb1513cfae386d9d6ff447753fd04a5' 
+-    
+    id: 3081
+    name: http://giveaway-payment-add.bitballoon.com
+    url: 'http://giveaway-payment-add.bitballoon.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0xe00e1f7117a69c34694ac1815177c93491fc448f' 
