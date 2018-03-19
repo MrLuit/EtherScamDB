@@ -20526,3 +20526,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x303345349Da72a28D12d5515F145dD77cB84BACC' 
+-    
+    id: 3085
+    name: http://eth-promo.com
+    url: 'http://eth-promo.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x14258A5ddCad7001e8ac89B539df7E0f08A34500' 
