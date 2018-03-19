@@ -20560,3 +20560,12 @@
     category: Phishing
     subcategory: MyCrypto
     description: 'Fake MyCrypto'    
+-    
+    id: 3089
+    name: http://musk.gift
+    url: 'http://musk.gift'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x8335392FE1b236296C5D5f653264396De165e46c' 
