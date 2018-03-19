@@ -20544,3 +20544,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0xe00e1f7117a69c34694ac1815177c93491fc448f' 
+-    
+    id: 3087
+    name: http://eth.vg
+    url: 'http://eth.vg'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0xe4a177146b18E986F0463364dD53F37F601f9F23' 
