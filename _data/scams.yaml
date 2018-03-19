@@ -20553,3 +20553,10 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0xe4a177146b18E986F0463364dD53F37F601f9F23' 
+-    
+    id: 3088
+    name: http://mycrypto.bz
+    url: 'http://mycrypto.bz'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto'    
