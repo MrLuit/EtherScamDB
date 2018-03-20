@@ -20576,3 +20576,12 @@
     category: Phishing
     subcategory: Salt
     description: 'Fake SALT site promoting an .exe download'    
+-    
+    id: 3091
+    name: http://eth.altervista.org
+    url: 'http://eth.altervista.org'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0xBa25FEffe57126B503C2A313D928ee99E25884b6' 
