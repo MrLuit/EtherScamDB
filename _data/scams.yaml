@@ -20569,3 +20569,10 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x8335392FE1b236296C5D5f653264396De165e46c' 
+-    
+    id: 3090
+    name: http://top-mining.pro
+    url: 'http://top-mining.pro'
+    category: Phishing
+    subcategory: Salt
+    description: 'Fake SALT site promoting an .exe download'    
