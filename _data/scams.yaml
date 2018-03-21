@@ -20639,3 +20639,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x70E02b0509D67AdE18914729d3905994585a5087' 
+-    
+    id: 3098
+    name: http://telegram.ceo
+    url: 'http://telegram.ceo'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0xb7de9e51b7d0b7b67195bc8ad1182b7df38abb0b' 
