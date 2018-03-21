@@ -20648,3 +20648,35 @@
     description: 'Fake Telegram crowdsale site'    
     addresses:    
       - '0xb7de9e51b7d0b7b67195bc8ad1182b7df38abb0b' 
+-    
+    id: 3099
+    name: http://geth.cc 
+    url: 'http://geth.cc'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x6a0e59Af84F7a9afa5708B5E43C4845b17AedAAc' 
+-    
+    id: 3100
+    name: http://coti.cf
+    url: 'http://coti.cf'
+    category: Phishing
+    subcategory: Coti
+    description: 'Fake Coti crowdsale site'     
+-    
+    id: 3101
+    name: http://telegramnetwork.org
+    url: 'http://telegramnetwork.org'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site' 
+-    
+    id: 3102
+    name: http://ethopen.com
+    url: 'http://ethopen.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x46cD13Ad73B0260bccEc6e722c42A7b76Ae19B67' 
