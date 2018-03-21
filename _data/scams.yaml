@@ -20612,3 +20612,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x23667058d0cd398Ff8d25e015C86322644C7783D' 
+-    
+    id: 3095
+    name: http://swaapy.network
+    url: 'http://swaapy.network'
+    category: Phishing
+    subcategory: Swapy
+    description: 'Fake Swapy crowdsale site'    
+    addresses:    
+      - '0x04727c2bB15F2b83e7D3cE88B008Aa68dCCeA0C4' 
