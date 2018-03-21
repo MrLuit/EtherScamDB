@@ -20585,3 +20585,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0xBa25FEffe57126B503C2A313D928ee99E25884b6' 
+-    
+    id: 3092
+    name: http://galaxy-es0lutions.com
+    url: 'http://galaxy-es0lutions.com'
+    category: Phishing
+    subcategory: Galaxy
+    description: 'Fake Galaxy E-Solutions crowdsale site'    
+    addresses:    
+      - '0x687aE5Cc3978BC07dB0B7f4D76FbAde966cf4Ba8' 
