@@ -20657,3 +20657,10 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x6a0e59Af84F7a9afa5708B5E43C4845b17AedAAc' 
+-    
+    id: 3100
+    name: http://coti.cf
+    url: 'http://coti.cf'
+    category: Phishing
+    subcategory: Coti
+    description: 'Fake Coti crowdsale site'     
