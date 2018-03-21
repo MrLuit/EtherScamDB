@@ -20585,3 +20585,48 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0xBa25FEffe57126B503C2A313D928ee99E25884b6' 
+-    
+    id: 3092
+    name: http://galaxy-es0lutions.com
+    url: 'http://galaxy-es0lutions.com'
+    category: Phishing
+    subcategory: Galaxy
+    description: 'Fake Galaxy E-Solutions crowdsale site'    
+    addresses:    
+      - '0x687aE5Cc3978BC07dB0B7f4D76FbAde966cf4Ba8' 
+-    
+    id: 3093
+    name: http://gramnetwork.org
+    url: 'http://gramnetwork.org'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0x1e765c2fd0c3bb80d780f2b0e730b6cc3834bdfc' 
+-    
+    id: 3094
+    name: http://binance.ethdeal.info
+    url: 'http://binance.ethdeal.info'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x23667058d0cd398Ff8d25e015C86322644C7783D' 
+-    
+    id: 3095
+    name: http://swaapy.network
+    url: 'http://swaapy.network'
+    category: Phishing
+    subcategory: Swapy
+    description: 'Fake Swapy crowdsale site'    
+    addresses:    
+      - '0x04727c2bB15F2b83e7D3cE88B008Aa68dCCeA0C4' 
+-    
+    id: 3096
+    name: http://eths.bz
+    url: 'http://eths.bz'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0xDB43De62Ab5577bAb0f2AAf6Ad1a2d01Ec527426' 
