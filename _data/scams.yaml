@@ -20621,3 +20621,12 @@
     description: 'Fake Swapy crowdsale site'    
     addresses:    
       - '0x04727c2bB15F2b83e7D3cE88B008Aa68dCCeA0C4' 
+-    
+    id: 3096
+    name: http://eths.bz
+    url: 'http://eths.bz'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0xDB43De62Ab5577bAb0f2AAf6Ad1a2d01Ec527426' 
