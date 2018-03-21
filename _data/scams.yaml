@@ -20671,3 +20671,12 @@
     category: Phishing
     subcategory: Telegram
     description: 'Fake Telegram crowdsale site' 
+-    
+    id: 3102
+    name: http://ethopen.com
+    url: 'http://ethopen.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x46cD13Ad73B0260bccEc6e722c42A7b76Ae19B67' 
