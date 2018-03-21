@@ -20664,3 +20664,10 @@
     category: Phishing
     subcategory: Coti
     description: 'Fake Coti crowdsale site'     
+-    
+    id: 3101
+    name: http://telegramnetwork.org
+    url: 'http://telegramnetwork.org'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site' 
