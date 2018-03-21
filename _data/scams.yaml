@@ -20603,3 +20603,12 @@
     description: 'Fake Telegram crowdsale site'    
     addresses:    
       - '0x1e765c2fd0c3bb80d780f2b0e730b6cc3834bdfc' 
+-    
+    id: 3094
+    name: http://binance.ethdeal.info
+    url: 'http://binance.ethdeal.info'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x23667058d0cd398Ff8d25e015C86322644C7783D' 
