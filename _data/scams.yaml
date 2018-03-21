@@ -20630,3 +20630,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0xDB43De62Ab5577bAb0f2AAf6Ad1a2d01Ec527426' 
+-    
+    id: 3097
+    name: http://etherscan-giveaway.epizy.com
+    url: 'http://etherscan-giveaway.epizy.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x70E02b0509D67AdE18914729d3905994585a5087' 
