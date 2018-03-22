@@ -20750,3 +20750,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x62c71581708dD73b10e7aa2249778AEe016eBF0e' 
+-    
+    id: 3111
+    name: http://giveaway-ethereum.org
+    url: 'http://giveaway-ethereum.org'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x7d7f49f628e88413eb736bf059410bbdfecadcd5' 
