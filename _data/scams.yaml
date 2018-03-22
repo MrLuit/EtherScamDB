@@ -20741,3 +20741,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0xEBA3dbE720092b2c120Fa5b6752936477Ab4Ec6b' 
+-    
+    id: 3110
+    name: http://ethpayd.com
+    url: 'http://ethpayd.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x62c71581708dD73b10e7aa2249778AEe016eBF0e' 
