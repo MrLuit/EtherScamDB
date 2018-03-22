@@ -20698,3 +20698,21 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x508d7e3310c49188cf5c7788d3043aad80fe3656' 
+-    
+    id: 3105
+    name: http://coin-zc.com
+    url: 'http://coin-zc.com'
+    category: Phishing
+    subcategory: General
+    description: 'Getting users to install a phishing Google Chrome extension: https://twitter.com/sniko_/status/975778109294247937'    
+    addresses:    
+      - '0x540c6F30aE667319E032A8988dCB81B28a960433' 
+-    
+    id: 3106
+    name: http://xn--bitcon-mwa.com
+    url: 'http://xn--bitcon-mwa.com'
+    category: Phishing
+    subcategory: General
+    description: 'Getting users to install a phishing Google Chrome extension: https://twitter.com/sniko_/status/975778109294247937'    
+    addresses:    
+      - '0x540c6F30aE667319E032A8988dCB81B28a960433'       
