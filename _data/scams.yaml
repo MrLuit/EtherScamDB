@@ -20716,3 +20716,19 @@
     description: 'Getting users to install a phishing Google Chrome extension: https://twitter.com/sniko_/status/975778109294247937'    
     addresses:    
       - '0x540c6F30aE667319E032A8988dCB81B28a960433'       
+-    
+    id: 3107
+    name: http://metronome-token.io
+    url: 'http://metronome-token.io'
+    category: Phishing
+    subcategory: Metronome
+    description: 'Fake Metronome crowdsale site' 
+    addresses:    
+      - '0x092A334eA43C0512560f6acF301FA97805cab392'        
+-    
+    id: 3108
+    name: http://i-myetherwalnet.com
+    url: 'http://i-myetherwalnet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'    
