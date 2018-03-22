@@ -20680,3 +20680,21 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x46cD13Ad73B0260bccEc6e722c42A7b76Ae19B67' 
+-    
+    id: 3103
+    name: http://ethpayment.bitballoon.com
+    url: 'http://ethpayment.bitballoon.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x40949225c4a1745a9946F6AAf763241c082cb9ac' 
+-    
+    id: 3104
+    name: http://jsfiddle.net/coinbaseethereum/jpL9n72s/show/ 
+    url: 'http://jsfiddle.net/coinbaseethereum/jpL9n72s/show/'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x508d7e3310c49188cf5c7788d3043aad80fe3656' 
