@@ -20725,3 +20725,10 @@
     description: 'Fake Metronome crowdsale site' 
     addresses:    
       - '0x092A334eA43C0512560f6acF301FA97805cab392'        
+-    
+    id: 3108
+    name: http://i-myetherwalnet.com
+    url: 'http://i-myetherwalnet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'    
