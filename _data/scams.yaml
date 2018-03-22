@@ -20759,3 +20759,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x7d7f49f628e88413eb736bf059410bbdfecadcd5' 
+-    
+    id: 3112
+    name: http://secure-eth-transactions.bitballoon.com
+    url: 'http://secure-eth-transactions.bitballoon.com'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x645125230e924d2DB84be4cAbf946C87d5bE8935' 
