@@ -20732,3 +20732,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'    
+-    
+    id: 3109
+    name: http://ethdrop.info
+    url: 'http://ethdrop.info'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0xEBA3dbE720092b2c120Fa5b6752936477Ab4Ec6b' 
