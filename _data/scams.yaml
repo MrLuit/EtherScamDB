@@ -20805,3 +20805,10 @@
     category: Phishing
     subcategory: Binance
     description: 'Fake Binance login screen'   
+-    
+    id: 3118
+    name: http://coinnbase.tk
+    url: 'http://coinnbase.tk'
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Fake Coinbase login screen'   
