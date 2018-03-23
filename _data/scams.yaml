@@ -20858,3 +20858,12 @@
     description: 'Fake Hedera HashGraph crowdsale site'    
     addresses:    
       - '0x1e071281416B20aC2cd50D2e8093B43f8526940a' 
+-    
+    id: 3125
+    name: http://telegramsale.com
+    url: 'http://telegramsale.com'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0xb490cEC960B665B233d6666F8e2626d8bcAE5d44' 
