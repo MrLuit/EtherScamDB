@@ -20784,3 +20784,10 @@
     category: Phishing
     subcategory: Binance
     description: 'Fake Binance login screen'    
+-    
+    id: 3115
+    name: http://binancce.cf
+    url: 'http://binancce.cf'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance login screen'   
