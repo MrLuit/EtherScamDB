@@ -20826,3 +20826,10 @@
     category: Phishing
     subcategory: Coinbase
     description: 'Fake Coinbase domain'   
+-    
+    id: 3121
+    name: http://xn--bitcointlk-85a.org
+    url: 'http://xn--bitcointlk-85a.org'
+    category: Phishing
+    subcategory: Bitcointalk
+    description: 'Fake Bitcointalk domain - idn homograph attack'   
