@@ -20867,3 +20867,12 @@
     description: 'Fake Telegram crowdsale site'    
     addresses:    
       - '0xb490cEC960B665B233d6666F8e2626d8bcAE5d44' 
+-    
+    id: 3126
+    name: http://eths.vu
+    url: 'http://eths.vu'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0x48eC7767d5DeF1C1520402b092356e070C5f1adc' 
