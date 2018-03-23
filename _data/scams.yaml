@@ -20791,3 +20791,10 @@
     category: Phishing
     subcategory: Binance
     description: 'Fake Binance login screen'   
+-    
+    id: 3116
+    name: http://binaance.cf
+    url: 'http://binaance.cf'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance login screen'   
