@@ -20812,3 +20812,10 @@
     category: Phishing
     subcategory: Coinbase
     description: 'Fake Coinbase login screen'   
+-    
+    id: 3119
+    name: http://coinnbase.ml
+    url: 'http://coinnbase.ml'
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Fake Coinbase domain'   
