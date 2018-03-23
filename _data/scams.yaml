@@ -20833,3 +20833,10 @@
     category: Phishing
     subcategory: Bitcointalk
     description: 'Fake Bitcointalk domain - idn homograph attack'   
+-    
+    id: 3122
+    name: http://xn--metherwllet-ln9eqi.com
+    url: 'http://xn--metherwllet-ln9eqi.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW - IDN homograph attack'   
