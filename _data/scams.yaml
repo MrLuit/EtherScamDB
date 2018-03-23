@@ -20849,3 +20849,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x37761568AF636f074595bcE8Ed20dd5B404eD798' 
+-    
+    id: 3124
+    name: http://hederashashgraph.com
+    url: 'http://hederashashgraph.com'
+    category: Phishing
+    subcategory: Hedera
+    description: 'Fake Hedera HashGraph crowdsale site'    
+    addresses:    
+      - '0x1e071281416B20aC2cd50D2e8093B43f8526940a' 
