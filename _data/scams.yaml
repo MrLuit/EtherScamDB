@@ -20876,3 +20876,10 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x48eC7767d5DeF1C1520402b092356e070C5f1adc' 
+-    
+    id: 3127
+    name: http://nnyiictehervvailiatt.com
+    url: 'http://nnyiictehervvailiatt.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW' 
