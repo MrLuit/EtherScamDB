@@ -20876,3 +20876,37 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x48eC7767d5DeF1C1520402b092356e070C5f1adc' 
+-    
+    id: 3127
+    name: http://nnyiictehervvailiatt.com
+    url: 'http://nnyiictehervvailiatt.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW' 
+-    
+    id: 3128
+    name: http://telegram-coin.org
+    url: 'http://telegram-coin.org'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0xf17ba6d6ac0c9e691aa530482d616a4120134a17' 
+-    
+    id: 3129
+    name: http://telegram.trade
+    url: 'http://telegram.trade'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0xbc75274d1713e07df13b777c1d9067e7eb3dd885' 
+-    
+    id: 3130
+    name: http://claim.ethdeal.info
+    url: 'http://claim.ethdeal.info'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0xeF0d5aa61AF54a8d932734b3f1949bF40b873BB7' 
