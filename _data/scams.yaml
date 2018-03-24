@@ -20919,3 +20919,10 @@
     description: 'Fake Telegram crowdsale site'    
     addresses:    
       - '0x31E2f659e5371f95dE47BE79E1d5027caf0da39D' 
+-    
+    id: 3132
+    name: http://ton-telegram.com
+    url: 'http://ton-telegram.com'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
