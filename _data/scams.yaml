@@ -20933,3 +20933,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'   
+-    
+    id: 3134
+    name: http://telegra.ph/Justin-Sun-is-giving-away-20000000-TRON-TRX-03-22-2
+    url: 'http://telegra.ph/Justin-Sun-is-giving-away-20000000-TRON-TRX-03-22-2'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-Trading scam for TRX'    
+    addresses:    
+      - '0xefbb57bef8ecab67c45b5c62c5e1b7e5985478de' 
