@@ -20892,3 +20892,12 @@
     description: 'Fake Telegram crowdsale site'    
     addresses:    
       - '0xf17ba6d6ac0c9e691aa530482d616a4120134a17' 
+-    
+    id: 3129
+    name: http://telegram.trade
+    url: 'http://telegram.trade'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0xbc75274d1713e07df13b777c1d9067e7eb3dd885' 
