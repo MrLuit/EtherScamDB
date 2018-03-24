@@ -20910,3 +20910,12 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0xeF0d5aa61AF54a8d932734b3f1949bF40b873BB7' 
+-    
+    id: 3131
+    name: http://tonpublic.org
+    url: 'http://tonpublic.org'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0x31E2f659e5371f95dE47BE79E1d5027caf0da39D' 
