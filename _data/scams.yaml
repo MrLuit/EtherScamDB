@@ -20901,3 +20901,12 @@
     description: 'Fake Telegram crowdsale site'    
     addresses:    
       - '0xbc75274d1713e07df13b777c1d9067e7eb3dd885' 
+-    
+    id: 3130
+    name: http://claim.ethdeal.info
+    url: 'http://claim.ethdeal.info'
+    category: Scamming
+    subcategory: Trust-trading
+    description: 'Trust-trading scam'    
+    addresses:    
+      - '0xeF0d5aa61AF54a8d932734b3f1949bF40b873BB7' 
