@@ -20883,3 +20883,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW' 
+-    
+    id: 3128
+    name: http://telegram-coin.org
+    url: 'http://telegram-coin.org'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0xf17ba6d6ac0c9e691aa530482d616a4120134a17' 
