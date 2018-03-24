@@ -20926,3 +20926,10 @@
     category: Phishing
     subcategory: Telegram
     description: 'Fake Telegram crowdsale site'    
+-    
+    id: 3133
+    name: http://myetherwallet.heliohost.org
+    url: 'http://myetherwallet.heliohost.org'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'   
