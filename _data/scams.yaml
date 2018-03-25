@@ -20942,3 +20942,10 @@
     description: 'Trust-Trading scam for TRX'    
     addresses:    
       - '0xefbb57bef8ecab67c45b5c62c5e1b7e5985478de' 
+-    
+    id: 3135
+    name: http://blnnance.com
+    url: 'http://blnnance.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance phishing for privaye keys'  
