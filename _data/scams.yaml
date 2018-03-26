@@ -20949,3 +20949,49 @@
     category: Phishing
     subcategory: Binance
     description: 'Fake Binance phishing for privaye keys'  
+-    
+    id: 3136
+    name: http://coinmakerbot.com
+    url: 'http://coinmakerbot.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-Trading for gas for free-generated ETH'    
+    addresses:    
+      - '0xaAc6020b6216BE72Af7B3c322dd27cea257276b3'
+      - '0x94D50168D9Bc80cc39AFFbcBA8232AcD89F117A3'
+      - '0xaAc6020b6216BE72Af7B3c322dd27cea257276b3'
+      - '0x94D50168D9Bc80cc39AFFbcBA8232AcD89F117A3'
+      - '0xf3A6F2796d5B16F658431bD7A19087A37eA9fAfb'
+      - '0x94D50168D9Bc80cc39AFFbcBA8232AcD89F117A3'
+      - '0x94D50168D9Bc80cc39AFFbcBA8232AcD89F117A3'
+      - '0xf3A6F2796d5B16F658431bD7A19087A37eA9fAfb'
+      - '0xf3A6F2796d5B16F658431bD7A19087A37eA9fAfb'
+      - '0xf3A6F2796d5B16F658431bD7A19087A37eA9fAfb'
+      - '0x94D50168D9Bc80cc39AFFbcBA8232AcD89F117A3'
+-    
+    id: 3137
+    name: http://xn--aucts-1gb.org 
+    url: 'http://xn--aucts-1gb.org'
+    category: Phishing
+    subcategory: Auctus
+    description: 'Fake Auctus crowdsale site'    
+    addresses:    
+      - '0x8E3e1e3894CD4e79f46f80d4807b597876435978' 
+-    
+    id: 3138
+    name: http://auctus-ico.network
+    url: 'http://auctus-ico.network'
+    category: Phishing
+    subcategory: Auctus
+    description: 'Fake Auctus crowdsale site'    
+    addresses:    
+      - '0x8727df1be276966a408f63089b6d9dbeea66de09' 
+-    
+    id: 3139
+    name: http://auctus.org.in
+    url: 'http://auctus.org.in'
+    category: Phishing
+    subcategory: Auctus
+    description: 'Fake Auctus crowdsale site'    
+    addresses:    
+      - '0x07F101Dec7fbeE347A0f81a1c4Ca724c53d491a4' 
