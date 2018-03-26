@@ -20977,3 +20977,12 @@
     description: 'Fake Auctus crowdsale site'    
     addresses:    
       - '0x8E3e1e3894CD4e79f46f80d4807b597876435978' 
+-    
+    id: 3138
+    name: http://auctus-ico.network
+    url: 'http://auctus-ico.network'
+    category: Phishing
+    subcategory: Auctus
+    description: 'Fake Auctus crowdsale site'    
+    addresses:    
+      - '0x8727df1be276966a408f63089b6d9dbeea66de09' 
