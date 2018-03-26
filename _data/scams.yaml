@@ -20949,3 +20949,22 @@
     category: Phishing
     subcategory: Binance
     description: 'Fake Binance phishing for privaye keys'  
+-    
+    id: 3136
+    name: http://coinmakerbot.com
+    url: 'http://coinmakerbot.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-Trading for gas for free-generated ETH'    
+    addresses:    
+      - '0xaAc6020b6216BE72Af7B3c322dd27cea257276b3'
+      - '0x94D50168D9Bc80cc39AFFbcBA8232AcD89F117A3'
+      - '0xaAc6020b6216BE72Af7B3c322dd27cea257276b3'
+      - '0x94D50168D9Bc80cc39AFFbcBA8232AcD89F117A3'
+      - '0xf3A6F2796d5B16F658431bD7A19087A37eA9fAfb'
+      - '0x94D50168D9Bc80cc39AFFbcBA8232AcD89F117A3'
+      - '0x94D50168D9Bc80cc39AFFbcBA8232AcD89F117A3'
+      - '0xf3A6F2796d5B16F658431bD7A19087A37eA9fAfb'
+      - '0xf3A6F2796d5B16F658431bD7A19087A37eA9fAfb'
+      - '0xf3A6F2796d5B16F658431bD7A19087A37eA9fAfb'
+      - '0x94D50168D9Bc80cc39AFFbcBA8232AcD89F117A3'
