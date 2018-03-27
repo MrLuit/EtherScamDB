@@ -20995,3 +20995,12 @@
     description: 'Fake Auctus crowdsale site'    
     addresses:    
       - '0x07F101Dec7fbeE347A0f81a1c4Ca724c53d491a4' 
+-    
+    id: 3140
+    name: http://auctuss.org
+    url: 'http://auctuss.org'
+    category: Phishing
+    subcategory: Auctus
+    description: 'Fake Auctus crowdsale site'    
+    addresses:    
+      - '0x4ae9971e28d7f422b406ee1f3bb38e1b96637239' 
