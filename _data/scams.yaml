@@ -21105,3 +21105,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet' 
+-    
+    id: 3153
+    name: http://nnyecthenwellat.com
+    url: 'http://nnyecthenwellat.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet' 
