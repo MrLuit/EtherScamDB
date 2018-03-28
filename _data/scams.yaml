@@ -21075,3 +21075,10 @@
     description: 'Trust-trading scam site'    
     addresses:    
       - '0x710B1d822e0e5B9d55F123598f383667502c3A51'
+-    
+    id: 3149
+    name: http://www-myetherwellet.com
+    url: 'http://www-myetherwellet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet' 
