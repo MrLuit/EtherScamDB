@@ -20750,6 +20750,7 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x62c71581708dD73b10e7aa2249778AEe016eBF0e' 
+      - '0x5bea5BC53ECBBFc459ceF95b5855c47748BA3986'
 -    
     id: 3111
     name: http://giveaway-ethereum.org
@@ -21022,3 +21023,69 @@
     description: 'Trust-trading scam site'    
     addresses:    
       - '0xAba9897C9422b1C30733169D3dA7Ff83D7f23044' 
+-    
+    id: 3143
+    name: http://tronfoundation.me
+    url: 'http://tronfoundation.me'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0x474057ADF42f9F955e86aa1142740f9d7763e41E' 
+-    
+    id: 3144
+    name: http://bonus.ethersgive.com
+    url: 'http://bonus.ethersgive.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0x7083c1BB9A6D9C73Cb9B3c200e992e43Ff103462' 
+-    
+    id: 3145
+    name: http://ethgiveaway.info
+    url: 'http://ethgiveaway.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0xCa25F343893dc646a0f753581f1D8589EC34da7d' 
+-    
+    id: 3146
+    name: http://ether-zero.info
+    url: 'http://ether-zero.info'
+    category: Phishing
+    subcategory: EtherZero
+    description: 'Fake EtherZero phishing for private keys'    
+-    
+    id: 3147
+    name: http://ethg.gift
+    url: 'http://ethg.gift'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0xF487d016B2EA5beBdeeA03fA12AdCAB51237bc25' 
+-    
+    id: 3148
+    name: http://eth-today.com
+    url: 'http://eth-today.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0x710B1d822e0e5B9d55F123598f383667502c3A51'
+-    
+    id: 3149
+    name: http://www-myetherwellet.com
+    url: 'http://www-myetherwellet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet' 
+-    
+    id: 3150
+    name: http://themisnetwork.org
+    url: 'http://themisnetwork.org'
+    category: Phishing
+    subcategory: Themis
+    description: 'Fake Themis site' 
