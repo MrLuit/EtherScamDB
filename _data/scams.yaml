@@ -21032,3 +21032,12 @@
     description: 'Trust-trading scam site'    
     addresses:    
       - '0x474057ADF42f9F955e86aa1142740f9d7763e41E' 
+-    
+    id: 3144
+    name: http://bonus.ethersgive.com
+    url: 'http://bonus.ethersgive.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0x7083c1BB9A6D9C73Cb9B3c200e992e43Ff103462' 
