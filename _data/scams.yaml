@@ -21050,3 +21050,10 @@
     description: 'Trust-trading scam site'    
     addresses:    
       - '0xCa25F343893dc646a0f753581f1D8589EC34da7d' 
+-    
+    id: 3146
+    name: http://ether-zero.info
+    url: 'http://ether-zero.info'
+    category: Phishing
+    subcategory: EtherZero
+    description: 'Fake EtherZero phishing for private keys'    
