@@ -21013,3 +21013,12 @@
     description: 'Fake Auctus crowdsale site'    
     addresses:    
       - '0x0EeE28Fc966585B5848F9D65980Cb1621F9b3f8A' 
+-    
+    id: 3142
+    name: http://eths.li
+    url: 'http://eths.li'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0xAba9897C9422b1C30733169D3dA7Ff83D7f23044' 
