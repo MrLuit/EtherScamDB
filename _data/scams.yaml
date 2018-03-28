@@ -21066,3 +21066,12 @@
     description: 'Trust-trading scam site'    
     addresses:    
       - '0xF487d016B2EA5beBdeeA03fA12AdCAB51237bc25' 
+-    
+    id: 3148
+    name: http://eth-today.com
+    url: 'http://eth-today.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0x710B1d822e0e5B9d55F123598f383667502c3A51'
