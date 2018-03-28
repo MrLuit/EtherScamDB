@@ -21082,3 +21082,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet' 
+-    
+    id: 3150
+    name: http://themisnetwork.org
+    url: 'http://themisnetwork.org'
+    category: Phishing
+    subcategory: Themis
+    description: 'Fake Themis site' 
