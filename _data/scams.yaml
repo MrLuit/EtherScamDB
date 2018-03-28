@@ -21098,3 +21098,10 @@
     description: 'Fake Shivom crowdsale site'    
     addresses:    
       - '0xE886BfCfa373C17dBC07c7B73f1d368339ac5Dfd'
+-    
+    id: 3152
+    name: http://nnyiicteherwailiatt.com
+    url: 'http://nnyiicteherwailiatt.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet' 
