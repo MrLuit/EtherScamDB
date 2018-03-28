@@ -21022,3 +21022,12 @@
     description: 'Trust-trading scam site'    
     addresses:    
       - '0xAba9897C9422b1C30733169D3dA7Ff83D7f23044' 
+-    
+    id: 3143
+    name: http://tronfoundation.me
+    url: 'http://tronfoundation.me'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0x474057ADF42f9F955e86aa1142740f9d7763e41E' 
