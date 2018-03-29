@@ -21128,3 +21128,10 @@
     category: Phishing
     subcategory: Telegram
     description: 'Suspect telegram crowdsale domain'    
+-    
+    id: 3156
+    name: http://vechain-ven.com
+    url: 'http://vechain-ven.com'
+    category: Phishing
+    subcategory: Vechain
+    description: 'Scam webwallet'    
