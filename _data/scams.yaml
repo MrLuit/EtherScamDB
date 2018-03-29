@@ -21144,3 +21144,12 @@
     description: 'Trust-trading scam site'    
     addresses:    
       - '0x97b57Ad033d354557bdE36bd9a418E80d8D962bC'
+-    
+    id: 3158
+    name: http://ethg.cz
+    url: 'http://ethg.cz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0x831Ee6BaF32C7F558d90dD8F16A45e2928c23131'
