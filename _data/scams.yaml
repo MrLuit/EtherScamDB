@@ -21112,3 +21112,60 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet' 
+-    
+    id: 3154
+    name: http://ethr.cc
+    url: 'http://ethr.cc'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0x679C34C26E7841b9Fc0ce0ff40579219EE3a1ED6'
+-    
+    id: 3155
+    name: http://tokensale-telegram.com
+    url: 'http://tokensale-telegram.com'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Suspect telegram crowdsale domain'    
+-    
+    id: 3156
+    name: http://vechain-ven.com
+    url: 'http://vechain-ven.com'
+    category: Phishing
+    subcategory: Vechain
+    description: 'Scam webwallet'    
+-    
+    id: 3157
+    name: http://crypto-payout.tk
+    url: 'http://crypto-payout.tk'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0x97b57Ad033d354557bdE36bd9a418E80d8D962bC'
+-    
+    id: 3158
+    name: http://ethg.cz
+    url: 'http://ethg.cz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0x831Ee6BaF32C7F558d90dD8F16A45e2928c23131'
+-    
+    id: 3159
+    name: http://dailyinequality.org
+    url: 'http://dailyinequality.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0x40949225c4a1745a9946F6AAf763241c082cb9ac'
+-    
+    id: 3160
+    name: http://coinnbase.com
+    url: 'http://coinnbase.com'
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Phishing for private keys: https://deeponion.org/community/threads/phishing-scam-coinbase-importing-erc20-tokens.33950/'    
