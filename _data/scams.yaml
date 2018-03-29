@@ -21121,3 +21121,10 @@
     description: 'Trust-trading scam site'    
     addresses:    
       - '0x679C34C26E7841b9Fc0ce0ff40579219EE3a1ED6'
+-    
+    id: 3155
+    name: http://tokensale-telegram.com
+    url: 'http://tokensale-telegram.com'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Suspect telegram crowdsale domain'    
