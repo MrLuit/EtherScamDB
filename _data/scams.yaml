@@ -21112,3 +21112,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet' 
+-    
+    id: 3154
+    name: http://ethr.cc
+    url: 'http://ethr.cc'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0x679C34C26E7841b9Fc0ce0ff40579219EE3a1ED6'
