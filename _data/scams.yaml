@@ -21184,3 +21184,10 @@
     description: 'Trust-trading scam site'    
     addresses:    
       - '0x5dfAE1C25EC5232F1D725d5265ceDDD7102BE5B4'
+-    
+    id: 3163
+    name: http://xn--mytherwalet-3qb10c.com
+    url: 'http://xn--mytherwalet-3qb10c.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack - phishing email regarding casper network' 
