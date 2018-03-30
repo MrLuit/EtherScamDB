@@ -21212,3 +21212,10 @@
     category: Phishing
     subcategory: Telegram
     description: 'Fake Telegram crowdsale site - suspected address: 0xfD684Df5ED6bFf686Ef5b5E1B959eb94c687c78E'
+-    
+    id: 3167
+    name: http://kinecosystem.net
+    url: 'http://kinecosystem.net'
+    category: Phishing
+    subcategory: Kin
+    description: 'Fake airdrop phishing for private keys'
