@@ -21226,3 +21226,10 @@
     category: Scamming
     subcategory: Coinbase
     description: 'Fake coinbase support channel'
+-    
+    id: 3169
+    name: http://coinbasehelp.info
+    url: 'http://coinbasehelp.info'
+    category: Scamming
+    subcategory: Coinbase
+    description: 'Fake coinbase support channel'
