@@ -21191,3 +21191,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - IDN homograph attack - phishing email regarding casper network' 
+-    
+    id: 3164
+    name: http://wax.community
+    url: 'http://wax.community'
+    category: Phishing
+    subcategory: Wax
+    description: 'Fake airdrop phishing for private keys'
