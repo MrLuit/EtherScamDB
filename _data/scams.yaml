@@ -21198,3 +21198,10 @@
     category: Phishing
     subcategory: Wax
     description: 'Fake airdrop phishing for private keys'
+-    
+    id: 3165
+    name: http://telcoinairdrop.com
+    url: 'http://telcoinairdrop.com'
+    category: Phishing
+    subcategory: Tel
+    description: 'Fake airdrop phishing for private keys'
