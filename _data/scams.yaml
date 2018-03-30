@@ -21240,3 +21240,10 @@
     category: Scamming
     subcategory: Coinbase
     description: 'Scam web wallet'
+-    
+    id: 3171
+    name: http://gdaxsupport.com
+    url: 'http://gdaxsupport.com'
+    category: Scamming
+    subcategory: Gdax
+    description: 'Fake Gdax support channel'
