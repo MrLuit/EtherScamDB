@@ -21233,3 +21233,10 @@
     category: Scamming
     subcategory: Coinbase
     description: 'Fake coinbase support channel'
+-    
+    id: 3170
+    name: http://coinbaseexchange.org
+    url: 'http://coinbaseexchange.org'
+    category: Scamming
+    subcategory: Coinbase
+    description: 'Scam web wallet'
