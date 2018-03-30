@@ -21254,3 +21254,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'     
+-    
+    id: 3173
+    name: http://mynbethernvwallet.com
+    url: 'http://mynbethernvwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'  
