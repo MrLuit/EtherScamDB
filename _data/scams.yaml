@@ -21219,3 +21219,10 @@
     category: Phishing
     subcategory: Kin
     description: 'Fake airdrop phishing for private keys'
+-    
+    id: 3168
+    name: http://coinbaseassist.info
+    url: 'http://coinbaseassist.info'
+    category: Scamming
+    subcategory: Coinbase
+    description: 'Fake coinbase support channel'
