@@ -21175,3 +21175,40 @@
     url: 'https://xn--mercadobtcon-mfbd.com'
     category: Phishing
     description: 'Phishing for accout details for MercadoBitcoin users'    
+-    
+    id: 3162
+    name: http://ethgiveaway.club
+    url: 'http://ethgiveaway.club'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0x5dfAE1C25EC5232F1D725d5265ceDDD7102BE5B4'
+-    
+    id: 3163
+    name: http://xn--mytherwalet-3qb10c.com
+    url: 'http://xn--mytherwalet-3qb10c.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack - phishing email regarding casper network' 
+-    
+    id: 3164
+    name: http://wax.community
+    url: 'http://wax.community'
+    category: Phishing
+    subcategory: Wax
+    description: 'Fake airdrop phishing for private keys'
+-    
+    id: 3165
+    name: http://telcoinairdrop.com
+    url: 'http://telcoinairdrop.com'
+    category: Phishing
+    subcategory: Tel
+    description: 'Fake airdrop phishing for private keys'
+-    
+    id: 3166
+    name: http://telegramtoken.global
+    url: 'http://telegramtoken.global'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site - suspected address: 0xfD684Df5ED6bFf686Ef5b5E1B959eb94c687c78E'
