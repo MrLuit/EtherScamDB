@@ -21205,3 +21205,10 @@
     category: Phishing
     subcategory: Tel
     description: 'Fake airdrop phishing for private keys'
+-    
+    id: 3166
+    name: http://telegramtoken.global
+    url: 'http://telegramtoken.global'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site - suspected address: 0xfD684Df5ED6bFf686Ef5b5E1B959eb94c687c78E'
