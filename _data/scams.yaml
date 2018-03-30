@@ -21247,3 +21247,17 @@
     category: Scamming
     subcategory: Gdax
     description: 'Fake Gdax support channel'
+-    
+    id: 3172
+    name: http://myehcrwalilet.com
+    url: 'http://myehcrwalilet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'     
+-    
+    id: 3173
+    name: http://mynbethernvwallet.com
+    url: 'http://mynbethernvwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'  
