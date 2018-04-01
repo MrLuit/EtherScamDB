@@ -21277,3 +21277,10 @@
     description: 'Trust-trading scam site'    
     addresses:    
       - '0xee14140f20fb737809ca206c238382b3f802ca6c'
+-    
+    id: 3176
+    name: http://signalsx.com
+    url: 'http://signalsx.com'
+    category: Phishing
+    subcategory: Polyswarm
+    description: 'Copied Polyswarm site but just renamed it'  
