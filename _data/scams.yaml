@@ -21268,3 +21268,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'  
+-    
+    id: 3175
+    name: http://eth-gift.tw1.su
+    url: 'http://eth-gift.tw1.su'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0xee14140f20fb737809ca206c238382b3f802ca6c'
