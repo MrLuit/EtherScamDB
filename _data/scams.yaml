@@ -21261,3 +21261,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'  
+-    
+    id: 3174
+    name: http://myetnarvellat.com
+    url: 'http://myetnarvellat.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'  
