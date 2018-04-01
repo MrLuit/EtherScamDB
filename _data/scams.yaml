@@ -21284,3 +21284,12 @@
     category: Phishing
     subcategory: Polyswarm
     description: 'Copied Polyswarm site but just renamed it'  
+-    
+    id: 3177
+    name: http://cz-binance.com
+    url: 'http://cz-binance.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0x049b01966f721db6EC76097043e9D6ecCaF719B6'
