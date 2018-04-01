@@ -1,0 +1,47 @@
+<link rel="stylesheet" href="../../css/scam.css">
+<div id="sharemodal" class="ui tiny modal">
+    <i class="close icon"></i>
+    <div class="header">
+        Share
+    </div>
+    <div class="content">
+        <p>Copy the following url to share with other people:</p>
+        <div class="ui input"><input id="shr" readonly="readonly" type="text"></div>
+    </div>
+    <div class="actions">
+        <div class="ui negative icon button">
+            <i class="remove icon"></i> Cancel
+        </div>
+        <div onclick="copyshr()" class="ui primary icon button">
+            <i class="copy icon"></i> Copy
+        </div>
+    </div>
+</div>
+<div id="abusemodal" class="ui small modal">
+    <i class="close icon"></i>
+    <div class="header">
+        Abuse Report
+    </div>
+    <div class="content">
+        <div class="ui form">
+            <div class="field">
+                <textarea id="abuse">{{ scam.abusereport }}</textarea>
+            </div>
+        </div>
+    </div>
+    <div class="actions">
+        <div class="ui negative icon button">
+            <i class="remove icon"></i> Cancel
+        </div>
+        <div onclick="copyabuse()" class="ui primary icon button">
+            <i class="copy icon"></i> Copy
+        </div>
+    </div>
+</div>
+<div class="ui grid">
+    <div class="eight wide column"><h1>404 - Record does not exist</h1></div>
+    <div id="actions" class="eight wide column">
+    </div>
+</div>
+
+<p>Sorry, but this record cannot be found.</p>

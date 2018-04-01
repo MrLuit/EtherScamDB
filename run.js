@@ -362,6 +362,12 @@ function startWebServer() {
         let scam = getCache().scams.find(function(scam) {
             return scam.id == req.params.id;
         });
+
+        if(typeof scam === "undefined") {
+            let template = fs.readFileSync('./_layouts/no-scam-found.html', 'utf8');
+            res.send(default_template.replace('{{ content }}', template));
+        }
+
         let template = fs.readFileSync('./_layouts/scam.html', 'utf8');
         var actions_text = "";
         template = template.replace("{{ scam.id }}", scam.id);
