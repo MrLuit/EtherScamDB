@@ -21293,3 +21293,12 @@
     description: 'Trust-trading scam site'    
     addresses:    
       - '0x049b01966f721db6EC76097043e9D6ecCaF719B6'
+-    
+    id: 3178
+    name: mailto:nsdmilea@gmail.com
+    url: 'mailto:nsdmilea@gmail.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam email'    
+    addresses:    
+      - '0x9f4562c9be26c7020909b50ccde3447f1b8c4b21'
