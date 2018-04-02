@@ -21350,3 +21350,10 @@
     category: Phishing
     subcategory: Bluzelle
     description: 'Fake Bluzelle airdrop site phishing for private keys' 
+-    
+    id: 3185
+    name: http://myunetherhawallet.com
+    url: 'http://myunetherhawallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet' 
