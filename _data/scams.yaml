@@ -21318,3 +21318,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW - IDN homograph attack'
+-    
+    id: 31781
+    name: http://eth.vu
+    url: 'http://eth.vu'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0xe344e4B209E8EAbAa2A6ddd1B0Aa120B7599Af25'
