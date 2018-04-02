@@ -21364,3 +21364,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'
+-    
+    id: 3187
+    name: http://payforfees.online
+    url: 'http://payforfees.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0x8A04B6a0223aF79e4aCC0a55c7B166Fe0794269a'
