@@ -21343,3 +21343,10 @@
     category: Phishing
     subcategory: Tron
     description: 'Fake Tron airdrop site phishing for private keys'  
+-    
+    id: 3184
+    name: http://airdrop-bluzelle.com
+    url: 'http://airdrop-bluzelle.com'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle airdrop site phishing for private keys' 
