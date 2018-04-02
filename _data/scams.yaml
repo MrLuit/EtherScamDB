@@ -21302,3 +21302,12 @@
     description: 'Trust-trading scam email'    
     addresses:    
       - '0x9f4562c9be26c7020909b50ccde3447f1b8c4b21'
+-    
+    id: 3179
+    name: http://get-eth.pl
+    url: 'http://get-eth.pl'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0xAba9897C9422b1C30733169D3dA7Ff83D7f23044'
