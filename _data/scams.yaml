@@ -21357,3 +21357,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet' 
+-    
+    id: 3186
+    name: http://nnyctncrwaillet.com
+    url: 'http://nnyctncrwaillet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
