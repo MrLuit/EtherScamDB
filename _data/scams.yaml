@@ -21343,3 +21343,24 @@
     category: Phishing
     subcategory: Tron
     description: 'Fake Tron airdrop site phishing for private keys'  
+-    
+    id: 3184
+    name: http://airdrop-bluzelle.com
+    url: 'http://airdrop-bluzelle.com'
+    category: Phishing
+    subcategory: Bluzelle
+    description: 'Fake Bluzelle airdrop site phishing for private keys' 
+-    
+    id: 3185
+    name: http://myunetherhawallet.com
+    url: 'http://myunetherhawallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet' 
+-    
+    id: 3186
+    name: http://nnyctncrwaillet.com
+    url: 'http://nnyctncrwaillet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
