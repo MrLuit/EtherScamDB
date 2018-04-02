@@ -21311,3 +21311,10 @@
     description: 'Trust-trading scam site'    
     addresses:    
       - '0xAba9897C9422b1C30733169D3dA7Ff83D7f23044'
+-    
+    id: 3180
+    name: http://xn--myeterallet-nl8eo0c.com
+    url: 'http://xn--myeterallet-nl8eo0c.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW - IDN homograph attack'
