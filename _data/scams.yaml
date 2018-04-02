@@ -21336,3 +21336,10 @@
     description: 'Trust-trading scam site'    
     addresses:    
       - '0x860f3b648111294346897c6a8309ffbf22265526'
+-    
+    id: 3183
+    name: http://tronfoundation.tech
+    url: 'http://tronfoundation.tech'
+    category: Phishing
+    subcategory: Tron
+    description: 'Fake Tron airdrop site phishing for private keys'  
