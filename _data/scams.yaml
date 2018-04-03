@@ -21382,3 +21382,12 @@
     description: 'Fake Dfinity crowdsale site'    
     addresses:    
       - '0xA95391C51788f884BECA472bf71Cdb000a2eEd65'
+-    
+    id: 3189
+    name: http://cryptoplus.be
+    url: 'http://cryptoplus.be'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0x8D551F2a2d0908854e0E030564261c9Ff2E8dd56'
