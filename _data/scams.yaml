@@ -21531,3 +21531,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'      
+-    
+    id: 3208
+    name: http://mycrypto.company
+    url: 'http://mycrypto.company'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto'    
