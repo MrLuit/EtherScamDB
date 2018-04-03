@@ -21391,3 +21391,12 @@
     description: 'Trust-trading scam site'    
     addresses:    
       - '0x8D551F2a2d0908854e0E030564261c9Ff2E8dd56'
+-    
+    id: 3190
+    name: http://ethdropnew.ml
+    url: 'http://ethdropnew.ml'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0x681a36B6f411d10d78FE8446118A4DDaE489e8b1'
