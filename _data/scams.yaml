@@ -21382,3 +21382,82 @@
     description: 'Fake Dfinity crowdsale site'    
     addresses:    
       - '0xA95391C51788f884BECA472bf71Cdb000a2eEd65'
+-    
+    id: 3189
+    name: http://cryptoplus.be
+    url: 'http://cryptoplus.be'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0x8D551F2a2d0908854e0E030564261c9Ff2E8dd56'
+-    
+    id: 3190
+    name: http://ethdropnew.ml
+    url: 'http://ethdropnew.ml'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0x681a36B6f411d10d78FE8446118A4DDaE489e8b1'
+-    
+    id: 3191
+    name: http://tron-giveavay-weeklyreport.bitballoon.com
+    url: 'http://tron-giveavay-weeklyreport.bitballoon.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0xd71bFDfD1Cf3F6C1Dbb1040ef08cF7B067f9165f'
+-    
+    id: 3192
+    name: http://myegethercowwallet.com
+    url: 'http://myegethercowwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'   
+-    
+    id: 3193
+    name: http://eth-give.kissr.com
+    url: 'http://eth-give.kissr.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0x0D202934Db48341adFe26812A1d8731383B065B3'
+-    
+    id: 3194
+    name: http://tonogram.org
+    url: 'http://tonogram.org'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0x32672Bd5F7F68CcAE5e23986A11F89b51016145e'
+-    
+    id: 3195
+    name: http://gram-token.org
+    url: 'http://gram-token.org'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0xDA7A139e03FE696B760aF98F9df89466077BC12E'
+-    
+    id: 3196
+    name: http://mailingserver2.com
+    url: 'http://mailingserver2.com'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0xDA7A139e03FE696B760aF98F9df89466077BC12E'
+-    
+    id: 3197
+    name: http://ico-telegram-ton.com.ru
+    url: 'http://ico-telegram-ton.com.ru'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0x2ea8449B6561E6fD33671177cc6525F163326aC3'
