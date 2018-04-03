@@ -21409,3 +21409,10 @@
     description: 'Trust-trading scam site'    
     addresses:    
       - '0xd71bFDfD1Cf3F6C1Dbb1040ef08cF7B067f9165f'
+-    
+    id: 3192
+    name: http://myegethercowwallet.com
+    url: 'http://myegethercowwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'   
