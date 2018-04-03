@@ -21416,3 +21416,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW'   
+-    
+    id: 3193
+    name: http://eth-give.kissr.com
+    url: 'http://eth-give.kissr.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site'    
+    addresses:    
+      - '0x0D202934Db48341adFe26812A1d8731383B065B3'
