@@ -21443,3 +21443,12 @@
     description: 'Fake Telegram crowdsale site'    
     addresses:    
       - '0xDA7A139e03FE696B760aF98F9df89466077BC12E'
+-    
+    id: 3196
+    name: http://mailingserver2.com
+    url: 'http://mailingserver2.com'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0xDA7A139e03FE696B760aF98F9df89466077BC12E'
