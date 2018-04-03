@@ -21452,3 +21452,12 @@
     description: 'Fake Telegram crowdsale site'    
     addresses:    
       - '0xDA7A139e03FE696B760aF98F9df89466077BC12E'
+-    
+    id: 3197
+    name: http://ico-telegram-ton.com.ru
+    url: 'http://ico-telegram-ton.com.ru'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0x2ea8449B6561E6fD33671177cc6525F163326aC3'
