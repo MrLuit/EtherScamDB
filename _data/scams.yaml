@@ -21373,3 +21373,12 @@
     description: 'Trust-trading scam site'    
     addresses:    
       - '0x8A04B6a0223aF79e4aCC0a55c7B166Fe0794269a'
+-    
+    id: 3188
+    name: http://dfinity.org.in
+    url: 'http://dfinity.org.in'
+    category: Phishing
+    subcategory: Dfinity
+    description: 'Fake Dfinity crowdsale site'    
+    addresses:    
+      - '0xA95391C51788f884BECA472bf71Cdb000a2eEd65'
