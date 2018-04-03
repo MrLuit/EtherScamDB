@@ -21425,3 +21425,12 @@
     description: 'Trust-trading scam site'    
     addresses:    
       - '0x0D202934Db48341adFe26812A1d8731383B065B3'
+-    
+    id: 3194
+    name: http://tonogram.org
+    url: 'http://tonogram.org'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0x32672Bd5F7F68CcAE5e23986A11F89b51016145e'
