@@ -21461,3 +21461,73 @@
     description: 'Fake Telegram crowdsale site'    
     addresses:    
       - '0x2ea8449B6561E6fD33671177cc6525F163326aC3'
+-    
+    id: 3198
+    name: http://myetheurwallet.com
+    url: 'http://myetheurwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW' 
+-    
+    id: 3199
+    name: http://nnyctncrvvallet.com
+    url: 'http://nnyctncrvvallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW' 
+-    
+    id: 3200
+    name: http://nnyctncrwalliet.com
+    url: 'http://nnyctncrwalliet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'   
+-    
+    id: 3201
+    name: http://myuuetheraswallet.com
+    url: 'http://myuuetheraswallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'   
+-    
+    id: 3202
+    name: http://myotherapywallet.com
+    url: 'http://myotherapywallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'      
+-    
+    id: 3203
+    name: http://mybethernvwallet.com
+    url: 'http://mybethernvwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'         
+-    
+    id: 3204
+    name: http://myetherapywalliet.com
+    url: 'http://myetherapywalliet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'    
+-    
+    id: 3205
+    name: http://myetherapywallet.com
+    url: 'http://myetherapywallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'     
+-    
+    id: 3206
+    name: http://myetherapywalilet.com
+    url: 'http://myetherapywalilet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'   
+-    
+    id: 3207
+    name: http://myetherapywaillet.com
+    url: 'http://myetherapywaillet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'      
