@@ -21608,3 +21608,10 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x216DC48F74bAcC2A1ae7c064FD22cb542a70088E'
+-    
+    id: 3217
+    name: http://mycrypto.company
+    url: 'http://mycrypto.company'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto'   
