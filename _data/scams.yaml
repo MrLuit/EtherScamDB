@@ -21583,3 +21583,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xf985aa8117999fa3f0f9e71a20d0fe7b88b9d706'
+-    
+    id: 3214
+    name: http://ethn.vu
+    url: 'http://ethn.vu'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x4c6Bad785Ffcf6c0746F53DBcAC9c5e877F75bfa'
