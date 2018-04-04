@@ -21540,3 +21540,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x787e8f0e406cb71a22fd2023316f231d0311b14f'
+-    
+    id: 3209
+    name: http://etherpromo.online
+    url: 'http://etherpromo.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xF487d016B2EA5beBdeeA03fA12AdCAB51237bc25'
