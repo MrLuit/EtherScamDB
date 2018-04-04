@@ -21558,3 +21558,10 @@
     description: 'Fake Dfinity crowdsale site'    
     addresses:    
       - '0x79aA79116c24A715b5eb1287AF8A16201450C895'
+-    
+    id: 3211
+    name: http://ethgift.info
+    url: 'http://ethgift.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Suspected address: 0x713EA0A714CfdC3ED7D0d39A7732fc4293DA1F81'    
