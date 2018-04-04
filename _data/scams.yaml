@@ -21642,3 +21642,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x4ae9971e28d7f422b406ee1f3bb38e1b96637239'
+-    
+    id: 3221
+    name: http://gramtokenico.com
+    url: 'http://gramtokenico.com'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0xdDb690eF629a2e9277808c25EB5f9259d939Da'
