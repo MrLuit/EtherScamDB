@@ -21624,3 +21624,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x83ec306df6BEe5320cF6a57A52ff732791c65B47'
+-    
+    id: 3219
+    name: http://ethereums-promo.bitballoon.com
+    url: 'http://ethereums-promo.bitballoon.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x83ec306df6BEe5320cF6a57A52ff732791c65B47'
