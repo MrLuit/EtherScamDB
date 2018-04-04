@@ -21574,3 +21574,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x17897C5c38362D8F620E70FEE0Adba109Af5DB2d'
+-    
+    id: 3213
+    name: http://etherpromo.org
+    url: 'http://etherpromo.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xf985aa8117999fa3f0f9e71a20d0fe7b88b9d706'
