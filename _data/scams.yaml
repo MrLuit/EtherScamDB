@@ -21615,3 +21615,12 @@
     category: Phishing
     subcategory: MyCrypto
     description: 'Fake MyCrypto'   
+-    
+    id: 3218
+    name: http://ethereum-promo2018.bitballoon.com
+    url: 'http://ethereum-promo2018.bitballoon.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x83ec306df6BEe5320cF6a57A52ff732791c65B47'
