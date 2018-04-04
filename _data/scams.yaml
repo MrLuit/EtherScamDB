@@ -21549,3 +21549,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xF487d016B2EA5beBdeeA03fA12AdCAB51237bc25'
+-    
+    id: 3210
+    name: http://tokenpublicsale.com
+    url: 'http://tokenpublicsale.com'
+    category: Phishing
+    subcategory: Dfinity
+    description: 'Fake Dfinity crowdsale site'    
+    addresses:    
+      - '0x79aA79116c24A715b5eb1287AF8A16201450C895'
