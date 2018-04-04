@@ -21599,3 +21599,12 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site. Suspected address: 0xe00e1f7117a69c34694ac1815177c93491fc448f' 
+-    
+    id: 3216
+    name: http://ethpromo.com
+    url: 'http://ethpromo.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x216DC48F74bAcC2A1ae7c064FD22cb542a70088E'
