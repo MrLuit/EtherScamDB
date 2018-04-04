@@ -21565,3 +21565,12 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site. Suspected address: 0x713EA0A714CfdC3ED7D0d39A7732fc4293DA1F81'    
+-    
+    id: 3212
+    name: http://ethpay.site
+    url: 'http://ethpay.site'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x17897C5c38362D8F620E70FEE0Adba109Af5DB2d'
