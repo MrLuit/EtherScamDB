@@ -21592,3 +21592,10 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x4c6Bad785Ffcf6c0746F53DBcAC9c5e877F75bfa'
+-    
+    id: 3215
+    name: http://free-ethereum.czweb.org
+    url: 'http://free-ethereum.czweb.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Suspected address: 0xe00e1f7117a69c34694ac1815177c93491fc448f' 
