@@ -7,7 +7,7 @@ function hideEverything() {
 
 window.addEventListener("load", function() {
     $('.ui.button').click(function() {
-        $.getJSON("/api/check/" + encodeURIComponent($("input").val()), function(result) {
+        $.getJSON("/api/check/" + encodeURIComponent($("input").val().toLowerCase()), function(result) {
             if (result.result == 'verified') {
                 hideEverything();
                 $("#verified").css('display', 'flex');
@@ -27,7 +27,7 @@ window.addEventListener("load", function() {
 				} else if(result.type == 'ip') {
 					 $("#blacklistmessage").html('This ip address was put on the blacklist and is associated with '+ result.entries.length +' blocked domain(s)');
 					 strLink = '<a id="details" href="/ip/' + result.input + '">Details <i class="chevron right small icon"></i></a>';
-				} 
+				}
                 $("#blacklistmessage").html($("#blacklistmessage").html() + ' ' + strLink);
                 $("#blocked").css('display', 'flex');
             }
