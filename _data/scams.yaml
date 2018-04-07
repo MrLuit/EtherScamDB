@@ -21660,3 +21660,12 @@
     description: 'Fake Centra tech refund site - send CTR tokens to get a refund'    
     addresses:    
       - '0x87b4eed5a781d8b847645082410070f002b41e13'
+-    
+    id: 3223
+    name: http://check-ethpayments.kissr.com
+    url: 'http://check-ethpayments.kissr.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x17935DFFbC228397d2f5a67061867804cEcacaE8'
