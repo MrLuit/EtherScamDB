@@ -21710,3 +21710,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xf6f902e60c8825662AdC5693746BcCcd866e90cB'
+-    
+    id: 3229
+    name: http://dfnity.org
+    url: 'http://dfnity.org'
+    category: Phishing
+    subcategory: Dfinity
+    description: 'Fake Dfinity crowdsale site'    
+    addresses:    
+      - '0xE4b332Ec1fADf68f4243c077ECE24f0448e063bE'
