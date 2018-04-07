@@ -21678,3 +21678,10 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x474057ADF42f9F955e86aa1142740f9d7763e41E'
+-    
+    id: 3225
+    name: http://gramfoundation.io
+    url: 'http://gramfoundation.io'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
