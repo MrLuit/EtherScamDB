@@ -21694,3 +21694,10 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xF487d016B2EA5beBdeeA03fA12AdCAB51237bc25'
+-    
+    id: 3227
+    name: http://meythapvettal.com
+    url: 'http://meythapvettal.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW'    
