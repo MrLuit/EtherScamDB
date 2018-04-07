@@ -21719,3 +21719,12 @@
     description: 'Fake Dfinity crowdsale site'    
     addresses:    
       - '0xE4b332Ec1fADf68f4243c077ECE24f0448e063bE'
+-    
+    id: 3230
+    name: http://ethc.gift
+    url: 'http://ethc.gift'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x73f7B2257C688677fF9Cc7BDd2D05e5076E0AE42'
