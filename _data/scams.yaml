@@ -21651,3 +21651,12 @@
     description: 'Fake Telegram crowdsale site'    
     addresses:    
       - '0xdDb690eF629a2e9277808c25EB5f9259d939Dac7'
+-    
+    id: 3222
+    name: http://centratoken.site
+    url: 'http://centratoken.site'
+    category: Phishing
+    subcategory: Centra
+    description: 'Fake Centra tech refund site - send CTR tokens to get a refund'    
+    addresses:    
+      - '0x87b4eed5a781d8b847645082410070f002b41e13'
