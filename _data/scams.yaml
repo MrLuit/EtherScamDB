@@ -21701,3 +21701,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW - suspected address: 0x2a5B8e165BcAe0e6e1524e9966a20B0631Ee8bbf'    
+-    
+    id: 3228
+    name: http://coinbase.droppages.com
+    url: 'http://coinbase.droppages.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xf6f902e60c8825662AdC5693746BcCcd866e90cB'
