@@ -21728,3 +21728,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x73f7B2257C688677fF9Cc7BDd2D05e5076E0AE42'
+-    
+    id: 3231
+    name: telegra.ph/Bittrex-giving-away-5000-Ethereum-ETH-03-26
+    url: 'http://telegra.ph/Bittrex-giving-away-5000-Ethereum-ETH-03-26'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x25f754ade28ec1ed771ee22efeaed764847181e3'
