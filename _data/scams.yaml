@@ -21798,3 +21798,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x7C14369F68d7812C105a597Beb13FF8dA64520c5'       
+-    
+    id: 3239
+    name: hederahashgraph.tokencrowdsale.info
+    url: 'http://hederahashgraph.tokencrowdsale.info'
+    category: Phishing
+    subcategory: Hedera
+    description: 'Fake Hedera crowdsale site'    
+    addresses:    
+      - '0x311c65dCBE025eaD81CaB2925b81489123Ce2EdA' 
