@@ -21737,3 +21737,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x25f754ade28ec1ed771ee22efeaed764847181e3'
+-    
+    id: 3232
+    name: free-5000eth.com
+    url: 'http://free-5000eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xb1FaCA3Ef83134815C3e28899Cb132e019EB6616'
