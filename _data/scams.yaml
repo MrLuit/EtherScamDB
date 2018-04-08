@@ -21755,3 +21755,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x319Ce3233D17b45d49AAa9414F154832d0F9Aa61'
+-    
+    id: 3234
+    name: ethereumpromo.info
+    url: 'http://ethereumpromo.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x40afc43212F407FA717AB3315b37b6Cb3480C23c'
