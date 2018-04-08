@@ -21764,3 +21764,37 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x40afc43212F407FA717AB3315b37b6Cb3480C23c'
+-    
+    id: 3235
+    name: ethergiftwallet.com
+    url: 'http://ethergiftwallet.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+-    
+    id: 3236
+    name: ethpromo.gift
+    url: 'http://ethpromo.gift'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x6a13e6d0251fba7b474cf4468aa157ee0c6a736c'    
+-    
+    id: 3237
+    name: giveaway-ethereum.com
+    url: 'http://giveaway-ethereum.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xf8178B379Ec4Fd758230D28c55c89c064708DFE5'   
+-    
+    id: 3238
+    name: giveawayether.com
+    url: 'http://giveawayether.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x7C14369F68d7812C105a597Beb13FF8dA64520c5'       
