@@ -22085,3 +22085,65 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x36f1E58458c073De491f4e0627140BcE19976Aa4'          
+-    
+    id: 3272
+    name: eth-give-away.webz.cz
+    url: 'http://eth-give-away.webz.cz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xe00e1f7117a69C34694ac1815177C93491fC448f' 
+-    
+    id: 3273
+    name: icontoken.foundation
+    url: 'http://icontoken.foundation'
+    category: Phishing
+    subcategory: Icon
+    description: 'Fake ICON airdrop phishing for private keys'    
+-    
+    id: 3274
+    name: ico-telegram.money
+    url: 'http://ico-telegram.money'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Suspicious telegram ico domain (fake crowdsale domain)'  
+-    
+    id: 3275
+    name: telegram-ico.tech
+    url: 'http://telegram-ico.tech'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Suspicious telegram ico domain (fake crowdsale domain)' 
+-
+    id: 3276
+    name: io-eos.com
+    url: 'http://io-eos.com/'
+    category: Scamming
+    subcategory: WebWallet
+    description: 'Scam web wallet targetting EOS holders. Suspected address: 0x536de519a2ab6fd0cc8055e5119b3c2a8dd2464b'     
+-
+    id: 3277
+    name: etherscans.net
+    url: 'http://etherscans.net/'
+    category: Scamming
+    subcategory: Etherscan
+    description: 'Fake Etherscan used by trust-trading sites to show outgoing transactions' 
+-    
+    id: 3278
+    name: gram-ico.io
+    url: 'http://gram-ico.io'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0x5E1A96f0f4965edff7374c327e14241Bd129301d' 
+-    
+    id: 3279
+    name: eth-giveaway.trade
+    url: 'http://eth-giveaway.trade'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x8c155c3F4c79485DBB0eEF5b4076FD426b3f8c65' 
