@@ -22101,3 +22101,10 @@
     category: Phishing
     subcategory: Icon
     description: 'Fake ICON airdrop phishing for private keys'    
+-    
+    id: 3274
+    name: ico-telegram.money
+    url: 'http://ico-telegram.money'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Suspicious telegram ico domain (fake crowdsale domain)'  
