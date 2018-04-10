@@ -22115,3 +22115,10 @@
     category: Phishing
     subcategory: Telegram
     description: 'Suspicious telegram ico domain (fake crowdsale domain)' 
+-
+    id: 3276
+    name: io-eos.com
+    url: 'http://io-eos.com/'
+    category: Scamming
+    subcategory: WebWallet
+    description: 'Scam web wallet targetting EOS holders'     
