@@ -22156,3 +22156,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xF42788CBBdb00a32a981355ec5b9143b3C639c74' 
+-    
+    id: 3281
+    name: ethereum.czweb.org
+    url: 'http://ethereum.czweb.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xe00e1f7117a69C34694ac1815177C93491fC448f' 
