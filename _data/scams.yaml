@@ -22174,3 +22174,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x41Cd1343C6e497C075b7ed1E9f003d65141833E2' 
+-    
+    id: 3283
+    name: ethereum-give.byethost16.com
+    url: 'http://ethereum-give.byethost16.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xe00e1f7117a69c34694ac1815177c93491fc448f' 
