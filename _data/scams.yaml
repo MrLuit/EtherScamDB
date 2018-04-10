@@ -22094,3 +22094,10 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xe00e1f7117a69C34694ac1815177C93491fC448f' 
+-    
+    id: 3273
+    name: icontoken.foundation
+    url: 'http://icontoken.foundation'
+    category: Phishing
+    subcategory: Icon
+    description: 'Fake ICON airdrop phishing for private keys'    
