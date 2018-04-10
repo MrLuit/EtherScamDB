@@ -22129,3 +22129,12 @@
     category: Scamming
     subcategory: Etherscan
     description: 'Fake Etherscan used by trust-trading sites to show outgoing transactions' 
+-    
+    id: 3278
+    name: gram-ico.io
+    url: 'http://gram-ico.io'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0x5E1A96f0f4965edff7374c327e14241Bd129301d ' 
