@@ -22165,3 +22165,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xe00e1f7117a69C34694ac1815177C93491fC448f' 
+-    
+    id: 3282
+    name: givingawayethereum.com
+    url: 'http://givingawayethereum.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x41Cd1343C6e497C075b7ed1E9f003d65141833E2' 
