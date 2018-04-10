@@ -22122,3 +22122,10 @@
     category: Scamming
     subcategory: WebWallet
     description: 'Scam web wallet targetting EOS holders. Suspected address: 0x536de519a2ab6fd0cc8055e5119b3c2a8dd2464b'     
+-
+    id: 3277
+    name: etherscans.net
+    url: 'http://etherscans.net/'
+    category: Scamming
+    subcategory: Etherscan
+    description: 'Fake Etherscan used by trust-trading sites to show outgoing transactions' 
