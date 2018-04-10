@@ -22085,3 +22085,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x36f1E58458c073De491f4e0627140BcE19976Aa4'          
+-    
+    id: 3272
+    name: eth-give-away.webz.cz
+    url: 'http://eth-give-away.webz.cz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xe00e1f7117a69C34694ac1815177C93491fC448f' 
