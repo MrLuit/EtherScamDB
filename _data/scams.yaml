@@ -22147,3 +22147,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x8c155c3F4c79485DBB0eEF5b4076FD426b3f8c65' 
+-    
+    id: 3280
+    name: ethc.fund
+    url: 'http://ethc.fund'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xF42788CBBdb00a32a981355ec5b9143b3C639c74' 
