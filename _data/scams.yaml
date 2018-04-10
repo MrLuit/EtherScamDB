@@ -22108,3 +22108,10 @@
     category: Phishing
     subcategory: Telegram
     description: 'Suspicious telegram ico domain (fake crowdsale domain)'  
+-    
+    id: 3275
+    name: telegram-ico.tech
+    url: 'http://telegram-ico.tech'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Suspicious telegram ico domain (fake crowdsale domain)' 
