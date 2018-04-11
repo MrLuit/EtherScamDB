@@ -22217,3 +22217,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x0697f9d4db21472B3461AA07BE39b16Cd5B56eca'
+-    
+    id: 3288
+    name: ethereum-giveaway.com
+    url: 'http://ethereum-giveaway.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xe00e1f7117a69c34694ac1815177c93491fc448f'
