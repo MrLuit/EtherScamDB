@@ -22190,3 +22190,12 @@
     category: Scamming
     subcategory: Investments
     description: 'Fake BBC article pushing clickmoneysystem1.com for cryptocurrency investments'    
+-    
+    id: 3285
+    name: ethereum-giveaway.kissr.com
+    url: 'http://ethereum-giveaway.kissr.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xeE83bf55194787ACC44D6316623998c1876AED8A'
