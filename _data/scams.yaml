@@ -22208,3 +22208,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x1c16B965C7960FEA0Bd7e8629885cBe162223F2E'
+-    
+    id: 3287
+    name: ethsafe.trade
+    url: 'http://ethsafe.trade'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x0697f9d4db21472B3461AA07BE39b16Cd5B56eca'
