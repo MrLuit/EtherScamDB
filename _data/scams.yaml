@@ -22183,3 +22183,10 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xe00e1f7117a69c34694ac1815177c93491fc448f' 
+-    
+    id: 3284
+    name: smartolinks.com
+    url: 'http://smartolinks.com'
+    category: Scamming
+    subcategory: Investments
+    description: 'Fake BBC article pushing clickmoneysystem1.com for cryptocurrency investments'    
