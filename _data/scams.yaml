@@ -22183,3 +22183,37 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xe00e1f7117a69c34694ac1815177c93491fc448f' 
+-    
+    id: 3284
+    name: smartolinks.com
+    url: 'http://smartolinks.com'
+    category: Scamming
+    subcategory: Investments
+    description: 'Fake BBC article pushing clickmoneysystem1.com for cryptocurrency investments'    
+-    
+    id: 3285
+    name: ethereum-giveaway.kissr.com
+    url: 'http://ethereum-giveaway.kissr.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xeE83bf55194787ACC44D6316623998c1876AED8A'
+-    
+    id: 3286
+    name: check-ethpayments1.kissr.com
+    url: 'http://check-ethpayments1.kissr.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x1c16B965C7960FEA0Bd7e8629885cBe162223F2E'
+-    
+    id: 3287
+    name: ethsafe.trade
+    url: 'http://ethsafe.trade'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x0697f9d4db21472B3461AA07BE39b16Cd5B56eca'
