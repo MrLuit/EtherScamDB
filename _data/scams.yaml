@@ -22226,3 +22226,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xe00e1f7117a69c34694ac1815177c93491fc448f'
+-    
+    id: 3289
+    name: givingawayeth.com
+    url: 'http://givingawayeth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x0CfdC4A2c05B1Ff5fCe36d1c1982D8666D7A9813'
