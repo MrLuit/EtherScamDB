@@ -22281,3 +22281,12 @@
     category: Phishing
     subcategory: Tron
     description: 'Fake airdrop phishing for private keys - suspected address: 0x099218972a0F693151B54D09617f5B25eCdd187b'  
+-    
+    id: 3296
+    name: ethereum-giveaway.tekcities.com
+    url: 'http://ethereum-giveaway.tekcities.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x7BBCEe71e2283C445bdB076Bb7FA187726A45D53'
