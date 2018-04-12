@@ -22258,3 +22258,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW - IDN homograph attack'        
+-    
+    id: 3293
+    name: eos-airdrop.com
+    url: 'http://eos-airdrop.com'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake airdrop phishing for private keys'   
