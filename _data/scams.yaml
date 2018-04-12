@@ -22244,3 +22244,17 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x0E0bA79CB92E07555eF7A3fe9e18BA33dd0b6D29'
+-    
+    id: 3291
+    name: xn--medim-9d2b.com
+    url: 'http://xn--medim-9d2b.com'
+    category: Scamming
+    subcategory: Medium
+    description: 'Fake Medium pointing to a fake MyEtherWallet (xn--myethrallet-zk9e6w.com) promoting an airdrop'  
+-    
+    id: 3292
+    name: xn--myethrallet-zk9e6w.com
+    url: 'http://xn--myethrallet-zk9e6w.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW - IDN homograph attack'        
