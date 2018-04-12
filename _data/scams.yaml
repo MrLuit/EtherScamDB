@@ -22275,9 +22275,9 @@
     addresses:    
       - '0xEB85b4777698c0f41168087cD8d43A2FdEF37BdB'
 -    
-    id: 3294
+    id: 3295
     name: tron-airdrop.info
     url: 'http://tron-airdrop.info'
     category: Phishing
     subcategory: Tron
-    description: 'Fake airdrop phishing for private keys'  
+    description: 'Fake airdrop phishing for private keys - suspected address: 0x099218972a0F693151B54D09617f5B25eCdd187b'  
