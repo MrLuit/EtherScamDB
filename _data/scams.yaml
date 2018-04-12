@@ -22274,3 +22274,10 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xEB85b4777698c0f41168087cD8d43A2FdEF37BdB'
+-    
+    id: 3294
+    name: tron-airdrop.info
+    url: 'http://tron-airdrop.info'
+    category: Phishing
+    subcategory: Tron
+    description: 'Fake airdrop phishing for private keys'  
