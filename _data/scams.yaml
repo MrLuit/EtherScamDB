@@ -22235,3 +22235,49 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x0CfdC4A2c05B1Ff5fCe36d1c1982D8666D7A9813'
+-    
+    id: 3290
+    name: ethereums-2018-give-away.bitballoon.com
+    url: 'http://ethereums-2018-give-away.bitballoon.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x0E0bA79CB92E07555eF7A3fe9e18BA33dd0b6D29'
+-    
+    id: 3291
+    name: xn--medim-9d2b.com
+    url: 'http://xn--medim-9d2b.com'
+    category: Scamming
+    subcategory: Medium
+    description: 'Fake Medium pointing to a fake MyEtherWallet (xn--myethrallet-zk9e6w.com) promoting an airdrop'  
+-    
+    id: 3292
+    name: xn--myethrallet-zk9e6w.com
+    url: 'http://xn--myethrallet-zk9e6w.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW - IDN homograph attack'        
+-    
+    id: 3293
+    name: eos-airdrop.com
+    url: 'http://eos-airdrop.com'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake airdrop phishing for private keys'   
+-    
+    id: 3294
+    name: ethn.cash
+    url: 'http://ethn.cash'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xEB85b4777698c0f41168087cD8d43A2FdEF37BdB'
+-    
+    id: 3295
+    name: tron-airdrop.info
+    url: 'http://tron-airdrop.info'
+    category: Phishing
+    subcategory: Tron
+    description: 'Fake airdrop phishing for private keys - suspected address: 0x099218972a0F693151B54D09617f5B25eCdd187b'  
