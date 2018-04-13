@@ -22333,3 +22333,10 @@
     category: Phishing
     subcategory: Coinbase
     description: 'Fake Coinbase phishing for private keys. Delivered via email about erc20 token import. See https://twitter.com/sniko_/status/984914783186116609'    
+-    
+    id: 3302
+    name: xn--conbas-gva1a.com
+    url: 'http://xn--conbas-gva1a.com'
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Fake Coinbase phishing for login details'    
