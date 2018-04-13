@@ -22290,3 +22290,30 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x7BBCEe71e2283C445bdB076Bb7FA187726A45D53'
+-    
+    id: 3297
+    name: gether.fund
+    url: 'http://gether.fund'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xEB85b4777698c0f41168087cD8d43A2FdEF37BdB'
+-    
+    id: 3298
+    name: ether-promo.getforge.io
+    url: 'http://ether-promo.getforge.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xe6693620c549D35C52496A1cb0105F2712baF771'
+-    
+    id: 3299
+    name: givefreeeth.com
+    url: 'http://givefreeeth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xF982928D81209c387Be28D6BB58012021e9f56D6'
