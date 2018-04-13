@@ -22317,3 +22317,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xF982928D81209c387Be28D6BB58012021e9f56D6'
+-    
+    id: 3300
+    name: 5000eth-giveaway.online
+    url: 'http://5000eth-giveaway.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xB516107DeD86b21F7394c26090ADf0661E6A3759'
