@@ -22299,3 +22299,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xEB85b4777698c0f41168087cD8d43A2FdEF37BdB'
+-    
+    id: 3298
+    name: ether-promo.getforge.io
+    url: 'http://ether-promo.getforge.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xe6693620c549D35C52496A1cb0105F2712baF771'
