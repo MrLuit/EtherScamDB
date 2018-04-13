@@ -22308,3 +22308,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xe6693620c549D35C52496A1cb0105F2712baF771'
+-    
+    id: 3299
+    name: givefreeeth.com
+    url: 'http://givefreeeth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xF982928D81209c387Be28D6BB58012021e9f56D6'
