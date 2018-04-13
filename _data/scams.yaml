@@ -22326,3 +22326,10 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xB516107DeD86b21F7394c26090ADf0661E6A3759'
+-    
+    id: 3301
+    name: www-colnbase.com
+    url: 'http://www-colnbase.com'
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Fake Coinbase phishing for private keys. Delivered via email about erc20 token import. See https://twitter.com/sniko_/status/984914783186116609'    
