@@ -22433,3 +22433,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xaA60F2B7E7CD32cC31620c3A5d10A79E6F2F5CF6'
+-    
+    id: 3314
+    name: eth-private-key.webz.cz
+    url: 'http://eth-private-key.webz.cz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xe00e1f7117a69c34694ac1815177c93491fc448f'
