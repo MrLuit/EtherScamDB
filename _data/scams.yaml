@@ -22392,3 +22392,12 @@
     category: Phishing
     subcategory: EOS
     description: 'Fake EOSDAC site, stealing keys to get an airdrop'  
+-    
+    id: 3309
+    name: btc-gifts.info
+    url: 'http://btc-gifts.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x713a6f26525B24581Cbe20679811af8680abdddd'
