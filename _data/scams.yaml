@@ -22417,3 +22417,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW, stealing private keys'
+-    
+    id: 3312
+    name: myetherwallet.lt
+    url: 'http://myetherwallet.lt'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW, stealing private keys'
