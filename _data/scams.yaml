@@ -22378,3 +22378,10 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x45d6D4C1f56e51b05de3Df70f506cc52c99fC6eB'
+-    
+    id: 3307
+    name: localetherwallet.com
+    url: 'http://localetherwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake Ethereum Wallet, stealing private keys - see https://twitter.com/sniko_/status/985333475732525058'    
