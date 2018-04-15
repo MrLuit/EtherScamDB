@@ -22401,3 +22401,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x713a6f26525B24581Cbe20679811af8680abdddd'
+-    
+    id: 3310
+    name: eth-promotion.getforge.io
+    url: 'http://eth-promotion.getforge.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x2223D0E991e67830f9184171E2f5a44C1F0dEE09'
