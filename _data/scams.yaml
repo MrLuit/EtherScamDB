@@ -22424,3 +22424,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW, stealing private keys'
+-    
+    id: 3313
+    name: collect-eth.com
+    url: 'http://collect-eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xaA60F2B7E7CD32cC31620c3A5d10A79E6F2F5CF6'
