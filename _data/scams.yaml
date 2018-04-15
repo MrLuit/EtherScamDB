@@ -22410,3 +22410,10 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x2223D0E991e67830f9184171E2f5a44C1F0dEE09'
+-    
+    id: 3311
+    name: myetherwallet-register.com
+    url: 'http://myetherwallet-register.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW, stealing private keys'
