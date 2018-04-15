@@ -21927,6 +21927,8 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site'    
+    addresses:    
+      - '0x56f1c9cdf27BEEFa83700FcA284FE1Ba08a5546A'     
 -    
     id: 3254
     name: etherclaims.byethost8.com
@@ -22340,3 +22342,39 @@
     category: Phishing
     subcategory: Coinbase
     description: 'Fake Coinbase phishing for login details'    
+-    
+    id: 3303
+    name: eth-giving.com
+    url: 'http://eth-giving.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xf605c1C8c1CD6Bc3AA6f7383b86226c583Ab2775'
+-    
+    id: 3304
+    name: ico-telegram.co
+    url: 'http://ico-telegram.co'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0x34d891216ca79efa979bb5c8ab321fd721e861cf'
+-    
+    id: 3305
+    name: ethpaysafe.com
+    url: 'http://ethpaysafe.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x0697f9d4db21472B3461AA07BE39b16Cd5B56eca'
+-    
+    id: 3306
+    name: free5000eth.com
+    url: 'http://free5000eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x45d6D4C1f56e51b05de3Df70f506cc52c99fC6eB'
