@@ -22340,3 +22340,12 @@
     category: Phishing
     subcategory: Coinbase
     description: 'Fake Coinbase phishing for login details'    
+-    
+    id: 3303
+    name: eth-giving.com
+    url: 'http://eth-giving.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xf605c1C8c1CD6Bc3AA6f7383b86226c583Ab2775'
