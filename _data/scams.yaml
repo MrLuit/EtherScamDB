@@ -22369,3 +22369,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x0697f9d4db21472B3461AA07BE39b16Cd5B56eca'
+-    
+    id: 3306
+    name: free5000eth.com
+    url: 'http://free5000eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x45d6D4C1f56e51b05de3Df70f506cc52c99fC6eB'
