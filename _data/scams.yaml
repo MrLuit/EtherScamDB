@@ -22349,3 +22349,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xf605c1C8c1CD6Bc3AA6f7383b86226c583Ab2775'
+-    
+    id: 3304
+    name: ico-telegram.co
+    url: 'http://ico-telegram.co'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0x34d891216ca79efa979bb5c8ab321fd721e861cf'
