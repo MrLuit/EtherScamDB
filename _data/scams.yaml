@@ -22425,7 +22425,7 @@
     subcategory: MyEtherWallet
     description: 'Fake MEW, stealing private keys'
 -    
-    id: 3311
+    id: 3313
     name: collect-eth.com
     url: 'http://collect-eth.com'
     category: Scamming
