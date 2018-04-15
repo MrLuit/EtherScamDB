@@ -22385,3 +22385,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake Ethereum Wallet, stealing private keys - see https://twitter.com/sniko_/status/985333475732525058'    
+-    
+    id: 3308
+    name: eos-dac.com
+    url: 'http://eos-dac.com'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOSDAC site, stealing keys to get an airdrop'  
