@@ -21927,6 +21927,8 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site'    
+    addresses:    
+      - '0x56f1c9cdf27BEEFa83700FcA284FE1Ba08a5546A'     
 -    
     id: 3254
     name: etherclaims.byethost8.com
