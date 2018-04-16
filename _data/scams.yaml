@@ -22494,3 +22494,10 @@
     category: Phishing
     subcategory: Nucleus
     description: 'Fake airdrop phishing for private keys. Suspected address: 0x588C0e4Af4bB0Cd6E63e898bF8ad555452297326'    
+-    
+    id: 3321
+    name: xn--myethewllet-ife6494g.com
+    url: 'http://xn--myethewllet-ife6494g.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW - IDN homograph attack'  
