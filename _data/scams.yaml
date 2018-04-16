@@ -22451,3 +22451,12 @@
     description: 'Fake Telegram crowdsale site'    
     addresses:    
       - '0x6c20ef21e604028c649247c581e8e49fda6191ca'
+-    
+    id: 3316
+    name: ethtotrade.com
+    url: 'http://ethtotrade.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xa4Fe2874A4aD464A50CB72a8C0b1a6ab221A7C17'
