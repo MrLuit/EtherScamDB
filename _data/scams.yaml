@@ -22460,3 +22460,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xa4Fe2874A4aD464A50CB72a8C0b1a6ab221A7C17'
+-    
+    id: 3317
+    name: eth-give.org
+    url: 'http://eth-give.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xe00e1f7117a69c34694ac1815177c93491fc448f'
