@@ -22442,3 +22442,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xe00e1f7117a69c34694ac1815177c93491fc448f'
+-    
+    id: 3315
+    name: tokentelegram.net
+    url: 'http://tokentelegram.net'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0x6c20ef21e604028c649247c581e8e49fda6191ca'
