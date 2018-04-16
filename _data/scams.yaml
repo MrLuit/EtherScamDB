@@ -22510,3 +22510,10 @@
     description: 'Fake Origin crowdsale site'    
     addresses:    
       - '0x0d4f74c538613ed6e6c8c1bc8896ecfd45f5ef23'
+-    
+    id: 3323
+    name: etherscan.tech
+    url: 'http://etherscan.tech'
+    category: Scamming
+    subcategory: Etherscan
+    description: 'Fake Etherscan that confirmes trust-trading transactions'    
