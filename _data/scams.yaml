@@ -22451,3 +22451,53 @@
     description: 'Fake Telegram crowdsale site'    
     addresses:    
       - '0x6c20ef21e604028c649247c581e8e49fda6191ca'
+-    
+    id: 3316
+    name: ethtotrade.com
+    url: 'http://ethtotrade.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xa4Fe2874A4aD464A50CB72a8C0b1a6ab221A7C17'
+-    
+    id: 3317
+    name: eth-give.org
+    url: 'http://eth-give.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xe00e1f7117a69c34694ac1815177c93491fc448f'
+-    
+    id: 3318
+    name: ethtransaction.ezyro.com
+    url: 'http://ethtransaction.ezyro.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x2cc762c27a50d18e50efcd3bee9e3154e3bb094d'
+-    
+    id: 3319
+    name: eth.kissr.com
+    url: 'http://eth.kissr.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xEeB70FD96F6C8838AEFFb9d8dc042eab97b1BB09'
+-    
+    id: 3320
+    name: ncashtoken.org
+    url: 'http://ncashtoken.org'
+    category: Phishing
+    subcategory: Nucleus
+    description: 'Fake airdrop phishing for private keys. Suspected address: 0x588C0e4Af4bB0Cd6E63e898bF8ad555452297326'    
+-    
+    id: 3321
+    name: xn--myethewllet-ife6494g.com
+    url: 'http://xn--myethewllet-ife6494g.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW - IDN homograph attack'  
