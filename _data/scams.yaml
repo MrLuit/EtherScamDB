@@ -22487,3 +22487,10 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xEeB70FD96F6C8838AEFFb9d8dc042eab97b1BB09'
+-    
+    id: 3320
+    name: ncashtoken.org
+    url: 'http://ncashtoken.org'
+    category: Phishing
+    subcategory: Nucleus
+    description: 'Fake airdrop phishing for private keys. Suspected address: 0x588C0e4Af4bB0Cd6E63e898bF8ad555452297326'    
