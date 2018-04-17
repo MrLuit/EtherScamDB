@@ -22567,3 +22567,10 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xe56303d8FF8C25C240F41D90FcAaE1469c5B5f77'
+-    
+    id: 3330
+    name: xn--myethewllet-w48ep6a.com
+    url: 'http://xn--myethewllet-w48ep6a.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack' 
