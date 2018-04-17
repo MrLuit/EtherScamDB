@@ -22574,3 +22574,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - IDN homograph attack' 
+-    
+    id: 3331
+    name: xn--myetherwalle-occ.com
+    url: 'http://xn--myetherwalle-occ.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack' 
