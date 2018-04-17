@@ -22519,3 +22519,12 @@
     description: 'Fake Etherscan that confirmes trust-trading transactions'    
     addresses:    
       - '0x19bfd8a539ca899983b30e1d1c3370ac03d6b7ab'
+-    
+    id: 3324
+    name: get-ether.gift
+    url: 'http://get-ether.gift'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xc15FFCceb80e34A780A46795DBD126E2d65C4460'
