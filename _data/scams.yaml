@@ -22549,3 +22549,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'     
+-    
+    id: 3328
+    name: promo.ethereumbonus.online
+    url: 'http://promo.ethereumbonus.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x0967c50BFEC4dBa06E28E8fdbcfD15A23474fAb4'
