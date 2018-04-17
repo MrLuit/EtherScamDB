@@ -22558,3 +22558,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x0967c50BFEC4dBa06E28E8fdbcfD15A23474fAb4'
+-    
+    id: 3329
+    name: ethtoget.com
+    url: 'http://ethtoget.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xe56303d8FF8C25C240F41D90FcAaE1469c5B5f77'
