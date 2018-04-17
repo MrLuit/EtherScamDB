@@ -22581,3 +22581,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - IDN homograph attack' 
+-    
+    id: 3332
+    name: get-ether.me
+    url: 'http://get-ether.me'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xc15FFCceb80e34A780A46795DBD126E2d65C4460'
