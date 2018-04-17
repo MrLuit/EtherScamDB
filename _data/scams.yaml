@@ -22535,3 +22535,17 @@
     category: Phishing
     subcategory: EOS
     description: 'Fake EOS airdrop phishing for private keys - suspected address:  0xeefa861d00e68aab019df8bf3a9cb689196df41d'    
+-    
+    id: 3326
+    name: myetherwalletru.com
+    url: 'http://myetherwalletru.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet' 
+-    
+    id: 3327
+    name: i-myetherwallet.com
+    url: 'http://i-myetherwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'     
