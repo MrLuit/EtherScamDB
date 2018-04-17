@@ -22528,3 +22528,10 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xc15FFCceb80e34A780A46795DBD126E2d65C4460'
+-    
+    id: 3325
+    name: eos-candy.com
+    url: 'http://eos-candy.com'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS airdrop phishing for private keys - suspected address:  0xeefa861d00e68aab019df8bf3a9cb689196df41d'    
