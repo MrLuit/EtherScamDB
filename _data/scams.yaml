@@ -22635,3 +22635,10 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x860B62006Ea05A05c7638D16a106858450bde336'
+-    
+    id: 3338
+    name: mithriltoken.tech
+    url: 'http://mithriltoken.tech'
+    category: Phishing
+    subcategory: Mithril
+    description: 'Fake Mithril airdrop phishing for private keys'    
