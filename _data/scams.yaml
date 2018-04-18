@@ -22642,3 +22642,10 @@
     category: Phishing
     subcategory: Mithril
     description: 'Fake Mithril airdrop phishing for private keys'    
+-    
+    id: 3339
+    name: myethverwallet.com
+    url: 'http://myethverwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'    
