@@ -22590,3 +22590,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xc15FFCceb80e34A780A46795DBD126E2d65C4460'
+-    
+    id: 3333
+    name: nkn-token.io
+    url: 'http://nkn-token.io'
+    category: Phishing
+    subcategory: Nkn
+    description: 'Fake Nkn crowdsale site'    
+    addresses:    
+      - '0xD243018B2825ad409512a200E744529bc1b129f2'
