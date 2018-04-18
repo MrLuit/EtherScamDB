@@ -22599,3 +22599,30 @@
     description: 'Fake Nkn crowdsale site'    
     addresses:    
       - '0xD243018B2825ad409512a200E744529bc1b129f2'
+-    
+    id: 3334
+    name: ethhit.org
+    url: 'http://ethhit.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xEF35af4A5037a1E416514f1F016550cf7c865ffc'
+-    
+    id: 3335
+    name: give5000eth.com
+    url: 'http://give5000eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x6353940EabE11c7Cd78ECC2085AE65cDacc5A92b'
+-    
+    id: 3336
+    name: eth-today.epizy.com
+    url: 'http://eth-today.epizy.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x043375eBc36fFf7a4FCeF1359F3C89afdDF56e08'
