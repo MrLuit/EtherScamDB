@@ -22681,3 +22681,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xceEbB2D0cDC85E9774A232Bab74C45Fc883C15e4'
+-    
+    id: 3344
+    name: give5000-eth.com
+    url: 'http://give5000-eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xceEbB2D0cDC85E9774A232Bab74C45Fc883C15e4'
