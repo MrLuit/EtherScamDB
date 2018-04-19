@@ -22658,3 +22658,10 @@
     description: 'Fake Dfinity site'    
     addresses:    
       - '0x41467711f2d1f6021119fFB113AE0e78251b45fa'
+-    
+    id: 3341
+    name: aelftoken.com
+    url: 'http://aelftoken.com'
+    category: Phishing
+    subcategory: Aelf
+    description: 'Fake Aelf airdrop phishing for private keys. Suspected address: 0x588c0e4af4bb0cd6e63e898bf8ad555452297326'    
