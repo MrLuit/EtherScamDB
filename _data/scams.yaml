@@ -22690,3 +22690,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xceEbB2D0cDC85E9774A232Bab74C45Fc883C15e4'
+-    
+    id: 3345
+    name: bonus.ether-gifts.com
+    url: 'http://bonus.ether-gifts.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x64C940690A3660e68D93D8c6412d900BdD3e11E5'
