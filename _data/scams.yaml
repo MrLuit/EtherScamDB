@@ -22665,3 +22665,10 @@
     category: Phishing
     subcategory: Aelf
     description: 'Fake Aelf airdrop phishing for private keys. Suspected address: 0x588c0e4af4bb0cd6e63e898bf8ad555452297326'    
+-    
+    id: 3342
+    name: xn--myethrwalet-ns8e73d.com
+    url: 'http://xn--myethrwalet-ns8e73d.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MEW - IDN homograph attack. Suspected address; 0x179f6011f23e68FCbEfBe3Bf816240e09a85a700' 
