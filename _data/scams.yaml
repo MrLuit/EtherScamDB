@@ -22672,3 +22672,39 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW - IDN homograph attack. Suspected address; 0x179f6011f23e68FCbEfBe3Bf816240e09a85a700' 
+-    
+    id: 3343
+    name: 5000ethgive.com
+    url: 'http://5000ethgive.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xceEbB2D0cDC85E9774A232Bab74C45Fc883C15e4'
+-    
+    id: 3344
+    name: give5000-eth.com
+    url: 'http://give5000-eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xceEbB2D0cDC85E9774A232Bab74C45Fc883C15e4'
+-    
+    id: 3345
+    name: bonus.ether-gifts.com
+    url: 'http://bonus.ether-gifts.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x64C940690A3660e68D93D8c6412d900BdD3e11E5'
+-    
+    id: 3346
+    name: give-5000eth.com
+    url: 'http://give-5000eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xceEbB2D0cDC85E9774A232Bab74C45Fc883C15e4'
