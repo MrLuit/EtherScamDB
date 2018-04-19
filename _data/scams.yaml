@@ -22672,3 +22672,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MEW - IDN homograph attack. Suspected address; 0x179f6011f23e68FCbEfBe3Bf816240e09a85a700' 
+-    
+    id: 3343
+    name: 5000ethgive.com
+    url: 'http://5000ethgive.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xceEbB2D0cDC85E9774A232Bab74C45Fc883C15e4'
