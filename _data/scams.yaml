@@ -22649,3 +22649,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'    
+-    
+    id: 3340
+    name: dfinity.ml
+    url: 'http://dfinity.ml'
+    category: Phishing
+    subcategory: Dfinity
+    description: 'Fake Dfinity site'    
+    addresses:    
+      - '0x41467711f2d1f6021119fFB113AE0e78251b45fa'
