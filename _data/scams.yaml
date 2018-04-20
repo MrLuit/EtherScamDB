@@ -22736,3 +22736,10 @@
     category: Phishing
     subcategory: EtherDelta
     description: 'Fake EtherDelta - IDN homograph attack'    
+-    
+    id: 3351
+    name: xn--myetherallt-0k9ejx.com 
+    url: 'http://xn--myetherallt-0k9ejx.com '
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack'  
