@@ -17736,6 +17736,7 @@
     description: 'Fake Telegram crowdsale site'
     addresses:
       - '0xAC1a4f4D49715e31f54CB8e0bf867Bb9170C10Cb'
+      - '0x08986f5CecD3cb8882E4A34A16961e3124377291'      
 -
     id: 2739
     name: twitter.com/VitalikButeriin
