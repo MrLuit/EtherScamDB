@@ -22750,3 +22750,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - IDN homograph attack'  
+-    
+    id: 3353
+    name: xn--meherwalle-212ei17o.com
+    url: 'http://xn--meherwalle-212ei17o.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack'  
