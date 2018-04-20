@@ -22792,3 +22792,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - IDN homograph attack (looks like MEW for some reason)'  
+-    
+    id: 3359
+    name: forkdeltagithub.io
+    url: 'http://forkdeltagithub.io'
+    category: Phishing
+    subcategory: ForkDelta
+    description: 'Fake ForkDelta'  
