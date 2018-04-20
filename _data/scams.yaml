@@ -22785,3 +22785,10 @@
     category: Phishing
     subcategory: EtherDelta
     description: 'Fake EtherDelta - IDN homograph attack'  
+-    
+    id: 3358
+    name: xn--etherdlta-lib.com
+    url: 'http://xn--etherdlta-lib.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack (looks like MEW for some reason)'  
