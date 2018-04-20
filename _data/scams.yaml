@@ -22708,3 +22708,10 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xceEbB2D0cDC85E9774A232Bab74C45Fc883C15e4'
+-    
+    id: 3347
+    name: xn--mcrypto-rpd.com
+    url: 'http://xn--mcrypto-rpd.com'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto - IDN homograph attack'    
