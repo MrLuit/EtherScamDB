@@ -22764,3 +22764,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - IDN homograph attack'  
+-    
+    id: 3355
+    name: xn--therdelta-uf7d.com
+    url: 'http://xn--therdelta-uf7d.com'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta - IDN homograph attack'  
