@@ -22771,3 +22771,10 @@
     category: Phishing
     subcategory: EtherDelta
     description: 'Fake EtherDelta - IDN homograph attack'  
+-    
+    id: 3356
+    name: xn--etherdela-ss6d.com
+    url: 'http://xn--etherdela-ss6d.com'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta - IDN homograph attack'  
