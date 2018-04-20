@@ -22757,3 +22757,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - IDN homograph attack'  
+-    
+    id: 3354
+    name: xn--etherwallet-tv8eq7f.com
+    url: 'http://xn--etherwallet-tv8eq7f.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack'  
