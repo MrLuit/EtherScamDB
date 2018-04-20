@@ -22722,3 +22722,10 @@
     category: Phishing
     subcategory: EtherDelta
     description: 'Fake EtherDelta - IDN homograph attack'    
+-    
+    id: 3349
+    name: wallet-mew.com
+    url: 'http://wallet-mew.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet' 
