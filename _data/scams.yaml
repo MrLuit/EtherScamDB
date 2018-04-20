@@ -22729,3 +22729,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet' 
+-    
+    id: 3350
+    name: xn--eterelta-ou9c9h.com
+    url: 'http://xn--eterelta-ou9c9h.com'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta - IDN homograph attack'    
