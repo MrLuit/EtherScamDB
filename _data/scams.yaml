@@ -22807,3 +22807,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - suspected address: 0xa6caf53fc4aa0094306f304e4f235e2be98297e6'  
+-    
+    id: 3361
+    name: ethereumpomo.online
+    url: 'http://ethereumpomo.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x9C3C750372e2DBC2f8f2E6C58EdFA6E1d7e463Fd'
