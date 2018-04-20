@@ -22778,3 +22778,10 @@
     category: Phishing
     subcategory: EtherDelta
     description: 'Fake EtherDelta - IDN homograph attack'  
+-    
+    id: 3357
+    name: xn--etherdelt-876d.com
+    url: 'http://xn--etherdelt-876d.com'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta - IDN homograph attack'  
