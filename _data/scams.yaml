@@ -22715,3 +22715,10 @@
     category: Phishing
     subcategory: MyCrypto
     description: 'Fake MyCrypto - IDN homograph attack'    
+-    
+    id: 3348
+    name: xn--etherelta-u05d.com
+    url: 'http://xn--etherelta-u05d.com'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta - IDN homograph attack'    
