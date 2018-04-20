@@ -22708,3 +22708,94 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xceEbB2D0cDC85E9774A232Bab74C45Fc883C15e4'
+-    
+    id: 3347
+    name: xn--mcrypto-rpd.com
+    url: 'http://xn--mcrypto-rpd.com'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto - IDN homograph attack'    
+-    
+    id: 3348
+    name: xn--etherelta-u05d.com
+    url: 'http://xn--etherelta-u05d.com'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta - IDN homograph attack'    
+-    
+    id: 3349
+    name: wallet-mew.com
+    url: 'http://wallet-mew.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet' 
+-    
+    id: 3350
+    name: xn--eterelta-ou9c9h.com
+    url: 'http://xn--eterelta-ou9c9h.com'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta - IDN homograph attack'    
+-    
+    id: 3351
+    name: xn--myetherallt-0k9ejx.com 
+    url: 'http://xn--myetherallt-0k9ejx.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack'  
+-    
+    id: 3352
+    name: xn--myetewallet-4dc4796g.com
+    url: 'http://xn--myetewallet-4dc4796g.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack'  
+-    
+    id: 3353
+    name: xn--meherwalle-212ei17o.com
+    url: 'http://xn--meherwalle-212ei17o.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack'  
+-    
+    id: 3354
+    name: xn--etherwallet-tv8eq7f.com
+    url: 'http://xn--etherwallet-tv8eq7f.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack'  
+-    
+    id: 3355
+    name: xn--therdelta-uf7d.com
+    url: 'http://xn--therdelta-uf7d.com'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta - IDN homograph attack'  
+-    
+    id: 3356
+    name: xn--etherdela-ss6d.com
+    url: 'http://xn--etherdela-ss6d.com'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta - IDN homograph attack'  
+-    
+    id: 3357
+    name: xn--etherdelt-876d.com
+    url: 'http://xn--etherdelt-876d.com'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta - IDN homograph attack'  
+-    
+    id: 3358
+    name: xn--etherdlta-lib.com
+    url: 'http://xn--etherdlta-lib.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack (looks like MEW for some reason)'  
+-    
+    id: 3359
+    name: forkdeltagithub.io
+    url: 'http://forkdeltagithub.io'
+    category: Phishing
+    subcategory: ForkDelta
+    description: 'Fake ForkDelta'  
