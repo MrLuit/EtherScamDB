@@ -22816,3 +22816,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x9C3C750372e2DBC2f8f2E6C58EdFA6E1d7e463Fd'
+-    
+    id: 3362
+    name: ethforeth.com
+    url: 'http://ethforeth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x2e462fDeF8cde7DB82Aa3f7C627731BE94f7C9C4'
