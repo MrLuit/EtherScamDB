@@ -22816,3 +22816,37 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x9C3C750372e2DBC2f8f2E6C58EdFA6E1d7e463Fd'
+-    
+    id: 3362
+    name: ethforeth.com
+    url: 'http://ethforeth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x2e462fDeF8cde7DB82Aa3f7C627731BE94f7C9C4'
+-    
+    id: 3363
+    name: bonus.ether-gives.com
+    url: 'http://bonus.ether-gives.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x87318b9B7EED24F69907D53EB7727C0a590f3588'
+-    
+    id: 3364
+    name: mnycryptoethwallet.com
+    url: 'http://mnycryptoethwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'    
+-    
+    id: 3365
+    name: eth-drop.com
+    url: 'http://eth-drop.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x41466413f0c7f11c5b1af39cc1344af9d21a6d57'
