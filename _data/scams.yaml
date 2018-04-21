@@ -22834,3 +22834,10 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x87318b9B7EED24F69907D53EB7727C0a590f3588'
+-    
+    id: 3364
+    name: mnycryptoethwallet.com
+    url: 'http://mnycryptoethwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'    
