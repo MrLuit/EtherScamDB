@@ -22857,3 +22857,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'    
+-    
+    id: 3367
+    name: origirprotocol.com
+    url: 'http://origirprotocol.com'
+    category: Phishing
+    subcategory: Origin
+    description: 'Fake Origin crowdsale site'    
+    addresses:    
+      - '0x98198d7eCc42a3E18D3fc52957db46930cf1d2e8'
