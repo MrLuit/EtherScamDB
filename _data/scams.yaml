@@ -22891,3 +22891,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x011da0ab16577cbB73374a5B9b869D66253150e7'
+-    
+    id: 3371
+    name: get-ether.fund
+    url: 'http://get-ether.fund'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x754a7657092Fd2862338fF06ce02cFc389D49E21'
