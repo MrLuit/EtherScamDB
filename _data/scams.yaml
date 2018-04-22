@@ -22927,3 +22927,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xf033f0d9c1bf050babe586fddd94d8928f02ac50'
+-    
+    id: 3376
+    name: dav-network.io
+    url: 'http://dav-network.io'
+    category: Phishing
+    subcategory: Dav
+    description: 'Fake DAV Network crowdsale site'    
+    addresses:    
+      - '0xF9319dDdCe472f9Aa0874d0E71d06e30C18990C6'
