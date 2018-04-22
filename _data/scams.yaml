@@ -22875,3 +22875,10 @@
     description: 'Fake Hederahash crowdsale site'    
     addresses:    
       - '0x0c8b740E3377F2BE7A108AebA6A2F660588c728d'
+-    
+    id: 3369
+    name: classicetherwallt.com
+    url: 'http://classicetherwallt.com'
+    category: Phishing
+    subcategory: ClassicEtherWallet
+    description: 'Fake ClassicEtherWallet site stealing private keys'    
