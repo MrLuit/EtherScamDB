@@ -18259,15 +18259,6 @@
     addresses:
       - '0x7Eb28833082eB28fD423aB30Df20afDE98C47DBF' 
 -
-    id: 2805
-    name: ico-ton.org
-    url: 'https://ico-ton.org'
-    category: Phishing
-    subcategory: Telegram
-    description: 'Fake Telegram crowdsale site'
-    addresses:
-      - '0x8f0bca6b1b2b522082d46f3eec31340f113b029a' 
--
     id: 2806
     name: refereum-token.com
     url: 'https://refereum-token.com'
@@ -22900,3 +22891,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x754a7657092Fd2862338fF06ce02cFc389D49E21'
+-
+    id: 3372
+    name: ico-ton.org
+    url: 'https://ico-ton.org'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'
+    addresses:
+      - '0x8f0bca6b1b2b522082d46f3eec31340f113b029a' 
