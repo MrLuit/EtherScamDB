@@ -22945,3 +22945,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xF76DEA0A7ED40E379Cc834cF94a6BdC59ac11044'
+-    
+    id: 3378
+    name: bonus.eth-gifts.com
+    url: 'http://bonus.eth-gifts.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x9A4afEaEcD8Efe2A7186365b55E72503d555713B'
