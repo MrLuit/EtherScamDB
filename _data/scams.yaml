@@ -22850,3 +22850,53 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x41466413f0c7f11c5b1af39cc1344af9d21a6d57'
+-    
+    id: 3366
+    name: nmyetlerwaliet.com
+    url: 'http://nmyetlerwaliet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'    
+-    
+    id: 3367
+    name: origirprotocol.com
+    url: 'http://origirprotocol.com'
+    category: Phishing
+    subcategory: Origin
+    description: 'Fake Origin crowdsale site'    
+    addresses:    
+      - '0x98198d7eCc42a3E18D3fc52957db46930cf1d2e8'
+-    
+    id: 3368
+    name: hederahashgraph.infotokensale.com
+    url: 'http://hederahashgraph.infotokensale.com'
+    category: Phishing
+    subcategory: Hederahash
+    description: 'Fake Hederahash crowdsale site'    
+    addresses:    
+      - '0x0c8b740E3377F2BE7A108AebA6A2F660588c728d'
+-    
+    id: 3369
+    name: classicetherwallt.com
+    url: 'http://classicetherwallt.com'
+    category: Phishing
+    subcategory: ClassicEtherWallet
+    description: 'Fake ClassicEtherWallet site stealing private keys'    
+-    
+    id: 3370
+    name: eth-airdrop.live
+    url: 'http://eth-airdrop.live'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x011da0ab16577cbB73374a5B9b869D66253150e7'
+-    
+    id: 3371
+    name: get-ether.fund
+    url: 'http://get-ether.fund'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x754a7657092Fd2862338fF06ce02cFc389D49E21'
