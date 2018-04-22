@@ -22882,3 +22882,12 @@
     category: Phishing
     subcategory: ClassicEtherWallet
     description: 'Fake ClassicEtherWallet site stealing private keys'    
+-    
+    id: 3370
+    name: eth-airdrop.live
+    url: 'http://eth-airdrop.live'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x011da0ab16577cbB73374a5B9b869D66253150e7'
