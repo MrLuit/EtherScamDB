@@ -22918,3 +22918,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xedc0c49946b93aa296a11298480ae7913bb65222'
+-    
+    id: 3375
+    name: ethpromoverge.com
+    url: 'http://ethpromoverge.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xf033f0d9c1bf050babe586fddd94d8928f02ac50'
