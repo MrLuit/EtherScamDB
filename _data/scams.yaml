@@ -22909,3 +22909,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xEbD411aA59B4456f45529A7Cc203F87c0e104947'
+-    
+    id: 3374
+    name: poloniex-withdrawals.bitballoon.com
+    url: 'http://poloniex-withdrawals.bitballoon.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xedc0c49946b93aa296a11298480ae7913bb65222'
