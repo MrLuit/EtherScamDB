@@ -22936,3 +22936,12 @@
     description: 'Fake DAV Network crowdsale site'    
     addresses:    
       - '0xF9319dDdCe472f9Aa0874d0E71d06e30C18990C6'
+-    
+    id: 3377
+    name: offpromoeth.com
+    url: 'http://offpromoeth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xF76DEA0A7ED40E379Cc834cF94a6BdC59ac11044'
