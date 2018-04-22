@@ -22866,3 +22866,12 @@
     description: 'Fake Origin crowdsale site'    
     addresses:    
       - '0x98198d7eCc42a3E18D3fc52957db46930cf1d2e8'
+-    
+    id: 3368
+    name: hederahashgraph.infotokensale.com
+    url: 'http://hederahashgraph.infotokensale.com'
+    category: Phishing
+    subcategory: Hederahash
+    description: 'Fake Hederahash crowdsale site'    
+    addresses:    
+      - '0x0c8b740E3377F2BE7A108AebA6A2F660588c728d'
