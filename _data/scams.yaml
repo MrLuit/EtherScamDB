@@ -22900,3 +22900,12 @@
     description: 'Fake Telegram crowdsale site'
     addresses:
       - '0x8f0bca6b1b2b522082d46f3eec31340f113b029a' 
+-    
+    id: 3373
+    name: gether-gift.com
+    url: 'http://gether-gift.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xEbD411aA59B4456f45529A7Cc203F87c0e104947'
