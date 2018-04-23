@@ -22961,3 +22961,10 @@
     category: Phishing
     subcategory: Shapeshift
     description: 'Fake Shapeshift site, iframe 188.227.75.205'    
+-    
+    id: 3380
+    name: shapeslhift.io
+    url: 'http://shapeslhift.io'
+    category: Phishing
+    subcategory: Shapeshift
+    description: 'Fake Shapeshift site'    
