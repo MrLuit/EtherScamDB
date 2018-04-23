@@ -22954,3 +22954,17 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x9A4afEaEcD8Efe2A7186365b55E72503d555713B'
+-    
+    id: 3379
+    name: shapeskift.io
+    url: 'http://shapeskift.io'
+    category: Phishing
+    subcategory: Shapeshift
+    description: 'Fake Shapeshift site, iframe 188.227.75.205'    
+-    
+    id: 3380
+    name: shapeslhift.io
+    url: 'http://shapeslhift.io'
+    category: Phishing
+    subcategory: Shapeshift
+    description: 'Fake Shapeshift site'    
