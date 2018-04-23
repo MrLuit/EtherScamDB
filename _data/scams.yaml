@@ -22936,6 +22936,7 @@
     description: 'Fake DAV Network crowdsale site'    
     addresses:    
       - '0xF9319dDdCe472f9Aa0874d0E71d06e30C18990C6'
+      - '0x9806B7df4144efe7d11F349Fb7EE8a964499d359'
 -    
     id: 3377
     name: offpromoeth.com
