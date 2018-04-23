@@ -22988,3 +22988,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xA53577466E0ECAE3bFc967332BB4739Ff19eeb5F'
+-    
+    id: 3383
+    name: ethgiveaway.org
+    url: 'http://ethgiveaway.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x88bDEB65eD500794118D0E5FDf5808d23Bb74E73'
