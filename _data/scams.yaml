@@ -22968,3 +22968,21 @@
     category: Phishing
     subcategory: Shapeshift
     description: 'Fake Shapeshift site'    
+-    
+    id: 3381
+    name: 5000eth-giveaway.getforge.io
+    url: 'http://5000eth-giveaway.getforge.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x61Cf3335eef3bD86Ae617cd2eA248494Da8B83ca'
+-    
+    id: 3382
+    name: get5000eth.com
+    url: 'http://get5000eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xA53577466E0ECAE3bFc967332BB4739Ff19eeb5F'
