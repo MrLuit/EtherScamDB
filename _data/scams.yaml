@@ -22997,3 +22997,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x88bDEB65eD500794118D0E5FDf5808d23Bb74E73'
+-    
+    id: 3384
+    name: ethgiveaway.live 
+    url: 'http://ethgiveaway.live'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xc4B1A260735Fdc817409183db8594bAf9F0B0f2F'
