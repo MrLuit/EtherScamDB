@@ -23024,3 +23024,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xd787e430cf92D42fa28B7643e41Ea1d871A19Fff'
+-    
+    id: 3387
+    name: ethereum.org-giveaway.live
+    url: 'http://ethereum.org-giveaway.live'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x1890D4A49faF31088e5ede045E3a985c82B21f11'
