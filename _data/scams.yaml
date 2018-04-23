@@ -23015,3 +23015,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xbAF18322CE288B08b2c58081fD0D1A9f03a9Ea37'
+-    
+    id: 3386
+    name: bonus.ether-gift.com
+    url: 'http://bonus.ether-gift.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xd787e430cf92D42fa28B7643e41Ea1d871A19Fff'
