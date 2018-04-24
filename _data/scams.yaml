@@ -23102,3 +23102,11 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'   
+-    
+    id: 3396
+    name: pyapay.co
+    url: 'https://pyapay.co/index/'
+    category: Phishing
+    description: 'Fake Phishing PumaPay site' 
+    addresses:    
+      - '0xc25ab34E7F3a1eb2C6a3a23DF851F351df0E712A'
