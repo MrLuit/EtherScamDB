@@ -23094,3 +23094,10 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x0c6a415effaa3a2310c0db718090f4c5fd633982'
+-    
+    id: 3395
+    name: nmyetlerwailet.com
+    url: 'http://nmyetlerwailet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'   
