@@ -23076,3 +23076,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x043375eBc36fFf7a4FCeF1359F3C89afdDF56e08'
+-    
+    id: 3393
+    name: etherclaims.rf.gd
+    url: 'http://etherclaims.rf.gd'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x40949225c4a1745a9946F6AAf763241c082cb9ac'
