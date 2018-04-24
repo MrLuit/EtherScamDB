@@ -23104,6 +23104,87 @@
     description: 'Fake MyEtherWallet'   
 -    
     id: 3396
+    name: get-ethereum.cc
+    url: 'http://get-ethereum.cc'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xF939D9285fFb6FC05780E9549b161d9e9fac6F7d'
+-    
+    id: 3397
+    name: freecoiners.com
+    url: 'http://freecoiners.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xE3224fA0197DE258ba065C35380d7DfD2396ec89'
+-    
+    id: 3398
+    name: clo-airdrop.info
+    url: 'http://clo-airdrop.info'
+    category: Phishing
+    subcategory: Callisto
+    description: 'Fake airdrop phishign for private keys'    
+-    
+    id: 3399
+    name: myehterwallet-ht.com
+    url: 'http://myehterwallet-ht.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'   
+-    
+    id: 3400
+    name: myetherwallet0.com
+    url: 'http://myetherwallet0.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'   
+-    
+    id: 3401
+    name: polomeix.co
+    url: 'http://polomeix.co'
+    category: Phishing
+    subcategory: Poloniex
+    description: 'Fake Poloniex login'   
+-    
+    id: 3402
+    name: poloneix.co
+    url: 'http://poloneix.co'
+    category: Phishing
+    subcategory: Poloniex
+    description: 'Fake Poloniex login'   
+-    
+    id: 3403
+    name: hitlbtc.com
+    url: 'http://hitlbtc.com'
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Fake Hitbtc login'   
+-    
+    id: 3404
+    name: hittbte.com
+    url: 'http://hittbte.com'
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Fake Hitbtc login' 
+-    
+    id: 3405
+    name: xn--htbtc-q81b.com
+    url: 'http://xn--htbtc-q81b.com'
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Fake Hitbtc login' 
+-    
+    id: 3406
+    name: myetherwallet-xn1.com
+    url: 'http://myetherwallet-xn1.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'   
+-
+    id: 3407
     name: pyapay.co
     url: 'https://pyapay.co/index/'
     category: Phishing
