@@ -23127,3 +23127,10 @@
     category: Phishing
     subcategory: Callisto
     description: 'Fake airdrop phishign for private keys'    
+-    
+    id: 3399
+    name: myehterwallet-ht.com
+    url: 'http://myehterwallet-ht.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'   
