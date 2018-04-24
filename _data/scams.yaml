@@ -23147,4 +23147,11 @@
     url: 'http://polomeix.co'
     category: Phishing
     subcategory: Poloniex
-    description: 'Fake Poloniex'   
+    description: 'Fake Poloniex login'   
+-    
+    id: 3402
+    name: poloneix.co
+    url: 'http://poloneix.co'
+    category: Phishing
+    subcategory: Poloniex
+    description: 'Fake Poloniex login'   
