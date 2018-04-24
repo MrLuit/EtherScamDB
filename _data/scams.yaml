@@ -23058,3 +23058,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'    
+-    
+    id: 3391
+    name: eth-promo.kissr.com
+    url: 'http://eth-promo.kissr.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x545b0fdcbb2b404b26546521d4d183c2538509c2'
