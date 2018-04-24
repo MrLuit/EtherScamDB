@@ -23176,3 +23176,10 @@
     category: Phishing
     subcategory: Hitbtc
     description: 'Fake Hitbtc login' 
+-    
+    id: 3406
+    name: myetherwallet-xn1.com
+    url: 'http://myetherwallet-xn1.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'   
