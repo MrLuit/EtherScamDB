@@ -23162,3 +23162,10 @@
     category: Phishing
     subcategory: Hitbtc
     description: 'Fake Hitbtc login'   
+-    
+    id: 3404
+    name: hittbte.com
+    url: 'http://hittbte.com'
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Fake Hitbtc login' 
