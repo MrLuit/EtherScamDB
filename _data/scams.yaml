@@ -23085,3 +23085,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x40949225c4a1745a9946F6AAf763241c082cb9ac'
+-    
+    id: 3394
+    name: eth-promo.webz.cz
+    url: 'http://eth-promo.webz.cz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x0c6a415effaa3a2310c0db718090f4c5fd633982'
