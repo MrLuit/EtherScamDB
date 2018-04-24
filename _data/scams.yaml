@@ -23120,3 +23120,10 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xE3224fA0197DE258ba065C35380d7DfD2396ec89'
+-    
+    id: 3398
+    name: clo-airdrop.info
+    url: 'http://clo-airdrop.info'
+    category: Phishing
+    subcategory: Callisto
+    description: 'Fake airdrop phishign for private keys'    
