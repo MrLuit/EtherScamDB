@@ -23169,3 +23169,10 @@
     category: Phishing
     subcategory: Hitbtc
     description: 'Fake Hitbtc login' 
+-    
+    id: 3405
+    name: xn--htbtc-q81b.com
+    url: 'http://xn--htbtc-q81b.com'
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Fake Hitbtc login' 
