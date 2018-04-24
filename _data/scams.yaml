@@ -23134,3 +23134,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'   
+-    
+    id: 3400
+    name: myetherwallet0.com
+    url: 'http://myetherwallet0.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'   
