@@ -23067,3 +23067,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x545b0fdcbb2b404b26546521d4d183c2538509c2'
+-    
+    id: 3392
+    name: 5000eth.rf.gd
+    url: 'http://5000eth.rf.gd'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x043375eBc36fFf7a4FCeF1359F3C89afdDF56e08'
