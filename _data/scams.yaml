@@ -23141,3 +23141,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'   
+-    
+    id: 3401
+    name: polomeix.co
+    url: 'http://polomeix.co'
+    category: Phishing
+    subcategory: Poloniex
+    description: 'Fake Poloniex'   
