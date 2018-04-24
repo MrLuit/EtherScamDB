@@ -23111,3 +23111,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xF939D9285fFb6FC05780E9549b161d9e9fac6F7d'
+-    
+    id: 3397
+    name: freecoiners.com
+    url: 'http://freecoiners.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xE3224fA0197DE258ba065C35380d7DfD2396ec89'
