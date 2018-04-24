@@ -23042,3 +23042,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xB64f875dAA42173cCAC0b01e502695B61a1A9A64'
+-    
+    id: 3389
+    name: getyoureth.com
+    url: 'http://getyoureth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x91459992BcbF089851abFfa033559C2eEf120469'
