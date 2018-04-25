@@ -23251,3 +23251,108 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x6cca6dcd9843B74FD6118687AD14b572Bcf99EE6'
+-    
+    id: 3415
+    name: xn--mytherwalet-ms8e53d.com
+    url: 'http://xn--mytherwalet-ms8e53d.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'MyEtherWallet IDN homograph attack domain'   
+-    
+    id: 3416
+    name: xn--ytherwallet-2qb6918g.com
+    url: 'http://xn--ytherwallet-2qb6918g.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'MyEtherWallet IDN homograph attack domain'   
+-    
+    id: 3417
+    name: xn--myeherwae-xd6da13dia.com
+    url: 'http://xn--myeherwae-xd6da13dia.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'MyEtherWallet IDN homograph attack domain'       
+-    
+    id: 3418
+    name: xn--myterwallet-3qb9087g.com
+    url: 'http://xn--myterwallet-3qb9087g.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'MyEtherWallet IDN homograph attack domain'       
+-    
+    id: 3419
+    name: xn--myeterwallt-crb1087g.com
+    url: 'http://xn--myeterwallt-crb1087g.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'MyEtherWallet IDN homograph attack domain'       
+-    
+    id: 3420
+    name: xn--mycypto-c63c.com
+    url: 'http://xn--mycypto-c63c.com'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'MyCrypto IDN homograph attack domain'      
+-    
+    id: 3421
+    name: xn--myehewalle-iw2e1gi.com
+    url: 'http://xn--myehewalle-iw2e1gi.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'MyEtherWallet IDN homograph attack domain'        
+-    
+    id: 3422
+    name: xn--myetherwlle-jb9e0y.com
+    url: 'http://xn--myetherwlle-jb9e0y.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'MyEtherWallet IDN homograph attack domain'      
+-    
+    id: 3423
+    name: xn--mytherwllet-xt9e0k.com
+    url: 'http://xn--mytherwllet-xt9e0k.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'MyEtherWallet IDN homograph attack domain'      
+-    
+    id: 3424
+    name: xn--meherwallet-998e27d.com
+    url: 'http://xn--meherwallet-998e27d.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'MyEtherWallet IDN homograph attack domain'      
+-    
+    id: 3425
+    name: xn--myethewallt-crb5058g.com
+    url: 'http://xn--myethewallt-crb5058g.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'MyEtherWallet IDN homograph attack domain'        
+-    
+    id: 3426
+    name: xn--mythrwallet-5qbx.com
+    url: 'http://xn--mythrwallet-5qbx.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'MyEtherWallet IDN homograph attack domain'        
+-    
+    id: 3427
+    name: xn--myeerwallet-ml8el7a.com
+    url: 'http://xn--myeerwallet-ml8el7a.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'MyEtherWallet IDN homograph attack domain'     
+-    
+    id: 3428
+    name: xn--mythewallet-3qb3158g.com
+    url: 'http://xn--mythewallet-3qb3158g.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'MyEtherWallet IDN homograph attack domain'           
+-    
+    id: 3429
+    name: xn--myethewalet-ms8erq.com
+    url: 'http://xn--myethewalet-ms8erq.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'MyEtherWallet IDN homograph attack domain'        
