@@ -23242,3 +23242,12 @@
     category: Phishing
     subcategory: Tron
     description: 'Fake Tron airdrop phishing for private keys. Suspected address: 0xf203d1985247e9a93f31535c004fa783199fa6d3'    
+-    
+    id: 3414
+    name: eosrewards.io
+    url: 'http://eosrewards.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x6cca6dcd9843B74FD6118687AD14b572Bcf99EE6'
