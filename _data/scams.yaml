@@ -23235,3 +23235,10 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x37cE714cD173d79c209CABE9Ab41830F5C31363e'
+-    
+    id: 3413
+    name: tron-network.org
+    url: 'http://tron-network.org'
+    category: Phishing
+    subcategory: Tron
+    description: 'Fake Tron airdrop phishing for private keys. Suspected address: 0xf203d1985247e9a93f31535c004fa783199fa6d3'    
