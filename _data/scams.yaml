@@ -23335,3 +23335,31 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'MyEtherWallet IDN homograph attack domain'        
+-    
+    id: 3427
+    name: xn--myeerwallet-ml8el7a.com
+    url: 'http://xn--myeerwallet-ml8el7a.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'MyEtherWallet IDN homograph attack domain'     
+-    
+    id: 3428
+    name: xn--mythewallet-3qb3158g.com
+    url: 'http://xn--mythewallet-3qb3158g.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'MyEtherWallet IDN homograph attack domain'        
+-    
+    id: 3429
+    name: xn--myethrwalet-ns8e73d.com
+    url: 'http://xn--myethrwalet-ns8e73d.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'MyEtherWallet IDN homograph attack domain'       
+-    
+    id: 3430
+    name: xn--myethewalet-ms8erq.com
+    url: 'http://xn--myethewalet-ms8erq.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'MyEtherWallet IDN homograph attack domain'        
