@@ -23217,3 +23217,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x1161aCF9a61b8cd951F5364E897c586883a1fE76'
+-    
+    id: 3411
+    name: quarkchain-token.io
+    url: 'http://quarkchain-token.io'
+    category: Phishing
+    subcategory: Quarkchain 
+    description: 'Fake Quarkchain crowdsale site'    
+    addresses:    
+      - '0xb4ede22f85C3EA3F918b88D03e6c6f67Bb30EEec'
