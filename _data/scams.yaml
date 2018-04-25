@@ -23208,3 +23208,12 @@
     description: 'Fake Phishing DaoStack site' 
     addresses:    
       - '0x0eC0e48673E4901c3a28AdE2540420f68996E79E'
+-    
+    id: 3410
+    name: gift5000-eth.com
+    url: 'http://gift5000-eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x1161aCF9a61b8cd951F5364E897c586883a1fE76'
