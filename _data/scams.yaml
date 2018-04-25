@@ -23251,3 +23251,10 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x6cca6dcd9843B74FD6118687AD14b572Bcf99EE6'
+-    
+    id: 3415
+    name: xn--mytherwalet-ms8e53d.com
+    url: 'http://xn--mytherwalet-ms8e53d.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'MyEtherWallet IDN homograph attack domain'   
