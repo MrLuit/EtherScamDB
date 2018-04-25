@@ -23226,3 +23226,12 @@
     description: 'Fake Quarkchain crowdsale site'    
     addresses:    
       - '0xb4ede22f85C3EA3F918b88D03e6c6f67Bb30EEec'
+-    
+    id: 3412
+    name: bonus.ethersgift.com
+    url: 'http://bonus.ethersgift.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x37cE714cD173d79c209CABE9Ab41830F5C31363e'
