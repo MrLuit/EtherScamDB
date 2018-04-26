@@ -23395,3 +23395,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'  
+-    
+    id: 3435
+    name: bonus.ethersgifts.com
+    url: 'http://bonus.ethersgifts.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xB767aA43b32827e6C26e126F845953712784Cc1c'
