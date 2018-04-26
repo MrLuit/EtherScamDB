@@ -23381,3 +23381,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'    
+-    
+    id: 3433
+    name: myletherwarlet.com
+    url: 'http://myletherwarlet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'  
