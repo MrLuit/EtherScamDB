@@ -23431,3 +23431,21 @@
     description: 'Fake Daostack token sale site'    
     addresses:    
       - '0xDad1B9eDb80964F2Bbb45B4A98546F09c8D48a23'
+-    
+    id: 3439
+    name: gift5000eth.com
+    url: 'http://gift5000eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xB5eb9d18C0413535bAf1fA8Bd8BF8F6Ea7fEa47A'
+-    
+    id: 3440
+    name: securepayeth.com
+    url: 'http://securepayeth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xa4Fe2874A4aD464A50CB72a8C0b1a6ab221A7C17'
