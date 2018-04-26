@@ -23404,3 +23404,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xB767aA43b32827e6C26e126F845953712784Cc1c'
+-    
+    id: 3436
+    name: give-5000eth.org
+    url: 'http://give-5000eth.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x634cdd7EBECcccf517Cd8f4EcA959474bc1b58cC'
