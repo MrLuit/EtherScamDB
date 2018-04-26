@@ -23421,4 +23421,13 @@
     url: 'http://localetherieum.com'
     category: Phishing
     subcategory: LocalEthereum
-    description: 'Fake LocalEthereum phishing for logins'  
+    description: 'Fake LocalEthereum phishing for logins' 
+-    
+    id: 3438
+    name: daostack-ico.io
+    url: 'http://daostack-ico.io'
+    category: Scamming
+    subcategory: Daostack
+    description: 'Fake Daostack token sale site'    
+    addresses:    
+      - '0xDad1B9eDb80964F2Bbb45B4A98546F09c8D48a23'
