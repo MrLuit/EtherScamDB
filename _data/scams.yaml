@@ -23388,3 +23388,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'  
+-    
+    id: 3434
+    name: myoknawell.com
+    url: 'http://myoknawell.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'  
