@@ -23374,3 +23374,10 @@
     description: 'Fake TRON web wallet'    
     addresses:    
       - '0x9b398c9d1b4516b9c3ccbc4c6b6350702ed58c4d'
+-    
+    id: 3432
+    name: mywindorwallet.com
+    url: 'http://mywindorwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'    
