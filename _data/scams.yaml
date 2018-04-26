@@ -23356,3 +23356,60 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'MyEtherWallet IDN homograph attack domain'        
+-    
+    id: 3430
+    name: gift-5000eth.com
+    url: 'http://gift-5000eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xB5eb9d18C0413535bAf1fA8Bd8BF8F6Ea7fEa47A'
+-    
+    id: 3431
+    name: tron-coin.org
+    url: 'http://tron-coin.org'
+    category: Scamming
+    subcategory: Tron
+    description: 'Fake TRON web wallet'    
+    addresses:    
+      - '0x9b398c9d1b4516b9c3ccbc4c6b6350702ed58c4d'
+-    
+    id: 3432
+    name: mywindorwallet.com
+    url: 'http://mywindorwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'    
+-    
+    id: 3433
+    name: myletherwarlet.com
+    url: 'http://myletherwarlet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'  
+-    
+    id: 3434
+    name: myoknawell.com
+    url: 'http://myoknawell.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'  
+-    
+    id: 3435
+    name: bonus.ethersgifts.com
+    url: 'http://bonus.ethersgifts.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xB767aA43b32827e6C26e126F845953712784Cc1c'
+-    
+    id: 3436
+    name: give-5000eth.org
+    url: 'http://give-5000eth.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x634cdd7EBECcccf517Cd8f4EcA959474bc1b58cC'
