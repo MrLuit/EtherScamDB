@@ -23415,3 +23415,10 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x634cdd7EBECcccf517Cd8f4EcA959474bc1b58cC'
+-    
+    id: 3437
+    name: localetherieum.com
+    url: 'http://localetherieum.com'
+    category: Phishing
+    subcategory: LocalEthereum
+    description: 'Fake LocalEthereum phishing for logins'  
