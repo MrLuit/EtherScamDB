@@ -23365,6 +23365,7 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xB5eb9d18C0413535bAf1fA8Bd8BF8F6Ea7fEa47A'
+      - '0x1161aCF9a61b8cd951F5364E897c586883a1fE76'
 -    
     id: 3431
     name: tron-coin.org
