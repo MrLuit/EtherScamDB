@@ -23208,6 +23208,7 @@
     description: 'Fake Phishing DaoStack site' 
     addresses:    
       - '0x0eC0e48673E4901c3a28AdE2540420f68996E79E'
+      - '0xD42c3960d30F36C5a4e58D591180F58a34354641'
 -    
     id: 3410
     name: gift5000-eth.com
