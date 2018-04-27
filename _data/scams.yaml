@@ -23449,3 +23449,26 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xa4Fe2874A4aD464A50CB72a8C0b1a6ab221A7C17'
+-    
+    id: 3441
+    name: polymath-network.com
+    url: 'http://polymath-network.com'
+    category: Phishing
+    subcategory: Polymath
+    description: 'Fake airdrop phishing for private keys'   
+-    
+    id: 3442
+    name: eth-airdrop.online
+    url: 'http://eth-airdrop.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site (promoted by a fake swarm city twitter account @Swarm_CityDApp id: 988059498169491456'    
+-    
+    id: 3443
+    name: ether-giveaway.atspace.eu
+    url: 'http://ether-giveaway.atspace.eu'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x38B9dafe93F0b3Ab7D35ac42165b73c0F3c5FD8c'
