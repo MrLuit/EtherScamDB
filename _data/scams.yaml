@@ -23490,3 +23490,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xe00e1f7117a69c34694ac1815177c93491fc448f'
+-    
+    id: 3446
+    name: get-ethereum.gift
+    url: 'http://get-ethereum.gift'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xd52fcaf53cd3eFd7E1d484fd9cd2dd21355063e5'
