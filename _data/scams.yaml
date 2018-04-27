@@ -23449,3 +23449,10 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xa4Fe2874A4aD464A50CB72a8C0b1a6ab221A7C17'
+-    
+    id: 3441
+    name: polymath-network.com
+    url: 'http://polymath-network.com'
+    category: Phishing
+    subcategory: Polymath
+    description: 'Fake airdrop phishing for private keys'   
