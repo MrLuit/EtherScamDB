@@ -23463,3 +23463,12 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust-trading scam site (promoted by a fake swarm city twitter account @Swarm_CityDApp id: 988059498169491456'    
+-    
+    id: 3443
+    name: ether-giveaway.atspace.eu
+    url: 'http://ether-giveaway.atspace.eu'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x38B9dafe93F0b3Ab7D35ac42165b73c0F3c5FD8c'
