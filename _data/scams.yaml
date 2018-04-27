@@ -23481,3 +23481,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xf7355cb5278fc4be2f53ce373f7cd9b543d042a1'
+-    
+    id: 3445
+    name: ethereum-give.czweb.org
+    url: 'http://ethereum-give.czweb.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xe00e1f7117a69c34694ac1815177c93491fc448f'
