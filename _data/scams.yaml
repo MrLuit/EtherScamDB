@@ -23508,3 +23508,10 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x018f2f4b3C9e38607aa7AB4DEA23E9d663e3e050'
+-    
+    id: 3448
+    name: letherwindows.com
+    url: 'http://letherwindows.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'  
