@@ -23490,3 +23490,28 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xe00e1f7117a69c34694ac1815177c93491fc448f'
+-    
+    id: 3446
+    name: get-ethereum.gift
+    url: 'http://get-ethereum.gift'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xd52fcaf53cd3eFd7E1d484fd9cd2dd21355063e5'
+-    
+    id: 3447
+    name: 5000eth-gift.com
+    url: 'http://5000eth-gift.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x018f2f4b3C9e38607aa7AB4DEA23E9d663e3e050'
+-    
+    id: 3448
+    name: letherwindows.com
+    url: 'http://letherwindows.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'  
