@@ -23560,3 +23560,12 @@
     description: 'Fake Telegram crowdsale site'    
     addresses:    
       - '0x7f5D2fE39CD0C9924283Cd5e92377A4894e3313A'
+-    
+    id: 3454
+    name: ethereums.cloud
+    url: 'http://ethereums.cloud'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x085f9b53aCBff0E4683463FEf1A583d299bd4e25'
