@@ -23596,3 +23596,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x5fE584cB2d2A937C4AbBD0cad57841cc8Db97Df1'
+-    
+    id: 3458
+    name: get-5000eth.com
+    url: 'http://get-5000eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x5093c4029aCab3AfF80140023099F5Ec6ca7D52F'
