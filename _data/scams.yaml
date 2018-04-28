@@ -23533,3 +23533,12 @@
     description: 'Fake Telegram crowdsale site'    
     addresses:    
       - '0x6c20ef21e604028c649247c581e8e49fda6191ca'
+-    
+    id: 3451
+    name: ico-telegram.cc
+    url: 'http://ico-telegram.cc'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0x52bEF206E8e0403Cd60d37E48f4F3860D9545556'
