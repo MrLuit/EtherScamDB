@@ -23641,3 +23641,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xb619A34ABAC80478aE6a93527FdEaeeb0e51e934'
+-    
+    id: 3463
+    name: eth-reward.com
+    url: 'http://eth-reward.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xf12d3F5d38C2408Da3122CEe1432E89c16522b3b'
