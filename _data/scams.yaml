@@ -23587,3 +23587,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xAC14590ad8184a48302f59a8BaAF924B865De4C5'
+-    
+    id: 3457
+    name: take5000eth.com
+    url: 'http://take5000eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x5fE584cB2d2A937C4AbBD0cad57841cc8Db97Df1'
