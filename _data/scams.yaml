@@ -23614,3 +23614,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x72a8BF69f282c2eB752d48b7778C0f0B6EAeaBAC'
+-    
+    id: 3460
+    name: quarkchain-tokensale.io
+    url: 'http://quarkchain-tokensale.io'
+    category: Phishing
+    subcategory: Quark
+    description: 'Fake Quarkchain crowdsale site'    
+    addresses:    
+      - '0x6D09D33C424932f59Ce9aa777aDf131FB3adbf3E'
