@@ -23515,3 +23515,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'  
+-    
+    id: 3449
+    name: tokentelegram.live
+    url: 'http://tokentelegram.live'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0x6d1Ca9Ee33f0806bD37a8ac4c418a0Ecb0c9F086'
