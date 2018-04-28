@@ -23524,3 +23524,39 @@
     description: 'Fake Telegram crowdsale site'    
     addresses:    
       - '0x6d1Ca9Ee33f0806bD37a8ac4c418a0Ecb0c9F086'
+-    
+    id: 3450
+    name: tokentelegram.info
+    url: 'http://tokentelegram.info'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0x6c20ef21e604028c649247c581e8e49fda6191ca'
+-    
+    id: 3451
+    name: ico-telegram.cc
+    url: 'http://ico-telegram.cc'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0x52bEF206E8e0403Cd60d37E48f4F3860D9545556'
+-    
+    id: 3452
+    name: ico-telegramcoin.com
+    url: 'http://ico-telegramcoin.com'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0xd914c1152a0e4974dc3985e9b6f6905e002ebb3d'
+-    
+    id: 3453
+    name: ico-telegram.is
+    url: 'http://ico-telegram.is'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0x7f5D2fE39CD0C9924283Cd5e92377A4894e3313A'
