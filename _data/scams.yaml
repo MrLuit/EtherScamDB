@@ -23569,3 +23569,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x085f9b53aCBff0E4683463FEf1A583d299bd4e25'
+-    
+    id: 3455
+    name: eth-giveavvay.online
+    url: 'http://eth-giveavvay.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xcaa5854034d7eDA409e2479C6c0351C167e21a08'
