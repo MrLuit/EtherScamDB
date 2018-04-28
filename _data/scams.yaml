@@ -23578,3 +23578,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xcaa5854034d7eDA409e2479C6c0351C167e21a08'
+-    
+    id: 3456
+    name: ether_promo.kissr.com
+    url: 'http://ether_promo.kissr.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xAC14590ad8184a48302f59a8BaAF924B865De4C5'
