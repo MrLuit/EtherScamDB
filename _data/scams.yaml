@@ -23632,3 +23632,21 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x23397C5d9C6363d67b3a294b677F80f93949bF56'
+-    
+    id: 3462
+    name: give-eth.online
+    url: 'http://give-eth.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xb619A34ABAC80478aE6a93527FdEaeeb0e51e934'
+-    
+    id: 3463
+    name: eth-reward.com
+    url: 'http://eth-reward.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xf12d3F5d38C2408Da3122CEe1432E89c16522b3b'
