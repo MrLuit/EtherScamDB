@@ -23605,3 +23605,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x5093c4029aCab3AfF80140023099F5Ec6ca7D52F'
+-    
+    id: 3459
+    name: ethereumgiveaway5000.com
+    url: 'http://ethereumgiveaway5000.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x72a8BF69f282c2eB752d48b7778C0f0B6EAeaBAC'
