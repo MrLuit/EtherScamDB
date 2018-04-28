@@ -23560,3 +23560,48 @@
     description: 'Fake Telegram crowdsale site'    
     addresses:    
       - '0x7f5D2fE39CD0C9924283Cd5e92377A4894e3313A'
+-    
+    id: 3454
+    name: ethereums.cloud
+    url: 'http://ethereums.cloud'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x085f9b53aCBff0E4683463FEf1A583d299bd4e25'
+-    
+    id: 3455
+    name: eth-giveavvay.online
+    url: 'http://eth-giveavvay.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xcaa5854034d7eDA409e2479C6c0351C167e21a08'
+-    
+    id: 3456
+    name: ether_promo.kissr.com
+    url: 'http://ether_promo.kissr.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xAC14590ad8184a48302f59a8BaAF924B865De4C5'
+-    
+    id: 3457
+    name: take5000eth.com
+    url: 'http://take5000eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x5fE584cB2d2A937C4AbBD0cad57841cc8Db97Df1'
+-    
+    id: 3458
+    name: get-5000eth.com
+    url: 'http://get-5000eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x5093c4029aCab3AfF80140023099F5Ec6ca7D52F'
