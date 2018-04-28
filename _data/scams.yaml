@@ -23524,3 +23524,12 @@
     description: 'Fake Telegram crowdsale site'    
     addresses:    
       - '0x6d1Ca9Ee33f0806bD37a8ac4c418a0Ecb0c9F086'
+-    
+    id: 3450
+    name: tokentelegram.info
+    url: 'http://tokentelegram.info'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0x6c20ef21e604028c649247c581e8e49fda6191ca'
