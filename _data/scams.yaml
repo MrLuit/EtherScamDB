@@ -23623,3 +23623,12 @@
     description: 'Fake Quarkchain crowdsale site'    
     addresses:    
       - '0x6D09D33C424932f59Ce9aa777aDf131FB3adbf3E'
+-    
+    id: 3461
+    name: 5000ethgift.com
+    url: 'http://5000ethgift.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x23397C5d9C6363d67b3a294b677F80f93949bF56'
