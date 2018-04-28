@@ -23551,3 +23551,12 @@
     description: 'Fake Telegram crowdsale site'    
     addresses:    
       - '0xd914c1152a0e4974dc3985e9b6f6905e002ebb3d'
+-    
+    id: 3453
+    name: ico-telegram.is
+    url: 'http://ico-telegram.is'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'    
+    addresses:    
+      - '0x7f5D2fE39CD0C9924283Cd5e92377A4894e3313A'
