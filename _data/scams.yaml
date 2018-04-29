@@ -16757,7 +16757,7 @@
     url: 'http://xn--os-g7s.com'
     category: Phishing
     subcategory: Eos
-    description: 'Fake airdrop site redirecting to a fake MEW xn--myeherwalet-ns8exy.com'
+    description: 'Fake airdrop site redirecting to a fake MEW xn--myeherwalet-ns8exy.com. Suspected address: 0x95d986f907ea7aed17c7b09b9689af7819545fb1'
     addresses:
       - '0x58a166f9a6ff996e2349eea90d42cc198529a037'
 -
@@ -23814,3 +23814,21 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xEa05F37657AED5D6066c42c1458cDD1aAf48B80a'
+-    
+    id: 3485
+    name: ethereumdrop.batcave.net
+    url: 'http://ethereumdrop.batcave.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xa0C7d4F3FC7f8A46FB58990228d0B82A0354F371'
+-    
+    id: 3486
+    name: etherdrops.com
+    url: 'http://etherdrops.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xd52fcaf53cd3eFd7E1d484fd9cd2dd21355063e5'
