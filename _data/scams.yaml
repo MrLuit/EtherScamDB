@@ -23780,3 +23780,37 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x754Fb6a142eD0043937b676A067F2E367db52fA6'
+-    
+    id: 3481
+    name: collecteth.com
+    url: 'http://collecteth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x418Cb18A725A8B1043D2fB402bb71CC29E42e2E9'
+-    
+    id: 3482
+    name: eth-get.online
+    url: 'http://eth-get.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xAC14590ad8184a48302f59a8BaAF924B865De4C5'
+-    
+    id: 3483
+    name: main-myetherwallet.com
+    url: 'http://main-myetherwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet. https://www.virustotal.com/#/url/29a35e2e385f7985fcf38908592c3a4bbbf6c33ee3e6218c003a337a04e353d9/detection From DNS8, whom I noticed removing malicious indication of them upon mew reporting back to me with a reference to it. - Seki'    
+-    
+    id: 3484
+    name: eth-platform.com
+    url: 'http://eth-platform.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xEa05F37657AED5D6066c42c1458cDD1aAf48B80a'
