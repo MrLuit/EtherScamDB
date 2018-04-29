@@ -23823,3 +23823,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xa0C7d4F3FC7f8A46FB58990228d0B82A0354F371'
+-    
+    id: 3486
+    name: etherdrops.com
+    url: 'http://etherdrops.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xd52fcaf53cd3eFd7E1d484fd9cd2dd21355063e5'
