@@ -23771,3 +23771,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x74f59fD3Fb42295A05975456A6cdfF4e71174Cd5'
+-    
+    id: 3480
+    name: promo-ether.com
+    url: 'http://promo-ether.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x754Fb6a142eD0043937b676A067F2E367db52fA6'
