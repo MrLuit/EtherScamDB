@@ -23798,3 +23798,10 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xAC14590ad8184a48302f59a8BaAF924B865De4C5'
+-    
+    id: 3483
+    name: main-myetherwallet.com
+    url: 'http://main-myetherwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet. https://www.virustotal.com/#/url/29a35e2e385f7985fcf38908592c3a4bbbf6c33ee3e6218c003a337a04e353d9/detection From DNS8, whom I noticed removing malicious indication of them upon mew reporting back to me with a reference to it. - Seki'    
