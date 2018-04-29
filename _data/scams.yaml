@@ -22470,6 +22470,7 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x2cc762c27a50d18e50efcd3bee9e3154e3bb094d'
+      - '0x548ac87629ceb858aa09b419f5b9898ec5735fba'
 -    
     id: 3319
     name: eth.kissr.com
@@ -23650,3 +23651,96 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xf12d3F5d38C2408Da3122CEe1432E89c16522b3b'
+-    
+    id: 3464
+    name: mycrypto.promo
+    url: 'http://mycrypto.promo'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto'    
+-    
+    id: 3465
+    name: mycrypto.ink
+    url: 'http://mycrypto.ink'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto'      
+-    
+    id: 3466
+    name: mycrypto.group
+    url: 'http://mycrypto.group'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto'      
+-    
+    id: 3467
+    name: mycrypto.ltd
+    url: 'http://mycrypto.ltd'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto'     
+-    
+    id: 3468
+    name: mycryrpto.com
+    url: 'http://mycryrpto.com'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto'       
+-    
+    id: 3469
+    name: mrycrypto.com
+    url: 'http://mrycrypto.com'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto'        
+-    
+    id: 3470
+    name: myerypto.com
+    url: 'http://myerypto.com'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto'      
+-    
+    id: 3471
+    name: myrcrypto.com
+    url: 'http://myrcrypto.com'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto'      
+-    
+    id: 3472
+    name: nnycrypto.com
+    url: 'http://nnycrypto.com'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto'      
+-    
+    id: 3473
+    name: myetherwalt.com
+    url: 'http://myetherwalt.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'     
+-    
+    id: 3474
+    name: gram-token-sale.com
+    url: 'http://gram-token-sale.com'
+    category: Phishing
+    subcategory: Telegram 
+    description: 'Fake Telegram crowdsale site. Suspected address: 0x7d66c5111f9369B1b7Ecc2B80E97Dc98585344bd'    
+-    
+    id: 3475
+    name: bonus.gift-ethers.com
+    url: 'http://bonus.gift-ethers.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x471DBd4D8FCe14EAe3B36EFA8Fa97A3937038DFA'
+-    
+    id: 3476
+    name: promotioneth.com
+    url: 'http://promotioneth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
