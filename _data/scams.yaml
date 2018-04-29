@@ -22470,6 +22470,7 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x2cc762c27a50d18e50efcd3bee9e3154e3bb094d'
+      - '0x548ac87629ceb858aa09b419f5b9898ec5735fba'
 -    
     id: 3319
     name: eth.kissr.com
