@@ -23789,3 +23789,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x418Cb18A725A8B1043D2fB402bb71CC29E42e2E9'
+-    
+    id: 3482
+    name: eth-get.online
+    url: 'http://eth-get.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xAC14590ad8184a48302f59a8BaAF924B865De4C5'
