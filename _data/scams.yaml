@@ -16757,7 +16757,7 @@
     url: 'http://xn--os-g7s.com'
     category: Phishing
     subcategory: Eos
-    description: 'Fake airdrop site redirecting to a fake MEW xn--myeherwalet-ns8exy.com'
+    description: 'Fake airdrop site redirecting to a fake MEW xn--myeherwalet-ns8exy.com. Suspected address: 0x95d986f907ea7aed17c7b09b9689af7819545fb1'
     addresses:
       - '0x58a166f9a6ff996e2349eea90d42cc198529a037'
 -
