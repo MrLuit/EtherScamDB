@@ -23805,3 +23805,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet. https://www.virustotal.com/#/url/29a35e2e385f7985fcf38908592c3a4bbbf6c33ee3e6218c003a337a04e353d9/detection From DNS8, whom I noticed removing malicious indication of them upon mew reporting back to me with a reference to it. - Seki'    
+-    
+    id: 3484
+    name: eth-platform.com
+    url: 'http://eth-platform.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xEa05F37657AED5D6066c42c1458cDD1aAf48B80a'
