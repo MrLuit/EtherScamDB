@@ -23744,3 +23744,12 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site'    
+-    
+    id: 3477
+    name: gift-5000eth.org
+    url: 'http://gift-5000eth.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xDcCDCe28bba5B796724f1b50Ab350403D895fE08'
