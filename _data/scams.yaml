@@ -23762,3 +23762,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xe22D388301E7D57e20F59E03c14CA4c026C6C3d9'
+-    
+    id: 3479
+    name: ethereums.live
+    url: 'http://ethereums.live'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x74f59fD3Fb42295A05975456A6cdfF4e71174Cd5'
