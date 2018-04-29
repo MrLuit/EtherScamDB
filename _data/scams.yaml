@@ -23780,3 +23780,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x754Fb6a142eD0043937b676A067F2E367db52fA6'
+-    
+    id: 3481
+    name: collecteth.com
+    url: 'http://collecteth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x418Cb18A725A8B1043D2fB402bb71CC29E42e2E9'
