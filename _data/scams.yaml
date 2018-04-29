@@ -23726,4 +23726,11 @@
     url: 'http://myetherwalt.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: 'Fake MyEtherWallet'      
+    description: 'Fake MyEtherWallet'     
+-    
+    id: 3475
+    name: gram-token-sale.com
+    url: 'http://gram-token-sale.com'
+    category: Phishing
+    subcategory: Telegram 
+    description: 'Fake Telegram crowdsale site. Suspected address: 0x7d66c5111f9369B1b7Ecc2B80E97Dc98585344bd'    
