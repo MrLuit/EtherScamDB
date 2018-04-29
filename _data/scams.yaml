@@ -23743,3 +23743,10 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x471DBd4D8FCe14EAe3B36EFA8Fa97A3937038DFA'
+-    
+    id: 3477
+    name: promotioneth.com
+    url: 'http://promotioneth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
