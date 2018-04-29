@@ -23814,3 +23814,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xEa05F37657AED5D6066c42c1458cDD1aAf48B80a'
+-    
+    id: 3485
+    name: ethereumdrop.batcave.net
+    url: 'http://ethereumdrop.batcave.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xa0C7d4F3FC7f8A46FB58990228d0B82A0354F371'
