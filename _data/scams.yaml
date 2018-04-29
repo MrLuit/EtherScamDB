@@ -23734,3 +23734,12 @@
     category: Phishing
     subcategory: Telegram 
     description: 'Fake Telegram crowdsale site. Suspected address: 0x7d66c5111f9369B1b7Ecc2B80E97Dc98585344bd'    
+-    
+    id: 3476
+    name: bonus.gift-ethers.com
+    url: 'http://bonus.gift-ethers.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x471DBd4D8FCe14EAe3B36EFA8Fa97A3937038DFA'
