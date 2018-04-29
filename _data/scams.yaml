@@ -23657,3 +23657,73 @@
     category: Phishing
     subcategory: MyCrypto
     description: 'Fake MyCrypto'    
+-    
+    id: 3465
+    name: mycrypto.ink
+    url: 'http://mycrypto.ink'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto'    
+-    
+    id: 3466
+    name: mycrypto.company
+    url: 'http://mycrypto.company'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto'      
+-    
+    id: 3467
+    name: mycrypto.group
+    url: 'http://mycrypto.group'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto'      
+-    
+    id: 3468
+    name: mycrypto.ltd
+    url: 'http://mycrypto.ltd'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto'     
+-    
+    id: 3469
+    name: mycryrpto.com
+    url: 'http://mycryrpto.com'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto'       
+-    
+    id: 3470
+    name: mrycrypto.com
+    url: 'http://mrycrypto.com'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto'        
+-    
+    id: 3471
+    name: myerypto.com
+    url: 'http://myerypto.com'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto'      
+-    
+    id: 3472
+    name: myrcrypto.com
+    url: 'http://myrcrypto.com'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto'      
+-    
+    id: 3473
+    name: nnycrypto.com
+    url: 'http://nnycrypto.com'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto'      
+-    
+    id: 3474
+    name: myetherwalt.com
+    url: 'http://myetherwalt.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'      
