@@ -23872,3 +23872,73 @@
     category: Phishing
     subcategory: Banca
     description: 'Fake Banca airdrop phishing for private keys'  
+-    
+    id: 3492
+    name: myetherwallet-start.download
+    url: 'http://myetherwallet-start.download'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake/Suspect MyEtherWallet domain'  
+-    
+    id: 3493
+    name: myethereumwalletpro.com
+    url: 'http://myethereumwalletpro.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake/Suspect MyEtherWallet domain'      
+-    
+    id: 3494
+    name: myehretewallet.com
+    url: 'http://myehretewallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake/Suspect MyEtherWallet domain'       
+-    
+    id: 3495
+    name: myetherwallet-cash.download
+    url: 'http://myetherwallet-cash.download'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake/Suspect MyEtherWallet domain'          
+-    
+    id: 3496
+    name: myetherwallet-official.download
+    url: 'http://myetherwallet-official.download'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake/Suspect MyEtherWallet domain'          
+-    
+    id: 3497
+    name: myetrhrerwallet.com
+    url: 'http://myetrhrerwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'          
+-    
+    id: 3498
+    name: mynerthwallet.com
+    url: 'http://mynerthwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'          
+-    
+    id: 3499
+    name: mynethwallet.com
+    url: 'http://mynethwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'          
+-    
+    id: 3500
+    name: mynetwalleteth.com
+    url: 'http://mynetwalleteth.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'         
+-    
+    id: 3501
+    name: mynewalleteth.com
+    url: 'http://mynewalleteth.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'         
