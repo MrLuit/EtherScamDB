@@ -23848,3 +23848,12 @@
     category: Phishing
     subcategory: Icon
     description: 'Fake Icon airdrop phishing for private keys'    
+-    
+    id: 3489
+    name: free-give-eth.com
+    url: 'http://free-give-eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x95FFCdF36129e5E256190609CD97841D03E52356'
