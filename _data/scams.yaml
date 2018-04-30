@@ -23832,3 +23832,35 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xd52fcaf53cd3eFd7E1d484fd9cd2dd21355063e5'
+-    
+    id: 3487
+    name: geteths.live
+    url: 'http://geteths.live'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x4FbC4C6C416a84e04B2239202396f378d7Af51ee'
+-    
+    id: 3488
+    name: iconfoundaton.com
+    url: 'http://iconfoundaton.com'
+    category: Phishing
+    subcategory: Icon
+    description: 'Fake Icon airdrop phishing for private keys'    
+-    
+    id: 3489
+    name: free-give-eth.com
+    url: 'http://free-give-eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x95FFCdF36129e5E256190609CD97841D03E52356'
+-    
+    id: 3490
+    name: zilliqa.site
+    url: 'http://zilliqa.site'
+    category: Phishing
+    subcategory: Zilliqa
+    description: 'Fake Zilliqa airdrop phishing for private keys'  
