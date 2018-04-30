@@ -23841,3 +23841,10 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x4FbC4C6C416a84e04B2239202396f378d7Af51ee'
+-    
+    id: 3488
+    name: iconfoundaton.com
+    url: 'http://iconfoundaton.com'
+    category: Phishing
+    subcategory: Icon
+    description: 'Fake Icon airdrop phishing for private keys'    
