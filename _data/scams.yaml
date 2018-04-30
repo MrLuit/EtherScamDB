@@ -23942,3 +23942,30 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'         
+-    
+    id: 3502
+    name: ethgiveaways.net
+    url: 'http://ethgiveaways.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x95C5dB5bD9A0260Fc457Af4F6fc6dE7819D9B1a6'
+-    
+    id: 3503
+    name: eth-24h.com
+    url: 'http://eth-24h.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xb53e95a4b7c5e15a790df3a66709b2e9f1cf9e3f'
+-    
+    id: 3504
+    name: quarkchain-ico.io
+    url: 'http://quarkchain-ico.io'
+    category: Phishing
+    subcategory: Quarkchain
+    description: 'Fake Quarkchain crowdsale site'    
+    addresses:    
+      - '0xA43d3805105922989e58A5188193C283Fff471e7'
