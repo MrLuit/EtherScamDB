@@ -23857,3 +23857,10 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x95FFCdF36129e5E256190609CD97841D03E52356'
+-    
+    id: 3490
+    name: zilliqa.site
+    url: 'http://zilliqa.site'
+    category: Phishing
+    subcategory: Zilliqa
+    description: 'Fake Zilliqa airdrop phishing for private keys'  
