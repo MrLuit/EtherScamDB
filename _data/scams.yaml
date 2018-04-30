@@ -23993,3 +23993,12 @@
     category: Phishing
     subcategory: MyCrypto
     description: 'Fake MyCrypto'        
+-    
+    id: 3508
+    name: bitfinex.eu
+    url: 'http://bitfinex.eu'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Fake Bitfinex domain hosting a trust-trading scam giveaway via iframe (trust-cryptopayment.com)'    
+    addresses:    
+      - '0x97b20481241fe3cb9cc9ba50609d377b2506cdaa'
