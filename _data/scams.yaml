@@ -21661,6 +21661,7 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x17935DFFbC228397d2f5a67061867804cEcacaE8'
+      - '0x581ffAadEEB6d183A73d93413e137CB8c6057603'      
 -    
     id: 3224
     name: tronfoundation.us
