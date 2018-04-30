@@ -23832,3 +23832,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xd52fcaf53cd3eFd7E1d484fd9cd2dd21355063e5'
+-    
+    id: 3487
+    name: geteths.live
+    url: 'http://geteths.live'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x4FbC4C6C416a84e04B2239202396f378d7Af51ee'
