@@ -23865,3 +23865,10 @@
     category: Phishing
     subcategory: Zilliqa
     description: 'Fake Zilliqa airdrop phishing for private keys'  
+-    
+    id: 3491
+    name: bancatoken.org
+    url: 'http://bancatoken.org'
+    category: Phishing
+    subcategory: Banca
+    description: 'Fake Banca airdrop phishing for private keys'  
