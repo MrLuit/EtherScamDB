@@ -23942,3 +23942,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'         
+-    
+    id: 3502
+    name: ethgiveaways.net
+    url: 'http://ethgiveaways.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0x95C5dB5bD9A0260Fc457Af4F6fc6dE7819D9B1a6'
