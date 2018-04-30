@@ -20380,6 +20380,7 @@
     description: 'Trust-trading scam'    
     addresses:    
       - '0x4dbef9b86bb3174312d1377b2623db2a9caa5137' 
+      - '0x97b20481241fe3cb9cc9ba50609d377b2506cdaa'       
 -    
     id: 3069
     name: binance-promo.net
