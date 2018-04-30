@@ -23960,3 +23960,12 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xb53e95a4b7c5e15a790df3a66709b2e9f1cf9e3f'
+-    
+    id: 3504
+    name: quarkchain-ico.io
+    url: 'http://quarkchain-ico.io'
+    category: Phishing
+    subcategory: Quarkchain
+    description: 'Fake Quarkchain crowdsale site'    
+    addresses:    
+      - '0xA43d3805105922989e58A5188193C283Fff471e7'
