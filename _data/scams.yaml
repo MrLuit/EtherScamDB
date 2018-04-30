@@ -23969,3 +23969,12 @@
     description: 'Fake Quarkchain crowdsale site'    
     addresses:    
       - '0xA43d3805105922989e58A5188193C283Fff471e7'
+-    
+    id: 3505
+    name: giveaway-eth.com
+    url: 'http://giveaway-eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
+    addresses:    
+      - '0xD289Bc0A919E75B824F4DfC376E9F24C119eD3F3'
