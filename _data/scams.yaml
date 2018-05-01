@@ -24020,3 +24020,21 @@
     description: 'Fake Telegram channel targeting the DaoStack ICO'
     addresses:
       - '0x4985a8D068A9CAC4B81FaaAFB8D4516AE46dD768'
+-
+    id: 3511
+    name: eosreward.io
+    url: 'https://eosreward.io'
+    category: Scamming
+    subcategory: Trust Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xB3510C6786B90c2065644825bd34C4219f1460FF'
+-
+    id: 3512
+    name: eth-givea-way.com
+    url: 'https://eth-givea-way.com'
+    category: Scamming
+    subcategory: Trust Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x16c26eb6051fe13273c634cb6df70a26befa9ec3'
