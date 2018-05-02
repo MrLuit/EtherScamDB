@@ -24087,3 +24087,10 @@
     addresses:
       - '0xf51b4021c6F1aF31f44Bf575188986E733A971Fe'
       - '0x085f9b53aCBff0E4683463FEf1A583d299bd4e25'
+-
+    id: 3519
+    name: blockchaihs.info
+    url: 'https://blockchaihs.info'
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake Blockchain info site phishing for logins. Google Ad going through cken.site'
