@@ -24067,3 +24067,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'
+-
+    id: 3517
+    name: ethereum.vu
+    url: 'http://ethereum.vu'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xf51b4021c6F1aF31f44Bf575188986E733A971Fe'
