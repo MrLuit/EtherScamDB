@@ -23800,6 +23800,7 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0xAC14590ad8184a48302f59a8BaAF924B865De4C5'
+      - '0x4810b1571775Dd861c61D87FBEa1008E030A8dDF'
 -    
     id: 3483
     name: main-myetherwallet.com
@@ -24055,3 +24056,33 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x78c544EEdE78eb781707A1d46377bf6BE9D028Df'
+-      
+    id: 3515
+    name: meythcrrwallet.ru.com
+    url: 'https://meythcrrwallet.ru.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
+-
+    id: 3516
+    name: myetharwallet.stream
+    url: 'https://myetharwallet.stream'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet domain - suspicious'
+-
+    id: 3517
+    name: myetherewallet.net
+    url: 'https://myetherewallet.net'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
+-
+    id: 3518
+    name: ethereum.vu
+    url: 'http://ethereum.vu'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xf51b4021c6F1aF31f44Bf575188986E733A971Fe'
