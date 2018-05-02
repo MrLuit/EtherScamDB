@@ -24053,3 +24053,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'
+-
+    id: 3515
+    name: myetharwallet.stream
+    url: 'https://myetharwallet.stream'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet domain - suspicious'
