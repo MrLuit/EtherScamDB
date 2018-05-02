@@ -24038,3 +24038,10 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x16c26eb6051fe13273c634cb6df70a26befa9ec3'
+-
+    id: 3513
+    name: axpire.tech
+    url: 'https://axpire.tech'
+    category: Phishing
+    subcategory: Axpire
+    description: 'Fake Axpire airdrop phishing for private keys/keystore/mnemonic phrases'
