@@ -24060,3 +24060,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet domain - suspicious'
+-
+    id: 3516
+    name: myetherewallet.net
+    url: 'https://myetherewallet.net'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
