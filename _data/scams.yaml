@@ -24046,3 +24046,10 @@
     category: Phishing
     subcategory: Axpire
     description: 'Fake Axpire airdrop phishing for private keys/keystore/mnemonic phrases'
+-
+    id: 3514
+    name: meythcrrwallet.ru.com
+    url: 'https://meythcrrwallet.ru.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
