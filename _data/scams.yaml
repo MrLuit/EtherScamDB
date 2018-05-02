@@ -24046,3 +24046,12 @@
     category: Phishing
     subcategory: Axpire
     description: 'Fake Axpire airdrop phishing for private keys/keystore/mnemonic phrases'
+-
+    id: 3514
+    name: get-ethereum.org
+    url: 'https://get-ethereum.org'
+    category: Scamming
+    subcategory: Trust Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x78c544EEdE78eb781707A1d46377bf6BE9D028Df'
