@@ -23967,9 +23967,10 @@
     url: 'http://quarkchain-ico.io'
     category: Phishing
     subcategory: Quarkchain
-    description: 'Fake Quarkchain crowdsale site'    
+    description: 'Fake Quarkchain crowdsale site. Suspected address: 0xb29a0b9b4d32c9cd39c02d0f19a6a8bbb3047ceb'
     addresses:    
       - '0xA43d3805105922989e58A5188193C283Fff471e7'
+      - '0x6931E6948702245964DD446333C3BEbD989D5E76'
 -    
     id: 3505
     name: giveaway-eth.com
