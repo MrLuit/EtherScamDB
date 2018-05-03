@@ -24133,3 +24133,12 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xb9b9B6acA1A0cf4EA4EB0CeD466D66A62F8EB072'
+-
+    id: 3525
+    name: eth-giveaway.updog.co
+    url: 'http://eth-giveaway.updog.co'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xd0bD5Be5DF3681608F5FDA3D003EFaA0371dc4d7'
