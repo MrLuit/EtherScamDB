@@ -24160,3 +24160,12 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xAd2E834840954231b924b51bFB92C7f457CA30D9'
+-
+    id: 3529
+    name: eth-giveaway.co.nf
+    url: 'http://eth-giveaway.co.nf'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x4F484c32c4810AE8129f1B724b09c663F8341713'
