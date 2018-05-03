@@ -16775,7 +16775,7 @@
     url: 'http://gifto.tech'
     category: Phishing
     subcategory: Gifto
-    description: 'Fake airdrop site asking for private keys'
+    description: 'Fake airdrop site asking for private keys. Suspected address: 0x05fBf1E3f105df6a4553f3C7f2ed93070A4BAB46'
     addresses:
       - '0x0059b14e35daB1b4EEe1e2926C7A5660dA66F747'
 -
