@@ -24151,3 +24151,12 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x304d66005b5aD49F7Ce54AceBA9bBaDb4A5774db'
+-
+    id: 3528
+    name: giveavvay10000eth.host
+    url: 'http://giveavvay10000eth.host'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xAd2E834840954231b924b51bFB92C7f457CA30D9'
