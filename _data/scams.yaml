@@ -24124,3 +24124,12 @@
     category: Phishing
     subcategory: MyCrypto
     description: 'Fake MyCrypto. Suspected address: 0xFb1817f17820466490A1a67bFd81Df32eEea679A'
+-
+    id: 3524
+    name: bonus.gift-ether.com
+    url: 'http://bonus.gift-ether.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xb9b9B6acA1A0cf4EA4EB0CeD466D66A62F8EB072'
