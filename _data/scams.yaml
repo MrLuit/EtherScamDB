@@ -24101,3 +24101,11 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'
+-
+    id: 3521
+    name: medium.com
+    url: 'https://medium.com/@shivomsale/shivom-public-sale-purchase-tutorial-fb26abf924e'
+    category: Phishing
+    description: 'Fake Medium areticle targeting the Shivom ICO'
+    addresses:
+      - '0xD4718F4601Af5365360896F763bb9D7173257450
