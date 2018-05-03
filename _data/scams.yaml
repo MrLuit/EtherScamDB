@@ -24142,3 +24142,12 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xd0bD5Be5DF3681608F5FDA3D003EFaA0371dc4d7'
+-
+    id: 3527
+    name: 5000eth.org
+    url: 'http://5000eth.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x304d66005b5aD49F7Ce54AceBA9bBaDb4A5774db'
