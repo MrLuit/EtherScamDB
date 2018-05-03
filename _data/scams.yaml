@@ -24108,4 +24108,10 @@
     category: Phishing
     description: 'Fake Medium areticle targeting the Shivom ICO'
     addresses:
-      - '0xD4718F4601Af5365360896F763bb9D7173257450
+      - '0xD4718F4601Af5365360896F763bb9D7173257450'
+-
+    id: 3522
+    name: tronlabsnetwork.com
+    url: 'https://tronlabsnetwork.com'
+    category: Phishing
+    description: 'Fake Tron airdrop phishing for private keys'
