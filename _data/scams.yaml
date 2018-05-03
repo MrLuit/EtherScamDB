@@ -24106,7 +24106,8 @@
     name: medium.com
     url: 'https://medium.com/@shivomsale/shivom-public-sale-purchase-tutorial-fb26abf924e'
     category: Phishing
-    description: 'Fake Medium areticle targeting the Shivom ICO'
+    subcategory: Shivom
+    description: 'Fake Medium article targeting the Shivom ICO'
     addresses:
       - '0xD4718F4601Af5365360896F763bb9D7173257450'
 -
@@ -24114,4 +24115,12 @@
     name: tronlabsnetwork.com
     url: 'https://tronlabsnetwork.com'
     category: Phishing
+    subcategory: Tron
     description: 'Fake Tron airdrop phishing for private keys'
+-
+    id: 3523
+    name: mycrypto.cm
+    url: 'https://mycrypto.cm'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto. Suspected address: 0xFb1817f17820466490A1a67bFd81Df32eEea679A'
