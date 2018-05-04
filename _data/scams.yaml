@@ -24275,3 +24275,11 @@
     category: Phishing
     subcategory: Coinbase
     description: 'Fake Coinbase phishing for logins'
+ -
+    id: 3542
+    name: shivom.sale
+    url: 'http://shivom.sale'
+    category: Phishing
+    description: 'Fake Shivom Token Sale Site'
+    addresses:
+      - '0xE2bCA95F5f33A981AAf51372b9596ff3837E0A5c'
