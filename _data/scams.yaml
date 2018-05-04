@@ -24169,3 +24169,109 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x4F484c32c4810AE8129f1B724b09c663F8341713'
+-
+    id: 3530
+    name: verifiedeth.com
+    url: 'http://verifiedeth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xb0608cA76D2ec6984f652829e887811516E4B846'
+-
+    id: 3531
+    name: ethergive.000webhostapp.com
+    url: 'http://ethergive.000webhostapp.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x7b66563dd534c3e66fee08c995da9d5e77c883f9'
+-
+    id: 3532
+    name: 5000.ethereumgive.com
+    url: 'http://5000.ethereumgive.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xf6238cBC1b74b183E54d63A555f867bAA00D92dF'
+-
+    id: 3533
+    name: hederahashgraph.online
+    url: 'http://hederahashgraph.online'
+    category: Phishing
+    subcategory: Hedera
+    description: 'Fake Hedera hashgraph crowdsale site'
+    addresses:
+      - '0xD582CeC308D9320B2EC3dC2868b56549fc8Ace5A'
+-
+    id: 3534
+    name: ocoins.tech
+    url: 'http://ocoins.tech'
+    category: Phishing
+    subcategory: Odyssey
+    description: 'Fake airdrop phishing for private keys. Suspected address: 0x05fbf1e3f105df6a4553f3c7f2ed93070a4bab46'
+    addresses:
+      - '0x05fbf1e3f105df6a4553f3c7f2ed93070a4bab46'
+-
+    id: 3535
+    name: bonus.ethergives.com
+    url: 'http://bonus.ethergives.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x29c3aDF6f50E2186C21f5Ebb1aC073115831286E'
+-
+    id: 3536
+    name: ethsecurepay.com
+    url: 'http://ethsecurepay.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xDc261F7A835C3692e22485AB2d78cbADf3842490'
+-
+    id: 3537
+    name: get-eth.us
+    url: 'http://get-eth.us'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x2eB045d518290ACA828046641D29f605eAd1A283'
+-
+    id: 3538
+    name: ethereum5000.com
+    url: 'http://ethereum5000.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xf6238cBC1b74b183E54d63A555f867bAA00D92dF'
+-
+    id: 3539
+    name: ethereumgive.com
+    url: 'http://ethereumgive.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xf6238cBC1b74b183E54d63A555f867bAA00D92dF'
+-
+    id: 3540
+    name: eth-payment.online
+    url: 'http://eth-payment.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x8408263f4f0691db34Bd7666b5Af61e19cb91B91'
+-
+    id: 3541
+    name: coinbasle.com
+    url: 'http://coinbasle.com'
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Fake Coinbase phishing for logins'
