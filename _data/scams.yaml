@@ -24169,3 +24169,11 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x4F484c32c4810AE8129f1B724b09c663F8341713'
+ -
+    id: 3530
+    name: shivom.sale
+    url: 'http://shivom.sale'
+    category: Phishing
+    description: 'Fake Shivom Token Sale Site'
+    addresses:
+      - '0xE2bCA95F5f33A981AAf51372b9596ff3837E0A5c'
