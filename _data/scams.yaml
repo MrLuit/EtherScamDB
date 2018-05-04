@@ -24283,3 +24283,20 @@
     description: 'Fake Shivom Token Sale Site'
     addresses:
       - '0xE2bCA95F5f33A981AAf51372b9596ff3837E0A5c'
+-
+    id: 3543
+    name: freeeth.info
+    url: 'http://freeeth.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xf6238cBC1b74b183E54d63A555f867bAA00D92dF'
+-
+    id: 3544
+    name: myetherwallet.access-checker.com
+    url: 'http://myetherwallet.access-checker.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - see https://twitter.com/mycrypto/status/992507058036424705?s=21'
+    
