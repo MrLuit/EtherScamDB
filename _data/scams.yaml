@@ -24317,3 +24317,10 @@
     description: 'Fake Quarkchain crowdsale site'
     addresses:
       - '0xBb5F90c64920667a2851Fd97E955248F04e16b75'
+-
+    id: 3547
+    name: hadeplatform.net
+    url: 'http://hadeplatform.net'
+    category: Phishing
+    subcategory: Hade
+    description: 'Fake airdrop phishing for private keys, Mnemonic Phrases, and Keystore / JSON File  '
