@@ -24298,8 +24298,7 @@
     url: 'http://myetherwallet.access-checker.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: 'Fake MyEtherWallet - see https://twitter.com/mycrypto/status/992507058036424705?s=21'
-    
+    description: 'Fake MyEtherWallet - see https://twitter.com/mycrypto/status/992507058036424705?s=21' 
 -
     id: 3545
     name: hederahashgraph.store
@@ -24309,3 +24308,12 @@
     description: 'Fake Hedera hashgraph crowdsale site'
     addresses:
       - '0x2d301d74a8d303da6408Cc2dFDA319BbEb48c125'
+-
+    id: 3546
+    name: quarkchain.tech
+    url: 'http://quarkchain.tech'
+    category: Phishing
+    subcategory: Quarkchain
+    description: 'Fake Quarkchain crowdsale site'
+    addresses:
+      - '0xBb5F90c64920667a2851Fd97E955248F04e16b75'
