@@ -24300,3 +24300,12 @@
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - see https://twitter.com/mycrypto/status/992507058036424705?s=21'
     
+-
+    id: 3545
+    name: hederahashgraph.store
+    url: 'http://hederahashgraph.store'
+    category: Phishing
+    subcategory: Hedera
+    description: 'Fake Hedera hashgraph crowdsale site'
+    addresses:
+      - '0x2d301d74a8d303da6408Cc2dFDA319BbEb48c125'
