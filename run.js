@@ -367,24 +367,10 @@ function startWebServer() {
             let template = fs.readFileSync('./_layouts/no-scam-found.html', 'utf8');
             res.send(default_template.replace('{{ content }}', template));
         }
-
         let template = fs.readFileSync('./_layouts/scam.html', 'utf8');
         var actions_text = "";
         template = template.replace("{{ scam.id }}", scam.id);
         template = template.replace("{{ scam.name }}", scam.name);
-        if (fs.existsSync('_data/metamaskImports.json')) {
-            fs.readFile('_data/metamaskImports.json', function(err, importsData) {
-                try {
-                    whitelistImports = JSON.parse(importsData.whitelist);
-                    blacklistImports = JSON.parse(importsData.blacklist);
-                    fuzzylistImports = JSON.parse(importsData.fuzzylist);
-                    toleranceImports = JSON.parse(importsData.tolerance);
-                } catch (e) {
-                    console.log(e);
-                }
-            });
-        }
-        const detector = new phishingDetector({whitelistImports, blacklistImports, fuzzylistImports, toleranceImports});
         if ('category' in scam) {
             if ('subcategory' in scam) {
                 template = template.replace("{{ scam.category }}", '<b>Category</b>: ' + scam.category + ' - ' + scam.subcategory + '<BR>');
@@ -433,7 +419,18 @@ function startWebServer() {
             actions_text += '<a target="_blank" href="http://web.archive.org/web/*/' + url.parse(scam.url).hostname + '" class="ui icon secondary button"><i class="archive icon"></i> Archive</a>';
             template = template.replace("{{ scam.url }}", '<b>URL</b>: <a id="url" target="_blank" href="/redirect/' + encodeURIComponent(scam.url) + '">' + scam.url + '</a><BR>');
             template = template.replace("{{ scam.googlethreat }}", "<b>Google Safe Browsing</b>: {{ scam.googlethreat }}<BR>");
-            template = template.replace("{{ scam.metamask }}", "<b>MetaMask Status:</b> " + (detector.check(url.parse(scam.url).hostname) ? "<span style='color:green'>Blocked</span>" : "<span style='color:red'>Not Blocked</span>") + "<br />");
+            /* Parses data for Metamask*/
+            if (fs.existsSync('./_data/metamaskImports.json')) {
+              try {
+                var importsData = require('./_data/metamaskImports.json')
+                const detector = new phishingDetector(importsData);
+                template = template.replace("{{ scam.metamask }}", "<b>MetaMask Status:</b> " + (detector.check(url.parse(scam.url).hostname).result ? "<span style='color:green'>Blocked</span>" : "<span style='color:red'>Not Blocked</span>") + "<br />");
+              } catch (e) {
+                console.log(e);
+              }
+            } else{
+              console.log('MetaMask JSON not found');
+            };
             if ('status' in scam && scam.status != 'Offline' && fs.existsSync('_cache/screenshots/' + scam.id + '.png')) {
                 template = template.replace("{{ scam.screenshot }}", '<h3>Screenshot</h3><img src="/screenshot/' + scam.id + '.png">');
             } else {

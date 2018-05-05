@@ -1,3 +1,4 @@
+process.env.UV_THREADPOOL_SIZE = 128;
 const dns = require('dns');
 const url = require('url');
 const yaml = require('js-yaml');
