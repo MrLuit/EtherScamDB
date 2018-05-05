@@ -24333,3 +24333,60 @@
     description: 'Fake Orchid crowdsale site - see https://twitter.com/RaymondDurk/status/992619080132657152'
     addresses:
       - '0x8A0E85901849B40A7F80399a00F7115193c0BDB2'
+-
+    id: 3549
+    name: xn--mycrpto-k64c.com
+    url: 'http://xn--mycrpto-k64c.com'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto - idn homograph attack domain. Suspected address: 0xe6eb070BCeF81fD12A198ba03Fe393E9ee4CB671'
+-
+    id: 3550
+    name: xn--shapeshft-c5a.com
+    url: 'http://xn--shapeshft-c5a.com'
+    category: Phishing
+    subcategory: Shapeshift
+    description: 'Fake Shapeshift - idn homograph attack domain. Not launched yet'
+-
+    id: 3551
+    name: take-eth.online
+    url: 'http://take-eth.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x45f7582fd6445918912977b9460475b5524cF962'    
+-
+    id: 3552
+    name: quick.payeths.com
+    url: 'http://quick.payeths.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xE7a06AAb8286cEF4206942a4891EE95A40E86466'          
+-
+    id: 3553
+    name: freecoingifts.com
+    url: 'http://freecoingifts.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x4a8D9B64ee9c7e058fe9c8cBF96375b02Da006E2'          
+-
+    id: 3554
+    name: etherget.us
+    url: 'http://etherget.us'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xa62cB4bD9E69E9170a2d973AA3aECE5A1215D41C'        
+-
+    id: 3555
+    name: myetherwallet.secure.access-checker.com
+    url: 'http://myetherwallet.secure.access-checker.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'       
