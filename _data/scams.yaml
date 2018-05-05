@@ -24324,3 +24324,12 @@
     category: Phishing
     subcategory: Hade
     description: 'Fake airdrop phishing for private keys, Mnemonic Phrases, and Keystore / JSON File. Suspected address: 0x355ed5aaa382d0443a03bf4b3b4cfc85eb80e4ca'
+-
+    id: 3548
+    name: orchidprotocols.com
+    url: 'http://orchidprotocols.com'
+    category: Phishing
+    subcategory: Orchid
+    description: 'Fake Orchid crowdsale site - see https://twitter.com/RaymondDurk/status/992619080132657152'
+    addresses:
+      - '0x8A0E85901849B40A7F80399a00F7115193c0BDB2'
