@@ -24390,3 +24390,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys'       
+-
+    id: 3556
+    name: elon-giveaway.com
+    url: 'http://elon-giveaway.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xae9dcec1fb0814CA02ca1e6690D05F33488B4C8B'   
