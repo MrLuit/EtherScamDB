@@ -24405,8 +24405,8 @@
     name: forkdeltas.com
     url: 'http://forkdeltas.com'
     category: Phishing
-    subcategory: EtherDelta
-    description: 'Fale Etherdelta phishing for private keys. Posting them to /ajax.php'
+    subcategory: ForkDelta
+    description: 'Fake ForkDelta phishing for private keys. Posting them to /ajax.php'
 -
     id: 3558
     name: free-eth.news
@@ -24416,3 +24416,49 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xa525DD7A8034BAbf46f3f6e253035FB2Bcf358b7'      
+-
+    id: 3559
+    name: coinbase-eth-giveaway.com
+    url: 'http://coinbase-eth-giveaway.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x005b9f4516f8e640bbe48136901738b323c53b00'            
+-
+    id: 3560
+    name: account-coinbase.com
+    url: 'http://account-coinbase.com'
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Possible phishing coinbase users'
+-
+    id: 3561
+    name: helpcoinbase.com
+    url: 'http://helpcoinbase.com'
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Possible phishing coinbase users'
+-
+    id: 3562
+    name: xn--polomex-cza.com
+    url: 'http://xn--polomex-cza.com'
+    category: Phishing
+    subcategory: Poloniex
+    description: 'Fake Poloniex - IDN homograph attack domain'
+-
+    id: 3563
+    name: coinbtcnews.com
+    url: 'http://coinbtcnews.com'
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Fake Coinbase'    
+-
+    id: 3564
+    name: eden-chain.io
+    url: 'http://eden-chain.io'
+    category: Phishing
+    subcategory: Eden
+    description: 'Fake Eden crowdsale site'
+    addresses:
+      - '0xAFf0c90E333D22569513fd50a8860c8F5920571A'             
