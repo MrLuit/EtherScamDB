@@ -24275,7 +24275,7 @@
     category: Phishing
     subcategory: Coinbase
     description: 'Fake Coinbase phishing for logins'
- -
+-
     id: 3542
     name: shivom.sale
     url: 'http://shivom.sale'
