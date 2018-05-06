@@ -24241,6 +24241,7 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x2eB045d518290ACA828046641D29f605eAd1A283'
+      - '0x2af0b9190aa127c1989886670481381b5b549985'      
 -
     id: 3538
     name: ethereum5000.com
@@ -24399,3 +24400,19 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xae9dcec1fb0814CA02ca1e6690D05F33488B4C8B'   
+-
+    id: 3557
+    name: forkdeltas.com
+    url: 'http://forkdeltas.com'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fale Etherdelta phishing for private keys. Posting them to /ajax.php'
+-
+    id: 3558
+    name: free-eth.news
+    url: 'http://free-eth.news'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xa525DD7A8034BAbf46f3f6e253035FB2Bcf358b7'      
