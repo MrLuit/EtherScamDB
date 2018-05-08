@@ -24581,3 +24581,35 @@
     category: Phishing
     subcategory: Zilliqa
     description: 'Fake Zilliqa airdrop site phishing for private keys'      
+-
+    id: 3579
+    name: quarkchain.website
+    url: 'http://quarkchain.website'
+    category: Phishing
+    subcategory: Quarkchain
+    description: 'Fake Quarkchain crowdsale site'
+    addresses:
+      - '0xB9Ee29FF43D319c126ED2Dbdd74d49a2659EDe56'     
+-
+    id: 3580
+    name: quark-chain.io
+    url: 'http://quark-chain.io'
+    category: Phishing
+    subcategory: Quarkchain
+    description: 'Fake Quarkchain crowdsale site'
+    addresses:
+      - '0xbEaaD836E717Dd22f59752d60223971db197EF4E'          
+-
+    id: 3581
+    name: quarkchaln.io
+    url: 'http://quarkchaln.io'
+    category: Phishing
+    subcategory: Quarkchain
+    description: 'Suspicious quarkchain crowdsale domain'         
+-
+    id: 3582
+    name: quarkchain.org
+    url: 'http://quarkchain.org'
+    category: Phishing
+    subcategory: Quarkchain
+    description: 'Suspicious quarkchain crowdsale domain'            
