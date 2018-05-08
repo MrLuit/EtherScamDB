@@ -24634,3 +24634,39 @@
     category: Phishing
     subcategory: Forkdelta
     description: 'Fake ForkDelta'    
+-
+    id: 3586
+    name: promo-give-ethereum.org
+    url: 'http://promo-give-ethereum.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x7D922A4f7F24fFcb130c4EEAF291A6475e3e4Dd2'     
+-
+    id: 3587
+    name: give-ethereum.org
+    url: 'http://give-ethereum.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x7D922A4f7F24fFcb130c4EEAF291A6475e3e4Dd2' 
+-
+    id: 3588
+    name: ethereum-giveaway.site
+    url: 'http://ethereum-giveaway.site'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x299628fD380813622305517E64eee89BB6a49Ca3'       
+-
+    id: 3589
+    name: twitter.com/Aurora__dao/status/960683836463075328
+    url: 'https://twitter.com/Aurora__dao/status/960683836463075328'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam tweet'
+    addresses:
+      - '0xfa2e4bddb3899dFB0d91A70744739d9f76692755'             
