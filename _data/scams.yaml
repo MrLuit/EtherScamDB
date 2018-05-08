@@ -24318,6 +24318,7 @@
     description: 'Fake Quarkchain crowdsale site'
     addresses:
       - '0xBb5F90c64920667a2851Fd97E955248F04e16b75'
+      - '0x4910e010EbF5b3366d1E80a134C1FA538FF7994c'      
 -
     id: 3547
     name: hadeplatform.net
@@ -24478,3 +24479,105 @@
     description: 'Fake Daostack crowdsale site'
     addresses:
       - '0x70ba69fCb5720BA8D573b78f641eEcB775C0E5a9' 
+-
+    id: 3567
+    name: get-ethereum.ml
+    url: 'http://get-ethereum.ml'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x497E4c58A4106fEE817e3BEce3C5c029e964Eb49'         
+-
+    id: 3568
+    name: 5000eth.net
+    url: 'http://5000eth.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x2276f412d2ae5dc2cdc293b0df70a8273f6f6771'           
+-
+    id: 3569
+    name: claim.payeths.com
+    url: 'http://claim.payeths.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xb48c99C37b7cf4AC0A1c2dcA518782C1FEB4f066'             
+-
+    id: 3570
+    name: gameofdeception.get-5000-eth.com
+    url: 'http://gameofdeception.get-5000-eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xf6238cBC1b74b183E54d63A555f867bAA00D92dF'            
+-
+    id: 3571
+    name: bonus.gift-ethers.com
+    url: 'http://bonus.gift-ethers.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x471DBd4D8FCe14EAe3B36EFA8Fa97A3937038DFA'                  
+-
+    id: 3572
+    name: mycrypto.get-5000-eth.com
+    url: 'http://mycrypto.get-5000-eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xf591bBF70178bCAa80D306Ab65755ab7038962Cd'            
+-
+    id: 3573
+    name: payments.payeths.com
+    url: 'http://payments.payeths.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xb48c99C37b7cf4AC0A1c2dcA518782C1FEB4f066'         
+-
+    id: 3574
+    name: zilliqablockchain.com
+    url: 'http://zilliqablockchain.com'
+    category: Phishing
+    subcategory: Zilliqa
+    description: 'Fake Zilliqa airdrop phishing for private keys'
+-
+    id: 3575
+    name: ethgiveavvay.com
+    url: 'http://ethgiveavvay.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x89c0e39f3b3Be95c238912788687DBAebe7e6A2B' 
+-
+    id: 3576
+    name: rebellios.com
+    url: 'http://rebellios.com'
+    category: Phishing
+    subcategory: Rebillious
+    description: 'Fake Rebillious airdrop phishing for private keys'      
+-
+    id: 3577
+    name: kinecosystems.org
+    url: 'http://kinecosystems.org'
+    category: Phishing
+    subcategory: Kin
+    description: 'Fake KIN airdrop site phishing for private keys'
+    addresses:
+      - '0x89c0e39f3b3Be95c238912788687DBAebe7e6A2B'     
+-
+    id: 3578
+    name: zilliqa.online
+    url: 'http://zilliqa.online'
+    category: Phishing
+    subcategory: Zilliqa
+    description: 'Fake Zilliqa airdrop site phishing for private keys'      
