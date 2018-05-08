@@ -24470,3 +24470,11 @@
     description: 'Fake Daostack Google Doc'
     addresses:
       - '0xdC057405A5DeE9074635c0D3a991580b66a34d9c' 
+-
+    id: 3566
+    name: daostack.onuniverse.com
+    url: 'http://daostack.onuniverse.com/'
+    category: Phishing
+    description: 'Fake Daostack crowdsale site'
+    addresses:
+      - '0x70ba69fCb5720BA8D573b78f641eEcB775C0E5a9' 
