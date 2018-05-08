@@ -24620,3 +24620,17 @@
     category: Phishing
     subcategory: Kin
     description: 'Fake Kin airdrop site phishing for private keys'
+-
+    id: 3584
+    name: i-idex.market
+    url: 'http://i-idex.market'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex site phishing for private keys - posting them to 176[dot]122[dot]20[dot]15/sendkey'
+-
+    id: 3585
+    name: forkdelta.net
+    url: 'http://forkdelta.net'
+    category: Phishing
+    subcategory: Forkdelta
+    description: 'Fake ForkDelta'    
