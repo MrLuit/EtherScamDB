@@ -24613,3 +24613,10 @@
     category: Phishing
     subcategory: Quarkchain
     description: 'Suspicious quarkchain crowdsale domain'            
+-
+    id: 3583
+    name: kinecosystem.io
+    url: 'http://kinecosystem.io'
+    category: Phishing
+    subcategory: Kin
+    description: 'Fake Kin airdrop site phishing for private keys'
