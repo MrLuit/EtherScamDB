@@ -24462,3 +24462,11 @@
     description: 'Fake Eden crowdsale site'
     addresses:
       - '0xAFf0c90E333D22569513fd50a8860c8F5920571A'             
+-
+    id: 3565
+    name: daostack.onuniverse.com
+    url: 'http://daostack.onuniverse.com/'
+    category: Phishing
+    description: 'Fake Daostack crowdsale site'
+    addresses:
+      - '0x70ba69fCb5720BA8D573b78f641eEcB775C0E5a9' 
