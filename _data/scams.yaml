@@ -24678,3 +24678,83 @@
     description: 'Telegram scam attempt'
     addresses:
       - '0xaC57457748d66139ec89a6D1b13BF119A1EFb31a'
+-
+    id: 3591
+    name: xn--tbtc-upa94a.com
+    url: 'https://xn--tbtc-upa94a.com'
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Hitbtc IDN homograph attack domain'
+-
+    id: 3592
+    name: xn--itbtc-9g1b.com
+    url: 'https://xn--itbtc-9g1b.com'
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Hitbtc IDN homograph attack domain'    
+-
+    id: 3593
+    name: myetherwalleth.org
+    url: 'https://myetherwalleth.org'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'        
+-
+    id: 3594
+    name: brickblocks.io
+    url: 'https://brickblocks.io'
+    category: Phishing
+    subcategory: Brickblocks
+    description: 'Fake Brickblocks crowdsale site'
+    addresses:
+      - '0x2Dc5616EC2b9D24906F0e11dC8D8a736392dFeDD'      
+-
+    id: 3595
+    name: zilliqanetwork.com
+    url: 'https://zilliqanetwork.com'
+    category: Phishing
+    subcategory: Zilliqa
+    description: 'Fake Zilliqa airdrop phishing for private keys'
+-
+    id: 3596
+    name: brickblock.cc
+    url: 'https://brickblock.cc'
+    category: Phishing
+    subcategory: Brickblocks
+    description: 'Fake Brickblocks crowdsale site. Suspected address: 0xf346fdCd5A205bA8F25edf0ffcddcc7a6583ac65'
+-
+    id: 3597
+    name: quarkchain.de
+    url: 'https://quarkchain.de'
+    category: Phishing
+    subcategory: Quarkchain
+    description: 'Fake Quarkchain crowdsale site'
+    addresses:
+      - '0xB9Ee29FF43D319c126ED2Dbdd74d49a2659EDe56'   
+-
+    id: 3598
+    name: ethsafepay.net
+    url: 'https://ethsafepay.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam tweet'
+    addresses:
+      - '0x1b8ee5cB5520ea3d12F64a8973c2A4F0cbcB1564' 
+-
+    id: 3599
+    name: presale.getmyethers.net
+    url: 'https://presale.getmyethers.net'
+    category: Phishing
+    subcategory: Brickblock
+    description: 'Fake Brickblock presale for crowdsale'
+    addresses:
+      - '0x40949225c4a1745a9946F6AAf763241c082cb9ac'       
+-
+    id: 3600
+    name: telegra.ph/BlockBrick-Step-By-Step-Guide-on-How-to-Participate-in-the-token-sale-05-09
+    url: 'https://telegra.ph/BlockBrick-Step-By-Step-Guide-on-How-to-Participate-in-the-token-sale-05-09'
+    category: Phishing
+    subcategory: Brickblock
+    description: 'Fake Brickblock guide for crowdsale'
+    addresses:
+      - '0xa3eE246232eBd99EC9A07851116f9F67380C5E6F' 
