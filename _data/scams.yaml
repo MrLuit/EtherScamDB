@@ -24672,7 +24672,7 @@
       - '0xfa2e4bddb3899dFB0d91A70744739d9f76692755'             
 -
     id: 3590
-    name: telegram.com
+    name: Telegram
     category: Phishing
     subcategory: Telegram
     description: 'Telegram scam attempt'
