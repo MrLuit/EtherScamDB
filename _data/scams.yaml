@@ -24749,3 +24749,12 @@
     description: 'Fake Brickblock presale for crowdsale'
     addresses:
       - '0x40949225c4a1745a9946F6AAf763241c082cb9ac'       
+-
+    id: 3600
+    name: telegra.ph/BlockBrick-Step-By-Step-Guide-on-How-to-Participate-in-the-token-sale-05-09
+    url: 'https://telegra.ph/BlockBrick-Step-By-Step-Guide-on-How-to-Participate-in-the-token-sale-05-09'
+    category: Phishing
+    subcategory: Brickblock
+    description: 'Fake Brickblock guide for crowdsale'
+    addresses:
+      - '0xa3eE246232eBd99EC9A07851116f9F67380C5E6F' 
