@@ -24670,3 +24670,11 @@
     description: 'Trust trading scam tweet'
     addresses:
       - '0xfa2e4bddb3899dFB0d91A70744739d9f76692755'             
+-
+    id: 3590
+    name: telegram.com
+    category: Phishing
+    subcategory: Telegram
+    description: 'Telegram scam attempt'
+    addresses:
+      - '0xaC57457748d66139ec89a6D1b13BF119A1EFb31a'
