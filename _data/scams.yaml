@@ -24731,3 +24731,21 @@
     description: 'Fake Quarkchain crowdsale site'
     addresses:
       - '0xB9Ee29FF43D319c126ED2Dbdd74d49a2659EDe56'   
+-
+    id: 3598
+    name: ethsafepay.net
+    url: 'https://ethsafepay.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam tweet'
+    addresses:
+      - '0x1b8ee5cB5520ea3d12F64a8973c2A4F0cbcB1564' 
+-
+    id: 3599
+    name: presale.getmyethers.net
+    url: 'https://presale.getmyethers.net'
+    category: Phishing
+    subcategory: Brickblock
+    description: 'Fake Brickblock presale for crowdsale'
+    addresses:
+      - '0x40949225c4a1745a9946F6AAf763241c082cb9ac'       
