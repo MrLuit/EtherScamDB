@@ -24678,3 +24678,56 @@
     description: 'Telegram scam attempt'
     addresses:
       - '0xaC57457748d66139ec89a6D1b13BF119A1EFb31a'
+-
+    id: 3591
+    name: xn--tbtc-upa94a.com
+    url: 'https://xn--tbtc-upa94a.com'
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Hitbtc IDN homograph attack domain'
+-
+    id: 3592
+    name: xn--itbtc-9g1b.com
+    url: 'https://xn--itbtc-9g1b.com'
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Hitbtc IDN homograph attack domain'    
+-
+    id: 3593
+    name: myetherwalleth.org
+    url: 'https://myetherwalleth.org'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'        
+-
+    id: 3594
+    name: brickblocks.io
+    url: 'https://brickblocks.io'
+    category: Phishing
+    subcategory: Brickblocks
+    description: 'Fake Brickblocks crowdsale site'
+    addresses:
+      - '0x2Dc5616EC2b9D24906F0e11dC8D8a736392dFeDD'      
+-
+    id: 3595
+    name: zilliqanetwork.com
+    url: 'https://zilliqanetwork.com'
+    category: Phishing
+    subcategory: Zilliqa
+    description: 'Fake Zilliqa airdrop phishing for private keys'
+-
+    id: 3596
+    name: brickblock.cc
+    url: 'https://brickblock.cc'
+    category: Phishing
+    subcategory: Brickblocks
+    description: 'Fake Brickblocks crowdsale site. Suspected address: 0xf346fdCd5A205bA8F25edf0ffcddcc7a6583ac65'
+-
+    id: 3597
+    name: quarkchain.de
+    url: 'https://quarkchain.de'
+    category: Phishing
+    subcategory: Quarkchain
+    description: 'Fake Quarkchain crowdsale site'
+    addresses:
+      - '0xB9Ee29FF43D319c126ED2Dbdd74d49a2659EDe56'   
