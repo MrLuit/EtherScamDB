@@ -24758,3 +24758,17 @@
     description: 'Fake Brickblock guide for crowdsale'
     addresses:
       - '0xa3eE246232eBd99EC9A07851116f9F67380C5E6F' 
+-
+    id: 3601
+    name: xn--myetherwallt-ovb.net
+    url: 'https://xn--myetherwallt-ovb.net'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain - pushing to save.php.'
+-
+    id: 3602
+    name: idexmarkets.com
+    url: 'https://idexmarkets.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market phishing for private keys - pushing to save.php'    
