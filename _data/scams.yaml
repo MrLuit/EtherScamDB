@@ -24673,6 +24673,7 @@
 -
     id: 3590
     name: Telegram
+    url: 'https://user-images.githubusercontent.com/2313704/39815843-3989276a-5391-11e8-8b03-5a54164e8dec.png'
     category: Phishing
     subcategory: Telegram
     description: 'Telegram scam attempt'
@@ -24737,7 +24738,7 @@
     url: 'https://ethsafepay.net'
     category: Scamming
     subcategory: Trust-Trading
-    description: 'Trust trading scam tweet'
+    description: 'Trust trading scam site'
     addresses:
       - '0x1b8ee5cB5520ea3d12F64a8973c2A4F0cbcB1564' 
 -
@@ -24772,3 +24773,39 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex market phishing for private keys - pushing to save.php'    
+-
+    id: 3603
+    name: brickblockio.info
+    url: 'https://brickblockio.info'
+    category: Phishing
+    subcategory: Brickblock
+    description: 'Fake Brickblock guide for crowdsale'
+    addresses:
+      - '0xe949A4c861089fBdE6eF1175C23E1485D5970567' 
+-
+    id: 3604
+    name: collect.ethforyou.com
+    url: 'https://collect.ethforyou.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x3EadB407F81d62D27F63a8881805B1735F70E692'       
+-
+    id: 3605
+    name: getmyetho.paperplane.io
+    url: 'https://getmyetho.paperplane.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x35919ff0a88A0bDFd1b0EF3be574bcF6C1e90e01'          
+-
+    id: 3606
+    name: giveawayethereum.win
+    url: 'https://giveawayethereum.win'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x8aF1380c436fC019b8055C61d09e3Ee5F182278C'              
