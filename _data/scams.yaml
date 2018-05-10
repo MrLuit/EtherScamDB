@@ -24832,3 +24832,19 @@
     category: Phishing
     subcategory: Yobit
     description: 'Fake Yobit login'
+-
+    id: 3610
+    name: telegram-token.io
+    url: 'https://telegram-token.io'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site - see https://twitter.com/sniko_/status/994604991187996672'
+    addresses:
+      - '0x52bEF206E8e0403Cd60d37E48f4F3860D9545556' 
+-
+    id: 3611
+    name: icostats.io
+    url: 'https://icostats.io'
+    category: Scamming
+    subcategory: Icostats
+    description: 'Fake Icostats site promoting a fake Telegram crowdsale site'      
