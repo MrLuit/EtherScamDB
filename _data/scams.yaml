@@ -24809,3 +24809,26 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x8aF1380c436fC019b8055C61d09e3Ee5F182278C'              
+-
+    id: 3607
+    name: musk-party-gifts.updog.co
+    url: 'https://musk-party-gifts.updog.co'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x10c44aB858B90E09C725158906F71833fF417ACC'          
+-
+    id: 3608
+    name: yobittrading.net
+    url: 'https://yobittrading.net'
+    category: Phishing
+    subcategory: Yobit
+    description: 'Fake Yobit login'
+-
+    id: 3609
+    name: yobit-trading.net
+    url: 'https://yobit-trading.net'
+    category: Phishing
+    subcategory: Yobit
+    description: 'Fake Yobit login'
