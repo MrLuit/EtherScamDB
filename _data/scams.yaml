@@ -24848,3 +24848,33 @@
     category: Scamming
     subcategory: Icostats
     description: 'Fake Icostats site promoting a fake Telegram crowdsale site'      
+-
+    id: 3612
+    name: privcoin.io
+    url: 'https://privcoin.io'
+    category: Scamming
+    subcategory: Mixers
+    description: 'Fake Ethereum mixer'      
+-
+    id: 3613
+    name: free-eth.paperplane.io
+    url: 'https://free-eth.paperplane.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x92cd726CE03cEaa4bF7198ce9c52D05D63ceE575'    
+-
+    id: 3614
+    name: ihcx.market
+    url: 'https://ihcx.market'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex site phishing for keys'         
+-
+    id: 3615
+    name: helbizcoin.net
+    url: 'https://helbizcoin.net'
+    category: Phishing
+    subcategory: Helbiz
+    description: 'Fake airdrop phishing for private keys linking to a fake MyEtherWallet xn--myetherwallt-ovb.net'       
