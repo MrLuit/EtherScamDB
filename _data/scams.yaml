@@ -24929,3 +24929,11 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - IDN homograph attack domain'             
+-
+    id: 3623
+    name: dav.icocrowdsale.io
+    url: 'http://dav.icocrowdsale.io'
+    category: Phishing
+    description: 'Scam phishing website targeting the DAV Ico'
+    addresses:
+      - '0x2831f460a932F3B7b44fB90FFCD7fdDAdDf4C980'
