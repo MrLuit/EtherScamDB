@@ -24809,3 +24809,11 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x8aF1380c436fC019b8055C61d09e3Ee5F182278C'              
+-
+    id: 3607
+    name: dav.icocrowdsale.io
+    url: 'http://dav.icocrowdsale.io'
+    category: Phishing
+    description: 'Scam phishing website targeting the DAV Ico'
+    addresses:
+      - '0x2831f460a932F3B7b44fB90FFCD7fdDAdDf4C980'
