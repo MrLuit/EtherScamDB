@@ -24937,3 +24937,31 @@
     description: 'Scam phishing website targeting the DAV Ico'
     addresses:
       - '0x2831f460a932F3B7b44fB90FFCD7fdDAdDf4C980'
+-
+    id: 3624
+    name: xn--mytherwallet-5vb.net
+    url: 'https://xn--mytherwallet-5vb.net'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'   
+-
+    id: 3625
+    name: i-dexmarket.com
+    url: 'https://i-dexmarket.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake IdexMarket site stealing keys with POST save.php'       
+-
+    id: 3626
+    name: bi-ttrex.com
+    url: 'https://bi-ttrex.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex phishing for login details'       
+-
+    id: 3627
+    name: www-bittrex.com
+    url: 'https://www-bittrex.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex phishing for login details'           
