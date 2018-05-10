@@ -24811,6 +24811,126 @@
       - '0x8aF1380c436fC019b8055C61d09e3Ee5F182278C'              
 -
     id: 3607
+    name: musk-party-gifts.updog.co
+    url: 'https://musk-party-gifts.updog.co'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x10c44aB858B90E09C725158906F71833fF417ACC'          
+-
+    id: 3608
+    name: yobittrading.net
+    url: 'https://yobittrading.net'
+    category: Phishing
+    subcategory: Yobit
+    description: 'Fake Yobit login'
+-
+    id: 3609
+    name: yobit-trading.net
+    url: 'https://yobit-trading.net'
+    category: Phishing
+    subcategory: Yobit
+    description: 'Fake Yobit login'
+-
+    id: 3610
+    name: telegram-token.io
+    url: 'https://telegram-token.io'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site - see https://twitter.com/sniko_/status/994604991187996672'
+    addresses:
+      - '0x52bEF206E8e0403Cd60d37E48f4F3860D9545556' 
+-
+    id: 3611
+    name: icostats.io
+    url: 'https://icostats.io'
+    category: Scamming
+    subcategory: Icostats
+    description: 'Fake Icostats site promoting a fake Telegram crowdsale site'      
+-
+    id: 3612
+    name: privcoin.io
+    url: 'https://privcoin.io'
+    category: Scamming
+    subcategory: Mixers
+    description: 'Fake Ethereum mixer'      
+-
+    id: 3613
+    name: free-eth.paperplane.io
+    url: 'https://free-eth.paperplane.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x92cd726CE03cEaa4bF7198ce9c52D05D63ceE575'    
+-
+    id: 3614
+    name: ihcx.market
+    url: 'https://ihcx.market'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex site phishing for keys'         
+-
+    id: 3615
+    name: helbizcoin.net
+    url: 'https://helbizcoin.net'
+    category: Phishing
+    subcategory: Helbiz
+    description: 'Fake airdrop phishing for private keys linking to a fake MyEtherWallet xn--myetherwallt-ovb.net'       
+-
+    id: 3616
+    name: xn--tro-k5y.com
+    url: 'https://xn--tro-k5y.com'
+    category: Phishing
+    subcategory: Tron
+    description: 'Fake Tron site - IDN homograph attack domain - directs user to fake MEW xn--myethewalet-ms8erq.com'     
+-
+    id: 3617
+    name: xn--polonix-17a.com
+    url: 'https://xn--polonix-17a.com'
+    category: Phishing
+    subcategory: Poloniex
+    description: 'Possible Fake Poloniex - IDN homograph attack domain'     
+-
+    id: 3618
+    name: xn--bifinex-fb4c.com
+    url: 'https://xn--bifinex-fb4c.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitfinex IDN homograph attack domain.'
+    addresses:
+      - '0x09430a9Fb46a1a3B83980768C4cEDF654d8eefa3'  
+-
+    id: 3619
+    name: xn--blockcain-g95d.com
+    url: 'https://xn--blockcain-g95d.com'
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Possible Fake Blockchain - IDN homograph attack domain'      
+-
+    id: 3620
+    name: xn--coinbas-z8a.info
+    url: 'https://xn--coinbas-z8a.info'
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Possible Fake Coinbase - IDN homograph attack domain'        
+-
+    id: 3621
+    name: xn--htbt-3oa0a.com
+    url: 'https://xn--htbt-3oa0a.com'
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Fake Hitbtc - IDN homograph attack domain'          
+-
+    id: 3622
+    name: xn--myethewallt-crb9748g.com
+    url: 'https://xn--myethewallt-crb9748g.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'             
+-
+    id: 3623
     name: dav.icocrowdsale.io
     url: 'http://dav.icocrowdsale.io'
     category: Phishing
