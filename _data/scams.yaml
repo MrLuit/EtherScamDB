@@ -24729,7 +24729,7 @@
     url: 'https://quarkchain.de'
     category: Phishing
     subcategory: Quarkchain
-    description: 'Fake Quarkchain crowdsale site'
+    description: 'Fake Quarkchain crowdsale site. Suspected address: 0xa0d4bee1beeafce031c56cfb40210746cc6ab2d0'
     addresses:
       - '0xB9Ee29FF43D319c126ED2Dbdd74d49a2659EDe56'   
       - '0x9db99E73C52BcC353963022ac184A25E80f655bd'
