@@ -24729,7 +24729,7 @@
     url: 'https://quarkchain.de'
     category: Phishing
     subcategory: Quarkchain
-    description: 'Fake Quarkchain crowdsale site'
+    description: 'Fake Quarkchain crowdsale site. Suspected address: 0xa0d4bee1beeafce031c56cfb40210746cc6ab2d0'
     addresses:
       - '0xB9Ee29FF43D319c126ED2Dbdd74d49a2659EDe56'   
       - '0x9db99E73C52BcC353963022ac184A25E80f655bd'
@@ -25098,3 +25098,12 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x8C9D135aC2778e1A7d326932AaD302e7c22c94D7'         
+-
+    id: 3643
+    name: etherums-givingaway.atspace.tv
+    url: 'https://etherums-givingaway.atspace.tv'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x368bE389Ce940bf17C3296344086E368bc4C60f3'      
