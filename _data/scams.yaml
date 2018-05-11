@@ -25080,3 +25080,12 @@
     description: 'Fake Eden crowdsale site'
     addresses:
       - '0xfAc9eeb5cC03Db0CFF26e518f19CCFBf080689A1' 
+-
+    id: 3641
+    name: quarkchain.live
+    url: 'https://quarkchain.live'
+    category: Phishing
+    subcategory: QuarkChain
+    description: 'Fake Quarkchain crowdsale site'
+    addresses:
+      - '0x0a888f0F0b772e17a2ADFd62D3f15CeC72c8D42f' 
