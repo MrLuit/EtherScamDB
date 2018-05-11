@@ -25089,3 +25089,12 @@
     description: 'Fake Quarkchain crowdsale site'
     addresses:
       - '0x0a888f0F0b772e17a2ADFd62D3f15CeC72c8D42f' 
+-
+    id: 3642
+    name: etherfree.tech
+    url: 'https://etherfree.tech'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x8C9D135aC2778e1A7d326932AaD302e7c22c94D7'         
