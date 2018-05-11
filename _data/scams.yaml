@@ -24732,6 +24732,8 @@
     description: 'Fake Quarkchain crowdsale site'
     addresses:
       - '0xB9Ee29FF43D319c126ED2Dbdd74d49a2659EDe56'   
+      - '0x9db99E73C52BcC353963022ac184A25E80f655bd'
+      - '0x49358a824c66b64a2f0c8bb3c99dd73586afab16'
 -
     id: 3598
     name: ethsafepay.net
@@ -24965,3 +24967,116 @@
     category: Phishing
     subcategory: Bittrex
     description: 'Fake Bittrex phishing for login details'           
+-
+    id: 3628
+    name: secure-ethereum.tw1.su
+    url: 'https://secure-ethereum.tw1.su'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xDD44566108758d8C8224D303EF92492229014a2A'        
+-
+    id: 3629
+    name: sentinelprotocol.pw
+    url: 'https://sentinelprotocol.pw'
+    category: Phishing
+    subcategory: Sentinel
+    description: 'Fake Sentinel crowdsale site'
+    addresses:
+      - '0xC3CAf142A41b0FAE78a922C25Fc0EEcdcF0985D1'           
+-
+    id: 3630
+    name: 24h.infora.hu
+    url: 'https://24h.infora.hu'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x794Cd1329493Dc9c6ceB0ec9955890d392C811dA'           
+-
+    id: 3631
+    name: eth-securepay.com
+    url: 'https://eth-securepay.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x5580FB6E95230BF16AE7e2c6467D11566ed5b3Ea'         
+-
+    id: 3632
+    name: secureceth.com
+    url: 'https://secureceth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x5970d26C51397578c2b3420d20FbB2bcC5C5b00E'          
+-
+    id: 3633
+    name: eth-giving.ga
+    url: 'https://eth-giving.ga'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x85234C92D4dDdF239df9c76497A6516fDf546577'            
+-
+    id: 3634
+    name: free-eths.paperplane.io
+    url: 'https://free-eths.paperplane.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x93A036a4FB47F22989ec1d11b134Bb177E66A6bD'            
+-
+    id: 3635
+    name: nexotoken.org
+    url: 'https://nexotoken.org'
+    category: Phishing
+    subcategory: Nexo
+    description: 'Reported Nexo airdrop phishing for private keys'
+-
+    id: 3636
+    name: quarkchain-tokens.io
+    url: 'https://quarkchain-tokens.io'
+    category: Phishing
+    subcategory: QuarkChain
+    description: 'Fake Quarkchain crowdsale site'
+    addresses:
+      - '0x705F704d11020fF07ACdE8592bb80B044e15de16' 
+-
+    id: 3637
+    name: giveavvay-10000eth.online
+    url: 'https://giveavvay-10000eth.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x00EB6f5199cD0B671da371969B1A0F948e982Fea'         
+-
+    id: 3638
+    name: ethpromo.org
+    url: 'https://ethpromo.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x934f49fCF451A34026E3dFc3f26a1De01b83b509'         
+-
+    id: 3639
+    name: i-dexmarkets.com
+    url: 'https://i-dexmarkets.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for private keys'
+-
+    id: 3640
+    name: edenchain.site
+    url: 'https://edenchain.site'
+    category: Phishing
+    subcategory: Eden
+    description: 'Fake Eden crowdsale site'
+    addresses:
+      - '0xfAc9eeb5cC03Db0CFF26e518f19CCFBf080689A1' 
