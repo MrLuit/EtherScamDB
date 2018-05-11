@@ -25098,3 +25098,12 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x8C9D135aC2778e1A7d326932AaD302e7c22c94D7'         
+-
+    id: 3643
+    name: etherums-givingaway.atspace.tv
+    url: 'https://etherums-givingaway.atspace.tv'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x368bE389Ce940bf17C3296344086E368bc4C60f3'      
