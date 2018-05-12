@@ -25209,3 +25209,53 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex phishing for private keys'           
+-
+    id: 3656
+    name: eth-giveaway.today
+    url: 'https://eth-giveaway.today'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x3F2cf669C657316985B01b1B797cb259c97d6551'     
+-
+    id: 3657
+    name: etherget.online
+    url: 'https://etherget.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xa8afa9a714e06b9eb1b500617494ac213f2d428a'           
+-
+    id: 3658
+    name: ethplatform.org
+    url: 'https://ethplatform.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x54B623C82365ef20680B17301bD949BcD5599Eb9'              
+-
+    id: 3659
+    name: mycrypton.net
+    url: 'https://mycrypton.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x7eD44f8b304cD71664Cbe8C94614660859Fca2c6'             
+-
+    id: 3660
+    name: hydroplatform.org
+    url: 'https://hydroplatform.org'
+    category: Phishing
+    subcategory: Hydro
+    description: 'Fake airdrop directing users to a fake MyEtherWallet xn--myetherwalt-crb27c[dot]com/signmsg.html'       
+-
+    id: 3661
+    name: xn--myetherwalt-crb27c.com
+    url: 'https://xn--myetherwalt-crb27c.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain - Suspected address: 0xA7b8edb0583b478e2b7C431fEb4bc6629a6Cd1E5'        
