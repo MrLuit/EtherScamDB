@@ -25107,3 +25107,12 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x368bE389Ce940bf17C3296344086E368bc4C60f3'      
+-
+    id: 3644
+    name: ethgiveavvay.site
+    url: 'https://ethgiveavvay.site'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x0C4762Bc7B1Af1DC9448A827f53861c118B712dE'  
