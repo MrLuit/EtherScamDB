@@ -25161,3 +25161,51 @@
     description: 'Fake Quarkchain crowdsale site'
     addresses:
       - '0x05e18136F048d648eE73Dd5D269d590Ff2873C33'              
+-
+    id: 3650
+    name: 5000ethereum.online
+    url: 'https://5000ethereum.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xa5e83199a7ECB6669064d492F15ddC096b6cbAb8'   
+-
+    id: 3651
+    name: hederahashgaph.com
+    url: 'https://hederahashgaph.com'
+    category: Phishing
+    subcategory: HederaHashGraph
+    description: 'Fake HederaHashGraph crowdsale site'
+    addresses:
+      - '0x873a35F651892AEe1D9360be80ae904f7D76068f'         
+-
+    id: 3652
+    name: 5000-eth.paperplane.io
+    url: 'https://5000-eth.paperplane.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x1691B2F9986598E12C57Aba5bE50ebd5346247E0'              
+-
+    id: 3653
+    name: zilliqablockchain.org
+    url: 'https://zilliqablockchain.org'
+    category: Phishing
+    subcategory: Zilliqa
+    description: 'Fake Zilliqa airdrop phishing for private keys'         
+-
+    id: 3654
+    name: idec.market
+    url: 'https://idec.market'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for private keys'          
+-
+    id: 3655
+    name: ihex.market
+    url: 'https://ihex.market'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for private keys'           
