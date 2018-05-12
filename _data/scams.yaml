@@ -25116,3 +25116,48 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x0C4762Bc7B1Af1DC9448A827f53861c118B712dE'  
+-
+    id: 3645
+    name: zclassiccoins.com
+    url: 'https://zclassiccoins.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xe87d279d090df4ba19c0e19958d9ac61be5c6909'  
+-
+    id: 3646
+    name: omisegowallet.network
+    url: 'https://omisegowallet.network'
+    category: Phishing
+    subcategory: Omise
+    description: 'Fake Omise web wallet'
+    addresses:
+      - '0x4bc2055440dd519fa4d448d2d6899e6604aaedc5'        
+-
+    id: 3647
+    name: musk.vu
+    url: 'https://musk.vu'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x804A67880F461c2ba4b927a10E99E371962B0F3f'       
+-
+    id: 3648
+    name: ethairdrop.live
+    url: 'https://ethairdrop.live'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x7a16a0Fd441A7591f2456c3cDA068e33c6bBaa96'             
+-
+    id: 3649
+    name: quarkchain-presale.io
+    url: 'https://quarkchain-presale.io'
+    category: Phishing
+    subcategory: Quarkchain
+    description: 'Fake Quarkchain crowdsale site'
+    addresses:
+      - '0x05e18136F048d648eE73Dd5D269d590Ff2873C33'              
