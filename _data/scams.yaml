@@ -25316,3 +25316,10 @@
     category: Phishing
     subcategory: Hitbtc
     description: 'Fake Hitbtc site phishing for logins'              
+-
+    id: 3669
+    name: pundix.tech
+    url: 'https://pundix.tech'
+    category: Phishing
+    subcategory: Pundix
+    description: 'Fake airdrop site phishing for private keys'   
