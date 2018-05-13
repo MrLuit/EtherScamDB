@@ -25259,3 +25259,67 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - IDN homograph attack domain - Suspected address: 0xA7b8edb0583b478e2b7C431fEb4bc6629a6Cd1E5'        
+-
+    id: 3662
+    name: quarkchains.io
+    url: 'https://quarkchains.io'
+    category: Phishing
+    subcategory: Quarkchain
+    description: 'Fake Quarkchain crowdsale site'
+    addresses:
+      - '0xd7bb68B0cE5893983e5a2511b87E083609eB6fF9'           
+-
+    id: 3663
+    name: ethcollection.paperplane.io
+    url: 'https://ethcollection.paperplane.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xc8a7eFA8FF219CF002081c10c47F1D5F62b3FEe5'           
+-
+    id: 3664
+    name: hydroggenplatform.com
+    url: 'https://hydroggenplatform.com'
+    category: Phishing
+    subcategory: Hydro
+    description: 'Fake Hydro site linking to a fake MyEtherWallet - xn--myetherwalt-crb27c.com'          
+-
+    id: 3665
+    name: ldcx.market
+    url: 'https://ldcx.market'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake idex market phishing for private keys'     
+-
+    id: 3666
+    name: eth-airdrop.com
+    url: 'https://eth-airdrop.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x8a8869a8B53573294B0E03820253607D5528679d'     
+-
+    id: 3667
+    name: ether-promo.unas.cz
+    url: 'https://ether-promo.unas.cz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xd5e846494df899e0d7ea5e628501dfe420d2643b'           
+-
+    id: 3668
+    name: xn--tbtc-zpa34a.com
+    url: 'https://xn--tbtc-zpa34a.com'
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Fake Hitbtc site phishing for logins'              
+-
+    id: 3669
+    name: pundix.tech
+    url: 'https://pundix.tech'
+    category: Phishing
+    subcategory: Pundix
+    description: 'Fake airdrop site phishing for private keys'   
