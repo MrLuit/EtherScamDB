@@ -25605,3 +25605,73 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xcA8E988ffb5A662f8201c90b6a45CC7826f5F15a'               
+-
+    id: 3704
+    name: ebtweinfinance.com
+    url: 'https://ebtweinfinance.com'
+    category: Phishing
+    subcategory: Cointal
+    description: 'Fake Cointal site'    
+-
+    id: 3705
+    name: cardanoethereum.com
+    url: 'https://cardanoethereum.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x27075c2f55bD05c8F7009E8b5a1d3cF131806dD5'        
+-
+    id: 3706
+    name: ethergiveaway.website
+    url: 'https://ethergiveaway.website'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x2511A5cF945e1cDA14E3210d2a56eA0dE1d3E031'            
+-
+    id: 3707
+    name: output.jsbin.com/jejegu
+    url: 'https://output.jsbin.com/jejegu'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x3389a9CacB4A3FdbE43DB14D132b3F1e215A835d'            
+-
+    id: 3708
+    name: get-ethereum.info
+    url: 'https://get-ethereum.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x1056d8d9EbB0E0d8710A0E2A1852d4A09d56464A'          
+-
+    id: 3709
+    name: get-event-ethereum.info
+    url: 'https://get-event-ethereum.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x1056d8d9EbB0E0d8710A0E2A1852d4A09d56464A'               
+-
+    id: 3710
+    name: give-eth.news
+    url: 'https://give-eth.news'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x1056d8d9EbB0E0d8710A0E2A1852d4A09d56464A'                 
+-
+    id: 3711
+    name: eth-box.xf.cz
+    url: 'https://eth-box.xf.cz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xEcF37AF81B814D418b5cDF2ec985508888D7c67A'             
