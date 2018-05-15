@@ -25414,4 +25414,52 @@
     url: 'https://kann.io'
     category: Phishing
     subcategory: Kann
-    description: 'Fake project - false team - https://twitter.com/matchpool/status/995853820503777281e'          
+    description: 'Fake project - false team - https://twitter.com/matchpool/status/995853820503777281e'    
+-
+    id: 3682
+    name: quarkchain.pl
+    url: 'https://quarkchain.pl'
+    category: Phishing
+    subcategory: Quarkchain
+    description: 'Fake Quarkchain crowdsale site'
+    addresses:
+      - '0x7448dF6E1031d10e237b1481930a074B13FAAbD2'       
+-
+    id: 3683
+    name: get-5001-ethereum.com
+    url: 'https://get-5001-ethereum.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x7D922A4f7F24fFcb130c4EEAF291A6475e3e4Dd2'   
+-
+    id: 3684
+    name: get-5000-ethereum.com
+    url: 'https://get-5000-ethereum.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x1056d8d9EbB0E0d8710A0E2A1852d4A09d56464A'         
+-
+    id: 3685
+    name: myetzerwallet.com
+    url: 'https://myetzerwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
+-
+    id: 3686
+    name: promobtc.win
+    url: 'https://promobtc.win'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-trading scam site (btc) - address: 14h4Zrd1xVg6Mj3JcYApoi2wY2UXue2ETb'
+-
+    id: 3687
+    name: mycrypto-com.com
+    url: 'https://mycrypto-com.com'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto'    
