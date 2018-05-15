@@ -25323,3 +25323,95 @@
     category: Phishing
     subcategory: Pundix
     description: 'Fake airdrop site phishing for private keys'   
+-
+    id: 3670
+    name: tokenairdrop.typeform.com
+    url: 'https://tokenairdrop.typeform.com'
+    category: Phishing
+    subcategory: Hydro
+    description: 'Fake Hydro airdrop directing users to a fake MyEtherWallet - xn--myetherwalt-0rb64c.com. Suspected address: 0xCF02680e5f057D41A68C3DA6221Ade6609833e5a 0xbF30cBF5DD5fbf040A1fA8B7388F756F624AfDeF'   
+-
+    id: 3671
+    name: transfer.saferpayeth.com
+    url: 'https://transfer.saferpayeth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x0f4CF489C65f5001843C525e1f374768DCAD9B99'       
+-
+    id: 3672
+    name: r5.ms
+    url: 'https://r5.ms'
+    category: Scamming
+    subcategory: General
+    description: 'Fake trading site'         
+-
+    id: 3673
+    name: xn--mytherwalet-3qb97c.com
+    url: 'https://xn--mytherwalet-3qb97c.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain. Suspected address: 0x9eEa7Fda3C78cd8C096AE229De8217a94cd1Bcfe 0xA7b8edb0583b478e2b7C431fEb4bc6629a6Cd1E5'      
+-
+    id: 3674
+    name: xn--myethrwllet-pjb5u.com
+    url: 'https://xn--myethrwllet-pjb5u.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain. Suspected address: 0x3a878EDDB991EbCBc7c8052055B2e5ED5D0D1bA4'         
+-
+    id: 3675
+    name: xn--myetherwalt-0rb64c.com
+    url: 'https://xn--myetherwalt-0rb64c.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain. Suspected address: 0xcc1A8a506cD613694D705c92C26d92369F544052' 
+-
+    id: 3676
+    name: cryptofaze.com
+    url: 'https://cryptofaze.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Hosting malware and trust-trading giveaway - https://www.virustotal.com/#/url/1de58e06c29556e5b4e81f5af8fa83b30fc17069a9f6a6d485edcf40b9d63aab/detection'
+    addresses:
+      - '0x5e1f89284b8283edcd082901b78c7589f39d5b51'    
+-
+    id: 3677
+    name: hederaheshgraph.com
+    url: 'https://hederaheshgraph.com'
+    category: Phishing
+    subcategory: HederaHashGraph
+    description: 'Fake HederaHashGraph crowdsale site. Suspected address: 0xEd7e838d657dD5BefF27C62178D285BA7834E022'       
+-
+    id: 3678
+    name: ethergift.org
+    url: 'https://ethergift.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x8d4426f94e42f721C7116E81d6688cd935cB3b4F'      
+-
+    id: 3679
+    name: myetheerwallet.pw
+    url: 'https://myetheerwallet.pw'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet site'       
+-
+    id: 3680
+    name: secure-give-eth.com
+    url: 'https://secure-give-eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xDfa8e0d144B1bD7B9f08Cd05A7726cC20121292f'       
+-
+    id: 3681
+    name: kann.io
+    url: 'https://kann.io'
+    category: Phishing
+    subcategory: Kann
+    description: 'Fake project - false team - https://twitter.com/matchpool/status/995853820503777281e'          
