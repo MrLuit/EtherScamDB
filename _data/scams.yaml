@@ -25515,3 +25515,93 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x41075e21827263E149B8Bb26ff7eB5b185c7B0ca'                  
+-
+    id: 3694
+    name: m342edium.ethersforme.net
+    url: 'https://m342edium.ethersforme.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x40949225c4a1745a9946F6AAf763241c082cb9ac'   
+-
+    id: 3695
+    name: 10000-eth.com
+    url: 'https://10000-eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x24F7ea54D9CDb021C0788Caab3c1796Aa8b2C161'         
+-
+    id: 3696
+    name: ethsgive.com
+    url: 'https://ethsgive.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x89c0e39f3b3Be95c238912788687DBAebe7e6A2B'              
+-
+    id: 3697
+    name: giveaway-ether.com
+    url: 'https://giveaway-ether.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xcc2c4c1b9bEe3E9AE45b5c9024c3d032387830b8'                
+-
+    id: 3698
+    name: bonus.giftethers.com
+    url: 'https://bonus.giftethers.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xB7f9FDB9f3f6142cF5e2b7bEE8AEbA059dfb091b'                  
+-
+    id: 3699
+    name: get-eths.com
+    url: 'https://get-eths.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xcc2c4c1b9bEe3E9AE45b5c9024c3d032387830b8'              
+-
+    id: 3700
+    name: get-ethereum.site
+    url: 'https://get-ethereum.site'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xa2aEc7E1e3c63FA266cA443D37DC88Fd35A92d4A'               
+-
+    id: 3701
+    name: cryptos-promos.com
+    url: 'https://cryptos-promos.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x83940770976605ddA722A620DD9d91825C8D65Dc'                 
+-
+    id: 3702
+    name: safethpay.com
+    url: 'https://safethpay.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xcA8E988ffb5A662f8201c90b6a45CC7826f5F15a'                
+-
+    id: 3703
+    name: paygiveaway.com
+    url: 'https://paygiveaway.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xcA8E988ffb5A662f8201c90b6a45CC7826f5F15a'               
