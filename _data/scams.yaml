@@ -25463,3 +25463,12 @@
     category: Phishing
     subcategory: MyCrypto
     description: 'Fake MyCrypto'    
+-
+    id: 3688
+    name: waves-ethereum-eth.org
+    url: 'https://waves-ethereum-eth.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xfbb62df5cbc8d0bc4c2a0e5c53b8602d49471495'   
