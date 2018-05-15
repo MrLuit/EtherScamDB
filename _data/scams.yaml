@@ -25472,3 +25472,46 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xfbb62df5cbc8d0bc4c2a0e5c53b8602d49471495'   
+-
+    id: 3689
+    name: originprotocol.tokenpublicsales.com
+    url: 'https://originprotocol.tokenpublicsales.com'
+    category: Phishing
+    subcategory: Origin
+    description: 'Fake Origin crowdsale site'
+    addresses:
+      - '0x903Dc47Aa7C40f9f59Ef1E5C167ce1A9B39a2bFF'     
+-
+    id: 3690
+    name: tokenpublicsales.com
+    url: 'https://tokenpublicsales.com'
+    category: Phishing
+    subcategory: General
+    description: 'Hosting fake crowdsale sites'     
+-
+    id: 3691
+    name: ethgive.online
+    url: 'https://ethgive.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x7DB9656FC8435F765DF5748E32Bf329098FfB5fb'       
+-
+    id: 3692
+    name: ether.vu
+    url: 'https://ether.vu'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x5caa556D0b8Fa8622b1746BcC1211429737DCaFc'            
+-
+    id: 3693
+    name: getnoweth.com
+    url: 'https://getnoweth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x41075e21827263E149B8Bb26ff7eB5b185c7B0ca'                  
