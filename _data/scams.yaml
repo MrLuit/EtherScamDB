@@ -25675,3 +25675,46 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xEcF37AF81B814D418b5cDF2ec985508888D7c67A'             
+-
+    id: 3712
+    name: pay.ethconfirm.com
+    url: 'https://pay.ethconfirm.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x9BaaC782EA141718437a825704Fc61802993C03a'        
+-
+    id: 3713
+    name: ethconfirm.com
+    url: 'https://ethconfirm.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xb48c99C37b7cf4AC0A1c2dcA518782C1FEB4f066'            
+-
+    id: 3714
+    name: eth-share.com
+    url: 'https://eth-share.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x024C344DA7208e60356378a252dAb771c34Be111'              
+-
+    id: 3715
+    name: eth-gift.com.paperplane.io
+    url: 'https://eth-gift.com.paperplane.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x1CE4312fDd45c9184A5561314122B2244Bd862c9'            
+-
+    id: 3716
+    name: iidexmarket.com
+    url: 'https://iidexmarket.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market stealing private keys'      
