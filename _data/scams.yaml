@@ -25736,3 +25736,10 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x24F7ea54D9CDb021C0788Caab3c1796Aa8b2C161'         
+-
+    id: 3719
+    name: walleteos.org
+    url: 'https://walleteos.org'
+    category: Phishing
+    subcategory: WebWallet
+    description: 'Fake web wallet phishing for keys (sending to POST test.php)'
