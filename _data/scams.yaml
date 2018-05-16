@@ -25718,3 +25718,21 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex market stealing private keys'      
+-
+    id: 3717
+    name: promo-eths.com
+    url: 'https://promo-eths.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x24F7ea54D9CDb021C0788Caab3c1796Aa8b2C161'   
+-
+    id: 3718
+    name: nathanielpopper.promo-eths.com
+    url: 'https://nathanielpopper.promo-eths.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x24F7ea54D9CDb021C0788Caab3c1796Aa8b2C161'         
