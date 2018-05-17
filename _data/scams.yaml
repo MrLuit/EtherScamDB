@@ -25497,6 +25497,7 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x7DB9656FC8435F765DF5748E32Bf329098FfB5fb'       
+      - '0xE03C6FDD69e268A00cC93Fa282Fb3ce82afC8B12'        
 -
     id: 3692
     name: ether.vu
@@ -25752,3 +25753,35 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x40949225c4a1745a9946F6AAf763241c082cb9ac' 
+-
+    id: 3721
+    name: eth-promo.net
+    url: 'https://eth-promo.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x18BfF0b35d63B6e19775d3FBbB5a9fa9D7288A74' 
+-
+    id: 3722
+    name: tdex.market
+    url: 'http://tdex.market'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex site phishing for private keys - posting them to POST /pr.php'      
+-
+    id: 3723
+    name: login-myetherwallets.com
+    url: 'http://login-myetherwallets.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'        
+-
+    id: 3724
+    name: ethgive.online
+    url: 'https://ethgive.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xE03C6FDD69e268A00cC93Fa282Fb3ce82afC8B12'     
