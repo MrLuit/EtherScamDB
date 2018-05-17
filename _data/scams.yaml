@@ -25785,3 +25785,24 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xE03C6FDD69e268A00cC93Fa282Fb3ce82afC8B12'     
+-
+    id: 3725
+    name: biitbay.com
+    url: 'http://biitbay.com'
+    category: Phishing
+    subcategory: Bitbay
+    description: 'Fake BitBay phishing for logins'      
+-
+    id: 3726
+    name: kcucoin.com
+    url: 'http://kcucoin.com'
+    category: Phishing
+    subcategory: Kucoin
+    description: 'Fake Kucoin phishing for logins'          
+-
+    id: 3727
+    name: vvallbtc.com
+    url: 'http://vvallbtc.com'
+    category: Phishing
+    subcategory: Wallbtc
+    description: 'Fake Wallbtc site phishing for logins'              
