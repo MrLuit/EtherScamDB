@@ -25743,3 +25743,12 @@
     category: Phishing
     subcategory: WebWallet
     description: 'Fake web wallet phishing for keys (sending to POST test.php)'
+-
+    id: 3720
+    name: claimeth.epizy.com
+    url: 'https://claimeth.epizy.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x40949225c4a1745a9946F6AAf763241c082cb9ac' 
