@@ -25806,3 +25806,38 @@
     category: Phishing
     subcategory: Wallbtc
     description: 'Fake Wallbtc site phishing for logins'              
+-
+    id: 3728
+    name: bittrex-login.com
+    url: 'http://bittrex-login.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex site phishing for logins'          
+-
+    id: 3729
+    name: bittrexa.com
+    url: 'http://bittrexa.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex site phishing for logins'          
+-
+    id: 3730
+    name: xn--bttrx-7ra5a.com
+    url: 'http://xn--bttrx-7ra5a.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex site phishing for logins'          
+-
+    id: 3731
+    name: bittrex-account-verification.com
+    url: 'http://bittrex-account-verification.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Suspicious bittrex domain'              
+-
+    id: 3732
+    name: bi-ttrex.com 
+    url: 'http://bi-ttrex.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex site phishing for logins'             
