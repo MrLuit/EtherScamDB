@@ -26055,3 +26055,116 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xe2972F7b92E32162E8dD4c30B0516bAa2A24C3c9'             
+-
+    id: 3760
+    name: mew-ehterwallat.com
+    url: 'http://mew-ehterwallat.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet (iframing 94.100.18.96/my2/)'  
+-
+    id: 3761
+    name: 94.100.18.96
+    url: 'http://94.100.18.96'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'      
+-
+    id: 3762
+    name: get.it-now-eth.com
+    url: 'https://get.it-now-eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x64b212d2fe54db498df6099E5a9AFA8298068f89'       
+-
+    id: 3763
+    name: it-now-eth.com
+    url: 'https://it-now-eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x64b212d2fe54db498df6099E5a9AFA8298068f89'             
+-
+    id: 3764
+    name: give.promoeth.net
+    url: 'https://give.promoeth.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x69428858906050E78DBED8e65083d47139766b3F'              
+-
+    id: 3765
+    name: promoeth.net
+    url: 'https://promoeth.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x7DB9656FC8435F765DF5748E32Bf329098FfB5fb'               
+-
+    id: 3766
+    name: etherkickstart.com
+    url: 'https://etherkickstart.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xD47A0ce5D41Eb793BD7008436082388B6894DC9e'                     
+-
+    id: 3767
+    name: eth-hype.com
+    url: 'https://eth-hype.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xD47A0ce5D41Eb793BD7008436082388B6894DC9e'                   
+-
+    id: 3768
+    name: instant-ether.com
+    url: 'https://instant-ether.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x69428858906050E78DBED8e65083d47139766b3F'              
+-
+    id: 3769
+    name: pay.ethwitheth.com
+    url: 'https://pay.ethwitheth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xcAc1e876812A36392Ac2F58C507e912acCc8C1BA'             
+-
+    id: 3770
+    name: ethwitheth.com
+    url: 'https://ethwitheth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xcAc1e876812A36392Ac2F58C507e912acCc8C1BA'               
+-
+    id: 3771
+    name: 10000eth-gift.com
+    url: 'https://10000eth-gift.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xa47879FC57ECD8b52bfe7cF61B9bb41B7ef84eFC'               
+-
+    id: 3772
+    name: output.jsbin.com/jejegu 
+    url: 'https://output.jsbin.com/jejegu'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x3389a9CacB4A3FdbE43DB14D132b3F1e215A835d'                    
