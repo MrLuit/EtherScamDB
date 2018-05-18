@@ -25906,3 +25906,46 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Suspect MyEtherWallet domain'              
+-
+    id: 3743
+    name: etherdelta.githiub.io
+    url: 'http://etherdelta.githiub.io'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta phishing for keys'   
+-
+    id: 3744
+    name: ether-promo.org
+    url: 'https://ether-promo.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xf6eb7d25dfb8cd1d8fcb8d1cccab9f6f3e594ea8'       
+-
+    id: 3745
+    name: ico-telegram.org
+    url: 'https://ico-telegram.org'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'
+    addresses:
+      - '0x5a3dEe76449fE47158Bf6b3B68c629c4ecD2554f'          
+-
+    id: 3746
+    name: atn437.ethgiveeth.com
+    url: 'https://atn437.ethgiveeth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xa47879FC57ECD8b52bfe7cF61B9bb41B7ef84eFC'             
+-
+    id: 3747
+    name: ethgiveeth.com
+    url: 'https://ethgiveeth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xa47879FC57ECD8b52bfe7cF61B9bb41B7ef84eFC'             
