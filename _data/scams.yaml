@@ -25841,3 +25841,68 @@
     category: Phishing
     subcategory: Bittrex
     description: 'Fake Bittrex site phishing for logins'             
+-
+    id: 3734
+    name: 5000eth-promo.com
+    url: 'https://5000eth-promo.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xa61344257ed7c98b4690572e63797d75b0753f96'   
+-
+    id: 3735
+    name: myetherofficial.com 
+    url: 'http://myetherofficial.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspect MyEtherWallet domain'           
+-
+    id: 3736
+    name: myetherwallat.online
+    url: 'http://myetherwallat.online'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'             
+-
+    id: 3737
+    name: myetherwalletw.org
+    url: 'http://myetherwalletw.org'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspect MyEtherWallet domain'              
+-
+    id: 3738
+    name: myetherwallte.net
+    url: 'http://myetherwallte.net'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspect MyEtherWallet domain'             
+-
+    id: 3739
+    name: myetherwalret.ru
+    url: 'http://myetherwalret.ru'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet (loading assets from myetlherwallet.pro)'        
+-
+    id: 3740
+    name: login-myetherwallets.com
+    url: 'http://login-myetherwallets.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'            
+-
+    id: 3741
+    name: xn--metherwalet-uib39f.com
+    url: 'http://xn--metherwalet-uib39f.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'           
+-
+    id: 3742
+    name: myetlherwallet.pro
+    url: 'http://myetlherwallet.pro'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspect MyEtherWallet domain'              
