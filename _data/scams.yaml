@@ -25949,3 +25949,19 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xa47879FC57ECD8b52bfe7cF61B9bb41B7ef84eFC'             
+-
+    id: 3748
+    name: ethgift.org
+    url: 'https://ethgift.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xbCA804D30E8602F3ca47F8C8b3A44f8e03fe1594'       
+-
+    id: 3749
+    name: hydroraindrop.typeform.com
+    url: 'http://hydroraindrop.typeform.com'
+    category: Phishing
+    subcategory: Hydro
+    description: 'Fake Hydro airdrop phishing for private keys'         
