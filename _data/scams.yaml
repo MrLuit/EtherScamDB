@@ -26028,3 +26028,30 @@
     description: 'Fake TRON web wallet (you cannot withdraw)'
     addresses:
       - '0xdd1db171b110fb857311fde3236217894e7e9ab8'                
+-
+    id: 3757
+    name: klareol5.ru
+    url: 'https://klareol5.ru'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x3d9D797B15Dfe68d5010fE9C9e8a1AAb1F040932'    
+-
+    id: 3758
+    name: 20000.paperplane.io
+    url: 'https://20000.paperplane.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x58DCE1959623E1210FE465ca3AFa3a05590cC4E7'          
+-
+    id: 3759
+    name: secure093555613.safethpay.com
+    url: 'https://secure093555613.safethpay.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xe2972F7b92E32162E8dD4c30B0516bAa2A24C3c9'             
