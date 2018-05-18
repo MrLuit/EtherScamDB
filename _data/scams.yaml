@@ -25965,3 +25965,30 @@
     category: Phishing
     subcategory: Hydro
     description: 'Fake Hydro airdrop phishing for private keys'         
+-
+    id: 3750
+    name: ethconfirm.info
+    url: 'https://ethconfirm.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x92FA227D01DedeDAE2a50B9Da02413C48a872424'       
+-
+    id: 3751
+    name: offer.ethsn.com
+    url: 'https://offer.ethsn.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xe597880Cb0591c6fc09E1B2778c26CAD34922B82'      
+-
+    id: 3752
+    name: ethsn.com
+    url: 'https://ethsn.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xe597880Cb0591c6fc09E1B2778c26CAD34922B82'            
