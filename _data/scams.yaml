@@ -26321,3 +26321,48 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x7eA4270D456BC7B3E1C72f8a21a88a90C3D60147'              
+-
+    id: 3793
+    name: brm.10000eth-gift.com
+    url: 'https://brm.10000eth-gift.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x8858297c69ed011c48feAa96F0c89349Ef389B67'      
+-
+    id: 3794
+    name: ethsecure.info
+    url: 'https://ethsecure.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x60e6a89060B325148FE247e9E1C0d090e2764ec2'            
+-
+    id: 3795
+    name: get.ico-eth.net
+    url: 'https://get.ico-eth.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x821Efcb121B9c646dc8D5FB61E9c8ee9C30BA9e4'                
+-
+    id: 3796
+    name: ico-eth.net
+    url: 'https://ico-eth.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x821Efcb121B9c646dc8D5FB61E9c8ee9C30BA9e4'                 
+-
+    id: 3797
+    name: collectmyethers.org
+    url: 'https://collectmyethers.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xf9f876a42FCB0d40759790781FDc886449f54008'                
