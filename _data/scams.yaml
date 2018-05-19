@@ -22473,6 +22473,7 @@
     addresses:    
       - '0x2cc762c27a50d18e50efcd3bee9e3154e3bb094d'
       - '0x548ac87629ceb858aa09b419f5b9898ec5735fba'
+      - '0xf39f8505c37080998a58bc9bdd946b81d4949004'
 -    
     id: 3319
     name: eth.kissr.com
@@ -26168,3 +26169,12 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x3389a9CacB4A3FdbE43DB14D132b3F1e215A835d'                    
+-
+    id: 3773
+    name: eth4everyone.com
+    url: 'https://eth4everyone.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x86A120236c1f595ea53a93736b2E397C27aF802e'      
