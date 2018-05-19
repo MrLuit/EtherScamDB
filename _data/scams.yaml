@@ -26178,3 +26178,28 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x86A120236c1f595ea53a93736b2E397C27aF802e'      
+-
+    id: 3774
+    name: tron-block.com
+    url: 'https://tron-block.com'
+    category: Phishing
+    subcategory: WebWallet
+    description: 'Fake TRON web wallet (you cannot withdraw)'
+    addresses:
+      - '0xdd1db171b110fb857311fde3236217894e7e9ab8'    
+-
+    id: 3775
+    name: idex-market.site
+    url: 'https://idex-market.site'
+    category: Phishing
+    subcategory: Idex
+    description: 'Suspicious domain for idex.market'
+-
+    id: 3776
+    name: ethgive.net
+    url: 'https://ethgive.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x9fe0627303fe40f1631231B4DD016d30c13EafC7'     
