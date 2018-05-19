@@ -26294,3 +26294,30 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - IDN homograph attack domain'         
+-
+    id: 3790
+    name: givefree-eth.com
+    url: 'https://givefree-eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x8c34460976e89EDdE3e2898DC7F23b597d295103'  
+-
+    id: 3791
+    name: now-5000ether.paperplane.io
+    url: 'https://now-5000ether.paperplane.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xDC3896Be3EB4bB3B3eb2f936348E942796078920'        
+-
+    id: 3792
+    name: eth-give.info
+    url: 'https://eth-give.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x7eA4270D456BC7B3E1C72f8a21a88a90C3D60147'              
