@@ -26203,3 +26203,94 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x9fe0627303fe40f1631231B4DD016d30c13EafC7'     
+-
+    id: 3777
+    name: xn--mytherwallet-fvb.net
+    url: 'https://xn--mytherwallet-fvb.net'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'
+-
+    id: 3778
+    name: xn--myethewllet-ife2794g.com
+    url: 'https://xn--myethewllet-ife2794g.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'    
+-
+    id: 3779
+    name: xn--metherwallt-crb6719g.com
+    url: 'https://xn--metherwallt-crb6719g.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'        
+-
+    id: 3780
+    name: xn--myeterwllet-nl8er2d.com	
+    url: 'https://xn--myeterwllet-nl8er2d.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'           
+-
+    id: 3781
+    name: xn--metherallet-ol9e03c.com
+    url: 'https://xn--metherallet-ol9e03c.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'        
+-
+    id: 3782
+    name: xn--mytherwalet-srb45c.com
+    url: 'https://xn--mytherwalet-srb45c.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'        
+-
+    id: 3783
+    name: xn--myetherwlet-48a42j.com
+    url: 'https://xn--myetherwlet-48a42j.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'         
+-
+    id: 3784
+    name: xn--myetherwllt-s8a7g.com
+    url: 'https://xn--myetherwllt-s8a7g.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'         
+-
+    id: 3785
+    name: xn--myethrwaet-mlb18ca.com
+    url: 'https://xn--myethrwaet-mlb18ca.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'         
+-
+    id: 3786
+    name: xn--metherwalle-uib05k.com
+    url: 'https://xn--metherwalle-uib05k.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain - https://www.virustotal.com/#/file/4556e47fcd2514cecd24501e5839e73f80e29154b7a18d913232579cd2ab7dcf/relations'           
+-
+    id: 3787
+    name: xn--mytherwalet-obb56i.com
+    url: 'https://xn--mytherwalet-obb56i.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'       
+-
+    id: 3788
+    name: xn--myethrwalet-6qb77c.com
+    url: 'https://xn--myethrwalet-6qb77c.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'        
+-
+    id: 3789
+    name: xn--myetherwallt-fwb.net
+    url: 'https://xn--myetherwallt-fwb.net'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'         
