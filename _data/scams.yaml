@@ -26373,3 +26373,81 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Hosting a fake MyEtherWallet and being promoted by a fake MyEtherWallet account on Etherscan DISQUS channel'      
+-
+    id: 3799
+    name: secure375446884521.safeethpay.com
+    url: 'https://secure375446884521.safeethpay.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xF36b756013f80B162e8713fb37dF7dDA0Cd7F143'  
+-
+    id: 3800
+    name: quarkchain.in
+    url: 'https://quarkchain.in'
+    category: Phishing
+    subcategory: Quarkchain
+    description: 'Fake Quarkchain crowdsale site'
+    addresses:
+      - '0x118db57c34621ACd0A91F02C8c18cD1a3AD7C213'      
+-
+    id: 3801
+    name: safeethpay.com
+    url: 'https://safeethpay.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xF36b756013f80B162e8713fb37dF7dDA0Cd7F143'       
+-
+    id: 3802
+    name: rnyetherwallel.com
+    url: 'https://rnyetherwallel.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'      
+-
+    id: 3803
+    name: xn--methrwallet-uib92a.com
+    url: 'https://xn--methrwallet-uib92a.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain - related to raindrop-form.typeform.com/to/AuA5Uh'       
+-
+    id: 3804
+    name: myether-walletofficial.com
+    url: 'https://myether-walletofficial.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'      
+-
+    id: 3805
+    name: domain501dom.com
+    url: 'https://domain501dom.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'         
+-
+    id: 3806
+    name: myethwalllet.info 
+    url: 'https://myethwalllet.info'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'             
+-
+    id: 3807
+    name: my-etherwallsecure.com
+    url: 'https://my-etherwallsecure.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'         
+-
+    id: 3808
+    name: secure75405732935.safethpay.com
+    url: 'https://secure75405732935.safethpay.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xF36b756013f80B162e8713fb37dF7dDA0Cd7F143'      
