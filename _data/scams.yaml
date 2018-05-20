@@ -26366,3 +26366,10 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xf9f876a42FCB0d40759790781FDc886449f54008'                
+-
+    id: 3798
+    name: wallets-ether.com
+    url: 'https://wallets-ether.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Hosting a fake MyEtherWallet and being promoted by a fake MyEtherWallet account on Etherscan DISQUS channel'      
