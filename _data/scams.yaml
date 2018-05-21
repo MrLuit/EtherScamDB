@@ -26451,3 +26451,48 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xF36b756013f80B162e8713fb37dF7dDA0Cd7F143'      
+-
+    id: 3809
+    name: claim-eth.com
+    url: 'https://claim-eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x91e35d6c5B7323647e0cc1d274A072AC5CBB4340'      
+-
+    id: 3810
+    name: send.ethergot.com
+    url: 'https://send.ethergot.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xeae0B6B040bf8Adc143382d166cc008D8c317b23'       
+-
+    id: 3811
+    name: ethergot.com
+    url: 'https://ethergot.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xeae0B6B040bf8Adc143382d166cc008D8c317b23'        
+-
+    id: 3812
+    name: securepay-eth.org
+    url: 'https://securepay-eth.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xCdE79393C6F0dEB9B7b51579a386c853fEb8E104'            
+-
+    id: 3813
+    name: gift-10000eth.com
+    url: 'https://gift-10000eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x2D7E6Ab02D3F975248c747EACb99107BC597e4Ce'             
