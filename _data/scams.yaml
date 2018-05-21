@@ -25064,7 +25064,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
     addresses:
-      - '0x934f49fCF451A34026E3dFc3f26a1De01b83b509'         
+      - '0x934f49fCF451A34026E3dFc3f26a1De01b83b509'  
+      - '0x07cfB04588154b06E3958b5d70408244102014D5'
 -
     id: 3639
     name: i-dexmarkets.com
@@ -25703,7 +25704,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
     addresses:
-      - '0x024C344DA7208e60356378a252dAb771c34Be111'              
+      - '0x024C344DA7208e60356378a252dAb771c34Be111'    
+      - '0xE30ee6f6a973a07687c60BE30C1b17818BC1C2A5'
 -
     id: 3715
     name: eth-gift.com.paperplane.io
@@ -26561,3 +26563,64 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - IDN homograph attack domain'         
+-
+    id: 3823
+    name: eth-request.org
+    url: 'https://eth-request.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x718eE443Ffdf50b30a5e8226d4Ff71E605C5cA7C'   
+-
+    id: 3824
+    name: eths.space
+    url: 'https://eths.space'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x096C39aB4fa36cA74A36FE1F4767FF487762f0Aa'         
+-
+    id: 3825
+    name: btc-gift.org
+    url: 'https://btc-gift.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+-
+    id: 3826
+    name: eth-free.github.io
+    url: 'https://eth-free.github.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x1E89039e26c0b7f0E922011dbF3e16a230255cd8'            
+-
+    id: 3827
+    name: ethergiveme.com
+    url: 'https://ethergiveme.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x2a1cbda9f24255ff3489561af72342871c06b7a3'           
+-
+    id: 3828
+    name: ether-give.com
+    url: 'https://ether-give.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x4360325de602B56F9Ec7F9A88Cef909F249d5677'           
+-
+    id: 3829
+    name: eth-share.org
+    url: 'https://eth-share.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xE30ee6f6a973a07687c60BE30C1b17818BC1C2A5'           
