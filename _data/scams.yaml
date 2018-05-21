@@ -26496,3 +26496,12 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x2D7E6Ab02D3F975248c747EACb99107BC597e4Ce'             
+-
+    id: 3804
+    name: quarkchain.pub
+    url: 'https://quarkchain.pub'
+    category: Phishing
+    subcategory: Quarkchain
+    description: 'Fake Quarkchain crowdsale site'
+    addresses:
+      - '0x118db57c34621ACd0A91F02C8c18cD1a3AD7C213'  
