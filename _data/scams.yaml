@@ -26497,7 +26497,7 @@
     addresses:
       - '0x2D7E6Ab02D3F975248c747EACb99107BC597e4Ce'             
 -
-    id: 3804
+    id: 3814
     name: quarkchain.pub
     url: 'https://quarkchain.pub'
     category: Phishing
@@ -26505,3 +26505,59 @@
     description: 'Fake Quarkchain crowdsale site'
     addresses:
       - '0x118db57c34621ACd0A91F02C8c18cD1a3AD7C213'  
+-
+    id: 3815
+    name: myerherwallet.tk 
+    url: 'https://myerherwallet.tk'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspect MyEtherWallet Domain'         
+-
+    id: 3816
+    name: myethrwallet.org
+    url: 'https://myethrwallet.org'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'       
+-
+    id: 3817
+    name: myetherwalletz.org
+    url: 'https://myetherwalletz.org'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspect MyEtherWallet Domain'      
+-
+    id: 3818
+    name: myrvnwallet.com
+    url: 'https://myrvnwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspect MyEtherWallet Domain'  
+-
+    id: 3819
+    name: myetherwanllet.com
+    url: 'https://myetherwanllet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspect MyEtherWallet Domain'     
+-
+    id: 3820
+    name: myetherwellat.com
+    url: 'https://myetherwellat.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspect MyEtherWallet Domain'        
+-
+    id: 3821
+    name: myetherwellets.com
+    url: 'https://myetherwellets.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspect MyEtherWallet Domain'     
+-
+    id: 3822
+    name: xn--myetherwalt-crb17c.com
+    url: 'https://xn--myetherwalt-crb17c.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'         
