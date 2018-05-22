@@ -26759,4 +26759,18 @@
     url: 'https://myethervvalet.io'
     category: Phishing
     subcategory: MyEtherWallet
-    description: 'Fake MyEtherWallet'      
+    description: 'Fake MyEtherWallet'   
+-
+    id: 3848
+    name: xn--ehterdeta-wd6d.com
+    url: 'https://xn--ehterdeta-wd6d.com'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto - IDN homograph attack domain (on EtherDelta) but hosting a MyCrypto phishing kit'      
+-
+    id: 3849
+    name: mycryiptowaliet.com
+    url: 'https://mycryiptowaliet.com'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto'      
