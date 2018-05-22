@@ -26624,3 +26624,139 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xE30ee6f6a973a07687c60BE30C1b17818BC1C2A5'           
+-
+    id: 3830
+    name: lendium.tech
+    url: 'https://lendium.tech'
+    category: Phishing
+    subcategory: Lendium
+    description: 'Fake Lendium crowdsale site'
+-
+    id: 3831
+    name: xn--myethrwalet-vrb05c.com
+    url: 'https://xn--myethrwalet-vrb05c.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'
+-
+    id: 3832
+    name: kineticairdrop.typeform.com
+    url: 'https://kineticairdrop.typeform.com'
+    category: Phishing
+    subcategory: Kinetic
+    description: 'Fake airdrop directing users to xn--myethrwalet-vrb05c.com'
+-
+    id: 3833
+    name: elon-gives-eth.paperplane.io
+    url: 'https://elon-gives-eth.paperplane.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x458DEa31f89D70eD1923D414E4d4A72E98AD0A4C'      
+-
+    id: 3834
+    name: rebl984.9999eth.com
+    url: 'https://rebl984.9999eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xCeCF09F9b5c6D4D7651cB83eC8522d5879a300b3'           
+-
+    id: 3835
+    name: 9999eth.com
+    url: 'https://9999eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xCeCF09F9b5c6D4D7651cB83eC8522d5879a300b3'       
+-
+    id: 3836
+    name: ethclaimer.byethost32.com
+    url: 'https://ethclaimer.byethost32.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x40949225c4a1745a9946F6AAf763241c082cb9ac'    
+-
+    id: 3837
+    name: essentialairdrop.typeform.com
+    url: 'https://essentialairdrop.typeform.com'
+    category: Phishing
+    subcategory: Essential
+    description: 'Fake airdrop'      
+-
+    id: 3838
+    name: myetherwallets-official.com
+    url: 'https://myetherwallets-official.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'      
+-
+    id: 3839
+    name: udex.market
+    url: 'https://udex.market'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'      
+-
+    id: 3840
+    name: icex.market
+    url: 'https://icex.market'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex'     
+-
+    id: 3841
+    name: idexx.market
+    url: 'https://idexx.market'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex'      
+-
+    id: 3842
+    name: starkware.online
+    url: 'https://starkware.online'
+    category: Phishing
+    subcategory: Starkware
+    description: 'Fake Starkware crowdsale site'        
+    addresses:
+      - '0xe10708068c2c17B1D13cCd2F0B572fB737FC69c4'       
+-
+    id: 3843
+    name: myetherwalleta.org
+    url: 'https://myetherwalleta.org'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'        
+-
+    id: 3844
+    name: myetherwalleto.org
+    url: 'https://myetherwalleto.org'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'        
+-
+    id: 3845
+    name: myetherwallett.org
+    url: 'https://myetherwallett.org'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'      
+-
+    id: 3846
+    name: onemew.online
+    url: 'https://onemew.online'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'         
+-
+    id: 3847
+    name: myethervvalet.io
+    url: 'https://myethervvalet.io'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'      
