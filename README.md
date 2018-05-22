@@ -6,6 +6,8 @@
 
 Make sure you have both [Node.JS](https://nodejs.org/en/download/) and [Git](https://git-scm.com/downloads) installed.
 
+Rename `config.exmaple.js` to `config.js` and replace the placeholders with your keys.
+
 Then, open a command line anywhere and run the following commands:
 
 > git clone https://github.com/MrLuit/EtherScamDB.git
