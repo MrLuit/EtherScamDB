@@ -26623,4 +26623,77 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
     addresses:
-      - '0xE30ee6f6a973a07687c60BE30C1b17818BC1C2A5'           
+      - '0xE30ee6f6a973a07687c60BE30C1b17818BC1C2A5'
+-
+    id: 3815
+    name: verasiity.co
+    url: 'https://verasiity.co'
+    category: Phishing
+    subcategory: Verasiity
+    description: 'Fake verasity crowdsale site'
+    addresses:
+      - '0x3c443388038E5103d342410d3D696882F11A2cd8'  
+-
+    id: 3815
+    name: verasiity.co
+    url: 'https://verasiity.co'
+    category: Phishing
+    subcategory: Verasiity
+    description: 'Fake verasity crowdsale site'
+    addresses:
+      - '0x48E1A528413d69ba926395180880cF6CC515237A'  
+-
+    id: 3816
+    name: verasiity.co
+    url: 'https://verasiity.co'
+    category: Phishing
+    subcategory: Verasiity
+    description: 'Fake verasity crowdsale site'
+    addresses:
+      - '0x60cE6FFE0700D899D8baD409e58BBa4135a65fD7'  
+-
+    id: 3817
+    name: verasiity.co
+    url: 'https://verasiity.co'
+    category: Phishing
+    subcategory: Quarkchain
+    description: 'Fake verasity crowdsale site'
+    addresses:
+      - '0x9E2627101091A84eD254cf71e7Ba0D9bB387cC1e'  
+-
+    id: 3818
+    name: verasiity.co
+    url: 'https://verasiity.co'
+    category: Phishing
+    subcategory: Verasiity
+    description: 'Fake verasity crowdsale site'
+    addresses:
+      - '0xF02fDE2CAD522d14b0154627006725BD7c101484'  
+-
+    id: 3819
+    name: verasiity.co
+    url: 'https://verasiity.co'
+    category: Phishing
+    subcategory: Verasiity
+    description: 'Fake verasity crowdsale site'
+    addresses:
+      - '0x2f93eb7f9F05C689B2e59c9C3C5D686D5eF03e07'  
+-
+    id: 3820
+    name: verasiity.co
+    url: 'https://verasiity.co'
+    category: Phishing
+    subcategory: Verasiity
+    description: 'Fake verasity crowdsale site'
+    addresses:
+      - '0xc867fC7DeFAA790E184Ea73EdF800F4d8F99B0f7'  
+-
+    id: 3821
+    name: verasiity.co
+    url: 'https://verasiity.co'
+    category: Phishing
+    subcategory: Verasiity
+    description: 'Fake verasity crowdsale site'
+    addresses:
+      - '0xdF9cbfF8ac388e82108E37BbA16914c0B7bE2fC1'  
+-
