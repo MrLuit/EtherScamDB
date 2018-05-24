@@ -25237,7 +25237,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
     addresses:
-      - '0x54B623C82365ef20680B17301bD949BcD5599Eb9'              
+      - '0x54B623C82365ef20680B17301bD949BcD5599Eb9' 
+      - '0x619B947996557DBB4b3ca878247e8514Fa3e7B30'
 -
     id: 3659
     name: mycrypton.net
@@ -26605,7 +26606,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
     addresses:
-      - '0x2a1cbda9f24255ff3489561af72342871c06b7a3'           
+      - '0x2a1cbda9f24255ff3489561af72342871c06b7a3'    
+      - '0x5a27a79f5217cad7d95cefcce0ecd18a4c33df84et'
 -
     id: 3828
     name: ether-give.com
@@ -26774,3 +26776,37 @@
     category: Phishing
     subcategory: MyCrypto
     description: 'Fake MyCrypto'      
+-
+    id: 3850
+    name: tomochain.tech
+    url: 'https://tomochain.tech'
+    category: Phishing
+    subcategory: Tomochain
+    description: 'Fake Tomochain airdrop phishing for private keys'  
+-
+    id: 3851
+    name: geteth.online
+    url: 'https://geteth.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x4684D57D2fE38B7990d6d82760922dA0928E4eDa'       
+-
+    id: 3852
+    name: get.etherofficial.com
+    url: 'https://get.etherofficial.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xc3Cc3230d0C50DC3a3A8cf77F6d6fa0A618BF5D1'           
+-
+    id: 3853
+    name: etherofficial.com
+    url: 'https://etherofficial.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xc3Cc3230d0C50DC3a3A8cf77F6d6fa0A618BF5D1'        
