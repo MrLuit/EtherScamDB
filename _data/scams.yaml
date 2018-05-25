@@ -26819,3 +26819,10 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xb0D2d2791657ce6CdF48b77A1E10F62E9b4Ee74B'  
+-
+    id: 3855
+    name: air-eos.com
+    url: 'https://air-eos.com'
+    category: Phishing
+    subcategory: Eos
+    description: 'Fake Eos airdrop phishing for private keys'        
