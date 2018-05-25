@@ -26810,3 +26810,12 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xc3Cc3230d0C50DC3a3A8cf77F6d6fa0A618BF5D1'        
+-
+    id: 3854
+    name: got-eth.com
+    url: 'https://got-eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xb0D2d2791657ce6CdF48b77A1E10F62E9b4Ee74B'  
