@@ -26858,3 +26858,10 @@
     category: Phishing
     subcategory: Coinbase
     description: 'Phishing Coinbase users for login details and 2fa codes'     
+-
+    id: 3860
+    name: eoslaunch.io
+    url: 'https://eoslaunch.io'
+    category: Phishing
+    subcategory: Eos
+    description: 'Fake EOS site phishing for private keys'     
