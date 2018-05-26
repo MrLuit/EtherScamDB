@@ -26826,3 +26826,28 @@
     category: Phishing
     subcategory: Eos
     description: 'Fake Eos airdrop phishing for private keys'        
+-
+    id: 3856
+    name: ethgiveaway.zkr.kr
+    url: 'https://ethgiveaway.zkr.kr'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x9852286460022e5151381361bA4271c7272cF966'
+-
+    id: 3857
+    name: eth-promo.wixsite.com
+    url: 'https://eth-promo.wixsite.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x9852286460022e5151381361bA4271c7272cF966'      
+-
+    id: 3858
+    name: calchain.io
+    url: 'https://calchain.io'
+    category: Phishing
+    subcategory: Airdrop
+    description: 'Fake airdrop emailing users to go to signupform1.typeform.com via email, which then directs them to xn--myetherwalt-kbb96i.com'     
