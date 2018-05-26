@@ -26851,3 +26851,10 @@
     category: Phishing
     subcategory: Airdrop
     description: 'Fake airdrop emailing users to go to signupform1.typeform.com via email, which then directs them to xn--myetherwalt-kbb96i.com'     
+-
+    id: 3859
+    name: coinbase.pro-fork.com
+    url: 'https://coinbase.pro-fork.com'
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Phishing Coinbase users for login details and 2fa codes'     
