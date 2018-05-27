@@ -26911,3 +26911,84 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex market site stealing private keys'        
+-
+    id: 3867
+    name: ether-giveaway.net 
+    url: 'https://ether-giveaway.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x29Aaa966321F7d82E119BBc965a58CB62d703445' 
+-
+    id: 3868
+    name: output.jsbin.com/ciqukak
+    url: 'https://output.jsbin.com/ciqukak'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x3389a9CacB4A3FdbE43DB14D132b3F1e215A835d'       
+-
+    id: 3869
+    name: ethget.me
+    url: 'https://ethget.me'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x425E0406395243F087100C8F7b67C02217974123'         
+-
+    id: 3870
+    name: ethbonus.org
+    url: 'https://ethbonus.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xEDfE1d963b32a89E05Dd0Bc0E8F595b4B9Afb544'         
+-
+    id: 3871
+    name: eth-give.me
+    url: 'https://eth-give.me'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x7b433D46E875FE540b1eA2D3011113F1B400D3d5'      
+-
+    id: 3872
+    name: getethnow.com
+    url: 'https://getethnow.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x9a4B3419F7e74ffaaC61aa7AE8D345Dc4b8F0758'       
+-
+    id: 3873
+    name: ethnowpromo.org
+    url: 'https://ethnowpromo.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xa2f3fda8cF36B1ABa1Ca8b006D991d82211c7a38'           
+-
+    id: 3874
+    name: ethergifting.com
+    url: 'https://ethergifting.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x002Bf459dC58584D58886169EA0E80f3Ca95FFAF'       
+-
+    id: 3875
+    name: ethgrab.com
+    url: 'https://ethgrab.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xEF8e0aCf5046d418c681d4b9c181A4332Bd46e8A'           
