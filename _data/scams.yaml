@@ -26874,3 +26874,40 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x135a24A24E524DE187efab379FC655061A67cBD5'  
+-
+    id: 3862
+    name: ethg.me
+    url: 'https://ethg.me'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xB9CEe6fa32eb4d0c8F30E3cd335b72461bD9126e'  
+-
+    id: 3863
+    name: jdex.market
+    url: 'https://jdex.market'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market site stealing private keys'           
+-
+    id: 3864
+    name: idex-myaccount.com
+    url: 'https://idex-myaccount.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market site stealing private keys'      
+-
+    id: 3865
+    name: index-markct.com
+    url: 'https://index-markct.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market site stealing private keys'        
+-
+    id: 3866
+    name: ldox.market
+    url: 'https://ldox.market'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market site stealing private keys'        
