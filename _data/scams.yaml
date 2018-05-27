@@ -26865,3 +26865,12 @@
     category: Phishing
     subcategory: Eos
     description: 'Fake EOS site phishing for private keys'     
+-
+    id: 3861
+    name: e10000eth.net
+    url: 'https://10000eth.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x135a24A24E524DE187efab379FC655061A67cBD5'  
