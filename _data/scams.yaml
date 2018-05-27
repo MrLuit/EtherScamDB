@@ -26992,3 +26992,10 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xEF8e0aCf5046d418c681d4b9c181A4332Bd46e8A'           
+-
+    id: 3876
+    name: coinbaseverifier.com
+    url: 'https://coinbaseverifier.com'
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Fake Coinbase phishing for logins and 2fa codes' 
