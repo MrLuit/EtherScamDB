@@ -26998,7 +26998,7 @@
     url: 'https://coinbaseverifier.com'
     category: Phishing
     subcategory: Coinbase
-    description: 'Fake Coinbase phishing for logins and 2fa codes' 
+    description: 'Fake Coinbase phishing for logins and 2fa codes'
 -
     id: 3877
     name: tron-online.info
@@ -27068,9 +27068,9 @@
     url: 'https://more-eth.com'
     category: Scamming
     subcategory: Trust-Trading
-    description: 'Trust trading scam site'
+    description: 'Trust trading scam site'    
     addresses:
-      - '0x73d6B01f55e81A48155B0174C1F1386F8A6fE0C4'        
+      - '0x73d6B01f55e81A48155B0174C1F1386F8A6fE0C4'      
 -
     id: 3887
     name: myetherwallet.com.signinverication.signmessage.wbaa.co
@@ -27233,3 +27233,21 @@
     category: Phishing
     subcategory: Flashblocks
     description: 'Fake airdrop emailing users to a fake MyEtherWallet - xn--myetherwlet-r7a67j[dot]com/signmsg.html'            
+-
+    id: 3907
+    name: ethers.cz
+    url: 'https://ethers.cz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x07Bc847F898d370Ae6991eE9CC3aBd16797E5cfF'
+-
+    id: 3908
+    name: ethergate.space
+    url: 'https://ethergate.space'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xfF2f6c6fbd71a078f1C1781855467D30897b5a33'
