@@ -26998,4 +26998,11 @@
     url: 'https://coinbaseverifier.com'
     category: Phishing
     subcategory: Coinbase
-    description: 'Fake Coinbase phishing for logins and 2fa codes' 
+    description: 'Fake Coinbase phishing for logins and 2fa codes'
+ -
+    id: 3877
+    name: dav.network
+    category: Phishing
+    description: 'Phishing attempt targeting the DAV Ico through e-mail'
+        addresses:
+      - '0x233772b61331E4355c5a3AcB1Ede5f0793eb273a' 
