@@ -27117,3 +27117,39 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x3786db0c02CEd8434623b460781DBCCd40b608c4'      
+-
+    id: 3893
+    name: ethnow.me
+    url: 'https://ethnow.me'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x7b16e9f14cB9Fd74bf254C620996C7f4750AB1b4'      
+-
+    id: 3894
+    name: fastethget.com
+    url: 'https://fastethget.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x99947568Fa087B633b0677fe4487873Da4D43318'           
+-
+    id: 3895
+    name: securepeth.club
+    url: 'https://securepeth.club'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x85D642EAfb5F15Ef54852B57302040ab066ff2C4'        
+-
+    id: 3896
+    name: quarkchain.supply
+    url: 'https://quarkchain.supply'
+    category: Phishing
+    subcategory: Quarkchain
+    description: 'Fake Quarkchain crowdsale site'
+    addresses:
+      - '0xdf7dEd886067E693F50aDb227Cf5c0421Ea351B8'           
