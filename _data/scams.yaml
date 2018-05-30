@@ -27240,6 +27240,8 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
+    addresses:
+      - '0x07Bc847F898d370Ae6991eE9CC3aBd16797E5cfF'
 -
     id: 3908
     name: ethergate.space
