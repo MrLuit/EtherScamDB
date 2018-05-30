@@ -26998,4 +26998,25 @@
     url: 'https://coinbaseverifier.com'
     category: Phishing
     subcategory: Coinbase
-    description: 'Fake Coinbase phishing for logins and 2fa codes' 
+    description: 'Fake Coinbase phishing for logins and 2fa codes'
+-
+    id: 3877
+    name: more-eth.com
+    url: 'https://more-eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+-
+    id: 3878
+    name: ethers.cz
+    url: 'https://ethers.cz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+-
+    id: 3879
+    name: ethergate.space
+    url: 'https://ethergate.space'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'    
