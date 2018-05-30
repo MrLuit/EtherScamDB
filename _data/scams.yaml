@@ -27251,3 +27251,12 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xfF2f6c6fbd71a078f1C1781855467D30897b5a33'
+-
+    id: 3909
+    name: ethn.cc
+    url: 'https://ethn.cc'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xada33957E96A59265345c75E9D4151DAd5665270'
