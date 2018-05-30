@@ -27153,3 +27153,83 @@
     description: 'Fake Quarkchain crowdsale site'
     addresses:
       - '0xdf7dEd886067E693F50aDb227Cf5c0421Ea351B8'           
+-
+    id: 3897
+    name: xn--myethrwalt-zmbt05c.com
+    url: 'xn--myethrwalt-zmbt05c.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'    
+-
+    id: 3898
+    name: eth.share-coin.net
+    url: 'https://eth.share-coin.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x81053C561Fd1e5305D05C651FCC2ae7c4ae2CdE6'        
+-
+    id: 3899
+    name: safe.ethgiver.com
+    url: 'https://safe.ethgiver.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x798fb97BDA4DB2bdb5F75553F5a1BA73A5EdcF30'     
+-
+    id: 3900
+    name: ethgiver.com
+    url: 'https://ethgiver.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x798fb97BDA4DB2bdb5F75553F5a1BA73A5EdcF30'        
+-
+    id: 3901
+    name: ethereumup.top
+    url: 'https://ethereumup.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x4E8F5917A0823A51206b8CAEe095b0995e8DC943'        
+-
+    id: 3902
+    name: idexmarkets-official.com
+    url: 'https://idexmarkets-official.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex site - iframing iedx[dot]market'          
+-
+    id: 3903
+    name: idex-marketsin.com
+    url: 'https://idex-marketsin.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex site - iframing iedx[dot]market'   
+-
+    id: 3904
+    name: xn--myetherwlet-r7a67j.com
+    url: 'xn--myetherwlet-r7a67j.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain. Suspected address: 0x984aC2891fbAF6a10038c25cC1bA20E787416cFe'       
+-
+    id: 3905
+    name: sparkster.tech
+    url: 'https://sparkster.tech'
+    category: Phishing
+    subcategory: Sparkster
+    description: 'Fake Sparkster crowdsale site'      
+    addresses:
+      - '0x3D3337C3f58d6a09cEE493a4111Ff8b7DF8ad001'       
+-
+    id: 3906
+    name: flashblocks.io
+    url: 'https://flashblocks.io'
+    category: Phishing
+    subcategory: Flashblocks
+    description: 'Fake airdrop emailing users to a fake MyEtherWallet - xn--myetherwlet-r7a67j[dot]com/signmsg.html'            
