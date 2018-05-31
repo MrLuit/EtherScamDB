@@ -27260,3 +27260,30 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xada33957E96A59265345c75E9D4151DAd5665270'
+-
+    id: 3910
+    name: ethbonus.net
+    url: 'https://ethbonus.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xB6751b16Add74242Ea28131ae7008F093734e455'
+-
+    id: 3911
+    name: etherspromo.org
+    url: 'https://etherspromo.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x837d87448dF3e3CfBE1d613287E2C16d6e8a811C'      
+-
+    id: 3912
+    name: ethergiving.org 
+    url: 'https://ethergiving.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x3BD49b98ffcC5f717eED0c9e78a276Ae979de6e4'        
