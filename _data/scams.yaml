@@ -27294,3 +27294,11 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - IDN homograph attack domain'   
+-
+    id: 3914
+    name: davnetwork.com
+    url: 'https://davnetwork.com'    
+    category: Phishing
+    description: 'Phishing attempt targeting the DAV Ico through e-mail'
+    addresses:
+      - '0x233772b61331E4355c5a3AcB1Ede5f0793eb273a' 
