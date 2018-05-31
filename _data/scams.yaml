@@ -27289,6 +27289,21 @@
       - '0x3BD49b98ffcC5f717eED0c9e78a276Ae979de6e4'        
 -
     id: 3913
+    name: xn--mytherwalt-smbh17c.com
+    url: 'https://xn--mytherwalt-smbh17c.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'   
+-
+    id: 3914
+    name: davnetwork.com
+    url: 'https://davnetwork.com'    
+    category: Phishing
+    description: 'Phishing attempt targeting the DAV Ico through e-mail'
+    addresses:
+      - '0x233772b61331E4355c5a3AcB1Ede5f0793eb273a' 
+-
+    id: 3915
     name: Google Doc 
     url: 'https://docs.google.com/forms/d/e/1FAIpQLSeV_zwUe4MbgrmMrrC_cdQsURiHJsFJ_NptSrKfN7B_RLFbLw/viewform?fbzx=-8888898385087386000'
     category: Phishing
