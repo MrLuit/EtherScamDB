@@ -27310,3 +27310,72 @@
     description: 'Fake Phishing Google Doc targeting the DAV ICO'
     addresses:
       - '0x9aEe620A4D7dF8E0056Fb2896528D0C63819390f'
+-
+    id: 3916
+    name: ethtopromo.org
+    url: 'https://ethtopromo.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x6D0Aef62e321Cf1AFB74A4A305f380d9f5c34c8A' 
+-
+    id: 3917
+    name: register-eos.io
+    url: 'https://register-eos.io'
+    category: Phishing
+    subcategory: Eos
+    description: 'Fake EOS registration phishing for keys'
+-
+    id: 3918
+    name: ethereum-get.info
+    url: 'https://ethereum-get.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x8715e3E9cBe013bf54de58431a078a650B2Ece1A'    
+-
+    id: 3919
+    name: xn--myethrwaet-inb90ca.com
+    url: 'https://xn--myethrwaet-inb90ca.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'      
+-
+    id: 3920
+    name: myetherwallet.com.token.signinverication.signmessage.carpediem.legal
+    url: 'https://myetherwallet.com.token.signinverication.signmessage.carpediem.legal'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet. Suspected address: 0x5c3a228510D246b78a3765C20221Cbf3082b44a4 0xCDb26199dB086d54F7b11e50cA4374b4Dd9CE13f'      
+-
+    id: 3921
+    name: myetherwailet.pw
+    url: 'https://myetherwailet.pw'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'        
+-
+    id: 3922
+    name: xn--myethrallet-ol9e8v.com
+    url: 'https://xn--myethrallet-ol9e8v.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain - Suspected address: 0x71481c3ac7853ef63c87f0e9f91b6a5e16e04438'       
+-
+    id: 3923
+    name: keytron.io
+    url: 'https://keytron.io'
+    category: Phishing
+    subcategory: Keytron
+    description: 'Fake airdrop  directing users to xn--myethrwaet-inb90ca[dot]com. Suspected address: 0x58F288F0A8C287F5922c08d9693c045942609f2'     
+-
+    id: 3924
+    name: etherbonus.net
+    url: 'https://etherbonus.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xCd88045eCC901DD6E0BEb11381D42C10429042b4'     
