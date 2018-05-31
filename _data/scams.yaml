@@ -27287,3 +27287,11 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x3BD49b98ffcC5f717eED0c9e78a276Ae979de6e4'        
+-
+    id: 3913
+    name: Google Doc 
+    url: 'https://docs.google.com/forms/d/e/1FAIpQLSeV_zwUe4MbgrmMrrC_cdQsURiHJsFJ_NptSrKfN7B_RLFbLw/viewform?fbzx=-8888898385087386000'
+    category: Phishing
+    description: 'Fake Phishing Google Doc targeting the DAV ICO'
+    addresses:
+      - '0x9aEe620A4D7dF8E0056Fb2896528D0C63819390f'
