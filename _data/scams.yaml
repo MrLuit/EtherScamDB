@@ -27379,3 +27379,101 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xCd88045eCC901DD6E0BEb11381D42C10429042b4'     
+-
+    id: 3925
+    name: idex-market.org
+    url: 'https://idex-market.org'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for keys'   
+-
+    id: 3926
+    name: myetherewallete.com
+    url: 'https://myetherewallete.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet. Suspected address: 0xc4BD211E5b92235E6426113Cd735B74bC4335d08'       
+-
+    id: 3927
+    name: xn--myetherwlet-37a36j.com
+    url: 'https://xn--myetherwlet-37a36j.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet. IDN homograph attack domain'        
+-
+    id: 3928
+    name: xn--myetherwllt-37a50e.com
+    url: 'https://xn--myetherwllt-37a50e.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet. IDN homograph attack domain'         
+-
+    id: 3929
+    name: rnyetheswallet.com
+    url: 'https://rnyetheswallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain'        
+-
+    id: 3930
+    name: meymonerro.com
+    url: 'https://meymonerro.com'
+    category: Phishing
+    subcategory: MyMonero
+    description: 'Fake MyMonero site phishing for logins'            
+-
+    id: 3931
+    name: myenterwellet.com
+    url: 'https://myenterwellet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'         
+-
+    id: 3932
+    name: myetnerwellet.top
+    url: 'https://myetnerwellet.top'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'             
+-
+    id: 3933
+    name: waillbtc.com
+    url: 'https://waillbtc.com'
+    category: Phishing
+    subcategory: Wallbtc
+    description: 'Fake Wallbtc phishing for logins'         
+-
+    id: 3934
+    name: myeltherwalletr.com
+    url: 'https://myeltherwalletr.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain'        
+-
+    id: 3935
+    name: myerhterwellet.com
+    url: 'https://myerhterwellet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain'         
+-
+    id: 3936
+    name: meyetherwalllet.com
+    url: 'https://meyetherwalllet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain'          
+-
+    id: 3937
+    name: meytherwallent.com
+    url: 'https://meytherwallent.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain'             
+-
+    id: 3938
+    name: meytherwallret.com
+    url: 'https://meytherwallret.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain'         
