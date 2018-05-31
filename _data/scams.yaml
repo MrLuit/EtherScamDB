@@ -27001,7 +27001,6 @@
     description: 'Fake Coinbase phishing for logins and 2fa codes'
  -
     id: 3877
-    name: dav.network
     category: Phishing
     description: 'Phishing attempt targeting the DAV Ico through e-mail'
     addresses:
