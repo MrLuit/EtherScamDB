@@ -27493,3 +27493,102 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x297A88c749273F2DE6a378A6015Dd624D993C671'     
+-
+    id: 3941
+    name: ethgive.me
+    url: 'https://ethgive.me'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xCe82F4195C47110978099F86d2B33a8135F71974'     
+-
+    id: 3942
+    name: ethgives.me
+    url: 'https://ethgives.me'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x1EC6eCc934eC1aD85Bb4b579CFc53807Da435A4D'           
+-
+    id: 3943
+    name: promaestros.co.uk
+    url: 'https://promaestros.co.uk'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x410ebb88525ea799ea9e15a03f794f7f6f2fbdcd'            
+-
+    id: 3944
+    name: ethaddress.neocities.org
+    url: 'https://ethaddress.neocities.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x54189eab44661be1b081b4535c050230a787d816'             
+-
+    id: 3945
+    name: changellyico.bitballoon.com
+    url: 'https://changellyico.bitballoon.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x5526dc369bBE6B9B2c5e64BB368C1d3Ccfa58271'            
+-
+    id: 3946
+    name: etherfaucet.tech
+    url: 'https://etherfaucet.tech'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xd3684115C5aEc3736EB02CD835c53DCc7aD09ff2'              
+-
+    id: 3947
+    name: transaction-authorization.droppages.com
+    url: 'https://transaction-authorization.droppages.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xbfBa895E5acc9d103Af39E8E95E21E4D692D0f3C'              
+-
+    id: 3948
+    name: bitcoinbravado.io
+    url: 'https://bitcoinbravado.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x55782237A7e2fB8EB46c22E34F13D3A162286cC0'             
+-
+    id: 3949
+    name: coin-secure-transaction.com
+    url: 'https://coin-secure-transaction.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xa8b3c9c2a45d68eb435b5f3ef6712fa50cdbd996'              
+-
+    id: 3950
+    name: ethereum-pay.com
+    url: 'https://ethereum-pay.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xE3BbcdF129Da8cF2B4E9C4950e343a693e9229cc'          
+-
+    id: 3951
+    name: ethereumgiveaway.win
+    url: 'https://ethereumgiveaway.win'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x4a8264933388E0f526FEE7b5E2b8A9AD74d1a11c'           
