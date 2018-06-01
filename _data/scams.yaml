@@ -27836,3 +27836,17 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x9a4B3419F7e74ffaaC61aa7AE8D345Dc4b8F0758'           
+-
+    id: 3980
+    name: kinetictokenform.typeform.com
+    url: 'https://kinetictokenform.typeform.com'
+    category: Phishing
+    subcategory: Kinetic
+    description: 'Fake airdrop redirecting users to xn--myetherwllt-r7a44e.com'
+-
+    id: 3981
+    name: xn--myetherwllt-r7a44e.com
+    url: 'https://xn--myetherwllt-r7a44e.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'    
