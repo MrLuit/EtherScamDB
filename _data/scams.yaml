@@ -27406,7 +27406,7 @@
     url: 'https://xn--myetherwllt-37a50e.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: 'Fake MyEtherWallet. IDN homograph attack domain'         
+    description: 'Fake MyEtherWallet. IDN homograph attack domain. Suspected address: 0x4121cc82607ebab3f334e067f37fe2709c403bf6'         
 -
     id: 3929
     name: rnyetheswallet.com
@@ -27477,3 +27477,19 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Suspicious MyEtherWallet domain'         
+-
+    id: 3939
+    name: calchain.net
+    url: 'https://calchain.net'
+    category: Phishing
+    subcategory: Calchain
+    description: 'Fake airdrop directing users to a fake MyEtherWallet (xn--myetherwlet-37a36j[dot]com & xn--myetherwllt-37a50e[dot]com). Suspected address:  0x4121cc82607ebab3f334e067f37fe2709c403bf6'   
+-
+    id: 3940
+    name: ethpays.me
+    url: 'https://ethpays.me'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x297A88c749273F2DE6a378A6015Dd624D993C671'     
