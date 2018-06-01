@@ -27850,3 +27850,69 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - IDN homograph attack domain'    
+-
+    id: 3982
+    name: myetehrewallet.com
+    url: 'https://myetehrewallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'   
+-
+    id: 3983
+    name: lbex.market
+    url: 'https://lbex.market'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market phishing for keys'       
+-
+    id: 3984
+    name: idex-info.net
+    url: 'https://idex-info.net'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market phishing for keys'         
+-
+    id: 3985
+    name: get-eth.win
+    url: 'http://get-eth.win'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x3BD49b98ffcC5f717eED0c9e78a276Ae979de6e4'      
+-
+    id: 3986
+    name: eth-claim.org
+    url: 'http://eth-claim.org'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x34d202c37f9609A3d0d44db259ff51Bae8ea2D0f'          
+-
+    id: 3987
+    name: eth-givebacknow.tumblr.com
+    url: 'http://eth-givebacknow.tumblr.com'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x6CFDdE4E08c9e2CF1b9A32d2C31203966B17f816'             
+-
+    id: 3988
+    name: ethfreebie.com
+    url: 'http://ethfreebie.com'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xDe72b9575B532aB7Cf37C677d95e9cE612b05ACe'         
+-
+    id: 3989
+    name: ethpayethers.com
+    url: 'http://ethpayethers.com'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xdb7E6449A14100922caD1eCc5aBEa0FB37FF2106'           
