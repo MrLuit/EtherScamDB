@@ -27599,3 +27599,33 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet. IDN homograph attack domain.'
+-
+    id: 3953
+    name: ethpromo.io
+    url: 'https://ethpromo.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x4Dad23689bEf624aF5d1757A56135901c915FCFD'   
+-
+    id: 3954
+    name: myetherwallet.com.signinverication.verifcaon.site
+    url: 'https://myetherwallet.com.signinverication.verifcaon.site'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet. Suspected address: 0xCDb26199dB086d54F7b11e50cA4374b4Dd9CE13f'
+-
+    id: 3955
+    name: verifywallet.typeform.com
+    url: 'https://verifywallet.typeform.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake airdrop directing users to a fake MyEtherWallet xn--myethewallet-4nf.net'
+-
+    id: 3956
+    name: xn--myethewallet-4nf.net
+    url: 'https://xn--myethewallet-4nf.net'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain. Suspected address: 0x1ee6b25a0e3f855a10916766df3a056e924e5dce'    
