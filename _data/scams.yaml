@@ -27592,3 +27592,10 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x4a8264933388E0f526FEE7b5E2b8A9AD74d1a11c'           
+-
+    id: 3952
+    name: xn--myetherwllt-f7a75e.com
+    url: 'https://xn--myetherwllt-f7a75e.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet. IDN homograph attack domain.'
