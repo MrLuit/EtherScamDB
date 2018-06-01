@@ -27601,8 +27601,189 @@
     description: 'Fake MyEtherWallet. IDN homograph attack domain.'
 -
     id: 3953
+    name: ethpromo.io
+    url: 'https://ethpromo.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x4Dad23689bEf624aF5d1757A56135901c915FCFD'   
+-
+    id: 3954
+    name: myetherwallet.com.signinverication.verifcaon.site
+    url: 'https://myetherwallet.com.signinverication.verifcaon.site'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet. Suspected address: 0xCDb26199dB086d54F7b11e50cA4374b4Dd9CE13f'
+-
+    id: 3955
+    name: verifywallet.typeform.com
+    url: 'https://verifywallet.typeform.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake airdrop directing users to a fake MyEtherWallet xn--myethewallet-4nf.net'
+-
+    id: 3956
+    name: xn--myethewallet-4nf.net
+    url: 'https://xn--myethewallet-4nf.net'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain. Suspected address: 0x1ee6b25a0e3f855a10916766df3a056e924e5dce'    
+-
+    id: 3957
+    name: ethgw.info
+    url: 'https://ethgw.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xB6ADacf355031C10b4FD70eE7FB4acA88A7C216d'  
+-
+    id: 3958
+    name: ethbigpromo-com.1gb.ru
+    url: 'https://ethbigpromo-com.1gb.ru'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x2c1dF1D2B053E2BF89BB5251AF392bc962326e51'        
+-
+    id: 3959
+    name: claimcrypto.org
+    url: 'https://claimcrypto.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x839DB3994bef8842C0809AB84996bA839fCac11e'              
+-
+    id: 3960
+    name: tron.gg
+    url: 'http://tron.gg'
+    category: Phishing
+    subcategory: Tron
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x8cA61e380ebBEbe412b5787a20B6ecdF2Ab21997'
+-
+    id: 3961
+    name: tronfoundation.cc
+    url: 'http://tronfoundation.cc'
+    category: Phishing
+    subcategory: Tron
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x8ca61e380ebbebe412b5787a20b6ecdf2ab21997'
+-
+    id: 3962
+    name: tronfoundation.gift
+    url: 'http://tronfoundation.gift'
+    category: Phishing
+    subcategory: Tron
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x73f7b2257c688677ff9cc7bdd2d05e5076e0ae42'
+-
+    id: 3963
+    name: ethn.gift
+    url: 'http://ethn.gift'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x73f7B2257C688677fF9Cc7BDd2D05e5076E0AE42'
+-
+    id: 3964
+    name: geth.fyi
+    url: 'http://geth.fyi'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xAba9897C9422b1C30733169D3dA7Ff83D7f23044'
+-
+    id: 3965
+    name: ethc.live
+    url: 'http://ethc.live'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x73f7b2257c688677ff9cc7bdd2d05e5076e0ae42'
+-
+    id: 3966
+    name: eths.fyi
+    url: 'http://eths.fyi'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xAba9897C9422b1C30733169D3dA7Ff83D7f23044'
+-
+    id: 3967
+    name: shr.st
+    url: 'http://shr.st'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xAba9897C9422b1C30733169D3dA7Ff83D7f23044'
+-
+    id: 3968
+    name: gate1.eths.vu
+    url: 'http://gate1.eths.vu'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x48eC7767d5DeF1C1520402b092356e070C5f1adc'
+-
+    id: 3969
+    name: ethc.cash
+    url: 'http://ethc.cash'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x73f7b2257c688677ff9cc7bdd2d05e5076e0ae42'
+-
+    id: 3970
+    name: ethn.li
+    url: 'http://ethn.li'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x73f7B2257C688677fF9Cc7BDd2D05e5076E0AE42'
+-
+    id: 3971
+    name: ethc.cc
+    url: 'http://ethc.cc'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x73f7B2257C688677fF9Cc7BDd2D05e5076E0AE42'
+-
+    id: 3972
+    name: ethn.pw
+    url: 'http://ethn.pw'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x73f7B2257C688677fF9Cc7BDd2D05e5076E0AE42'
+-
+    id: 3973
+    name: get-eth.top
+    url: 'http://get-eth.top'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xAba9897C9422b1C30733169D3dA7Ff83D7f23044'
+-
     name: bit-coins.cloud
     url: 'https://bit-coins.cloud'
     category: Trust--Trading
-    description: '1P8S7iLLSUeoGe1zKhzYFaNS33Nv9de4bB'    
-    
+    description: '1P8S7iLLSUeoGe1zKhzYFaNS33Nv9de4bB'
