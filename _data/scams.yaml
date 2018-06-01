@@ -27782,3 +27782,57 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xAba9897C9422b1C30733169D3dA7Ff83D7f23044'
+-
+    id: 3974
+    name: saferpayether.com
+    url: 'http://saferpayether.com'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x4Dad23689bEf624aF5d1757A56135901c915FCFD'
+-
+    id: 3975
+    name: ethgive.global
+    url: 'http://ethgive.global'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x9849424a2f3516B70b56D70330c45c25DcCb2C02'      
+-
+    id: 3976
+    name: ethpromo.info
+    url: 'http://ethpromo.info'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x88620C720523c822adCdc1d5484915fcD85BAf73'        
+-
+    id: 3977
+    name: ethereum-promo.org
+    url: 'http://ethereum-promo.org'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x48dcc01a31E38e14F6a63846E371C6e9Cb0C3f3a'         
+-
+    id: 3978
+    name: crypto-claims.org
+    url: 'http://crypto-claims.org'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x839DB3994bef8842C0809AB84996bA839fCac11e'           
+-
+    id: 3979
+    name: getethnow.com
+    url: 'http://getethnow.com'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x9a4B3419F7e74ffaaC61aa7AE8D345Dc4b8F0758'           
