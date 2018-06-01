@@ -27599,3 +27599,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet. IDN homograph attack domain.'
+-
+    id: 3953
+    name: bit-coins.cloud
+    url: 'https://bit-coins.cloud'
+    category: Trust--Trading
+    description: '1P8S7iLLSUeoGe1zKhzYFaNS33Nv9de4bB'    
+    
