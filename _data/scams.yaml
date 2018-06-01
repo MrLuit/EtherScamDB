@@ -27782,3 +27782,8 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xAba9897C9422b1C30733169D3dA7Ff83D7f23044'
+-
+    name: bit-coins.cloud
+    url: 'https://bit-coins.cloud'
+    category: Trust--Trading
+    description: '1P8S7iLLSUeoGe1zKhzYFaNS33Nv9de4bB'
