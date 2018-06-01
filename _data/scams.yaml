@@ -27629,3 +27629,30 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - IDN homograph attack domain. Suspected address: 0x1ee6b25a0e3f855a10916766df3a056e924e5dce'    
+-
+    id: 3957
+    name: ethgw.info
+    url: 'https://ethgw.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xB6ADacf355031C10b4FD70eE7FB4acA88A7C216d'  
+-
+    id: 3958
+    name: ethbigpromo-com.1gb.ru
+    url: 'https://ethbigpromo-com.1gb.ru'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x2c1dF1D2B053E2BF89BB5251AF392bc962326e51'        
+-
+    id: 3959
+    name: claimcrypto.org
+    url: 'https://claimcrypto.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x839DB3994bef8842C0809AB84996bA839fCac11e'              
