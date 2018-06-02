@@ -27930,3 +27930,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Intermdeiate URL at Phishing MyEtherWallet Via Native Web Views on Android,reported by risk.iq'   
+-
+    id: 3992
+    name: idexmarket.io
+    url: 'https://idexmarket.io'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market phishing keys with GET store.php?mapza=&action1=1'    
