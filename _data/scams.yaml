@@ -28003,3 +28003,26 @@
     category: Phishing
     subcategory: EOS
     description: 'Fake EOS countdown, phishing for private keys with POST /VerifyToken.php' 
+-
+    id: 4001
+    name: ethpromo.cc
+    url: 'http://ethpromo.cc'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x05e85D73Eaf6fEF228294fdF867aBBa98552A99F' 
+-
+    id: 4002
+    name: idex-market.eu
+    url: 'https://idex-market.eu'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market phishing keys'      
+-
+    id: 4003
+    name: idex-login.net
+    url: 'https://idex-login.net'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market phishing keys'          
