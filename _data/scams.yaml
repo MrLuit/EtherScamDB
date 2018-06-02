@@ -28026,3 +28026,12 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex market phishing keys'          
+-
+    id: 4004
+    name: promotoeth.org
+    url: 'http://promotoeth.org'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xb733A811edF703701d2403d8196df87306BED6D6' 
