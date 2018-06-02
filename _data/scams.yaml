@@ -27996,3 +27996,10 @@
     description: 'Fake EOS airdrop asking for address validation on a telegram group'  
     addresses:
       - '0xFe68F28599B19c5D8a562E8cC7F7b07C36E0A99D'           
+-
+    id: 4000
+    name: eos-swap.com
+    url: 'https://eos-swap.com'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS countdown, phishing for private keys with POST /VerifyToken.php' 
