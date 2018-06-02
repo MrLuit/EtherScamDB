@@ -27964,3 +27964,35 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xeaA4b711e7C025899460b429BeF1ff8155ba4C66'               
+-
+    id: 3996
+    name: keyfund.io
+    url: 'https://keyfund.io'
+    category: Phishing
+    subcategory: Keyfund
+    description: 'Fake airdrop directing users to a fake MyEtherWallet xn--myethrwalt-vmbe17c.com'  
+-
+    id: 3997
+    name: ethereum-promo.xf.cz
+    url: 'http://ethereum-promo.xf.cz'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x997ad34840281d459251abdf9c90d9a8c6a6e01a'       
+-
+    id: 3998
+    name: myetherwallet.comsigninverication.signmessage.crocweb.online
+    url: 'https://myetherwallet.comsigninverication.signmessage.crocweb.online'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet. Suspected address: 0x6ab2a9088916bf97c248888009b669aa37bab681 0xcdb26199db086d54f7b11e50ca4374b4dd9ce13f 0x5127E8d79160f4cD177F5aC5A1e860acAa59a34B'       
+-
+    id: 3999
+    name: myeosdac.top
+    url: 'https://myeosdac.top'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS airdrop asking for address validation on a telegram group'  
+    addresses:
+      - '0xFe68F28599B19c5D8a562E8cC7F7b07C36E0A99D'           
