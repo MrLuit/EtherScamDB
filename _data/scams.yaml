@@ -27918,15 +27918,22 @@
       - '0xdb7E6449A14100922caD1eCc5aBEa0FB37FF2106'           
 -
     id: 3990
-    name: 
+    name: xn--myetherwalet-lcc.net
     url: 'xn--myetherwalet-lcc.net'
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Intermdeiate URL at Phishing MyEtherWallet Via Native Web Views on Android, reported by risk.iq'
 -
     id: 3991
-    name: 
+    name: xn--myethrwalle-3bb60n.com
     url: 'xn--myethrwalle-3bb60n.com'
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Intermdeiate URL at Phishing MyEtherWallet Via Native Web Views on Android,reported by risk.iq'   
+-
+    id: 3992
+    name: idexmarket.io
+    url: 'https://idexmarket.io'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market phishing keys with GET store.php?mapza=&action1=1'    
