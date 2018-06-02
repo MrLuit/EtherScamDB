@@ -27937,3 +27937,30 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex market phishing keys with GET store.php?mapza=&action1=1'    
+-
+    id: 3993
+    name: ethofficial.info
+    url: 'http://ethofficial.info'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xfB03e59c83b984DA0f6a5575B955541af28cCC65'     
+-
+    id: 3994
+    name: getsomeeth.com
+    url: 'http://getsomeeth.com'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xdb850d7dC1aDe8eC00CE4269e732d3Aa44286f73'           
+-
+    id: 3995
+    name: giveawaycrypto.org
+    url: 'http://giveawaycrypto.org'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xeaA4b711e7C025899460b429BeF1ff8155ba4C66'               
