@@ -28049,3 +28049,57 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex market phishing for keys - iframing 185.156.173.87'     
+-
+    id: 4007
+    name: eth-get.com
+    url: 'http://eth-get.com'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xf8abBDc8578B940b82906a2E8da893B164D4FA59'
+-
+    id: 4008
+    name: giveaway-ether.info
+    url: 'http://giveaway-ether.info'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xa78959E1568448a3CF866968872431E710458552'      
+-
+    id: 4009
+    name: ether-give.club
+    url: 'http://ether-give.club'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x50a9a8c8ce2bb0ea10f4d4a586ac2d77257b8247'        
+-
+    id: 4010
+    name: eth.promo-etherum.com
+    url: 'http://eth.promo-etherum.com'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x2d19F9FEcE6DA18f2899944B0621C5eCeBAa249B'           
+-
+    id: 4011
+    name: promo-etherum.com
+    url: 'http://promo-etherum.com'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x5526dc369bBE6B9B2c5e64BB368C1d3Ccfa58271'         
+-
+    id: 4012
+    name: winplatform.io
+    url: 'http://winplatform.io'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xaC2530772075b7576a7b27390e348Fadf3345c29'         
