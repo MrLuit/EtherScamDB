@@ -28103,3 +28103,17 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xaC2530772075b7576a7b27390e348Fadf3345c29'         
+-
+    id: 4013
+    name: idek.io
+    url: 'https://idek.io'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market phishing keys'  
+-
+    id: 4014
+    name: idex24.io
+    url: 'https://idex24.io'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market phishing keys'      
