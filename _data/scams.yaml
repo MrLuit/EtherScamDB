@@ -28035,3 +28035,17 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xb733A811edF703701d2403d8196df87306BED6D6' 
+-
+    id: 4005
+    name: eos-paperwallet.com
+    url: 'https://eos-paperwallet.com'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS paperwallet generator'  
+-
+    id: 4006
+    name: index-macro.com
+    url: 'https://index-macro.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market phishing for keys - iframing 185.156.173.87'     
