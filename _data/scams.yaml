@@ -28117,3 +28117,21 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex market phishing keys'      
+-
+    id: 4015
+    name: collect.bestethgift.com
+    url: 'http://collect.bestethgift.com'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x3E53A430c39896dAf1b241828e3b5E8D526503fA'   
+-
+    id: 4016
+    name: bestethgift.com
+    url: 'http://bestethgift.com'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x3E53A430c39896dAf1b241828e3b5E8D526503fA'         
