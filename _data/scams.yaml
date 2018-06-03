@@ -28135,3 +28135,92 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x3E53A430c39896dAf1b241828e3b5E8D526503fA'         
+-
+    id: 4017
+    name: idex-market.io
+    url: 'https://idex-market.io'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market phishing keys'    
+-
+    id: 4018
+    name: xn--mytherwalt-smb5a54c.com
+    url: 'https://xn--mytherwalt-smb5a54c.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'       
+-
+    id: 4019
+    name: xn--myethrwalet-vrb15c.com
+    url: 'https://xn--myethrwalet-vrb15c.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'       
+-
+    id: 4020
+    name: xn--metherwallt-5hb16a.com
+    url: 'https://xn--metherwallt-5hb16a.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'        
+-
+    id: 4021
+    name: get-ethers.net
+    url: 'http://get-ethers.net'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xd0E45dceB9B9A3aB8bD59A989cbdbc03D1507afd'        
+-
+    id: 4022
+    name: ethfreebie.icu
+    url: 'http://ethfreebie.icu'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x6442dC8BCb92Fcd556c78D91F551cdaad62654F4'           
+-
+    id: 4023
+    name: gather-gift.com
+    url: 'http://gather-gift.com'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xC2605DC15d3ecE4Ea7A160C615fbb229C88efCa7'           
+-
+    id: 4024
+    name: swdwd.etherget22.zone
+    url: 'http://swdwd.etherget22.zone'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x40949225c4a1745a9946F6AAf763241c082cb9ac'          
+-
+    id: 4025
+    name: giveaway.neocities.org
+    url: 'http://giveaway.neocities.org'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xAcF90F51D960BD6038E8A2Ee7eba13CF714CFFBF'         
+-
+    id: 4026
+    name: etherdrop.org
+    url: 'http://etherdrop.org'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Suspected address: 0x2b8cdceb358ee31c2ba6c9707ad09df66bf7bc88'
+-
+    id: 4027
+    name: safepay-eth.org
+    url: 'http://safepay-eth.org'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xf6cE1549A57f39238b47569A4787e25e5D695d22'  
