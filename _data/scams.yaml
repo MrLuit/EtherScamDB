@@ -18694,7 +18694,7 @@
     url: 'https://xn--es-8bb.com'
     category: Phishing
     subcategory: EOS
-    description: 'Fake EOS airdrop site - linking to xn--myetherallt-pl9elw.com'
+    description: 'Fake EOS airdrop site - linking to xn--myetherallt-pl9elw.com. Suspected address: 0xd1dc670608c00e8e6378062b48ef5911b068ae3d'
 -
     id: 2860
     name: xn--myetherallt-pl9elw.com
@@ -28336,3 +28336,100 @@
     description: 'Fake Fantom crowdsale site'
     addresses:
       - '0x8d305Fd29aEbd6e0562dE9321d55E7f0E6fbaCaD'   
+-
+    id: 4041
+    name: idex-info.com
+    url: 'http://idex-info.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Reported as fake idex site. Suspected address: 0xFdf02F6BeeF524Df60a066cbE795957F78C63B1D'     
+-
+    id: 4042
+    name: xn--mythrwalet-umbv35c.com
+    url: 'http://xn--mythrwalet-umbv35c.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain. Suspected address: 0x604DA69D33a0Df6414c30270434bA4E0e95d8cF6 0x8B170540B63d2F826846f3C0B9E6410B08548Ec3 0x5d4d57cd06fa7fe99e26fdc481b468f77f05073c 0xd53eC8a1478e7128D2D5F131A36462Ca3190fCce'         
+-
+    id: 4043
+    name: helbiz-token.trade
+    url: 'http://helbiz-token.trade'
+    category: Phishing
+    subcategory: Helbiz
+    description: 'Fake Helbiz promotion. Directing users to a fake MyEtherWallet myeltherwallet.ml/etherscan.io.token.0xe34e1944e776f39b9252790a0527ebda647ae668/'         
+-
+    id: 4044
+    name: eostoken-eos-io.typeform.com
+    url: 'http://eostoken-eos-io.typeform.com'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS promotion. Directing users to a fake MyEtherWallet xn--mythrwalet-umbv35c.com'          
+-
+    id: 4045
+    name: switcheo-login.com
+    url: 'http://switcheo-login.com'
+    category: Phishing
+    subcategory: Switcheo
+    description: 'Fake Switcheo login phishing for keys with POST /prikey.php'        
+-
+    id: 4046
+    name: switchee.exchange
+    url: 'http://switchee.exchange'
+    category: Phishing
+    subcategory: Switcheo
+    description: 'Fake Switcheo login phishing for keys'        
+-
+    id: 4047
+    name: falconetwork.de
+    url: 'http://falconetwork.de'
+    category: Phishing
+    subcategory: Falcon
+    description: 'Fake Falcon promotion. Directing users to a fake MyEtherWallet xn--mythrwalet-umbv35c.com'        
+-
+    id: 4048
+    name: xn--myetherwaett-lcca.net
+    url: 'http://xn--myetherwaett-lcca.net'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'     
+-
+    id: 4049
+    name: myetherwalllet.trade
+    url: 'http://myetherwalllet.trade'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet. Suspected address: 0x645a58a563ab8c94207e8faea54bcb97e02d23c9'         
+-
+    id: 4050
+    name: secure.ethtogive.com
+    url: 'http://secure.ethtogive.com'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x0A10c493bC6f7FaECca5bE1e82d7Fd7Fb3774049' 
+-
+    id: 4051
+    name: ethtogive.com
+    url: 'http://ethtogive.com'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x0A10c493bC6f7FaECca5bE1e82d7Fd7Fb3774049'       
+-
+    id: 4052
+    name: fantom.pub
+    url: 'http://fantom.pub'
+    category: Phishing
+    subcategory: Fantom
+    description: 'Fake Fantom crowdsale site'
+    addresses:
+      - '0x35647d709bCD5B451f8C62228876975e8d31F85b'           
+-
+    id: 4053
+    name: kucroin.com
+    url: 'http://kucroin.com'
+    category: Phishing
+    subcategory: Kucoin
+    description: 'Fake Kucoin exchange site phishing for login details'        
