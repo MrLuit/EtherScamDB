@@ -28327,3 +28327,12 @@
     category: Phishing
     subcategory: Etherscan
     description: 'Fake Etherscan phishing for login details'      
+-
+    id: 4040
+    name: fantoms.foundation
+    url: 'http://fantoms.foundation'
+    category: Phishing
+    subcategory: Fantom
+    description: 'Fake Fantom crowdsale site'
+    addresses:
+      - '0x8d305Fd29aEbd6e0562dE9321d55E7f0E6fbaCaD'   
