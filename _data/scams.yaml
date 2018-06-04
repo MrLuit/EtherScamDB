@@ -27826,7 +27826,7 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
     addresses:
-      - '0x839DB3994bef8842C0809AB84996bA839fCac11e'           
+      - '0x839DB3994bef8842C0809AB84996bA839fCac11e'    
 -
     id: 3979
     name: getethnow.com
@@ -28259,3 +28259,55 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'         
+-
+    id: 4032
+    name: myiteher.com
+    url: 'https://myiteher.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'   
+-
+    id: 4033
+    name: musk-giveaway.com
+    url: 'http://musk-giveaway.com'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x7C875Ee4D4a1B29B41eBb2678dF1F645F28d090B'          
+-
+    id: 4034
+    name: get-ether.cash
+    url: 'http://get-ether.cash'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x3d7A0fAE63809c4725b13bddDabBb718939AD10e'           
+-
+    id: 4035
+    name: free-ethers.com
+    url: 'http://free-ethers.com'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xAa9455da13bA39f5d4E6275337C3D5600CB0f5B4'           
+-
+    id: 4036
+    name: ethershares.blogspot.nl
+    url: 'http://ethershares.blogspot.nl'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xEd51c3c2fb6E6965aEd7beeC167B0596dc36116D'          
+-
+    id: 4037
+    name: ripple-gives-eth.com
+    url: 'http://ripple-gives-eth.com'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x3232d99007e509D29564099c622a89e143fdc05c'               
