@@ -28432,4 +28432,12 @@
     url: 'http://kucroin.com'
     category: Phishing
     subcategory: Kucoin
-    description: 'Fake Kucoin exchange site phishing for login details'        
+    description: 'Fake Kucoin exchange site phishing for login details'    
+-
+    id: 4054
+    name: ethereum-bonus.com
+    url: 'https://ethereum-bonus.com'
+    category: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0x916d37534f95f30c35A60a58150F48c2D0fF4Be2'
