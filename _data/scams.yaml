@@ -28066,7 +28066,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
     addresses:
-      - '0xa78959E1568448a3CF866968872431E710458552'      
+      - '0xa78959E1568448a3CF866968872431E710458552'
+      - '0xEc9bF38B63c51A0F72b20B08fC874501BC0a4E04'
 -
     id: 4009
     name: ether-give.club
