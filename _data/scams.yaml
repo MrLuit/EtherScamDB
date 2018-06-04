@@ -28335,4 +28335,12 @@
     subcategory: Fantom
     description: 'Fake Fantom crowdsale site'
     addresses:
-      - '0x8d305Fd29aEbd6e0562dE9321d55E7f0E6fbaCaD'   
+      - '0x8d305Fd29aEbd6e0562dE9321d55E7f0E6fbaCaD'
+-
+    id: 4041
+    name: ethereum-bonus.com
+    url: 'https://ethereum-bonus.com'
+    category: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0x916d37534f95f30c35A60a58150F48c2D0fF4Be2'
