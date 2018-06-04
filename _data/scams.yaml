@@ -28311,3 +28311,19 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x3232d99007e509D29564099c622a89e143fdc05c'               
+-
+    id: 4038
+    name: etherscan.ltd
+    url: 'http://etherscan.ltd'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x5c0133DC7E8811B3FADdD1016d0800Dbf5beC2D8'   
+-
+    id: 4039
+    name: etherskan.io
+    url: 'http://etherskan.io'
+    category: Phishing
+    subcategory: Etherscan
+    description: 'Fake Etherscan phishing for login details'      
