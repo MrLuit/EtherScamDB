@@ -28225,3 +28225,37 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xf6cE1549A57f39238b47569A4787e25e5D695d22'  
+-
+    id: 4028
+    name: telegram.vu
+    url: 'http://telegram.vu'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xbf863b57322A1E634388946F942306393A5D4c69'  
+-
+    id: 4029
+    name: ethereumbonus.org
+    url: 'http://ethereumbonus.org'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x2271A88623266069352196363c1E54f61C5141E1'        
+-
+    id: 4030
+    name: ether-giveaway.online
+    url: 'http://ether-giveaway.online'
+    category: Phishing
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x483ec0E946d1d61696Bc8F69ef10365bD80862dc'       
+-
+    id: 4031
+    name: mydeliverycv.com
+    url: 'https://mydeliverycv.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'         
