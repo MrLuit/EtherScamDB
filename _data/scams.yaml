@@ -28457,3 +28457,27 @@
     description: 'Trust-Trading site'
     addresses:
       - '0x92d43D2f55E077D1beBC6e348a9F4FF64fD4F21A'      
+-
+    id: 4057
+    name: get.ethpublic.com
+    url: 'https://get.ethpublic.com'
+    category: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0xe4fc4C3889B5442391acAD627673F4Ef7Efe7B97'   
+-
+    id: 4058
+    name: ethpublic.com
+    url: 'https://ethpublic.com'
+    category: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0xe349B26753ECa84A2858901d414c612c8c8e20f9'         
+-
+    id: 4059
+    name: ethereum-get.org
+    url: 'https://ethereum-get.org'
+    category: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0xaBbD5F7D4DE3c91706c73FD7d09b9ec3Ed9cA697'           
