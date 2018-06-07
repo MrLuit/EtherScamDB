@@ -28480,16 +28480,204 @@
     category: Trust-Trading
     description: 'Trust-Trading site'
     addresses:
-      - '0xaBbD5F7D4DE3c91706c73FD7d09b9ec3Ed9cA697'  
+      - '0xaBbD5F7D4DE3c91706c73FD7d09b9ec3Ed9cA697'       
 -
     id: 4060
+    name: safe.ethxchanges.com
+    url: 'http://safe.ethxchanges.com'
+    category: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0x27F897EBeeD82240734489D52AA7e39a8cA257E9'
+-
+    id: 4061
+    name: ethxchanges.com
+    url: 'http://ethxchanges.com'
+    category: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0x27F897EBeeD82240734489D52AA7e39a8cA257E9'	  
+-
+    id: 4062
+    name: xn--mythrwalet-c7ac47i.com
+    url: 'http://xn--mythrwalet-c7ac47i.com'
+    category: Phishing
+	subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'
+-
+    id: 4063
+    name: xn--mythrwallt-c7a86c5a.com
+    url: 'http://xn--mythrwallt-c7a86c5a.com'
+    category: Phishing
+	subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'  	  
+-
+    id: 4064
+    name: cryptoaway.org
+    url: 'http://cryptoaway.org'
+    category: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0xbEC9410b01671bB6521996B141BB95Ebff87Cb31'	  	
+-
+    id: 4065
+    name: ethdeals.org
+    url: 'http://ethdeals.org'
+    category: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0x0E42f55Da7ADe5673130e23232CEC6094d34087c'	  		  
+-
+    id: 4066
+    name: ethgiveaway.io
+    url: 'http://ethgiveaway.io'
+    category: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0x06091b32533835265Bfa6EF8B32B04747Ba77bB2'	  			
+-
+    id: 4067
+    name: claimeth.me
+    url: 'http://claimeth.me'
+    category: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0xf2Db2f7AEC4E32Fe10A8352e1E02D099a194f7A7'	 
+-
+    id: 4068
+    name: xn--myetherwalett-4hc.net
+    url: 'http://xn--myetherwalett-4hc.net'
+    category: Phishing
+	  subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'  	  	  
+-
+    id: 4069
+    name: ethereumgiveaway.typeform.com
+    url: 'http://ethereumgiveaway.typeform.com'
+    category: Phishing
+	  subcategory: MyEtherWallet
+    description: 'Fake giveaway collecting data on users and directing them to a fake MyEtherWallet xn--myetherwalett-4hc.net'  		
+-
+    id: 4070
+    name: zecblock.info
+    url: 'http://zecblock.info'
+    category: Phishing
+	  subcategory: Zcash
+    description: 'Fake ZCash web wallet'  	
+-
+    id: 4071
+    name: litecoin-chain.info
+    url: 'http://litecoin-chain.info'
+    category: Phishing
+	  subcategory: Litecoin
+    description: 'Fake Litecoin web wallet'  		
+-
+    id: 4072
+    name: ripple-chain.org
+    url: 'http://ripple-chain.org'
+    category: Phishing
+	  subcategory: Ripple
+    description: 'Fake Ripple web wallet'  	
+-
+    id: 4073
+    name: online-stellar.info
+    url: 'http://online-stellar.info'
+    category: Phishing
+	  subcategory: Stellar 
+    description: 'Fake Stellar  web wallet'  		
+-
+    id: 4074
+    name: coin-monero.org
+    url: 'http://coin-monero.org'
+    category: Phishing
+	  subcategory: Monero 
+    description: 'Fake Monero  web wallet'  	
+-
+    id: 4075
+    name: myethrwatt.com
+    url: 'http://myethrwatt.com'
+    category: Phishing
+	  subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'  		
+-
+    id: 4076
+    name: ether-share.com
+    url: 'http://ether-share.com'
+    category: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0xEd51c3c2fb6E6965aEd7beeC167B0596dc36116D'		
+-
+    id: 4077
+    name: btcs-share.com
+    url: 'http://btcs-share.com'
+    category: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 1N2GSugUiQ9bgG94YFhexLqdEXrLZ9CQXa		 
+-
+    id: 4078
+    name: etherepromo.win
+    url: 'http://etherepromo.win'
+    category: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0x13403162EF6cF6219441667Ae22892c997262611'		
+-
+    id: 4079
+    name: ethtowallet.com
+    url: 'http://ethtowallet.com'
+    category: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0xA6626a8a85f2032930A25D278aE149191E3ba247'		
+-
+    id: 4080
+    name: ethsclaim.com
+    url: 'http://ethsclaim.com'
+    category: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0x4508B6691D8c938781F130519625B4CDD7B1f804'	
+-
+    id: 4081
+    name: ethaward.com
+    url: 'http://ethaward.com'
+    category: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0x5f38DcBc5a2DBE1e040a60153750feb7E1CfA570'		  
+-
+    id: 4082
+    name: airdrop24.com
+    url: 'http://airdrop24.com'
+    category: Trust-Trading
+    description: 'Trust trading scam site - http://prntscr.com/jr816v'
+    addresses:
+      - '0x87c348573F02768A97aFb57aac3bb6877A353Ae9'	
+-
+    id: 4083
+    name: eth.mediumblog.top
+    url: 'http://eth.mediumblog.top'
+    category: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0x40949225c4a1745a9946F6AAf763241c082cb9ac'
+-
+    id: 4084
+    name: dropeth.org
+    url: 'http://dropeth.org'
+    category: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0x8F9F6AAdAf78225b94A84CA9CA80328D0d6b21EA'	  
+-
+    id: 4085
     name: free-ethereum.us
     url: 'http://free-ethereum.us'
     category: Giveaway
     subcategory: Fake giveaway
     description: 'Fake giveaway'
 -
-    id: 4061
+    id: 4086
     name: tron-mainnet.network
     url: 'https://tron-mainnet.network'
     category: Trust-Trading
@@ -28498,7 +28686,7 @@
     addresses:
       - '0xbf863b57322A1E634388946F942306393A5D4c69'
 -
-    id: 4062
+    id: 4087
     name: receive-crypto.com
     url: 'https://receive-crypto.com'
     category: Trust-Trading
@@ -28507,7 +28695,7 @@
     addresses:
       - '0xada33957E96A59265345c75E9D4151DAd5665270'
 -
-    id: 4063
+    id: 4088
     name: receive-eth.com
     url: 'https://receive-eth.com'
     category: Trust-Trading
@@ -28516,7 +28704,7 @@
     addresses:
       - '0xada33957E96A59265345c75E9D4151DAd5665270'
 -
-    id: 4064
+    id: 4089
     name: receive-ether.com
     url: 'https://receive-ether.com'
     category: Trust-Trading
@@ -28525,7 +28713,7 @@
     addresses:
       - '0xada33957E96A59265345c75E9D4151DAd5665270'
 -
-    id: 4065
+    id: 4090
     name: ton.vu
     url: 'https://ton.vu'
     category: Trust-Trading
@@ -28534,7 +28722,7 @@
     addresses:
       - '0x73f7B2257C688677fF9Cc7BDd2D05e5076E0AE42'
 -
-    id: 4066
+    id: 4091
     name: etherfree.org
     url: 'https://etherfree.org'
     category: Trust-Trading
@@ -28543,7 +28731,7 @@
     addresses:
       - '0x73d6B01f55e81A48155B0174C1F1386F8A6fE0C4'
 -
-    id: 4067
+    id: 4092
     name: ethgain.org
     url: 'https://ethgain.org'
     category: Trust-Trading
@@ -28552,7 +28740,7 @@
     addresses:
       - '0x73d6B01f55e81A48155B0174C1F1386F8A6fE0C4'
 -
-    id: 4068
+    id: 4093
     name: gifteth.org
     url: 'https://gifteth.org'
     category: Trust-Trading
@@ -28561,77 +28749,70 @@
     addresses:
       - '0xada33957E96A59265345c75E9D4151DAd5665270'
 -
-    id: 4069
-    name: ethereum-get.org
-    url: 'https://ethereum-get.org'
-    category: Giveaway
-    subcategory: Fake giveaway
-    description: 'Fake giveaway'
--
-    id: 4070
+    id: 4094
     name: myeatherwalletr2.domen-hosting.org
     url: 'http://myeatherwalletr2.domen-hosting.org'
     category: MyEtherWallet
     subcategory: Fake MyEtherWallet
     description: 'Fake MyEtherWallet'
 -
-    id: 4071
-    name: www.myeatherwalletr2.domen-hosting.org
+    id: 4095
+    name: myeatherwalletr2.domen-hosting.org
     url: 'https://www.myeatherwalletr2.domen-hosting.org'
     category: MyEtherWallet
     subcategory: Fake MyEtherWallet
     description: 'Fake MyEtherWallet'
 -
-    id: 4072
+    id: 4096
     name: myethearwellet.com
     url: 'http://myethearwellet.com'
     category: MyEtherWallet
     subcategory: Fake MyEtherWallet
     description: 'Fake MyEtherWallet'
 -
-    id: 4073
+    id: 4097
     name: myethearrwallet.com
     url: 'http://myethearrwallet.com'
     category: MyEtherWallet
     subcategory: Fake MyEtherWallet
     description: 'Fake MyEtherWallet'
 -
-    id: 4074
+    id: 4098
     name: myeatherwalletr.com
     url: 'http://myeatherwalletr.com'
     category: MyEtherWallet
     subcategory: Fake MyEtherWallet
     description: 'Fake MyEtherWallet'
 -
-    id: 4075
+    id: 4099
     name: myeatherwallert.com
     url: 'http://myeatherwallert.com'
     category: MyEtherWallet
     subcategory: Fake MyEtherWallet
     description: 'Fake MyEtherWallet'
 -
-    id: 4076
-    name: www.myethearrwallet5.domen-hosting.org
+    id: 4100
+    name: myethearrwallet5.domen-hosting.org
     url: 'http://www.myethearrwallet5.domen-hosting.org'
     category: MyEtherWallet
     subcategory: Fake MyEtherWallet
     description: 'Fake MyEtherWallet'
 -
-    id: 4077
-    name: www.myetherwallet1.domen-hosting.org
+    id: 4101
+    name: myetherwallet1.domen-hosting.org
     url: 'http://www.myetherwallet1.domen-hosting.org'
     category: MyEtherWallet
     subcategory: Fake MyEtherWallet
     description: 'Fake MyEtherWallet'
 -
-    id: 4078
-    name: www.myethearrwallet.com
+    id: 4102
+    name: myethearrwallet.com
     url: 'http://www.myethearrwallet.com'
     category: MyEtherWallet
     subcategory: Fake MyEtherWallet
     description: 'Fake MyEtherWallet'
 -
-    id: 4079
+    id: 4103
     name: ethspace.promo
     url: 'http://ethspace.promo'
     category: Trust-Trading
@@ -28640,11 +28821,11 @@
     addresses:
       - '0x64AAF2Fd9910e9ad85dbBB695664fF8812664e10'
 -
-    id: 4080
+    id: 4104
     name: ethexchans.com
     url: 'http://ethexchans.com'
     category: Trust-Trading
     subcategory: Trust trading scam site
     description: 'Trust trading scam site'
     addresses:
-      - '0x64AAF2Fd9910e9ad85dbBB695664fF8812664e10'      
+      - '0x64AAF2Fd9910e9ad85dbBB695664fF8812664e10'  
