@@ -28829,3 +28829,10 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x64AAF2Fd9910e9ad85dbBB695664fF8812664e10'  
+-
+    id: 4105
+    name: xn--myethrwalett-8vb19c.net
+    url: 'http://xn--myethrwalett-8vb19c.net'
+    category: MyEtherWallet
+    subcategory: Fake MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'      
