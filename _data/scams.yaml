@@ -28836,3 +28836,45 @@
     category: MyEtherWallet
     subcategory: Fake MyEtherWallet
     description: 'Fake MyEtherWallet - IDN homograph attack domain'      
+-
+    id: 4106
+    name: myetherethwallet.com
+    url: 'http://myetherethwallet.com'
+    category: MyEtherWallet
+    subcategory: Fake MyEtherWallet
+    description: 'Fake MyEtherWallet'      
+-
+    id: 4107
+    name: myethervualet.gq
+    url: 'http://myethervualet.gq'
+    category: MyEtherWallet
+    subcategory: Fake MyEtherWallet
+    description: 'Fake MyEtherWallet (suspicious domain, kit not deployed yet)'        
+-
+    id: 4108
+    name: myetherwallea.org
+    url: 'http://myetherwallea.org'
+    category: MyEtherWallet
+    subcategory: Fake MyEtherWallet
+    description: 'Fake MyEtherWallet (suspicious domain)'      
+-
+    id: 4109
+    name: myetherwallee.org
+    url: 'http://myetherwallee.org'
+    category: MyEtherWallet
+    subcategory: Fake MyEtherWallet
+    description: 'Fake MyEtherWallet (suspicious domain)'         
+-
+    id: 4110
+    name: myetherwalletl.org
+    url: 'http://myetherwalletl.org'
+    category: MyEtherWallet
+    subcategory: Fake MyEtherWallet
+    description: 'Fake MyEtherWallet'         
+-
+    id: 4111
+    name: myetherwalleu.org
+    url: 'http://myetherwalleu.org'
+    category: MyEtherWallet
+    subcategory: Fake MyEtherWallet
+    description: 'Fake MyEtherWallet'          
