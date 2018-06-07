@@ -28548,56 +28548,56 @@
     name: xn--myetherwalett-4hc.net
     url: 'http://xn--myetherwalett-4hc.net'
     category: Phishing
-	  subcategory: MyEtherWallet
+    subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - IDN homograph attack domain'  	  	  
 -
     id: 4069
     name: ethereumgiveaway.typeform.com
     url: 'http://ethereumgiveaway.typeform.com'
     category: Phishing
-	  subcategory: MyEtherWallet
+    subcategory: MyEtherWallet
     description: 'Fake giveaway collecting data on users and directing them to a fake MyEtherWallet xn--myetherwalett-4hc.net'  		
 -
     id: 4070
     name: zecblock.info
     url: 'http://zecblock.info'
     category: Phishing
-	  subcategory: Zcash
+    subcategory: Zcash
     description: 'Fake ZCash web wallet'  	
 -
     id: 4071
     name: litecoin-chain.info
     url: 'http://litecoin-chain.info'
     category: Phishing
-	  subcategory: Litecoin
+    subcategory: Litecoin
     description: 'Fake Litecoin web wallet'  		
 -
     id: 4072
     name: ripple-chain.org
     url: 'http://ripple-chain.org'
     category: Phishing
-	  subcategory: Ripple
+    subcategory: Ripple
     description: 'Fake Ripple web wallet'  	
 -
     id: 4073
     name: online-stellar.info
     url: 'http://online-stellar.info'
     category: Phishing
-	  subcategory: Stellar 
+    subcategory: Stellar 
     description: 'Fake Stellar  web wallet'  		
 -
     id: 4074
     name: coin-monero.org
     url: 'http://coin-monero.org'
     category: Phishing
-	  subcategory: Monero 
+    subcategory: Monero 
     description: 'Fake Monero  web wallet'  	
 -
     id: 4075
     name: myethrwatt.com
     url: 'http://myethrwatt.com'
     category: Phishing
-	  subcategory: MyEtherWallet
+    subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'  		
 -
     id: 4076
