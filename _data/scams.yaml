@@ -28480,7 +28480,7 @@
     category: Trust-Trading
     description: 'Trust-Trading site'
     addresses:
-      - '0xaBbD5F7D4DE3c91706c73FD7d09b9ec3Ed9cA697'           
+      - '0xaBbD5F7D4DE3c91706c73FD7d09b9ec3Ed9cA697'       
 -
     id: 4060
     name: safe.ethxchanges.com
@@ -28548,56 +28548,56 @@
     name: xn--myetherwalett-4hc.net
     url: 'http://xn--myetherwalett-4hc.net'
     category: Phishing
-	subcategory: MyEtherWallet
+	  subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - IDN homograph attack domain'  	  	  
 -
     id: 4069
     name: ethereumgiveaway.typeform.com
     url: 'http://ethereumgiveaway.typeform.com'
     category: Phishing
-	subcategory: MyEtherWallet
+	  subcategory: MyEtherWallet
     description: 'Fake giveaway collecting data on users and directing them to a fake MyEtherWallet xn--myetherwalett-4hc.net'  		
 -
     id: 4070
     name: zecblock.info
     url: 'http://zecblock.info'
     category: Phishing
-	subcategory: Zcash
+	  subcategory: Zcash
     description: 'Fake ZCash web wallet'  	
 -
     id: 4071
     name: litecoin-chain.info
     url: 'http://litecoin-chain.info'
     category: Phishing
-	subcategory: Litecoin
+	  subcategory: Litecoin
     description: 'Fake Litecoin web wallet'  		
 -
     id: 4072
     name: ripple-chain.org
     url: 'http://ripple-chain.org'
     category: Phishing
-	subcategory: Ripple
+	  subcategory: Ripple
     description: 'Fake Ripple web wallet'  	
 -
     id: 4073
     name: online-stellar.info
     url: 'http://online-stellar.info'
     category: Phishing
-	subcategory: Stellar 
+	  subcategory: Stellar 
     description: 'Fake Stellar  web wallet'  		
 -
     id: 4074
     name: coin-monero.org
     url: 'http://coin-monero.org'
     category: Phishing
-	subcategory: Monero 
+	  subcategory: Monero 
     description: 'Fake Monero  web wallet'  	
 -
     id: 4075
     name: myethrwatt.com
     url: 'http://myethrwatt.com'
     category: Phishing
-	subcategory: MyEtherWallet
+	  subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'  		
 -
     id: 4076
@@ -28669,3 +28669,163 @@
     description: 'Trust-Trading site'
     addresses:
       - '0x8F9F6AAdAf78225b94A84CA9CA80328D0d6b21EA'	  
+-
+    id: 4085
+    name: free-ethereum.us
+    url: 'http://free-ethereum.us'
+    category: Giveaway
+    subcategory: Fake giveaway
+    description: 'Fake giveaway'
+-
+    id: 4086
+    name: tron-mainnet.network
+    url: 'https://tron-mainnet.network'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xbf863b57322A1E634388946F942306393A5D4c69'
+-
+    id: 4087
+    name: receive-crypto.com
+    url: 'https://receive-crypto.com'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xada33957E96A59265345c75E9D4151DAd5665270'
+-
+    id: 4088
+    name: receive-eth.com
+    url: 'https://receive-eth.com'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xada33957E96A59265345c75E9D4151DAd5665270'
+-
+    id: 4089
+    name: receive-ether.com
+    url: 'https://receive-ether.com'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xada33957E96A59265345c75E9D4151DAd5665270'
+-
+    id: 4090
+    name: ton.vu
+    url: 'https://ton.vu'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x73f7B2257C688677fF9Cc7BDd2D05e5076E0AE42'
+-
+    id: 4091
+    name: etherfree.org
+    url: 'https://etherfree.org'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x73d6B01f55e81A48155B0174C1F1386F8A6fE0C4'
+-
+    id: 4092
+    name: ethgain.org
+    url: 'https://ethgain.org'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x73d6B01f55e81A48155B0174C1F1386F8A6fE0C4'
+-
+    id: 4093
+    name: gifteth.org
+    url: 'https://gifteth.org'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xada33957E96A59265345c75E9D4151DAd5665270'
+-
+    id: 4094
+    name: myeatherwalletr2.domen-hosting.org
+    url: 'http://myeatherwalletr2.domen-hosting.org'
+    category: MyEtherWallet
+    subcategory: Fake MyEtherWallet
+    description: 'Fake MyEtherWallet'
+-
+    id: 4095
+    name: myeatherwalletr2.domen-hosting.org
+    url: 'https://www.myeatherwalletr2.domen-hosting.org'
+    category: MyEtherWallet
+    subcategory: Fake MyEtherWallet
+    description: 'Fake MyEtherWallet'
+-
+    id: 4096
+    name: myethearwellet.com
+    url: 'http://myethearwellet.com'
+    category: MyEtherWallet
+    subcategory: Fake MyEtherWallet
+    description: 'Fake MyEtherWallet'
+-
+    id: 4097
+    name: myethearrwallet.com
+    url: 'http://myethearrwallet.com'
+    category: MyEtherWallet
+    subcategory: Fake MyEtherWallet
+    description: 'Fake MyEtherWallet'
+-
+    id: 4098
+    name: myeatherwalletr.com
+    url: 'http://myeatherwalletr.com'
+    category: MyEtherWallet
+    subcategory: Fake MyEtherWallet
+    description: 'Fake MyEtherWallet'
+-
+    id: 4099
+    name: myeatherwallert.com
+    url: 'http://myeatherwallert.com'
+    category: MyEtherWallet
+    subcategory: Fake MyEtherWallet
+    description: 'Fake MyEtherWallet'
+-
+    id: 4100
+    name: myethearrwallet5.domen-hosting.org
+    url: 'http://www.myethearrwallet5.domen-hosting.org'
+    category: MyEtherWallet
+    subcategory: Fake MyEtherWallet
+    description: 'Fake MyEtherWallet'
+-
+    id: 4101
+    name: myetherwallet1.domen-hosting.org
+    url: 'http://www.myetherwallet1.domen-hosting.org'
+    category: MyEtherWallet
+    subcategory: Fake MyEtherWallet
+    description: 'Fake MyEtherWallet'
+-
+    id: 4102
+    name: myethearrwallet.com
+    url: 'http://www.myethearrwallet.com'
+    category: MyEtherWallet
+    subcategory: Fake MyEtherWallet
+    description: 'Fake MyEtherWallet'
+-
+    id: 4103
+    name: ethspace.promo
+    url: 'http://ethspace.promo'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x64AAF2Fd9910e9ad85dbBB695664fF8812664e10'
+-
+    id: 4104
+    name: ethexchans.com
+    url: 'http://ethexchans.com'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x64AAF2Fd9910e9ad85dbBB695664fF8812664e10'  
