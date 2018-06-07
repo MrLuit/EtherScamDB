@@ -28829,3 +28829,175 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x64AAF2Fd9910e9ad85dbBB695664fF8812664e10'  
+-
+    id: 4105
+    name: xn--myethrwalett-8vb19c.net
+    url: 'http://xn--myethrwalett-8vb19c.net'
+    category: MyEtherWallet
+    subcategory: Fake MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'      
+-
+    id: 4106
+    name: myetherethwallet.com
+    url: 'http://myetherethwallet.com'
+    category: MyEtherWallet
+    subcategory: Fake MyEtherWallet
+    description: 'Fake MyEtherWallet'      
+-
+    id: 4107
+    name: myethervualet.gq
+    url: 'http://myethervualet.gq'
+    category: MyEtherWallet
+    subcategory: Fake MyEtherWallet
+    description: 'Fake MyEtherWallet (suspicious domain, kit not deployed yet)'        
+-
+    id: 4108
+    name: myetherwallea.org
+    url: 'http://myetherwallea.org'
+    category: MyEtherWallet
+    subcategory: Fake MyEtherWallet
+    description: 'Fake MyEtherWallet (suspicious domain)'      
+-
+    id: 4109
+    name: myetherwallee.org
+    url: 'http://myetherwallee.org'
+    category: MyEtherWallet
+    subcategory: Fake MyEtherWallet
+    description: 'Fake MyEtherWallet (suspicious domain)'         
+-
+    id: 4110
+    name: myetherwalletl.org
+    url: 'http://myetherwalletl.org'
+    category: MyEtherWallet
+    subcategory: Fake MyEtherWallet
+    description: 'Fake MyEtherWallet'         
+-
+    id: 4111
+    name: myetherwalleu.org
+    url: 'http://myetherwalleu.org'
+    category: MyEtherWallet
+    subcategory: Fake MyEtherWallet
+    description: 'Fake MyEtherWallet'          
+-
+    id: 4112
+    name: zillowblockchain.org
+    url: 'http://zillowblockchain.orgg'
+    category: Phishing
+    subcategory: Zillow
+    description: 'Fake giveaway directing users to a fake MyEtherWallet - myetherwallet.signmsg.online'   
+-
+    id: 4113
+    name: myetherwallet.signmsg.online
+    url: 'http://myetherwallet.signmsg.online'
+    category: MyEtherWallet
+    subcategory: Fake MyEtherWallet
+    description: 'Fake MyEtherWallet. Suspected address: 0x69b9053691d7caca5d76e0f7d5a9744b53aea0a5 0x809826cceab68c387726af962713b64cb5cb3cca 0xd0929d411954c47438dc1d871dd6081f5c5e149c 0xbc86727e770de68b1060c91f6bb6945c73e10388 0x3883f5e181fccaf8410fa61e12b59bad963fb645 0x2ccbff3a042c68716ed2a2cb0c544a9f1d1935e1'      
+-
+    id: 4114
+    name: falconswap.typeform.com
+    url: 'http://falconswap.typeform.com'
+    category: Phishing
+    subcategory: Falcon
+    description: 'Fake giveaway directing users to a fake MyEtherWallet - xn--myetherwalett-4hc.net'       
+-
+    id: 4115
+    name: idex-market.co
+    url: 'http://idex-market.co'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex Market phishing for private keys'       
+-
+    id: 4116
+    name: sparkster.pro
+    url: 'http://sparkster.pro'
+    category: Phishing
+    subcategory: Sparkster 
+    description: 'Fake Sparkster crowdsale site'      
+    addresses:
+      - '0x26BA821222Ee3B7b77f83cF1411Dc5105bf2E499'      
+-
+    id: 4117
+    name: viberate.bettermost.net
+    url: 'http://viberate.bettermost.net'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet. Suspected address: 0x5457Bb4430d8B8D1A3708576100Aef0e027C5b9B'       
+-
+    id: 4118
+    name: quarkchain.typeform.com
+    url: 'http://quarkchain.typeform.com'
+    category: Phishing
+    subcategory: Quarkchain
+    description: 'Fake airdrop directing users to a fake MyEtherWallet - xn--myethrwalett-8vb19c.net'       
+-
+    id: 4119
+    name: bibox-exchange.com
+    url: 'http://bibox-exchange.com'
+    category: Phishing
+    subcategory: Bibox
+    description: 'Fake Bibox exchange. Suspected address: 0x5dc8ed6cfe7df7c66744ff4f68c53e6f482875e8'     
+-
+    id: 4120
+    name: myetherwalletprize.top
+    url: 'http://myetherwalletprize.top'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet.'         
+-
+    id: 4121
+    name: rebellious-airdrop.top
+    url: 'http://rebellious-airdrop.top'
+    category: Phishing
+    subcategory: Rebellious
+    description: 'Fake Rebellious airdrop directing users to a fake MyEtherWallet mvyetherwallet.top'      
+-
+    id: 4122
+    name: mvyetherwallet.top
+    url: 'http://mvyetherwallet.top'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet.'       
+-
+    id: 4123
+    name: kycverification.typeform.com
+    url: 'http://kycverification.typeform.com'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake eosLITE form directing users to a fake MyEtherWallet xn--myethrwalett-8vb19c.net'      
+    addresses:
+      - '0x1ee6B25a0E3F855a10916766dF3A056E924e5DCE'      
+-
+    id: 4124
+    name: xn--myetherwalett-5hc.net
+    url: 'http://xn--myetherwalett-5hc.net'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'        
+-
+    id: 4125
+    name: xn--mytherallet-3qb2119g.com
+    url: 'http://xn--mytherallet-3qb2119g.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'        
+-
+    id: 4126
+    name: xn--myethewllet-738en7a.com
+    url: 'http://xn--myethewllet-738en7a.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'        
+-
+    id: 4127
+    name: myetferwellet.com
+    url: 'http://myetferwellet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet. Suspected address: 0xd26114cd6ee289accf82350c8d8487fedb8a0c07'         
+-
+    id: 4128
+    name: btcmanager.com
+    url: 'http://btcmanager.com'
+    category: Phishing
+    subcategory: MetaMask
+    description: 'Phishing for MetaMask seed phrases - https://www.reddit.com/r/ethereum/comments/8pddzm/psa_btcmanagercom_is_running_metamask_phishing/'        
