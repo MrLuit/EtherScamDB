@@ -29001,3 +29001,10 @@
     category: Phishing
     subcategory: MetaMask
     description: 'Phishing for MetaMask seed phrases - https://www.reddit.com/r/ethereum/comments/8pddzm/psa_btcmanagercom_is_running_metamask_phishing/'        
+-
+    id: 4129
+    name: myethertrust.com
+    url: 'http://myethertrust.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'        
