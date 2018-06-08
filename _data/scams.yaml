@@ -29124,3 +29124,31 @@
     category: Phishing
     subcategory: OmiseGo
     description: 'Fake OmiseGo web wallet'       
+-
+    id: 4143
+    name: xn--myetherwalle-mm5f.com
+    url: 'http://xn--myetherwalle-mm5f.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain - not deployed yet'    
+-
+    id: 4144
+    name: xn--myeherwallet-4j5f.net
+    url: 'http://xn--myeherwallet-4j5f.net'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain - not deployed yet'        
+-
+    id: 4145
+    name: xn--myethrwllet-q7a5h.com
+    url: 'http://xn--myethrwllet-q7a5h.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'        
+-
+    id: 4146
+    name: xn--dexmarket-98d.com
+    url: 'http://xn--dexmarket-98d.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex - IDN homograph attack domain'       
