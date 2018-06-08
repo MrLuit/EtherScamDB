@@ -29017,3 +29017,33 @@
     description: 'Fake Etheroll'      
     addresses:
       - '0x521ff702e1eed9e48cbe17e2dae6efd77b9d6876'      
+-
+    id: 4131
+    name: xn--myetherrwalet-5hc.net
+    url: 'http://xn--myetherrwalet-5hc.net'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain. Suspected address: 0x7e25f33c1e3402f2197dab251ce2d73cdbcb77a3'
+-
+    id: 4131
+    name: idice.epizy.com
+    url: 'http://idice.epizy.com'
+    category: Phishing
+    subcategory: Idice
+    description: 'Fake idice GUI'     
+    addresses:
+      - '0x9b2D66562bea3EefEc436dF0Fee88Dd89CbE547b'       
+-
+    id: 4132
+    name: gene.network
+    url: 'http://gene.network'
+    category: Phishing
+    subcategory: Gene
+    description: 'Fake crowdsale site directing users to a fake MyEtherWallet http://bahs.edu.tt/https_myetherwallet.com:gese_token_redeem/'     
+-
+    id: 4133
+    name: bahs.edu.tt
+    url: 'http://bahs.edu.tt'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Hosting a fake MyEtherWallet'     
