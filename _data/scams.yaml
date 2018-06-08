@@ -29152,3 +29152,19 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex - IDN homograph attack domain'       
+-
+    id: 4147
+    name: kentra.tech
+    url: 'http://kentra.tech'
+    category: Phishing
+    subcategory: Kentra
+    description: 'Fake airdrop directing users to a fake MyEtherWallet - xn--myethrwalt-inbe64c.com'     
+-
+    id: 4148
+    name: xn--myethrwalt-inbe64c.com
+    url: 'http://xn--myethrwalt-inbe64c.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'     
+    addresses:
+      - '0x0A796062214Cf4FC232Dd8538a19035Ac79a595c'      
