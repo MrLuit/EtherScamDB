@@ -28437,7 +28437,8 @@
     id: 4054
     name: ethereum-bonus.com
     url: 'https://ethereum-bonus.com'
-    category: Trust-Trading
+    category: Phishing
+    subcategory: Trust-Trading
     description: 'Trust-Trading site'
     addresses:
       - '0x916d37534f95f30c35A60a58150F48c2D0fF4Be2'
@@ -28445,7 +28446,8 @@
     id: 4055
     name: ethereum.website.tk
     url: 'https://ethereum.website.tk'
-    category: Trust-Trading
+    category: Phishing
+    subcategory: Trust-Trading
     description: 'Trust-Trading site'
     addresses:
       - '0x0E2fA227599b1701cEEEcfBF0c92d8D23b2F493e'
@@ -28453,7 +28455,8 @@
     id: 4056
     name: blttrex.us
     url: 'https://blttrex.us'
-    category: Trust-Trading
+    category: Phishing
+    subcategory: Trust-Trading
     description: 'Trust-Trading site'
     addresses:
       - '0x92d43D2f55E077D1beBC6e348a9F4FF64fD4F21A'      
@@ -28461,7 +28464,8 @@
     id: 4057
     name: get.ethpublic.com
     url: 'https://get.ethpublic.com'
-    category: Trust-Trading
+    category: Phishing
+    subcategory: Trust-Trading
     description: 'Trust-Trading site'
     addresses:
       - '0xe4fc4C3889B5442391acAD627673F4Ef7Efe7B97'   
@@ -28469,7 +28473,8 @@
     id: 4058
     name: ethpublic.com
     url: 'https://ethpublic.com'
-    category: Trust-Trading
+    category: Phishing
+    subcategory: Trust-Trading
     description: 'Trust-Trading site'
     addresses:
       - '0xe349B26753ECa84A2858901d414c612c8c8e20f9'         
@@ -28477,7 +28482,8 @@
     id: 4059
     name: ethereum-get.org
     url: 'https://ethereum-get.org'
-    category: Trust-Trading
+    category: Phishing
+    subcategory: Trust-Trading
     description: 'Trust-Trading site'
     addresses:
       - '0xaBbD5F7D4DE3c91706c73FD7d09b9ec3Ed9cA697'       
@@ -28485,7 +28491,8 @@
     id: 4060
     name: safe.ethxchanges.com
     url: 'http://safe.ethxchanges.com'
-    category: Trust-Trading
+    category: Phishing
+    subcategory: Trust-Trading
     description: 'Trust-Trading site'
     addresses:
       - '0x27F897EBeeD82240734489D52AA7e39a8cA257E9'
@@ -28493,7 +28500,8 @@
     id: 4061
     name: ethxchanges.com
     url: 'http://ethxchanges.com'
-    category: Trust-Trading
+    category: Phishing
+    subcategory: Trust-Trading
     description: 'Trust-Trading site'
     addresses:
       - '0x27F897EBeeD82240734489D52AA7e39a8cA257E9'	  
@@ -28502,14 +28510,14 @@
     name: xn--mythrwalet-c7ac47i.com
     url: 'http://xn--mythrwalet-c7ac47i.com'
     category: Phishing
-	subcategory: MyEtherWallet
+    subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - IDN homograph attack domain'
 -
     id: 4063
     name: xn--mythrwallt-c7a86c5a.com
     url: 'http://xn--mythrwallt-c7a86c5a.com'
     category: Phishing
-	subcategory: MyEtherWallet
+    subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - IDN homograph attack domain'  	  
 -
     id: 4064
@@ -28612,7 +28620,7 @@
     name: btcs-share.com
     url: 'http://btcs-share.com'
     category: Trust-Trading
-    description: 'Trust trading scam site. Bitcoin address: 1N2GSugUiQ9bgG94YFhexLqdEXrLZ9CQXa		 
+    description: 'Trust trading scam site. Bitcoin address: 1N2GSugUiQ9bgG94YFhexLqdEXrLZ9CQXa'	 
 -
     id: 4078
     name: etherepromo.win
