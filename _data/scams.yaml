@@ -29047,3 +29047,72 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Hosting a fake MyEtherWallet'     
+-
+    id: 4134
+    name: xn--mythrwalet-smb0a15c.com
+    url: 'http://xn--mythrwalet-smb0a15c.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'     
+-
+    id: 4135
+    name: myetherwallet.com.signmsg.info
+    url: 'http://myetherwallet.com.signmsg.info'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'       
+-
+    id: 4136
+    name: oracon.io
+    url: 'http://oracon.io'
+    category: Phishing
+    subcategory: Oracon
+    description: 'Fake airdrop directing users to a fake MyEtherWallet - myetherwallet.com.signmsg.info'      
+-
+    id: 4137
+    name: eth-bonus.org
+    url: 'http://eth-bonus.org'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x577cad8D4C0511AC704cc2d4D0a01d20917A3035'      
+-
+    id: 4138
+    name: myethrwatt.info
+    url: 'http://myethrwatt.info'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'       
+-
+    id: 4139
+    name: defraggler-code.com
+    url: 'http://defraggler-code.com'
+    category: Phishing
+    subcategory: Neo
+    description: 'Fake NEO web wallet'          
+-
+    id: 4140
+    name: ethbonus.io
+    url: 'http://ethbonus.io'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xcEe56C3d77d814d29b9410c0f74c12781fcE03ff'  
+-
+    id: 4141
+    name: ethxpromo.com
+    url: 'http://ethxpromo.com'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x9D4B62503b4b7993182323EFFE6245f6D77E4413'       
+-
+    id: 4142
+    name: omise-go.info
+    url: 'http://omise-go.info'
+    category: Phishing
+    subcategory: OmiseGo
+    description: 'Fake OmiseGo web wallet'       
