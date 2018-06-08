@@ -29008,3 +29008,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'        
+-
+    id: 4130
+    name: etheroll.io
+    url: 'http://etheroll.io'
+    category: Phishing
+    subcategory: Etheroll
+    description: 'Fake Etheroll'      
+    addresses:
+      - '0x521ff702e1eed9e48cbe17e2dae6efd77b9d6876'      
