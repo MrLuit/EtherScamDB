@@ -562,7 +562,7 @@ function startWebServer() {
                             type: 'address',
                             entries: getCache().scams.filter(function(scam) {
                                 if ('addresses' in scam) {
-                                    return (scam.addresses.includes(req.params.domain));
+                                    return (scam.addresses.includes(req.params.domain.toLowerCase()));
                                 } else {
                                     return false;
                                 }
