@@ -26946,7 +26946,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
     addresses:
-      - '0xEDfE1d963b32a89E05Dd0Bc0E8F595b4B9Afb544'         
+      - '0xEDfE1d963b32a89E05Dd0Bc0E8F595b4B9Afb544'   
+      - '0xBB27D8dB02d9035c0783166eE39269d97a1985e2'
 -
     id: 3871
     name: eth-give.me
