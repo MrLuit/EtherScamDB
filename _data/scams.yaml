@@ -29344,3 +29344,30 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex Market'         
+-
+    id: 4171
+    name: creteprint-driveways.co.uk
+    url: 'http://creteprint-driveways.co.uk'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x607c78AeAaBADb84AdC3298fb3077fc75429e8bD'     
+-
+    id: 4172
+    name: ethype.org
+    url: 'http://ethype.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xB9b848702a47AE78A70D18c45e552aB1637B5908'           
+-
+    id: 4173
+    name: etherpromotion.org
+    url: 'http://etherpromotion.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x32Ea6b24675349EDb6dF2896457819289Aad180E'            
