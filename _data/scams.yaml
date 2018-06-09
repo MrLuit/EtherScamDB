@@ -29259,3 +29259,17 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x28A6D6E41fcCA5b003f22ceBa48Aa689325Dd62B'               
+-
+    id: 4159
+    name: myighther.net
+    url: 'http://myighther.net'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'    
+-
+    id: 4160
+    name: eteclum.org
+    url: 'http://eteclum.org'
+    category: Phishing
+    subcategory: MyMonero
+    description: 'Fake MyMonero login phishing for keys'        
