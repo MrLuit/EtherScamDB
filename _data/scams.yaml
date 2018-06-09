@@ -29214,3 +29214,48 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex phishing for keys'        
+-
+    id: 4154
+    name: ethpubs.com
+    url: 'http://ethpubs.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x52Bdb97E587a35d5e54b01344168D41783120310'    
+-
+    id: 4155
+    name: binancegiveaway.org
+    url: 'http://binancegiveaway.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x1aBC65765FD0DF7D997635EBE3027384BCF7923E'          
+-
+    id: 4156
+    name: ethgws.org
+    url: 'http://ethgws.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x28A6D6E41fcCA5b003f22ceBa48Aa689325Dd62B'              
+-
+    id: 4157
+    name: ethereumreturns.com
+    url: 'http://ethereumreturns.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x2E6Ace64e85572eeDAaD739c3172EcE853153C73'              
+-
+    id: 4158
+    name: takeeth.org
+    url: 'http://takeeth.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x28A6D6E41fcCA5b003f22ceBa48Aa689325Dd62B'               
