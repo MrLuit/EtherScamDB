@@ -29168,3 +29168,19 @@
     description: 'Fake MyEtherWallet - IDN homograph attack domain'     
     addresses:
       - '0x0A796062214Cf4FC232Dd8538a19035Ac79a595c'      
+-
+    id: 4149
+    name: putty-portal.com
+    url: 'http://putty-portal.com'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS web wallet'       
+-
+    id: 4150
+    name: arweave.pw
+    url: 'http://arweave.pw'
+    category: Phishing
+    subcategory: Arweave
+    description: 'Fake Arweave crowdsale site'     
+    addresses:
+      - '0x32F5891Eb94e7a1eBb06aDd32AcddAC95774316b'        
