@@ -121,7 +121,7 @@ scams.forEach(function(scam, index) {
                             if (!(address in new_cache.addresses)) {
                                 new_cache.addresses[address] = [];
                             }
-                            new_cache.addresses[address] = scam_details;
+                            new_cache.addresses[address] = scam_details.toLowerCase;
                         });
                     }
 					scams_checked++;
