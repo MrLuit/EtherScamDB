@@ -29274,3 +29274,73 @@
     category: Phishing
     subcategory: MyMonero
     description: 'Fake MyMonero login phishing for keys'        
+-
+    id: 4161
+    name: idexs.market
+    url: 'http://idexs.market'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex Market'        
+-
+    id: 4162
+    name: itex.market
+    url: 'http://itex.market'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex Market'            
+-
+    id: 4163
+    name: ideh.market
+    url: 'http://ideh.market'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex Market'           
+-
+    id: 4164
+    name: xn--idx-kma.market 
+    url: 'http://xn--idx-kma.market'
+    category: Phishing
+    subcategory: Idex
+    description: 'Suspicious Idex Domain - IDN homograph attack domain'           
+-
+    id: 4165
+    name: xn--idx-cma.market
+    url: 'http://xn--idx-cma.market'
+    category: Phishing
+    subcategory: Idex
+    description: 'Suspicious Idex Domain - IDN homograph attack domain'           
+-
+    id: 4166
+    name: iclex.market
+    url: 'http://iclex.market'
+    category: Phishing
+    subcategory: Idex
+    description: 'Suspicious Idex Domain'        
+-
+    id: 4167
+    name: xn--idx-4qa.market
+    url: 'http://xn--idx-4qa.market'
+    category: Phishing
+    subcategory: Idex
+    description: 'Suspicious Idex Domain - IDN homograph attack domain'          
+-
+    id: 4168
+    name: xn--dex-qma.market
+    url: 'http://xn--dex-qma.market'
+    category: Phishing
+    subcategory: Idex
+    description: 'Suspicious Idex Domain - IDN homograph attack domain'        
+-
+    id: 4169
+    name: xn--idx-gma.market
+    url: 'http://xn--idx-gma.market'
+    category: Phishing
+    subcategory: Idex
+    description: 'Suspicious Idex Domain - IDN homograph attack domain'        
+-
+    id: 4170
+    name: iddex.market
+    url: 'http://iddex.market'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex Market'         
