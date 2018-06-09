@@ -554,7 +554,7 @@ function startWebServer() {
                 var blocked = false;
                 Object.keys(getCache().addresses).forEach(function(address, index) {
                     //They searched for an address
-                    if (req.params.domain == address) {
+                    if (req.params.domain.toLowerCase() === address.toLowerCase()) {
                         blocked = true;
                         res.send(JSON.stringify({
                             success: true,
@@ -562,7 +562,7 @@ function startWebServer() {
                             type: 'address',
                             entries: getCache().scams.filter(function(scam) {
                                 if ('addresses' in scam) {
-                                    return (scam.addresses.includes(req.params.domain));
+                                    return (scam.addresses.includes(req.params.domain.toLowerCase()));
                                 } else {
                                     return false;
                                 }

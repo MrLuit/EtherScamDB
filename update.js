@@ -41,6 +41,12 @@ scams.forEach(function(scam, index) {
             console.log('Warning! Entry ' + scam.id + ' has no protocol (http or https) specified. Please update!');
             scam.url = 'http://' + scam.url;
         }
+        if (scam.addresses != null) {
+          scam.addresses.forEach(function(address, index) {
+            //console.log("Casting " + scam.addresses[index] + " as " + scam.addresses[index].toLowerCase())
+            scam.addresses[index] = scam.addresses[index].toLowerCase();
+          })
+        }
         var scam_details = new_cache.scams[new_cache.scams.push(scam) - 1];
         new_cache.blacklist.push(url.parse(scam.url).hostname.replace("www.", ""));
         new_cache.blacklist.push('www.' + url.parse(scam.url).hostname.replace("www.", ""));
@@ -118,10 +124,11 @@ scams.forEach(function(scam, index) {
                     }
                     if ('addresses' in scam_details) {
                         scam_details.addresses.forEach(function(address) {
-                            if (!(address in new_cache.addresses)) {
-                                new_cache.addresses[address] = [];
+                            if (!(address.toLowerCase() in new_cache.addresses)) {
+                                new_cache.addresses[address.toLowerCase()] = [];
                             }
-                            new_cache.addresses[address] = scam_details;
+                            //console.log(new_cache.addresses);
+                            new_cache.addresses[address.toLowerCase()] = scam_details;
                         });
                     }
 					scams_checked++;
