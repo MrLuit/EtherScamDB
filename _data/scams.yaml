@@ -29200,3 +29200,17 @@
     category: Phishing
     subcategory: Bittrex
     description: 'Fake Bittrex phishing for logins'    
+-
+    id: 4152
+    name: idex-market.at
+    url: 'http://idex-market.at'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for keys'    
+-
+    id: 4153
+    name: wallet-idex.net
+    url: 'http://wallet-idex.net'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for keys'        
