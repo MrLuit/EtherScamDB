@@ -29415,3 +29415,17 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xc364451d6316Be34CB1b8f8B0922fE59d5CF2Ca9'           
+-
+    id: 4180
+    name: masterthecrypto.org
+    url: 'http://masterthecrypto.org'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Directing users to a fake MyEtherWallet (https://bitly.com/2sK9fJW+) - xn--myetherwllet-ncb.org'    
+-
+    id: 4181
+    name: xn--myetherwllet-ncb.org
+    url: 'http://xn--myetherwllet-ncb.org'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'        
