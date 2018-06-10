@@ -29388,3 +29388,30 @@
     category: Phishing
     subcategory: Idex
     description: 'Stealing seed phrases. Fake EOS register'         
+-
+    id: 4177
+    name: ethpromoaction.com
+    url: 'http://ethpromoaction.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xBee06db915F38C62D61aBa80932369007bEAe9d8'   
+-
+    id: 4178
+    name: ethinfo.org
+    url: 'http://ethinfo.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x34b6341655061f4B5830CD1a7B20A3516043AF57'         
+-
+    id: 4179
+    name: airgws.org
+    url: 'http://airgws.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xc364451d6316Be34CB1b8f8B0922fE59d5CF2Ca9'           
