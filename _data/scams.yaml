@@ -29371,3 +29371,12 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x32Ea6b24675349EDb6dF2896457819289Aad180E'            
+-
+    id: 4174
+    name: giveethers.info
+    url: 'http://giveethers.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x77C955a2cb5BCCAf0654d78a3FFcD8bd6cB0c2B8'   
