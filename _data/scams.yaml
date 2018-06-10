@@ -29452,3 +29452,12 @@
     category: Phishing
     subcategory: Icon
     description: 'Fake ICON web wallet'            
+-
+    id: 4185
+    name: airtake.info
+    url: 'https://airtake.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0xB9556A1cb3150148443e9e9E9C29491FF48640Ee'  
