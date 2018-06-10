@@ -29433,7 +29433,22 @@
     id: 4182
     name: ethergive.net
     url: 'https://ethergive.net'
-    category: Trust-Trading
+    category: Scamming
+    subcategory: Trust-Trading
     description: 'Trust trading scam site' 
     addresses:
       - '0x2E3Fd2B400a269f7a0B1AaF448EF02679cd557e9'  
+-
+    id: 4183
+    name: idix-market.info 
+    url: 'http://idix-market.info'
+    category: Phishing
+    subcategory: Idex
+    description: 'Suspicious Idex Domain'        
+-
+    id: 4184
+    name: icon-block.org
+    url: 'http://icon-block.org'
+    category: Phishing
+    subcategory: Icon
+    description: 'Fake ICON web wallet'            
