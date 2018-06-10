@@ -29380,3 +29380,19 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x77C955a2cb5BCCAf0654d78a3FFcD8bd6cB0c2B8'   
+-
+    id: 4175
+    name: eth.blogmedium.top
+    url: 'http://eth.blogmedium.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x9aC33De53E16b21250Ba2418150fe07Ce8C7e5e7'   
+-
+    id: 4176
+    name: eosregistry.site
+    url: 'http://eosregistry.site'
+    category: Phishing
+    subcategory: Idex
+    description: 'Stealing seed phrases. Fake EOS register'         
