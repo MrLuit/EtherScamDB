@@ -29428,4 +29428,12 @@
     url: 'http://xn--myetherwllet-ncb.org'
     category: Phishing
     subcategory: MyEtherWallet
-    description: 'Fake MyEtherWallet - IDN homograph attack domain'        
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'
+-
+    id: 4182
+    name: ethergive.net
+    url: 'https://ethergive.net'
+    category: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x2E3Fd2B400a269f7a0B1AaF448EF02679cd557e9'  
