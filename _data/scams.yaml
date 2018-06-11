@@ -29582,3 +29582,21 @@
     description: 'Trust trading scam site' 
     addresses:
       - '0x15B4E32d5026A5A9Ad3b68BEcAdceB00B4eB9729'      
+-
+    id: 4202
+    name: welcome.promotionaleth.com
+    url: 'https://welcome.promotionaleth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x9951bE5ac7Daf77724A4f7443bef446F6184a377'  
+-
+    id: 4203
+    name: promotionaleth.com
+    url: 'https://promotionaleth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x9951bE5ac7Daf77724A4f7443bef446F6184a377'        
