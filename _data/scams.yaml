@@ -28496,7 +28496,8 @@
     subcategory: Trust-Trading
     description: 'Trust-Trading site'
     addresses:
-      - '0x27F897EBeeD82240734489D52AA7e39a8cA257E9'	  
+      - '0x27F897EBeeD82240734489D52AA7e39a8cA257E9'	
+      - '0x9d032989F82c0e40202AE5Abd844Ff68181544D2'
 -
     id: 4062
     name: xn--mythrwalet-c7ac47i.com
@@ -29600,3 +29601,39 @@
     description: 'Trust trading scam site' 
     addresses:
       - '0x9951bE5ac7Daf77724A4f7443bef446F6184a377'        
+-
+    id: 4204
+    name: hederahashgraph.tokenico.me
+    url: 'http://hederahashgraph.tokenico.me'
+    category: Phishing
+    subcategory: HederaHashGraph
+    description: 'Fake HederaHashGraph crowdsale site'
+    addresses:
+      - '0xEDc702Ed96AccAE315A0F1E8Fa2d5a6bC4FeeA69' 
+-
+    id: 4205
+    name: secure.ethxchanges.com
+    url: 'https://secure.ethxchanges.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x9d032989F82c0e40202AE5Abd844Ff68181544D2'                   
+-
+    id: 4207
+    name: ethgift.io
+    url: 'https://ethgift.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0xcEe56C3d77d814d29b9410c0f74c12781fcE03ff'            
+-
+    id: 4208
+    name: verify.officialeth.com
+    url: 'https://verify.officialeth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x6eC56FB2436BA6706CeCD42403B6a1b69fF0817F'                   
