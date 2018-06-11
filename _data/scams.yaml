@@ -29574,3 +29574,12 @@
     description: 'Fake GoNetwork crowdsale site'
     addresses:
       - '0x65403AA21fbE76cC8eDcd42ECdD0C6Cc5C972F73' 	      
+-
+    id: 4201
+    name: binance-giveaway.com
+    url: 'https://binance-giveaway.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x15B4E32d5026A5A9Ad3b68BEcAdceB00B4eB9729'      
