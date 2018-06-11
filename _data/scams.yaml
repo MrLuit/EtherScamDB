@@ -29461,3 +29461,116 @@
     description: 'Trust trading scam site' 
     addresses:
       - '0xB9556A1cb3150148443e9e9E9C29491FF48640Ee'  
+-
+    id: 4186
+    name: walleteos.io
+    url: 'http://walleteos.io'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS Wallet site. Sending keys to POST /unlock.php'   
+-
+    id: 4187
+    name: originprotocol.typeform.com
+    url: 'http://originprotocol.typeform.com'
+    category: Phishing
+    subcategory: Origin
+    description: 'Fake crowdsale site'
+    addresses:
+      - '0x42E0a4818fF863E8d73187279aDfC17b0495f2cF' 	    
+-
+    id: 4188
+    name: myefhervvallet.com
+    url: 'http://myefhervvallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'       
+-
+    id: 4189
+    name: sparkster.be
+    url: 'http://sparkster.be'
+    category: Phishing
+    subcategory: Sparkster
+    description: 'Fake Sparkster crowdsale site'
+    addresses:
+      - '0x6a1dEA6F4C9D48035D855e8399e20e254F0Ce1ac' 	  
+-
+    id: 4190
+    name: etherguide.info
+    url: 'https://etherguide.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x4427ee02Ffa0BfAB4206f445a31239323177b587'      
+-
+    id: 4191
+    name: app-myethervvaiiet.com
+    url: 'http://app-myethervvaiiet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain'      
+-
+    id: 4192
+    name: myethehearwallet.com
+    url: 'http://myethehearwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'          
+-
+    id: 4193
+    name: myethervellet.gq
+    url: 'http://myethervellet.gq'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain'         
+-
+    id: 4194
+    name: myetherwallek.org
+    url: 'http://myetherwallek.org'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain'             
+-
+    id: 4195
+    name: myetherwallet.gifts
+    url: 'http://myetherwallet.gifts'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'          
+-
+    id: 4196
+    name: myethewalle.com
+    url: 'http://myethewalle.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'         
+-
+    id: 4197
+    name: myethrewallet.net
+    url: 'http://myethrewallet.net'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain'         
+-
+    id: 4198
+    name: myethwallet.top
+    url: 'http://myethwallet.top'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain'       
+-
+    id: 4199
+    name: xn--myethrrwallet-m0b.net
+    url: 'http://xn--myethrrwallet-m0b.net'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'      
+-
+    id: 4200
+    name: gonetvvork.com
+    url: 'http://gonetvvork.com'
+    category: Phishing
+    subcategory: GoNetwork
+    description: 'Fake GoNetwork crowdsale site'
+    addresses:
+      - '0x65403AA21fbE76cC8eDcd42ECdD0C6Cc5C972F73' 	      
