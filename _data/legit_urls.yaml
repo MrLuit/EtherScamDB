@@ -356,3 +356,7 @@
     id: 82
     name: MyEtherWallet
     url: 'https://www.myetherwallet.com'
+-
+    id: 83
+    name: AirSwap
+    url: 'https://www.airswap.io'
