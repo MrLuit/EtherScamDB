@@ -29715,3 +29715,19 @@
     category: Phishing
     subcategory: Poloniex
     description: 'Fake Poloniex phishing for logins'            
+-
+    id: 4219
+    name: giveawaypromo.byethost14.com
+    url: 'https://giveawaypromo.byethost14.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x6a9C2EC4f4888D7338fC1b28584AaAfEb01e6Db3'    
+-
+    id: 4220
+    name: xn--myethrwllt-y4a7gf.com
+    url: 'http://xn--myethrwllt-y4a7gf.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'      
