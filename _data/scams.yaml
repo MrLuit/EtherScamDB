@@ -29731,3 +29731,93 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - IDN homograph attack domain'      
+-
+    id: 4221
+    name: ether-hype.com
+    url: 'http://ether-hype.com'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x69428858906050E78DBED8e65083d47139766b3F'
+-
+    id: 4222
+    name: gether.cash
+    url: 'http://gether.cash'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xEB85b4777698c0f41168087cD8d43A2FdEF37BdB'
+-
+    id: 4223
+    name: ethershare.us
+    url: 'http://ethershare.us'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xd52fcaf53cd3eFd7E1d484fd9cd2dd21355063e5'
+-
+    id: 4224
+    name: get-ether.st
+    url: 'http://get-ether.st'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xa2b2339AeE76A45EDbC10ae515fbf23323901597'
+-
+    id: 4225
+    name: ethers-free.com
+    url: 'http://ethers-free.com'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x73d6B01f55e81A48155B0174C1F1386F8A6fE0C4'
+-
+    id: 4226
+    name: ethereum-drops.com
+    url: 'http://ethereum-drops.com'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x73d6B01f55e81A48155B0174C1F1386F8A6fE0C4'
+-
+    id: 4227
+    name: ether-share.us
+    url: 'http://ether-share.us'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xd52fcaf53cd3eFd7E1d484fd9cd2dd21355063e5'
+-
+    id: 4228
+    name: gether.li
+    url: 'http://gether.li'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x73d6B01f55e81A48155B0174C1F1386F8A6fE0C4'
+-
+    id: 4229
+    name: eth-share.us
+    url: 'http://eth-share.us'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xd52fcaf53cd3eFd7E1d484fd9cd2dd21355063e5'
+-
+    id: 4230
+    name: gether.li
+    url: 'http://gether.li'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x73d6B01f55e81A48155B0174C1F1386F8A6fE0C4'
