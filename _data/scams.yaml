@@ -29821,3 +29821,39 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x73d6B01f55e81A48155B0174C1F1386F8A6fE0C4'
+-
+    id: 4231
+    name: etherbonus.win
+    url: 'http://etherbonus.win'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x1AE807d7645da9F7F65A3c4A7A8DeaA08bf9EFa4'
+-
+    id: 4232
+    name: getethpro.com
+    url: 'http://getethpro.com'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x701cB175E6cA0EE8DcB61B4598B5a08E2A60bc2A'      
+-
+    id: 4233
+    name: about.me/vitalik.buterin
+    url: 'http://about.me/vitalik.buterin'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x7d5F788097E80D797064FdE23a62CaF8D18Ee5a6'           
+-
+    id: 4234
+    name: event-ethereum.org.uk
+    url: 'http://event-ethereum.org.uk'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xE3400442Ed7754cB2a43beCB83f801Cce1055Db9'                 
