@@ -29857,3 +29857,10 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xE3400442Ed7754cB2a43beCB83f801Cce1055Db9'                 
+-
+    id: 4235
+    name: index-markels.com
+    url: 'http://index-markels.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex Market phishing for keys'   
