@@ -4,6 +4,7 @@ module.exports = {
     "Google_SafeBrowsing_API_Key": null,
     "Github_Hook_Secret": null,
     "Urlscan_API_Key": null,
+    "AbuseIPDB_API_Key": null,
     "repository": {
         author: "MrLuit",
         name: "EtherScamDB",

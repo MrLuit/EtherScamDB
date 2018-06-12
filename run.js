@@ -13,11 +13,13 @@ const crypto = require("crypto");
 const request = require('request');
 const app = express();
 const config = require('./config');
+
 const default_template = fs.readFileSync('./_layouts/default.html', 'utf8');
 let cache;
 let updating_now = false;
 let icon_warnings = [];
 var older_cache_time;
+
 
 /* See if there's an up-to-date cache, otherwise run `update.js` to create one. */
 function getCache(callback = false) {
@@ -482,11 +484,43 @@ function startWebServer() {
         let template = fs.readFileSync('./_layouts/ip.html', 'utf8');
         template = template.replace("{{ ip.ip }}", req.params.ip);
         var related = '';
+        let total = 0;
         getCache().scams.filter(function(obj) {
             return obj.ip === req.params.ip;
         }).forEach(function(value) {
             related += "<div class='item'><a href='/scam/" + value.id + "/'>" + value.name + "</div>";
+            total++;
         });
+
+        template = template.replace("{{ ip.scams_count }}", total);
+
+        //Grab the result from abuseipdb
+        let abuseipdb_categories = {
+            3: "Fraud Orders",
+            4: "DDoS Attack",
+            5: "FTP Brute-Force",
+            6: "Ping of Death",
+            7: "Phishing",
+            8: "Fraud VoIP",
+            9: "Open Proxy",
+            10: "Web Spam",
+            11: "Email Spam",
+            12: "Blog Spam",
+            13: "VPN IP",
+            14: "Port Scan",
+            15: "Hacking",
+            16: "SQL Injection",
+            17: "Spoofing",
+            18: "Brute-Force",
+            19: "Bad Web Bot",
+            20: "Exploited Host",
+            21: "Web App Attack",
+            22: "SSH",
+            23: "IoT Targeted"
+        };
+
+        template = template.replace("{{ ip.abuseipdb_link }}", '<a href="https://www.abuseipdb.com/check/'+ req.params.ip +'" target="_blank">View Report</a>');
+        template = template.replace("{{ ip.urlscan_link }}", '<a href="https://urlscan.io/ip/'+ req.params.ip +'" target="_blank">View Report</a>');
         template = template.replace("{{ ip.scams }}", '<div class="ui bulleted list">' + related + '</div>');
         res.send(default_template.replace('{{ content }}', template));
     });
