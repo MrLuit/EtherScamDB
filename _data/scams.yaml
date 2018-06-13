@@ -29890,7 +29890,7 @@
     url: 'http://elon-gives.com'
     category: Trust-Trading
     subcategory: Trust trading scam site
-    description: 'Trust trading scam site'
+    description: 'Trust trading scam site. Suspected address: 0x7ff8caeb28f91ad0ee150027af4d51754461e055'
     addresses:
       - '0xeb6a066D30c55609fB9f3f6446C6Ef8f27033D2A'           
 -
@@ -30002,3 +30002,21 @@
     category: Trust-Trading
     subcategory: Trust trading scam site
     description: 'Trust trading scam site - btc address: 1NhFeurTzc9tqWVNpN9fU1M49NvDeEwt9a'     
+-
+    id: 4252
+    name: today-ethereum.com
+    url: 'http://today-ethereum.com'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x4dD0eF53784030fA675e2677F9CdC2a3e32E956B' 
+-
+    id: 4253
+    name: ethnow.org
+    url: 'http://ethnow.org'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site. Suspected address: 0x00Eb4cC5eEAc114294f3bEEF4007BCDAeC293F59'
+    addresses:
+      - '0x3963C374e0E71018dBA76814c13fdd5458d55898'       
