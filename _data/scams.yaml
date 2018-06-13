@@ -29893,3 +29893,37 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xeb6a066D30c55609fB9f3f6446C6Ef8f27033D2A'           
+-
+    id: 4239
+    name: get-eths-now.com
+    url: 'http://get-eths-now.com'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x2779554418f66834a811f2BeABB0151474b9C67d'
+-
+    id: 4240
+    name: get-eth-now.com
+    url: 'http://get-eth-now.com'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x2779554418f66834a811f2BeABB0151474b9C67d'
+-
+    id: 4241
+    name: ethn.fund
+    url: 'http://ethn.fund'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+-
+    id: 4242
+    name: trons.network
+    url: 'http://trons.network'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x54E50eEC86D757Ef26269c061Deace691B269116'
