@@ -30002,3 +30002,21 @@
     category: Trust-Trading
     subcategory: Trust trading scam site
     description: 'Trust trading scam site - btc address: 1NhFeurTzc9tqWVNpN9fU1M49NvDeEwt9a'     
+-
+    id: 4252
+    name: today-ethereum.com
+    url: 'http://today-ethereum.com'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x4dD0eF53784030fA675e2677F9CdC2a3e32E956B' 
+-
+    id: 4253
+    name: ethnow.org
+    url: 'http://ethnow.org'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x3963C374e0E71018dBA76814c13fdd5458d55898'       
