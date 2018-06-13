@@ -15351,6 +15351,7 @@
     subcategory: Storm
     addresses:
       - '0xF0Fc2d4d550253d8C165C599E0cCCf221c7eb7b5'   
+      - '0x96ae446782c99E952F17626826C83BFDcE53fAE7'
 -    
     id: 2434
     name: stromtoken.com
@@ -27880,7 +27881,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
     addresses:
-      - '0x34d202c37f9609A3d0d44db259ff51Bae8ea2D0f'          
+      - '0x34d202c37f9609A3d0d44db259ff51Bae8ea2D0f'   
+      - '0x87F655E887827eD11Eb3fBC74767B18E142cCced'
 -
     id: 3987
     name: eth-givebacknow.tumblr.com
@@ -29864,3 +29866,30 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex Market phishing for keys'   
+-
+    id: 4236
+    name: ethpays.org
+    url: 'http://ethpays.org'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x56ccaA034A0bDb7D3A9515CB580FB5448EfB584C'   
+-
+    id: 4237
+    name: safe.ethpaynow.com
+    url: 'http://safe.ethpaynow.com'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xa23203C466A57649b83687A3D9129D3EC427C50a'         
+-
+    id: 4238
+    name: elon-gives.com
+    url: 'http://elon-gives.com'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xeb6a066D30c55609fB9f3f6446C6Ef8f27033D2A'           
