@@ -29927,3 +29927,78 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x54E50eEC86D757Ef26269c061Deace691B269116'
+-
+    id: 4243
+    name: eoscountdown.co
+    url: 'http://eoscountdown.co'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS countdown directing users to xn--mythrwalet-smb0a05c.com'   
+-
+    id: 4244
+    name: xn--mythrwalet-smb0a05c.com
+    url: 'http://xn--mythrwalet-smb0a05c.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'       
+-
+    id: 4245
+    name: go.boosteth.com
+    url: 'http://go.boosteth.com'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xF7A5a8A2d0D46377a7F9607dF66FF963A23034C2'    
+-
+    id: 4246
+    name: boosteth.com
+    url: 'http://boosteth.com'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xF7A5a8A2d0D46377a7F9607dF66FF963A23034C2'          
+-
+    id: 4247
+    name: claims.payeth.promo
+    url: 'http://claims.payeth.promo'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xc2dc7B86a5cFbC89e20d5D03026E973958D8E3b3'        
+-
+    id: 4248
+    name: payeth.promo
+    url: 'http://payeth.promo'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xc2dc7B86a5cFbC89e20d5D03026E973958D8E3b3'          
+-
+    id: 4249
+    name: ethpromo.win
+    url: 'http://ethpromo.win'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x0e9e90eD10c6F1714bF87307D95b604288C5D4C5'          
+-
+    id: 4250
+    name: ethereumgift.org
+    url: 'http://ethereumgift.org'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xb9C0179f1F0f19e11586D4D252BC46D88c1713A9'          
+-
+    id: 4251
+    name: get-btc-now.com
+    url: 'http://get-btc-now.com'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site - btc address: 1NhFeurTzc9tqWVNpN9fU1M49NvDeEwt9a'     
