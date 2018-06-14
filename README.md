@@ -1,4 +1,4 @@
-![EtherScamDB Logotype](https://github.com/Tobaloidee/EtherScamDB/blob/master/logo/logotype-readme.png)
+![EtherScamDB Logotype](https://github.com/MrLuit/EtherScamDB/blob/master/logo/logotype-readme.png?raw=true)
 
 # Ethereum Scam Database
 
@@ -48,3 +48,7 @@ To make use of our database, the following API can be used: https://etherscamdb.
 ## Donate
 
 If you would like to help without contributing on GitHub yourself you can send some ETH or ERC20 tokens to [etherscamdb.eth](https://etherscan.io/address/etherscamdb.eth) :clap:
+
+## Thanks
+
+* Thanks to [Tobaloidee](https://github.com/Tobaloidee) for doing the logos!
