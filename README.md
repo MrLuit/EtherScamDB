@@ -1,3 +1,5 @@
+![EtherScamDB Logotype](https://github.com/Tobaloidee/EtherScamDB/blob/master/logo/logotype-readme.png)
+
 # Ethereum Scam Database
 
 *An open-source database to keep track of all the current ethereum scams*
