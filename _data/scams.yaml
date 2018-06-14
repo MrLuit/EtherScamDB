@@ -30122,3 +30122,21 @@
     category: Trust-Trading
     subcategory: Trust trading scam site
     description: 'Trust trading scam site. Bitcoin address: 14Sfnn3jveSPvZgHcpG7c15m58sM4KeAqD'     
+-
+    id: 4266
+    name: ethereumgw.org
+    url: 'http://ethereumgw.org'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xA6f2814C0020c38882e82D9bFde7B485a7297a1D'    
+-
+    id: 4267
+    name: epromo.cc
+    url: 'http://epromo.cc'
+    category: Trust-Trading
+    subcategory: Trust trading scam site
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xc9194a772c23A595dFAB28E30376f2e16eC39E01'          
