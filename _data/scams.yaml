@@ -30160,3 +30160,10 @@
     description: 'Fake Airdrop phishing for private keys'
     addresses:
       - '0xaf8185ffff6a3508fc5498a5165bf64de0b0a1e5'       
+-
+    id: 4270
+    name: iddexmarket.com
+    url: 'https://iddexmarket.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex Market phishing for keys' 
