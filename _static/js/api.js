@@ -41,6 +41,18 @@ window.addEventListener("load", function() {
 		$("#whitelist_segment").css("overflow","scroll");
 		$(".whitelist_response").html(data);
 	});
+	$.get("/api/inactives/",function(data) {
+		data = JSON.stringify(JSON.parse(data), null, 2);
+		$("#inactives_loader").remove();
+		$("#inactives_segment").css("overflow","scroll");
+		$(".inactives_response").html(data);
+	});
+	$.get("/api/actives/",function(data) {
+		data = JSON.stringify(JSON.parse(data), null, 2);
+		$("#actives_loader").remove();
+		$("#actives_segment").css("overflow","scroll");
+		$(".actives_response").html(data);
+	});
 	$.get("/api/abusereport/changellyli.com",function(data) {
 		data = JSON.stringify(JSON.parse(data), null, 2);
 		$("#abusereport_loader").remove();

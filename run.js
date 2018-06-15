@@ -578,6 +578,16 @@ function startWebServer() {
                 success: true,
                 result: getCache().legiturls
             }));
+        } else if (req.params.type == "inactives") {
+            res.send(JSON.stringify({
+              success: true,
+              result: getCache().inactives
+          }));
+        } else if (req.params.type == "actives") {
+            res.send(JSON.stringify({
+              success: true,
+              result: getCache().actives
+          }));
         } else if (req.params.type == "blacklist") {
             res.send(JSON.stringify(getCache().blacklist, null, 2));
         } else if (req.params.type == "whitelist") {
