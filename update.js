@@ -65,10 +65,10 @@ scams.forEach(function(scam, index) {
                     requests_pending--;
                     if (e || !([200, 301, 302].includes(response.statusCode))) {
                         scam_details.status = 'Offline';
-                        new_cache.inactives.push(scam.url);
+                        new_cache.inactives.push(scam);
                     } else if (r.uri.href.indexOf('cgi-sys/suspendedpage.cgi') !== -1) {
                         scam_details.status = 'Suspended';
-                        new_cache.inactives.push(scam.url);
+                        new_cache.inactives.push(scam);
                     } else {
                         if ('subcategory' in scam && scam.subcategory == 'MyEtherWallet') {
                             requests_pending++;
@@ -76,10 +76,10 @@ scams.forEach(function(scam, index) {
                                 requests_pending--;
                                 if (!e && response.statusCode == 200) {
                                     scam_details.status = 'Active';
-                                    new_cache.actives.push(scam.url);
+                                    new_cache.actives.push(scam);
                                 } else {
                                     scam_details.status = 'Inactive';
-                                    new_cache.inactives.push(scam.url);
+                                    new_cache.inactives.push(scam);
                                 }
                             });
                         } else if ('subcategory' in scam && scam.subcategory == 'MyCrypto') {
@@ -88,18 +88,18 @@ scams.forEach(function(scam, index) {
                                 requests_pending--;
                                 if (!e && response.statusCode == 200) {
                                     scam_details.status = 'Active';
-                                    new_cache.actives.push(scam.url);
+                                    new_cache.actives.push(scam);
                                 } else {
                                     scam_details.status = 'Inactive';
-                                    new_cache.inactives.push(scam.url);
+                                    new_cache.inactives.push(scam);
                                 }
                             });
                         } else if (body == '') {
                             scam_details.status = 'Inactive';
-                            new_cache.inactives.push(scam.url);
+                            new_cache.inactives.push(scam);
                         } else {
                             scam_details.status = 'Active';
-                            new_cache.actives.push(scam.url);
+                            new_cache.actives.push(scam);
                         }
                     }
                     /*if(scam_details.status != 'Offline' && 'Urlscan_API_Key' in config) {
