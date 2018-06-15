@@ -61,7 +61,7 @@ scams.forEach(function(scam, index) {
                     scam_details.nameservers = addresses;
                 }
                 requests_pending++;
-                var r = request(scam.url, {timeout: 15*1000}, function(e, response, body) {
+                var r = request(scam.url, {timeout: 5*60*1000}, function(e, response, body) {
                     requests_pending--;
                     if (e || !([200, 301, 302].includes(response.statusCode))) {
                         scam_details.status = 'Offline';
