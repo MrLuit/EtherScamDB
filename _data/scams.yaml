@@ -30228,3 +30228,76 @@
     description: 'Trust trading scam site' 
     addresses:
       - '0xF1a4b668D15F0E66543e9F1F795cC2B0f97E3ef2'        
+-
+    id: 4278
+    name: ethereum-prize.com
+    url: 'http://ethereum-prize.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0xc46E1430B1D4B7066B9B6655293492256BA216B9'  
+-
+    id: 4279
+    name: sharekit.io
+    url: 'http://sharekit.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x89271335DB9d0024F725Ab23415678CdEA3EB368'        
+-
+    id: 4280
+    name: etherbonus.live
+    url: 'http://etherbonus.live'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x5188d13bdd9D7Ac30324a569E2cE42488374738e'         
+-
+    id: 4281
+    name: fantom-foundation.tech
+    url: 'http://fantom-foundation.tech'
+    category: Fake ICO
+    subcategory: Fantom
+    description: 'Fake Fantom crowdsale site'
+    addresses:
+      - '0x567211d48BCFc706EDbAf5103196425cDf54289F'      
+-
+    id: 4282
+    name: sparkster.site
+    url: 'http://sparkster.site'
+    category: Fake ICO
+    subcategory: Sparkster
+    description: 'Fake Sparkster crowdsale site'
+    addresses:
+      - '0xCc8DE4cCF031ae0a86db0c561E790173E35D3De7'       
+-
+    id: 4283
+    name: idex-exchange.market
+    url: 'https://idex-exchange.market'
+    category: Phishing
+    subcategory: Idex
+    description: 'Suspicious Idex market domain (no dns right now)'       
+-
+    id: 4284
+    name: idex-narket.com
+    url: 'https://idex-narket.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Suspicious Idex market domain'           
+-
+    id: 4285
+    name: idexmarket-inc.com
+    url: 'https://idexmarket-inc.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake IDEX market phishing for keys'        
+-
+    id: 4286
+    name: idexmarket-incs.com
+    url: 'https://idexmarket-incs.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake IDEX market phishing for keys'           
