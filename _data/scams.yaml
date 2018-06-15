@@ -30167,3 +30167,64 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex Market phishing for keys' 
+-
+    id: 4271
+    name: indexmarkett-corp.com
+    url: 'https://indexmarkett-corp.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Suspicious Idex market domain' 
+-
+    id: 4272
+    name: giveth.ws
+    url: 'http://giveth.ws'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x89271335DB9d0024F725Ab23415678CdEA3EB368'      
+-
+    id: 4273
+    name: giveeth.org
+    url: 'http://giveeth.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0xA6f2814C0020c38882e82D9bFde7B485a7297a1D'            
+-
+    id: 4274
+    name: ethereum.org.give-eth.today
+    url: 'http://ethereum.org.give-eth.today'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0xA213344262535D3EA5EFeAA7f7Cf74e792dA6258'           
+-
+    id: 4275
+    name: give-eth.today
+    url: 'http://give-eth.today'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0xA213344262535D3EA5EFeAA7f7Cf74e792dA6258'            
+-
+    id: 4276
+    name: collect-ethaway.com
+    url: 'http://collect-ethaway.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0xe432D9a9be076334474a6a35ede39b278686F923'      
+-
+    id: 4277
+    name: aireth.today
+    url: 'http://aireth.today'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0xF1a4b668D15F0E66543e9F1F795cC2B0f97E3ef2'        
