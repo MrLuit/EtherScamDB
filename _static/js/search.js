@@ -27,11 +27,11 @@ window.addEventListener("load", function() {
                     $("#blacklistmessage").html(encodeURI($("input").val().toLowerCase().replace('http://','').replace('https://','').replace('www.','').split(/[/?#]/)[0]) + ' was put on the blacklist for ' + result.entries[0].category.toLowerCase() + '.');
                     strLink = '<a id="details" href="/scam/' + result.entries[0].id + '">Details <i class="chevron right small icon"></i></a>';
                 } else if(result.type == 'address') {
-					          $("#blacklistmessage").html(encodeURI($("input").val().toLowerCase().replace('http://','').replace('https://','').replace('www.','').split(/[/?#]/)[0]) + ' was put on the blacklist and is associated with '+ result.entries.length +' blocked domain(s)');
-					          strLink = '<a id="details" href="/address/' + result.input + '">Details <i class="chevron right small icon"></i></a>';
+					          $("#blacklistmessage").html(encodeURI($("input").val().toLowerCase()) + ' was put on the blacklist and is associated with '+ result.entries.length +' blocked domain(s).');
+					          strLink = '<a id="details" href="/address/' + encodeURI($("input").val()) + '">Details on this address <i class="chevron right small icon"></i></a>';
 				        } else if(result.type == 'ip') {
 					          $("#blacklistmessage").html(encodeURI($("input").val().toLowerCase().replace('http://','').replace('https://','').replace('www.','').split(/[/?#]/)[0]) + ' was put on the blacklist and is associated with '+ result.entries.length +' blocked domain(s)');
-					          strLink = '<a id="details" href="/ip/' + result.input + '">Details <i class="chevron right small icon"></i></a>';
+					          strLink = '<a id="details" href="/ip/' + encodeURI($("input").val()) + '">Details <i class="chevron right small icon"></i></a>';
 				        }
                 $("#blacklistmessage").html($("#blacklistmessage").html() + ' ' + strLink);
                 $("#blocked").css('display', 'flex');
