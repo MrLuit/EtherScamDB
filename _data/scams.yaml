@@ -30338,3 +30338,10 @@
     category: Phishing
     subcategory: Metronome
     description: 'Fake Metronome crowdsale site'      
+-
+    id: 4292
+    name: xn--myeterwallet-o0b.com
+    url: 'https://xn--myeterwallet-o0b.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'   
