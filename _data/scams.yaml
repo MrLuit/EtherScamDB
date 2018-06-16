@@ -30268,7 +30268,7 @@
     id: 4282
     name: sparkster.site
     url: 'http://sparkster.site'
-    category: Fake ICO
+    category: Phishing
     subcategory: Sparkster
     description: 'Fake Sparkster crowdsale site'
     addresses:
@@ -30301,3 +30301,40 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake IDEX market phishing for keys'           
+-
+    id: 4287
+    name: myetherwallett.net
+    url: 'https://myetherwallett.net'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet Domain'     
+-
+    id: 4288
+    name: magntech.tk
+    url: 'https://magntech.tk'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Hosting a fake MyEtherWallet (magntech.tk/01ef43c4b617f6/wallet/)'         
+-
+    id: 4289
+    name: coinzzz.pro
+    url: 'https://coinzzz.pro'
+    category: Phishing
+    subcategory: Aragon
+    description: 'Hosting a fake Aragon giveaway (https://t.me/Aragonofficial & https://t.me/Aragonannoucement)'         
+-
+    id: 4290
+    name: ico.metronome.bz
+    url: 'http://ico.metronome.bz'
+    category: Phishing
+    subcategory: Metronome
+    description: 'Fake Metronome crowdsale site'
+    addresses:
+      - '0x6c4f56B116E91f15E790508d4212906B75835B63'     
+-
+    id: 4291
+    name: metronome.foundation
+    url: 'http://metronome.foundation'
+    category: Phishing
+    subcategory: Metronome
+    description: 'Fake Metronome crowdsale site'      
