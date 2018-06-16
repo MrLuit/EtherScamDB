@@ -30345,3 +30345,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - IDN homograph attack domain'   
+-
+    id: 4292
+    name: elon-shares.com
+    url: 'http://elon-shares.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0xa61a87497E6553e3b1CF66c8b02FA392A0eFF1E3'   
