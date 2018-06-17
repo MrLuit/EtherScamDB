@@ -30390,3 +30390,39 @@
     description: 'Trust trading scam site' 
     addresses:
       - '0x83D7Cb758C30d067e99E9f52F9e4f987101aB888'         
+-
+    id: 4298
+    name: ethereum-claim.org
+    url: 'http://ethereum-claim.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x2092B75719EC6f1dfE3f0d8C73239aD0297522BE'  
+-
+    id: 4299
+    name: get.safesteth.com
+    url: 'http://get.safesteth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x37a8C55F6860e19f353686f5dd9c603ADB8448b6'        
+-
+    id: 4300
+    name: safesteth.com
+    url: 'http://safesteth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x37a8C55F6860e19f353686f5dd9c603ADB8448b6'        
+-
+    id: 4301
+    name: secure.ethscan.us
+    url: 'http://secure.ethscan.us'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x1A11585B374D5827F44e117e07941A8728a5f342'          
