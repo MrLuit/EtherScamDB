@@ -1,4 +1,4 @@
-![EtherScamDB Logotype](https://github.com/MrLuit/EtherScamDB/blob/master/logo/logotype-readme.png?raw=true)
+![EtherScamDB Logotype](https://raw.githubusercontent.com/MrLuit/EtherScamDB/master/_static/logo/logotype-readme.png)
 
 # Ethereum Scam Database
 
