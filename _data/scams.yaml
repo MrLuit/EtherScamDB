@@ -30459,3 +30459,10 @@
     category: Phishing
     subcategory: EOS
     description: 'Fake EOS airdrop directing users to myetherwallet.com.signmessage.me (https://bitly.com/2HTNWuj+)'       
+-
+    id: 4307
+    name: xn--coinbas-z8a.tk
+    url: 'https://xn--coinbas-z8a.tk'
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Fake Coinbase - IDN homograph attack domain'      
