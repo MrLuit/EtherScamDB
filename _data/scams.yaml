@@ -30354,6 +30354,7 @@
     description: 'Trust trading scam site' 
     addresses:
       - '0xa61a87497E6553e3b1CF66c8b02FA392A0eFF1E3'   
+      - '0x9c29046A4178d15aA7BE23e6b73Ef0f2E429A9a1'
 -
     id: 4294
     name: get.perfecteth.com
@@ -30426,3 +30427,42 @@
     description: 'Trust trading scam site' 
     addresses:
       - '0x1A11585B374D5827F44e117e07941A8728a5f342'          
+-
+    id: 4302
+    name: ethshare.org
+    url: 'http://ethshare.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x03E115D99F005F9df8AcCeC3F3d07F54b593eE96'  
+-
+    id: 4303
+    name: ethergive.info
+    url: 'http://ethergive.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0xC71610821ac6042E52Be9d7d76df4c425F30f41f'        
+-
+    id: 4304
+    name: myetherwalet.heliohost.org
+    url: 'https://myetherwalet.heliohost.org'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'        
+-
+    id: 4305
+    name: keyfundairdrop.typeform.com
+    url: 'https://keyfundairdrop.typeform.com'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS airdrop directing users to myetherwallet.com.signmessage.me (https://bitly.com/2HTNWuj+)'      
+-
+    id: 4306
+    name: eosdash.io
+    url: 'https://eosdash.io'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS airdrop directing users to myetherwallet.com.signmessage.me (https://bitly.com/2HTNWuj+)'       
