@@ -29009,14 +29009,7 @@
     url: 'http://myetferwellet.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: 'Fake MyEtherWallet. Suspected address: 0xd26114cd6ee289accf82350c8d8487fedb8a0c07'         
--
-    id: 4128
-    name: btcmanager.com
-    url: 'http://btcmanager.com'
-    category: Phishing
-    subcategory: MetaMask
-    description: 'Phishing for MetaMask seed phrases - https://www.reddit.com/r/ethereum/comments/8pddzm/psa_btcmanagercom_is_running_metamask_phishing/'        
+    description: 'Fake MyEtherWallet. Suspected address: 0xd26114cd6ee289accf82350c8d8487fedb8a0c07'               
 -
     id: 4129
     name: myethertrust.com

@@ -364,3 +364,7 @@
     id: 84
     name: IDEX
     url: 'https://idex.market'
+-
+    id: 85
+    name: BTCManager
+    url: 'http://btcmanager.com'
