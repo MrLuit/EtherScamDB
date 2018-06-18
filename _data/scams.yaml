@@ -23946,6 +23946,7 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x95C5dB5bD9A0260Fc457Af4F6fc6dE7819D9B1a6'
+      - '0x67DFa651E7AbA5eF524920d2D69302CA204bE633'
 -    
     id: 3503
     name: eth-24h.com
@@ -29437,6 +29438,7 @@
     description: 'Trust trading scam site' 
     addresses:
       - '0x2E3Fd2B400a269f7a0B1AaF448EF02679cd557e9'  
+      - '0x0db49185AaE1f8F4b95EBD5323C1fa3822d4FDe8'
 -
     id: 4183
     name: idix-market.info 
@@ -29626,7 +29628,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site' 
     addresses:
-      - '0xcEe56C3d77d814d29b9410c0f74c12781fcE03ff'            
+      - '0xcEe56C3d77d814d29b9410c0f74c12781fcE03ff'      
+      - '0x679A8cF6E181EbbcD9d14D0bd9595d8cFB79eCDf'
 -
     id: 4208
     name: verify.officialeth.com
@@ -30466,3 +30469,37 @@
     category: Phishing
     subcategory: Coinbase
     description: 'Fake Coinbase - IDN homograph attack domain'      
+-
+    id: 4308
+    name: waves-platform.net
+    url: 'http://waves-platform.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x074f95064A579de2287B21B6ed33033C18CB80ef' 
+-
+    id: 4309
+    name: ethsafe.net
+    url: 'http://ethsafe.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x64Ebd0467304E04F96520aB73C6E07D40aD25970'     
+-
+    id: 4310
+    name: myefherwaliet.com
+    url: 'https://myefherwaliet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - Suspected address: 0x766316F65C88486bcb59Fd57D5CE0087780c1424'              
+-
+    id: 4311
+    name: etherfree.tech
+    url: 'http://etherfree.tech'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x53DB08c95D0D6De34d8318970Bbcb063f82Fcc41'   
