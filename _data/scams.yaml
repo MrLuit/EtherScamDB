@@ -25092,7 +25092,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
     addresses:
-      - '0x8C9D135aC2778e1A7d326932AaD302e7c22c94D7'         
+      - '0x8C9D135aC2778e1A7d326932AaD302e7c22c94D7'  
+      - '0x53DB08c95D0D6De34d8318970Bbcb063f82Fcc41'         
 -
     id: 3643
     name: etherums-givingaway.atspace.tv
@@ -30494,12 +30495,3 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - Suspected address: 0x766316F65C88486bcb59Fd57D5CE0087780c1424'              
--
-    id: 4311
-    name: etherfree.tech
-    url: 'http://etherfree.tech'
-    category: Scamming
-    subcategory: Trust-Trading
-    description: 'Trust trading scam site' 
-    addresses:
-      - '0x53DB08c95D0D6De34d8318970Bbcb063f82Fcc41'   
