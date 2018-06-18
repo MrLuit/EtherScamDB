@@ -23946,6 +23946,7 @@
     description: 'Trust trading scam site'    
     addresses:    
       - '0x95C5dB5bD9A0260Fc457Af4F6fc6dE7819D9B1a6'
+      - '0x67DFa651E7AbA5eF524920d2D69302CA204bE633'
 -    
     id: 3503
     name: eth-24h.com
@@ -29437,6 +29438,7 @@
     description: 'Trust trading scam site' 
     addresses:
       - '0x2E3Fd2B400a269f7a0B1AaF448EF02679cd557e9'  
+      - '0x0db49185AaE1f8F4b95EBD5323C1fa3822d4FDe8'
 -
     id: 4183
     name: idix-market.info 
@@ -29626,7 +29628,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site' 
     addresses:
-      - '0xcEe56C3d77d814d29b9410c0f74c12781fcE03ff'            
+      - '0xcEe56C3d77d814d29b9410c0f74c12781fcE03ff'      
+      - '0x679A8cF6E181EbbcD9d14D0bd9595d8cFB79eCDf'
 -
     id: 4208
     name: verify.officialeth.com
