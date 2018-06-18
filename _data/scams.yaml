@@ -30466,3 +30466,10 @@
     category: Phishing
     subcategory: Coinbase
     description: 'Fake Coinbase - IDN homograph attack domain'      
+-
+    id: 4308
+    name: cyberchainnetwork.com
+    url: 'https://cyberchainnetwork.com'
+    category: Fake ICO
+    subcategory: Fake business
+    description: 'Fake ICO/Airdrop.'
