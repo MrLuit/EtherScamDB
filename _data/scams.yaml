@@ -30466,3 +30466,28 @@
     category: Phishing
     subcategory: Coinbase
     description: 'Fake Coinbase - IDN homograph attack domain'      
+-
+    id: 4308
+    name: waves-platform.net
+    url: 'http://waves-platform.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x074f95064A579de2287B21B6ed33033C18CB80ef' 
+-
+    id: 4309
+    name: ethsafe.net
+    url: 'http://ethsafe.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x64Ebd0467304E04F96520aB73C6E07D40aD25970'     
+-
+    id: 4310
+    name: myefherwaliet.com
+    url: 'https://myefherwaliet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - Suspected address: 0x766316F65C88486bcb59Fd57D5CE0087780c1424'              
