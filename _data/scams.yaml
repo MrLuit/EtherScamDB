@@ -30519,7 +30519,7 @@
 -
     id: 4314
     name: shapeshiftv.com
-    url: 'https://shapeshiftv.come'
+    url: 'https://shapeshiftv.com'
     category: Phishing
     subcategory: Shapeshift
     description: 'Suspicious ShapeShift domain'                 
@@ -30532,3 +30532,42 @@
     description: 'Trust trading scam site' 
     addresses:
       - '0x2779554418f66834a811f2BeABB0151474b9C67d' 
+-
+    id: 4316
+    name: get.personaleth.com
+    url: 'http://get.personaleth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x9d03A3AD580cC2fb820349d3FF002Fb2FC7a6b19' 
+-
+    id: 4317
+    name: personaleth.com
+    url: 'http://personaleth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x9d03A3AD580cC2fb820349d3FF002Fb2FC7a6b19'      
+-
+    id: 4318
+    name: indexmarket-inc.com
+    url: 'https://indexmarket-inc.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Suspicious Idex Market domain'        
+-
+    id: 4319
+    name: mnyctervailliet.com
+    url: 'https://mnyctervailliet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain'         
+-
+    id: 4320
+    name: mnyidthewallot.com
+    url: 'https://mnyidthewallot.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'      
