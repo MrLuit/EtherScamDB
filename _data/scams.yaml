@@ -30495,3 +30495,40 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - Suspected address: 0x766316F65C88486bcb59Fd57D5CE0087780c1424'              
+-
+    id: 4311
+    name: c-kamowski.fr
+    url: 'http://c-kamowski.fr'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 19DBRq4M98XaeBjnjx2NuU9MMrTK3u259L'   
+-
+    id: 4312
+    name: eosprivate.io
+    url: 'https://eosprivate.io'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake KYC directing users to a Fake MyEtherWallet (myetherwallet.com.api.signmessage.me/signmsg.html) via bit.ly/2tj9f2U+'                 
+-
+    id: 4313
+    name: myetherwallet.com.api.signmessage.me
+    url: 'https://myetherwallet.com.api.signmessage.me'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'                 
+-
+    id: 4314
+    name: shapeshiftv.com
+    url: 'https://shapeshiftv.come'
+    category: Phishing
+    subcategory: Shapeshift
+    description: 'Suspicious ShapeShift domain'                 
+-
+    id: 4315
+    name: get-ether-now.com
+    url: 'http://get-ether-now.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x2779554418f66834a811f2BeABB0151474b9C67d' 
