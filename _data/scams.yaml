@@ -30571,3 +30571,44 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'      
+-
+    id: 4321
+    name: idexmarketllc.com
+    url: 'https://idexmarketllc.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex Market phishing for keys'  
+-
+    id: 4322
+    name: idexwebaa.com
+    url: 'https://idexwebaa.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex Market phishing for keys'     
+-
+    id: 4323
+    name: ethfast.io
+    url: 'http://ethfast.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x679A8cF6E181EbbcD9d14D0bd9595d8cFB79eCDf'      
+-
+    id: 4324
+    name: givewaypromo.org
+    url: 'http://givewaypromo.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x83D7Cb758C30d067e99E9f52F9e4f987101aB888'         
+-
+    id: 4325
+    name: ethereum-givaway.social
+    url: 'http://ethereum-givaway.social'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x777c6aD16B303639489a38b369e423AA2c491884'          
