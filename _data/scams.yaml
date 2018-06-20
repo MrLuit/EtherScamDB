@@ -30508,7 +30508,7 @@
     url: 'https://eosprivate.io'
     category: Phishing
     subcategory: EOS
-    description: 'Fake KYC directing users to a Fake MyEtherWallet (myetherwallet.com.api.signmessage.me/signmsg.html) via bit.ly/2tj9f2U+'                 
+    description: 'Fake KYC directing users to a Fake MyEtherWallet myetherwallet.com.api.signmessage.me/signmsg.html via bit.ly/2tj9f2U+ and myetherwallet.com.api.root.signmsg.me/signmsg.html via bitly.com/2thn41W+'                 
 -
     id: 4313
     name: myetherwallet.com.api.signmessage.me
@@ -30612,3 +30612,49 @@
     description: 'Trust trading scam site' 
     addresses:
       - '0x777c6aD16B303639489a38b369e423AA2c491884'          
+-
+    id: 4326
+    name: ethaction.io
+    url: 'http://ethaction.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x679A8cF6E181EbbcD9d14D0bd9595d8cFB79eCDf'    
+-
+    id: 4327
+    name: 24h.szakdoga.net
+    url: 'http://24h.szakdoga.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x77C89A9987017Fd0AF1c7d057FfB9e9fA254aa4b'      
+-
+    id: 4328
+    name: luno-help-desk-update.weebly.com
+    url: 'https://luno-help-desk-update.weebly.com'
+    category: Phishing
+    subcategory: Luno
+    description: 'Reported as a fake Luno login (it is now down)'        
+-
+    id: 4329
+    name: airdropform900.typeform.com
+    url: 'https://airdropform900.typeform.com'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOSPrivate Airdrop directing users to a fake MyEtherWallet (https://myetherwallet.com.api.root.signmsg.me/signmsg.html) - https://bitly.com/2thn41W+. Suspected address: 0x8b9310e47cd2d4aad77735a3218d9420cb152709'       
+-
+    id: 4330
+    name: myetherwallet.com.api.root.signmsg.me
+    url: 'https://myetherwallet.com.api.root.signmsg.me'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys. Suspected address: 0x8b9310E47cd2d4AAd77735a3218D9420CB152709'       
+-
+    id: 4331
+    name: myetherwallet.token.signmsg.network
+    url: 'https://myetherwallet.token.signmsg.network'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'      
