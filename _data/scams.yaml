@@ -30677,4 +30677,33 @@
     description: 'Trust trading scam site' 
     addresses:
       - '0x224B9f4666472682f3e805f4dC1e0Fc39B7B96fB'         
-      
+-
+    id: 4334
+    name: eos-platform.net
+    url: 'https://eos-platform.net'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS web wallet - email verification from ddddssssmmmm.fvds.ru (188.120.227.79)'   
+    addresses:
+      - '0x73BAF168D9f5FEe3D845f33b3567Fe916F730838'      
+-
+    id: 4335
+    name: btcfast.io
+    url: 'http://btcfast.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 33RRw7sdn6SQsNGPAb4fGUuAM9yHfL2ecH'    
+-
+    id: 4336
+    name: idexxsoftload.com
+    url: 'https://idexxsoftload.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex Market domain phishing for keys'      
+-
+    id: 4337
+    name: idexmarket-corps.com
+    url: 'https://idexmarket-corps.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Suspicious Idex Market domain'          
