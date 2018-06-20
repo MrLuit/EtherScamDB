@@ -30224,7 +30224,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site' 
     addresses:
-      - '0xF1a4b668D15F0E66543e9F1F795cC2B0f97E3ef2'        
+      - '0xF1a4b668D15F0E66543e9F1F795cC2B0f97E3ef2'      
+      - '0x443F933362D9472ac8Fb9d1C4a8EaD512881630D'
 -
     id: 4278
     name: ethereum-prize.com
@@ -30658,3 +30659,22 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys'      
+-
+    id: 4332
+    name: event-eth.org
+    url: 'http://event-eth.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x680f7bEa6EbA9AdcD0F47A0DE630CfA8F95Bf0ba'   
+-
+    id: 4333
+    name: giveawaypromo.org
+    url: 'http://giveawaypromo.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x224B9f4666472682f3e805f4dC1e0Fc39B7B96fB'         
+      
