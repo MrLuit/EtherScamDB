@@ -30831,3 +30831,35 @@
     description: 'Trust trading scam site' 
     addresses:
       - '0x205906790a597972f97fccda132d89ee63f15c10'           
+-
+    id: 4354
+    name: neo-x.info
+    url: 'https://neo-x.info'
+    category: Scamming
+    subcategory: Neo
+    description: 'Fake Neo web wallet' 
+-
+    id: 4355
+    name: myetherplace.com
+    url: 'http://myetherplace.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0xee07f244d1bc5b077296975bd062c930b9ab9ea6'        
+-
+    id: 4356
+    name: ether-give.live
+    url: 'http://ether-give.live'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x11608c87d514d55e28eb94984bdbacd3fd38b182'      
+-
+    id: 4357
+    name: btc-give.org
+    url: 'http://btc-give.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 1KXLXfdFS7aKZJWwVxH9im9WyzA9SBBEed'       
