@@ -30758,3 +30758,76 @@
     description: 'Trust trading scam site' 
     addresses:
       - '0xa7BE709F13D9B0283Fb43211c85BBB12B7273e9A'       
+-
+    id: 4345
+    name: eosauthority.info
+    url: 'https://eosauthority.info'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS site phishing for private keys (POST store.php)'    
+-
+    id: 4346
+    name: eosauthority.unstake.xyz
+    url: 'https://eosauthority.unstake.xyz'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS site phishing for private keys'      
+-
+    id: 4347
+    name: xn--mythrwalet-c7a29cyq.com
+    url: 'https://xn--mythrwalet-c7a29cyq.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'      
+-
+    id: 4348
+    name: suretytoken.com
+    url: 'https://suretytoken.com'
+    category: Scamming
+    subcategory: Surety
+    description: 'Fake airdrop (HTTrack signatures)'        
+-
+    id: 4349
+    name: getethers.org
+    url: 'http://getethers.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0xBE9d75228fD01844BADA1394bfb5a4740c18C01f'     
+-
+    id: 4350
+    name: ethergift.io
+    url: 'http://ethergift.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0xc387587a1D7cDf7Aa73e14ce03FfaC945777Aaed'       
+-
+    id: 4351
+    name: secure.ethgivers.com
+    url: 'http://secure.ethgivers.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0xeB71af7Cd339832fF8d88D985035B2793042eCA8'  
+-
+    id: 4352
+    name: ethgivers.com
+    url: 'http://ethgivers.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0xeB71af7Cd339832fF8d88D985035B2793042eCA8'        
+-
+    id: 4353
+    name: ethgpromo.com
+    url: 'http://ethgpromo.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x205906790a597972f97fccda132d89ee63f15c10'           
