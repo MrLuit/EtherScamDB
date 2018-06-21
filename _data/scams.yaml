@@ -30707,3 +30707,54 @@
     category: Phishing
     subcategory: Idex
     description: 'Suspicious Idex Market domain'          
+-
+    id: 4338
+    name: indexmaker-network.com
+    url: 'https://indexmaker-network.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Suspicious Idex Market domain'      
+-
+    id: 4339
+    name: idexmarket-corp.com
+    url: 'https://idexmarket-corp.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex Market phishing for keys'         
+-
+    id: 4340
+    name: idexontime.com
+    url: 'https://idexontime.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex Market phishing for keys'        
+-
+    id: 4341
+    name: idexmarketcorp.com
+    url: 'https://idexmarketcorp.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex Market phishing for keys'      
+-
+    id: 4342
+    name: idex-marketssite.com
+    url: 'https://idex-marketssite.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex Market phishing for keys'        
+-
+    id: 4343
+    name: idexmarket-llc.com
+    url: 'https://idexmarket-llc.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex Market phishing for keys'       
+-
+    id: 4344
+    name: eth-air-com.1gb.ru
+    url: 'http://eth-air-com.1gb.ru'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0xa7BE709F13D9B0283Fb43211c85BBB12B7273e9A'       
