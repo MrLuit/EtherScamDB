@@ -30915,3 +30915,49 @@
     description: 'Trust trading scam site' 
     addresses:
       - '0xfb997Ea4c102fAd4ec67f8bb069752030C0C0531'         
+-
+    id: 4364
+    name: myeostrust.com
+    url: 'https://myeostrust.com'
+    category: Scamming
+    subcategory: EOS
+    description: 'Fake EOS web wallet phishing for keys (POST /store.php)' 
+-
+    id: 4365
+    name: eosdrop.xn--mythrwallt-c7a86c5a.com
+    url: 'https://eosdrop.xn--mythrwallt-c7a86c5a.com'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS airdrop. Directing users to a fake MyEtherWallet xn--mythrwallt-c7a86c5a.com/signmsg.html via bit.ly/2Jlh9zL+'     
+-
+    id: 4366
+    name: eth-claim.net
+    url: 'http://eth-claim.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x45C3eF2bc2719586Cd92766B3895868d3EE9Ef92'  
+-
+    id: 4367
+    name: ethfreegift.org
+    url: 'http://ethfreegift.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x46Cbc3c3710dC4a632842e155f18f30d4AB38aaC'        
+-
+    id: 4368
+    name: myenterworlld.com
+    url: 'https://myenterworlld.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake LocalEtherWallet/MyEtherWallet'       
+-
+    id: 4369
+    name: localetherwallet.info
+    url: 'https://localetherwallet.info'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake LocalEtherWallet/MyEtherWallet'         
