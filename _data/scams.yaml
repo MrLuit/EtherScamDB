@@ -30863,3 +30863,10 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site. Bitcoin address: 1KXLXfdFS7aKZJWwVxH9im9WyzA9SBBEed'       
+-
+    id: 4358
+    name: e.airdropeos.com
+    url: 'https://e.airdropeos.com'
+    category: Scamming
+    subcategory: EOS
+    description: 'Fake EOS Airdrop phishing for private keys' 
