@@ -30993,3 +30993,10 @@
     description: 'Trust trading scam site' 
     addresses:
       - '0x4c6cdD82bF2B0627350bB660C2a18B2Db8880Ce1'           
+-
+    id: 4374
+    name: ethereum.odyssey.center
+    url: 'https://ethereum.odyssey.center'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet stealing keys with POST check3.php' 
