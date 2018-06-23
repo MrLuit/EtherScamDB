@@ -30961,3 +30961,35 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake LocalEtherWallet/MyEtherWallet'         
+-
+    id: 4370
+    name: xn--eosauthorty-wcb.com
+    url: 'https://xn--eosauthorty-wcb.com'
+    category: Scamming
+    subcategory: EOS
+    description: 'Fake EOSAuthority phishing for keys (POST /store.php)' 
+-
+    id: 4371
+    name: btc.etherfree.info
+    url: 'http://btc.etherfree.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 18b7PTLaa2TPtn5V5moBwSsWTEm6Ny2n8Y'    
+-
+    id: 4372
+    name: etherfree.info
+    url: 'http://etherfree.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0xba8A5cF96D605B630025E3e2C8bd177391e32122'     
+-
+    id: 4373
+    name: free-ethers.org
+    url: 'http://free-ethers.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x4c6cdD82bF2B0627350bB660C2a18B2Db8880Ce1'           
