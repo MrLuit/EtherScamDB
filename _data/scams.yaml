@@ -31000,3 +31000,26 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet stealing keys with POST check3.php' 
+-
+    id: 4375
+    name: give-ethprize.com
+    url: 'http://give-ethprize.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x257890939F7c0B758897F7Bd49A590B7190043e0'  
+-
+    id: 4376
+    name: odyssey.center
+    url: 'https://odyssey.center'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet stealing keys' 
+-
+    id: 4377
+    name: world-market.online
+    url: 'https://world-market.online'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet stealing keys'     
