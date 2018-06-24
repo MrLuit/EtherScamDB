@@ -30488,7 +30488,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site' 
     addresses:
-      - '0x64Ebd0467304E04F96520aB73C6E07D40aD25970'     
+      - '0x64Ebd0467304E04F96520aB73C6E07D40aD25970'    
+      - '0x568b265374F86e0C03b8AEC655Ea18d9dA0e80Ff'
 -
     id: 4310
     name: myefherwaliet.com
@@ -31023,3 +31024,92 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet stealing keys'     
+-
+    id: 4378
+    name: myetherwalett.000webhostapp.com 
+    url: 'https://myetherwalett.000webhostapp.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet stealing keys'     
+-
+    id: 4379
+    name: myetherwallet.com.signmsg.icu
+    url: 'https://myetherwallet.com.signmsg.icu'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet stealing keys'     
+-
+    id: 4380
+    name: signmsg.icu
+    url: 'https://signmsg.icu'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Hosting a fake MyEtherWallet (myetherwallet.com.signmsg.icu/signmsg.html)' 
+-
+    id: 4381
+    name: ethofficialpage.us
+    url: 'http://ethofficialpage.us'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x6891f04E4EdA5Bb6c465132993BD6a5d4F1B0D0B'      
+-
+    id: 4382
+    name: ethers-free.org
+    url: 'http://ethers-free.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x11608c87d514d55e28eb94984bdbacd3fd38b182'       
+-
+    id: 4383
+    name: claimethers.org
+    url: 'http://claimethers.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x9044Bca784ff17dD05Bd157f47C9cecb2dbcFFa5'        
+-
+    id: 4384
+    name: eth-pay.org
+    url: 'http://eth-pay.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x002f0C8119C16D310342D869Ca8bF6AcE34D9c39'     
+-
+    id: 4385
+    name: giveaway.ethsafe.net
+    url: 'http://giveaway.ethsafe.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x568b265374F86e0C03b8AEC655Ea18d9dA0e80Ff'        
+-
+    id: 4385
+    name: ethereum-promo.info
+    url: 'http://ethereum-promo.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0x7f151165f7cd0d7417e4b5233b90cf721c34aa2f'    
+-
+    id: 4386
+    name: anatomia.io
+    url: 'https://anatomia.io'
+    category: Phishing
+    subcategory: Anatomia
+    description: 'Fake KYC airdrop form directing users to a fake MyEtherWallet - www.myetherwallet.com.signmsg.icu/signmsg.html via bitly.com/2tlCjXH+'       
+-
+    id: 4387
+    name: anatomiaairdrop.typeform.com
+    url: 'https://anatomiaairdrop.typeform.com'
+    category: Phishing
+    subcategory: Anatomia
+    description: 'Fake KYC airdrop form directing users to a fake MyEtherWallet - www.myetherwallet.com.signmsg.icu/signmsg.html via bitly.com/2tlCjXH+'           
