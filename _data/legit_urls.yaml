@@ -3,6 +3,8 @@
     name: MyCrypto
     url: 'https://mycrypto.com'
     featured: true
+    addresses:
+      - '0x4bbeEB066eD09B7AEd07bF39EEe0460DFa261520'
 -
     id: 2
     name: MetaMask
@@ -31,6 +33,8 @@
     name: Etherscan
     url: 'https://etherscan.io'
     featured: true
+    addresses:
+      - '0x71c7656ec7ab88b098defb751b7401b5f6d8976f'
 -
     id: 8
     name: EtherID

@@ -596,6 +596,24 @@ function startWebServer() {
             //They can search for an address or domain.
             if (/^0x?[0-9A-Fa-f]{40,42}$/.test(req.params.domain)) {
                 var blocked = false;
+                Object.keys(getCache().whitelistaddresses).forEach(function(address, index) {
+                    //They searched for an address
+                    if (req.params.domain.toLowerCase() === address.toLowerCase()) {
+                        blocked = true;
+                        res.send(JSON.stringify({
+                            success: true,
+                            result: 'whitelisted',
+                            type: 'address',
+                            entries: getCache().legiturls.filter(function(verified) {
+                                if ('addresses' in verified) {
+                                    return (verified.addresses.includes(req.params.domain.toLowerCase()));
+                                } else {
+                                    return false;
+                                }
+                            })
+                        }));
+                    }
+                });
                 Object.keys(getCache().addresses).forEach(function(address, index) {
                     //They searched for an address
                     if (req.params.domain.toLowerCase() === address.toLowerCase()) {

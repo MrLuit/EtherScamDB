@@ -16,6 +16,7 @@ let new_cache = {
     'legiturls': [],
     'blacklist': [],
     'addresses': {},
+    'whitelistaddresses': {},
     'ips': {},
     'whitelist': [],
     'inactives': [],
@@ -31,8 +32,21 @@ yaml.safeLoad(fs.readFileSync('_data/legit_urls.yaml')).sort(function(a, b) {
     return a.name - b.name;
 }).forEach(function(legit_url) {
     new_cache.legiturls.push(legit_url);
+
     new_cache.whitelist.push(url.parse(legit_url.url).hostname.replace("www.", ""));
     new_cache.whitelist.push('www.' + url.parse(legit_url.url).hostname.replace("www.", ""));
+    if ('addresses' in legit_url) { // (if 'addresses' exists in legit_urls)
+        legit_url.addresses.forEach(function(whitelistaddress) {
+            if (!(whitelistaddress.toLowerCase() in new_cache.whitelistaddresses)) {
+                new_cache.whitelistaddresses[whitelistaddress.toLowerCase()] = [];
+            }
+            var currwhitelistindex = whitelistaddress.toLowerCase();
+            new_cache.whitelistaddresses[currwhitelistindex] = legit_url;
+            for(var i = 0 ; i < new_cache.whitelistaddresses[currwhitelistindex].addresses.length; i++){
+                new_cache.whitelistaddresses[currwhitelistindex].addresses[i] = new_cache.whitelistaddresses[currwhitelistindex].addresses[i].toLowerCase();
+            }
+        });
+    }
 });
 setInterval(function() {
     console.log(scams_checked + '/' + scams.length + ' (' + requests_pending + ' requests pending)');
