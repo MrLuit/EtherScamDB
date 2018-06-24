@@ -31123,3 +31123,12 @@
     description: 'Trust trading scam site' 
     addresses:
       - '0xA1FF3Bc95D29C7DFCcD60C2226697b9C9aC0a16b'   
+-
+    id: 4089
+    name: ethe.mediumblog.top
+    url: 'http://ethe.mediumblog.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0x336a3f0c4d40b1e39cee72e2e59330daf484848c'
