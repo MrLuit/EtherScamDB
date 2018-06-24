@@ -30847,7 +30847,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site' 
     addresses:
-      - '0xee07f244d1bc5b077296975bd062c930b9ab9ea6'        
+      - '0xee07f244d1bc5b077296975bd062c930b9ab9ea6'  
+      - '0x9d748d8f305b54127c57752716b48f23364ac3cd'
 -
     id: 4356
     name: ether-give.live
@@ -31113,3 +31114,12 @@
     category: Phishing
     subcategory: Anatomia
     description: 'Fake KYC airdrop form directing users to a fake MyEtherWallet - www.myetherwallet.com.signmsg.icu/signmsg.html via bitly.com/2tlCjXH+'           
+-
+    id: 4388
+    name: ethextra.net
+    url: 'http://ethextra.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site' 
+    addresses:
+      - '0xA1FF3Bc95D29C7DFCcD60C2226697b9C9aC0a16b'   
