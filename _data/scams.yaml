@@ -31245,3 +31245,12 @@
     description: 'Trust-Trading site'
     addresses:
       - '0x637336064f49074587a15cFD785D17Ed02Aebf25'       
+-
+    id: 4403
+    name: freeethpromo.com
+    url: 'http://freeethpromo.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0xcf1d62627BAf1a84BeD11E30cf6CDae0f1B5C296'       
