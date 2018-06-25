@@ -620,7 +620,7 @@ function startWebServer() {
                         blocked = true;
                         res.send(JSON.stringify({
                             success: true,
-                            result: 'verified',
+                            result: 'whitelisted',
                             type: 'address',
                             entries: getCache().legiturls.filter(function(verified) {
                                 if ('addresses' in verified) {
