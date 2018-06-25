@@ -529,6 +529,7 @@ function startWebServer() {
         let template = fs.readFileSync('./_layouts/address.html', 'utf8');
         template = template.replace(/{{ address.address }}/g, req.params.address);
         var related = '';
+        var whitelistrelated = '';
         getCache().scams.filter(function(obj) {
             if ('addresses' in obj) {
                 return obj.addresses.includes(req.params.address);
@@ -536,9 +537,26 @@ function startWebServer() {
                 return false;
             }
         }).forEach(function(value) {
+            template = template.replace("{{ address.notification }}", '<div class="ui mini red message"><i class="warning sign icon"></i> Warning: Do not send money to this address</div>')
+            template = template.replace("{{ address.list }}", "<b>Related to the following verified scams</b>: {{ address.scams }}")
             related += "<div class='item'><a href='/scam/" + value.id + "/'>" + value.name + "</div>";
         });
+
+        getCache().legiturls.filter(function(objtwo) {
+            if ('addresses' in objtwo) {
+                return objtwo.addresses.includes(req.params.address.toLowerCase());
+            } else {
+                return false;
+            }
+        }).forEach(function(valuetwo) {
+            template = template.replace("{{ address.notification }}", '<div class="ui mini green message"><i class="warning sign icon"></i> This is a verified address</div>')
+            template = template.replace("{{ address.list }}", "<b>Related to the following verified urls</b>: {{ address.verifieddomains }}")
+            whitelistrelated += "<div class='item'><a href='" + valuetwo.url + "/'>" + valuetwo.name + " - (" + valuetwo.url + ")" + "</div>";
+
+        });
+
         template = template.replace("{{ address.scams }}", '<div class="ui bulleted list">' + related + '</div>');
+        template = template.replace("{{ address.verifieddomains }}", '<div class="ui bulleted list">' + whitelistrelated + '</div>');
         res.send(default_template.replace('{{ content }}', template));
     });
 

@@ -19,6 +19,13 @@ window.addEventListener("load", function() {
                 $("#neutralmessage").html(encodeURI($("input").val().toLowerCase().replace('http://','').replace('https://','').replace('www.','').split(/[/?#]/)[0]) + ' wasn\'t recognized as a malicious domain, nor as verified domain. Be careful!');
                 $("#neutralmessage").html($("#neutralmessage").html());
                 $("#neutral").css('display', 'flex');
+            } else if (result.result == 'whitelisted') {
+                hideEverything();
+                var strLink = '';
+                $("#verifiedmessage").html(encodeURI($("input").val().toLowerCase().replace('http://','').replace('https://','').replace('www.','').split(/[/?#]/)[0]) + ' is a whitelisted address. You can trust it.');
+                strLink = '<a id="details" href="/address/' + encodeURI($("input").val()) + '">Details on this address <i class="chevron right small icon"></i></a>';
+                $("#verifiedmessage").html($("#verifiedmessage").html() + ' ' + strLink);
+                $("#verified").css('display', 'flex');
             } else if (result.result == 'blocked') {
                 hideEverything();
                 blocked = true;
