@@ -31254,3 +31254,17 @@
     description: 'Trust-Trading site'
     addresses:
       - '0xcf1d62627BAf1a84BeD11E30cf6CDae0f1B5C296'       
+-
+    id: 4404
+    name: eos-authority.com
+    url: 'https://eos-authority.comm'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS form phishing for private keys'   
+-
+    id: 4405
+    name: myethrawallet.com
+    url: 'https://myethrawallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet (redirected via https://bitly.com/2yI7J0c+)'     
