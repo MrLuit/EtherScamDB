@@ -31227,3 +31227,21 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet stealing keys'         
+-
+    id: 4401
+    name: ethereum-event.com
+    url: 'http://ethereum-event.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0x6668bD45B15E2775F03e738Ef6257637A9745287' 
+-
+    id: 4402
+    name: ethereum-giveaway.safe-eth.top
+    url: 'http://ethereum-giveaway.safe-eth.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0x637336064f49074587a15cFD785D17Ed02Aebf25'       
