@@ -31132,6 +31132,7 @@
     description: 'Trust-Trading site'
     addresses:
       - '0x336a3f0c4d40b1e39cee72e2e59330daf484848c'
+      - '0xaec2Cc8986BB14C0C604d5Adf725BA33920102bc'
 -
     id: 4390
     name: ethereum-platform.org
