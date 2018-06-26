@@ -31268,3 +31268,75 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet (redirected via https://bitly.com/2yI7J0c+)'     
+-
+    id: 4406
+    name: musk-shares.com
+    url: 'http://musk-shares.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0xFb90119D9e1610dcbC5f3f2e7301aA62e9051916'   
+-
+    id: 4407
+    name: elon-gift.com
+    url: 'http://elon-gift.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0x9c29046A4178d15aA7BE23e6b73Ef0f2E429A9a1'         
+-
+    id: 4408
+    name: elon-gifts.com
+    url: 'http://elon-gifts.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0x9c29046A4178d15aA7BE23e6b73Ef0f2E429A9a1'            
+-
+    id: 4409
+    name: elon-giveaways.com
+    url: 'http://elon-giveaways.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0x9c29046A4178d15aA7BE23e6b73Ef0f2E429A9a1'              
+-
+    id: 4410
+    name: valideth.com
+    url: 'http://valideth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0x4a36Ce6Ad774329A8e5AD7E6A51a7C3Bcf8cAE3B'         
+-
+    id: 4411
+    name: eth-verified.com
+    url: 'http://eth-verified.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0xCc3a7e3c3CDCbA86761De4FB3311b8ADd77761f2' 
+-
+    id: 4412
+    name: grab-eth.com
+    url: 'http://grab-eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0x18B139F86407B1a834da4258F01121ae9F8d06f5'       
+-
+    id: 4413
+    name: post.mediumdotcom.top
+    url: 'http://post.mediumdotcom.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-Trading site (directing to ethe.mediumblog.top/payment.php)'
+    addresses:
+      - '0xaec2Cc8986BB14C0C604d5Adf725BA33920102bc'         
