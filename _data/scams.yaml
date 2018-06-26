@@ -31427,3 +31427,21 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site. Bitcoin address: 1BMWrDwudPBKoFDVJ57K6THR2QAEVkbvok'      
+-
+    id: 4424
+    name: ethgift.net
+    url: 'http://ethgift.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0x33e5d6C0447EA731Fe4e2502a881B90ee991CF3a'    
+-
+    id: 4425
+    name: ethfortune.com
+    url: 'http://ethfortune.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0x37e30FEe740928E8Db15d3daFd544bAAB6B87051'          
