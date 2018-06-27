@@ -31538,5 +31538,26 @@
     name: eosdark.com
     url: 'https://eosdark.com'
     category: Phishing
-    subcategory: MyEtherWallet
+    subcategory: EOS
     description: 'Fake airdrop directing users to a fake MyEtherWallet xn--mytherwaet-y7a46ha.com'       
+-
+    id: 4435
+    name: xn--eosauthorty-jzb.com
+    url: 'https://xn--eosauthorty-jzb.com'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS domain - IDN homograph attack domain - phishing for private keys'       
+-
+    id: 4436
+    name: xn--eosuthority-m7a.com
+    url: 'https://xn--eosuthority-m7a.com'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS domain - IDN homograph attack domain - phishing for private keys'      
+-
+    id: 4437
+    name: xn--eosauthorty-kcb.com
+    url: 'https://xn--eosauthorty-kcb.com'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS domain - IDN homograph attack domain - phishing for private keys'      
