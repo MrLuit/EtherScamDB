@@ -31448,6 +31448,13 @@
       - '0x37e30FEe740928E8Db15d3daFd544bAAB6B87051'          
 -
     id: 4426
+    name: wallet.eostoolkits.io
+    url: 'https://wallet.eostoolkits.io'
+    category: Phishing
+    subcategory: 'EOS web wallet'
+    description: 'Purports to offer an EOS web wallet. Stealing private keys with POST /eot/store.php?mapza=public&mapza2=private&action1=1'
+-
+    id: 4427
     name: telegram.market
     url: 'http://telegram.market'
     category: Phishing
