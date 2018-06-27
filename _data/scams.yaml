@@ -30907,7 +30907,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site' 
     addresses:
-      - '0x83D7Cb758C30d067e99E9f52F9e4f987101aB888'      
+      - '0x83D7Cb758C30d067e99E9f52F9e4f987101aB888' 
+      - '0x224B9f4666472682f3e805f4dC1e0Fc39B7B96fB'
 -
     id: 4363
     name: collectionseth.com
@@ -31451,4 +31452,13 @@
     url: 'https://wallet.eostoolkits.io'
     category: Phishing
     subcategory: 'EOS web wallet'
-    description: 'Purports to offer an EOS web wallet'
+    description: 'Purports to offer an EOS web wallet. Stealing private keys with POST /eot/store.php?mapza=public&mapza2=private&action1=1'
+-
+    id: 4427
+    name: telegram.market
+    url: 'http://telegram.market'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'
+    addresses:
+      - '0xbf0A4A57D66eC0eB94dce2fd0A4aA57f8B0a2530'
