@@ -28090,7 +28090,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
     addresses:
-      - '0x5526dc369bBE6B9B2c5e64BB368C1d3Ccfa58271'         
+      - '0x5526dc369bBE6B9B2c5e64BB368C1d3Ccfa58271'    
+      - '0x9b2D66562bea3EefEc436dF0Fee88Dd89CbE547b'
 -
     id: 4012
     name: winplatform.io
@@ -31134,6 +31135,7 @@
     addresses:
       - '0x336a3f0c4d40b1e39cee72e2e59330daf484848c'
       - '0xaec2Cc8986BB14C0C604d5Adf725BA33920102bc'
+      - '0x5208d7f63A089906889A5A9CAed81E9C889E64F8'
 -
     id: 4390
     name: ethereum-platform.org
@@ -31178,7 +31180,8 @@
     subcategory: Trust-Trading
     description: 'Trust-Trading site'
     addresses:
-      - '0x679A8cF6E181EbbcD9d14D0bd9595d8cFB79eCDf'         
+      - '0x679A8cF6E181EbbcD9d14D0bd9595d8cFB79eCDf' 
+      - '0x0e783FdCFd5F3f1AfbB11062315456BD16feE122'
 -
     id: 4395
     name: twitterpromo.info
@@ -31413,7 +31416,8 @@
     subcategory: Trust-Trading
     description: 'Trust-Trading site'
     addresses:
-      - '0x8De51b248261C0e5736b412eF9FaAAf619063b7A'        
+      - '0x8De51b248261C0e5736b412eF9FaAAf619063b7A'   
+      - '0x9Da01DF0eeAE50B30845a1cAFb27E1f75887B887'
 -
     id: 4422
     name: ethsc32821.nichost.ru
@@ -31437,6 +31441,7 @@
     description: 'Trust-Trading site'
     addresses:
       - '0x33e5d6C0447EA731Fe4e2502a881B90ee991CF3a'    
+      - '0xBBFaF27674C2eB5D13eDC58A40081248D13DcFeb'
 -
     id: 4425
     name: ethfortune.com
@@ -31485,3 +31490,53 @@
     description: 'Trust-Trading site'
     addresses:
       - '0x4eFbb8a016B8D28d261FE31be1404cF12f4010a2'     
+-
+    id: 4431
+    name: ethaway.com
+    url: 'http://ethaway.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site (promoted via bit.ly/2Iw0Kae+)'
+    addresses:
+      - '0x1c40D1a1cAc7C586b9509C565296F91c8441aF9f'     
+-
+    id: 4432
+    name: eth.tronbonus.network
+    url: 'http://eth.tronbonus.network'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x0f89B38968065A571eeaf34dD6BF2093fb55c20F'           
+-
+    id: 4431
+    name: eth-gift.net
+    url: 'http://eth-gift.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x73c9B03B1DaDeA685f34b17DdAFBC11BD6327B6D'          
+-
+    id: 4432
+    name: freepromoeth.com
+    url: 'http://freepromoeth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x9e9e3b124370C763d1a4e838069Da3dfDbfcA059'      
+-
+    id: 4433
+    name: xn--mytherwaet-y7a46ha.com
+    url: 'https://xn--mytherwaet-y7a46ha.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet domain - IDN homograph attack domain'      
+-
+    id: 4434
+    name: eosdark.com
+    url: 'https://eosdark.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake airdrop directing users to a fake MyEtherWallet xn--mytherwaet-y7a46ha.com'       
