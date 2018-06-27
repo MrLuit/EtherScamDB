@@ -31451,7 +31451,7 @@
     name: wallet.eostoolkits.io
     url: 'https://wallet.eostoolkits.io'
     category: Phishing
-    subcategory: 'EOS web wallet'
+    subcategory: EOS
     description: 'Purports to offer an EOS web wallet. Stealing private keys with POST /eot/store.php?mapza=public&mapza2=private&action1=1'
 -
     id: 4427
@@ -31462,3 +31462,26 @@
     description: 'Fake Telegram crowdsale site'
     addresses:
       - '0xbf0A4A57D66eC0eB94dce2fd0A4aA57f8B0a2530'
+-
+    id: 4428
+    name: eostoolkits.io
+    url: 'https://eostoolkits.io'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS web wallet. Stealing private keys with POST /store.php'
+-
+    id: 4429
+    name: idiex.market
+    url: 'https://idiex.market'
+    category: Phishing
+    subcategory: IDEX
+    description: 'Fake IDEX market stealing keys'
+-
+    id: 4430
+    name: ethtransfer.online
+    url: 'http://ethtransfer.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust-Trading site'
+    addresses:
+      - '0x4eFbb8a016B8D28d261FE31be1404cF12f4010a2'     
