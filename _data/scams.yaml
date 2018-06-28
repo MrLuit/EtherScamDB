@@ -31573,6 +31573,86 @@
     name: ethereumanniversary.org
     url: 'https://ethereumanniversary.org'
     category: Scamming
-    subcategory: 'Trust trading scam site'
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
     addresses:
-    - '0xAF5bDa8f8b954b03474305FD148c8361CaD4D2cD'
+      - '0xAF5bDa8f8b954b03474305FD148c8361CaD4D2cD'
+-
+    id: 4440
+    name: validbtc.com
+    url: 'https://validbtc.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x973cC36EEF960389b1DdDCE82a9f0663Af61809B'
+-
+    id: 4441
+    name: ethcelebration.io
+    url: 'https://ethcelebration.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x1F319dD5015b1068F102912F970D63B9947E4Cb0'    
+-
+    id: 4442
+    name: crsafepay.com
+    url: 'https://crsafepay.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xa2280DdC79183A0dE9D3D90C63c0E7646874d9E0'     
+-
+    id: 4443
+    name: verify.ethgoldmine.com
+    url: 'https://verify.ethgoldmine.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x6C712Ae4986342773eDC37a9ff7fA90B1b52ca6e'         
+-
+    id: 4444
+    name: ethgoldmine.com
+    url: 'https://ethgoldmine.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x6C712Ae4986342773eDC37a9ff7fA90B1b52ca6e'           
+-
+    id: 4445
+    name: ethcompetition.cx
+    url: 'https://ethcompetition.cx'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x4805944b89e01E4ea49Aa3268916dc68e0862fA0'        
+-
+    id: 4446
+    name: officialgiveaway.info
+    url: 'https://officialgiveaway.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x61cbEf9dB89E5D397Bdde7Ff9095bEDe35d4eeb5'         
+-
+    id: 4447
+    name: ethercontest.site
+    url: 'https://ethercontest.site'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x2D50BffA93d3F93918837677dC7598784e1dA128'     
+-
+    id: 4448
+    name: btcdrop.org
+    url: 'https://btcdrop.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 1CCNs3rQwZbqhECphevW6HvSxVrXx6Bkeq'      
