@@ -31561,3 +31561,18 @@
     category: Phishing
     subcategory: EOS
     description: 'Fake EOS domain - IDN homograph attack domain - phishing for private keys'      
+-
+    id: 4438
+    name: eosauthorithy.com
+    url: 'https://eosauthorithy.com'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS web wallet. Stealing private keys with POST /store.php'
+-
+    id: 4439
+    name: ethereumanniversary.org
+    url: 'https://ethereumanniversary.org'
+    category: Scamming
+    subcategory: 'Trust trading scam site'
+    addresses:
+    - '0xAF5bDa8f8b954b03474305FD148c8361CaD4D2cD'
