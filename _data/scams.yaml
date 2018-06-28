@@ -31656,3 +31656,42 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site. Bitcoin address: 1CCNs3rQwZbqhECphevW6HvSxVrXx6Bkeq'      
+-
+    id: 4449
+    name: myehferwallet.com
+    url: 'https://myehferwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet' 
+-
+    id: 4450
+    name: myetherwallet-signmgs.top
+    url: 'https://myetherwallet-signmgs.top'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'     
+-
+    id: 4451
+    name: eosauthorithy.info
+    url: 'https://eosauthorithy.info'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS site phishing for keys with POST store.php'        
+-
+    id: 4452
+    name: ankr-network.tech
+    url: 'https://ankr-network.tech'
+    category: Phishing
+    subcategory: Ankr
+    description: 'Fake Ankr crowdsale site'
+    addresses:
+      - '0xaAB92EAd3017703f7f9F3f7Ff71F623cd7a8D164'      
+-
+    id: 4453
+    name: ankr-network.com.de
+    url: 'https://ankr-network.com.de'
+    category: Phishing
+    subcategory: Ankr
+    description: 'Fake Ankr crowdsale site'
+    addresses:
+      - '0x3eD46342C7D8D29CA065E8EcA66BBf867A86E897'        
