@@ -372,3 +372,7 @@
     id: 85
     name: BTCManager
     url: 'http://btcmanager.com'
+-
+    id: 86
+    name: Neodium Network   
+    url: 'https://neodium.network'
