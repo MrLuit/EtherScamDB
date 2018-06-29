@@ -31750,6 +31750,13 @@
       - '0x484F46f9Dd32A0147126F07Da4be61efc26eF42A'         
 -
     id: 4461
+    name: myethswallets.info
+    url: 'https://myethswallets.info'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'   
+-
+    id: 4462
     name: eossauthorithy.com
     url: 'https://eossauthorithy.com'
     category: Phishing
