@@ -31748,3 +31748,10 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x484F46f9Dd32A0147126F07Da4be61efc26eF42A'         
+-
+    id: 4461
+    name: eossauthorithy.com
+    url: 'https://eossauthorithy.com'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS site phishing for keys with POST store.php'
