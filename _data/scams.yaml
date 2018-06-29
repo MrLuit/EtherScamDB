@@ -31695,3 +31695,56 @@
     description: 'Fake Ankr crowdsale site'
     addresses:
       - '0x3eD46342C7D8D29CA065E8EcA66BBf867A86E897'        
+-
+    id: 4454
+    name: myetherwallet-singmgs.top
+    url: 'https://myetherwallet-singmgs.top'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'     
+-
+    id: 4455
+    name: myetherwall-et.com 
+    url: 'https://myetherwall-et.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspcious MyEtherWallet domain'         
+-
+    id: 4456
+    name: myethre-wallet.com
+    url: 'https://myethre-wallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspcious MyEtherWallet domain'          
+-
+    id: 4457
+    name: myether-wallet.com
+    url: 'https://myether-wallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspcious MyEtherWallet domain'     
+-
+    id: 4458
+    name: m-yetherwallet.com
+    url: 'https://m-yetherwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspcious MyEtherWallet domain'      
+-
+    id: 4459
+    name: safe.ethincrease.com
+    url: 'https://safe.ethincrease.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x484F46f9Dd32A0147126F07Da4be61efc26eF42A'       
+-
+    id: 4460
+    name: ethincrease.com
+    url: 'https://ethincrease.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x484F46f9Dd32A0147126F07Da4be61efc26eF42A'         
