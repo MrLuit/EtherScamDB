@@ -31755,3 +31755,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'   
+-
+    id: 4462
+    name: eossauthorithy.com
+    url: 'https://eossauthorithy.com'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS site phishing for keys with POST store.php'
