@@ -31762,3 +31762,17 @@
     category: Phishing
     subcategory: EOS
     description: 'Fake EOS site phishing for keys with POST store.php'
+-
+    id: 4463
+    name: electrum.ink
+    url: 'https://electrum.ink'
+    category: Phishing
+    subcategory: Electrum
+    description: 'Fake Electrum site. Hosting https://www.virustotal.com/#/url/d8ba0e021d4bd8aade2d453a0d6254514d12d9a31b2f0231dd0c69eb0b04ccec/detection'
+-
+    id: 4464
+    name: electrumwallet.ml
+    url: 'https://electrumwallet.ml'
+    category: Phishing
+    subcategory: Electrum
+    description: 'Fake Electrum site'    
