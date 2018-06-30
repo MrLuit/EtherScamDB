@@ -31776,3 +31776,39 @@
     category: Phishing
     subcategory: Electrum
     description: 'Fake Electrum site'    
+-
+    id: 4465
+    name: teslaforfree.wordpress.com
+    url: 'https://teslaforfree.wordpress.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x58049616f5cd4b2ccd3654d7015d271a985ff2e7' 
+-
+    id: 4466
+    name: go.ethtake.com
+    url: 'https://go.ethtake.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x1EFD1B1Ee8174B5421786EF0127EA45076307D8d'       
+-
+    id: 4467
+    name: ethtake.com
+    url: 'https://ethtake.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x1EFD1B1Ee8174B5421786EF0127EA45076307D8d'           
+-
+    id: 4468
+    name: instagram.com/vitalik_buterin_official/
+    url: 'https://instagram.com/vitalik_buterin_official/'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x4D021FB560fdC49250A23E4006b584058667BaF7'             
