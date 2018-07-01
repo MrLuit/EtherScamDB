@@ -31812,3 +31812,12 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x4D021FB560fdC49250A23E4006b584058667BaF7'             
+-
+    id: 4469
+    name: ethereumstash.org
+    url: 'https://ethereumstash.org'
+    catergory: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xAF5bDa8f8b954b03474305FD148c8361CaD4D2cD'
