@@ -31882,3 +31882,10 @@
     description: 'Fake Yobit investment site - 2% daily returns'
     addresses:          
       - '0x806466179736c54b62dc6e9f844f02b8d67a49e7'         
+-
+    id: 4478
+    name: eosauthority.website
+    url: 'https://eosauthority.website'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS site phishing for keys with POST store.php'
