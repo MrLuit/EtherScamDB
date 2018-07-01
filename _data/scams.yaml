@@ -31847,3 +31847,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'          
+-
+    id: 4474
+    name: ethereumstash.org
+    url: 'https://ethereumstash.org'
+    catergory: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xAF5bDa8f8b954b03474305FD148c8361CaD4D2cD'
