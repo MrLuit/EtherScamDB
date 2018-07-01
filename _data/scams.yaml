@@ -31812,3 +31812,38 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x4D021FB560fdC49250A23E4006b584058667BaF7'             
+-
+    id: 4469
+    name: idext.market
+    url: 'https://idext.market'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market. Suspected address: 0x31f530b58efa42dab4bd1789184b4cc6b884dea0'   
+-
+    id: 4470
+    name: etherdelta.com.ua
+    url: 'https://etherdelta.com.ua'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta'       
+-
+    id: 4471
+    name: etzerdelta.com
+    url: 'https://etzerdelta.com'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta'         
+-
+    id: 4472
+    name: forkdelta.co
+    url: 'https://forkdelta.co'
+    category: Phishing
+    subcategory: ForkDelta
+    description: 'Fake ForkDelta'        
+-
+    id: 4473
+    name: myeftervvellet.com
+    url: 'https://myeftervvellet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'          
