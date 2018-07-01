@@ -31851,8 +31851,34 @@
     id: 4474
     name: ethereumstash.org
     url: 'https://ethereumstash.org'
-    catergory: Scamming
+    category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
     addresses:
       - '0xAF5bDa8f8b954b03474305FD148c8361CaD4D2cD'
+-
+    id: 4475
+    name: ethtwitter.com
+    url: 'https://ethtwitter.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xa49d41A87F33C1A7B6368c171298266bB193a08f'      
+-
+    id: 4476
+    name: eth2018.net
+    url: 'https://eth2018.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+-
+    id: 4477
+    name: yobit.tilda.ws
+    url: 'https://yobit.tilda.ws'
+    category: Scamming
+    subcategory: Yobit
+    description: 'Fake Yobit investment site - 2% daily returns'
+    addresses:          
+      - '0x806466179736c54b62dc6e9f844f02b8d67a49e7'         
