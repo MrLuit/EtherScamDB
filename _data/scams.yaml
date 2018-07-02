@@ -29019,7 +29019,7 @@
     url: 'http://myethertrust.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: 'Fake MyEtherWallet'        
+    description: 'Fake MyEtherWallet stealing keys with GET /ajax.php?private=xxxx'        
 -
     id: 4130
     name: etheroll.io
@@ -30670,6 +30670,7 @@
     description: 'Trust trading scam site' 
     addresses:
       - '0x680f7bEa6EbA9AdcD0F47A0DE630CfA8F95Bf0ba'   
+      - '0x1b150B01Dd61d54847A1C538Ab9Fe6F1639CaCbc'
 -
     id: 4333
     name: giveawaypromo.org
@@ -31802,7 +31803,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
     addresses:
-      - '0x1EFD1B1Ee8174B5421786EF0127EA45076307D8d'           
+      - '0x1EFD1B1Ee8174B5421786EF0127EA45076307D8d'   
+      - '0x3a85774c434A4cC51fda217CF0e5cAeFD6C0af2F'
 -
     id: 4468
     name: instagram.com/vitalik_buterin_official/
@@ -32027,3 +32029,107 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x4902c6F5fa1a80a2A85BAffeB65EE77e3144c6DA'               
+-
+    id: 4494
+    name: better-hash.com
+    url: 'https://better-hash.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xDd1f234967913C25f176bda85A9825BA880e447E'  
+-
+    id: 4495
+    name: promo.ethtake.com
+    url: 'https://promo.ethtake.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x3a85774c434A4cC51fda217CF0e5cAeFD6C0af2F'    
+-
+    id: 4496
+    name: ethinwallet.com
+    url: 'https://ethinwallet.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xD93A9ebA0b33896C629a7FEBfa2503f7aC0fa3af'          
+-
+    id: 4497
+    name: safepayeth.org
+    url: 'https://safepayeth.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x3bD330F121c493dB91e59d9125968D3Df090A66F'        
+-
+    id: 4498
+    name: eth2018.ethtoeth.com
+    url: 'https://eth2018.ethtoeth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x4F3ca8C465170C0988295e22B5347eF8BB38F2B7'          
+-
+    id: 4499
+    name: secure.ethinwallet.com
+    url: 'https://secure.ethinwallet.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xD93A9ebA0b33896C629a7FEBfa2503f7aC0fa3af'          
+-
+    id: 4500
+    name: giveawaycrypto.info
+    url: 'https://giveawaycrypto.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x633A5b3A807b7532D308eA7B44BB32732aa14a72'          
+-
+    id: 4501
+    name: ethereumpro.net
+    url: 'https://ethereumpro.net'
+    category: Scamming
+    subcategory: Exchange
+    description: 'Fake Ethereum exchange'
+    addresses:
+      - '0xba6f1e885c5A9B97e4a0eb81a5146Ea49F53D5c4'          
+-
+    id: 4502
+    name: hederahashgraph.publictoken.icu
+    url: 'https://hederahashgraph.publictoken.icu'
+    category: Phishing
+    subcategory: HederaHashGraph
+    description: 'Fake Hederahashgraph crowdsale site'
+    addresses:
+      - '0x934a0a1BFE01eEb4415689d8E66e56e3F1f13077'       
+-
+    id: 4503
+    name: publictoken.icu
+    url: 'https://publictoken.icu'
+    category: Phishing
+    subcategory: Orchid
+    description: 'Fake Orchid crowdsale site'
+    addresses:
+      - '0xD3ddAE456004Ed85639A39a9751192e80a967ED4'        
+-
+    id: 4504
+    name: myetherwallet-sign.top
+    url: 'https://myetherwallet-sign.top'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'      
+-
+    id: 4505
+    name: bitfainex.com
+    url: 'https://bitfainex.com'
+    category: Phishing
+    subcategory: Bitfinex
+    description: 'Fake Bitfinex phishing for logins'        
