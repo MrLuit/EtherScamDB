@@ -31898,4 +31898,30 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x2a206bca8ee7c324af1b67ae05373a59a3d4502d'
-    
+-
+    id: 4480
+    name: dapp.doubledouble.io
+    url: 'https://dapp.doubledouble.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x0a4a2413d7c604647c7788fd3564b3c54fe06763'
+-
+    id: 4481
+    name: bitcoinvest.cc
+    url: 'https://bitcoinvest.cc'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xaedc8a3afc62a3deee4eb232bfdb28058bf554d8'      
+-
+    id: 4482
+    name: celebration-eth.com
+    url: 'https://celebration-eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xB6eCd180F5CBB9167147394841D31f94EfF77DBf'          
