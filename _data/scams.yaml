@@ -32200,3 +32200,10 @@
     category: Phishing
     subcategory: Bittrex
     description: 'Fake Bittrex site phishing for logins'        
+-
+    id: 4515
+    name: xrp-address.org
+    url: 'https://xrp-address.org'
+    category: Phishing
+    subcategory: Ripple
+    description: 'Fake XRP web wallet'     
