@@ -30670,6 +30670,7 @@
     description: 'Trust trading scam site' 
     addresses:
       - '0x680f7bEa6EbA9AdcD0F47A0DE630CfA8F95Bf0ba'   
+      - '0x1b150B01Dd61d54847A1C538Ab9Fe6F1639CaCbc'
 -
     id: 4333
     name: giveawaypromo.org
