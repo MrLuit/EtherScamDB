@@ -31873,6 +31873,7 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
     addresses:
+      - '0x4F3ca8C465170C0988295e22B5347eF8BB38F2B7'
 -
     id: 4477
     name: yobit.tilda.ws
