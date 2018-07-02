@@ -32165,3 +32165,38 @@
     category: Phishing
     subcategory: EOS
     description: 'Fake EOS site phishing for keys'       
+-
+    id: 4510
+    name: hitbtc-login.com
+    url: 'https://hitbtc-login.com'
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Fake Hitbtc site phishing for logins'    
+-
+    id: 4511
+    name: promobinance.com
+    url: 'https://promobinance.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance site phishing for logins'       
+-
+    id: 4512
+    name: bittrex-ix.com
+    url: 'https://bittrex-ix.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex site phishing for logins'      
+-
+    id: 4513
+    name: bittrex-app.com
+    url: 'https://bittrex-app.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex site phishing for logins'     
+-
+    id: 4514
+    name: bittrecx.com
+    url: 'https://bittrecx.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex site phishing for logins'        
