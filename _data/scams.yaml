@@ -31889,3 +31889,13 @@
     category: Phishing
     subcategory: EOS
     description: 'Fake EOS site phishing for keys with POST store.php'
+-
+    id: 4479
+    name: celebration-eth.com
+    url: 'http://celebration-eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x2a206bca8ee7c324af1b67ae05373a59a3d4502d'
+    
