@@ -29019,7 +29019,9 @@
     url: 'http://myethertrust.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: 'Fake MyEtherWallet stealing keys with GET /ajax.php?private=xxxx'        
+    description: 'Fake MyEtherWallet stealing keys with GET /ajax.php?private=xxxx'  
+    addresses:
+      - '0x60e4ec00cc96b57792f89ad05eaaa7dca643800b'
 -
     id: 4130
     name: etheroll.io
