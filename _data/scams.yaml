@@ -32135,3 +32135,33 @@
     category: Phishing
     subcategory: Bitfinex
     description: 'Fake Bitfinex phishing for logins'        
+-
+    id: 4506
+    name: pumphash.com
+    url: 'https://pumphash.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xDd1f234967913C25f176bda85A9825BA880e447E' 
+-
+    id: 4507
+    name: tronplay.network
+    url: 'https://tronplay.network'
+    category: Phishing
+    subcategory: Tron
+    description: 'Fake Tron airdrop directing users to a fake MyEtherWallet xn--mytherwalet-srb35c.com/signmsg.html via bitly.com/2K90ioo+'        
+-
+    id: 4508
+    name: xn--mytherwalet-srb35c.com
+    url: 'https://xn--mytherwalet-srb35c.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing users keys'       
+-
+    id: 4509
+    name: eosauthority.bitballoon.com
+    url: 'https://eosauthority.bitballoon.com'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS site phishing for keys'       
