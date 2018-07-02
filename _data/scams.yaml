@@ -31899,6 +31899,7 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x2a206bca8ee7c324af1b67ae05373a59a3d4502d'
+      - '0xB6eCd180F5CBB9167147394841D31f94EfF77DBf'
 -
     id: 4480
     name: dapp.doubledouble.io
@@ -31916,13 +31917,4 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
     addresses:
-      - '0xaedc8a3afc62a3deee4eb232bfdb28058bf554d8'      
--
-    id: 4482
-    name: celebration-eth.com
-    url: 'https://celebration-eth.com'
-    category: Scamming
-    subcategory: Trust-Trading
-    description: 'Trust trading scam site'
-    addresses:
-      - '0xB6eCd180F5CBB9167147394841D31f94EfF77DBf'          
+      - '0xaedc8a3afc62a3deee4eb232bfdb28058bf554d8'            
