@@ -32288,3 +32288,10 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x870c34e732A43e43e6a58dcbf14f4d9b823D4Ca5'            
+-
+    id: 4525
+    name: eosauthority.com.globatalent.network
+    url: 'https://eosauthority.com.globatalent.network'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS site phishing for keys with POST store.php' 
