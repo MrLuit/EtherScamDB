@@ -32207,3 +32207,84 @@
     category: Phishing
     subcategory: Ripple
     description: 'Fake XRP web wallet'     
+-
+    id: 4516
+    name: eth-gift.club
+    url: 'https://eth-gift.club'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xce05a1bbff026ef875e94623753642806c0326d8' 
+-
+    id: 4517
+    name: buterin-giveaway.org
+    url: 'https://buterin-giveaway.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xb8eD23977f745865aBBc645f09fc07f82cFde421'       
+-
+    id: 4518
+    name: freegiveaway-eth.com
+    url: 'https://freegiveaway-eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xa5712afa19d70bb5dd57b91c43fffcaaf077dc3d'        
+-
+    id: 4519
+    name: support.eth3rdyear.io
+    url: 'https://support.eth3rdyear.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xE047FB1968B9143CE4284cA0fafC012B3Aa8568D'         
+-
+    id: 4520
+    name: eth3rdyear.io
+    url: 'https://eth3rdyear.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xE047FB1968B9143CE4284cA0fafC012B3Aa8568D'          
+-
+    id: 4521
+    name: daily-free-eth.net
+    url: 'https://daily-free-eth.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x05f71263372AC109Cd13Faa86d13a0e5830FCEDc'        
+-
+    id: 4522
+    name: eth-news.co
+    url: 'https://eth-news.co'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xE047FB1968B9143CE4284cA0fafC012B3Aa8568D'        
+-
+    id: 4523
+    name: ethpromogive.com
+    url: 'https://ethpromogive.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x457577c30dA16B9597215d630a280D8Ce7694674'             
+-
+    id: 4524
+    name: eth-give.net
+    url: 'https://eth-give.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x870c34e732A43e43e6a58dcbf14f4d9b823D4Ca5'            
