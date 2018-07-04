@@ -32324,3 +32324,64 @@
     description: 'Fake VeChain web wallet'       
     addresses:
       - '0xaf48cfd4eee2b9f185fda12bf0cbbec5b90ed8c9'        
+-
+    id: 4529
+    name: xn--ethrdelta-iib.com 
+    url: 'https://xn--ethrdelta-iib.com'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta - IDN homograph attack domain - stealing keys with POST /store.php' 
+-
+    id: 4530
+    name: ethergiveaway.site 
+    url: 'https://ethergiveaway.site'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xf3Bc09E9c493F7d446df129168894ff521175326'    
+      - '0x408FaC2d2d3D3AC4E356aA188119F5624FD8C9f6'
+-
+    id: 4531
+    name: eosclassic.network
+    url: 'https://eosclassic.network'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOSClassic site harvesting user details'       
+-
+    id: 4532
+    name: eosauthority-kyc.com 
+    url: 'https://eosauthority-kyc.com'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS site phishing for private keys with POST /store.php'         
+-
+    id: 4533
+    name: eoscountdown.network
+    url: 'https://eoscountdown.network'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS site directing users to a fake MyEtherWallet myetherwalletverification.signmsg.work/signmsg.html stealing keys'         
+-
+    id: 4534
+    name: myetherwalletverification.signmsg.work
+    url: 'https://myetherwalletverification.signmsg.work'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'         
+-
+    id: 4535
+    name: idex.market.xn--con-vta.site
+    url: 'https://idex.market.xn--con-vta.site'
+    category: Phishing
+    subcategory: Idex
+    description: 'Suspicious Idex Market domain (idex kit not deployed yet)'     
+-
+    id: 4536
+    name: eth.mediumblog.org
+    url: 'https://eth.mediumblog.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xebe808320931473e5ED488e582F93dEdf8369A77'   
