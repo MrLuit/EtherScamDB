@@ -17287,35 +17287,35 @@
 -
     id: 2682
     name: xn--condesk-0ya.com
-    url: 'xn--condesk-0ya.com'
+    url: 'https://xn--condesk-0ya.com'
     category: Phishing
     subcategory: Coindesk
     description: 'IDN homograph attack'  
 -
     id: 2683
     name: xn--condesk-sfb.com
-    url: 'xn--condesk-sfb.com'
+    url: 'https://xn--condesk-sfb.com'
     category: Phishing
     subcategory: Coindesk
     description: 'Fake coindesk - redirecting to a uplink referral, but IDN homograph attack on the domain'     
 -
     id: 2684
     name: xn--coindsk-vs4c.com
-    url: 'xn--coindsk-vs4c.com'
+    url: 'http://xn--coindsk-vs4c.com'
     category: Phishing
     subcategory: Coindesk
     description: 'Fake coindesk promoting fake SingularityNET'     
 -
     id: 2685
     name: etlherdelta.com
-    url: 'etlherdelta.com'
+    url: 'http://etlherdelta.com'
     category: Phishing
     subcategory: Etherdelta
     description: 'Fake Etherdelta'       
 -
     id: 2686
     name: etlherzero.com
-    url: 'etlherzero.com'
+    url: 'http://etlherzero.com'
     category: Phishing
     subcategory: Etherzero
     description: 'Fake Etherzero'     
@@ -27069,21 +27069,21 @@
 -
     id: 3887
     name: myetherwallet.com.signinverication.signmessage.wbaa.co
-    url: 'myetherwallet.com.signinverication.signmessage.wbaa.co'
+    url: 'http://myetherwallet.com.signinverication.signmessage.wbaa.co'
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'        
 -
     id: 3888
     name: tubig.co
-    url: 'tubig.co'
+    url: 'http://tubig.co'
     category: Phishing
     subcategory: Tubig
     description: 'Fake airdrop - directing users to myetherwallet.com.signinverication.signmessage.carpediem.legal - suspected address: 0x8acacabed9eb9170e72c840e4e21f1fe67f8bfca'       
 -
     id: 3889
     name: myetherwallet.com.signinverication.signmessage.carpediem.legal
-    url: 'myetherwallet.com.signinverication.signmessage.carpediem.legal'
+    url: 'http://myetherwallet.com.signinverication.signmessage.carpediem.legal'
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'     
@@ -27099,7 +27099,7 @@
 -
     id: 3891
     name: xn--myetherwalt-kbb96i.com
-    url: 'xn--myetherwalt-kbb96i.com'
+    url: 'http://xn--myetherwalt-kbb96i.com'
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - IDN homograph attack domain'         
@@ -27151,7 +27151,7 @@
 -
     id: 3897
     name: xn--myethrwalt-zmbt05c.com
-    url: 'xn--myethrwalt-zmbt05c.com'
+    url: 'http://xn--myethrwalt-zmbt05c.com'
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - IDN homograph attack domain'    
@@ -27208,7 +27208,7 @@
 -
     id: 3904
     name: xn--myetherwlet-r7a67j.com
-    url: 'xn--myetherwlet-r7a67j.com'
+    url: 'http://xn--myetherwlet-r7a67j.com'
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - IDN homograph attack domain. Suspected address: 0x984aC2891fbAF6a10038c25cC1bA20E787416cFe'       
@@ -27915,14 +27915,14 @@
 -
     id: 3990
     name: xn--myetherwalet-lcc.net
-    url: 'xn--myetherwalet-lcc.net'
+    url: 'http://xn--myetherwalet-lcc.net'
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Intermdeiate URL at Phishing MyEtherWallet Via Native Web Views on Android, reported by risk.iq'
 -
     id: 3991
     name: xn--myethrwalle-3bb60n.com
-    url: 'xn--myethrwalle-3bb60n.com'
+    url: 'http://xn--myethrwalle-3bb60n.com'
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Intermdeiate URL at Phishing MyEtherWallet Via Native Web Views on Android,reported by risk.iq'   
