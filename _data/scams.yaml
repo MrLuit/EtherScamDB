@@ -32385,3 +32385,48 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xebe808320931473e5ED488e582F93dEdf8369A77'   
+-
+    id: 4537
+    name: trx.claims
+    url: 'https://trx.claims'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xD8D0506ED425364EE126819E8b73Fc3160C39D49'   
+-
+    id: 4538
+    name: coinscrypto.info
+    url: 'https://coinscrypto.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x8D6be44e86eDfFBe294071a886DdfB4147831BAa'         
+-
+    id: 4539
+    name: giveaway.eth-safe.net
+    url: 'https://giveaway.eth-safe.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x407Ce703A92ACC44c40722dc2256E1D6388BcBf4'         
+-
+    id: 4540
+    name: ethtransaction.xyz
+    url: 'https://ethtransaction.xyz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x8a65C8565504a2BDe31F9c09125f5b9D53B2B07e'       
+-
+    id: 4541
+    name: bonus-ethereum.com
+    url: 'https://bonus-ethereum.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x4eFbb8a016B8D28d261FE31be1404cF12f4010a2'           
