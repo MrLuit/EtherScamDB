@@ -531,7 +531,10 @@ function startWebServer() {
         template = template.replace(/{{ address.address }}/g, inputAddr);
         var related = '';
         var whitelistrelated = '';
-        getCache().scams.filter(function(obj) {
+        var scamstatus = false;
+        var legitstatus = false;
+
+        scamstatus = getCache().scams.filter(function(obj) {
             if ('addresses' in obj) {
                 return obj.addresses.includes(inputAddr);
             } else {
@@ -543,18 +546,22 @@ function startWebServer() {
             related += "<div class='item'><a href='/scam/" + value.id + "/'>" + value.name + "</div>";
         });
 
-        getCache().legiturls.filter(function(objtwo) {
+        legitstatus = getCache().legiturls.filter(function(objtwo) {
             if ('addresses' in objtwo) {
                 return objtwo.addresses.includes(inputAddr);
             } else {
                 return false;
             }
         }).forEach(function(valuetwo) {
-            template = template.replace("{{ address.notification }}", '<div class="ui mini green message"><i class="warning sign icon"></i> This is a verified address</div>')
+            template = template.replace("{{ address.notification }}", '<div class="ui mini green message">This is a verified address</div>')
             template = template.replace("{{ address.list }}", "<b>Related to the following verified urls</b>: {{ address.verifieddomains }}")
             whitelistrelated += "<div class='item'><a href='" + valuetwo.url + "/'>" + valuetwo.name + " - (" + valuetwo.url + ")" + "</div>";
-
         });
+
+        if(!legitstatus && !scamstatus) {
+          template = template.replace("{{ address.notification }}", '<div class="ui mini brown message"><i class="warning sign icon"></i>This is an unclassified address. <br> This does not mean that it is safe. It simply means that it hasn\'t been classified.</div>')
+          template = template.replace("{{ address.list }}", "")
+        }
 
         template = template.replace("{{ address.scams }}", '<div class="ui bulleted list">' + related + '</div>');
         template = template.replace("{{ address.verifieddomains }}", '<div class="ui bulleted list">' + whitelistrelated + '</div>');
