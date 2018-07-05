@@ -32430,3 +32430,40 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x4eFbb8a016B8D28d261FE31be1404cF12f4010a2'           
+-
+    id: 4542
+    name: node82.btc-giveaway.info
+    url: 'https://node82.btc-giveaway.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 17ntyMTNJpM6JDdS9M5G2eKgKELuGfzZkr'
+-
+    id: 4543
+    name: texacon-verify-547fcd.bitballoon.com
+    url: 'https://texacon-verify-547fcd.bitballoon.com'
+    category: Phishing
+    subcategory: Texacon
+    description: 'Hosting a fake airdrop directing users to a fake MyEtherWallet xn--myethrwalt-f7a07c4r.com/signmsg.html via bitly.com/2KNuPHT+'     
+-
+    id: 4544
+    name: kinetictokenforms.typeform.com
+    url: 'https://kinetictokenforms.typeform.com'
+    category: Phishing
+    subcategory: Texacon
+    description: 'Hosting a fake airdrop directing users to a fake MyEtherWallet xn--myethrwalt-f7a07c4r.com/signmsg.html via bitly.com/2KNuPHT+'        
+-
+    id: 4545
+    name: etherclaim.org
+    url: 'https://etherclaim.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xeC4208e6786bb63b3a204590a477585DC8152B4B'       
+-
+    id: 4546
+    name: xn--myethrwalt-f7a07c4r.com
+    url: 'https://xn--myethrwalt-f7a07c4r.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'              
