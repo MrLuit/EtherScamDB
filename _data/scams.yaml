@@ -32467,3 +32467,17 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet - IDN homograph attack domain'              
+-
+    id: 4547
+    name: myeleherwaret.com
+    url: 'https://myeleherwaret.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'  
+-
+    id: 4548
+    name: meytherwellat.com
+    url: 'https://meytherwellat.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'      
