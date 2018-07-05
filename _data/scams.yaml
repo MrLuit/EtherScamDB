@@ -32481,3 +32481,39 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'      
+-
+    id: 4549
+    name: claim.ether33.online
+    url: 'https://claim.ether33.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x336a3f0c4d40b1e39cee72e2e59330daf484848c'    
+-
+    id: 4550
+    name: mediumblog.org
+    url: 'https://mediumblog.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x5208d7f63A089906889A5A9CAed81E9C889E64F8'        
+-
+    id: 4551
+    name: swswd.ether33.online
+    url: 'https://swswd.ether33.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x336a3f0c4d40b1e39cee72e2e59330daf484848c'      
+-
+    id: 4552
+    name: eth22.mediumblog.top
+    url: 'https://eth22.mediumblog.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x336a3f0c4d40b1e39cee72e2e59330daf484848c'          
