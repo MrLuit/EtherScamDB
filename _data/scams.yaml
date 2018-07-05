@@ -32634,3 +32634,54 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x21e951767E23b428E8ff023dCE7e6C6923DfCdEb'        
+-
+    id: 4566
+    name: ethereumfoundationgift.tumblr.com
+    url: 'https://ethereumfoundationgift.tumblr.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site linking to ethe.mediumblog.top/payment.php - promoted by twitter userid 1217406895'
+    addresses:
+      - '0x5208d7f63A089906889A5A9CAed81E9C889E64F8'   
+-
+    id: 4567
+    name: btcpramengyve.com
+    url: 'https://btcpramengyve.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 34oxKKuq8g7W23gvDD6K3bpbTVCg1FLYGb'      
+-
+    id: 4568
+    name: claim-btc.org
+    url: 'https://claim-btc.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 1FVwwp98FBKJV8MzSFNN38afSHqiYrxXjs'      
+-
+    id: 4569
+    name: btcbig.org
+    url: 'https://btcbig.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 15HM6dXaUvDdXri3rz44wKv13No57h4TN'      
+-
+    id: 4570
+    name: btcbonus.win
+    url: 'https://btcbonus.win'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 1Co5gnEn1wBTyigfH9udnuUgha27pdETS9'    
+-
+    id: 4571
+    name: btcpromogiveback.com
+    url: 'https://btcpromogiveback.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 3LfmhNmuE3vXuruFG9nHwT9heMYvceahhQ'      
+-
+    id: 4572
+    name: btcpromoget.com
+    url: 'https://btcpromoget.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 34oxKKuq8g7W23gvDD6K3bpbTVCg1FLYGb'      
