@@ -527,12 +527,13 @@ function startWebServer() {
 
     app.get('/address/:address/', function(req, res) { // Serve /address/<address>/
         let template = fs.readFileSync('./_layouts/address.html', 'utf8');
-        template = template.replace(/{{ address.address }}/g, req.params.address);
+        let inputAddr = req.params.address.toLowerCase();
+        template = template.replace(/{{ address.address }}/g, inputAddr);
         var related = '';
         var whitelistrelated = '';
         getCache().scams.filter(function(obj) {
             if ('addresses' in obj) {
-                return obj.addresses.includes(req.params.address);
+                return obj.addresses.includes(inputAddr);
             } else {
                 return false;
             }
@@ -544,7 +545,7 @@ function startWebServer() {
 
         getCache().legiturls.filter(function(objtwo) {
             if ('addresses' in objtwo) {
-                return objtwo.addresses.includes(req.params.address.toLowerCase());
+                return objtwo.addresses.includes(inputAddr);
             } else {
                 return false;
             }
