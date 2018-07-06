@@ -32685,3 +32685,17 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site. Bitcoin address: 34oxKKuq8g7W23gvDD6K3bpbTVCg1FLYGb'      
+-
+    id: 4573
+    name: etherdeltha.info
+    url: 'https://etherdeltha.info'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Suspicious EtherDelta domain'     
+-
+    id: 4574
+    name: forcdelta.com
+    url: 'https://forcdelta.com'
+    category: Phishing
+    subcategory: ForkDelta
+    description: 'Fake ForkDelta stealing keys'        
