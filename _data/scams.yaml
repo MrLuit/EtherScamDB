@@ -32799,3 +32799,24 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xF23A5c61E951b198ADBC59E1a05A729c043D33D5'       
+-
+    id: 4587
+    name: myertnerwalletr.com
+    url: 'https://myertnerwalletr.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'  
+-
+    id: 4588
+    name: myetherweallett.com
+    url: 'https://myetherweallett.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'      
+-
+    id: 4589
+    name: idex.su
+    url: 'https://idex.su'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex stealing keys with GET /store.php?mapza=private_key&action1=1'         
