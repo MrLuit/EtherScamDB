@@ -32883,3 +32883,33 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x8781ebb17371D0c530285433308C02b81b895DAE'           
+-
+    id: 4597
+    name: ethmore.net
+    url: 'https://ethmore.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x0c2cB2d98F9f5ed558D9560D0E38E47187b2Bfe1'    
+-
+    id: 4598
+    name: electrunn.org
+    url: 'https://electrunn.org'
+    category: Phishing
+    subcategory: Electrum
+    description: 'Fake Electrum wallet download site - https://app.any.run/tasks/7b47fc9e-df27-4637-999b-5873f5a96965'         
+-
+    id: 4599
+    name: myehterwallct.com
+    url: 'https://myehterwallct.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet. Stealing keys with GET ____key?key=%7B%22type%22%3A%22Buffer%22%2C%22data%22%3A%5B18%2C52%2C86%2C120%2C158%2C254%2C254%2C254%2C254%2C254%2C254%2C254%2C254%2C254%2C254%2C254%2C254%2C239%2C239%2C239%2C239%2C239%2C239%2C239%2C239%2C23'         
+-
+    id: 4600
+    name: mychterwallet.com
+    url: 'https://mychterwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet.'         
