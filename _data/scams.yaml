@@ -32819,4 +32819,40 @@
     url: 'https://idex.su'
     category: Phishing
     subcategory: Idex
-    description: 'Fake Idex stealing keys with GET /store.php?mapza=private_key&action1=1'         
+    description: 'Fake Idex stealing keys with GET /store.php?mapza=private_key&action1=1'     
+-
+    id: 4590
+    name: ethpromofree.com
+    url: 'https://ethpromofree.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x0E50faC3B2eaEe7BA87B6d644B6c03E946B19f8d'     
+-
+    id: 4591
+    name: buterineth.org
+    url: 'https://buterineth.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x4307e7D64a0F936bB719DDa5CA177F493F846228'    
+-
+    id: 4592
+    name: ethereum-promo.website
+    url: 'https://ethereum-promo.website'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x52b949fb4678c20873135ce6b3727949432af1d7'        
+-
+    id: 4593
+    name: sparkster.com.de
+    url: 'https://sparkster.com.de'
+    category: Phishing
+    subcategory: Sparkster
+    description: 'Fake Sparkster crowdsale site'
+    addresses:
+      - '0xd0aCAc843AAAb4Cef20b322405405E67e90147d1'        
