@@ -3,6 +3,7 @@
     name: MyCrypto
     url: 'https://mycrypto.com'
     featured: true
+    description: Ethereum blockchain interface.
     addresses:
       - '0x4bbeEB066eD09B7AEd07bF39EEe0460DFa261520'
 -
@@ -10,10 +11,11 @@
     name: MetaMask
     url: 'https://metamask.io'
     featured: true
+    description: Ethereum Web3 wallet - browser extension
 -
     id: 3
     name: MyCryptoAPI
-    url: 'https://www.mycryptoapi.com'
+    url: 'https://mycryptoapi.com'
 -
     id: 4
     name: Ethereum
@@ -28,6 +30,7 @@
     name: Ledger Wallet
     featured: true
     url: 'https://ledgerwallet.com'
+    description: Hardware wallet provider
 -
     id: 7
     name: Etherscan
@@ -35,6 +38,7 @@
     featured: true
     addresses:
       - '0x71c7656ec7ab88b098defb751b7401b5f6d8976f'
+    description: Block explorer
 -
     id: 8
     name: EtherID
@@ -50,7 +54,7 @@
 -
     id: 11
     name: ETHNews
-    url: 'https://www.ethnews.com'
+    url: 'https://ethnews.com'
 -
     id: 12
     name: ETHEX
@@ -134,19 +138,19 @@
 -
     id: 32
     name: EthereumNZ
-    url: 'http://www.ethereum.nz'
+    url: 'http://ethereum.nz'
 -
     id: 33
     name: nethereum
-    url: 'http://www.nethereum.com'
+    url: 'http://nethereum.com'
 -
     id: 34
     name: metamas
-    url: 'http://www.metamas.com'
+    url: 'http://metamas.com'
 -
     id: 35
     name: Metabase
-    url: 'http://www.metabase.com'
+    url: 'http://metabase.com'
 -
     id: 36
     name: FundRequest
@@ -154,7 +158,7 @@
 -
     id: 37
     name: Dentacoin
-    url: 'https://www.dentacoin.com'
+    url: 'https://dentacoin.com'
 -
     id: 38
     name: Etherplan
@@ -167,6 +171,7 @@
     id: 40
     name: Bity
     url: 'https://bity.com'
+    description: Provider of crypto swap services
 -
     id: 41
     name: Changelly
@@ -176,15 +181,15 @@
 -
     id: 42
     name: Coinbase
-    url: 'https://www.coinbase.com'
+    url: 'https://coinbase.com'
 -
     id: 43
     name: CryptoCompare
-    url: 'https://www.cryptocompare.com'
+    url: 'https://cryptocompare.com'
 -
     id: 44
     name: Easy Ethereum
-    url: 'https://www.easyeth.com'
+    url: 'https://easyeth.com'
 -
     id: 45
     name: Etherchain
@@ -215,7 +220,7 @@
     id: 51
     name: Kraken
     featured: true
-    url: 'https://www.kraken.com'
+    url: 'https://kraken.com'
 -
     id: 52
     name: MyEtherWallet Knowledge Base
@@ -224,6 +229,7 @@
     id: 53
     name: ShapeShift
     featured: true
+    description: Simple cryptocurrency exchange
     url: 'https://shapeshift.io'
 -
     id: 54
@@ -242,11 +248,13 @@
     id: 57
     name: Bittrex
     featured: true
+    description: Cryptocurrency exchange
     url: 'https://bittrex.com'
 -
     id: 58
     name: Coindash
     featured: true
+    description: Cryptocurrency exchange
     url: 'https://coindash.io'
 -
     id: 59
@@ -277,12 +285,12 @@
     id: 64
     name: KICKICO
     featured: true
-    url: 'https://www.kickico.com'
+    url: 'https://kickico.com'
 -
     id: 65
     name: Monetha
     featured: true
-    url: 'https://www.monetha.io'
+    url: 'https://monetha.io'
 -
     id: 66
     name: Numerai
@@ -312,7 +320,7 @@
     id: 71
     name: TenX
     featured: true
-    url: 'https://www.tenx.tech'
+    url: 'https://tenx.tech'
 -
     id: 72
     name: Ubiq
@@ -322,7 +330,7 @@
     id: 73
     name: Unocoin
     featured: true
-    url: 'https://www.unocoin.com'
+    url: 'https://unocoin.com'
 -
     id: 74
     name: Golem
@@ -335,7 +343,7 @@
 -
     id: 76
     name: Swapy Network
-    url: 'https://www.swapy.network/'
+    url: 'https://swapy.network/'
 -
     id: 77
     name: COPYTRACK
@@ -343,7 +351,8 @@
 -
     id: 78
     name: Parity
-    url: 'https://www.parity.io/'
+    description: Ethereum client
+    url: 'https://parity.io/'
 -
     id: 79
     name: Parity Technologies
@@ -359,20 +368,23 @@
 -
     id: 82
     name: MyEtherWallet
-    url: 'https://www.myetherwallet.com'
+    description: Ethereum blockchain interface
+    url: 'https://myetherwallet.com'
 -
     id: 83
     name: AirSwap
-    url: 'https://www.airswap.io'
+    url: 'https://airswap.io'
 -
     id: 84
     name: IDEX
+    description: Decentralized exchange with centralized order book
     url: 'https://idex.market'
 -
     id: 85
     name: BTCManager
+    description: Crypto news site
     url: 'http://btcmanager.com'
 -
     id: 86
-    name: Neodium Network   
+    name: Neodium Network
     url: 'https://neodium.network'

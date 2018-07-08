@@ -1,0 +1,55 @@
+.ui.bulleted.list {
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.ui.grid {
+  margin-bottom: 0px;
+}
+
+.ui.input {
+  width: 100%;
+}
+
+#actions {
+  text-align: right;
+}
+
+.class_offline {
+	color: green;
+}
+
+.class_active {
+	color: red;
+}
+
+.class_suspended {
+	color: orange;
+}
+
+.class_inactive {
+	color: orange;
+}
+
+#scam-screenshot {
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    width: 450px;
+    height: 300px;
+    border-radius: 1em;
+    border: 2px solid #000;
+}
+#scam-screenshot:hover {
+    cursor: -moz-zoom-in;
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
+    -webkit-filter: grayscale(0);
+    filter: none;
+}
+
+.built {
+	font-size: 8pt;
+	font-style: italic;
+	margin-top: 7%;
+}
