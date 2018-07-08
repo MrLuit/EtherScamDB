@@ -33000,3 +33000,12 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x1597D86B81166CF78bb56AC4Cab48EF81f203d23'        
+-
+    id: 4612
+    name: ethereum-gift.website
+    url: 'https://ethereum-gift.website'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x52b949fb4678c20873135ce6b3727949432af1d7'
