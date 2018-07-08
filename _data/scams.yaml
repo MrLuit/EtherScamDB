@@ -32913,3 +32913,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet.'         
+-
+    id: 4601
+    name: mmyetlherwallett.com
+    url: 'https://mmyetlherwallett.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet.'        
