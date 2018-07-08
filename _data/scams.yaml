@@ -32856,3 +32856,30 @@
     description: 'Fake Sparkster crowdsale site'
     addresses:
       - '0xd0aCAc843AAAb4Cef20b322405405E67e90147d1'        
+-
+    id: 4594
+    name: get.lotsofeth.com
+    url: 'https://get.lotsofeth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x8EEad6A5776dCE374257bF7D4500CfE3C1e362a6'  
+-
+    id: 4595
+    name: lotsofeth.com
+    url: 'https://lotsofeth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x8EEad6A5776dCE374257bF7D4500CfE3C1e362a6'        
+-
+    id: 4596
+    name: ethcountdown.ga
+    url: 'https://ethcountdown.ga'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x8781ebb17371D0c530285433308C02b81b895DAE'           
