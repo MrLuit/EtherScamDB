@@ -33050,3 +33050,49 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site. Bitcoin address: 1c9setx5UAxgSy4VqvksfErUdZn5fa4vQ'     
+-
+    id: 4618
+    name: ethcryptopromos.com
+    url: 'https://ethcryptopromos.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xAaaA3b6D0b72aDE31A99C933a8BF737a4E904527'  
+-
+    id: 4619
+    name: ether-foundation.website
+    url: 'https://ether-foundation.website'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x52b949fb4678c20873135ce6b3727949432af1d7'        
+-
+    id: 4620
+    name: ethofficial.net
+    url: 'https://ethofficial.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x3bD330F121c493dB91e59d9125968D3Df090A66F'         
+-
+    id: 4621
+    name: etherclaim.net
+    url: 'https://etherclaim.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xab5fD091C56A9B801E945A902e986E894e4f407D'        
+-
+    id: 4622
+    name: medium.ethereumfoundation.top
+    url: 'https://medium.ethereumfoundation.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x336a3f0c4d40b1e39cee72e2e59330daf484848c'        
+      - '0xAB7EC7596fc05BC55AFc07008cC06c1193eD6f9a'
