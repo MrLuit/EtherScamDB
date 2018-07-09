@@ -32415,7 +32415,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
     addresses:
-      - '0x407Ce703A92ACC44c40722dc2256E1D6388BcBf4'         
+      - '0x407Ce703A92ACC44c40722dc2256E1D6388BcBf4'   
+      - '0xc1E6720F94a8D73e77A94d16Fb76f7dd6EdfF54C'
 -
     id: 4540
     name: ethtransaction.xyz
