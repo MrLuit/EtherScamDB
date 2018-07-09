@@ -4,7 +4,10 @@
 </div>
 {{ verified.notification }}
 {{ verified.url }}
-{{ verified.description }}<br /><br />
+{{ verified.description }}<br />
+{{ verified.googlethreat }}
+{{ verified.virustotal }}
+{{ verified.phishtank }}<br />
 {{ verified.addresses }}<br /><br />
 
 <div id="disqus_thread"></div>
@@ -12,7 +15,7 @@
 {{ page.built }}
 <script>
 var disqus_config = function () {
-this.page.identifier = "{{ verified.url }}";
+this.page.identifier = "{{ verified.addresses }}";
 };
 (function() {
 var d = document, s = d.createElement('script');

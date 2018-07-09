@@ -499,16 +499,83 @@ function startWebServer() {
         if(typeof scam === "undefined" && typeof verified === "undefined") {
           let template = fs.readFileSync('./_layouts/neutraldomain.html', 'utf8');
           template = template.replace("{{ neutral.name }}", domainpage);
-          template = template.replace("{{ neutral.url }}", '<b>URL</b>: <a id="url" target="_blank" href="/redirect/' + "https://" + encodeURIComponent(domainpage) + '">' + domainpage + '</a><BR>');
+          template = template.replace("{{ neutral.url }}", '<b>URL</b>: <a id="url" target="_blank" href="/redirect/' +  encodeURIComponent("http://" + domainpage) + '">' + "http://" + domainpage + '</a><BR>');
           template = template.replace("{{ neutral.notification }}", '<div class="ui mini brown message"><i class="warning sign icon"></i> This domain has not yet been classified on EtherScamDB </div>')
-          template = template.replace("{{ page.built }}", '<p class="built">This page was built in <b>' + ((new Date()).getTime() - startTime) + '</b>ms, and last updated at <b>' + dateFormat(getCache().updated, "UTC:mmm dd yyyy, HH:MM") + ' UTC</b></p>');
-          res.send(default_template.replace('{{ content }}', template));
+          template = template.replace("{{ neutral.googlethreat }}", "<b>Google Safe Browsing</b>: {{ neutral.googlethreat }}<BR>");
+          template = template.replace("{{ neutral.virustotal }}", "<b>VirusTotal Detections</b>: {{ neutral.virustotal }}<BR>");
+          template = template.replace("{{ neutral.phishtank }}", "<b>Phishtank Detection</b>: {{ neutral.phishtank }}<BR>");
+          if ('Google_SafeBrowsing_API_Key' in config && config.Google_SafeBrowsing_API_Key && domainpage != 'undefined') {
+              var options = {
+                  uri: 'https://safebrowsing.googleapis.com/v4/threatMatches:find?key=' + config.Google_SafeBrowsing_API_Key,
+                  method: 'POST',
+                  json: {
+                      client: {
+                          clientId: "Ethereum Scam Database",
+                          clientVersion: "1.0.0"
+                      },
+                      threatInfo: {
+                          threatTypes: ["THREAT_TYPE_UNSPECIFIED", "MALWARE", "SOCIAL_ENGINEERING", "UNWANTED_SOFTWARE", "POTENTIALLY_HARMFUL_APPLICATION"],
+                          platformTypes: ["ANY_PLATFORM"],
+                          threatEntryTypes: ["THREAT_ENTRY_TYPE_UNSPECIFIED", "URL", "EXECUTABLE"],
+                          threatEntries: [{
+                              "url": domainpage
+                          }]
+                      }
+                  }
+              };
+              request(options, function(error, response, body) {
+                  if (!error && response.statusCode == 200) {
+                      if ('matches' in body && 0 in body.matches) {
+                          template = template.replace("{{ neutral.googlethreat }}", "<span class='class_offline'>Blocked for " + body.matches[0]['threatType'] + '</span>');
+                      } else {
+                          template = template.replace("{{ neutral.googlethreat }}", "<span class='class_active'>Not Blocked</span> <a target='_blank' href='https://safebrowsing.google.com/safebrowsing/report_phish/'><i class='warning sign icon'></i></a>");
+                      }
+                  } else {
+                      template = template.replace("{{ neutral.googlethreat }}", "<span> Could not pull data from Google SafeBroswing</span>");
+                  }
+              });
+          } else {
+              console.log("Warning: No Google Safe Browsing API key found");
+          }
+          if ('Urlscan_API_Key' in config && config.Urlscan_API_Key && domainpage != 'undefined') {
+              var options = {
+                  uri: 'https://www.virustotal.com/vtapi/v2/url/report?apikey=' + config.Urlscan_API_Key + '&resource=http://' + domainpage,
+                  method: 'GET',
+              };
+              request(options, function(error, response, body) {
+                  if (!error && response.statusCode == 200) {
+                      body = JSON.parse(body);
+                      if (body.positives == 0) {
+                          template = template.replace("{{ neutral.virustotal }}", "<span class='class_offline'> " + body.positives + ' / ' + body.total + '</span>');
+                      } else {
+                          template = template.replace("{{ neutral.virustotal }}", "<span class='class_active'> " + body.positives + ' / ' + body.total + "</span> <i class='warning sign icon'></i></a>");
+                      }
+                      if (body.scans.Phishtank.result == "clean site"){
+                          template = template.replace("{{ neutral.phishtank }}", "<span class='class_offline'> " + "Clean Site" + '</span>');
+                      } else {
+                          template = template.replace("{{ neutral.phishtank }}", "<span class='class_active'> " + body.scans.Phishtank.result + '</span>');
+                      }
+                  } else {
+                      template = template.replace("{{ neutral.virustotal }}", "<span> Could not pull data from VirusTotal</span>");
+                      template = template.replace("{{ neutral.phishtank }}", "<span> Could not pull data from Phishtank</span>");
+                  }
+                  template = template.replace("{{ page.built }}", '<p class="built">This page was built in <b>' + ((new Date()).getTime() - startTime) + '</b>ms, and last updated at <b>' + dateFormat(getCache().updated, "UTC:mmm dd yyyy, HH:MM") + ' UTC</b></p>');
+                  res.send(default_template.replace('{{ content }}', template));
+              });
+          } else {
+              console.log("Warning: No VirusTotal API key found");
+              res.send(default_template.replace('{{ content }}', template));
+          }
         }
 
         if(typeof verified != "undefined"){
           let template = fs.readFileSync('./_layouts/verifieddomain.html', 'utf8');
           template = template.replace("{{ verified.name }}", verified.name);
           template = template.replace("{{ verified.notification }}", '<div class="ui mini green message"><i class="warning sign icon"></i> This is a verified domain. </div>')
+          template = template.replace("{{ verified.googlethreat }}", "<b>Google Safe Browsing</b>: {{ verified.googlethreat }}<BR>");
+          template = template.replace("{{ verified.virustotal }}", "<b>VirusTotal Detections</b>: {{ verified.virustotal }}<BR>");
+          template = template.replace("{{ verified.phishtank }}", "<b>Phishtank Detection</b>: {{ verified.phishtank }}<BR>");
+
           if ('description' in verified) {
               template = template.replace("{{ verified.description }}", '<b>Description</b>: ' + verified.description + '<BR>');
           } else {
@@ -524,12 +591,73 @@ function startWebServer() {
               template = template.replace("{{ verified.addresses }}", '');
           }
           if ('url' in verified) {
-              template = template.replace("{{ verified.url }}", '<b>URL</b>: <a id="url" target="_blank" href="' + encodeURIComponent(verified.url) + '">' + verified.url + '</a><BR>');
+              template = template.replace("{{ verified.url }}", '<b>URL</b>: <a id="url" target="_blank" href="' + verified.url + '">' + verified.url + '</a><BR>');
           } else {
               template = template.replace("{{ verified.url }}", '');
           }
-          template = template.replace("{{ page.built }}", '<p class="built">This page was built in <b>' + ((new Date()).getTime() - startTime) + '</b>ms, and last updated at <b>' + dateFormat(getCache().updated, "UTC:mmm dd yyyy, HH:MM") + ' UTC</b></p>');
-          res.send(default_template.replace('{{ content }}', template));
+          if ('Google_SafeBrowsing_API_Key' in config && config.Google_SafeBrowsing_API_Key && domainpage != 'undefined') {
+              var options = {
+                  uri: 'https://safebrowsing.googleapis.com/v4/threatMatches:find?key=' + config.Google_SafeBrowsing_API_Key,
+                  method: 'POST',
+                  json: {
+                      client: {
+                          clientId: "Ethereum Scam Database",
+                          clientVersion: "1.0.0"
+                      },
+                      threatInfo: {
+                          threatTypes: ["THREAT_TYPE_UNSPECIFIED", "MALWARE", "SOCIAL_ENGINEERING", "UNWANTED_SOFTWARE", "POTENTIALLY_HARMFUL_APPLICATION"],
+                          platformTypes: ["ANY_PLATFORM"],
+                          threatEntryTypes: ["THREAT_ENTRY_TYPE_UNSPECIFIED", "URL", "EXECUTABLE"],
+                          threatEntries: [{
+                              "url": domainpage
+                          }]
+                      }
+                  }
+              };
+              request(options, function(error, response, body) {
+                  if (!error && response.statusCode == 200) {
+                      if ('matches' in body && 0 in body.matches) {
+                          template = template.replace("{{ verified.googlethreat }}", "<span class='class_active'>Blocked for " + body.matches[0]['threatType'] + '</span>');
+                      } else {
+                          template = template.replace("{{ verified.googlethreat }}", "<span class='class_offline'>Not Blocked</span> <a target='_blank' href='https://safebrowsing.google.com/safebrowsing/report_phish/'><i class='warning sign icon'></i></a>");
+                      }
+                  } else {
+                      template = template.replace("{{ verified.googlethreat }}", "<span> Could not pull data from Google SafeBroswing</span>");
+                  }
+              });
+          } else {
+              console.log("Warning: No Google Safe Browsing API key found");
+          }
+
+          if ('Urlscan_API_Key' in config && config.Urlscan_API_Key && domainpage != 'undefined') {
+              var options = {
+                  uri: 'https://www.virustotal.com/vtapi/v2/url/report?apikey=' + config.Urlscan_API_Key + '&resource=http://' + domainpage,
+                  method: 'GET',
+              };
+              request(options, function(error, response, body) {
+                  if (!error && response.statusCode == 200) {
+                      body = JSON.parse(body);
+                      if (body.positives == 0) {
+                          template = template.replace("{{ verified.virustotal }}", "<span class='class_offline'> " + body.positives + ' / ' + body.total + '</span>');
+                      } else {
+                          template = template.replace("{{ verified.virustotal }}", "<span class='class_active'> " + body.positives + ' / ' + body.total + "</span> <i class='warning sign icon'></i></a>");
+                      }
+                      if (body.scans.Phishtank.result == "clean site"){
+                          template = template.replace("{{ verified.phishtank }}", "<span class='class_offline'> " + "Clean Site" + '</span>');
+                      } else {
+                          template = template.replace("{{ verified.phishtank }}", "<span class='class_active'> " + body.scans.Phishtank.result + '</span>');
+                      }
+                  } else {
+                      template = template.replace("{{ verified.virustotal }}", "<span> Could not pull data from VirusTotal</span>");
+                      template = template.replace("{{ verified.phishtank }}", "<span> Could not pull data from Phishtank</span>");
+                  }
+                  template = template.replace("{{ page.built }}", '<p class="built">This page was built in <b>' + ((new Date()).getTime() - startTime) + '</b>ms, and last updated at <b>' + dateFormat(getCache().updated, "UTC:mmm dd yyyy, HH:MM") + ' UTC</b></p>');
+                  res.send(default_template.replace('{{ content }}', template));
+              });
+          } else {
+              console.log("Warning: No VirusTotal API key found");
+              res.send(default_template.replace('{{ content }}', template));
+          }
         }
 
         if(typeof scam != "undefined"){
@@ -538,6 +666,9 @@ function startWebServer() {
           template = template.replace("{{ scam.id }}", scam.id);
           template = template.replace("{{ scam.name }}", scam.name);
           template = template.replace("{{ scam.notification }}", '<div class="ui mini red message"><i class="warning sign icon"></i> Warning: This is a scam domain. </div>')
+          template = template.replace("{{ scam.googlethreat }}", "<b>Google Safe Browsing</b>: {{ scam.googlethreat }}<BR>");
+          template = template.replace("{{ scam.virustotal }}", "<b>VirusTotal Detections</b>: {{ scam.virustotal }}<BR>");
+          template = template.replace("{{ scam.phishtank }}", "<b>Phishtank Detection</b>: {{ scam.phishtank }}<BR>");
 
           if ('category' in scam) {
               if ('subcategory' in scam) {
@@ -586,7 +717,6 @@ function startWebServer() {
               actions_text += '<button id="gen" class="ui icon secondary button"><i class="setting icon"></i> Abuse Report</button>';
               actions_text += '<a target="_blank" href="http://web.archive.org/web/*/' + url.parse(scam.url).hostname + '" class="ui icon secondary button"><i class="archive icon"></i> Archive</a>';
               template = template.replace("{{ scam.url }}", '<b>URL</b>: <a id="url" target="_blank" href="/redirect/' + encodeURIComponent(scam.url) + '">' + scam.url + '</a><BR>');
-              template = template.replace("{{ scam.googlethreat }}", "<b>Google Safe Browsing</b>: {{ scam.googlethreat }}<BR>");
               /* Parses data for Metamask*/
               if (fs.existsSync('./_data/metamaskImports.json')) {
                 try {
@@ -634,16 +764,44 @@ function startWebServer() {
                       if ('matches' in body && 0 in body.matches) {
                           template = template.replace("{{ scam.googlethreat }}", "<span class='class_offline'>Blocked for " + body.matches[0]['threatType'] + '</span>');
                       } else {
-                          template = template.replace("{{ scam.googlethreat }}", "<span class='class_active'>Not Blocked</span> <a target='_blank' href='https://safebrowsing.google.com/safebrowsing/report_phish/'><i class='warning sign icon'></i></a>");
+                          template = template.replace("{{ scam.googlethreat }}", "<span class='class_active green'>Not Yet Blocked</span> <a target='_blank' href='https://safebrowsing.google.com/safebrowsing/report_phish/'><i class='warning sign icon'></i></a>");
                       }
+                  } else {
+                      template = template.replace("{{ scam.googlethreat }}", "<span> Could not pull data from Google SafeBroswing</span>");
+                  }
+              });
+          } else {
+              template = template.replace("{{ scam.googlethret }}", "");
+              console.log("Warning: No Google Safe Browsing API key found");
+          }
+          if ('Urlscan_API_Key' in config && config.Urlscan_API_Key && domainpage != 'undefined') {
+              var options = {
+                  uri: 'https://www.virustotal.com/vtapi/v2/url/report?apikey=' + config.Urlscan_API_Key + '&resource=http://' + domainpage,
+                  method: 'GET',
+              };
+              request(options, function(error, response, body) {
+                  if (!error && response.statusCode == 200) {
+                      body = JSON.parse(body);
+                      console.log(body);
+                      if (body.positives == 0) {
+                          template = template.replace("{{ scam.virustotal }}", "<span class='class_offline'> " + body.positives + ' / ' + body.total + '</span>');
+                      } else {
+                          template = template.replace("{{ scam.virustotal }}", "<span class='class_active'> " + body.positives + ' / ' + body.total + "</span> <i class='warning sign icon'></i></a>");
+                      }
+                      if (body.scans.Phishtank.result == "clean site"){
+                          template = template.replace("{{ scam.phishtank }}", "<span class='class_active'> " + "Not Yet Blocked" + '</span>');
+                      } else {
+                          template = template.replace("{{ scam.phishtank }}", "<span class='class_offline'> " + body.scans.Phishtank.result + '</span>');
+                      }
+                  } else {
+                      template = template.replace("{{ scam.virustotal }}", "<span> Could not pull data from VirusTotal</span>");
+                      template = template.replace("{{ scam.phishtank }}", "<span> Could not pull data from Phishtank</span>");
                   }
                   template = template.replace("{{ page.built }}", '<p class="built">This page was built in <b>' + ((new Date()).getTime() - startTime) + '</b>ms, and last updated at <b>' + dateFormat(getCache().updated, "UTC:mmm dd yyyy, HH:MM") + ' UTC</b></p>');
                   res.send(default_template.replace('{{ content }}', template));
               });
           } else {
-              template = template.replace("{{ scam.googlethret }}", "");
-              template = template.replace("{{ page.built }}", '<p class="built">This page was built in <b>' + ((new Date()).getTime() - startTime) + '</b>ms, and last updated at <b>' + dateFormat(getCache().updated, "UTC:mmm dd yyyy, HH:MM") + ' UTC</b></p>');
-              console.log("Warning: No Google Safe Browsing API key found");
+              console.log("Warning: No VirusTotal API key found");
               res.send(default_template.replace('{{ content }}', template));
           }
         }
