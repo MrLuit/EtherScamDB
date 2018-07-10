@@ -1,6 +1,7 @@
 'use strict';
 
 const fs = require('fs-extra');
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const url = require('url');
@@ -13,6 +14,9 @@ const crypto = require("crypto");
 const request = require('request');
 const app = express();
 const config = require('./config');
+const check = require('./_utils/webcheck.js');
+const lookup = require('./_utils/lookup.js');
+
 
 const default_template = fs.readFileSync('./_layouts/default.html', 'utf8');
 let cache;
@@ -486,6 +490,8 @@ function startWebServer() {
         var fuzzylistImports;
         var toleranceImports;
         let domainpage = encodeURIComponent(req.params.domain.replace("www.","").split(/[/?#]/)[0].toLowerCase());
+        var webcheck = new check();
+        var urllookup = new lookup();
         let startTime = (new Date()).getTime();
 
         let scam = getCache().scams.find(function(scam) {
@@ -501,9 +507,30 @@ function startWebServer() {
           template = template.replace("{{ neutral.name }}", domainpage);
           template = template.replace("{{ neutral.url }}", '<b>URL</b>: <a id="url" target="_blank" href="/redirect/' +  encodeURIComponent("http://" + domainpage) + '">' + "http://" + domainpage + '</a><BR>');
           template = template.replace("{{ neutral.notification }}", '<div class="ui mini brown message"><i class="warning sign icon"></i> This domain has not yet been classified on EtherScamDB </div>')
-          template = template.replace("{{ neutral.googlethreat }}", "<b>Google Safe Browsing</b>: {{ neutral.googlethreat }}<BR>");
+          template = template.replace("{{ neutral.googlethreat }}", "<b>Google Safe Browsing Status</b>: {{ neutral.googlethreat }}<BR>");
           template = template.replace("{{ neutral.virustotal }}", "<b>VirusTotal Detections</b>: {{ neutral.virustotal }}<BR>");
-          template = template.replace("{{ neutral.phishtank }}", "<b>Phishtank Detection</b>: {{ neutral.phishtank }}<BR>");
+          template = template.replace("{{ neutral.phishtank }}", "<b>Phishtank Detected?</b>: {{ neutral.phishtank }}<BR>");
+          template = template.replace("{{ neutral.urlscan }}", "<b>Urlscan Scan Results</b>: {{ neutral.urlscan }}<BR>");
+          template = template.replace("{{ neutral.urlscreenshot }}", "<b>Urlscan Screenshot</b>:<BR> {{ neutral.urlscreenshot }}<BR>");
+          webcheck.lookup( url.parse(domainpage).hostname ).then(function(output) {
+            if(output.total == 0){
+              template = template.replace("{{ neutral.urlscan }}", "Not Yet");
+              res.send(default_template.replace('{{ content }}', template));
+            } else if(output.total != 0){
+              //console.log(output);
+              template = template.replace("{{ neutral.urlscan }}", "<a style='text-color:green' href='{{ neutral.urlscanlink }}'>Link</a>");
+              template = template.replace("{{ neutral.urlscanlink }}", output.results[0].result);
+              urllookup.lookup( output.results[0].result ).then(function(lookupout) {
+                if(lookupout.data != null){
+                  template = template.replace("{{ neutral.urlscreenshot }}", "<div id='scam-screenshot'><img src=" + lookupout.task.screenshotURL + " alt='Screenshot of website' style='width: 100%; height: 80%;'></img></div>");
+                  res.send(default_template.replace('{{ content }}', template));
+                } else{
+                  template = template.replace("{{ neutral.urlscreenshot }}", "Screenshot could not be displayed");
+                }
+              })
+            }
+          });
+
           if ('Google_SafeBrowsing_API_Key' in config && config.Google_SafeBrowsing_API_Key && domainpage != 'undefined') {
               var options = {
                   uri: 'https://safebrowsing.googleapis.com/v4/threatMatches:find?key=' + config.Google_SafeBrowsing_API_Key,
@@ -537,9 +564,9 @@ function startWebServer() {
           } else {
               console.log("Warning: No Google Safe Browsing API key found");
           }
-          if ('Urlscan_API_Key' in config && config.Urlscan_API_Key && domainpage != 'undefined') {
+          if ('VirusTotal_API_Key' in config && config.VirusTotal_API_Key && domainpage != 'undefined') {
               var options = {
-                  uri: 'https://www.virustotal.com/vtapi/v2/url/report?apikey=' + config.Urlscan_API_Key + '&resource=http://' + domainpage,
+                  uri: 'https://www.virustotal.com/vtapi/v2/url/report?apikey=' + config.VirusTotal_API_Key + '&resource=http://' + domainpage,
                   method: 'GET',
               };
               request(options, function(error, response, body) {
@@ -560,11 +587,11 @@ function startWebServer() {
                       template = template.replace("{{ neutral.phishtank }}", "<span> Could not pull data from Phishtank</span>");
                   }
                   template = template.replace("{{ page.built }}", '<p class="built">This page was built in <b>' + ((new Date()).getTime() - startTime) + '</b>ms, and last updated at <b>' + dateFormat(getCache().updated, "UTC:mmm dd yyyy, HH:MM") + ' UTC</b></p>');
-                  res.send(default_template.replace('{{ content }}', template));
+                  //res.send(default_template.replace('{{ content }}', template));
               });
           } else {
               console.log("Warning: No VirusTotal API key found");
-              res.send(default_template.replace('{{ content }}', template));
+              //res.send(default_template.replace('{{ content }}', template));
           }
         }
 
@@ -572,9 +599,30 @@ function startWebServer() {
           let template = fs.readFileSync('./_layouts/verifieddomain.html', 'utf8');
           template = template.replace("{{ verified.name }}", verified.name);
           template = template.replace("{{ verified.notification }}", '<div class="ui mini green message"><i class="warning sign icon"></i> This is a verified domain. </div>')
-          template = template.replace("{{ verified.googlethreat }}", "<b>Google Safe Browsing</b>: {{ verified.googlethreat }}<BR>");
+          template = template.replace("{{ verified.googlethreat }}", "<b>Google Safe Browsing Status</b>: {{ verified.googlethreat }}<BR>");
           template = template.replace("{{ verified.virustotal }}", "<b>VirusTotal Detections</b>: {{ verified.virustotal }}<BR>");
-          template = template.replace("{{ verified.phishtank }}", "<b>Phishtank Detection</b>: {{ verified.phishtank }}<BR>");
+          template = template.replace("{{ verified.phishtank }}", "<b>Phishtank Detected</b>: {{ verified.phishtank }}<BR>");
+          template = template.replace("{{ verified.urlscan }}", "<b>Urlscan Scan Results</b>: {{ verified.urlscan }}<BR>");
+          template = template.replace("{{ verified.urlscreenshot }}", "<b>Urlscan Screenshot</b>:<BR> {{ verified.urlscreenshot }}<BR>");
+          webcheck.lookup( url.parse(verified.url).hostname ).then(function(output) {
+            //JSON.parse(output);
+            if(output.total == 0){
+              template = template.replace("{{ verified.urlscan }}", "Not Yet");
+              res.send(default_template.replace('{{ content }}', template));
+            } else if(output.total != 0){
+              console.log(output);
+              template = template.replace("{{ verified.urlscan }}", "<a style='text-color:green' href='{{ verified.urlscanlink }}'>Link</a>");
+              template = template.replace("{{ verified.urlscanlink }}", output.results[0].result);
+              urllookup.lookup( output.results[0].result ).then(function(lookupout) {
+                if(lookupout.data != null){
+                  template = template.replace("{{ verified.urlscreenshot }}", "<div id='scam-screenshot'><img src=" + lookupout.task.screenshotURL + " alt='Screenshot of website' style='width: 100%; height: 80%;'></img></div>");
+                  res.send(default_template.replace('{{ content }}', template));
+                } else{
+                  template = template.replace("{{ verified.urlscreenshot }}", "Screenshot could not be displayed");
+                }
+              })
+            }
+          });
 
           if ('description' in verified) {
               template = template.replace("{{ verified.description }}", '<b>Description</b>: ' + verified.description + '<BR>');
@@ -629,9 +677,9 @@ function startWebServer() {
               console.log("Warning: No Google Safe Browsing API key found");
           }
 
-          if ('Urlscan_API_Key' in config && config.Urlscan_API_Key && domainpage != 'undefined') {
+          if ('VirusTotal_API_Key' in config && config.VirusTotal_API_Key && domainpage != 'undefined') {
               var options = {
-                  uri: 'https://www.virustotal.com/vtapi/v2/url/report?apikey=' + config.Urlscan_API_Key + '&resource=http://' + domainpage,
+                  uri: 'https://www.virustotal.com/vtapi/v2/url/report?apikey=' + config.VirusTotal_API_Key + '&resource=http://' + domainpage,
                   method: 'GET',
               };
               request(options, function(error, response, body) {
@@ -652,11 +700,11 @@ function startWebServer() {
                       template = template.replace("{{ verified.phishtank }}", "<span> Could not pull data from Phishtank</span>");
                   }
                   template = template.replace("{{ page.built }}", '<p class="built">This page was built in <b>' + ((new Date()).getTime() - startTime) + '</b>ms, and last updated at <b>' + dateFormat(getCache().updated, "UTC:mmm dd yyyy, HH:MM") + ' UTC</b></p>');
-                  res.send(default_template.replace('{{ content }}', template));
+                  //res.send(default_template.replace('{{ content }}', template));
               });
           } else {
               console.log("Warning: No VirusTotal API key found");
-              res.send(default_template.replace('{{ content }}', template));
+              //res.send(default_template.replace('{{ content }}', template));
           }
         }
 
@@ -666,9 +714,28 @@ function startWebServer() {
           template = template.replace("{{ scam.id }}", scam.id);
           template = template.replace("{{ scam.name }}", scam.name);
           template = template.replace("{{ scam.notification }}", '<div class="ui mini red message"><i class="warning sign icon"></i> Warning: This is a scam domain. </div>')
-          template = template.replace("{{ scam.googlethreat }}", "<b>Google Safe Browsing</b>: {{ scam.googlethreat }}<BR>");
+          template = template.replace("{{ scam.googlethreat }}", "<b>Google Safe Browsing Status</b>: {{ scam.googlethreat }}<BR>");
           template = template.replace("{{ scam.virustotal }}", "<b>VirusTotal Detections</b>: {{ scam.virustotal }}<BR>");
-          template = template.replace("{{ scam.phishtank }}", "<b>Phishtank Detection</b>: {{ scam.phishtank }}<BR>");
+          template = template.replace("{{ scam.phishtank }}", "<b>Phishtank Detected</b>: {{ scam.phishtank }}<BR>");
+          template = template.replace("{{ scam.urlscan }}", "<b>Urlscan Scan Results</b>: {{ scam.urlscan }}<BR>");
+          template = template.replace("{{ scam.urlscreenshot }}", "<b>Urlscan Screenshot</b>:<BR> {{ scam.urlscreenshot }}<BR>");
+          webcheck.lookup( url.parse(scam.url).hostname ).then(function(output) {
+            if(output.total == 0){
+              template = template.replace("{{ scam.urlscan }}", "Not Yet");
+              res.send(default_template.replace('{{ content }}', template));
+            } else if(output.total != 0){
+              template = template.replace("{{ scam.urlscan }}", "<a style='text-color:green' href='{{ scam.urlscanlink }}'>Link</a>");
+              template = template.replace("{{ scam.urlscanlink }}", output.results[0].result);
+              urllookup.lookup( output.results[0].result ).then(function(lookupout) {
+                if(lookupout.data != null){
+                  template = template.replace("{{ scam.urlscreenshot }}", "<div id='scam-screenshot'><img src=" + lookupout.task.screenshotURL + " alt='Screenshot of website' style='width: 100%; height: 80%;'></img></div>");
+                  res.send(default_template.replace('{{ content }}', template));
+                } else{
+                  template = template.replace("{{ scam.urlscreenshot }}", "Screenshot could not be displayed");
+                }
+              })
+            }
+          })
 
           if ('category' in scam) {
               if ('subcategory' in scam) {
@@ -774,15 +841,14 @@ function startWebServer() {
               template = template.replace("{{ scam.googlethret }}", "");
               console.log("Warning: No Google Safe Browsing API key found");
           }
-          if ('Urlscan_API_Key' in config && config.Urlscan_API_Key && domainpage != 'undefined') {
+          if ('VirusTotal_API_Key' in config && config.VirusTotal_API_Key && domainpage != 'undefined') {
               var options = {
-                  uri: 'https://www.virustotal.com/vtapi/v2/url/report?apikey=' + config.Urlscan_API_Key + '&resource=http://' + domainpage,
+                  uri: 'https://www.virustotal.com/vtapi/v2/url/report?apikey=' + config.VirusTotal_API_Key + '&resource=http://' + domainpage,
                   method: 'GET',
               };
               request(options, function(error, response, body) {
                   if (!error && response.statusCode == 200) {
                       body = JSON.parse(body);
-                      console.log(body);
                       if (body.positives == 0) {
                           template = template.replace("{{ scam.virustotal }}", "<span class='class_offline'> " + body.positives + ' / ' + body.total + '</span>');
                       } else {
@@ -798,11 +864,9 @@ function startWebServer() {
                       template = template.replace("{{ scam.phishtank }}", "<span> Could not pull data from Phishtank</span>");
                   }
                   template = template.replace("{{ page.built }}", '<p class="built">This page was built in <b>' + ((new Date()).getTime() - startTime) + '</b>ms, and last updated at <b>' + dateFormat(getCache().updated, "UTC:mmm dd yyyy, HH:MM") + ' UTC</b></p>');
-                  res.send(default_template.replace('{{ content }}', template));
               });
           } else {
               console.log("Warning: No VirusTotal API key found");
-              res.send(default_template.replace('{{ content }}', template));
           }
         }
 

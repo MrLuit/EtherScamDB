@@ -35,9 +35,8 @@
     filter: gray;
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
-    width: 450px;
-    height: 300px;
-    border-radius: 1em;
+    width: 100%;
+    height: 100%;
     border: 2px solid #000;
 }
 #scam-screenshot:hover {
