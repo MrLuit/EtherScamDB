@@ -33147,3 +33147,10 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x3d6b1ce6bA915bF0001B4fC135E98474Ef6EEFFd'         
+-
+    id: 4629
+    name: idexairdrop.com
+    url: 'https://idexairdrop.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex promotion phishing for keys'
