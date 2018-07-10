@@ -680,11 +680,11 @@ function startWebServer() {
                           template = template.replace("{{ verified.googlethreat }}", "<span class='class_offline'> Not Blocked</span> <a target='_blank' href='https://safebrowsing.google.com/safebrowsing/report_phish/'><i class='warning sign icon'></i></a>");
                       }
                   } else {
-                      template = template.replace("{{ verified.googlethreat }}", "<span class='class_inactive'> Could not pull data from Google SafeBroswing</span>");
+                      template = template.replace("{{ verified.googlethreat }}", "<span class='class_inactive'> Could not pull data from Google SafeBrowsing</span>");
                   }
               });
           } else {
-              template = template.replace("{{ verified.googlethreat }}", "<span class='class_inactive'> Could not pull data from Google SafeBroswing</span>");
+              template = template.replace("{{ verified.googlethreat }}", "<span class='class_inactive'> Could not pull data from Google SafeBrowsing</span>");
               console.log("Warning: No Google Safe Browsing API key found");
           }
 
@@ -857,7 +857,7 @@ function startWebServer() {
                   }
               });
           } else {
-              template = template.replace("{{ scam.googlethreat }}", "<span class='class_inactive'> Could not pull data from Google SafeBroswing</span>");
+              template = template.replace("{{ scam.googlethreat }}", "<span class='class_inactive'> Could not pull data from Google SafeBrowsing</span>");
               console.log("Warning: No Google Safe Browsing API key found");
           }
           if ('VirusTotal_API_Key' in config && config.VirusTotal_API_Key && domainpage != 'undefined') {
