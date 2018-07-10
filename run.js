@@ -499,7 +499,7 @@ function startWebServer() {
         });
 
         let verified = getCache().legiturls.find(function(verified) {
-          return verified.url.replace("https://", '') == domainpage;
+            return verified.url.replace("https://", '') == domainpage;
         });
 
         if(typeof scam === "undefined" && typeof verified === "undefined") {
@@ -509,23 +509,24 @@ function startWebServer() {
           template = template.replace("{{ neutral.notification }}", '<div class="ui mini brown message"><i class="warning sign icon"></i> This domain has not yet been classified on EtherScamDB </div>')
           template = template.replace("{{ neutral.googlethreat }}", "<b>Google Safe Browsing Status</b>: {{ neutral.googlethreat }}<BR>");
           template = template.replace("{{ neutral.virustotal }}", "<b>VirusTotal Detections</b>: {{ neutral.virustotal }}<BR>");
-          template = template.replace("{{ neutral.phishtank }}", "<b>Phishtank Detected?</b>: {{ neutral.phishtank }}<BR>");
+          template = template.replace("{{ neutral.phishtank }}", "<b>Phishtank Detected</b>: {{ neutral.phishtank }}<BR>");
           template = template.replace("{{ neutral.urlscan }}", "<b>Urlscan Scan Results</b>: {{ neutral.urlscan }}<BR>");
           template = template.replace("{{ neutral.urlscreenshot }}", "<b>Urlscan Screenshot</b>:<BR> {{ neutral.urlscreenshot }}<BR>");
-          webcheck.lookup( url.parse(domainpage).hostname ).then(function(output) {
+          webcheck.lookup( domainpage ).then(function(output) {
             if(output.total == 0){
-              template = template.replace("{{ neutral.urlscan }}", "Not Yet");
+              template = template.replace("{{ neutral.urlscan }}", "<span class='class_inactive'> Not Yet</span>");
+              template = template.replace("{{ neutral.urlscreenshot }}", "<span class='class_inactive'> Screenshot could not be displayed</span>");
               res.send(default_template.replace('{{ content }}', template));
             } else if(output.total != 0){
-              //console.log(output);
               template = template.replace("{{ neutral.urlscan }}", "<a style='text-color:green' href='{{ neutral.urlscanlink }}'>Link</a>");
               template = template.replace("{{ neutral.urlscanlink }}", output.results[0].result);
               urllookup.lookup( output.results[0].result ).then(function(lookupout) {
+                //console.log(lookupout);
                 if(lookupout.data != null){
                   template = template.replace("{{ neutral.urlscreenshot }}", "<div id='scam-screenshot'><img src=" + lookupout.task.screenshotURL + " alt='Screenshot of website' style='width: 100%; height: 80%;'></img></div>");
                   res.send(default_template.replace('{{ content }}', template));
                 } else{
-                  template = template.replace("{{ neutral.urlscreenshot }}", "Screenshot could not be displayed");
+                  template = template.replace("{{ neutral.urlscreenshot }}", "<span class='class_inactive'> Screenshot could not be displayed</span>");
                 }
               })
             }
@@ -558,7 +559,7 @@ function startWebServer() {
                           template = template.replace("{{ neutral.googlethreat }}", "<span class='class_active'>Not Blocked</span> <a target='_blank' href='https://safebrowsing.google.com/safebrowsing/report_phish/'><i class='warning sign icon'></i></a>");
                       }
                   } else {
-                      template = template.replace("{{ neutral.googlethreat }}", "<span> Could not pull data from Google SafeBroswing</span>");
+                      template = template.replace("{{ neutral.googlethreat }}", "<span class='class_inactive'> Could not pull data from Google SafeBroswing</span>");
                   }
               });
           } else {
@@ -571,7 +572,8 @@ function startWebServer() {
               };
               request(options, function(error, response, body) {
                   if (!error && response.statusCode == 200) {
-                      body = JSON.parse(body);
+                    body = JSON.parse(body);
+                    if(body.response_code != 0){
                       if (body.positives == 0) {
                           template = template.replace("{{ neutral.virustotal }}", "<span class='class_offline'> " + body.positives + ' / ' + body.total + '</span>');
                       } else {
@@ -582,16 +584,18 @@ function startWebServer() {
                       } else {
                           template = template.replace("{{ neutral.phishtank }}", "<span class='class_active'> " + body.scans.Phishtank.result + '</span>');
                       }
+                    } else{
+                      template = template.replace("{{ neutral.virustotal }}", "<span class='class_inactive'> Could not pull data from VirusTotal</span>");
+                      template = template.replace("{{ neutral.phishtank }}", "<span class='class_inactive'> Could not pull data from Phishtank</span>");
+                    }
                   } else {
-                      template = template.replace("{{ neutral.virustotal }}", "<span> Could not pull data from VirusTotal</span>");
-                      template = template.replace("{{ neutral.phishtank }}", "<span> Could not pull data from Phishtank</span>");
+                      template = template.replace("{{ neutral.virustotal }}", "<span class='class_inactive'> Could not pull data from VirusTotal</span>");
+                      template = template.replace("{{ neutral.phishtank }}", "<span class='class_inactive'> Could not pull data from Phishtank</span>");
                   }
                   template = template.replace("{{ page.built }}", '<p class="built">This page was built in <b>' + ((new Date()).getTime() - startTime) + '</b>ms, and last updated at <b>' + dateFormat(getCache().updated, "UTC:mmm dd yyyy, HH:MM") + ' UTC</b></p>');
-                  //res.send(default_template.replace('{{ content }}', template));
               });
           } else {
               console.log("Warning: No VirusTotal API key found");
-              //res.send(default_template.replace('{{ content }}', template));
           }
         }
 
@@ -605,12 +609,10 @@ function startWebServer() {
           template = template.replace("{{ verified.urlscan }}", "<b>Urlscan Scan Results</b>: {{ verified.urlscan }}<BR>");
           template = template.replace("{{ verified.urlscreenshot }}", "<b>Urlscan Screenshot</b>:<BR> {{ verified.urlscreenshot }}<BR>");
           webcheck.lookup( url.parse(verified.url).hostname ).then(function(output) {
-            //JSON.parse(output);
             if(output.total == 0){
               template = template.replace("{{ verified.urlscan }}", "Not Yet");
               res.send(default_template.replace('{{ content }}', template));
             } else if(output.total != 0){
-              console.log(output);
               template = template.replace("{{ verified.urlscan }}", "<a style='text-color:green' href='{{ verified.urlscanlink }}'>Link</a>");
               template = template.replace("{{ verified.urlscanlink }}", output.results[0].result);
               urllookup.lookup( output.results[0].result ).then(function(lookupout) {
@@ -618,7 +620,7 @@ function startWebServer() {
                   template = template.replace("{{ verified.urlscreenshot }}", "<div id='scam-screenshot'><img src=" + lookupout.task.screenshotURL + " alt='Screenshot of website' style='width: 100%; height: 80%;'></img></div>");
                   res.send(default_template.replace('{{ content }}', template));
                 } else{
-                  template = template.replace("{{ verified.urlscreenshot }}", "Screenshot could not be displayed");
+                  template = template.replace("{{ verified.urlscreenshot }}", "<span class='class_inactive'> Screenshot could not be displayed</span>");
                 }
               })
             }
@@ -665,12 +667,12 @@ function startWebServer() {
               request(options, function(error, response, body) {
                   if (!error && response.statusCode == 200) {
                       if ('matches' in body && 0 in body.matches) {
-                          template = template.replace("{{ verified.googlethreat }}", "<span class='class_active'>Blocked for " + body.matches[0]['threatType'] + '</span>');
+                          template = template.replace("{{ verified.googlethreat }}", "<span class='class_active'> Blocked for " + body.matches[0]['threatType'] + '</span>');
                       } else {
-                          template = template.replace("{{ verified.googlethreat }}", "<span class='class_offline'>Not Blocked</span> <a target='_blank' href='https://safebrowsing.google.com/safebrowsing/report_phish/'><i class='warning sign icon'></i></a>");
+                          template = template.replace("{{ verified.googlethreat }}", "<span class='class_offline'> Not Blocked</span> <a target='_blank' href='https://safebrowsing.google.com/safebrowsing/report_phish/'><i class='warning sign icon'></i></a>");
                       }
                   } else {
-                      template = template.replace("{{ verified.googlethreat }}", "<span> Could not pull data from Google SafeBroswing</span>");
+                      template = template.replace("{{ verified.googlethreat }}", "<span class='class_inactive'> Could not pull data from Google SafeBroswing</span>");
                   }
               });
           } else {
@@ -683,28 +685,31 @@ function startWebServer() {
                   method: 'GET',
               };
               request(options, function(error, response, body) {
-                  if (!error && response.statusCode == 200) {
-                      body = JSON.parse(body);
-                      if (body.positives == 0) {
-                          template = template.replace("{{ verified.virustotal }}", "<span class='class_offline'> " + body.positives + ' / ' + body.total + '</span>');
-                      } else {
-                          template = template.replace("{{ verified.virustotal }}", "<span class='class_active'> " + body.positives + ' / ' + body.total + "</span> <i class='warning sign icon'></i></a>");
-                      }
-                      if (body.scans.Phishtank.result == "clean site"){
-                          template = template.replace("{{ verified.phishtank }}", "<span class='class_offline'> " + "Clean Site" + '</span>');
-                      } else {
-                          template = template.replace("{{ verified.phishtank }}", "<span class='class_active'> " + body.scans.Phishtank.result + '</span>');
-                      }
-                  } else {
-                      template = template.replace("{{ verified.virustotal }}", "<span> Could not pull data from VirusTotal</span>");
-                      template = template.replace("{{ verified.phishtank }}", "<span> Could not pull data from Phishtank</span>");
+                if (!error && response.statusCode == 200) {
+                  body = JSON.parse(body);
+                  if(body.response_code != 0){
+                    if (body.positives == 0) {
+                        template = template.replace("{{ verified.virustotal }}", "<span class='class_offline'> " + body.positives + ' / ' + body.total + '</span>');
+                    } else {
+                        template = template.replace("{{ verified.virustotal }}", "<span class='class_active'> " + body.positives + ' / ' + body.total + "</span> <i class='warning sign icon'></i></a>");
+                    }
+                    if (body.scans.Phishtank.result == "clean site"){
+                        template = template.replace("{{ verified.phishtank }}", "<span class='class_offline'> " + "Clean Site" + '</span>');
+                    } else {
+                        template = template.replace("{{ verified.phishtank }}", "<span class='class_active'> " + body.scans.Phishtank.result + '</span>');
+                    }
+                  } else{
+                    template = template.replace("{{ verified.virustotal }}", "<span class='class_inactive'> Could not pull data from VirusTotal</span>");
+                    template = template.replace("{{ verified.phishtank }}", "<span class='class_inactive'> Could not pull data from Phishtank</span>");
                   }
-                  template = template.replace("{{ page.built }}", '<p class="built">This page was built in <b>' + ((new Date()).getTime() - startTime) + '</b>ms, and last updated at <b>' + dateFormat(getCache().updated, "UTC:mmm dd yyyy, HH:MM") + ' UTC</b></p>');
-                  //res.send(default_template.replace('{{ content }}', template));
+                } else {
+                    template = template.replace("{{ verified.virustotal }}", "<span class='class_inactive'> Could not pull data from VirusTotal</span>");
+                    template = template.replace("{{ verified.phishtank }}", "<span class='class_inactive'> Could not pull data from Phishtank</span>");
+                }
+                template = template.replace("{{ page.built }}", '<p class="built">This page was built in <b>' + ((new Date()).getTime() - startTime) + '</b>ms, and last updated at <b>' + dateFormat(getCache().updated, "UTC:mmm dd yyyy, HH:MM") + ' UTC</b></p>');
               });
           } else {
               console.log("Warning: No VirusTotal API key found");
-              //res.send(default_template.replace('{{ content }}', template));
           }
         }
 
@@ -731,7 +736,7 @@ function startWebServer() {
                   template = template.replace("{{ scam.urlscreenshot }}", "<div id='scam-screenshot'><img src=" + lookupout.task.screenshotURL + " alt='Screenshot of website' style='width: 100%; height: 80%;'></img></div>");
                   res.send(default_template.replace('{{ content }}', template));
                 } else{
-                  template = template.replace("{{ scam.urlscreenshot }}", "Screenshot could not be displayed");
+                  template = template.replace("{{ scam.urlscreenshot }}", "<span class='class_inactive'> Screenshot could not be displayed</span>");
                 }
               })
             }
@@ -829,12 +834,12 @@ function startWebServer() {
               request(options, function(error, response, body) {
                   if (!error && response.statusCode == 200) {
                       if ('matches' in body && 0 in body.matches) {
-                          template = template.replace("{{ scam.googlethreat }}", "<span class='class_offline'>Blocked for " + body.matches[0]['threatType'] + '</span>');
+                          template = template.replace("{{ scam.googlethreat }}", "<span class='class_offline'> Blocked for " + body.matches[0]['threatType'] + '</span>');
                       } else {
-                          template = template.replace("{{ scam.googlethreat }}", "<span class='class_active green'>Not Yet Blocked</span> <a target='_blank' href='https://safebrowsing.google.com/safebrowsing/report_phish/'><i class='warning sign icon'></i></a>");
+                          template = template.replace("{{ scam.googlethreat }}", "<span class='class_active green'> Not Yet Blocked</span> <a target='_blank' href='https://safebrowsing.google.com/safebrowsing/report_phish/'><i class='warning sign icon'></i></a>");
                       }
                   } else {
-                      template = template.replace("{{ scam.googlethreat }}", "<span> Could not pull data from Google SafeBroswing</span>");
+                      template = template.replace("{{ scam.googlethreat }}", "<span class='class_inactive'> Could not pull data from Google SafeBroswing</span>");
                   }
               });
           } else {
@@ -848,20 +853,25 @@ function startWebServer() {
               };
               request(options, function(error, response, body) {
                   if (!error && response.statusCode == 200) {
-                      body = JSON.parse(body);
+                    body = JSON.parse(body);
+                    if(body.response_code != 0){
                       if (body.positives == 0) {
                           template = template.replace("{{ scam.virustotal }}", "<span class='class_offline'> " + body.positives + ' / ' + body.total + '</span>');
                       } else {
                           template = template.replace("{{ scam.virustotal }}", "<span class='class_active'> " + body.positives + ' / ' + body.total + "</span> <i class='warning sign icon'></i></a>");
                       }
                       if (body.scans.Phishtank.result == "clean site"){
-                          template = template.replace("{{ scam.phishtank }}", "<span class='class_active'> " + "Not Yet Blocked" + '</span>');
+                          template = template.replace("{{ scam.phishtank }}", "<span class='class_offline'> " + "Clean Site" + '</span>');
                       } else {
-                          template = template.replace("{{ scam.phishtank }}", "<span class='class_offline'> " + body.scans.Phishtank.result + '</span>');
+                          template = template.replace("{{ scam.phishtank }}", "<span class='class_active'> " + body.scans.Phishtank.result + '</span>');
                       }
+                    } else{
+                      template = template.replace("{{ scam.virustotal }}", "<span class='class_inactive'> Could not pull data from VirusTotal</span>");
+                      template = template.replace("{{ scam.phishtank }}", "<span class='class_inactive'> Could not pull data from Phishtank</span>");
+                    }
                   } else {
-                      template = template.replace("{{ scam.virustotal }}", "<span> Could not pull data from VirusTotal</span>");
-                      template = template.replace("{{ scam.phishtank }}", "<span> Could not pull data from Phishtank</span>");
+                      template = template.replace("{{ scam.virustotal }}", "<span class='class_inactive'> Could not pull data from VirusTotal</span>");
+                      template = template.replace("{{ scam.phishtank }}", "<span class='class_inactive'> Could not pull data from Phishtank</span>");
                   }
                   template = template.replace("{{ page.built }}", '<p class="built">This page was built in <b>' + ((new Date()).getTime() - startTime) + '</b>ms, and last updated at <b>' + dateFormat(getCache().updated, "UTC:mmm dd yyyy, HH:MM") + ' UTC</b></p>');
               });
