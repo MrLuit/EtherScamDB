@@ -581,11 +581,11 @@ function startWebServer() {
                           template = template.replace("{{ neutral.virustotal }}", "<span class='class_active'> " + body.positives + ' / ' + body.total + "</span> <i class='warning sign icon'></i></a>");
                       }
                       if (body.scans.Phishtank.result == "clean site"){
-                          template = template.replace("{{ scam.phishtank }}", "<span class='class_offline'> " + "Clean Site" + '</span>');
+                          template = template.replace("{{ neutral.phishtank }}", "<span class='class_offline'> " + "Clean Site" + '</span>');
                       } else if(body.scans.Phishtank.result == "phish site"){
-                          template = template.replace("{{ scam.phishtank }}", "<span class='class_active'> " + "Phishing Site"+ '</span>');
+                          template = template.replace("{{ neutral.phishtank }}", "<span class='class_active'> " + "Phishing Site"+ '</span>');
                       } else{
-                          template = template.replace("{{ scam.phishtank }}", "<span class='class_active'> " + body.scans.Phishtank.result + '</span>');
+                          template = template.replace("{{ neutral.phishtank }}", "<span class='class_active'> " + body.scans.Phishtank.result + '</span>');
                       }
                     } else{
                       template = template.replace("{{ neutral.virustotal }}", "<span class='class_inactive'> Could not pull data from VirusTotal</span>");
