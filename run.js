@@ -560,10 +560,11 @@ function startWebServer() {
                           template = template.replace("{{ neutral.googlethreat }}", "<span class='class_active'>Not Blocked</span> <a target='_blank' href='https://safebrowsing.google.com/safebrowsing/report_phish/'><i class='warning sign icon'></i></a>");
                       }
                   } else {
-                      template = template.replace("{{ neutral.googlethreat }}", "<span class='class_inactive'> Could not pull data from Google SafeBroswing</span>");
+                      template = template.replace("{{ neutral.googlethreat }}", "<span class='class_inactive'> Could not pull data from Google SafeBrowsing</span>");
                   }
               });
           } else {
+              template = template.replace("{{ neutral.googlethreat }}", "<span class='class_inactive'> Could not pull data from Google SafeBrowsing</span>");
               console.log("Warning: No Google Safe Browsing API key found");
           }
           if ('VirusTotal_API_Key' in config && config.VirusTotal_API_Key && domainpage != 'undefined') {
@@ -598,6 +599,9 @@ function startWebServer() {
                   template = template.replace("{{ page.built }}", '<p class="built">This page was built in <b>' + ((new Date()).getTime() - startTime) + '</b>ms, and last updated at <b>' + dateFormat(getCache().updated, "UTC:mmm dd yyyy, HH:MM") + ' UTC</b></p>');
               });
           } else {
+              template = template.replace("{{ neutral.virustotal }}", "<span class='class_inactive'> Could not pull data from VirusTotal</span>");
+              template = template.replace("{{ neutral.phishtank }}", "<span class='class_inactive'> Could not pull data from Phishtank</span>");
+              template = template.replace("{{ page.built }}", '<p class="built">This page was built in <b>' + ((new Date()).getTime() - startTime) + '</b>ms, and last updated at <b>' + dateFormat(getCache().updated, "UTC:mmm dd yyyy, HH:MM") + ' UTC</b></p>');
               console.log("Warning: No VirusTotal API key found");
           }
         }
@@ -680,6 +684,7 @@ function startWebServer() {
                   }
               });
           } else {
+              template = template.replace("{{ verified.googlethreat }}", "<span class='class_inactive'> Could not pull data from Google SafeBroswing</span>");
               console.log("Warning: No Google Safe Browsing API key found");
           }
 
@@ -715,7 +720,9 @@ function startWebServer() {
                 template = template.replace("{{ page.built }}", '<p class="built">This page was built in <b>' + ((new Date()).getTime() - startTime) + '</b>ms, and last updated at <b>' + dateFormat(getCache().updated, "UTC:mmm dd yyyy, HH:MM") + ' UTC</b></p>');
               });
           } else {
-              console.log("Warning: No VirusTotal API key found");
+            template = template.replace("{{ verified.virustotal }}", "<span class='class_inactive'> Could not pull data from VirusTotal</span>");
+            template = template.replace("{{ verified.phishtank }}", "<span class='class_inactive'> Could not pull data from Phishtank</span>");
+            template = template.replace("{{ page.built }}", '<p class="built">This page was built in <b>' + ((new Date()).getTime() - startTime) + '</b>ms, and last updated at <b>' + dateFormat(getCache().updated, "UTC:mmm dd yyyy, HH:MM") + ' UTC</b></p>');
           }
         }
 
@@ -846,11 +853,11 @@ function startWebServer() {
                           template = template.replace("{{ scam.googlethreat }}", "<span class='class_active green'> Not Blocked Yet</span> <a target='_blank' href='https://safebrowsing.google.com/safebrowsing/report_phish/'><i class='warning sign icon'></i></a>");
                       }
                   } else {
-                      template = template.replace("{{ scam.googlethreat }}", "<span class='class_inactive'> Could not pull data from Google SafeBroswing</span>");
+                      template = template.replace("{{ scam.googlethreat }}", "<span class='class_inactive'> Could not pull data from Google SafeBrowsing</span>");
                   }
               });
           } else {
-              template = template.replace("{{ scam.googlethret }}", "");
+              template = template.replace("{{ scam.googlethreat }}", "<span class='class_inactive'> Could not pull data from Google SafeBroswing</span>");
               console.log("Warning: No Google Safe Browsing API key found");
           }
           if ('VirusTotal_API_Key' in config && config.VirusTotal_API_Key && domainpage != 'undefined') {
@@ -885,6 +892,9 @@ function startWebServer() {
                   template = template.replace("{{ page.built }}", '<p class="built">This page was built in <b>' + ((new Date()).getTime() - startTime) + '</b>ms, and last updated at <b>' + dateFormat(getCache().updated, "UTC:mmm dd yyyy, HH:MM") + ' UTC</b></p>');
               });
           } else {
+              template = template.replace("{{ scam.virustotal }}", "<span class='class_inactive'> Could not pull data from VirusTotal</span>");
+              template = template.replace("{{ scam.phishtank }}", "<span class='class_inactive'> Could not pull data from Phishtank</span>");
+              template = template.replace("{{ page.built }}", '<p class="built">This page was built in <b>' + ((new Date()).getTime() - startTime) + '</b>ms, and last updated at <b>' + dateFormat(getCache().updated, "UTC:mmm dd yyyy, HH:MM") + ' UTC</b></p>');
               console.log("Warning: No VirusTotal API key found");
           }
         }
