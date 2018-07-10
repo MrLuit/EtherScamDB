@@ -33111,3 +33111,30 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'        
+-
+    id: 4625
+    name: plus.google.com/u/1/114056019931432957256/posts/Hk16DTRy8bB
+    url: 'https://plus.google.com/u/1/114056019931432957256/posts/Hk16DTRy8bB'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x8a65C8565504a2BDe31F9c09125f5b9D53B2B07e' 
+-
+    id: 4626
+    name: etherpromotion.org
+    url: 'https://etherpromotion.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x9acBaFedd352644daCE6bC666dF884e69A8102Ee'       
+-
+    id: 4627
+    name: ethpromo-giveaway.atspace.cc
+    url: 'https://ethpromo-giveaway.atspace.cc'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x3d6b1ce6bA915bF0001B4fC135E98474Ef6EEFFd'         
