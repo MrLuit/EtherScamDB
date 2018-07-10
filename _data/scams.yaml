@@ -33116,12 +33116,12 @@
     name: secure.ethsoffer.com
     url: 'https://secure.ethsoffer.com/'
     category: Scamming
-    subcategory: Giveaway
-    description: 'Click here to get yours NOW! To verify yourself, just send 0.5-20ETH and get 5-200ETH immediately sent back to you! Twitter user TezosFoundatin (id 1009426486644756486)'
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site - Click here to get yours NOW! To verify yourself, just send 0.5-20ETH and get 5-200ETH immediately sent back to you! Twitter user TezosFoundatin (id 1009426486644756486)'
     addresses:
       - '0xF7fB243Ff0df4B35f5F7Fa5317c128f16E71cF9A'       
 -
-    id: 4625
+    id: 4626
     name: plus.google.com/u/1/114056019931432957256/posts/Hk16DTRy8bB
     url: 'https://plus.google.com/u/1/114056019931432957256/posts/Hk16DTRy8bB'
     category: Scamming
@@ -33130,7 +33130,7 @@
     addresses:
       - '0x8a65C8565504a2BDe31F9c09125f5b9D53B2B07e' 
 -
-    id: 4626
+    id: 4627
     name: etherpromotion.org
     url: 'https://etherpromotion.org'
     category: Scamming
@@ -33139,7 +33139,7 @@
     addresses:
       - '0x9acBaFedd352644daCE6bC666dF884e69A8102Ee'       
 -
-    id: 4627
+    id: 4628
     name: ethpromo-giveaway.atspace.cc
     url: 'https://ethpromo-giveaway.atspace.cc'
     category: Scamming
