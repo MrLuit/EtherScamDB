@@ -490,6 +490,13 @@ function startWebServer() {
         var fuzzylistImports;
         var toleranceImports;
         let domainpage = encodeURIComponent(req.params.domain.replace("www.","").split(/[/?#]/)[0].toLowerCase());
+
+        if(/^([0-9a-z\.\-]+)$/.exec(domainpage) === null) {
+            let template = fs.readFileSync('./_layouts/404.html', 'utf8');
+            res.send(default_template.replace('{{ content }}', template));
+            return;
+        }
+
         var webcheck = new check();
         var urllookup = new lookup();
         let startTime = (new Date()).getTime();
