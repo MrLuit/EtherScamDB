@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="../../css/neutraldomain.css">
+<div class="ui grid">
+  <div class="eight wide column"><h1>{{ neutral.name }}</h1></div>
+</div>
+{{ neutral.notification }}
+{{ neutral.url }}<br />
+{{ neutral.googlethreat }}
+{{ neutral.virustotal }}
+{{ neutral.phishtank }}
+{{ neutral.urlscan }}<br />
+{{ neutral.urlscreenshot }}
+
+<div id="disqus_thread"></div>
+
+{{ page.built }}
+<script>
+var disqus_config = function () {
+this.page.identifier = "{{ neutral.url }}";
+};
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://ethereum-scam-database.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script src="/js/neutraldomain.js"></script>

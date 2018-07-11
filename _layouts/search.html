@@ -29,7 +29,7 @@
 </div>
 <p id='helpmessage'>Enter a URL, IP address, or ETH address to check whether you can trust it or not.</p>
 <div class="ui action input">
-    <input type="text" placeholder="mycrypto.com / 1.1.1.1 / 0x0000000000000000000000000000000000000000">
+    <input type="text" placeholder="mycrypto.com / 1.1.1.1 / 0x0000000000000000000000000000000000000000" onkeydown="if(event.keyCode==13)$('.ui.button').trigger('click');">
     <button class="ui button">Check</button>
 </div>
 <h1>Trusted domains</h1>

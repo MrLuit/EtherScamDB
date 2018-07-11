@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="../../css/verified.css">
+<div class="ui grid">
+  <div class="eight wide column"><h1>{{ verified.name }}</h1></div>
+</div>
+{{ verified.notification }}
+{{ verified.url }}
+{{ verified.description }}<br />
+{{ verified.googlethreat }}
+{{ verified.virustotal }}
+{{ verified.phishtank }}
+{{ verified.urlscan }}<br />
+{{ verified.addresses }}<br />
+{{ verified.urlscreenshot }}
+
+<div id="disqus_thread"></div>
+
+{{ page.built }}
+<script>
+var disqus_config = function () {
+this.page.identifier = "{{ verified.addresses }}";
+};
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://ethereum-scam-database.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script src="/js/verified.js"></script>
