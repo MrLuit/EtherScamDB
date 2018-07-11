@@ -32834,6 +32834,7 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x0E50faC3B2eaEe7BA87B6d644B6c03E946B19f8d'
+      - '0x1754CebeA65AFE5CfE90eE7D393AdCe1568d2Ba4'
 -
     id: 4591
     name: buterineth.org
@@ -33238,3 +33239,47 @@
     category: Phishing
     subcategory: ForkDelta
     description: 'Fake ForkDelta phishing for keys'         
+-
+    id: 4640
+    name: mediumdotcom.top
+    url: 'https://mediumdotcom.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:    
+      - '0xAB7EC7596fc05BC55AFc07008cC06c1193eD6f9a' 
+-
+    id: 4641
+    name: officialmcafee.github.io
+    url: 'https://officialmcafee.github.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:    
+      - '0x71486336caEd5fA8E37fF8b31B9d67d08FbDC262'   
+-
+    id: 4642
+    name: etherclaims22.top
+    url: 'https://etherclaims22.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:    
+      - '0x336a3f0c4d40b1e39cee72e2e59330daf484848c'     
+      - '0xAB7EC7596fc05BC55AFc07008cC06c1193eD6f9a'
+-
+    id: 4643
+    name: ethereumpromote.wixsite.com
+    url: 'https://ethereumpromote.wixsite.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Promoted by Twitter user id 1012075718405185538. Directed via bit.ly/2sK3rPO+'
+    addresses:    
+      - '0x159CCfFB293a06Aafaec1b254A00522A2bC40639'     
+-
+    id: 4644
+    name: ethgive.club
+    url: 'https://ethgive.club'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Reported trust trading scam site. Reported address: 0x9E91ea0C442dd2B41CC7fE2d54fAEcd34f59C134'      
