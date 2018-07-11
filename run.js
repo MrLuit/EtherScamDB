@@ -484,7 +484,7 @@ function startWebServer() {
         }
     });
 
-    app.get('/domain/:domain/', function(req, res) { // Serve /scam/<id>/
+    app.get('/domain/:domain/', function(req, res) { // Serve /domain/<domain>/
         var whitelistImports;
         var blacklistImports;
         var fuzzylistImports;
