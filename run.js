@@ -304,7 +304,7 @@ function startWebServer() {
             if (scams[i].name.length > 40) {
                 scams[i].name = scams[i].name.substring(0, 40) + '...';
             }
-            table += "<tr><td>" + category + "</td><td>" + subcategory + "</td>" + status + "<td>" + scams[i].name + "</td><td class='center'><a href='/scam/" + scams[i].id + "'><i class='search icon'></i></a></td></tr>";
+            table += "<tr><td>" + category + "</td><td>" + subcategory + "</td>" + status + "<td>" + scams[i].name + "</td><td class='center'><a href='/domain/" + url.parse(scams[i].url).hostname + "'><i class='search icon'></i></a></td></tr>";
         }
         template = template.replace("{{ scams.table }}", table);
 
