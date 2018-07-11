@@ -33154,3 +33154,87 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex promotion phishing for keys'
+-
+    id: 4630
+    name: safe.eth10000.org
+    url: 'https://safe.eth10000.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xF7d0FcD21D7bF83358656BaAEb3C8c1903Aa9614'  
+-
+    id: 4631
+    name: eth10000.org
+    url: 'https://eth10000.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xF7d0FcD21D7bF83358656BaAEb3C8c1903Aa9614'       
+-
+    id: 4632
+    name: gift-eth.org
+    url: 'https://gift-eth.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:    
+      - '0x8BcB21d162Af74718C583E249Ab112B9E6Ad5267'          
+-
+    id: 4633
+    name: ethsoffer.com
+    url: 'https://ethsoffer.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:    
+      - '0xF7fB243Ff0df4B35f5F7Fa5317c128f16E71cF9A'          
+-
+    id: 4634
+    name: ethonline.io
+    url: 'https://ethonline.io'
+    category: Scamming
+    subcategory: Mining
+    description: 'Fake Ethereum web miner'
+    addresses:    
+      - '0xca45363317fb20c899dc1b0eeaa0dd959c2ef723'       
+      - '0x575061697e9ee7ca7b9403f732a04a2618a1978f'         
+      - '0x8d18b40c3b095f2d8ea99bf3a814c7182e2f8efd'         
+      - '0xed0f9fcdf76506242f1b9f499bcc41c60ac99180'         
+      - '0xb916873ded41b00b2691103d2b675bb3818e6c6e'         
+-
+    id: 4635
+    name: meyetherwealletr.site
+    url: 'https://meyetherwealletr.site'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet (not resolved right now)'
+-
+    id: 4636
+    name: myetherwa1et.com
+    url: 'https://myetherwa1et.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'    
+-
+    id: 4637
+    name: xn--myethrwalt-inbe64c.com
+    url: 'https://xn--myethrwalt-inbe64c.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'        
+-
+    id: 4638
+    name: myetherwallet-virificationsign.top 
+    url: 'https://myetherwallet-virificationsign.top'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'       
+-
+    id: 4639
+    name: forkdeltas.net
+    url: 'https://forkdeltas.net'
+    category: Phishing
+    subcategory: ForkDelta
+    description: 'Fake ForkDelta phishing for keys'         
