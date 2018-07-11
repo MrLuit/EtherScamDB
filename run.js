@@ -519,10 +519,23 @@ function startWebServer() {
               template = template.replace("{{ neutral.urlscreenshot }}", "<span class='class_inactive'> Screenshot could not be displayed</span>");
               res.send(default_template.replace('{{ content }}', template));
             } else if(output.total != 0){
+              var interval = 0;
+              var index = 0;
+              for(interval; interval < output.total; interval++){
+                if(url.parse(output.results[interval].task.url).hostname.replace('www.','') == domainpage){
+                  index = interval;
+                  break;
+                } else if(interval == 99){
+                  template = template.replace("{{ neutral.urlscan }}", "<span class='class_inactive'> Link could not be found</span>")
+                  template = template.replace("{{ neutral.urlscanlink }}", "");
+                  template = template.replace("{{ neutral.urlscreenshot }}", "<span class='class_inactive'> Screenshot could not be displayed</span>");
+                  res.send(default_template.replace('{{ content }}', template));
+                  return;
+                }
+              }
               template = template.replace("{{ neutral.urlscan }}", "<a style='text-color:green' href='{{ neutral.urlscanlink }}'>Link</a>");
-              template = template.replace("{{ neutral.urlscanlink }}", output.results[0].result);
-              urllookup.lookup( output.results[0].result ).then(function(lookupout) {
-                //console.log(lookupout);
+              template = template.replace("{{ neutral.urlscanlink }}", 'https://urlscan.io/result/' + output.results[index]._id);
+              urllookup.lookup( output.results[index].result ).then(function(lookupout) {
                 if(lookupout.data != null){
                   template = template.replace("{{ neutral.urlscreenshot }}", "<div id='scam-screenshot'><img src=" + lookupout.task.screenshotURL + " alt='Screenshot of website' style='width: 100%; height: 80%;'></img></div>");
                   res.send(default_template.replace('{{ content }}', template));
@@ -583,7 +596,7 @@ function startWebServer() {
                       }
                       if (body.scans.Phishtank.result == "clean site"){
                           template = template.replace("{{ neutral.phishtank }}", "<span class='class_offline'> " + "Clean Site" + '</span>');
-                      } else if(body.scans.Phishtank.result == "phish site"){
+                      } else if(body.scans.Phishtank.result == "phishing site"){
                           template = template.replace("{{ neutral.phishtank }}", "<span class='class_active'> " + "Phishing Site"+ '</span>');
                       } else{
                           template = template.replace("{{ neutral.phishtank }}", "<span class='class_active'> " + body.scans.Phishtank.result + '</span>');
@@ -621,9 +634,24 @@ function startWebServer() {
               template = template.replace("{{ verified.urlscan }}", "Not Yet");
               res.send(default_template.replace('{{ content }}', template));
             } else if(output.total != 0){
+              var interval = 0;
+              var index = 0;
+              for(interval; interval < output.total; interval++){
+                if(url.parse(output.results[interval].task.url).hostname.replace('www.','') == url.parse(verified.url).hostname){
+                  index = interval;
+                  break;
+                } else if(interval == 99){
+                  index = 0;
+                  template = template.replace("{{ verified.urlscan }}", "<span class='class_inactive'> Link could not be found</span>")
+                  template = template.replace("{{ verified.urlscanlink }}", "");
+                  template = template.replace("{{ verified.urlscreenshot }}", "<span class='class_inactive'> Screenshot could not be displayed</span>");
+                  res.send(default_template.replace('{{ content }}', template));
+                  return;
+                }
+              }
               template = template.replace("{{ verified.urlscan }}", "<a style='text-color:green' href='{{ verified.urlscanlink }}'>Link</a>");
-              template = template.replace("{{ verified.urlscanlink }}", output.results[0].result);
-              urllookup.lookup( output.results[0].result ).then(function(lookupout) {
+              template = template.replace("{{ verified.urlscanlink }}", 'https://urlscan.io/result/' + output.results[index]._id);
+              urllookup.lookup( output.results[index].result ).then(function(lookupout) {
                 if(lookupout.data != null){
                   template = template.replace("{{ verified.urlscreenshot }}", "<div id='scam-screenshot'><img src=" + lookupout.task.screenshotURL + " alt='Screenshot of website' style='width: 100%; height: 80%;'></img></div>");
                   res.send(default_template.replace('{{ content }}', template));
@@ -704,7 +732,7 @@ function startWebServer() {
                     }
                     if (body.scans.Phishtank.result == "clean site"){
                         template = template.replace("{{ verified.phishtank }}", "<span class='class_offline'> " + "Clean Site" + '</span>');
-                    } else if(body.scans.Phishtank.result == "phish site"){
+                    } else if(body.scans.Phishtank.result == "phishing site"){
                         template = template.replace("{{ verified.phishtank }}", "<span class='class_active'> " + "Phishing Site"+ '</span>');
                     } else{
                         template = template.replace("{{ verified.phishtank }}", "<span class='class_active'> " + body.scans.Phishtank.result + '</span>');
@@ -743,9 +771,24 @@ function startWebServer() {
               template = template.replace("{{ scam.urlscan }}", "Not Yet");
               res.send(default_template.replace('{{ content }}', template));
             } else if(output.total != 0){
+              var interval = 0;
+              var index = 0;
+              for(interval; interval < output.total; interval++){
+                if(url.parse(output.results[interval].task.url).hostname.replace('www.','') == url.parse(scam.url).hostname){
+                  index = interval;
+                  break;
+                } else if(interval == 99){
+                  index = 0;
+                  template = template.replace("{{ scam.urlscan }}", "<span class='class_inactive'> Link could not be found</span>")
+                  template = template.replace("{{ scam.urlscanlink }}", "");
+                  template = template.replace("{{ scam.urlscreenshot }}", "<span class='class_inactive'> Screenshot could not be displayed</span>");
+                  res.send(default_template.replace('{{ content }}', template));
+                  return;
+                }
+              }
               template = template.replace("{{ scam.urlscan }}", "<a style='text-color:green' href='{{ scam.urlscanlink }}'>Link</a>");
-              template = template.replace("{{ scam.urlscanlink }}", output.results[0].result);
-              urllookup.lookup( output.results[0].result ).then(function(lookupout) {
+              template = template.replace("{{ scam.urlscanlink }}", 'https://urlscan.io/result/' + output.results[index]._id);
+              urllookup.lookup( output.results[index].result ).then(function(lookupout) {
                 if(lookupout.data != null){
                   template = template.replace("{{ scam.urlscreenshot }}", "<div id='scam-screenshot'><img src=" + lookupout.task.screenshotURL + " alt='Screenshot of website' style='width: 100%; height: 80%;'></img></div>");
                   res.send(default_template.replace('{{ content }}', template));
@@ -876,7 +919,7 @@ function startWebServer() {
                       }
                       if (body.scans.Phishtank.result == "clean site"){
                           template = template.replace("{{ scam.phishtank }}", "<span class='class_active'> " + "Clean Site" + '</span>');
-                      } else if(body.scans.Phishtank.result == "phish site"){
+                      } else if(body.scans.Phishtank.result == "phishing site"){
                           template = template.replace("{{ scam.phishtank }}", "<span class='class_offline'> " + "Phishing Site"+ '</span>');
                       } else{
                           template = template.replace("{{ scam.phishtank }}", "<span class='class_offline'> " + body.scans.Phishtank.result + '</span>');
