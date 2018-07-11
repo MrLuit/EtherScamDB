@@ -540,7 +540,7 @@ function startWebServer() {
                   return;
                 }
               }
-              template = template.replace("{{ neutral.urlscan }}", "<a style='text-color:green' href='{{ neutral.urlscanlink }}'>Link</a>");
+              template = template.replace("{{ neutral.urlscan }}", "<a style='text-color:green' href='{{ neutral.urlscanlink }}' target='_blank'>Link</a>");
               template = template.replace("{{ neutral.urlscanlink }}", 'https://urlscan.io/result/' + output.results[index]._id);
               urllookup.lookup( output.results[index].result ).then(function(lookupout) {
                 if(lookupout.data != null){
@@ -656,7 +656,7 @@ function startWebServer() {
                   return;
                 }
               }
-              template = template.replace("{{ verified.urlscan }}", "<a style='text-color:green' href='{{ verified.urlscanlink }}'>Link</a>");
+              template = template.replace("{{ verified.urlscan }}", "<a style='text-color:green' href='{{ verified.urlscanlink }}'  target='_blank'>Link</a>");
               template = template.replace("{{ verified.urlscanlink }}", 'https://urlscan.io/result/' + output.results[index]._id);
               urllookup.lookup( output.results[index].result ).then(function(lookupout) {
                 if(lookupout.data != null){
@@ -793,7 +793,7 @@ function startWebServer() {
                   return;
                 }
               }
-              template = template.replace("{{ scam.urlscan }}", "<a style='text-color:green' href='{{ scam.urlscanlink }}'>Link</a>");
+              template = template.replace("{{ scam.urlscan }}", "<a style='text-color:green' href='{{ scam.urlscanlink }}'  target='_blank'>Link</a>");
               template = template.replace("{{ scam.urlscanlink }}", 'https://urlscan.io/result/' + output.results[index]._id);
               urllookup.lookup( output.results[index].result ).then(function(lookupout) {
                 if(lookupout.data != null){
