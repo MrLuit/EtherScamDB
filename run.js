@@ -484,12 +484,19 @@ function startWebServer() {
         }
     });
 
-    app.get('/domain/:domain/', function(req, res) { // Serve /scam/<id>/
+    app.get('/domain/:domain/', function(req, res) { // Serve /domain/<domain>/
         var whitelistImports;
         var blacklistImports;
         var fuzzylistImports;
         var toleranceImports;
         let domainpage = encodeURIComponent(req.params.domain.replace("www.","").split(/[/?#]/)[0].toLowerCase());
+
+        if(/^([0-9a-z\.\-]+)$/.exec(domainpage) === null) {
+            let template = fs.readFileSync('./_layouts/404.html', 'utf8');
+            res.send(default_template.replace('{{ content }}', template));
+            return;
+        }
+
         var webcheck = new check();
         var urllookup = new lookup();
         let startTime = (new Date()).getTime();
@@ -533,7 +540,7 @@ function startWebServer() {
                   return;
                 }
               }
-              template = template.replace("{{ neutral.urlscan }}", "<a style='text-color:green' href='{{ neutral.urlscanlink }}'>Link</a>");
+              template = template.replace("{{ neutral.urlscan }}", "<a style='text-color:green' href='{{ neutral.urlscanlink }}' target='_blank'>Link</a>");
               template = template.replace("{{ neutral.urlscanlink }}", 'https://urlscan.io/result/' + output.results[index]._id);
               urllookup.lookup( output.results[index].result ).then(function(lookupout) {
                 if(lookupout.data != null){
@@ -649,7 +656,7 @@ function startWebServer() {
                   return;
                 }
               }
-              template = template.replace("{{ verified.urlscan }}", "<a style='text-color:green' href='{{ verified.urlscanlink }}'>Link</a>");
+              template = template.replace("{{ verified.urlscan }}", "<a style='text-color:green' href='{{ verified.urlscanlink }}'  target='_blank'>Link</a>");
               template = template.replace("{{ verified.urlscanlink }}", 'https://urlscan.io/result/' + output.results[index]._id);
               urllookup.lookup( output.results[index].result ).then(function(lookupout) {
                 if(lookupout.data != null){
@@ -786,7 +793,7 @@ function startWebServer() {
                   return;
                 }
               }
-              template = template.replace("{{ scam.urlscan }}", "<a style='text-color:green' href='{{ scam.urlscanlink }}'>Link</a>");
+              template = template.replace("{{ scam.urlscan }}", "<a style='text-color:green' href='{{ scam.urlscanlink }}'  target='_blank'>Link</a>");
               template = template.replace("{{ scam.urlscanlink }}", 'https://urlscan.io/result/' + output.results[index]._id);
               urllookup.lookup( output.results[index].result ).then(function(lookupout) {
                 if(lookupout.data != null){
