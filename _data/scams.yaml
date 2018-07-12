@@ -33365,3 +33365,33 @@
     description: 'Trust trading scam site'
     addresses:    
       - '0xfDFf5c88B7ce9b45037C360C380904e780DE17A4'         
+-
+    id: 4656
+    name: bittrexl.com
+    url: 'https://bittrexl.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex phishing for logins'     
+-
+    id: 4657
+    name: idex.xyz
+    url: 'https://idex.xyz'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for keys with POST /sendkey.php'      
+-
+    id: 4658
+    name: teslagifts.tumblr.com
+    url: 'https://teslagifts.tumblr.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Promoting trust trading scam sites directing users to http://etherclaims22.top/payment.php'
+    addresses:    
+      - '0xAB7EC7596fc05BC55AFc07008cC06c1193eD6f9a'     
+-
+    id: 4659
+    name: brinannce.com
+    url: 'https://brinannce.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance phishing for logins'         
