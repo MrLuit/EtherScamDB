@@ -21,7 +21,8 @@ let new_cache = {
     'whitelist': [],
     'inactives': [],
     'actives': [],
-    'updated': (new Date()).getTime()
+    'updated': (new Date()).getTime(),
+    'refreshed': (new Date()).getTime()
 };
 
 if (!fs.existsSync('_cache')) {

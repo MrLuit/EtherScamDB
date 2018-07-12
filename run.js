@@ -27,7 +27,7 @@ var older_cache_time;
 
 /* See if there's an up-to-date cache, otherwise run `update.js` to create one. */
 function getCache(callback = false) {
-    if (!fs.existsSync('_cache/cache.json')) {
+    if (!fs.existsSync('_cache/cache.json')) { //If cache doesn't exist, create one
         console.log("No cache file found. Creating one...");
         if (callback) {
             if (!updating_now) {
@@ -41,7 +41,7 @@ function getCache(callback = false) {
                     updating_now = false;
                     cache = JSON.parse(fs.readFileSync('_cache/cache.json'));
                     clearInterval(checkDone);
-                    console.log("Successfully updated cache!");
+                    console.log("Successfully refreshed cache!");
                     callback();
                 }
             }, 1000);
@@ -50,27 +50,43 @@ function getCache(callback = false) {
                 detached: true
             });
         }
-    } else if (!cache) {
+    } else if (!cache) { //If cache variable doesn't exist, initialize it
         cache = JSON.parse(fs.readFileSync('_cache/cache.json'));
         if (callback) {
             callback();
         }
-    } else if ((new Date().getTime() - cache.updated) < config.cache_refreshing_interval) {
+    } else if (((new Date().getTime() - cache.refreshed) < config.cache_refreshing_interval) && ((new Date().getTime() - cache.refreshed) < config.cache_add_interval)) { //If cache doesn't need to be refreshed or updated, return cache
         return cache;
-    } else if ((new Date().getTime() - cache.updated) >= config.cache_refreshing_interval) {
+    } else if ((new Date().getTime() - cache.refreshed) >= config.cache_refreshing_interval) { //If cache needs to be refreshed, refresh it
         if (!updating_now) {
             updating_now = true;
-            older_cache_time = cache.updated;
+            older_cache_time = cache.refreshed;
             spawn('node', ['update.js'], {
                 detached: true
             });
             var checkDone2 = setInterval(function() {
-                if (cache.updated != older_cache_time) {
+                if (cache.refreshed != older_cache_time) {
                     clearInterval(checkDone2);
-                    console.log("Successfully updated cache!");
+                    console.log("Successfully Refreshed cache!");
                     updating_now = false;
                 }
             }, 1000);
+        }
+        return cache;
+    } else if((new Date().getTime() - cache.updated) >= config.cache_add_interval) {
+        if (!updating_now) {
+          updating_now = true;
+          older_cache_time = cache.updated;
+          spawn('node', ['quickadd.js'], {
+              detached: true
+          });
+          var checkDone2 = setInterval(function() {
+              if (cache.updated != older_cache_time) {
+                  clearInterval(checkDone2);
+                  console.log("Successfully updated cache!");
+                  updating_now = false;
+              }
+          }, 1000);
         }
         return cache;
     }
@@ -1274,7 +1290,7 @@ if (!fs.existsSync('config.js')) {
                 }
             });
         }
-    }, 60000);
+    }, 60 * 1000);
     getCache(function() {
         startWebServer();
     });
