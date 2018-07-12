@@ -31298,6 +31298,7 @@
     description: 'Trust-Trading site'
     addresses:
       - '0x9c29046A4178d15aA7BE23e6b73Ef0f2E429A9a1'
+      - '0x28906B932cf61c99EfC12615F4852Bd2d512D8a2'
 -
     id: 4408
     name: elon-gifts.com
@@ -33285,13 +33286,124 @@
     description: 'Reported trust trading scam site. Reported address: 0x9E91ea0C442dd2B41CC7fE2d54fAEcd34f59C134'      
 -
     id: 4645
+    name: myehtrerwallett.com
+    url: 'https://myehtrerwallett.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'  
+-
+    id: 4646
+    name: miyetherwallet.com
+    url: 'https://miyetherwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'      
+-
+    id: 4647
+    name: myethierwallet.com
+    url: 'https://myethierwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'        
+-
+    id: 4648
+    name: xn--myetherwalet-yk6f.com
+    url: 'https://xn--myetherwalet-yk6f.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain (not resolved yet)'           
+-
+    id: 4649
+    name: omisegoclassic.com
+    url: 'https://omisegoclassic.com'
+    category: Phishing
+    subcategory: OmiseGo
+    description: 'Fake OmiseGo KYC form directing users to a fake MyEtherWallet myetherwallet.com.api.signmsgs.icu/signmsg.html via bit.ly/2L6rJi4+. Reported address: 0x4287C8Db304F036068520292Fe263B9412F4D30d'      
+-
+    id: 4650
+    name: jenniferaustin.typeform.com
+    url: 'https://jenniferaustin.typeform.com'
+    category: Phishing
+    subcategory: OmiseGo
+    description: 'Fake OmiseGo KYC form directing users to a fake MyEtherWallet myetherwallet.com.api.signmsgs.icu/signmsg.html via bit.ly/2L6rJi4+. Reported address: 0x4287C8Db304F036068520292Fe263B9412F4D30d'      
+-
+    id: 4651
+    name: zilliqa.name
+    url: 'https://zilliqa.name'
+    category: Phishing
+    subcategory: Zilliqa
+    description: 'Fake Zilliqa airdrop phishing for private keys'    
+-
+    id: 4652
+    name: cryptolinknet.com
+    url: 'https://cryptolinknet.com'
+    category: Phishing
+    subcategory: Chainlink
+    description: 'Fake Chainlink crowdsale site'        
+-
+    id: 4653
+    name: elon-fun.blogspot.com
+    url: 'https://elon-fun.blogspot.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Promoting trust trading scam sites - https://elon-gift.com/e/'
+-
+    id: 4654
+    name: safe.getethtoday.com
+    url: 'https://safe.getethtoday.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:    
+      - '0xfDFf5c88B7ce9b45037C360C380904e780DE17A4'   
+-
+    id: 4655
+    name: getethtoday.com
+    url: 'https://getethtoday.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:    
+      - '0xfDFf5c88B7ce9b45037C360C380904e780DE17A4'         
+-
+    id: 4656
+    name: bittrexl.com
+    url: 'https://bittrexl.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex phishing for logins'     
+-
+    id: 4657
+    name: idex.xyz
+    url: 'https://idex.xyz'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for keys with POST /sendkey.php'      
+-
+    id: 4658
+    name: teslagifts.tumblr.com
+    url: 'https://teslagifts.tumblr.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Promoting trust trading scam sites directing users to http://etherclaims22.top/payment.php'
+    addresses:    
+      - '0xAB7EC7596fc05BC55AFc07008cC06c1193eD6f9a'     
+-
+    id: 4659
+    name: brinannce.com
+    url: 'https://brinannce.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance phishing for logins'         
+-
+    id: 4660
     name: hydrogen-raindrop.bitballoon.com
     url: https://hydrogen-raindrop.bitballoon.com
     category: Phishing
-    subcategory: HYDRO
+    subcategory: Hydro
     description: 'Fake airdrop form directing users to a fake MyEtherWallet - www.myetherwallet.ethersignmsg.services via https://bit.ly/2ufxyjC'
 -
-    id: 4646
+    id: 4661
     name: myetherwallet.ethersignmsg.services
     url: 'http://www.myetherwallet.ethersignmsg.services'
     category: Phishing
