@@ -33395,3 +33395,17 @@
     category: Phishing
     subcategory: Binance
     description: 'Fake Binance phishing for logins'         
+-
+    id: 4660
+    name: hydrogen-raindrop.bitballoon.com
+    url: https://hydrogen-raindrop.bitballoon.com
+    category: Phishing
+    subcategory: Hydro
+    description: 'Fake airdrop form directing users to a fake MyEtherWallet - www.myetherwallet.ethersignmsg.services via https://bit.ly/2ufxyjC'
+-
+    id: 4661
+    name: myetherwallet.ethersignmsg.services
+    url: 'http://www.myetherwallet.ethersignmsg.services'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
