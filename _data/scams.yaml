@@ -33283,3 +33283,17 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Reported trust trading scam site. Reported address: 0x9E91ea0C442dd2B41CC7fE2d54fAEcd34f59C134'      
+-
+    id: 4645
+    name: hydrogen-raindrop.bitballoon.com
+    url: https://hydrogen-raindrop.bitballoon.com
+    category: Phishing
+    subcategory: HYDRO
+    description: 'Fake airdrop form directing users to a fake MyEtherWallet - www.myetherwallet.ethersignmsg.services via https://bit.ly/2ufxyjC'
+-
+    id: 4646
+    name: myetherwallet.ethersignmsg.services
+    url: 'http://www.myetherwallet.ethersignmsg.services'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
