@@ -33554,3 +33554,26 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex phishing for private keys'      
+-
+    id: 4679
+    name: ethmore.live
+    url: 'https://ethmore.live'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Promoted by twitter id 59058979'
+    addresses:    
+      - '0x68E2EF6244Be67fE149C8309e1c5E978fa1a3Cab'    
+-
+    id: 4680
+    name: myehtewallet.com
+    url: 'https://myehtewallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'          
+-
+    id: 4681
+    name: meyehterwallet.com
+    url: 'https://meyehterwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'        
