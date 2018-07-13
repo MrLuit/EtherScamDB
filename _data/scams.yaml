@@ -33418,3 +33418,125 @@
     description: 'Trust trading scam site'
     addresses:    
       - '0x4FAe1eAb137DaF99E12B5AA7fE963f7EC3Dcd40E'  
+-
+    id: 4663
+    name: ethcontracts.org
+    url: 'https://ethcontracts.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:    
+      - '0x52C9DFD68c67aAFc9E3e615fB38824b17deF6432'  
+-
+    id: 4664
+    name: ethdrop.co
+    url: 'https://ethdrop.co'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:    
+      - '0xB615a63688104F93E59c44C2E8f2eD9aC0401ee2'      
+-
+    id: 4665
+    name: twittethpromo.cx
+    url: 'https://twittethpromo.cx'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:    
+      - '0x059615eA15F7F0e2A276103127BBAce30223d294'     
+-
+    id: 4666
+    name: ethaway-instant.com
+    url: 'https://ethaway-instant.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:    
+      - '0xAaaA3b6D0b72aDE31A99C933a8BF737a4E904527'      
+-
+    id: 4667
+    name: trx.promo
+    url: 'https://trx.promo'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:    
+      - '0xCe9e24Dffdb3DC08EFe33AD3DB858576C3f27D5d'       
+-
+    id: 4668
+    name: ethcompet.cx
+    url: 'https://ethcompet.cx'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:    
+      - '0xBe3E5cBa8cb230678a7bF5ECdaE37783C8dF89bd'     
+-
+    id: 4669
+    name: ethrewards.cx
+    url: 'https://ethrewards.cx'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:    
+      - '0x7a2934Bf040706cE585E547fAB846dD79057956d'        
+-
+    id: 4670
+    name: claimyour-eth.org
+    url: 'https://claimyour-eth.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:    
+      - '0x2B1C266E2a39a7a30aED472Fad47d6b6AB953F7e'     
+-
+    id: 4671
+    name: ethcomprules.cx
+    url: 'https://ethcomprules.cx'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:    
+      - '0x8e8f4161c9c3D2D8857230A048DF1Fc6F4326948'      
+-
+    id: 4672
+    name: ethereumpromo.win
+    url: 'https://ethereumpromo.win'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:    
+      - '0xdF390bCB82F2F574B690F649Da6019Db64b86CA2'           
+-
+    id: 4673
+    name: safe.ethgiftnow.com
+    url: 'https://safe.ethgiftnow.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:    
+      - '0x3d075995577c0C3c65a466Fee47FfB1bA6a41B02'            
+-
+    id: 4674
+    name: ethgiftnow.com
+    url: 'https://ethgiftnow.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:    
+      - '0x3d075995577c0C3c65a466Fee47FfB1bA6a41B02'         
+-
+    id: 4675
+    name: claimyour-btc.org
+    url: 'https://claimyour-btc.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 1FVwwp98FBKJV8MzSFNN38afSHqiYrxXjs'      
+-
+    id: 4676
+    name: btcpromo.win
+    url: 'https://btcpromo.win'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 1Co5gnEn1wBTyigfH9udnuUgha27pdETS9'         
