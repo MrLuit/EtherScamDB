@@ -30393,6 +30393,7 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x83D7Cb758C30d067e99E9f52F9e4f987101aB888'
+      - '0x61cbEf9dB89E5D397Bdde7Ff9095bEDe35d4eeb5'
 -
     id: 4298
     name: ethereum-claim.org
@@ -33418,6 +33419,7 @@
     description: 'Trust trading scam site'
     addresses:    
       - '0x4FAe1eAb137DaF99E12B5AA7fE963f7EC3Dcd40E'  
+      - '0xfc0fD9C3d1Acc91fEB84fbbDfC1Fa8721CBBcAA2'
 -
     id: 4663
     name: ethcontracts.org
@@ -33577,3 +33579,35 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'        
+-
+    id: 4682
+    name: ethpromotion.info
+    url: 'https://ethpromotion.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:    
+      - '0xbde430F54A63016D8A5F31F243761653728086A2'  
+-
+    id: 4683
+    name: secure.ethgiftnow.com
+    url: 'https://secure.ethgiftnow.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:    
+      - '0x3d075995577c0C3c65a466Fee47FfB1bA6a41B02'        
+-
+    id: 4684
+    name: btcpromotion.info
+    url: 'https://btcpromotion.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 1FEt2GWxEidTKz1PkFuiccKTMD5AHkdRdq'      
+-
+    id: 4685
+    name: betaclient-rzcoinwaps.cf
+    url: 'https://betaclient-rzcoinwaps.cf'
+    category: Phishing
+    subcategory: Waves
+    description: 'Fake Waves client phishing for seed words with POST /sendwaves.php'         
