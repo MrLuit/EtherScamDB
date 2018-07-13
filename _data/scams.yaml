@@ -33540,3 +33540,17 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site. Bitcoin address: 1Co5gnEn1wBTyigfH9udnuUgha27pdETS9'         
+-
+    id: 4677
+    name: indexmarkket-site.com
+    url: 'https://indexmarkket-site.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Suspicious IDEX market domain'   
+-
+    id: 4678
+    name: idexnetone.com
+    url: 'https://idexnetone.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for private keys'      
