@@ -33409,3 +33409,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'
+-
+    id: 4662
+    name: 5000eth-giving.online
+    url: 'https://5000eth-giving.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:    
+      - '0x4FAe1eAb137DaF99E12B5AA7fE963f7EC3Dcd40E'  
