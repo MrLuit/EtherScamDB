@@ -96,7 +96,7 @@ function getCache(callback = false) {
             });
             var checkDone2 = setInterval(function() {
                 if (cache.refreshed != older_cache_time) {
-                    console.log("Successfully refreshed cache!");
+                    console.log(getDateTime() + "Successfully refreshed cache!");
                     clearInterval(checkDone2);
                     refreshing_now = false;
                 }
