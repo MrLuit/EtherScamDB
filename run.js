@@ -16,14 +16,20 @@ const app = express();
 const config = require('./config');
 const check = require('./_utils/webcheck.js');
 const lookup = require('./_utils/lookup.js');
+const getDateTime = require('./_utils/getDateTime.js');
 
 
 const default_template = fs.readFileSync('./_layouts/default.html', 'utf8');
 let cache;
 let updating_now = false;
+let refreshing_now = false;
 let icon_warnings = [];
 var older_cache_time;
+var old_cache_time;
 
+setInterval(function(){
+  cache = getCache();
+}, 60 * 1000)
 
 /* See if there's an up-to-date cache, otherwise run `update.js` to create one. */
 function getCache(callback = false) {
@@ -52,41 +58,51 @@ function getCache(callback = false) {
         }
     } else if (!cache) { //If cache variable doesn't exist, initialize it
         cache = JSON.parse(fs.readFileSync('_cache/cache.json'));
+        console.log("Cache last updated: " + cache.updated)
+        console.log("Cache last refreshed: " + cache.refreshed)
         if (callback) {
             callback();
         }
-    } else if (((new Date().getTime() - cache.refreshed) < config.cache_refreshing_interval) && ((new Date().getTime() - cache.refreshed) < config.cache_add_interval)) { //If cache doesn't need to be refreshed or updated, return cache
+    } else if (((new Date().getTime() - cache.refreshed) < config.cache_refreshing_interval) && ((new Date().getTime() - cache.updated) < config.cache_add_interval)) { //If cache doesn't need to be refreshed or updated, return cache
+        return cache;
+    } else if((new Date().getTime() - cache.updated) >= config.cache_add_interval) {
+        if (!updating_now && !refreshing_now) {
+            //console.log(getDateTime() + "Starting quick update.");
+            updating_now = true;
+            old_cache_time = cache.updated;
+            spawn('node', ['quickadd.js'], {
+                detached: true
+            });
+            //console.log("Got here");
+            var checkDone2 = setInterval(function() {
+                //console.log("still checking for checkdone2 end");
+                if (cache.updated != old_cache_time) {
+                    //console.log(getDateTime() + "Quick update complete.");
+                    clearInterval(checkDone2);
+                    updating_now = false;
+                }
+            }, 1000);
+        } else {
+            //console.log(getDateTime() + "Update/Refresh in progress");
+        }
         return cache;
     } else if ((new Date().getTime() - cache.refreshed) >= config.cache_refreshing_interval) { //If cache needs to be refreshed, refresh it
-        if (!updating_now) {
-            updating_now = true;
+        if (!updating_now && !refreshing_now) {
+            console.log(getDateTime() + "Starting cache refresh.");
+            refreshing_now = true;
             older_cache_time = cache.refreshed;
             spawn('node', ['update.js'], {
                 detached: true
             });
             var checkDone2 = setInterval(function() {
                 if (cache.refreshed != older_cache_time) {
+                    console.log("Successfully refreshed cache!");
                     clearInterval(checkDone2);
-                    console.log("Successfully Refreshed cache!");
-                    updating_now = false;
+                    refreshing_now = false;
                 }
             }, 1000);
-        }
-        return cache;
-    } else if((new Date().getTime() - cache.updated) >= config.cache_add_interval) {
-        if (!updating_now) {
-          updating_now = true;
-          older_cache_time = cache.updated;
-          spawn('node', ['quickadd.js'], {
-              detached: true
-          });
-          var checkDone2 = setInterval(function() {
-              if (cache.updated != older_cache_time) {
-                  clearInterval(checkDone2);
-                  console.log("Successfully updated cache!");
-                  updating_now = false;
-              }
-          }, 1000);
+        } else {
+            //console.log(getDateTime() + "Refresh in progress");
         }
         return cache;
     }
