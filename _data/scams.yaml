@@ -33692,3 +33692,60 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex market phishing for private keys'      
+-
+    id: 4695
+    name: token-emrify.com
+    url: 'https://token-emrify.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet stealing keys with POST /demoj.php'    
+-
+    id: 4696
+    name: myethwallofficiiall.com
+    url: 'https://myethwallofficiiall.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'        
+-
+    id: 4697
+    name: myetherwallet-hydrogen.top
+    url: 'https://myetherwallet-hydrogen.top'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet. Reported address: 0x0591A42188996397FC7Cd6DB729045146c37696c'    
+-
+    id: 4698
+    name: myetherwallet.com.apisign.icu
+    url: 'https://myetherwallet.com.apisign.icu'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'     
+-
+    id: 4699
+    name: hydrogen-platform.com
+    url: 'https://hydrogen-platform.com'
+    category: Phishing
+    subcategory: Hydrogen
+    description: 'Fake Hydrogen KYC form directing users to a fake MyEtherWallet myetherwallet.com.apisign.icu/signmsg.html via bit.ly/2zDHzfD+'        
+-
+    id: 4700
+    name: raindrop11.typeform.com
+    url: 'https://raindrop11.typeform.com'
+    category: Phishing
+    subcategory: Hydrogen
+    description: 'Fake Hydrogen KYC form directing users to a fake MyEtherWallet myetherwallet.com.apisign.icu/signmsg.html via bit.ly/2zDHzfD+'        
+-
+    id: 4701
+    name: bitpayng.typeform.com
+    url: 'https://bitpayng.typeform.com'
+    category: Phishing
+    subcategory: Tron
+    description: 'Fake Tron KYC form directing users to a fake MyEtherWallet myetherwalletverification.signmsg.services/signmsg.html via bit.ly/2KYlmhP+'
+-
+    id: 4702
+    name: myetherwalletverification.signmsg.services
+    url: 'https://myetherwalletverification.signmsg.services'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'   
+    
