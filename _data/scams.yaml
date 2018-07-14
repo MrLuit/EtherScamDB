@@ -33665,4 +33665,5 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site.'
     addresses:
-      - '0x336a3f0c4d40b1e39cee72e2e59330daf484848c'      
+      - '0x336a3f0c4d40b1e39cee72e2e59330daf484848c'
+      - '0xAB7EC7596fc05BC55AFc07008cC06c1193eD6f9a'
