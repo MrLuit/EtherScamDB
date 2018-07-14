@@ -33748,4 +33748,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'   
-    
+-
+    id: 4703
+    name: cashaaprivate.com/airdrop
+    url: 'https://www.cashaaprivate.com/airdrop'
+    category: Phishing
+    subcategory: Cashaa Private
+    description: 'Fake Cashaa private airdrop form directing users to a fake MyEtherWallet - https://myetherwallet.com.apisign.icu/signmsg.html via https://bit.ly/2zDHzfD'
