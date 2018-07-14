@@ -33619,4 +33619,13 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site.'
     addresses:    
-      - '0x4E360fAF9F228452aF65C9B7a89AE023363672b4'        
+      - '0x4E360fAF9F228452aF65C9B7a89AE023363672b4'  
+-
+    id: 4687
+    name: mediumpost.ga
+    url: 'https://mediumpost.ga'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xff8e6af02d41a576a0c82f7835535193e1a6bccc'
