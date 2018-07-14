@@ -33666,4 +33666,29 @@
     description: 'Trust trading scam site.'
     addresses:
       - '0x336a3f0c4d40b1e39cee72e2e59330daf484848c'
-      - '0xAB7EC7596fc05BC55AFc07008cC06c1193eD6f9a'
+-
+    id: 4692
+    name: ethbounty.info
+    url: 'http://ethbounty.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x429D386Adc915adE21593609B1b89b976B2F2af4'
+      - '0x1177D4F07C6EF70f51cF23493C66E713f7acCCdA'
+-
+    id: 4693
+    name: eosbounty.co
+    url: 'http://eosbounty.co'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x4E360fAF9F228452aF65C9B7a89AE023363672b4'
+-
+    id: 4694
+    name: idexd.market
+    url: 'https://idexd.market'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market phishing for private keys'      
