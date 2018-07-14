@@ -33615,7 +33615,8 @@
     id: 4686
     name: eosbounty.co
     url: 'http://eosbounty.co'
-    category: Trust-Trading
+    category: Scamming
+    subcategory: Trust-Trading
     description: 'Trust trading scam site.'
     addresses:    
       - '0x4E360fAF9F228452aF65C9B7a89AE023363672b4'        
