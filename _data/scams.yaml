@@ -32632,6 +32632,7 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x3BF351A62dF57DCE8512b136daA4cd6EBE2DdA91'
+      - '0x051005cDCecd916FB8b98643d923646Acc7e07cd'
 -
     id: 4565
     name: event-eth-ada.uk
@@ -33638,3 +33639,30 @@
     description: 'Trust trading scam site.'
     addresses:
       - '0xe575D2262f516a392E018BD5Db9AFBC6ae656C92'
+-
+    id: 4689
+    name: musk-official-promo.com
+    url: 'https://musk-official-promo.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x1D7BC400d3c6d9D37EC54D0e729cbaDD06dc0390'
+-
+    id: 4690
+    name: limited-promo.org
+    url: 'https://limited-promo.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x11775A106157a283873A81E8Ec58394b8d568E06'
+-
+    id: 4691
+    name: ethpays99.top
+    url: 'http://ethpays99.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x336a3f0c4d40b1e39cee72e2e59330daf484848c'      
