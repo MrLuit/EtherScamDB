@@ -33240,7 +33240,7 @@
     url: 'https://forkdeltas.net'
     category: Phishing
     subcategory: ForkDelta
-    description: 'Fake ForkDelta phishing for keys'
+    description: 'Fake ForkDelta phishing for keys'         
 -
     id: 4640
     name: mediumdotcom.top
@@ -33248,8 +33248,8 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
-    addresses:
-      - '0xAB7EC7596fc05BC55AFc07008cC06c1193eD6f9a'
+    addresses:    
+      - '0xAB7EC7596fc05BC55AFc07008cC06c1193eD6f9a' 
 -
     id: 4641
     name: officialmcafee.github.io
@@ -33257,8 +33257,8 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
-    addresses:
-      - '0x71486336caEd5fA8E37fF8b31B9d67d08FbDC262'
+    addresses:    
+      - '0x71486336caEd5fA8E37fF8b31B9d67d08FbDC262'   
 -
     id: 4642
     name: etherclaims22.top
@@ -33266,8 +33266,8 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
-    addresses:
-      - '0x336a3f0c4d40b1e39cee72e2e59330daf484848c'
+    addresses:    
+      - '0x336a3f0c4d40b1e39cee72e2e59330daf484848c'     
       - '0xAB7EC7596fc05BC55AFc07008cC06c1193eD6f9a'
 -
     id: 4643
@@ -33276,71 +33276,71 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site. Promoted by Twitter user id 1012075718405185538. Directed via bit.ly/2sK3rPO+'
-    addresses:
-      - '0x159CCfFB293a06Aafaec1b254A00522A2bC40639'
+    addresses:    
+      - '0x159CCfFB293a06Aafaec1b254A00522A2bC40639'     
 -
     id: 4644
     name: ethgive.club
     url: 'https://ethgive.club'
     category: Scamming
     subcategory: Trust-Trading
-    description: 'Reported trust trading scam site. Reported address: 0x9E91ea0C442dd2B41CC7fE2d54fAEcd34f59C134'
+    description: 'Reported trust trading scam site. Reported address: 0x9E91ea0C442dd2B41CC7fE2d54fAEcd34f59C134'      
 -
     id: 4645
     name: myehtrerwallett.com
     url: 'https://myehtrerwallett.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: 'Fake MyEtherWallet'
+    description: 'Fake MyEtherWallet'  
 -
     id: 4646
     name: miyetherwallet.com
     url: 'https://miyetherwallet.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: 'Fake MyEtherWallet'
+    description: 'Fake MyEtherWallet'      
 -
     id: 4647
     name: myethierwallet.com
     url: 'https://myethierwallet.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: 'Fake MyEtherWallet'
+    description: 'Fake MyEtherWallet'        
 -
     id: 4648
     name: xn--myetherwalet-yk6f.com
     url: 'https://xn--myetherwalet-yk6f.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: 'Fake MyEtherWallet - IDN homograph attack domain (not resolved yet)'
+    description: 'Fake MyEtherWallet - IDN homograph attack domain (not resolved yet)'           
 -
     id: 4649
     name: omisegoclassic.com
     url: 'https://omisegoclassic.com'
     category: Phishing
     subcategory: OmiseGo
-    description: 'Fake OmiseGo KYC form directing users to a fake MyEtherWallet myetherwallet.com.api.signmsgs.icu/signmsg.html via bit.ly/2L6rJi4+. Reported address: 0x4287C8Db304F036068520292Fe263B9412F4D30d'
+    description: 'Fake OmiseGo KYC form directing users to a fake MyEtherWallet myetherwallet.com.api.signmsgs.icu/signmsg.html via bit.ly/2L6rJi4+. Reported address: 0x4287C8Db304F036068520292Fe263B9412F4D30d'      
 -
     id: 4650
     name: jenniferaustin.typeform.com
     url: 'https://jenniferaustin.typeform.com'
     category: Phishing
     subcategory: OmiseGo
-    description: 'Fake OmiseGo KYC form directing users to a fake MyEtherWallet myetherwallet.com.api.signmsgs.icu/signmsg.html via bit.ly/2L6rJi4+. Reported address: 0x4287C8Db304F036068520292Fe263B9412F4D30d'
+    description: 'Fake OmiseGo KYC form directing users to a fake MyEtherWallet myetherwallet.com.api.signmsgs.icu/signmsg.html via bit.ly/2L6rJi4+. Reported address: 0x4287C8Db304F036068520292Fe263B9412F4D30d'      
 -
     id: 4651
     name: zilliqa.name
     url: 'https://zilliqa.name'
     category: Phishing
     subcategory: Zilliqa
-    description: 'Fake Zilliqa airdrop phishing for private keys'
+    description: 'Fake Zilliqa airdrop phishing for private keys'    
 -
     id: 4652
     name: cryptolinknet.com
     url: 'https://cryptolinknet.com'
     category: Phishing
     subcategory: Chainlink
-    description: 'Fake Chainlink crowdsale site'
+    description: 'Fake Chainlink crowdsale site'        
 -
     id: 4653
     name: elon-fun.blogspot.com
@@ -33355,8 +33355,8 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
-    addresses:
-      - '0xfDFf5c88B7ce9b45037C360C380904e780DE17A4'
+    addresses:    
+      - '0xfDFf5c88B7ce9b45037C360C380904e780DE17A4'   
 -
     id: 4655
     name: getethtoday.com
@@ -33364,22 +33364,22 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
-    addresses:
-      - '0xfDFf5c88B7ce9b45037C360C380904e780DE17A4'
+    addresses:    
+      - '0xfDFf5c88B7ce9b45037C360C380904e780DE17A4'         
 -
     id: 4656
     name: bittrexl.com
     url: 'https://bittrexl.com'
     category: Phishing
     subcategory: Bittrex
-    description: 'Fake Bittrex phishing for logins'
+    description: 'Fake Bittrex phishing for logins'     
 -
     id: 4657
     name: idex.xyz
     url: 'https://idex.xyz'
     category: Phishing
     subcategory: Idex
-    description: 'Fake Idex phishing for keys with POST /sendkey.php'
+    description: 'Fake Idex phishing for keys with POST /sendkey.php'      
 -
     id: 4658
     name: teslagifts.tumblr.com
@@ -33387,15 +33387,15 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Promoting trust trading scam sites directing users to http://etherclaims22.top/payment.php'
-    addresses:
-      - '0xAB7EC7596fc05BC55AFc07008cC06c1193eD6f9a'
+    addresses:    
+      - '0xAB7EC7596fc05BC55AFc07008cC06c1193eD6f9a'     
 -
     id: 4659
     name: brinannce.com
     url: 'https://brinannce.com'
     category: Phishing
     subcategory: Binance
-    description: 'Fake Binance phishing for logins'
+    description: 'Fake Binance phishing for logins'         
 -
     id: 4660
     name: hydrogen-raindrop.bitballoon.com
@@ -33417,8 +33417,8 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
-    addresses:
-      - '0x4FAe1eAb137DaF99E12B5AA7fE963f7EC3Dcd40E'
+    addresses:    
+      - '0x4FAe1eAb137DaF99E12B5AA7fE963f7EC3Dcd40E'  
       - '0xfc0fD9C3d1Acc91fEB84fbbDfC1Fa8721CBBcAA2'
 -
     id: 4663
@@ -33427,8 +33427,8 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
-    addresses:
-      - '0x52C9DFD68c67aAFc9E3e615fB38824b17deF6432'
+    addresses:    
+      - '0x52C9DFD68c67aAFc9E3e615fB38824b17deF6432'  
 -
     id: 4664
     name: ethdrop.co
@@ -33436,8 +33436,8 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
-    addresses:
-      - '0xB615a63688104F93E59c44C2E8f2eD9aC0401ee2'
+    addresses:    
+      - '0xB615a63688104F93E59c44C2E8f2eD9aC0401ee2'      
 -
     id: 4665
     name: twittethpromo.cx
@@ -33445,8 +33445,8 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
-    addresses:
-      - '0x059615eA15F7F0e2A276103127BBAce30223d294'
+    addresses:    
+      - '0x059615eA15F7F0e2A276103127BBAce30223d294'     
 -
     id: 4666
     name: ethaway-instant.com
@@ -33454,8 +33454,8 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
-    addresses:
-      - '0xAaaA3b6D0b72aDE31A99C933a8BF737a4E904527'
+    addresses:    
+      - '0xAaaA3b6D0b72aDE31A99C933a8BF737a4E904527'      
 -
     id: 4667
     name: trx.promo
@@ -33463,8 +33463,8 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
-    addresses:
-      - '0xCe9e24Dffdb3DC08EFe33AD3DB858576C3f27D5d'
+    addresses:    
+      - '0xCe9e24Dffdb3DC08EFe33AD3DB858576C3f27D5d'       
 -
     id: 4668
     name: ethcompet.cx
@@ -33472,7 +33472,7 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
-    addresses:
+    addresses:    
       - '0xBe3E5cBa8cb230678a7bF5ECdaE37783C8dF89bd'
 -
     id: 4669
@@ -33481,8 +33481,8 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
-    addresses:
-      - '0x7a2934Bf040706cE585E547fAB846dD79057956d'
+    addresses:    
+      - '0x7a2934Bf040706cE585E547fAB846dD79057956d'        
 -
     id: 4670
     name: claimyour-eth.org
@@ -33490,8 +33490,8 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
-    addresses:
-      - '0x2B1C266E2a39a7a30aED472Fad47d6b6AB953F7e'
+    addresses:    
+      - '0x2B1C266E2a39a7a30aED472Fad47d6b6AB953F7e'     
 -
     id: 4671
     name: ethcomprules.cx
@@ -33499,8 +33499,8 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
-    addresses:
-      - '0x8e8f4161c9c3D2D8857230A048DF1Fc6F4326948'
+    addresses:    
+      - '0x8e8f4161c9c3D2D8857230A048DF1Fc6F4326948'      
 -
     id: 4672
     name: ethereumpromo.win
@@ -33508,8 +33508,8 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
-    addresses:
-      - '0xdF390bCB82F2F574B690F649Da6019Db64b86CA2'
+    addresses:    
+      - '0xdF390bCB82F2F574B690F649Da6019Db64b86CA2'           
 -
     id: 4673
     name: safe.ethgiftnow.com
@@ -33517,8 +33517,8 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
-    addresses:
-      - '0x3d075995577c0C3c65a466Fee47FfB1bA6a41B02'
+    addresses:    
+      - '0x3d075995577c0C3c65a466Fee47FfB1bA6a41B02'            
 -
     id: 4674
     name: ethgiftnow.com
@@ -33526,36 +33526,36 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
-    addresses:
-      - '0x3d075995577c0C3c65a466Fee47FfB1bA6a41B02'
+    addresses:    
+      - '0x3d075995577c0C3c65a466Fee47FfB1bA6a41B02'         
 -
     id: 4675
     name: claimyour-btc.org
     url: 'https://claimyour-btc.org'
     category: Scamming
     subcategory: Trust-Trading
-    description: 'Trust trading scam site. Bitcoin address: 1FVwwp98FBKJV8MzSFNN38afSHqiYrxXjs'
+    description: 'Trust trading scam site. Bitcoin address: 1FVwwp98FBKJV8MzSFNN38afSHqiYrxXjs'      
 -
     id: 4676
     name: btcpromo.win
     url: 'https://btcpromo.win'
     category: Scamming
     subcategory: Trust-Trading
-    description: 'Trust trading scam site. Bitcoin address: 1Co5gnEn1wBTyigfH9udnuUgha27pdETS9'
+    description: 'Trust trading scam site. Bitcoin address: 1Co5gnEn1wBTyigfH9udnuUgha27pdETS9'         
 -
     id: 4677
     name: indexmarkket-site.com
     url: 'https://indexmarkket-site.com'
     category: Phishing
     subcategory: Idex
-    description: 'Suspicious IDEX market domain'
+    description: 'Suspicious IDEX market domain'   
 -
     id: 4678
     name: idexnetone.com
     url: 'https://idexnetone.com'
     category: Phishing
     subcategory: Idex
-    description: 'Fake Idex phishing for private keys'
+    description: 'Fake Idex phishing for private keys'      
 -
     id: 4679
     name: ethmore.live
@@ -33563,22 +33563,22 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site. Promoted by twitter id 59058979'
-    addresses:
-      - '0x68E2EF6244Be67fE149C8309e1c5E978fa1a3Cab'
+    addresses:    
+      - '0x68E2EF6244Be67fE149C8309e1c5E978fa1a3Cab'    
 -
     id: 4680
     name: myehtewallet.com
     url: 'https://myehtewallet.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: 'Fake MyEtherWallet'
+    description: 'Fake MyEtherWallet'          
 -
     id: 4681
     name: meyehterwallet.com
     url: 'https://meyehterwallet.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: 'Fake MyEtherWallet'
+    description: 'Fake MyEtherWallet'        
 -
     id: 4682
     name: ethpromotion.info
@@ -33586,8 +33586,8 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site.'
-    addresses:
-      - '0xbde430F54A63016D8A5F31F243761653728086A2'
+    addresses:    
+      - '0xbde430F54A63016D8A5F31F243761653728086A2'  
 -
     id: 4683
     name: secure.ethgiftnow.com
@@ -33595,22 +33595,22 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site.'
-    addresses:
-      - '0x3d075995577c0C3c65a466Fee47FfB1bA6a41B02'
+    addresses:    
+      - '0x3d075995577c0C3c65a466Fee47FfB1bA6a41B02'        
 -
     id: 4684
     name: btcpromotion.info
     url: 'https://btcpromotion.info'
     category: Scamming
     subcategory: Trust-Trading
-    description: 'Trust trading scam site. Bitcoin address: 1FEt2GWxEidTKz1PkFuiccKTMD5AHkdRdq'
+    description: 'Trust trading scam site. Bitcoin address: 1FEt2GWxEidTKz1PkFuiccKTMD5AHkdRdq'      
 -
     id: 4685
     name: betaclient-rzcoinwaps.cf
     url: 'https://betaclient-rzcoinwaps.cf'
     category: Phishing
     subcategory: Waves
-    description: 'Fake Waves client phishing for seed words with POST /sendwaves.php'
+    description: 'Fake Waves client phishing for seed words with POST /sendwaves.php'         
 -
     id: 4686
     name: eosbounty.co
@@ -33618,8 +33618,8 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site.'
-    addresses:
-      - '0x4E360fAF9F228452aF65C9B7a89AE023363672b4'
+    addresses:    
+      - '0x4E360fAF9F228452aF65C9B7a89AE023363672b4'  
 -
     id: 4687
     name: mediumpost.ga
