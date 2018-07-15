@@ -34003,3 +34003,10 @@
     category: Phishing
     subcategory: Coinbase
     description: 'Fake Coinbase phishing for logins'         
+-
+    id: 4734
+    name: walletico.com
+    url: 'https://walletico.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex site phishing for keys'   
