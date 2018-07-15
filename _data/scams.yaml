@@ -33917,3 +33917,10 @@
     description: 'Trust trading scam site.'
     addresses:
       - '0x14B7716c688875Bcf54D5Ff47cAd4FcA6B3834fA'         
+-
+    id: 4722
+    name: cashaaprivate.com/airdrop
+    url: 'https://www.cashaaprivate.com/airdrop'
+    category: Phishing
+    subcategory: Cashaa
+    description: 'Fake Cashaa private airdrop form directing users to a fake MyEtherWallet - https://myetherwallet.com.rootsign.icu/signmsg.html via https://bit.ly/2ukYhLw'
