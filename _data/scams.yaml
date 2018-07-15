@@ -33989,3 +33989,17 @@
     category: Phishing
     subcategory: Binance
     description: 'Fake Binance phishing for logins'         
+-
+    id: 4732
+    name: idixmarket.info
+    url: 'https://idixmarket.info'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market phishing for private keys'     
+-
+    id: 4733
+    name: coinbaise.com
+    url: 'https://coinbaise.com'
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Fake Coinbase phishing for logins'         
