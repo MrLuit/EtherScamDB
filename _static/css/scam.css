@@ -52,3 +52,17 @@
 	font-style: italic;
 	margin-top: 7%;
 }
+
+.tip {
+  border: 1px solid #000;
+  background-color: #90EE90;
+  border-radius: 3px;
+}
+
+.ui.green.message {
+  color: #189826;
+  font-size: 14px;
+}
+.ui.red.message {
+  font-size: 14px;
+}
