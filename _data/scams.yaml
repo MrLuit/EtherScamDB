@@ -34010,3 +34010,17 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex site phishing for keys'   
+-
+    id: 4735
+    name: refundcontract-etherwallet.net
+    url: 'https://refundcontract-etherwallet.net'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet. Users redirected over email via https://bitly.com/2L3Ua1a+'   
+-
+    id: 4736
+    name: idexr.market
+    url: 'https://idexr.market'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market phishing for keys'       
