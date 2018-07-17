@@ -34033,3 +34033,24 @@
     description: 'Trust trading scam site.'
     addresses:
       - '0x2B164ae662a0AB1832C87cb4A226EFEC56219FB6' 
+-
+    id: 4738
+    name: index-markett-network.com
+    url: 'https://index-markett-network.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market redirecting to idexmarkketslogin.com'  
+-
+    id: 4739
+    name: idexmarkketslogin.com
+    url: 'https://idexmarkketslogin.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market phishing for private keys (iframing ideeweb1.com)'      
+-
+    id: 4740
+    name: ideeweb1.com
+    url: 'https://ideeweb1.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market phishing for private keys'        
