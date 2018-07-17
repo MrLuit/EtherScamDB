@@ -34024,3 +34024,12 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex market phishing for keys'       
+-
+    id: 4737
+    name: elonmusk.ethgivings.net
+    url: 'http://elonmusk.ethgivings.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x2B164ae662a0AB1832C87cb4A226EFEC56219FB6' 
