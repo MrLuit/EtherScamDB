@@ -1,18 +1,24 @@
 {
-  "name": "ethereum-scam-database",
-  "version": "1.0.0",
-  "main": "generate.js",
+  "name": "etherscamdb",
+  "version": "2.0.0",
+  "main": "run.js",
+  "scripts": {
+    "test": "mocha ./tests/validate_data.js"
+  },
   "dependencies": {
     "body-parser": "^1.18.2",
     "dateformat": "^2.2.0",
     "download-file": "^0.1.5",
     "eth-phishing-detect": "^1.1.12",
-    "express": "^4.15.4",
+    "express": "^4.16.3",
     "fs-extra": "^5.0.0",
     "js-yaml": "^3.9.0",
-    "request": "^2.83.0",
+    "request": "^2.87.0",
     "rimraf": "^2.6.2",
     "shuffle-array": "^1.0.1",
     "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
   }
 }
