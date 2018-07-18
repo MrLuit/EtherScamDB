@@ -34054,3 +34054,150 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex market phishing for private keys'        
+-
+    id: 4741
+    name: idexmarket.me
+    url: 'https://idexmarket.me'
+    category: Phishing
+    subcategory: Idex
+    description: 'Suspicious IDEX domain - kit not deployed yet' 
+-
+    id: 4742
+    name: idex.press
+    url: 'https://idex.press'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market phishing for keys'     
+-
+    id: 4743
+    name: johnmcafee.ethgivings.net
+    url: 'http://johnmcafee.ethgivings.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x2B164ae662a0AB1832C87cb4A226EFEC56219FB6'    
+-
+    id: 4744
+    name: ethpays99.top
+    url: 'http://ethpays99.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x5cf03f522dcbe4efeed2462759da179b50230969'    
+-
+    id: 4745
+    name: tronics.promo
+    url: 'http://tronics.promo'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xD8D0506ED425364EE126819E8b73Fc3160C39D49'     
+-
+    id: 4746
+    name: ethgiveawaygift.info
+    url: 'http://ethgiveawaygift.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xAb486933bc2E24580080b9e97c2AbCd493c0A136'        
+-
+    id: 4747
+    name: blockchaingiveaway.biz
+    url: 'http://blockchaingiveaway.biz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xAb486933bc2E24580080b9e97c2AbCd493c0A136'          
+-
+    id: 4748
+    name: ether-bonus.net
+    url: 'http://ether-bonus.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xff481ca14E6C16B79fC8AB299B4D2387ec8eCDD2'             
+-
+    id: 4749
+    name: vitalikgiveaway.com
+    url: 'http://vitalikgiveaway.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x46F136cB5eAb40F02282aaA7B4b0CcB79E71c523'        
+-
+    id: 4750
+    name: ethergiftnow.com
+    url: 'http://ethergiftnow.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x1E442D0461Bd7A52Fadb9920F6eD5BB3cd8fF75D'          
+-
+    id: 4751
+    name: ethtwitter.org
+    url: 'http://ethtwitter.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xb9Ba61669E7652970180B3B98972b001B8fc88d2'           
+-
+    id: 4752
+    name: elon-bounty.blogspot.com
+    url: 'http://elon-bounty.blogspot.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Promoting trust trading scam sites - bounty-eth.com'
+    addresses:
+      - '0x5f621E6A89b8fcC0DE41745bF1fbfdeE6EBcC56f'       
+-
+    id: 4753
+    name: bounty-eth.com
+    url: 'http://bounty-eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x5f621E6A89b8fcC0DE41745bF1fbfdeE6EBcC56f'         
+-
+    id: 4754
+    name: eth60.getmyeth.top
+    url: 'http://eth60.getmyeth.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xab7ec7596fc05bc55afc07008cc06c1193ed6f9a'         
+-
+    id: 4755
+    name: musk-official-giveaway.com
+    url: 'http://musk-official-giveaway.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x3C924CbbD8Ffb34b3da99C1501AFB9bB3Cf5E4f4'        
+-
+    id: 4756
+    name: secure.ethgivings.net
+    url: 'http://secure.ethgivings.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x2B164ae662a0AB1832C87cb4A226EFEC56219FB6'         
+-
+    id: 4757
+    name: bounty-btc.com
+    url: 'http://bounty-btc.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 1ANTZ2dGkfEm1GYquVk1eMa62R1edBDT98'      
