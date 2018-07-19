@@ -30394,6 +30394,7 @@
     addresses:
       - '0x83D7Cb758C30d067e99E9f52F9e4f987101aB888'
       - '0x61cbEf9dB89E5D397Bdde7Ff9095bEDe35d4eeb5'
+      - '0x9844F5C5F9aA7146a74ffC7b9227742acFA71dEa'
 -
     id: 4298
     name: ethereum-claim.org
@@ -31836,7 +31837,7 @@
     url: 'https://etherdelta.com.ua'
     category: Phishing
     subcategory: EtherDelta
-    description: 'Fake EtherDelta'
+    description: 'Fake EtherDelta phishing for keys with POST /admm/rdy.php'
 -
     id: 4471
     name: etzerdelta.com
@@ -34201,3 +34202,28 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site. Bitcoin address: 1ANTZ2dGkfEm1GYquVk1eMa62R1edBDT98'      
+-
+    id: 4758
+    name: ether-event.com
+    url: 'http://ether-event.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x8729Abb00a517bBA3d615ed13E7C9C55aB311D41' 
+-
+    id: 4759
+    name: w-eos.com
+    url: 'https://w-eos.com'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS web wallet'       
+    addresses:
+      - '0x5Ef4EC670246Af663F64aFf354a30Ca54B43DAFD'     
+-
+    id: 4760
+    name: idexchange.pro
+    url: 'https://idexchange.pro'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market phishing for keys with POST /save.php' 
