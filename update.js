@@ -1,4 +1,5 @@
 process.env.UV_THREADPOOL_SIZE = 128;
+const debug = require('debug')('update');
 const dns = require('dns');
 const url = require('url');
 const yaml = require('js-yaml');
@@ -50,17 +51,17 @@ yaml.safeLoad(fs.readFileSync('_data/legit_urls.yaml')).sort(function(a, b) {
     }
 });
 setInterval(function() {
-    console.log(scams_checked + '/' + scams.length + ' (' + requests_pending + ' requests pending)');
+    debug(scams_checked + '/' + scams.length + ' (' + requests_pending + ' requests pending)');
 }, 1000);
 scams.forEach(function(scam, index) {
     if ('url' in scam) {
         if (!scam.url.includes('http://') && !scam.url.includes('https://')) {
-            console.log('Warning! Entry ' + scam.id + ' has no protocol (http or https) specified. Please update!');
+            debug('Warning! Entry %s doesnt have the url protocol (http or https) specified. Please update!',scam.id);
             scam.url = 'http://' + scam.url;
         }
         if (scam.addresses != null) {
           scam.addresses.forEach(function(address, index) {
-            //console.log("Casting " + scam.addresses[index] + " as " + scam.addresses[index].toLowerCase())
+            //debug("Casting " + scam.addresses[index] + " as " + scam.addresses[index].toLowerCase())
             scam.addresses[index] = scam.addresses[index].toLowerCase();
           })
         }
@@ -122,18 +123,18 @@ scams.forEach(function(scam, index) {
                     	setTimeout(function() {
                     		request('https://urlscan.io/api/v1/scan/', { method: 'POST', json: { 'url': scam.url, 'public': 'off' }, headers: { 'API-Key': config.Urlscan_API_Key }}, function(err,response,body) {
                     			if(err || response.statusCode != 200) {
-                    				console.log(err);
-                    				console.log('Status code: ' + response.statusCode);
+                    				debug(err);
+                    				debug('Status code: ' + response.statusCode);
                     			} else if(body.message != 'Submission successful' || !('api' in body)) {
-                    				console.log(body.message);
+                    				debug(body.message);
                     			} else {
                     				setTimeout(function() {
                     					request(body.api, { method: 'POST', json: { 'url': scam.api, 'public': 'off' }, headers: { 'API-Key': config.Urlscan_API_Key }}, function(err,response,body) {
                     						if(err || response.statusCode != 200) {
-                    							console.log(err);
-                    							console.log('Status code: ' + response.statusCode);
+                    							debug(err);
+                    							debug('Status code: ' + response.statusCode);
                     						} else {
-                    							console.log(body);
+                    							debug(body);
                     						}
                     					});
                     				}, 2000);
@@ -152,7 +153,7 @@ scams.forEach(function(scam, index) {
                             if (!(address.toLowerCase() in new_cache.addresses)) {
                                 new_cache.addresses[address.toLowerCase()] = [];
                             }
-                            //console.log(new_cache.addresses);
+                            //debug(new_cache.addresses);
                             new_cache.addresses[address.toLowerCase()] = scam_details;
                         });
                     }
@@ -165,8 +166,8 @@ scams.forEach(function(scam, index) {
 									new_cache.blacklist.push(ip);
 								});
 								fs.writeFileSync("_cache/cache.json", JSON.stringify(new_cache));
-								console.log("Done");
-								process.abort();
+								debug("Done");
+								process.exit();
 							}
 						}, 500);
 					}
@@ -174,7 +175,7 @@ scams.forEach(function(scam, index) {
             });
         });
     } else {
-        console.log("Fatal error: Scam without URL found (" + scam.id + ")");
-        process.abort();
+        debug("Fatal error: Scam without URL found (%s)",scam.id);
+        process.exit();
     }
 });
