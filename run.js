@@ -14,7 +14,6 @@ const crypto = require("crypto");
 const request = require('request');
 const app = express();
 const check = require('./_utils/webcheck.js');
-const lookup = require('./_utils/lookup.js').weblookup;
 
 /*  Copy config.example.js to config.js, if it does not exist yet */
 if (!fs.existsSync('config.js')) {
@@ -24,6 +23,7 @@ if (!fs.existsSync('config.js')) {
 }
 
 const config = require('./config');
+const lookup = require('./_utils/lookup.js').weblookup;
 
 const default_template = fs.readFileSync('./_layouts/default.html', 'utf8');
 let cache;

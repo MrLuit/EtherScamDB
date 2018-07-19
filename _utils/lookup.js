@@ -1,10 +1,21 @@
 const request = require('request');
+const config = require('../config.js');
 const debug = require('debug')('lookup');
 const Bottleneck = require('bottleneck');
 
-const limiter = new Bottleneck({
+let options = {
 	minTime: 100,
-	maxConcurrent: 20
+	maxConcurrent: 20,
+	timeoutAfter: 30*1000
+};
+
+if('httpRequests' in config) {
+	options = config.httpRequests;
+}
+
+const limiter = new Bottleneck({
+	minTime: options.minTime,
+	maxConcurrent: options.maxConcurrent
 });
 
 const lookup = limiter.wrap(url => {
@@ -12,7 +23,7 @@ const lookup = limiter.wrap(url => {
 		debug('Requesting ' + url + '...');
 		request({
 			url: url,
-			timeout: 30*1000,
+			timeout: options.timeoutAfter,
 			followAllRedirects: true,
 			maxRedirects: 5
 		}, (err, response, body) => {

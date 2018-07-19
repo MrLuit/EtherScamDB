@@ -40,7 +40,7 @@ const rawVerified = yaml.safeLoad(fs.readFileSync('_data/legit_urls.yaml'));
 	const cache = {
 		scams: scams,
 		legiturls: verifiedEntries,
-		blacklist: [...scams.map(scam => url.parse(scam.url).hostname.replace('www.','')),...scams.map(scam => 'www.' + url.parse(scam.url).hostname.replace('www.','')),...scamDictionary.ip],
+		blacklist: [...scams.map(scam => url.parse(scam.url).hostname.replace('www.','')),...scams.map(scam => 'www.' + url.parse(scam.url).hostname.replace('www.','')),...Object.keys(scamDictionary.ip)],
 		addresses: scamDictionary.addresses,
 		whitelistaddresses: verifiedDictionary.addresses,
 		ips: scamDictionary.ip,
