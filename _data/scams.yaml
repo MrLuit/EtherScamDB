@@ -34227,3 +34227,10 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex market phishing for keys with POST /save.php' 
+-
+    id: 4761
+    name: myetherwalletmessage.signauth.icu/signmsg.html
+    url: 'https://myetherwalletmessage.signauth.icu/signmsg.html'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /log.php'
