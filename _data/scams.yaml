@@ -34327,3 +34327,10 @@
     category: Phishing
     subcategory: Metamask
     description: 'Promoting a fake MetaMask - https://chrome.google.com/webstore/detail/metamask-pro/bjhhmlocoehibjnebcaedkhecggonhne/'         
+-
+    id: 4773
+    name: www-bitfinex.com
+    url: 'http://www-bitfinex.com'
+    category: Phishing
+    subcategory: Bitfinex
+    description: 'Fake Bitfinex phishing for private keys - https://twitter.com/sniko_/status/1020078544922214400'         
