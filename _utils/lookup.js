@@ -1,6 +1,36 @@
-const request = require('request')
+const request = require('request');
+const debug = require('debug')('lookup');
+const Bottleneck = require('bottleneck');
 
-class weblookup {
+const limiter = new Bottleneck({
+	minTime: 100,
+	maxConcurrent: 20
+});
+
+const lookup = limiter.wrap(url => {
+	return new Promise((resolve, reject) => {
+		debug('Requesting ' + url + '...');
+		request({
+			url: url,
+			timeout: 30*1000,
+			followAllRedirects: true,
+			maxRedirects: 5
+		}, (err, response, body) => {
+			if(err) {
+				resolve(undefined);
+			} else {
+				resolve(response);
+			}
+		});
+	});
+});
+
+module.exports.lookup = (async (url) => {
+	const result = await lookup(url);
+	return result;
+});
+
+module.exports.weblookup = class weblookup {
   lookup (input) {
     return new Promise(function(resolve, reject) {
       var result = request(input,
@@ -15,4 +45,3 @@ class weblookup {
     });
   }
 }
-module.exports = weblookup

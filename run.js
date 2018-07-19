@@ -13,10 +13,17 @@ const phishingDetector = require('eth-phishing-detect/src/detector');
 const crypto = require("crypto");
 const request = require('request');
 const app = express();
-const config = require('./config');
 const check = require('./_utils/webcheck.js');
-const lookup = require('./_utils/lookup.js');
+const lookup = require('./_utils/lookup.js').weblookup;
 
+/*  Copy config.example.js to config.js, if it does not exist yet */
+if (!fs.existsSync('config.js')) {
+    fs.copySync('config.example.js', 'config.js');
+    debug('Config file was copied. Please update with correct values');
+    process.exit();
+}
+
+const config = require('./config');
 
 const default_template = fs.readFileSync('./_layouts/default.html', 'utf8');
 let cache;
@@ -1257,27 +1264,7 @@ function startWebServer() {
     });
 }
 
-/*  Copy config.example.js to config.js, if it does not exist yet */
-if (!fs.existsSync('config.js')) {
-    fs.copySync('config.example.js', 'config.js');
-    debug('Config file was copied. Please update with correct values');
-    process.exit();
-} else if (2 in process.argv) {
-    if (process.argv[2] == "--clean") {
-        rimraf('_cache', function() {
-            debug("Cleared cache");
-        });
-    } else if (process.argv[2] == "--update") {
-        if (fs.existsSync("_cache/cache.json") && cache) {
-            fork('update.js');
-        } else {
-            debug("Another update is already in progress...");
-        }
-    } else {
-        debug("Unsupported flag: %s",process.argv[2]);
-    }
-} else {
-    /* Update the local cache using the external cache every 60 seconds */
+/* Update the local cache using the external cache every 60 seconds */
     setInterval(function() {
         if (fs.existsSync('_cache/cache.json')) {
             fs.readFile('_cache/cache.json', function(err, data) {
@@ -1292,4 +1279,3 @@ if (!fs.existsSync('config.js')) {
     getCache(function() {
         startWebServer();
     });
-}

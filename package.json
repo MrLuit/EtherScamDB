@@ -4,8 +4,11 @@
   "main": "run.js",
   "license": "MIT",
   "scripts": {
-    "start": "cross-env NODE_ENV=development DEBUG=* node run.js",
-    "test": "mocha ./tests/validate_data.js"
+    "start": "cross-env NODE_ENV=development DEBUG=*,-lookup node run.js",
+    "update": "cross-env NODE_ENV=development DEBUG=*,-lookup node update.js",
+    "debug": "cross-env NODE_DEBUG=request NODE_ENV=development DEBUG=* node run.js",
+    "test": "mocha ./tests/validate_data.js",
+    "clean": "rimraf _cache"
   },
   "repository": {
     "type": "git",
@@ -13,6 +16,8 @@
   },
   "dependencies": {
     "body-parser": "^1.18.2",
+    "bottleneck": "^2.6.0",
+    "cli-progress": "^2.0.0",
     "cross-env": "^5.2.0",
     "dateformat": "^2.2.0",
     "debug": "^3.1.0",
@@ -22,11 +27,11 @@
     "fs-extra": "^5.0.0",
     "js-yaml": "^3.9.0",
     "request": "^2.87.0",
-    "rimraf": "^2.6.2",
     "shuffle-array": "^1.0.1",
     "url": "^0.11.0"
   },
   "devDependencies": {
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "rimraf": "^2.6.2"
   }
 }
