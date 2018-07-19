@@ -16,13 +16,10 @@ let requests_pending = 0;
 var scamchecklist = [];
 var legitchecklist = [];
 var legiturls;
-console.time("timingquickadd");
-console.time("timinglegitquickadd");
 
 // Download newest files
 let downloadcomplete = function(){
     return new Promise(function(resolve, reject) {
-        console.time("timingquickadd");
         download("https://raw.githubusercontent.com/" + config.repository.author + "/" + config.repository.name + "/" + config.repository.branch + "/_data/scams.yaml?no-cache=" + (new Date()).getTime(), {
             directory: "_data/",
             filename: "scams.yaml"
@@ -42,13 +39,10 @@ let scamsnotdetected = 0;
 
 let scamtestcomplete = function(){
     return new Promise(function(resolve, reject){
-        //console.log("starting scamtest now")
-        //console.log("changed new_cache.updated to: " + new_cache.updated)
         yaml.safeLoad(fs.readFileSync('_data/scams.yaml'), function(err) {
           if(err) throw(err);
         }).forEach(function(scam, index) {
             scams_checked += 1;
-            //scamdata = JSON.stringify(scam, null, 2)
             for(var i = 0; i < new_cache.scams.length; i++) {
                 if( url.parse(new_cache.scams[i].url).hostname == url.parse(scam.url).hostname ) {
                     scamsdetected += 1;
@@ -61,8 +55,8 @@ let scamtestcomplete = function(){
                     // Not detected, add scam to cache
                     if ('url' in scam) {
                           if (!scam.url.includes('http://') && !scam.url.includes('https://')) {
-                              console.log('Warning! Entry ' + scam.id + ' has no protocol (http or https) specified. Please update!');
-                              scam.url = 'http://' + scam.url;
+                            debug('Warning! Entry %s doesnt have the url protocol (http or https) specified. Please update!',scam.id);
+                            scam.url = 'http://' + scam.url;
                           }
                           if (scam.addresses != null) {
                             scam.addresses.forEach(function(address, index) {
@@ -139,7 +133,6 @@ let scamtestcomplete = function(){
                             scams_checked++;
                             if(index == (new_cache.scams.length-1)) {
                               var done_interval = setInterval(function() {
-                                //console.log(requests_pending);
                                 if (requests_pending == 0) {
                                   clearInterval(done_interval);
                                   Object.keys(new_cache.ips).forEach(function(ip) {
@@ -155,7 +148,7 @@ let scamtestcomplete = function(){
                               });
                           });
                       } else {
-                          console.log("Fatal error: Scam without URL found (" + scam.id + ")");
+                          debug("Fatal error: Scam without URL found (" + scam.id + ")");
                           process.abort();
                       }
                 }
@@ -190,6 +183,4 @@ downloadcomplete().then(function(){
     return scamtestcomplete();
 }).then(function(){
     return addUpdate();
-}).then(function(){
-    console.timeEnd("timingquickadd");
 })

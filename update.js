@@ -61,7 +61,6 @@ scams.forEach(function(scam, index) {
         }
         if (scam.addresses != null) {
           scam.addresses.forEach(function(address, index) {
-            //debug("Casting " + scam.addresses[index] + " as " + scam.addresses[index].toLowerCase())
             scam.addresses[index] = scam.addresses[index].toLowerCase();
           })
         }
