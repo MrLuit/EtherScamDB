@@ -2,12 +2,20 @@
   "name": "etherscamdb",
   "version": "2.0.0",
   "main": "run.js",
+  "license": "MIT",
   "scripts": {
+    "start": "cross-env NODE_ENV=development DEBUG=* node run.js",
     "test": "mocha ./tests/validate_data.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MrLuit/EtherScamDB.git"
   },
   "dependencies": {
     "body-parser": "^1.18.2",
+    "cross-env": "^5.2.0",
     "dateformat": "^2.2.0",
+    "debug": "^3.1.0",
     "download-file": "^0.1.5",
     "eth-phishing-detect": "^1.1.12",
     "express": "^4.16.3",
