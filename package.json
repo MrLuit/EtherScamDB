@@ -2,9 +2,14 @@
   "name": "etherscamdb",
   "version": "2.0.0",
   "main": "run.js",
+  "license": "MIT",
   "scripts": {
     "start": "cross-env NODE_ENV=development DEBUG=* node run.js",
     "test": "mocha ./tests/validate_data.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MrLuit/EtherScamDB.git"
   },
   "dependencies": {
     "body-parser": "^1.18.2",
