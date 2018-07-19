@@ -31837,7 +31837,7 @@
     url: 'https://etherdelta.com.ua'
     category: Phishing
     subcategory: EtherDelta
-    description: 'Fake EtherDelta'
+    description: 'Fake EtherDelta phishing for keys with POST /admm/rdy.php'
 -
     id: 4471
     name: etzerdelta.com
@@ -34220,3 +34220,10 @@
     description: 'Fake EOS web wallet'       
     addresses:
       - '0x5Ef4EC670246Af663F64aFf354a30Ca54B43DAFD'     
+-
+    id: 4760
+    name: idexchange.pro
+    url: 'https://idexchange.pro'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market phishing for keys with POST /save.php' 
