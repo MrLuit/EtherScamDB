@@ -17,7 +17,7 @@ const rawVerified = yaml.safeLoad(fs.readFileSync('_data/legit_urls.yaml'));
 
 (async () => {
 	debug("Updating scams...");
-	const bar = new progress.Bar({ format: '[{bar}] {percentage}% | {value}/{total} scams\n' }, progress.Presets.shades_classic);
+	const bar = new progress.Bar({ format: '[{bar}] {percentage}% | {value}/{total} scams' }, progress.Presets.shades_classic);
 	bar.start(rawScams.length, 0);
 	const scams = await Promise.all(rawScams.map(scam => new Scam(scam)).map(async scam => {
 		const ip = await scam.getIP();
