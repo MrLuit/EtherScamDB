@@ -34334,3 +34334,31 @@
     category: Phishing
     subcategory: Bitfinex
     description: 'Fake Bitfinex phishing for private keys - https://twitter.com/sniko_/status/1020078544922214400'         
+-
+    id: 4774
+    name: ethzerdelta.com
+    url: 'http://ethzerdelta.com'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta'
+-
+    id: 4775
+    name: forkdelta.su
+    url: 'http://forkdelta.su'
+    category: Phishing
+    subcategory: ForkDelta
+    description: 'Fake ForkDelta'    
+-
+    id: 4776
+    name: forkdeltagithub.info
+    url: 'http://forkdeltagithub.info'
+    category: Phishing
+    subcategory: ForkDelta
+    description: 'Fake ForkDelta'       
+-
+    id: 4777
+    name: myethrewallett.com
+    url: 'http://myethrewallett.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'       
