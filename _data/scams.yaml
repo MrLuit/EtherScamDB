@@ -34229,8 +34229,109 @@
     description: 'Fake Idex market phishing for keys with POST /save.php' 
 -
     id: 4761
-    name: myetherwalletmessage.signauth.icu/signmsg.html
-    url: 'https://myetherwalletmessage.signauth.icu/signmsg.html'
+    name: blvonance.com
+    url: 'https://blvonance.com'
     category: Phishing
-    subcategory: MyEtherWallet
-    description: 'Fake MyEtherWallet phishing for keys with POST /log.php'
+    subcategory: Binance
+    description: 'Reported as a fake Binance phishing for logins - Suspicious domain' 
+-
+    id: 4762
+    name: airdrop-event.info
+    url: 'http://airdrop-event.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xb0d46Eb7e6Aac501BcCE47F05aCe37527B8B329a'     
+-
+    id: 4763
+    name: currency.promo
+    url: 'http://currency.promo'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xD8D0506ED425364EE126819E8b73Fc3160C39D49'      
+-
+    id: 4764
+    name: czgive.site
+    url: 'http://czgive.site'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x44610ceE8C56D34e80468243065e3a319250e32a'    
+-
+    id: 4765
+    name: verify.bonuseth.info
+    url: 'http://verify.bonuseth.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x429D386Adc915adE21593609B1b89b976B2F2af4'        
+-
+    id: 4766
+    name: get.bigethgift.com
+    url: 'http://get.bigethgift.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xC71943c6411DD88aAD1E5b69Da551F16596d73cC'           
+-
+    id: 4767
+    name: bigethgift.com
+    url: 'http://bigethgift.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xC71943c6411DD88aAD1E5b69Da551F16596d73cC'          
+-
+    id: 4768
+    name: ethsafe.info
+    url: 'http://ethsafe.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x1cBc864EA74e0f23F103dF8623Ba56a01b1eDa59'      
+-
+    id: 4769
+    name: ethnewpromoaway.com
+    url: 'http://ethnewpromoaway.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xB75Be435Ee985Ab09f99299A90b03937B33855c6'         
+-
+    id: 4770
+    name: btcgiveaway.org
+    url: 'http://btcgiveaway.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 17mKwVQHq7YXk9bwocPjnnypbzPEWTnN2o'  
+-
+    id: 4771
+    name: btcpromogivegroup.com
+    url: 'http://btcpromogivegroup.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 3LfmhNmuE3vXuruFG9nHwT9heMYvceahhQ'     
+-
+    id: 4772
+    name: metamaskpro.io
+    url: 'http://metamaskpro.io'
+    category: Phishing
+    subcategory: Metamask
+    description: 'Promoting a fake MetaMask - https://chrome.google.com/webstore/detail/metamask-pro/bjhhmlocoehibjnebcaedkhecggonhne/'         
+-
+    id: 4773
+    name: www-bitfinex.com
+    url: 'http://www-bitfinex.com'
+    category: Phishing
+    subcategory: Bitfinex
+    description: 'Fake Bitfinex phishing for private keys - https://twitter.com/sniko_/status/1020078544922214400'         
+>>>>>>> a0fab8a22add12f17aac34cead07ffab6588cf9b

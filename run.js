@@ -1,12 +1,12 @@
 'use strict';
 
 const fs = require('fs-extra');
-
+const debug = require('debug')('app');
 const express = require('express');
 const bodyParser = require('body-parser');
 const url = require('url');
 const dateFormat = require('dateformat');
-const spawn = require('child_process').spawn;
+const {fork} = require('child_process');
 const download = require('download-file');
 const rimraf = require('rimraf');
 const phishingDetector = require('eth-phishing-detect/src/detector');
@@ -28,27 +28,23 @@ var older_cache_time;
 /* See if there's an up-to-date cache, otherwise run `update.js` to create one. */
 function getCache(callback = false) {
     if (!fs.existsSync('_cache/cache.json')) {
-        console.log("No cache file found. Creating one...");
+        debug("No cache file found. Creating one...");
         if (callback) {
             if (!updating_now) {
                 updating_now = true;
-                spawn('node', ['update.js'], {
-                    detached: true
-                });
+                fork('update.js');
             }
             var checkDone = setInterval(function() {
                 if (fs.existsSync('_cache/cache.json')) {
                     updating_now = false;
                     cache = JSON.parse(fs.readFileSync('_cache/cache.json'));
                     clearInterval(checkDone);
-                    console.log("Successfully updated cache!");
+                    debug("Successfully updated cache!");
                     callback();
                 }
             }, 1000);
         } else {
-            spawn('node', ['update.js'], {
-                detached: true
-            });
+            fork('update.js');
         }
     } else if (!cache) {
         cache = JSON.parse(fs.readFileSync('_cache/cache.json'));
@@ -61,13 +57,11 @@ function getCache(callback = false) {
         if (!updating_now) {
             updating_now = true;
             older_cache_time = cache.updated;
-            spawn('node', ['update.js'], {
-                detached: true
-            });
+            fork('update.js');
             var checkDone2 = setInterval(function() {
                 if (cache.updated != older_cache_time) {
                     clearInterval(checkDone2);
-                    console.log("Successfully updated cache!");
+                    debug("Successfully updated cache!");
                     updating_now = false;
                 }
             }, 1000);
@@ -124,7 +118,7 @@ function startWebServer() {
                 if (fs.existsSync("_static/img/" + url.name.toLowerCase().replace(' ', '') + ".png")) {
                     table += "<tr><td><img class='project icon' src='/img/" + url.name.toLowerCase().replace(' ', '') + ".png'>" + url.name + "</td><td><a target='_blank' href='" + url.url + "'>" + url.url + "</a></td></tr>";
                 } else {
-                    console.log("Warning: No verified icon was found for " + url.name);
+                    debug("Warning: No verified icon was found for %s",url.name);
                     table += "<tr><td>" + url.name + "</td><td><a target='_blank' href='" + url.url + "'>" + url.url + "</a></td></tr>";
                 }
             }
@@ -295,7 +289,7 @@ function startWebServer() {
                     var subcategory = scams[i].subcategory;
                     if (!(icon_warnings.includes(subcategory))) {
                         icon_warnings.push(subcategory);
-                        console.log("Warning! No subcategory icon found for " + subcategory);
+                        debug("Warning! No subcategory icon found for %s",subcategory);
                     }
                 }
             } else {
@@ -432,10 +426,10 @@ function startWebServer() {
                 const detector = new phishingDetector(importsData);
                 template = template.replace("{{ scam.metamask }}", "<b>MetaMask Status:</b> " + (detector.check(url.parse(scam.url).hostname).result ? "<span style='color:green'>Blocked</span>" : "<span style='color:red'>Not Blocked</span>") + "<br />");
               } catch (e) {
-                console.log(e);
+                debug(e);
               }
             } else{
-              console.log('MetaMask JSON not found');
+              debug('MetaMask JSON not found');
             };
             if ('status' in scam && scam.status != 'Offline' && fs.existsSync('_cache/screenshots/' + scam.id + '.png')) {
                 template = template.replace("{{ scam.screenshot }}", '<h3>Screenshot</h3><img src="/screenshot/' + scam.id + '.png">');
@@ -479,7 +473,7 @@ function startWebServer() {
                 res.send(default_template.replace('{{ content }}', template));
             });
         } else {
-            console.log("Warning: No Google Safe Browsing API key found");
+            debug("Warning: No Google Safe Browsing API key found");
             res.send(default_template.replace('{{ content }}', template));
         }
     });
@@ -585,7 +579,7 @@ function startWebServer() {
               });
           } else {
               template = template.replace("{{ neutral.googlethreat }}", "<span class='class_inactive'> Could not pull data from Google SafeBrowsing</span>");
-              console.log("Warning: No Google Safe Browsing API key found");
+              debug("Warning: No Google Safe Browsing API key found");
           }
           if ('VirusTotal_API_Key' in config && config.VirusTotal_API_Key && domainpage != 'undefined') {
               var options = {
@@ -622,7 +616,7 @@ function startWebServer() {
               template = template.replace("{{ neutral.virustotal }}", "<span class='class_inactive'> Could not pull data from VirusTotal</span>");
               template = template.replace("{{ neutral.phishtank }}", "<span class='class_inactive'> Could not pull data from Phishtank</span>");
               template = template.replace("{{ page.built }}", '<p class="built">This page was built in <b>' + ((new Date()).getTime() - startTime) + '</b>ms, and last updated at <b>' + dateFormat(getCache().updated, "UTC:mmm dd yyyy, HH:MM") + ' UTC</b></p>');
-              console.log("Warning: No VirusTotal API key found");
+              debug("Warning: No VirusTotal API key found");
           }
         }
 
@@ -720,7 +714,7 @@ function startWebServer() {
               });
           } else {
               template = template.replace("{{ verified.googlethreat }}", "<span class='class_inactive'> Could not pull data from Google SafeBrowsing</span>");
-              console.log("Warning: No Google Safe Browsing API key found");
+              debug("Warning: No Google Safe Browsing API key found");
           }
 
           if ('VirusTotal_API_Key' in config && config.VirusTotal_API_Key && domainpage != 'undefined') {
@@ -886,10 +880,10 @@ function startWebServer() {
                   const detector = new phishingDetector(importsData);
                   template = template.replace("{{ scam.metamask }}", "<b>MetaMask Status:</b> " + (detector.check(url.parse(scam.url).hostname).result ? "<span style='color:green'>Blocked</span>" : "<span style='color:red'>Not Yet Blocked</span>") + "<br />");
                 } catch (e) {
-                  console.log(e);
+                  debug(e);
                 }
               } else{
-                console.log('MetaMask JSON not found');
+                debug('MetaMask JSON not found');
               };
               if ('status' in scam && scam.status != 'Offline' && fs.existsSync('_cache/screenshots/' + scam.id + '.png')) {
                   template = template.replace("{{ scam.screenshot }}", '<h3>Screenshot</h3><img src="/screenshot/' + scam.id + '.png">');
@@ -934,7 +928,7 @@ function startWebServer() {
               });
           } else {
               template = template.replace("{{ scam.googlethreat }}", "<span class='class_inactive'> Could not pull data from Google SafeBrowsing</span>");
-              console.log("Warning: No Google Safe Browsing API key found");
+              debug("Warning: No Google Safe Browsing API key found");
           }
           if ('VirusTotal_API_Key' in config && config.VirusTotal_API_Key && domainpage != 'undefined') {
               var options = {
@@ -971,7 +965,7 @@ function startWebServer() {
               template = template.replace("{{ scam.virustotal }}", "<span class='class_inactive'> Could not pull data from VirusTotal</span>");
               template = template.replace("{{ scam.phishtank }}", "<span class='class_inactive'> Could not pull data from Phishtank</span>");
               template = template.replace("{{ page.built }}", '<p class="built">This page was built in <b>' + ((new Date()).getTime() - startTime) + '</b>ms, and last updated at <b>' + dateFormat(getCache().updated, "UTC:mmm dd yyyy, HH:MM") + ' UTC</b></p>');
-              console.log("Warning: No VirusTotal API key found");
+              debug("Warning: No VirusTotal API key found");
           }
         }
 
@@ -1233,7 +1227,7 @@ function startWebServer() {
         req.on('end', function() {
 
             if ('x-hub-signature' in req.headers && 'Github_Hook_Secret' in config && crypto.timingSafeEqual(Buffer.from(req.headers['x-hub-signature']), Buffer.from("sha1=" + crypto.createHmac("sha1", config.Github_Hook_Secret).update(req.rawBody).digest("hex")))) {
-                console.log("New commit pushed");
+                debug("New commit pushed");
                 download("https://raw.githubusercontent.com/" + config.repository.author + "/" + config.repository.name + "/" + config.repository.branch + "/_data/scams.yaml?no-cache=" + (new Date()).getTime(), {
                     directory: "_data/",
                     filename: "scams.yaml"
@@ -1245,15 +1239,11 @@ function startWebServer() {
                     }, function(err) {
                         if (err) throw err;
                         res.status(200).end();
-                        spawn('node', ['update.js'], {
-                            detached: true
-                        });
+                        fork('update.js');
                     });
                 });
             } else {
-                console.log("Incorrect webhook attempt");
-                console.log(req.headers['x-hub-signature']);
-                console.log(req.body);
+                debug("Incorrect webhook attempt %o",req);
             }
         });
     });
@@ -1263,30 +1253,28 @@ function startWebServer() {
     });
 
     app.listen(config.port, function() { // Listen on port (defined in config)
-        console.log('Content served on http://localhost:' + config.port);
+        debug('Content served on http://localhost:%s',config.port);
     });
 }
 
 /*  Copy config.example.js to config.js, if it does not exist yet */
 if (!fs.existsSync('config.js')) {
     fs.copySync('config.example.js', 'config.js');
-    console.log('Config file was copied. Please update with correct values');
-    process.abort();
+    debug('Config file was copied. Please update with correct values');
+    process.exit();
 } else if (2 in process.argv) {
     if (process.argv[2] == "--clean") {
         rimraf('_cache', function() {
-            console.log("Cleared cache");
+            debug("Cleared cache");
         });
     } else if (process.argv[2] == "--update") {
         if (fs.existsSync("_cache/cache.json") && cache) {
-            spawn('node', ['update.js'], {
-                detached: true
-            });
+            fork('update.js');
         } else {
-            console.log("Another update is already in progress...");
+            debug("Another update is already in progress...");
         }
     } else {
-        console.log("Unsupported flag: " + process.argv[2]);
+        debug("Unsupported flag: %s",process.argv[2]);
     }
 } else {
     /* Update the local cache using the external cache every 60 seconds */
@@ -1296,7 +1284,7 @@ if (!fs.existsSync('config.js')) {
                 try {
                     cache = JSON.parse(data);
                 } catch (e) {
-                    console.log(e);
+                    debug(e);
                 }
             });
         }
