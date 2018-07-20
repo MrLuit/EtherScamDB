@@ -34362,3 +34362,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'       
+-
+    id: 4778
+    name: eosauthority.services
+    url: 'https://eosauthority.services'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS site phishing for private keys via POST store.php'
