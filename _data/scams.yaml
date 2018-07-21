@@ -34498,3 +34498,12 @@
     category: Phishing
     subcategory: Binance
     description: 'Fake Binance phishing for logins'      
+-
+    id: 4795
+    name: coinssafe.org
+    url: 'http://coinssafe.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x68AaCF41FA22ecD5ca0BB102dA46b0f503E2E168'
