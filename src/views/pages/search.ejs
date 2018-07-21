@@ -1,5 +1,13 @@
-<link rel="stylesheet" href="/css/search.css">
-<h1><i class="search icon"></i> Check URL / IP / ETH Address</h1>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<% include ../partials/header.ejs %>
+		<link rel="stylesheet" href="/css/search.css">
+	</head>
+	<body>
+		<% include ../partials/navbar.ejs %>
+		<div class="ui body container">
+			<h1><i class="search icon"></i> Check URL / IP / ETH Address</h1>
 <div id='verified' class="ui icon message">
     <i class="checkmark icon"></i>
     <div class="content">
@@ -41,7 +49,20 @@
         </tr>
     </thead>
     <tbody>
-        {{ trusted.table }}
+        <% featured.forEach(entry => { %>
+			<tr>
+				<td>
+					<img class='project icon' src='/img/<%= entry.name.toLowerCase().replace(/ /g, "") %>.png'><%= entry.name %>
+				</td>
+				<td>
+					<a target='_blank' href='<%= entry.url %>'><%= entry.url %></a>
+				</td>
+			</tr>
+		<% }); %>
     </tbody>
 </table>
-<script src="/js/search.js"></script>
+		</div>
+		<% include ../partials/footer.ejs %>
+		<script src="/js/search.js"></script>
+	</body>
+</html>

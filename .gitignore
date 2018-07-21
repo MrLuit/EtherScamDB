@@ -1,5 +1,4 @@
 node_modules
 npm-debug.log
-_cache
-_site
-config.js
+src/cache.db
+config/config.js

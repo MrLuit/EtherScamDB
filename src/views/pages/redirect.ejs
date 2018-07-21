@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<% include ../partials/header.ejs %>
+		<link rel="stylesheet" href="/css/redirect.css">
+	</head>
+	<body>
+		<% include ../partials/navbar.ejs %>
+		<div class="ui body container">
+			<h1><i class="warning sign icon"></i> Warning</h1>
+			<h3>You are about to leave the official website to an untrusted domain.</h3>
+			<div class="ui divider"></div>
+			<h3>Domain: <b id='domain'><%= url %></b></h3>
+			<div class="ui divider"></div>
+			<div class="ui list">
+				<div class="item">
+					<h4>Do not click anything.</h4>
+				</div>
+				<div class="item">
+					<h4>Do not fill in any of your information. (And definitely no private keys!)</h4>
+				</div>
+				<div class="item">
+					<h4>Wipe your history after you have visited this domain. You don't want a fake website to show up when you type "myetherwa" or "mycry" in your address bar.</h4>
+				</div>
+			</div>
+			<div class="ui center aligned segment">
+				<button class="huge negative ui button">I understand</button>
+			</div>
+		</div>
+		<% include ../partials/footer.ejs %>
+		<script>let url = "<%= url %>";</script>
+		<script src="/js/redirect.js"></script>
+	</body>
+</html>

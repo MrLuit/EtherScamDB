@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<% include ../partials/header.ejs %>
+		<link rel="stylesheet" href="/css/address.css">
+	</head>
+	<body>
+		<% include ../partials/navbar.ejs %>
+		<div class="ui body container">
+			<h1><%= address %></h1>
+			{{ address.notification }}
+			<b>Balance</b>: <span id="balance">loading...</span><BR>
+			<b>USD Value</b>: <span id="value">loading...</span><BR>
+			{{ address.list }}
+			<div class="ui divider"></div>
+			<a target="_blank" href="https://etherscan.io/address/<%= address %>"><i class="external icon"></i> View address on etherscan</a><BR>
+			<div id="disqus_thread"></div>
+		</div>
+		<% include ../partials/footer.ejs %>
+		<script>
+			var disqus_config = function () {
+				this.page.url = "http://etherscan.io/address/<%= address %>#disqus";
+				this.page.identifier = "Etherscan_<%= address %>";
+			};
+			(function() {
+				var d = document, s = d.createElement('script');
+				s.src = 'https://etherscan.disqus.com/embed.js';
+				s.setAttribute('data-timestamp', +new Date());
+				(d.head || d.body).appendChild(s);
+			})();
+		</script>
+		<script src="/js/address.js"></script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	</body>
+</html>

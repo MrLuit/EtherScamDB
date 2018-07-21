@@ -1,3 +1,7 @@
+.question1,.question2a,.question2b,.question3,.question4a,.question4b,.question5,.question6,.question7a,.question7b,.question7c,.question8,.question9b,.question9c {
+	display: none;
+}
+
 .ui.form {
   margin-top: 1%;
 }
@@ -12,10 +16,6 @@ i.send.icon {
 
 .ui.black.label {
 	background-color: rgba(0,0,0,0.8) !important;
-}
-
-.ui.long.input {
-  width: 48%;
 }
 
 h2,h3 {
@@ -47,10 +47,6 @@ h3.link {
 .actions {
   text-align: center;
   margin-top: 10%;
-}
-
-.addr {
-  margin-top: 2%;
 }
 
 .spacing {

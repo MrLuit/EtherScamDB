@@ -32,11 +32,14 @@ module.exports = class Scam {
 	
 	async getStatus() {
 		const result = this.lookup();
+		try {
+			console.log(result.request.uri.path);
+		} catch(e) { console.error(e); }
 		if(!result) {
 			return 'Offline';
 		} else if(result && result.request && result.request.uri && result.request.uri.path && result.request.uri.path == '/cgi-sys/suspendedpage.cgi') {
             return 'Suspended';
-		} else if(result && result.body == '') {
+		} else if(result && (result.body == '' || (result.request && result.request.uri && result.request.uri.path && result.request.uri.path == '/cgi-sys/defaultwebpage.cgi'))) {
 			return 'Inactive';
 		} else if (result && this.subcategory && this.subcategory == 'MyEtherWallet') {
 			const isMEW = await lookup('http://' + url.parse(this.url).hostname.replace("www.", "") + '/js/etherwallet-static.min.js');

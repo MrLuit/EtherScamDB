@@ -4,6 +4,12 @@
     <title>EtherScamDB</title> 
     <link>https://etherscamdb.info</link> 
     <description>An open-source database for all Ethereum and ERC20 scams</description>
-    {{ rss.entries }}
+	<% scams.forEach(scam => { %>
+		<item>
+			<title><%= scam.name %></title>
+			<link>https://etherscamdb.info/scam/<%= scam.id %>/</link>
+			<description><%= scam.category %></description>
+		</item>
+	<% }); %>
   </channel>
 </rss>

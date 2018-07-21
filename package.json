@@ -1,14 +1,13 @@
 {
   "name": "etherscamdb",
-  "version": "2.0.0",
-  "main": "run.js",
+  "version": "3.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "cross-env NODE_ENV=development DEBUG=*,-lookup node run.js",
-    "update": "cross-env NODE_ENV=development DEBUG=*,-lookup node update.js",
-    "debug": "cross-env NODE_DEBUG=request NODE_ENV=development DEBUG=* node run.js",
+    "start": "cross-env NODE_ENV=development DEBUG=*,-lookup,-sqlite3 node src/run.js",
+    "update": "cross-env NODE_ENV=development DEBUG=*,-lookup,-sqlite3 node src/update.js",
+    "debug": "cross-env NODE_DEBUG=request NODE_ENV=development DEBUG=* node src/run.js",
     "test": "mocha ./tests/validate_data.js",
-    "clean": "rimraf _cache"
+    "clean": "rimraf cache.db"
   },
   "repository": {
     "type": "git",
@@ -22,12 +21,14 @@
     "dateformat": "^2.2.0",
     "debug": "^3.1.0",
     "download-file": "^0.1.5",
+    "ejs": "^2.6.1",
     "eth-phishing-detect": "^1.1.12",
     "express": "^4.16.3",
     "fs-extra": "^5.0.0",
     "js-yaml": "^3.9.0",
     "request": "^2.87.0",
     "shuffle-array": "^1.0.1",
+    "sqlite3": "^4.0.2",
     "url": "^0.11.0"
   },
   "devDependencies": {

@@ -7,15 +7,15 @@ const yaml = require('js-yaml');
 const fs = require('fs');
 const Scam = require('./_utils/scam.class');
 const createDictionary = require('./_utils/dictionary');
-
-if (!fs.existsSync('_cache')) {
-    fs.mkdirSync('_cache');
-}
+const db = require('./_utils/db');
 
 const rawScams = yaml.safeLoad(fs.readFileSync('_data/scams.yaml')).reverse();
 const rawVerified = yaml.safeLoad(fs.readFileSync('_data/legit_urls.yaml'));
 
 (async () => {
+	await Promise.all(rawScams.map(scam => db.run("INSERT OR REPLACE INTO scams VALUES (?,?,?,null,null,null,?,?,?)",[scam.id,scam.name,scam.url,scam.category,scam.subcategory,scam.description])));
+	await Promise.all(rawVerified.map(verified => db.run("INSERT OR REPLACE INTO verified_urls VALUES (?,?,?,?,?)",[verified.id,verified.name,verified.url,verified.featured+0,verified.description])));
+	
 	debug("Updating scams...");
 	const bar = new progress.Bar({ format: '[{bar}] {percentage}% | {value}/{total} scams ' }, progress.Presets.shades_classic);
 	bar.start(rawScams.length, 0);

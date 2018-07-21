@@ -1,5 +1,20 @@
-<link rel="stylesheet" href="../css/report.css">
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+<% include ../partials/header %>
+<% if(typeof domain !== "undefined") { %>
+<link rel="stylesheet" href="/css/reportdomain.css">
+<% } else if(typeof address !== "undefined") { %>
+<link rel="stylesheet" href="/css/reportaddress.css">
+<% } else { %>
+<link rel="stylesheet" href="/css/report.css">
+<% } %>
+</head>
+
+<body>
+	<% include ../partials/navbar %>
+    <div class="ui body container">
 <div class="question1">
     <h2 class="report"><i class="flag outline icon"></i> Report</h2>
     <div class="ui centered grid">
@@ -244,7 +259,11 @@
             <div class="ui black label">
                 Domain:
             </div>
+			<% if(typeof domain !== "undefined") { %>
+				<input type="text" id="gendomain" value="<%= domain %>">
+			<% } else { %>
             <input type="text" id="gendomain" placeholder="fake-mycrypto.com">
+			<% } %>
         </div>
     </div>
     <div class="actions">
@@ -267,7 +286,11 @@
             <div class="ui black label">
                 Address:
             </div>
+			<% if(typeof address !== "undefined") { %>
+				<input type="text" id="address" value="<%= address %>" maxlength="42">
+			<% } else { %>
             <input type="text" id="address" placeholder="0x0000000000000000000000000000000000000000" maxlength="42">
+			<% } %>
         </div>
     </div>
     <div class="actions">
@@ -362,6 +385,16 @@
         </div>
     </div>
 </div>
-
-<script src="../js/report.js"></script>
+	</div>
+	<% include ../partials/footer %>
+	<% if(typeof domain !== "undefined") { %>
+<script src="/js/reportdomain.js"></script>
+<% } else if(typeof address !== "undefined") { %>
+<script src="/js/reportaddress.js"></script>
+<% } else { %>
+<script src="/js/report.js"></script>
+<% } %>
 <script src='https://www.google.com/recaptcha/api.js?onload=reCaptchaCallback&render=explicit'></script>
+</body>
+
+</html>
