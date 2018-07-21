@@ -34437,3 +34437,64 @@
     category: Phishing
     subcategory: Blockchain
     description: 'Fake Blockchain phishing for logins'
+-
+    id: 4788
+    name: mcafee.promo
+    url: 'http://mcafee.promo'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xD8D0506ED425364EE126819E8b73Fc3160C39D49'   
+-
+    id: 4789
+    name: eth60.top
+    url: 'http://eth60.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xab7ec7596fc05bc55afc07008cc06c1193ed6f9a'    
+-
+    id: 4790
+    name: getfree-eth.org
+    url: 'http://getfree-eth.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x2B1C266E2a39a7a30aED472Fad47d6b6AB953F7e'
+-
+    id: 4791
+    name: vaxx.co
+    url: 'http://vaxx.co'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xD8D0506ED425364EE126819E8b73Fc3160C39D49'          
+-
+    id: 4792
+    name: cryptoether.info
+    url: 'http://cryptoether.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xA4F06F1afB7B8589D1F4609257e5010C30eD3D2b'
+-
+    id: 4793
+    name: coincapitals.org
+    url: 'http://coincapitals.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x68AaCF41FA22ecD5ca0BB102dA46b0f503E2E168'
+-
+    id: 4794
+    name: bonancre.com
+    url: 'https://bonancre.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance phishing for logins'      
