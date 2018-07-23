@@ -48,10 +48,8 @@
     url: 'http://xn--mytherwallet-fvb.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        The website doesn't seem to be sending the private key anywhere (chrome
-        dev console)
-
+    description: |-
+        The website doesn't seem to be sending the private key anywhere (chrome dev console)
         Report: https://www.digitalocean.com/company/contact/#abuse
 -
     id: 8
@@ -59,9 +57,7 @@
     url: 'http://myetherwallet.top'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        IP has changed, Microsoft reports site as insecure, Poses as
-        MyEtherWallet Tech Support
+    description: 'IP has changed, Microsoft reports site as insecure, Poses as MyEtherWallet Tech Support'
 -
     id: 9
     name: mvetherwallet.com
@@ -75,9 +71,7 @@
     url: 'http://my-etherwallet.com'
     category: Phishing
     subcategory: Classic Ether Wallet
-    description: >-
-        phishing (linked to *.ether-api.com). did not 404.,MEW Deployed.
-        redirects to classic ether wallet
+    description: 'phishing (linked to *.ether-api.com). did not 404.,MEW Deployed. redirects to classic ether wallet'
 -
     id: 11
     name: myethewallet.net
@@ -117,9 +111,7 @@
     url: 'http://my-etherwallet.ch'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Same as .ac - Can be reported to Cloudflare:
-        https://www.cloudflare.com/abuse/form
+    description: 'Same as .ac - Can be reported to Cloudflare: https://www.cloudflare.com/abuse/form'
 -
     id: 17
     name: myetherwallet.com.ht
@@ -184,10 +176,7 @@
     url: 'http://myetherwallel.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Report: https://safebrowsing.google.com/safebrowsing/report_phish/ If
-        have IE / Edge, report there:
-        https://support.microsoft.com/en-us/help/930167/how-to-report-a-phishing-web-site
+    description: 'Report: https://safebrowsing.google.com/safebrowsing/report_phish/ If have IE / Edge, report there: https://support.microsoft.com/en-us/help/930167/how-to-report-a-phishing-web-site'
 -
     id: 26
     name: ether-wall.com
@@ -234,9 +223,7 @@
     url: 'http://myetherwalliet.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        (7/17/2017) Up again (7/15/2017) 403    (7/13/2017) did not 404.,MEW
-        Deployed,MEW Weaponised,SSL Invalid - posted to metamask / bittrex
+    description: '(7/17/2017) Up again (7/15/2017) 403    (7/13/2017) did not 404.,MEW Deployed,MEW Weaponised,SSL Invalid - posted to metamask / bittrex'
 -
     id: 34
     name: bitcoin-wallet.net
@@ -278,21 +265,14 @@
     url: 'http://myetherwallaet.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        did not 404.,MEW Deployed. it isn't using the mailArea2() call. It's
-        pulling etherwallet-static from the legit MEW site but pulling master.js
-        from https://s3-us-west-2.amazonaws.com/gigshunt/master.js. JS errors
-        all over the place, not rendering properly. [blacklisted via
-        Levenshtein]
+    description: 'did not 404.,MEW Deployed. it isn''t using the mailArea2() call. It''s pulling etherwallet-static from the legit MEW site but pulling master.js from https://s3-us-west-2.amazonaws.com/gigshunt/master.js. JS errors all over the place, not rendering properly. [blacklisted via Levenshtein]'
 -
     id: 41
     name: district0x.net
     url: 'http://district0x.net'
     category: Fake ICO
     subcategory: district0x
-    description: >-
-        fake ICO site w/ fake address. Mirrored from district0x.io/ by HTTrack
-        Website Copier/3.x [XR&CO'2014], Fri, 14 Jul 2017 08:59:16 GMT
+    description: 'fake ICO site w/ fake address. Mirrored from district0x.io/ by HTTrack Website Copier/3.x [XR&CO''2014], Fri, 14 Jul 2017 08:59:16 GMT'
     addresses:
         - '0x2268751eAFC860781074D25f4bD10DED480310B9'
 -
@@ -301,29 +281,21 @@
     url: 'http://secure-myetherwallet.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        confirmed phishing, blacklisted. did not 404.,MEW Deployed,MEW
-        Weaponised,SSL Invalid
+    description: 'confirmed phishing, blacklisted. did not 404.,MEW Deployed,MEW Weaponised,SSL Invalid'
 -
     id: 43
     name: myetherwallet.biz
     url: 'http://myetherwallet.biz'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        scambot phishers did not 404.,MEW Deployed,MEW Weaponised,SSL VALID!
-        completely server side [blacklisted] <!-- Mirrored from
-        myetherwallet.su/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05
-        Jul 2017 23:40:20 GMT -->
+    description: 'scambot phishers did not 404.,MEW Deployed,MEW Weaponised,SSL VALID! completely server side [blacklisted] <!-- Mirrored from myetherwallet.su/ by HTTrack Website Copier/3.x [XR&CO''2014], Wed, 05 Jul 2017 23:40:20 GMT -->'
 -
     id: 44
     name: myetherwallet.cc
     url: 'http://myetherwallet.cc'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        phishing scambot. did not 404.,MEW Deployed,MEW Weaponised,SSL VALID!
-        completely server side [blacklisted]
+    description: 'phishing scambot. did not 404.,MEW Deployed,MEW Weaponised,SSL VALID! completely server side [blacklisted]'
 -
     id: 45
     name: myetherwallet.su
@@ -374,69 +346,51 @@
     id: 52
     name: account-kigo.net
     url: 'http://account-kigo.net'
-    description: >-
-        same guy as to eos-bonus eos-io update-mew and secure-mew. ?. keeping
-        for recon
+    description: same guy as to eos-bonus eos-io update-mew and secure-mew. ?. keeping for recon
 -
     id: 54
     name: eos-bonus.com
     url: 'http://eos-bonus.com'
     category: Fake ICO
     subcategory: EOS
-    description: >-
-        same guy as to eos-bonus eos-io update-mew and secure-mew. ?. keeping
-        for recon
+    description: same guy as to eos-bonus eos-io update-mew and secure-mew. ?. keeping for recon
 -
     id: 55
     name: eos-io.info
     url: 'http://eos-io.info'
     category: Fake ICO
     subcategory: EOS
-    description: >-
-        same guy as to eos-bonus eos-io update-mew and secure-mew. ?. keeping
-        for recon
+    description: same guy as to eos-bonus eos-io update-mew and secure-mew. ?. keeping for recon
 -
     id: 56
     name: reservations-kigo.net
     url: 'http://reservations-kigo.net'
-    description: >-
-        same guy as to eos-bonus eos-io update-mew and secure-mew. ?. keeping
-        for recon
+    description: same guy as to eos-bonus eos-io update-mew and secure-mew. ?. keeping for recon
 -
     id: 57
     name: reservations-lodgix.com
     url: 'http://reservations-lodgix.com'
-    description: >-
-        same guy as to eos-bonus eos-io update-mew and secure-mew. ?. keeping
-        for recon
+    description: same guy as to eos-bonus eos-io update-mew and secure-mew. ?. keeping for recon
 -
     id: 58
     name: secure-liverez.com
     url: 'http://secure-liverez.com'
-    description: >-
-        same guy as to eos-bonus eos-io update-mew and secure-mew. ?. keeping
-        for recon
+    description: same guy as to eos-bonus eos-io update-mew and secure-mew. ?. keeping for recon
 -
     id: 59
     name: secure-onerooftop.com
     url: 'http://secure-onerooftop.com'
-    description: >-
-        same guy as to eos-bonus eos-io update-mew and secure-mew. ?. keeping
-        for recon
+    description: same guy as to eos-bonus eos-io update-mew and secure-mew. ?. keeping for recon
 -
     id: 60
     name: settings-liverez.com
     url: 'http://settings-liverez.com'
-    description: >-
-        same guy as to eos-bonus eos-io update-mew and secure-mew. ?. keeping
-        for recon
+    description: same guy as to eos-bonus eos-io update-mew and secure-mew. ?. keeping for recon
 -
     id: 61
     name: software-liverez.com
     url: 'http://software-liverez.com'
-    description: >-
-        same guy as to eos-bonus eos-io update-mew and secure-mew. ?. keeping
-        for recon
+    description: same guy as to eos-bonus eos-io update-mew and secure-mew. ?. keeping for recon
 -
     id: 62
     name: software-lodgix.com
@@ -15789,18 +15743,14 @@
     url: 'http://bitstannp.net'
     category: Phishing
     subcategory: Bitstamp
-    description: >-
-        Fake bitstamp site - phishing for logins -
-        https://twitter.com/Bitstamp/status/933401197171675136
+    description: 'Fake bitstamp site - phishing for logins - https://twitter.com/Bitstamp/status/933401197171675136'
 -
     id: 2484
     name: xn--myetherwllet-0cb.com
     url: 'http://xn--myetherwllet-0cb.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet -
-        https://twitter.com/phishingalert/status/933618502178672640
+    description: 'Fake MyEtherWallet - https://twitter.com/phishingalert/status/933618502178672640'
 -
     id: 2485
     name: envoin.org
@@ -16404,9 +16354,7 @@
     url: 'http://canay.io'
     category: Phishing
     subcategory: Canya
-    description: >-
-        Fake Canya crowdsale site -
-        https://blog.canya.com.au/2017/12/18/security-alert-beware-sophisticated-phishing-scam/
+    description: 'Fake Canya crowdsale site - https://blog.canya.com.au/2017/12/18/security-alert-beware-sophisticated-phishing-scam/'
 -
     id: 2563
     name: singularitynet.in
@@ -16608,9 +16556,7 @@
     url: 'http://etherdelta.pw/'
     category: Phishing
     subcategory: EtherDelta
-    description: >-
-        Fake EtherDelta domain - hosted on the same server as the fake airdrop.
-        Assuming bad actor. Russain park page
+    description: Fake EtherDelta domain - hosted on the same server as the fake airdrop. Assuming bad actor. Russain park page
 -
     id: 2589
     name: reqestnetwork.com
@@ -16797,9 +16743,7 @@
     url: 'http://eos-token.org'
     category: Phishing
     subcategory: Eos
-    description: >-
-        Fake airdrop site asking for private keys. Suspected address:
-        0x05fbf1e3f105df6a4553f3c7f2ed93070a4bab46
+    description: 'Fake airdrop site asking for private keys. Suspected address: 0x05fbf1e3f105df6a4553f3c7f2ed93070a4bab46'
 -
     id: 2614
     name: dai-stablecoin.com
@@ -16815,9 +16759,7 @@
     url: 'http://xn--os-g7s.com'
     category: Phishing
     subcategory: Eos
-    description: >-
-        Fake airdrop site redirecting to a fake MEW xn--myeherwalet-ns8exy.com.
-        Suspected address: 0x95d986f907ea7aed17c7b09b9689af7819545fb1
+    description: 'Fake airdrop site redirecting to a fake MEW xn--myeherwalet-ns8exy.com. Suspected address: 0x95d986f907ea7aed17c7b09b9689af7819545fb1'
     addresses:
         - '0x58a166f9a6ff996e2349eea90d42cc198529a037'
 -
@@ -16835,9 +16777,7 @@
     url: 'http://gifto.tech'
     category: Phishing
     subcategory: Gifto
-    description: >-
-        Fake airdrop site asking for private keys. Suspected address:
-        0x05fBf1E3f105df6a4553f3C7f2ed93070A4BAB46
+    description: 'Fake airdrop site asking for private keys. Suspected address: 0x05fBf1E3f105df6a4553f3C7f2ed93070A4BAB46'
     addresses:
         - '0x0059b14e35daB1b4EEe1e2926C7A5660dA66F747'
 -
@@ -16897,9 +16837,7 @@
     url: 'http://etherzero.org'
     category: Scamming
     subcategory: Etherzero
-    description: >-
-        Etherzero chain split but need to send coins to this address to buy the
-        new coins - does not add up.
+    description: Etherzero chain split but need to send coins to this address to buy the new coins - does not add up.
     addresses:
         - '0xf33068d5e798f6519349Ce32669D1EC940Db1193'
 -
@@ -17076,19 +17014,14 @@
     url: 'http://quanstamptoken.tk'
     category: Phishing
     subcategory: Quanstamp
-    description: >-
-        Fake Quanstamp site - hosted on the same server as many other
-        scams/phishing domains
+    description: Fake Quanstamp site - hosted on the same server as many other scams/phishing domains
 -
     id: 2647
     name: ethereum-zero.com
     url: 'http://ethereum-zero.com'
     category: Phishing
     subcategory: Etherzero
-    description: >-
-        Etherzero domain, but nothing supporting it being the legit domain. Also
-        hosted on a server used before to host other phishing campaigns. Asking
-        for your chain code.
+    description: 'Etherzero domain, but nothing supporting it being the legit domain. Also hosted on a server used before to host other phishing campaigns. Asking for your chain code.'
     addresses:
         - '0xac3800002e45ed2e1a55dedfa2aca137f6dba61e'
 -
@@ -17366,9 +17299,7 @@
     url: 'https://xn--condesk-sfb.com'
     category: Phishing
     subcategory: Coindesk
-    description: >-
-        Fake coindesk - redirecting to a uplink referral, but IDN homograph
-        attack on the domain
+    description: 'Fake coindesk - redirecting to a uplink referral, but IDN homograph attack on the domain'
 -
     id: 2684
     name: xn--coindsk-vs4c.com
@@ -17460,9 +17391,7 @@
     url: 'http://iluminatto.com.br'
     category: Phishing
     subcategory: Coinbase
-    description: >-
-        Hosting a fake coinbase -
-        https://twitter.com/switchingtoguns/status/955460254191570945
+    description: 'Hosting a fake coinbase - https://twitter.com/switchingtoguns/status/955460254191570945'
 -
     id: 2696
     name: paywithlnk.com
@@ -18000,9 +17929,7 @@
     url: 'http://wwwkodakcoin.com'
     category: Phishing
     subcategory: Kodak
-    description: >-
-        Fake kodakcoin domain (www.kodakcoin.com) redirecting to a binance
-        referral. Blacklisted for worst case.
+    description: Fake kodakcoin domain (www.kodakcoin.com) redirecting to a binance referral. Blacklisted for worst case.
 -
     id: 2762
     name: xn--mytherwalet-3qb08c.com
@@ -18079,18 +18006,14 @@
     url: 'http://beetolen.com'
     category: Phishing
     subcategory: Beetoken
-    description: >-
-        Fake beetoken redirecting to a binance referral. Blacklisted for worst
-        case.
+    description: Fake beetoken redirecting to a binance referral. Blacklisted for worst case.
 -
     id: 2773
     name: beetokem.com
     url: 'http://beetokem.com'
     category: Phishing
     subcategory: Beetoken
-    description: >-
-        Fake beetoken redirecting to a binance referral. Blacklisted for worst
-        case.
+    description: Fake beetoken redirecting to a binance referral. Blacklisted for worst case.
 -
     id: 2774
     name: xn--shapshift-e4a.com
@@ -18284,10 +18207,8 @@
     description: Fake MyEtherWallet
 -
     id: 2799
-    name: >-
-        docs.google.com/forms/d/e/1FAIpQLSeRw1qALR7-rbvOKRM-Wgs1TxmAN5BC7_XzATFiHIVRuRlegQ/viewform
-    url: >-
-        https://docs.google.com/forms/d/e/1FAIpQLSeRw1qALR7-rbvOKRM-Wgs1TxmAN5BC7_XzATFiHIVRuRlegQ/viewform
+    name: docs.google.com/forms/d/e/1FAIpQLSeRw1qALR7-rbvOKRM-Wgs1TxmAN5BC7_XzATFiHIVRuRlegQ/viewform
+    url: 'https://docs.google.com/forms/d/e/1FAIpQLSeRw1qALR7-rbvOKRM-Wgs1TxmAN5BC7_XzATFiHIVRuRlegQ/viewform'
     category: Phishing
     subcategory: Nucleus
     description: Fake Nucleus airdrop using Google forms
@@ -18668,9 +18589,7 @@
     url: 'https://rightmesh.in'
     category: Phishing
     subcategory: Rightmesh
-    description: >-
-        Fake Rightmesh crowdsale site, getting you to email your contribution
-        for a deposit address
+    description: 'Fake Rightmesh crowdsale site, getting you to email your contribution for a deposit address'
 -
     id: 2847
     name: openplatform.tech
@@ -18745,9 +18664,7 @@
     url: 'https://dock-ico.pro'
     category: Phishing
     subcategory: Dock
-    description: >-
-        Fake Dock site linking to the legit Dock crowdsale site with ref code
-        15922662
+    description: Fake Dock site linking to the legit Dock crowdsale site with ref code 15922662
 -
     id: 2856
     name: docks.site
@@ -18779,9 +18696,7 @@
     url: 'https://xn--es-8bb.com'
     category: Phishing
     subcategory: EOS
-    description: >-
-        Fake EOS airdrop site - linking to xn--myetherallt-pl9elw.com. Suspected
-        address: 0xd1dc670608c00e8e6378062b48ef5911b068ae3d
+    description: 'Fake EOS airdrop site - linking to xn--myetherallt-pl9elw.com. Suspected address: 0xd1dc670608c00e8e6378062b48ef5911b068ae3d'
 -
     id: 2860
     name: xn--myetherallt-pl9elw.com
@@ -18841,9 +18756,7 @@
     url: 'https://jiocoins.io'
     category: Scamming
     subcategory: ICO
-    description: >-
-        An ICO but no team members know about the company -
-        https://twitter.com/MayeeRama/status/965219691152183301
+    description: 'An ICO but no team members know about the company - https://twitter.com/MayeeRama/status/965219691152183301'
 -
     id: 2868
     name: seele.promo
@@ -18891,9 +18804,7 @@
     url: 'https://syncfab.tech'
     category: Phishing
     subcategory: Syncfab
-    description: >-
-        Fake Syncfab domain - currently redirecting to the legit domain, but can
-        be used for phishing
+    description: 'Fake Syncfab domain - currently redirecting to the legit domain, but can be used for phishing'
 -
     id: 2874
     name: forkdeita.github.io
@@ -18907,9 +18818,7 @@
     url: 'https://ton.fund'
     category: Phishing
     subcategory: Telegram
-    description: >-
-        Fake Telegram crowdsale site - suspected address
-        0x9a4a8d9133a7d7401904d72789b1a925b20499ca
+    description: Fake Telegram crowdsale site - suspected address 0x9a4a8d9133a7d7401904d72789b1a925b20499ca
 -
     id: 2876
     name: polyswarm.bid
@@ -18973,11 +18882,7 @@
     url: 'https://blocklancer.me'
     category: Phishing
     subcategory: Blocklancer
-    description: >-
-        Fake Blocklancer crowdsale site. suspected address;
-        0x7DC66F5b59b34dF403B96FeC7E749703c157ebF8
-        0xcb142defC16C9B409272447D87c74B722B767f1F
-        0xE61dF1F5b8dd4e4E2a874157c2C97dAf7314b795
+    description: Fake Blocklancer crowdsale site. suspected address; 0x7DC66F5b59b34dF403B96FeC7E749703c157ebF8 0xcb142defC16C9B409272447D87c74B722B767f1F 0xE61dF1F5b8dd4e4E2a874157c2C97dAf7314b795
 -
     id: 2884
     name: myethervallet.pro
@@ -19226,9 +19131,7 @@
     url: 'https://address-transfer-confirmation.droppages.com'
     category: Scamming
     subcategory: Twitter
-    description: >-
-        Fake ETH giveaway by a SatoshiLite Twitter imposter (twitter id:
-        960570782152888320)
+    description: 'Fake ETH giveaway by a SatoshiLite Twitter imposter (twitter id: 960570782152888320)'
     addresses:
         - '0x785a751B2E36b2B0Fdb80100B7ca14889a768A22'
 -
@@ -19237,9 +19140,7 @@
     url: 'https://akasha-world.com'
     category: Scamming
     subcategory: Akasha
-    description: >-
-        Fake Akasha pre-sale site -
-        https://twitter.com/AkashaProject/status/967856820579717121
+    description: 'Fake Akasha pre-sale site - https://twitter.com/AkashaProject/status/967856820579717121'
     addresses:
         - '0x8645eC394f7af95316639dcE6F99c01476B0d888'
 -
@@ -19248,9 +19149,7 @@
     url: 'https://6khb.payment-checker-ethereum-id-bslyftexjuwcgv8.filesusr.com'
     category: Scamming
     subcategory: Twitter
-    description: >-
-        Fake ETH giveaway by a SatoshiLite Twitter imposter (twitter id:
-        4799304813)
+    description: 'Fake ETH giveaway by a SatoshiLite Twitter imposter (twitter id: 4799304813)'
     addresses:
         - '0xaa2498d85bA7559006f90110A4Bc33c10A06c1AF'
 -
@@ -19259,9 +19158,7 @@
     url: 'https://eth-transact.secure.droppages.com'
     category: Scamming
     subcategory: Twitter
-    description: >-
-        Fake ETH giveaway by a SatoshiLite Twitter imposter (twitter id:
-        2604889256)
+    description: 'Fake ETH giveaway by a SatoshiLite Twitter imposter (twitter id: 2604889256)'
     addresses:
         - '0xe009321b26350c2CFF5DB607068c1f6813df40d7'
 -
@@ -19329,9 +19226,7 @@
     url: 'https://forkdelta.io'
     category: Phishing
     subcategory: ForkDelta
-    description: >-
-        Fake ForkDelta site - see
-        https://github.com/MetaMask/eth-phishing-detect/issues/1004
+    description: 'Fake ForkDelta site - see https://github.com/MetaMask/eth-phishing-detect/issues/1004'
 -
     id: 2927
     name: ton-sale.com
@@ -19375,9 +19270,7 @@
     url: 'https://transfer-address-confirmation.droppages.com'
     category: Scamming
     subcategory: TrustTrading
-    description: >-
-        Trust-trading site (the twitter giveaway ones -
-        https://twitter.com/Palooniex twitter_id: 960212831235960832)
+    description: 'Trust-trading site (the twitter giveaway ones - https://twitter.com/Palooniex twitter_id: 960212831235960832)'
     addresses:
         - '0x37c85A7523B1832B4D0380B2f513e88B66e8c850'
 -
@@ -19386,10 +19279,7 @@
     url: 'https://ataritoken.ltd'
     category: Phishing
     subcategory: Atari
-    description: >-
-        Fake Atari pre-sale site promoted by Atari_Official -
-        https://twitter.com/Atari_Official/status/965121747874967552 - twitter
-        id: 965120931659239424
+    description: 'Fake Atari pre-sale site promoted by Atari_Official - https://twitter.com/Atari_Official/status/965121747874967552 - twitter id: 965120931659239424'
     addresses:
         - '0x560833296ef7A7F41b30c1065225Fa9b33830c19'
 -
@@ -19470,9 +19360,7 @@
     url: 'https://xn--coindek-873c.com'
     category: Phishing
     subcategory: Coindesk
-    description: >-
-        Fake Coindesk site promoting a fake MyEtherWallet
-        xn--yetherwalle-tv8ezt.com
+    description: Fake Coindesk site promoting a fake MyEtherWallet xn--yetherwalle-tv8ezt.com
 -
     id: 2943
     name: xn--yetherwalle-tv8ezt.com
@@ -19591,9 +19479,7 @@
     url: 'https://nucelus.vision'
     category: Phishing
     subcategory: Nucleus
-    description: >-
-        Fake Nucleus airdrop site phishing for private keys. suspected address
-        0xBc66E774CE25000950786241b8c5EE3275311Bd7
+    description: Fake Nucleus airdrop site phishing for private keys. suspected address 0xBc66E774CE25000950786241b8c5EE3275311Bd7
 -
     id: 2958
     name: havven.top
@@ -19661,18 +19547,14 @@
     url: 'http://polymathnetwork.org'
     category: Phishing
     subcategory: Polymath
-    description: >-
-        Fake Polymath airdrop phishing for private keys. Suspected address:
-        0x63cfa80bbbee233a4257857dcdc9d78cbc8efe37
+    description: 'Fake Polymath airdrop phishing for private keys. Suspected address: 0x63cfa80bbbee233a4257857dcdc9d78cbc8efe37'
 -
     id: 2966
     name: telegramfoundation.org
     url: 'http://telegramfoundation.org'
     category: Phishing
     subcategory: Telegram
-    description: >-
-        Nothing has been announced for the Telegram public sale yet. Fake
-        crowdsale site
+    description: Nothing has been announced for the Telegram public sale yet. Fake crowdsale site
 -
     id: 2967
     name: callisto-airdrop.com
@@ -19709,9 +19591,7 @@
     url: 'http://docai.science'
     category: Phishing
     subcategory: Docai
-    description: >-
-        Fake Docai crowdsale site - see
-        https://github.com/MetaMask/eth-phishing-detect/issues/1078
+    description: 'Fake Docai crowdsale site - see https://github.com/MetaMask/eth-phishing-detect/issues/1078'
     addresses:
         - '0xF2dcFa51F83e41c0e988477f939c7A5e5b9a6905'
 -
@@ -19720,9 +19600,7 @@
     url: 'http://policypal.info'
     category: Phishing
     subcategory: Policypal
-    description: >-
-        Fake Policypal crowdsale site - suspected address:
-        0x2b3F15a55a68C4C81ae8331C2FE8E90008993f51
+    description: 'Fake Policypal crowdsale site - suspected address: 0x2b3F15a55a68C4C81ae8331C2FE8E90008993f51'
 -
     id: 2973
     name: bittrex-give.com
@@ -19781,9 +19659,7 @@
     url: 'http://reeveclancy.wixsite.com'
     category: Scamming
     subcategory: Trust-trading
-    description: >-
-        Trust-Trading scam (looks like a fake ICO - send ETH and have a 92%
-        chance of winning 100ETH - no contract address)
+    description: Trust-Trading scam (looks like a fake ICO - send ETH and have a 92% chance of winning 100ETH - no contract address)
     addresses:
         - '0x3007a0Db9CAAD557CF4589Cfd550c21ce9399b15'
 -
@@ -19931,9 +19807,7 @@
     url: 'http://gram.vc'
     category: Phishing
     subcategory: Telegram
-    description: >-
-        Fake Telegram crowdsale site - suspected address:
-        0xfe821f5509fdea3f72362d001697ad8c11f0c111
+    description: 'Fake Telegram crowdsale site - suspected address: 0xfe821f5509fdea3f72362d001697ad8c11f0c111'
 -
     id: 2998
     name: nnyettiervwailet.com
@@ -20039,18 +19913,14 @@
     url: 'http://etharscan.io'
     category: Phishing
     subcategory: Etherscan
-    description: >-
-        Fake Etherscan phishing for paid ad space -
-        https://twitter.com/etherscan/status/972055165074198528
+    description: 'Fake Etherscan phishing for paid ad space - https://twitter.com/etherscan/status/972055165074198528'
 -
     id: 3012
     name: telegram.one
     url: 'http://telegram.one'
     category: Phishing
     subcategory: Telegram
-    description: >-
-        Reported as a fake Telegram crowdsale site - but is now down when
-        archiving
+    description: Reported as a fake Telegram crowdsale site - but is now down when archiving
 -
     id: 3013
     name: ico-telegram.club
@@ -20066,36 +19936,28 @@
     url: 'http://gramsap.enterprises'
     category: Phishing
     subcategory: Telegram
-    description: >-
-        Reported as a fake Telegram crowdsale site mirror - but is now down when
-        archiving
+    description: Reported as a fake Telegram crowdsale site mirror - but is now down when archiving
 -
     id: 3015
     name: gramton.info
     url: 'http://gramton.info'
     category: Phishing
     subcategory: Telegram
-    description: >-
-        Reported as a fake Telegram crowdsale site - but is now down when
-        archiving
+    description: Reported as a fake Telegram crowdsale site - but is now down when archiving
 -
     id: 3016
     name: ico-telegram-ton.com
     url: 'http://ico-telegram-ton.com'
     category: Phishing
     subcategory: Telegram
-    description: >-
-        Fake Telegram crowdsale site - asks for email for contribution address
-        but no email is sent
+    description: Fake Telegram crowdsale site - asks for email for contribution address but no email is sent
 -
     id: 3017
     name: eth4free.ml
     url: 'http://eth4free.ml'
     category: Scamming
     subcategory: Giveaway
-    description: >-
-        Fake ETH generator asking for funds to gas to send x eth to whatever
-        address you want
+    description: Fake ETH generator asking for funds to gas to send x eth to whatever address you want
     addresses:
         - '0x693D47204555361D4d51311f97102a1507559802'
 -
@@ -20134,9 +19996,7 @@
     url: 'http://mybinance.info'
     category: Phishing
     subcategory: Binance
-    description: >-
-        Fake Binance - phishing for login details posting to
-        binance.msk.ru/gateway (cookie stealing too)
+    description: Fake Binance - phishing for login details posting to binance.msk.ru/gateway (cookie stealing too)
 -
     id: 3023
     name: eth-giveaway-706.htmlcomponentservice.com
@@ -20170,9 +20030,7 @@
     url: 'http://tokensale.syncfab.eu'
     category: Phishing
     subcategory: Syncfab
-    description: >-
-        Communicating private keys to a remote server -
-        dmsrnuimsnd8.net/tr-3425546.php?iii=xxxx
+    description: Communicating private keys to a remote server - dmsrnuimsnd8.net/tr-3425546.php?iii=xxxx
 -
     id: 3027
     name: eth-giveaway.info
@@ -20389,9 +20247,7 @@
     url: 'http://eth-giveaway.gq'
     category: Scamming
     subcategory: Trust-trading
-    description: >-
-        Trust-trading scam - suspected address:
-        0xEE14140F20fB737809ca206C238382b3F802Ca6C
+    description: 'Trust-trading scam - suspected address: 0xEE14140F20fB737809ca206C238382b3F802Ca6C'
 -
     id: 3053
     name: ethergiveawaytweet.tk
@@ -20640,10 +20496,8 @@
         - '0xe00e1f7117a69c34694ac1815177c93491fc448f'
 -
     id: 3082
-    name: >-
-        secure-s28h3h2j54jehdh43jh3k5h42l4h23hk6l49sjxvsatoshilite.bitballoon.com
-    url: >-
-        http://secure-s28h3h2j54jehdh43jh3k5h42l4h23hk6l49sjxvsatoshilite.bitballoon.com
+    name: secure-s28h3h2j54jehdh43jh3k5h42l4h23hk6l49sjxvsatoshilite.bitballoon.com
+    url: 'http://secure-s28h3h2j54jehdh43jh3k5h42l4h23hk6l49sjxvsatoshilite.bitballoon.com'
     category: Scamming
     subcategory: Trust-trading
     description: Trust-trading scam
@@ -20845,9 +20699,7 @@
     url: 'http://coin-zc.com'
     category: Phishing
     subcategory: General
-    description: >-
-        Getting users to install a phishing Google Chrome extension:
-        https://twitter.com/sniko_/status/975778109294247937
+    description: 'Getting users to install a phishing Google Chrome extension: https://twitter.com/sniko_/status/975778109294247937'
     addresses:
         - '0x540c6F30aE667319E032A8988dCB81B28a960433'
 -
@@ -20856,9 +20708,7 @@
     url: 'http://xn--bitcon-mwa.com'
     category: Phishing
     subcategory: General
-    description: >-
-        Getting users to install a phishing Google Chrome extension:
-        https://twitter.com/sniko_/status/975778109294247937
+    description: 'Getting users to install a phishing Google Chrome extension: https://twitter.com/sniko_/status/975778109294247937'
     addresses:
         - '0x540c6F30aE667319E032A8988dCB81B28a960433'
 -
@@ -21305,9 +21155,7 @@
     url: 'http://coinnbase.com'
     category: Phishing
     subcategory: Coinbase
-    description: >-
-        Phishing for private keys:
-        https://deeponion.org/community/threads/phishing-scam-coinbase-importing-erc20-tokens.33950/
+    description: 'Phishing for private keys: https://deeponion.org/community/threads/phishing-scam-coinbase-importing-erc20-tokens.33950/'
 -
     id: 3161
     name: xn--mercadobtcon-mfbd.com
@@ -21329,9 +21177,7 @@
     url: 'http://xn--mytherwalet-3qb10c.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet - IDN homograph attack - phishing email regarding
-        casper network
+    description: Fake MyEtherWallet - IDN homograph attack - phishing email regarding casper network
 -
     id: 3164
     name: wax.community
@@ -21352,9 +21198,7 @@
     url: 'http://telegramtoken.global'
     category: Phishing
     subcategory: Telegram
-    description: >-
-        Fake Telegram crowdsale site - suspected address:
-        0xfD684Df5ED6bFf686Ef5b5E1B959eb94c687c78E
+    description: 'Fake Telegram crowdsale site - suspected address: 0xfD684Df5ED6bFf686Ef5b5E1B959eb94c687c78E'
 -
     id: 3167
     name: kinecosystem.net
@@ -21707,9 +21551,7 @@
     url: 'http://ethgift.info'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Suspected address:
-        0x713EA0A714CfdC3ED7D0d39A7732fc4293DA1F81
+    description: 'Trust trading scam site. Suspected address: 0x713EA0A714CfdC3ED7D0d39A7732fc4293DA1F81'
 -
     id: 3212
     name: ethpay.site
@@ -21743,9 +21585,7 @@
     url: 'http://free-ethereum.czweb.org'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Suspected address:
-        0xe00e1f7117a69c34694ac1815177c93491fc448f
+    description: 'Trust trading scam site. Suspected address: 0xe00e1f7117a69c34694ac1815177c93491fc448f'
 -
     id: 3216
     name: ethpromo.com
@@ -22271,9 +22111,7 @@
     url: 'http://io-eos.com/'
     category: Scamming
     subcategory: WebWallet
-    description: >-
-        Scam web wallet targetting EOS holders. Suspected address:
-        0x536de519a2ab6fd0cc8055e5119b3c2a8dd2464b
+    description: 'Scam web wallet targetting EOS holders. Suspected address: 0x536de519a2ab6fd0cc8055e5119b3c2a8dd2464b'
 -
     id: 3277
     name: etherscans.net
@@ -22341,9 +22179,7 @@
     url: 'http://smartolinks.com'
     category: Scamming
     subcategory: Investments
-    description: >-
-        Fake BBC article pushing clickmoneysystem1.com for cryptocurrency
-        investments
+    description: Fake BBC article pushing clickmoneysystem1.com for cryptocurrency investments
 -
     id: 3285
     name: ethereum-giveaway.kissr.com
@@ -22404,9 +22240,7 @@
     url: 'http://xn--medim-9d2b.com'
     category: Scamming
     subcategory: Medium
-    description: >-
-        Fake Medium pointing to a fake MyEtherWallet
-        (xn--myethrallet-zk9e6w.com) promoting an airdrop
+    description: Fake Medium pointing to a fake MyEtherWallet (xn--myethrallet-zk9e6w.com) promoting an airdrop
 -
     id: 3292
     name: xn--myethrallet-zk9e6w.com
@@ -22436,9 +22270,7 @@
     url: 'http://tron-airdrop.info'
     category: Phishing
     subcategory: Tron
-    description: >-
-        Fake airdrop phishing for private keys - suspected address:
-        0x099218972a0F693151B54D09617f5B25eCdd187b
+    description: 'Fake airdrop phishing for private keys - suspected address: 0x099218972a0F693151B54D09617f5B25eCdd187b'
 -
     id: 3296
     name: ethereum-giveaway.tekcities.com
@@ -22490,9 +22322,7 @@
     url: 'http://www-colnbase.com'
     category: Phishing
     subcategory: Coinbase
-    description: >-
-        Fake Coinbase phishing for private keys. Delivered via email about erc20
-        token import. See https://twitter.com/sniko_/status/984914783186116609
+    description: 'Fake Coinbase phishing for private keys. Delivered via email about erc20 token import. See https://twitter.com/sniko_/status/984914783186116609'
 -
     id: 3302
     name: xn--conbas-gva1a.com
@@ -22542,9 +22372,7 @@
     url: 'http://localetherwallet.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake Ethereum Wallet, stealing private keys - see
-        https://twitter.com/sniko_/status/985333475732525058
+    description: 'Fake Ethereum Wallet, stealing private keys - see https://twitter.com/sniko_/status/985333475732525058'
 -
     id: 3308
     name: eos-dac.com
@@ -22655,9 +22483,7 @@
     url: 'http://ncashtoken.org'
     category: Phishing
     subcategory: Nucleus
-    description: >-
-        Fake airdrop phishing for private keys. Suspected address:
-        0x588C0e4Af4bB0Cd6E63e898bF8ad555452297326
+    description: 'Fake airdrop phishing for private keys. Suspected address: 0x588C0e4Af4bB0Cd6E63e898bF8ad555452297326'
 -
     id: 3321
     name: xn--myethewllet-ife6494g.com
@@ -22698,9 +22524,7 @@
     url: 'http://eos-candy.com'
     category: Phishing
     subcategory: EOS
-    description: >-
-        Fake EOS airdrop phishing for private keys - suspected address: 
-        0xeefa861d00e68aab019df8bf3a9cb689196df41d
+    description: 'Fake EOS airdrop phishing for private keys - suspected address:  0xeefa861d00e68aab019df8bf3a9cb689196df41d'
 -
     id: 3326
     name: myetherwalletru.com
@@ -22830,18 +22654,14 @@
     url: 'http://aelftoken.com'
     category: Phishing
     subcategory: Aelf
-    description: >-
-        Fake Aelf airdrop phishing for private keys. Suspected address:
-        0x588c0e4af4bb0cd6e63e898bf8ad555452297326
+    description: 'Fake Aelf airdrop phishing for private keys. Suspected address: 0x588c0e4af4bb0cd6e63e898bf8ad555452297326'
 -
     id: 3342
     name: xn--myethrwalet-ns8e73d.com
     url: 'http://xn--myethrwalet-ns8e73d.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MEW - IDN homograph attack. Suspected address;
-        0x179f6011f23e68FCbEfBe3Bf816240e09a85a700
+    description: Fake MEW - IDN homograph attack. Suspected address; 0x179f6011f23e68FCbEfBe3Bf816240e09a85a700
 -
     id: 3343
     name: 5000ethgive.com
@@ -22961,9 +22781,7 @@
     url: 'http://xn--etherdlta-lib.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet - IDN homograph attack (looks like MEW for some
-        reason)
+    description: Fake MyEtherWallet - IDN homograph attack (looks like MEW for some reason)
 -
     id: 3359
     name: forkdeltagithub.io
@@ -22977,9 +22795,7 @@
     url: 'http://mnyetnherwaliet.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet - suspected address:
-        0xa6caf53fc4aa0094306f304e4f235e2be98297e6
+    description: 'Fake MyEtherWallet - suspected address: 0xa6caf53fc4aa0094306f304e4f235e2be98297e6'
 -
     id: 3361
     name: ethereumpomo.online
@@ -23424,9 +23240,7 @@
     url: 'http://tron-network.org'
     category: Phishing
     subcategory: Tron
-    description: >-
-        Fake Tron airdrop phishing for private keys. Suspected address:
-        0xf203d1985247e9a93f31535c004fa783199fa6d3
+    description: 'Fake Tron airdrop phishing for private keys. Suspected address: 0xf203d1985247e9a93f31535c004fa783199fa6d3'
 -
     id: 3414
     name: eosrewards.io
@@ -23646,9 +23460,7 @@
     url: 'http://eth-airdrop.online'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust-trading scam site (promoted by a fake swarm city twitter account
-        @Swarm_CityDApp id: 988059498169491456
+    description: 'Trust-trading scam site (promoted by a fake swarm city twitter account @Swarm_CityDApp id: 988059498169491456'
 -
     id: 3443
     name: ether-giveaway.atspace.eu
@@ -23912,9 +23724,7 @@
     url: 'http://gram-token-sale.com'
     category: Phishing
     subcategory: Telegram
-    description: >-
-        Fake Telegram crowdsale site. Suspected address:
-        0x7d66c5111f9369B1b7Ecc2B80E97Dc98585344bd
+    description: 'Fake Telegram crowdsale site. Suspected address: 0x7d66c5111f9369B1b7Ecc2B80E97Dc98585344bd'
 -
     id: 3475
     name: bonus.gift-ethers.com
@@ -23992,11 +23802,7 @@
     url: 'http://main-myetherwallet.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet.
-        https://www.virustotal.com/#/url/29a35e2e385f7985fcf38908592c3a4bbbf6c33ee3e6218c003a337a04e353d9/detection
-        From DNS8, whom I noticed removing malicious indication of them upon mew
-        reporting back to me with a reference to it. - Seki
+    description: 'Fake MyEtherWallet. https://www.virustotal.com/#/url/29a35e2e385f7985fcf38908592c3a4bbbf6c33ee3e6218c003a337a04e353d9/detection From DNS8, whom I noticed removing malicious indication of them upon mew reporting back to me with a reference to it. - Seki'
 -
     id: 3484
     name: eth-platform.com
@@ -24158,9 +23964,7 @@
     url: 'http://quarkchain-ico.io'
     category: Phishing
     subcategory: Quarkchain
-    description: >-
-        Fake Quarkchain crowdsale site. Suspected address:
-        0xb29a0b9b4d32c9cd39c02d0f19a6a8bbb3047ceb
+    description: 'Fake Quarkchain crowdsale site. Suspected address: 0xb29a0b9b4d32c9cd39c02d0f19a6a8bbb3047ceb'
     addresses:
         - '0xA43d3805105922989e58A5188193C283Fff471e7'
         - '0x6931E6948702245964DD446333C3BEbD989D5E76'
@@ -24193,9 +23997,7 @@
     url: 'http://bitfinex.eu'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Fake Bitfinex domain hosting a trust-trading scam giveaway via iframe
-        (trust-cryptopayment.com)
+    description: Fake Bitfinex domain hosting a trust-trading scam giveaway via iframe (trust-cryptopayment.com)
     addresses:
         - '0x97b20481241fe3cb9cc9ba50609d377b2506cdaa'
 -
@@ -24287,9 +24089,7 @@
     url: 'https://blockchaihs.info'
     category: Phishing
     subcategory: Blockchain
-    description: >-
-        Fake Blockchain info site phishing for logins. Google Ad going through
-        cken.site
+    description: Fake Blockchain info site phishing for logins. Google Ad going through cken.site
 -
     id: 3520
     name: cdnsfiles.com
@@ -24300,8 +24100,7 @@
 -
     id: 3521
     name: medium.com
-    url: >-
-        https://medium.com/@shivomsale/shivom-public-sale-purchase-tutorial-fb26abf924e
+    url: 'https://medium.com/@shivomsale/shivom-public-sale-purchase-tutorial-fb26abf924e'
     category: Phishing
     subcategory: Shivom
     description: Fake Medium article targeting the Shivom ICO
@@ -24320,9 +24119,7 @@
     url: 'https://mycrypto.cm'
     category: Phishing
     subcategory: MyCrypto
-    description: >-
-        Fake MyCrypto. Suspected address:
-        0xFb1817f17820466490A1a67bFd81Df32eEea679A
+    description: 'Fake MyCrypto. Suspected address: 0xFb1817f17820466490A1a67bFd81Df32eEea679A'
 -
     id: 3524
     name: bonus.gift-ether.com
@@ -24410,9 +24207,7 @@
     url: 'http://ocoins.tech'
     category: Phishing
     subcategory: Odyssey
-    description: >-
-        Fake airdrop phishing for private keys. Suspected address:
-        0x05fbf1e3f105df6a4553f3c7f2ed93070a4bab46
+    description: 'Fake airdrop phishing for private keys. Suspected address: 0x05fbf1e3f105df6a4553f3c7f2ed93070a4bab46'
     addresses:
         - '0x05fbf1e3f105df6a4553f3c7f2ed93070a4bab46'
 -
@@ -24500,9 +24295,7 @@
     url: 'http://myetherwallet.access-checker.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet - see
-        https://twitter.com/mycrypto/status/992507058036424705?s=21
+    description: 'Fake MyEtherWallet - see https://twitter.com/mycrypto/status/992507058036424705?s=21'
 -
     id: 3545
     name: hederahashgraph.store
@@ -24528,18 +24321,14 @@
     url: 'http://hadeplatform.net'
     category: Phishing
     subcategory: Hade
-    description: >-
-        Fake airdrop phishing for private keys, Mnemonic Phrases, and Keystore /
-        JSON File. Suspected address: 0x355ed5aaa382d0443a03bf4b3b4cfc85eb80e4ca
+    description: 'Fake airdrop phishing for private keys, Mnemonic Phrases, and Keystore / JSON File. Suspected address: 0x355ed5aaa382d0443a03bf4b3b4cfc85eb80e4ca'
 -
     id: 3548
     name: orchidprotocols.com
     url: 'http://orchidprotocols.com'
     category: Phishing
     subcategory: Orchid
-    description: >-
-        Fake Orchid crowdsale site - see
-        https://twitter.com/RaymondDurk/status/992619080132657152
+    description: 'Fake Orchid crowdsale site - see https://twitter.com/RaymondDurk/status/992619080132657152'
     addresses:
         - '0x8A0E85901849B40A7F80399a00F7115193c0BDB2'
 -
@@ -24548,9 +24337,7 @@
     url: 'http://xn--mycrpto-k64c.com'
     category: Phishing
     subcategory: MyCrypto
-    description: >-
-        Fake MyCrypto - idn homograph attack domain. Suspected address:
-        0xe6eb070BCeF81fD12A198ba03Fe393E9ee4CB671
+    description: 'Fake MyCrypto - idn homograph attack domain. Suspected address: 0xe6eb070BCeF81fD12A198ba03Fe393E9ee4CB671'
 -
     id: 3550
     name: xn--shapeshft-c5a.com
@@ -24675,8 +24462,7 @@
 -
     id: 3565
     name: docs.google.com
-    url: >-
-        https://docs.google.com/forms/d/e/1FAIpQLScy9hYOxnJOLUk0MiKWVztZK4-9VN5i2aWBlYce9ZtcwIcJvg/viewform
+    url: 'https://docs.google.com/forms/d/e/1FAIpQLScy9hYOxnJOLUk0MiKWVztZK4-9VN5i2aWBlYce9ZtcwIcJvg/viewform'
     category: Phishing
     description: Fake Daostack Google Doc
     addresses:
@@ -24836,9 +24622,7 @@
     url: 'http://i-idex.market'
     category: Phishing
     subcategory: Idex
-    description: >-
-        Fake Idex site phishing for private keys - posting them to
-        176[dot]122[dot]20[dot]15/sendkey
+    description: 'Fake Idex site phishing for private keys - posting them to 176[dot]122[dot]20[dot]15/sendkey'
 -
     id: 3585
     name: forkdelta.net
@@ -24885,8 +24669,7 @@
 -
     id: 3590
     name: Telegram
-    url: >-
-        https://user-images.githubusercontent.com/2313704/39815843-3989276a-5391-11e8-8b03-5a54164e8dec.png
+    url: 'https://user-images.githubusercontent.com/2313704/39815843-3989276a-5391-11e8-8b03-5a54164e8dec.png'
     category: Phishing
     subcategory: Telegram
     description: Telegram scam attempt
@@ -24935,18 +24718,14 @@
     url: 'https://brickblock.cc'
     category: Phishing
     subcategory: Brickblocks
-    description: >-
-        Fake Brickblocks crowdsale site. Suspected address:
-        0xf346fdCd5A205bA8F25edf0ffcddcc7a6583ac65
+    description: 'Fake Brickblocks crowdsale site. Suspected address: 0xf346fdCd5A205bA8F25edf0ffcddcc7a6583ac65'
 -
     id: 3597
     name: quarkchain.de
     url: 'https://quarkchain.de'
     category: Phishing
     subcategory: Quarkchain
-    description: >-
-        Fake Quarkchain crowdsale site. Suspected address:
-        0xa0d4bee1beeafce031c56cfb40210746cc6ab2d0
+    description: 'Fake Quarkchain crowdsale site. Suspected address: 0xa0d4bee1beeafce031c56cfb40210746cc6ab2d0'
     addresses:
         - '0xB9Ee29FF43D319c126ED2Dbdd74d49a2659EDe56'
         - '0x9db99E73C52BcC353963022ac184A25E80f655bd'
@@ -24971,10 +24750,8 @@
         - '0x40949225c4a1745a9946F6AAf763241c082cb9ac'
 -
     id: 3600
-    name: >-
-        telegra.ph/BlockBrick-Step-By-Step-Guide-on-How-to-Participate-in-the-token-sale-05-09
-    url: >-
-        https://telegra.ph/BlockBrick-Step-By-Step-Guide-on-How-to-Participate-in-the-token-sale-05-09
+    name: telegra.ph/BlockBrick-Step-By-Step-Guide-on-How-to-Participate-in-the-token-sale-05-09
+    url: 'https://telegra.ph/BlockBrick-Step-By-Step-Guide-on-How-to-Participate-in-the-token-sale-05-09'
     category: Phishing
     subcategory: Brickblock
     description: Fake Brickblock guide for crowdsale
@@ -25059,9 +24836,7 @@
     url: 'https://telegram-token.io'
     category: Phishing
     subcategory: Telegram
-    description: >-
-        Fake Telegram crowdsale site - see
-        https://twitter.com/sniko_/status/994604991187996672
+    description: 'Fake Telegram crowdsale site - see https://twitter.com/sniko_/status/994604991187996672'
     addresses:
         - '0x52bEF206E8e0403Cd60d37E48f4F3860D9545556'
 -
@@ -25100,18 +24875,14 @@
     url: 'https://helbizcoin.net'
     category: Phishing
     subcategory: Helbiz
-    description: >-
-        Fake airdrop phishing for private keys linking to a fake MyEtherWallet
-        xn--myetherwallt-ovb.net
+    description: Fake airdrop phishing for private keys linking to a fake MyEtherWallet xn--myetherwallt-ovb.net
 -
     id: 3616
     name: xn--tro-k5y.com
     url: 'https://xn--tro-k5y.com'
     category: Phishing
     subcategory: Tron
-    description: >-
-        Fake Tron site - IDN homograph attack domain - directs user to fake MEW
-        xn--myethewalet-ms8erq.com
+    description: Fake Tron site - IDN homograph attack domain - directs user to fake MEW xn--myethewalet-ms8erq.com
 -
     id: 3617
     name: xn--polonix-17a.com
@@ -25479,18 +25250,14 @@
     url: 'https://hydroplatform.org'
     category: Phishing
     subcategory: Hydro
-    description: >-
-        Fake airdrop directing users to a fake MyEtherWallet
-        xn--myetherwalt-crb27c[dot]com/signmsg.html
+    description: 'Fake airdrop directing users to a fake MyEtherWallet xn--myetherwalt-crb27c[dot]com/signmsg.html'
 -
     id: 3661
     name: xn--myetherwalt-crb27c.com
     url: 'https://xn--myetherwalt-crb27c.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet - IDN homograph attack domain - Suspected address:
-        0xA7b8edb0583b478e2b7C431fEb4bc6629a6Cd1E5
+    description: 'Fake MyEtherWallet - IDN homograph attack domain - Suspected address: 0xA7b8edb0583b478e2b7C431fEb4bc6629a6Cd1E5'
 -
     id: 3662
     name: quarkchains.io
@@ -25515,9 +25282,7 @@
     url: 'https://hydroggenplatform.com'
     category: Phishing
     subcategory: Hydro
-    description: >-
-        Fake Hydro site linking to a fake MyEtherWallet -
-        xn--myetherwalt-crb27c.com
+    description: Fake Hydro site linking to a fake MyEtherWallet - xn--myetherwalt-crb27c.com
 -
     id: 3665
     name: ldcx.market
@@ -25563,11 +25328,7 @@
     url: 'https://tokenairdrop.typeform.com'
     category: Phishing
     subcategory: Hydro
-    description: >-
-        Fake Hydro airdrop directing users to a fake MyEtherWallet -
-        xn--myetherwalt-0rb64c.com. Suspected address:
-        0xCF02680e5f057D41A68C3DA6221Ade6609833e5a
-        0xbF30cBF5DD5fbf040A1fA8B7388F756F624AfDeF
+    description: 'Fake Hydro airdrop directing users to a fake MyEtherWallet - xn--myetherwalt-0rb64c.com. Suspected address: 0xCF02680e5f057D41A68C3DA6221Ade6609833e5a 0xbF30cBF5DD5fbf040A1fA8B7388F756F624AfDeF'
 -
     id: 3671
     name: transfer.saferpayeth.com
@@ -25590,37 +25351,28 @@
     url: 'https://xn--mytherwalet-3qb97c.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet - IDN homograph attack domain. Suspected address:
-        0x9eEa7Fda3C78cd8C096AE229De8217a94cd1Bcfe
-        0xA7b8edb0583b478e2b7C431fEb4bc6629a6Cd1E5
+    description: 'Fake MyEtherWallet - IDN homograph attack domain. Suspected address: 0x9eEa7Fda3C78cd8C096AE229De8217a94cd1Bcfe 0xA7b8edb0583b478e2b7C431fEb4bc6629a6Cd1E5'
 -
     id: 3674
     name: xn--myethrwllet-pjb5u.com
     url: 'https://xn--myethrwllet-pjb5u.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet - IDN homograph attack domain. Suspected address:
-        0x3a878EDDB991EbCBc7c8052055B2e5ED5D0D1bA4
+    description: 'Fake MyEtherWallet - IDN homograph attack domain. Suspected address: 0x3a878EDDB991EbCBc7c8052055B2e5ED5D0D1bA4'
 -
     id: 3675
     name: xn--myetherwalt-0rb64c.com
     url: 'https://xn--myetherwalt-0rb64c.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet - IDN homograph attack domain. Suspected address:
-        0xcc1A8a506cD613694D705c92C26d92369F544052
+    description: 'Fake MyEtherWallet - IDN homograph attack domain. Suspected address: 0xcc1A8a506cD613694D705c92C26d92369F544052'
 -
     id: 3676
     name: cryptofaze.com
     url: 'https://cryptofaze.com'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Hosting malware and trust-trading giveaway -
-        https://www.virustotal.com/#/url/1de58e06c29556e5b4e81f5af8fa83b30fc17069a9f6a6d485edcf40b9d63aab/detection
+    description: 'Hosting malware and trust-trading giveaway - https://www.virustotal.com/#/url/1de58e06c29556e5b4e81f5af8fa83b30fc17069a9f6a6d485edcf40b9d63aab/detection'
     addresses:
         - '0x5e1f89284b8283edcd082901b78c7589f39d5b51'
 -
@@ -25629,9 +25381,7 @@
     url: 'https://hederaheshgraph.com'
     category: Phishing
     subcategory: HederaHashGraph
-    description: >-
-        Fake HederaHashGraph crowdsale site. Suspected address:
-        0xEd7e838d657dD5BefF27C62178D285BA7834E022
+    description: 'Fake HederaHashGraph crowdsale site. Suspected address: 0xEd7e838d657dD5BefF27C62178D285BA7834E022'
 -
     id: 3678
     name: ethergift.org
@@ -25663,9 +25413,7 @@
     url: 'https://kann.io'
     category: Phishing
     subcategory: Kann
-    description: >-
-        Fake project - false team -
-        https://twitter.com/matchpool/status/995853820503777281e
+    description: 'Fake project - false team - https://twitter.com/matchpool/status/995853820503777281e'
 -
     id: 3682
     name: quarkchain.pl
@@ -25706,9 +25454,7 @@
     url: 'https://promobtc.win'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust-trading scam site (btc) - address:
-        14h4Zrd1xVg6Mj3JcYApoi2wY2UXue2ETb
+    description: 'Trust-trading scam site (btc) - address: 14h4Zrd1xVg6Mj3JcYApoi2wY2UXue2ETb'
 -
     id: 3687
     name: mycrypto-com.com
@@ -26525,9 +26271,7 @@
     url: 'https://xn--metherwalle-uib05k.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet - IDN homograph attack domain -
-        https://www.virustotal.com/#/file/4556e47fcd2514cecd24501e5839e73f80e29154b7a18d913232579cd2ab7dcf/relations
+    description: 'Fake MyEtherWallet - IDN homograph attack domain - https://www.virustotal.com/#/file/4556e47fcd2514cecd24501e5839e73f80e29154b7a18d913232579cd2ab7dcf/relations'
 -
     id: 3787
     name: xn--mytherwalet-obb56i.com
@@ -26627,9 +26371,7 @@
     url: 'https://wallets-ether.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Hosting a fake MyEtherWallet and being promoted by a fake MyEtherWallet
-        account on Etherscan DISQUS channel
+    description: Hosting a fake MyEtherWallet and being promoted by a fake MyEtherWallet account on Etherscan DISQUS channel
 -
     id: 3799
     name: secure375446884521.safeethpay.com
@@ -26670,9 +26412,7 @@
     url: 'https://xn--methrwallet-uib92a.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet - IDN homograph attack domain - related to
-        raindrop-form.typeform.com/to/AuA5Uh
+    description: Fake MyEtherWallet - IDN homograph attack domain - related to raindrop-form.typeform.com/to/AuA5Uh
 -
     id: 3804
     name: myether-walletofficial.com
@@ -27024,9 +26764,7 @@
     url: 'https://xn--ehterdeta-wd6d.com'
     category: Phishing
     subcategory: MyCrypto
-    description: >-
-        Fake MyCrypto - IDN homograph attack domain (on EtherDelta) but hosting
-        a MyCrypto phishing kit
+    description: Fake MyCrypto - IDN homograph attack domain (on EtherDelta) but hosting a MyCrypto phishing kit
 -
     id: 3849
     name: mycryiptowaliet.com
@@ -27108,9 +26846,7 @@
     url: 'https://calchain.io'
     category: Phishing
     subcategory: Airdrop
-    description: >-
-        Fake airdrop emailing users to go to signupform1.typeform.com via email,
-        which then directs them to xn--myetherwalt-kbb96i.com
+    description: 'Fake airdrop emailing users to go to signupform1.typeform.com via email, which then directs them to xn--myetherwalt-kbb96i.com'
 -
     id: 3859
     name: coinbase.pro-fork.com
@@ -27273,10 +27009,7 @@
     url: 'https://anatomia.co'
     category: Phishing
     subcategory: Anatomia
-    description: >-
-        Fake airdrop emailing users to a fake MyEtherWallet -
-        xn--myethrwalt-vmbe17c.com/signmsg.htm. Suspected address:
-        0x4A8b69Bd663e6967a118456a30a51495BDBa704c
+    description: 'Fake airdrop emailing users to a fake MyEtherWallet - xn--myethrwalt-vmbe17c.com/signmsg.htm. Suspected address: 0x4A8b69Bd663e6967a118456a30a51495BDBa704c'
 -
     id: 3879
     name: xn--myethrwalt-vmbe17c.com
@@ -27290,28 +27023,21 @@
     url: 'https://myetherwallet.com.verification.atlaserbil.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet. Suspected address:
-        0x701888E9c68F40201De48D9D4bcdeDeB2EF2b088
+    description: 'Fake MyEtherWallet. Suspected address: 0x701888E9c68F40201De48D9D4bcdeDeB2EF2b088'
 -
     id: 3881
     name: myetherwalleti.org
     url: 'https://myetherwalleti.org'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet (offline right now) -
-        https://www.phishtank.com/phish_detail.php?phish_id=5663061
-        https://www.virustotal.com/#/url/0bbd869feb687cceec86acfb2d3474150a643d61a36d7561365cbe68929e379a/detection
+    description: 'Fake MyEtherWallet (offline right now) - https://www.phishtank.com/phish_detail.php?phish_id=5663061 https://www.virustotal.com/#/url/0bbd869feb687cceec86acfb2d3474150a643d61a36d7561365cbe68929e379a/detection'
 -
     id: 3882
     name: myetherwallatt.com
     url: 'https://myetherwallatt.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet -
-        https://www.phishtank.com/phish_detail.php?phish_id=5552706
+    description: 'Fake MyEtherWallet - https://www.phishtank.com/phish_detail.php?phish_id=5552706'
 -
     id: 3883
     name: idex-marketslogin.com
@@ -27355,10 +27081,7 @@
     url: 'http://tubig.co'
     category: Phishing
     subcategory: Tubig
-    description: >-
-        Fake airdrop - directing users to
-        myetherwallet.com.signinverication.signmessage.carpediem.legal -
-        suspected address: 0x8acacabed9eb9170e72c840e4e21f1fe67f8bfca
+    description: 'Fake airdrop - directing users to myetherwallet.com.signinverication.signmessage.carpediem.legal - suspected address: 0x8acacabed9eb9170e72c840e4e21f1fe67f8bfca'
 -
     id: 3889
     name: myetherwallet.com.signinverication.signmessage.carpediem.legal
@@ -27490,9 +27213,7 @@
     url: 'http://xn--myetherwlet-r7a67j.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet - IDN homograph attack domain. Suspected address:
-        0x984aC2891fbAF6a10038c25cC1bA20E787416cFe
+    description: 'Fake MyEtherWallet - IDN homograph attack domain. Suspected address: 0x984aC2891fbAF6a10038c25cC1bA20E787416cFe'
 -
     id: 3905
     name: sparkster.tech
@@ -27508,9 +27229,7 @@
     url: 'https://flashblocks.io'
     category: Phishing
     subcategory: Flashblocks
-    description: >-
-        Fake airdrop emailing users to a fake MyEtherWallet -
-        xn--myetherwlet-r7a67j[dot]com/signmsg.html
+    description: 'Fake airdrop emailing users to a fake MyEtherWallet - xn--myetherwlet-r7a67j[dot]com/signmsg.html'
 -
     id: 3907
     name: ethers.cz
@@ -27583,8 +27302,7 @@
 -
     id: 3915
     name: Google Doc
-    url: >-
-        https://docs.google.com/forms/d/e/1FAIpQLSeV_zwUe4MbgrmMrrC_cdQsURiHJsFJ_NptSrKfN7B_RLFbLw/viewform?fbzx=-8888898385087386000
+    url: 'https://docs.google.com/forms/d/e/1FAIpQLSeV_zwUe4MbgrmMrrC_cdQsURiHJsFJ_NptSrKfN7B_RLFbLw/viewform?fbzx=-8888898385087386000'
     category: Phishing
     description: Fake Phishing Google Doc targeting the DAV ICO
     addresses:
@@ -27624,14 +27342,10 @@
 -
     id: 3920
     name: myetherwallet.com.token.signinverication.signmessage.carpediem.legal
-    url: >-
-        https://myetherwallet.com.token.signinverication.signmessage.carpediem.legal
+    url: 'https://myetherwallet.com.token.signinverication.signmessage.carpediem.legal'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet. Suspected address:
-        0x5c3a228510D246b78a3765C20221Cbf3082b44a4
-        0xCDb26199dB086d54F7b11e50cA4374b4Dd9CE13f
+    description: 'Fake MyEtherWallet. Suspected address: 0x5c3a228510D246b78a3765C20221Cbf3082b44a4 0xCDb26199dB086d54F7b11e50cA4374b4Dd9CE13f'
 -
     id: 3921
     name: myetherwailet.pw
@@ -27645,18 +27359,14 @@
     url: 'https://xn--myethrallet-ol9e8v.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet - IDN homograph attack domain - Suspected address:
-        0x71481c3ac7853ef63c87f0e9f91b6a5e16e04438
+    description: 'Fake MyEtherWallet - IDN homograph attack domain - Suspected address: 0x71481c3ac7853ef63c87f0e9f91b6a5e16e04438'
 -
     id: 3923
     name: keytron.io
     url: 'https://keytron.io'
     category: Phishing
     subcategory: Keytron
-    description: >-
-        Fake airdrop  directing users to xn--myethrwaet-inb90ca[dot]com.
-        Suspected address: 0x58F288F0A8C287F5922c08d9693c045942609f2
+    description: 'Fake airdrop  directing users to xn--myethrwaet-inb90ca[dot]com. Suspected address: 0x58F288F0A8C287F5922c08d9693c045942609f2'
 -
     id: 3924
     name: etherbonus.net
@@ -27679,9 +27389,7 @@
     url: 'https://myetherewallete.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet. Suspected address:
-        0xc4BD211E5b92235E6426113Cd735B74bC4335d08
+    description: 'Fake MyEtherWallet. Suspected address: 0xc4BD211E5b92235E6426113Cd735B74bC4335d08'
 -
     id: 3927
     name: xn--myetherwlet-37a36j.com
@@ -27695,9 +27403,7 @@
     url: 'https://xn--myetherwllt-37a50e.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet. IDN homograph attack domain. Suspected address:
-        0x4121cc82607ebab3f334e067f37fe2709c403bf6
+    description: 'Fake MyEtherWallet. IDN homograph attack domain. Suspected address: 0x4121cc82607ebab3f334e067f37fe2709c403bf6'
 -
     id: 3929
     name: rnyetheswallet.com
@@ -27774,10 +27480,7 @@
     url: 'https://calchain.net'
     category: Phishing
     subcategory: Calchain
-    description: >-
-        Fake airdrop directing users to a fake MyEtherWallet
-        (xn--myetherwlet-37a36j[dot]com & xn--myetherwllt-37a50e[dot]com).
-        Suspected address:  0x4121cc82607ebab3f334e067f37fe2709c403bf6
+    description: 'Fake airdrop directing users to a fake MyEtherWallet (xn--myetherwlet-37a36j[dot]com & xn--myetherwllt-37a50e[dot]com). Suspected address:  0x4121cc82607ebab3f334e067f37fe2709c403bf6'
 -
     id: 3940
     name: ethpays.me
@@ -27908,27 +27611,21 @@
     url: 'https://myetherwallet.com.signinverication.verifcaon.site'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet. Suspected address:
-        0xCDb26199dB086d54F7b11e50cA4374b4Dd9CE13f
+    description: 'Fake MyEtherWallet. Suspected address: 0xCDb26199dB086d54F7b11e50cA4374b4Dd9CE13f'
 -
     id: 3955
     name: verifywallet.typeform.com
     url: 'https://verifywallet.typeform.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake airdrop directing users to a fake MyEtherWallet
-        xn--myethewallet-4nf.net
+    description: Fake airdrop directing users to a fake MyEtherWallet xn--myethewallet-4nf.net
 -
     id: 3956
     name: xn--myethewallet-4nf.net
     url: 'https://xn--myethewallet-4nf.net'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet - IDN homograph attack domain. Suspected address:
-        0x1ee6b25a0e3f855a10916766df3a056e924e5dce
+    description: 'Fake MyEtherWallet - IDN homograph attack domain. Suspected address: 0x1ee6b25a0e3f855a10916766df3a056e924e5dce'
 -
     id: 3957
     name: ethgw.info
@@ -28223,18 +27920,14 @@
     url: 'http://xn--myetherwalet-lcc.net'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Intermdeiate URL at Phishing MyEtherWallet Via Native Web Views on
-        Android, reported by risk.iq
+    description: 'Intermdeiate URL at Phishing MyEtherWallet Via Native Web Views on Android, reported by risk.iq'
 -
     id: 3991
     name: xn--myethrwalle-3bb60n.com
     url: 'http://xn--myethrwalle-3bb60n.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Intermdeiate URL at Phishing MyEtherWallet Via Native Web Views on
-        Android,reported by risk.iq
+    description: 'Intermdeiate URL at Phishing MyEtherWallet Via Native Web Views on Android,reported by risk.iq'
 -
     id: 3992
     name: idexmarket.io
@@ -28275,9 +27968,7 @@
     url: 'https://keyfund.io'
     category: Phishing
     subcategory: Keyfund
-    description: >-
-        Fake airdrop directing users to a fake MyEtherWallet
-        xn--myethrwalt-vmbe17c.com
+    description: Fake airdrop directing users to a fake MyEtherWallet xn--myethrwalt-vmbe17c.com
 -
     id: 3997
     name: ethereum-promo.xf.cz
@@ -28293,11 +27984,7 @@
     url: 'https://myetherwallet.comsigninverication.signmessage.crocweb.online'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet. Suspected address:
-        0x6ab2a9088916bf97c248888009b669aa37bab681
-        0xcdb26199db086d54f7b11e50ca4374b4dd9ce13f
-        0x5127E8d79160f4cD177F5aC5A1e860acAa59a34B
+    description: 'Fake MyEtherWallet. Suspected address: 0x6ab2a9088916bf97c248888009b669aa37bab681 0xcdb26199db086d54f7b11e50ca4374b4dd9ce13f 0x5127E8d79160f4cD177F5aC5A1e860acAa59a34B'
 -
     id: 3999
     name: myeosdac.top
@@ -28527,9 +28214,7 @@
     url: 'http://etherdrop.org'
     category: Phishing
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Suspected address:
-        0x2b8cdceb358ee31c2ba6c9707ad09df66bf7bc88
+    description: 'Trust trading scam site. Suspected address: 0x2b8cdceb358ee31c2ba6c9707ad09df66bf7bc88'
 -
     id: 4027
     name: safepay-eth.org
@@ -28656,39 +28341,28 @@
     url: 'http://idex-info.com'
     category: Phishing
     subcategory: Idex
-    description: >-
-        Reported as fake idex site. Suspected address:
-        0xFdf02F6BeeF524Df60a066cbE795957F78C63B1D
+    description: 'Reported as fake idex site. Suspected address: 0xFdf02F6BeeF524Df60a066cbE795957F78C63B1D'
 -
     id: 4042
     name: xn--mythrwalet-umbv35c.com
     url: 'http://xn--mythrwalet-umbv35c.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet - IDN homograph attack domain. Suspected address:
-        0x604DA69D33a0Df6414c30270434bA4E0e95d8cF6
-        0x8B170540B63d2F826846f3C0B9E6410B08548Ec3
-        0x5d4d57cd06fa7fe99e26fdc481b468f77f05073c
-        0xd53eC8a1478e7128D2D5F131A36462Ca3190fCce
+    description: 'Fake MyEtherWallet - IDN homograph attack domain. Suspected address: 0x604DA69D33a0Df6414c30270434bA4E0e95d8cF6 0x8B170540B63d2F826846f3C0B9E6410B08548Ec3 0x5d4d57cd06fa7fe99e26fdc481b468f77f05073c 0xd53eC8a1478e7128D2D5F131A36462Ca3190fCce'
 -
     id: 4043
     name: helbiz-token.trade
     url: 'http://helbiz-token.trade'
     category: Phishing
     subcategory: Helbiz
-    description: >-
-        Fake Helbiz promotion. Directing users to a fake MyEtherWallet
-        myeltherwallet.ml/etherscan.io.token.0xe34e1944e776f39b9252790a0527ebda647ae668/
+    description: Fake Helbiz promotion. Directing users to a fake MyEtherWallet myeltherwallet.ml/etherscan.io.token.0xe34e1944e776f39b9252790a0527ebda647ae668/
 -
     id: 4044
     name: eostoken-eos-io.typeform.com
     url: 'http://eostoken-eos-io.typeform.com'
     category: Phishing
     subcategory: EOS
-    description: >-
-        Fake EOS promotion. Directing users to a fake MyEtherWallet
-        xn--mythrwalet-umbv35c.com
+    description: Fake EOS promotion. Directing users to a fake MyEtherWallet xn--mythrwalet-umbv35c.com
 -
     id: 4045
     name: switcheo-login.com
@@ -28709,9 +28383,7 @@
     url: 'http://falconetwork.de'
     category: Phishing
     subcategory: Falcon
-    description: >-
-        Fake Falcon promotion. Directing users to a fake MyEtherWallet
-        xn--mythrwalet-umbv35c.com
+    description: Fake Falcon promotion. Directing users to a fake MyEtherWallet xn--mythrwalet-umbv35c.com
 -
     id: 4048
     name: xn--myetherwaett-lcca.net
@@ -28725,9 +28397,7 @@
     url: 'http://myetherwalllet.trade'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet. Suspected address:
-        0x645a58a563ab8c94207e8faea54bcb97e02d23c9
+    description: 'Fake MyEtherWallet. Suspected address: 0x645a58a563ab8c94207e8faea54bcb97e02d23c9'
 -
     id: 4050
     name: secure.ethtogive.com
@@ -28898,9 +28568,7 @@
     url: 'http://ethereumgiveaway.typeform.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake giveaway collecting data on users and directing them to a fake
-        MyEtherWallet xn--myetherwalett-4hc.net
+    description: Fake giveaway collecting data on users and directing them to a fake MyEtherWallet xn--myetherwalett-4hc.net
 -
     id: 4070
     name: zecblock.info
@@ -28958,9 +28626,7 @@
     url: 'http://btcs-share.com'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Bitcoin address:
-        1N2GSugUiQ9bgG94YFhexLqdEXrLZ9CQXa
+    description: 'Trust trading scam site. Bitcoin address: 1N2GSugUiQ9bgG94YFhexLqdEXrLZ9CQXa'
 -
     id: 4078
     name: etherepromo.win
@@ -29239,32 +28905,21 @@
     url: 'http://zillowblockchain.orgg'
     category: Phishing
     subcategory: Zillow
-    description: >-
-        Fake giveaway directing users to a fake MyEtherWallet -
-        myetherwallet.signmsg.online
+    description: Fake giveaway directing users to a fake MyEtherWallet - myetherwallet.signmsg.online
 -
     id: 4113
     name: myetherwallet.signmsg.online
     url: 'http://myetherwallet.signmsg.online'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet. Suspected address:
-        0x69b9053691d7caca5d76e0f7d5a9744b53aea0a5
-        0x809826cceab68c387726af962713b64cb5cb3cca
-        0xd0929d411954c47438dc1d871dd6081f5c5e149c
-        0xbc86727e770de68b1060c91f6bb6945c73e10388
-        0x3883f5e181fccaf8410fa61e12b59bad963fb645
-        0x2ccbff3a042c68716ed2a2cb0c544a9f1d1935e1
+    description: 'Fake MyEtherWallet. Suspected address: 0x69b9053691d7caca5d76e0f7d5a9744b53aea0a5 0x809826cceab68c387726af962713b64cb5cb3cca 0xd0929d411954c47438dc1d871dd6081f5c5e149c 0xbc86727e770de68b1060c91f6bb6945c73e10388 0x3883f5e181fccaf8410fa61e12b59bad963fb645 0x2ccbff3a042c68716ed2a2cb0c544a9f1d1935e1'
 -
     id: 4114
     name: falconswap.typeform.com
     url: 'http://falconswap.typeform.com'
     category: Phishing
     subcategory: Falcon
-    description: >-
-        Fake giveaway directing users to a fake MyEtherWallet -
-        xn--myetherwalett-4hc.net
+    description: Fake giveaway directing users to a fake MyEtherWallet - xn--myetherwalett-4hc.net
 -
     id: 4115
     name: idex-market.co
@@ -29287,27 +28942,21 @@
     url: 'http://viberate.bettermost.net'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet. Suspected address:
-        0x5457Bb4430d8B8D1A3708576100Aef0e027C5b9B
+    description: 'Fake MyEtherWallet. Suspected address: 0x5457Bb4430d8B8D1A3708576100Aef0e027C5b9B'
 -
     id: 4118
     name: quarkchain.typeform.com
     url: 'http://quarkchain.typeform.com'
     category: Phishing
     subcategory: Quarkchain
-    description: >-
-        Fake airdrop directing users to a fake MyEtherWallet -
-        xn--myethrwalett-8vb19c.net
+    description: Fake airdrop directing users to a fake MyEtherWallet - xn--myethrwalett-8vb19c.net
 -
     id: 4119
     name: bibox-exchange.com
     url: 'http://bibox-exchange.com'
     category: Phishing
     subcategory: Bibox
-    description: >-
-        Fake Bibox exchange. Suspected address:
-        0x5dc8ed6cfe7df7c66744ff4f68c53e6f482875e8
+    description: 'Fake Bibox exchange. Suspected address: 0x5dc8ed6cfe7df7c66744ff4f68c53e6f482875e8'
 -
     id: 4120
     name: myetherwalletprize.top
@@ -29321,9 +28970,7 @@
     url: 'http://rebellious-airdrop.top'
     category: Phishing
     subcategory: Rebellious
-    description: >-
-        Fake Rebellious airdrop directing users to a fake MyEtherWallet
-        mvyetherwallet.top
+    description: Fake Rebellious airdrop directing users to a fake MyEtherWallet mvyetherwallet.top
 -
     id: 4122
     name: mvyetherwallet.top
@@ -29337,9 +28984,7 @@
     url: 'http://kycverification.typeform.com'
     category: Phishing
     subcategory: EOS
-    description: >-
-        Fake eosLITE form directing users to a fake MyEtherWallet
-        xn--myethrwalett-8vb19c.net
+    description: Fake eosLITE form directing users to a fake MyEtherWallet xn--myethrwalett-8vb19c.net
     addresses:
         - '0x1ee6B25a0E3F855a10916766dF3A056E924e5DCE'
 -
@@ -29369,9 +29014,7 @@
     url: 'http://myetferwellet.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet. Suspected address:
-        0xd26114cd6ee289accf82350c8d8487fedb8a0c07
+    description: 'Fake MyEtherWallet. Suspected address: 0xd26114cd6ee289accf82350c8d8487fedb8a0c07'
 -
     id: 4129
     name: myethertrust.com
@@ -29396,9 +29039,7 @@
     url: 'http://xn--myetherrwalet-5hc.net'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet - IDN homograph attack domain. Suspected address:
-        0x7e25f33c1e3402f2197dab251ce2d73cdbcb77a3
+    description: 'Fake MyEtherWallet - IDN homograph attack domain. Suspected address: 0x7e25f33c1e3402f2197dab251ce2d73cdbcb77a3'
 -
     id: 4131
     name: idice.epizy.com
@@ -29414,9 +29055,7 @@
     url: 'http://gene.network'
     category: Phishing
     subcategory: Gene
-    description: >-
-        Fake crowdsale site directing users to a fake MyEtherWallet
-        http://bahs.edu.tt/https_myetherwallet.com:gese_token_redeem/
+    description: 'Fake crowdsale site directing users to a fake MyEtherWallet http://bahs.edu.tt/https_myetherwallet.com:gese_token_redeem/'
 -
     id: 4133
     name: bahs.edu.tt
@@ -29444,9 +29083,7 @@
     url: 'http://oracon.io'
     category: Phishing
     subcategory: Oracon
-    description: >-
-        Fake airdrop directing users to a fake MyEtherWallet -
-        myetherwallet.com.signmsg.info
+    description: Fake airdrop directing users to a fake MyEtherWallet - myetherwallet.com.signmsg.info
 -
     id: 4137
     name: eth-bonus.org
@@ -29529,9 +29166,7 @@
     url: 'http://kentra.tech'
     category: Phishing
     subcategory: Kentra
-    description: >-
-        Fake airdrop directing users to a fake MyEtherWallet -
-        xn--myethrwalt-inbe64c.com
+    description: Fake airdrop directing users to a fake MyEtherWallet - xn--myethrwalt-inbe64c.com
 -
     id: 4148
     name: xn--myethrwalt-inbe64c.com
@@ -29793,9 +29428,7 @@
     url: 'http://masterthecrypto.org'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Directing users to a fake MyEtherWallet (https://bitly.com/2sK9fJW+) -
-        xn--myetherwllet-ncb.org
+    description: 'Directing users to a fake MyEtherWallet (https://bitly.com/2sK9fJW+) - xn--myetherwllet-ncb.org'
 -
     id: 4181
     name: xn--myetherwllet-ncb.org
@@ -30264,9 +29897,7 @@
     url: 'http://elon-gives.com'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Suspected address:
-        0x7ff8caeb28f91ad0ee150027af4d51754461e055
+    description: 'Trust trading scam site. Suspected address: 0x7ff8caeb28f91ad0ee150027af4d51754461e055'
     addresses:
         - '0xeb6a066D30c55609fB9f3f6446C6Ef8f27033D2A'
 -
@@ -30377,9 +30008,7 @@
     url: 'http://get-btc-now.com'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site - btc address:
-        1NhFeurTzc9tqWVNpN9fU1M49NvDeEwt9a
+    description: 'Trust trading scam site - btc address: 1NhFeurTzc9tqWVNpN9fU1M49NvDeEwt9a'
 -
     id: 4252
     name: today-ethereum.com
@@ -30395,9 +30024,7 @@
     url: 'http://ethnow.org'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Suspected address:
-        0x00Eb4cC5eEAc114294f3bEEF4007BCDAeC293F59
+    description: 'Trust trading scam site. Suspected address: 0x00Eb4cC5eEAc114294f3bEEF4007BCDAeC293F59'
     addresses:
         - '0x3963C374e0E71018dBA76814c13fdd5458d55898'
 -
@@ -30502,9 +30129,7 @@
     url: 'http://bitcoin-promo.club'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Bitcoin address:
-        14Sfnn3jveSPvZgHcpG7c15m58sM4KeAqD
+    description: 'Trust trading scam site. Bitcoin address: 14Sfnn3jveSPvZgHcpG7c15m58sM4KeAqD'
 -
     id: 4266
     name: ethereumgw.org
@@ -30701,9 +30326,7 @@
     url: 'https://coinzzz.pro'
     category: Phishing
     subcategory: Aragon
-    description: >-
-        Hosting a fake Aragon giveaway (https://t.me/Aragonofficial &
-        https://t.me/Aragonannoucement)
+    description: 'Hosting a fake Aragon giveaway (https://t.me/Aragonofficial & https://t.me/Aragonannoucement)'
 -
     id: 4290
     name: ico.metronome.bz
@@ -30842,18 +30465,14 @@
     url: 'https://keyfundairdrop.typeform.com'
     category: Phishing
     subcategory: EOS
-    description: >-
-        Fake EOS airdrop directing users to myetherwallet.com.signmessage.me
-        (https://bitly.com/2HTNWuj+)
+    description: 'Fake EOS airdrop directing users to myetherwallet.com.signmessage.me (https://bitly.com/2HTNWuj+)'
 -
     id: 4306
     name: eosdash.io
     url: 'https://eosdash.io'
     category: Phishing
     subcategory: EOS
-    description: >-
-        Fake EOS airdrop directing users to myetherwallet.com.signmessage.me
-        (https://bitly.com/2HTNWuj+)
+    description: 'Fake EOS airdrop directing users to myetherwallet.com.signmessage.me (https://bitly.com/2HTNWuj+)'
 -
     id: 4307
     name: xn--coinbas-z8a.tk
@@ -30886,38 +30505,28 @@
     url: 'https://myefherwaliet.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet - Suspected address:
-        0x766316F65C88486bcb59Fd57D5CE0087780c1424
+    description: 'Fake MyEtherWallet - Suspected address: 0x766316F65C88486bcb59Fd57D5CE0087780c1424'
 -
     id: 4311
     name: c-kamowski.fr
     url: 'http://c-kamowski.fr'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Bitcoin address:
-        19DBRq4M98XaeBjnjx2NuU9MMrTK3u259L
+    description: 'Trust trading scam site. Bitcoin address: 19DBRq4M98XaeBjnjx2NuU9MMrTK3u259L'
 -
     id: 4312
     name: eosprivate.io
     url: 'https://eosprivate.io'
     category: Phishing
     subcategory: EOS
-    description: >-
-        Fake KYC directing users to a Fake MyEtherWallet
-        myetherwallet.com.api.signmessage.me/signmsg.html via bit.ly/2tj9f2U+
-        and myetherwallet.com.api.root.signmsg.me/signmsg.html via
-        bitly.com/2thn41W+
+    description: Fake KYC directing users to a Fake MyEtherWallet myetherwallet.com.api.signmessage.me/signmsg.html via bit.ly/2tj9f2U+ and myetherwallet.com.api.root.signmsg.me/signmsg.html via bitly.com/2thn41W+
 -
     id: 4313
     name: myetherwallet.com.api.signmessage.me
     url: 'https://myetherwallet.com.api.signmessage.me'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet. Reported address:
-        0xA125929ba78213a27D8695B276f55D6aba567B01
+    description: 'Fake MyEtherWallet. Reported address: 0xA125929ba78213a27D8695B276f55D6aba567B01'
 -
     id: 4314
     name: shapeshiftv.com
@@ -31045,20 +30654,14 @@
     url: 'https://airdropform900.typeform.com'
     category: Phishing
     subcategory: EOS
-    description: >-
-        Fake EOSPrivate Airdrop directing users to a fake MyEtherWallet
-        (https://myetherwallet.com.api.root.signmsg.me/signmsg.html) -
-        https://bitly.com/2thn41W+. Suspected address:
-        0x8b9310e47cd2d4aad77735a3218d9420cb152709
+    description: 'Fake EOSPrivate Airdrop directing users to a fake MyEtherWallet (https://myetherwallet.com.api.root.signmsg.me/signmsg.html) - https://bitly.com/2thn41W+. Suspected address: 0x8b9310e47cd2d4aad77735a3218d9420cb152709'
 -
     id: 4330
     name: myetherwallet.com.api.root.signmsg.me
     url: 'https://myetherwallet.com.api.root.signmsg.me'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet phishing for keys. Suspected address:
-        0x8b9310E47cd2d4AAd77735a3218D9420CB152709
+    description: 'Fake MyEtherWallet phishing for keys. Suspected address: 0x8b9310E47cd2d4AAd77735a3218D9420CB152709'
 -
     id: 4331
     name: myetherwallet.token.signmsg.network
@@ -31091,9 +30694,7 @@
     url: 'https://eos-platform.net'
     category: Phishing
     subcategory: EOS
-    description: >-
-        Fake EOS web wallet - email verification from ddddssssmmmm.fvds.ru
-        (188.120.227.79)
+    description: Fake EOS web wallet - email verification from ddddssssmmmm.fvds.ru (188.120.227.79)
     addresses:
         - '0x73BAF168D9f5FEe3D845f33b3567Fe916F730838'
 -
@@ -31102,9 +30703,7 @@
     url: 'http://btcfast.io'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Bitcoin address:
-        33RRw7sdn6SQsNGPAb4fGUuAM9yHfL2ecH
+    description: 'Trust trading scam site. Bitcoin address: 33RRw7sdn6SQsNGPAb4fGUuAM9yHfL2ecH'
 -
     id: 4336
     name: idexxsoftload.com
@@ -31275,9 +30874,7 @@
     url: 'http://btc-give.org'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Bitcoin address:
-        1KXLXfdFS7aKZJWwVxH9im9WyzA9SBBEed
+    description: 'Trust trading scam site. Bitcoin address: 1KXLXfdFS7aKZJWwVxH9im9WyzA9SBBEed'
 -
     id: 4358
     name: e.airdropeos.com
@@ -31344,9 +30941,7 @@
     url: 'https://eosdrop.xn--mythrwallt-c7a86c5a.com'
     category: Phishing
     subcategory: EOS
-    description: >-
-        Fake EOS airdrop. Directing users to a fake MyEtherWallet
-        xn--mythrwallt-c7a86c5a.com/signmsg.html via bit.ly/2Jlh9zL+
+    description: Fake EOS airdrop. Directing users to a fake MyEtherWallet xn--mythrwallt-c7a86c5a.com/signmsg.html via bit.ly/2Jlh9zL+
 -
     id: 4366
     name: eth-claim.net
@@ -31392,9 +30987,7 @@
     url: 'http://btc.etherfree.info'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Bitcoin address:
-        18b7PTLaa2TPtn5V5moBwSsWTEm6Ny2n8Y
+    description: 'Trust trading scam site. Bitcoin address: 18b7PTLaa2TPtn5V5moBwSsWTEm6Ny2n8Y'
 -
     id: 4372
     name: etherfree.info
@@ -31465,9 +31058,7 @@
     url: 'https://signmsg.icu'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Hosting a fake MyEtherWallet
-        (myetherwallet.com.signmsg.icu/signmsg.html)
+    description: Hosting a fake MyEtherWallet (myetherwallet.com.signmsg.icu/signmsg.html)
 -
     id: 4381
     name: ethofficialpage.us
@@ -31528,18 +31119,14 @@
     url: 'https://anatomia.io'
     category: Phishing
     subcategory: Anatomia
-    description: >-
-        Fake KYC airdrop form directing users to a fake MyEtherWallet -
-        www.myetherwallet.com.signmsg.icu/signmsg.html via bitly.com/2tlCjXH+
+    description: Fake KYC airdrop form directing users to a fake MyEtherWallet - www.myetherwallet.com.signmsg.icu/signmsg.html via bitly.com/2tlCjXH+
 -
     id: 4387
     name: anatomiaairdrop.typeform.com
     url: 'https://anatomiaairdrop.typeform.com'
     category: Phishing
     subcategory: Anatomia
-    description: >-
-        Fake KYC airdrop form directing users to a fake MyEtherWallet -
-        www.myetherwallet.com.signmsg.icu/signmsg.html via bitly.com/2tlCjXH+
+    description: Fake KYC airdrop form directing users to a fake MyEtherWallet - www.myetherwallet.com.signmsg.icu/signmsg.html via bitly.com/2tlCjXH+
 -
     id: 4388
     name: ethextra.net
@@ -31640,9 +31227,7 @@
     url: 'http://binance-btc.github.io'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Bitcoin address:
-        1ERg3Gb3TwcTkGNQo5cHKNAHEgpLBRf4KQ
+    description: 'Trust trading scam site. Bitcoin address: 1ERg3Gb3TwcTkGNQo5cHKNAHEgpLBRf4KQ'
 -
     id: 4399
     name: w-tron.org
@@ -31852,18 +31437,14 @@
     url: 'http://ethsc32821.nichost.ru'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Bitcoin address:
-        16VWrgdLgfF9QBab5Y6bMqHDU9h4bWHBvv
+    description: 'Trust trading scam site. Bitcoin address: 16VWrgdLgfF9QBab5Y6bMqHDU9h4bWHBvv'
 -
     id: 4423
     name: gelepo.com
     url: 'http://gelepo.com'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Bitcoin address:
-        1BMWrDwudPBKoFDVJ57K6THR2QAEVkbvok
+    description: 'Trust trading scam site. Bitcoin address: 1BMWrDwudPBKoFDVJ57K6THR2QAEVkbvok'
 -
     id: 4424
     name: ethgift.net
@@ -31889,9 +31470,7 @@
     url: 'https://wallet.eostoolkits.io'
     category: Phishing
     subcategory: EOS
-    description: >-
-        Purports to offer an EOS web wallet. Stealing private keys with POST
-        /eot/store.php?mapza=public&mapza2=private&action1=1
+    description: Purports to offer an EOS web wallet. Stealing private keys with POST /eot/store.php?mapza=public&mapza2=private&action1=1
 -
     id: 4427
     name: telegram.market
@@ -31973,36 +31552,28 @@
     url: 'https://eosdark.com'
     category: Phishing
     subcategory: EOS
-    description: >-
-        Fake airdrop directing users to a fake MyEtherWallet
-        xn--mytherwaet-y7a46ha.com
+    description: Fake airdrop directing users to a fake MyEtherWallet xn--mytherwaet-y7a46ha.com
 -
     id: 4435
     name: xn--eosauthorty-jzb.com
     url: 'https://xn--eosauthorty-jzb.com'
     category: Phishing
     subcategory: EOS
-    description: >-
-        Fake EOS domain - IDN homograph attack domain - phishing for private
-        keys
+    description: Fake EOS domain - IDN homograph attack domain - phishing for private keys
 -
     id: 4436
     name: xn--eosuthority-m7a.com
     url: 'https://xn--eosuthority-m7a.com'
     category: Phishing
     subcategory: EOS
-    description: >-
-        Fake EOS domain - IDN homograph attack domain - phishing for private
-        keys
+    description: Fake EOS domain - IDN homograph attack domain - phishing for private keys
 -
     id: 4437
     name: xn--eosauthorty-kcb.com
     url: 'https://xn--eosauthorty-kcb.com'
     category: Phishing
     subcategory: EOS
-    description: >-
-        Fake EOS domain - IDN homograph attack domain - phishing for private
-        keys
+    description: Fake EOS domain - IDN homograph attack domain - phishing for private keys
 -
     id: 4438
     name: eosauthorithy.com
@@ -32098,9 +31669,7 @@
     url: 'https://btcdrop.org'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Bitcoin address:
-        1CCNs3rQwZbqhECphevW6HvSxVrXx6Bkeq
+    description: 'Trust trading scam site. Bitcoin address: 1CCNs3rQwZbqhECphevW6HvSxVrXx6Bkeq'
 -
     id: 4449
     name: myehferwallet.com
@@ -32213,9 +31782,7 @@
     url: 'https://electrum.ink'
     category: Phishing
     subcategory: Electrum
-    description: >-
-        Fake Electrum site. Hosting
-        https://www.virustotal.com/#/url/d8ba0e021d4bd8aade2d453a0d6254514d12d9a31b2f0231dd0c69eb0b04ccec/detection
+    description: 'Fake Electrum site. Hosting https://www.virustotal.com/#/url/d8ba0e021d4bd8aade2d453a0d6254514d12d9a31b2f0231dd0c69eb0b04ccec/detection'
 -
     id: 4464
     name: electrumwallet.ml
@@ -32266,10 +31833,7 @@
     url: 'https://idext.market'
     category: Phishing
     subcategory: Idex
-    description: >-
-        Fake Idex market. Suspected address:
-        0x31f530b58efa42dab4bd1789184b4cc6b884dea0
-        0x6c653ca88eff4c9301023244ff49d506e5a2004c
+    description: 'Fake Idex market. Suspected address: 0x31f530b58efa42dab4bd1789184b4cc6b884dea0 0x6c653ca88eff4c9301023244ff49d506e5a2004c'
 -
     id: 4470
     name: etherdelta.com.ua
@@ -32347,9 +31911,7 @@
     url: 'http://celebration-eth.com'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Reported address:
-        0xB6eCd180F5CBB9167147394841D31f94EfF77DBf
+    description: 'Trust trading scam site. Reported address: 0xB6eCd180F5CBB9167147394841D31f94EfF77DBf'
     addresses:
         - '0x2a206bca8ee7c324af1b67ae05373a59a3d4502d'
         - '0xB6eCd180F5CBB9167147394841D31f94EfF77DBf'
@@ -32600,9 +32162,7 @@
     url: 'https://tronplay.network'
     category: Phishing
     subcategory: Tron
-    description: >-
-        Fake Tron airdrop directing users to a fake MyEtherWallet
-        xn--mytherwalet-srb35c.com/signmsg.html via bitly.com/2K90ioo+
+    description: Fake Tron airdrop directing users to a fake MyEtherWallet xn--mytherwalet-srb35c.com/signmsg.html via bitly.com/2K90ioo+
 -
     id: 4508
     name: xn--mytherwalet-srb35c.com
@@ -32780,9 +32340,7 @@
     url: 'https://xn--ethrdelta-iib.com'
     category: Phishing
     subcategory: EtherDelta
-    description: >-
-        Fake EtherDelta - IDN homograph attack domain - stealing keys with POST
-        /store.php
+    description: Fake EtherDelta - IDN homograph attack domain - stealing keys with POST /store.php
 -
     id: 4530
     name: ethergiveaway.site
@@ -32813,9 +32371,7 @@
     url: 'https://eoscountdown.network'
     category: Phishing
     subcategory: EOS
-    description: >-
-        Fake EOS site directing users to a fake MyEtherWallet
-        myetherwalletverification.signmsg.work/signmsg.html stealing keys
+    description: Fake EOS site directing users to a fake MyEtherWallet myetherwalletverification.signmsg.work/signmsg.html stealing keys
 -
     id: 4534
     name: myetherwalletverification.signmsg.work
@@ -32891,27 +32447,21 @@
     url: 'https://node82.btc-giveaway.info'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Bitcoin address:
-        17ntyMTNJpM6JDdS9M5G2eKgKELuGfzZkr
+    description: 'Trust trading scam site. Bitcoin address: 17ntyMTNJpM6JDdS9M5G2eKgKELuGfzZkr'
 -
     id: 4543
     name: texacon-verify-547fcd.bitballoon.com
     url: 'https://texacon-verify-547fcd.bitballoon.com'
     category: Phishing
     subcategory: Texacon
-    description: >-
-        Hosting a fake airdrop directing users to a fake MyEtherWallet
-        xn--myethrwalt-f7a07c4r.com/signmsg.html via bitly.com/2KNuPHT+
+    description: Hosting a fake airdrop directing users to a fake MyEtherWallet xn--myethrwalt-f7a07c4r.com/signmsg.html via bitly.com/2KNuPHT+
 -
     id: 4544
     name: kinetictokenforms.typeform.com
     url: 'https://kinetictokenforms.typeform.com'
     category: Phishing
     subcategory: Texacon
-    description: >-
-        Hosting a fake airdrop directing users to a fake MyEtherWallet
-        xn--myethrwalt-f7a07c4r.com/signmsg.html via bitly.com/2KNuPHT+
+    description: Hosting a fake airdrop directing users to a fake MyEtherWallet xn--myethrwalt-f7a07c4r.com/signmsg.html via bitly.com/2KNuPHT+
 -
     id: 4545
     name: etherclaim.org
@@ -33102,9 +32652,7 @@
     url: 'https://ethereumfoundationgift.tumblr.com'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site linking to ethe.mediumblog.top/payment.php -
-        promoted by twitter userid 1217406895
+    description: Trust trading scam site linking to ethe.mediumblog.top/payment.php - promoted by twitter userid 1217406895
     addresses:
         - '0x5208d7f63A089906889A5A9CAed81E9C889E64F8'
 -
@@ -33113,54 +32661,42 @@
     url: 'https://btcpramengyve.com'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Bitcoin address:
-        34oxKKuq8g7W23gvDD6K3bpbTVCg1FLYGb
+    description: 'Trust trading scam site. Bitcoin address: 34oxKKuq8g7W23gvDD6K3bpbTVCg1FLYGb'
 -
     id: 4568
     name: claim-btc.org
     url: 'https://claim-btc.org'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Bitcoin address:
-        1FVwwp98FBKJV8MzSFNN38afSHqiYrxXjs
+    description: 'Trust trading scam site. Bitcoin address: 1FVwwp98FBKJV8MzSFNN38afSHqiYrxXjs'
 -
     id: 4569
     name: btcbig.org
     url: 'https://btcbig.org'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Bitcoin address:
-        15HM6dXaUvDdXri3rz44wKv13No57h4TN
+    description: 'Trust trading scam site. Bitcoin address: 15HM6dXaUvDdXri3rz44wKv13No57h4TN'
 -
     id: 4570
     name: btcbonus.win
     url: 'https://btcbonus.win'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Bitcoin address:
-        1Co5gnEn1wBTyigfH9udnuUgha27pdETS9
+    description: 'Trust trading scam site. Bitcoin address: 1Co5gnEn1wBTyigfH9udnuUgha27pdETS9'
 -
     id: 4571
     name: btcpromogiveback.com
     url: 'https://btcpromogiveback.com'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Bitcoin address:
-        3LfmhNmuE3vXuruFG9nHwT9heMYvceahhQ
+    description: 'Trust trading scam site. Bitcoin address: 3LfmhNmuE3vXuruFG9nHwT9heMYvceahhQ'
 -
     id: 4572
     name: btcpromoget.com
     url: 'https://btcpromoget.com'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Bitcoin address:
-        34oxKKuq8g7W23gvDD6K3bpbTVCg1FLYGb
+    description: 'Trust trading scam site. Bitcoin address: 34oxKKuq8g7W23gvDD6K3bpbTVCg1FLYGb'
 -
     id: 4573
     name: etherdeltha.info
@@ -33232,18 +32768,11 @@
         - '0x5208d7f63A089906889A5A9CAed81E9C889E64F8'
 -
     id: 4582
-    name: >-
-        https://docs.google.com/forms/d/e/1FAIpQLSdYUpUlj1mjvg9KkU-CMHYILLjWFIOFRtuqBiqp1fbzoTsxNA/formResponse
-    url: >-
-        https://https://docs.google.com/forms/d/e/1FAIpQLSdYUpUlj1mjvg9KkU-CMHYILLjWFIOFRtuqBiqp1fbzoTsxNA/formResponse
+    name: 'https://docs.google.com/forms/d/e/1FAIpQLSdYUpUlj1mjvg9KkU-CMHYILLjWFIOFRtuqBiqp1fbzoTsxNA/formResponse'
+    url: 'https://https://docs.google.com/forms/d/e/1FAIpQLSdYUpUlj1mjvg9KkU-CMHYILLjWFIOFRtuqBiqp1fbzoTsxNA/formResponse'
     category: Phishing
     subcategory: Zeex
-    description: >-
-        Fake Zeex presale. Reported addresses:
-        0xF87F6f77D695039599412B9Fe04DDc89a5e7eb79
-        0x60afc5761212ed59608b0559b4ccbaad24fc74b1
-        0x7cb3ce3248e7c0cd320f3440d437a92a54f541f0
-        0xdE60E7Ea42F99851b8dC4234880aC121EEF6Bd5F
+    description: 'Fake Zeex presale. Reported addresses: 0xF87F6f77D695039599412B9Fe04DDc89a5e7eb79 0x60afc5761212ed59608b0559b4ccbaad24fc74b1 0x7cb3ce3248e7c0cd320f3440d437a92a54f541f0 0xdE60E7Ea42F99851b8dC4234880aC121EEF6Bd5F'
     addresses:
         - '0x2D791afb30B48a0AC39e6b416d2f46Aa095B1704'
 -
@@ -33261,9 +32790,7 @@
     url: 'https://lizstarkgift.tumblr.com'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Linking to a trust trading scam site - ethe.mediumblog.top/payment.php -
-        promoted by twitter user id 1199584015
+    description: Linking to a trust trading scam site - ethe.mediumblog.top/payment.php - promoted by twitter user id 1199584015
     addresses:
         - '0x5208d7f63A089906889A5A9CAed81E9C889E64F8'
 -
@@ -33384,18 +32911,14 @@
     url: 'https://electrunn.org'
     category: Phishing
     subcategory: Electrum
-    description: >-
-        Fake Electrum wallet download site -
-        https://app.any.run/tasks/7b47fc9e-df27-4637-999b-5873f5a96965
+    description: 'Fake Electrum wallet download site - https://app.any.run/tasks/7b47fc9e-df27-4637-999b-5873f5a96965'
 -
     id: 4599
     name: myehterwallct.com
     url: 'https://myehterwallct.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet. Stealing keys with GET
-        ____key?key=%7B%22type%22%3A%22Buffer%22%2C%22data%22%3A%5B18%2C52%2C86%2C120%2C158%2C254%2C254%2C254%2C254%2C254%2C254%2C254%2C254%2C254%2C254%2C254%2C254%2C239%2C239%2C239%2C239%2C239%2C239%2C239%2C239%2C23
+    description: Fake MyEtherWallet. Stealing keys with GET ____key?key=%7B%22type%22%3A%22Buffer%22%2C%22data%22%3A%5B18%2C52%2C86%2C120%2C158%2C254%2C254%2C254%2C254%2C254%2C254%2C254%2C254%2C254%2C254%2C254%2C254%2C239%2C239%2C239%2C239%2C239%2C239%2C239%2C239%2C23
 -
     id: 4600
     name: mychterwallet.com
@@ -33416,9 +32939,7 @@
     url: 'https://ethbonus.me'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Reported as trust trading scam site. Reported addresss:
-        0xff8e6af02d41a576a0c82f7835535193e1a6bccc
+    description: 'Reported as trust trading scam site. Reported addresss: 0xff8e6af02d41a576a0c82f7835535193e1a6bccc'
 -
     id: 4603
     name: idex.ga
@@ -33460,9 +32981,7 @@
     url: 'https://pokerbox.io'
     category: Phishing
     subcategory: Pokerbox
-    description: >-
-        Fake KYC form directing users to a Fake MyEtherWallet
-        myetherwallet.com.apis.icu/signmsg.html via bit.ly/2u2iohx+t
+    description: Fake KYC form directing users to a Fake MyEtherWallet myetherwallet.com.apis.icu/signmsg.html via bit.ly/2u2iohx+t
 -
     id: 4609
     name: admin.safe-eth.top
@@ -33539,9 +33058,7 @@
     url: 'https://btcpromofree.com'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Bitcoin address:
-        1c9setx5UAxgSy4VqvksfErUdZn5fa4vQ
+    description: 'Trust trading scam site. Bitcoin address: 1c9setx5UAxgSy4VqvksfErUdZn5fa4vQ'
 -
     id: 4618
     name: ethcryptopromos.com
@@ -33608,10 +33125,7 @@
     url: 'https://secure.ethsoffer.com/'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site - Click here to get yours NOW! To verify
-        yourself, just send 0.5-20ETH and get 5-200ETH immediately sent back to
-        you! Twitter user TezosFoundatin (id 1009426486644756486)
+    description: 'Trust trading scam site - Click here to get yours NOW! To verify yourself, just send 0.5-20ETH and get 5-200ETH immediately sent back to you! Twitter user TezosFoundatin (id 1009426486644756486)'
     addresses:
         - '0xF7fB243Ff0df4B35f5F7Fa5317c128f16E71cF9A'
 -
@@ -33766,9 +33280,7 @@
     url: 'https://ethereumpromote.wixsite.com'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Promoted by Twitter user id
-        1012075718405185538. Directed via bit.ly/2sK3rPO+
+    description: Trust trading scam site. Promoted by Twitter user id 1012075718405185538. Directed via bit.ly/2sK3rPO+
     addresses:
         - '0x159CCfFB293a06Aafaec1b254A00522A2bC40639'
 -
@@ -33777,9 +33289,7 @@
     url: 'https://ethgive.club'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Reported trust trading scam site. Reported address:
-        0x9E91ea0C442dd2B41CC7fE2d54fAEcd34f59C134
+    description: 'Reported trust trading scam site. Reported address: 0x9E91ea0C442dd2B41CC7fE2d54fAEcd34f59C134'
 -
     id: 4645
     name: myehtrerwallett.com
@@ -33814,20 +33324,14 @@
     url: 'https://omisegoclassic.com'
     category: Phishing
     subcategory: OmiseGo
-    description: >-
-        Fake OmiseGo KYC form directing users to a fake MyEtherWallet
-        myetherwallet.com.api.signmsgs.icu/signmsg.html via bit.ly/2L6rJi4+.
-        Reported address: 0x4287C8Db304F036068520292Fe263B9412F4D30d
+    description: 'Fake OmiseGo KYC form directing users to a fake MyEtherWallet myetherwallet.com.api.signmsgs.icu/signmsg.html via bit.ly/2L6rJi4+. Reported address: 0x4287C8Db304F036068520292Fe263B9412F4D30d'
 -
     id: 4650
     name: jenniferaustin.typeform.com
     url: 'https://jenniferaustin.typeform.com'
     category: Phishing
     subcategory: OmiseGo
-    description: >-
-        Fake OmiseGo KYC form directing users to a fake MyEtherWallet
-        myetherwallet.com.api.signmsgs.icu/signmsg.html via bit.ly/2L6rJi4+.
-        Reported address: 0x4287C8Db304F036068520292Fe263B9412F4D30d
+    description: 'Fake OmiseGo KYC form directing users to a fake MyEtherWallet myetherwallet.com.api.signmsgs.icu/signmsg.html via bit.ly/2L6rJi4+. Reported address: 0x4287C8Db304F036068520292Fe263B9412F4D30d'
 -
     id: 4651
     name: zilliqa.name
@@ -33887,9 +33391,7 @@
     url: 'https://teslagifts.tumblr.com'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Promoting trust trading scam sites directing users to
-        http://etherclaims22.top/payment.php
+    description: 'Promoting trust trading scam sites directing users to http://etherclaims22.top/payment.php'
     addresses:
         - '0xAB7EC7596fc05BC55AFc07008cC06c1193eD6f9a'
 -
@@ -33905,9 +33407,7 @@
     url: 'https://hydrogen-raindrop.bitballoon.com'
     category: Phishing
     subcategory: Hydro
-    description: >-
-        Fake airdrop form directing users to a fake MyEtherWallet -
-        www.myetherwallet.ethersignmsg.services via https://bit.ly/2ufxyjC
+    description: 'Fake airdrop form directing users to a fake MyEtherWallet - www.myetherwallet.ethersignmsg.services via https://bit.ly/2ufxyjC'
 -
     id: 4661
     name: myetherwallet.ethersignmsg.services
@@ -34039,18 +33539,14 @@
     url: 'https://claimyour-btc.org'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Bitcoin address:
-        1FVwwp98FBKJV8MzSFNN38afSHqiYrxXjs
+    description: 'Trust trading scam site. Bitcoin address: 1FVwwp98FBKJV8MzSFNN38afSHqiYrxXjs'
 -
     id: 4676
     name: btcpromo.win
     url: 'https://btcpromo.win'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Bitcoin address:
-        1Co5gnEn1wBTyigfH9udnuUgha27pdETS9
+    description: 'Trust trading scam site. Bitcoin address: 1Co5gnEn1wBTyigfH9udnuUgha27pdETS9'
 -
     id: 4677
     name: indexmarkket-site.com
@@ -34112,9 +33608,7 @@
     url: 'https://btcpromotion.info'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Bitcoin address:
-        1FEt2GWxEidTKz1PkFuiccKTMD5AHkdRdq
+    description: 'Trust trading scam site. Bitcoin address: 1FEt2GWxEidTKz1PkFuiccKTMD5AHkdRdq'
 -
     id: 4685
     name: betaclient-rzcoinwaps.cf
@@ -34222,9 +33716,7 @@
     url: 'https://myetherwallet-hydrogen.top'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet. Reported address:
-        0x0591A42188996397FC7Cd6DB729045146c37696c
+    description: 'Fake MyEtherWallet. Reported address: 0x0591A42188996397FC7Cd6DB729045146c37696c'
 -
     id: 4698
     name: myetherwallet.com.apisign.icu
@@ -34238,28 +33730,21 @@
     url: 'https://hydrogen-platform.com'
     category: Phishing
     subcategory: Hydrogen
-    description: >-
-        Fake Hydrogen KYC form directing users to a fake MyEtherWallet
-        myetherwallet.com.apisign.icu/signmsg.html via bit.ly/2zDHzfD+
+    description: Fake Hydrogen KYC form directing users to a fake MyEtherWallet myetherwallet.com.apisign.icu/signmsg.html via bit.ly/2zDHzfD+
 -
     id: 4700
     name: raindrop11.typeform.com
     url: 'https://raindrop11.typeform.com'
     category: Phishing
     subcategory: Hydrogen
-    description: >-
-        Fake Hydrogen KYC form directing users to a fake MyEtherWallet
-        myetherwallet.com.apisign.icu/signmsg.html via bit.ly/2zDHzfD+
+    description: Fake Hydrogen KYC form directing users to a fake MyEtherWallet myetherwallet.com.apisign.icu/signmsg.html via bit.ly/2zDHzfD+
 -
     id: 4701
     name: bitpayng.typeform.com
     url: 'https://bitpayng.typeform.com'
     category: Phishing
     subcategory: Tron
-    description: >-
-        Fake Tron KYC form directing users to a fake MyEtherWallet
-        myetherwalletverification.signmsg.services/signmsg.html via
-        bit.ly/2KYlmhP+
+    description: Fake Tron KYC form directing users to a fake MyEtherWallet myetherwalletverification.signmsg.services/signmsg.html via bit.ly/2KYlmhP+
 -
     id: 4702
     name: myetherwalletverification.signmsg.services
@@ -34442,10 +33927,7 @@
     url: 'https://www.cashaaprivate.com/airdrop'
     category: Phishing
     subcategory: Cashaa
-    description: >-
-        Fake Cashaa private airdrop form directing users to a fake MyEtherWallet
-        - https://myetherwallet.com.rootsign.icu/signmsg.html via
-        https://bit.ly/2ukYhLw
+    description: 'Fake Cashaa private airdrop form directing users to a fake MyEtherWallet - https://myetherwallet.com.rootsign.icu/signmsg.html via https://bit.ly/2ukYhLw'
 -
     id: 4723
     name: signcontract-etherwallet.net
@@ -34538,9 +34020,7 @@
     url: 'https://refundcontract-etherwallet.net'
     category: Phishing
     subcategory: MyEtherWallet
-    description: >-
-        Fake MyEtherWallet. Users redirected over email via
-        https://bitly.com/2L3Ua1a+
+    description: 'Fake MyEtherWallet. Users redirected over email via https://bitly.com/2L3Ua1a+'
 -
     id: 4736
     name: idexr.market
@@ -34724,9 +34204,7 @@
     url: 'http://bounty-btc.com'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Bitcoin address:
-        1ANTZ2dGkfEm1GYquVk1eMa62R1edBDT98
+    description: 'Trust trading scam site. Bitcoin address: 1ANTZ2dGkfEm1GYquVk1eMa62R1edBDT98'
 -
     id: 4758
     name: ether-event.com
@@ -34837,36 +34315,28 @@
     url: 'http://btcgiveaway.org'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Bitcoin address:
-        17mKwVQHq7YXk9bwocPjnnypbzPEWTnN2o
+    description: 'Trust trading scam site. Bitcoin address: 17mKwVQHq7YXk9bwocPjnnypbzPEWTnN2o'
 -
     id: 4771
     name: btcpromogivegroup.com
     url: 'http://btcpromogivegroup.com'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Bitcoin address:
-        3LfmhNmuE3vXuruFG9nHwT9heMYvceahhQ
+    description: 'Trust trading scam site. Bitcoin address: 3LfmhNmuE3vXuruFG9nHwT9heMYvceahhQ'
 -
     id: 4772
     name: metamaskpro.io
     url: 'http://metamaskpro.io'
     category: Phishing
     subcategory: Metamask
-    description: >-
-        Promoting a fake MetaMask -
-        https://chrome.google.com/webstore/detail/metamask-pro/bjhhmlocoehibjnebcaedkhecggonhne/
+    description: 'Promoting a fake MetaMask - https://chrome.google.com/webstore/detail/metamask-pro/bjhhmlocoehibjnebcaedkhecggonhne/'
 -
     id: 4773
     name: www-bitfinex.com
     url: 'http://www-bitfinex.com'
     category: Phishing
     subcategory: Bitfinex
-    description: >-
-        Fake Bitfinex phishing for private keys -
-        https://twitter.com/sniko_/status/1020078544922214400
+    description: 'Fake Bitfinex phishing for private keys - https://twitter.com/sniko_/status/1020078544922214400'
 -
     id: 4774
     name: ethzerdelta.com
@@ -34943,9 +34413,7 @@
     url: 'http://bdinamce.com'
     category: Scamming
     subcategory: Trust-Trading
-    description: >-
-        Trust trading scam site. Bitcoin address:
-        34oxKKuq8g7W23gvDD6K3bpbTVCg1FLYGb 3LfmhNmuE3vXuruFG9nHwT9heMYvceahhQ
+    description: 'Trust trading scam site. Bitcoin address: 34oxKKuq8g7W23gvDD6K3bpbTVCg1FLYGb 3LfmhNmuE3vXuruFG9nHwT9heMYvceahhQ'
 -
     id: 4785
     name: go.ether10000.win
@@ -35092,9 +34560,7 @@
     url: 'https://binance-acess.com'
     category: Phishing
     subcategory: Binance
-    description: >-
-        Fake Binance phishing for logins -
-        https://twitter.com/jmoconnor415/status/1020784200213938177
+    description: 'Fake Binance phishing for logins - https://twitter.com/jmoconnor415/status/1020784200213938177'
 -
     id: 4802
     name: myetherwwwwwwwwwallet.com
@@ -35119,3 +34585,7 @@
     id: 4807
     name: myetherwwwwwwwwwallet.com
     url: 'http://myetherwwwwwwwwwallet.com'
+-
+    id: 4808
+    name: mycryyyyyyyypto.com
+    url: 'http://mycryyyyyyyypto.com'
