@@ -34552,3 +34552,56 @@
     category: Phishing
     subcategory: Binance
     description: 'Fake Binance phishing for logins - https://twitter.com/jmoconnor415/status/1020784200213938177'      
+-
+    id: 4802
+    name: sociall.ooo
+    url: 'https://sociall.ooo'
+    category: Phishing
+    subcategory: Sociall
+    description: 'Fake Social.io crowdsale site - t.me/sociallairdropbot'   
+-
+    id: 4803
+    name: ether-gift.website
+    url: 'http://ether-gift.website'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x52b949fb4678c20873135ce6b3727949432af1d7'       
+-
+    id: 4804
+    name: authorize-transfer.droppages.com
+    url: 'http://authorize-transfer.droppages.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x5e3eC117baf30044A1b08267208a130E7D69704E'         
+-
+    id: 4805
+    name: login-binance.com
+    url: 'https://login-binance.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Suspicious binance domain targetting login'       
+-
+    id: 4806
+    name: authhitbtc.com
+    url: 'https://authhitbtc.com'
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Suspcious hitbtc domain targetting login'       
+-
+    id: 4807
+    name: hltbtc.cam
+    url: 'https://hltbtc.cam'
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Fake Hitbtc phishing for logins'        
+-
+    id: 4808
+    name: hiitdtc.com
+    url: 'https://hiitdtc.com'
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Suspcious hitbtc domain phishing for logins'           
