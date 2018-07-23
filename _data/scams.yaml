@@ -34605,3 +34605,56 @@
     category: Phishing
     subcategory: Hitbtc
     description: 'Suspcious hitbtc domain phishing for logins'           
+-
+    id: 4809
+    name: idex-markt-roosen-gmbh.com
+    url: 'https://idex-markt-roosen-gmbh.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Suspicious domain targetting idex users (being iframed on idex-market.me)'   
+-
+    id: 4810
+    name: idex-market.me
+    url: 'https://idex-market.me'
+    category: Phishing
+    subcategory: Idex
+    description: 'Suspicious domain targetting idex users (iframing idex-markt-roosen-gmbh.com)'      
+-
+    id: 4811
+    name: iclex-market.com
+    url: 'https://iclex-market.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Suspicious domain targetting idex users'      
+-
+    id: 4812
+    name: xn--dex-market-58a.com
+    url: 'https://xn--dex-market-58a.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Suspicious domain targetting idex users'       
+-
+    id: 4813
+    name: idex-markett.com
+    url: 'https://idex-markett.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Suspicious domain targetting idex users'        
+-
+    id: 4814
+    name: medium.getethernow.top
+    url: 'http://medium.getethernow.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x2B164ae662a0AB1832C87cb4A226EFEC56219FB6'     
+-
+    id: 4815
+    name: verify.ethereumnow.top
+    url: 'http://verify.ethereumnow.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x2B164ae662a0AB1832C87cb4A226EFEC56219FB6'        
