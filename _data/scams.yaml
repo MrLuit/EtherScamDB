@@ -19096,13 +19096,6 @@
     subcategory: LocalEthereum
     description: 'Fake LocalEthereum site'
 -
-    id: 2911
-    name: huobipro.com
-    url: 'https://huobipro.com'
-    category: Phishing
-    subcategory: Huobi
-    description: 'Fake Huobi site'
--
     id: 2912
     name: leadcoins.network
     url: 'http://leadcoins.network'
