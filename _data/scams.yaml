@@ -34658,3 +34658,17 @@
     description: 'Trust trading scam site.'
     addresses:
       - '0x2B164ae662a0AB1832C87cb4A226EFEC56219FB6'        
+-
+    id: 4816
+    name: stellar-w.com
+    url: 'https://stellar-w.com'
+    category: Phishing
+    subcategory: Stellar
+    description: 'Fake Stellar Web Wallet'   
+-
+    id: 4817
+    name: bitfinex.im
+    url: 'https://bitfinex.im'
+    category: Phishing
+    subcategory: Bitfinex
+    description: 'Fake Bitfinex phishing for logins - also has an admin login at /admm/'       
