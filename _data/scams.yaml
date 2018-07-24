@@ -34672,3 +34672,28 @@
     category: Phishing
     subcategory: Bitfinex
     description: 'Fake Bitfinex phishing for logins - also has an admin login at /admm/'       
+-
+    id: 4818
+    name: dailycurrency.ml
+    url: 'http://dailycurrency.ml'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xFc6BB078EC56C85E8f7adDFed0F2dE6CB86ee3c3'   
+-
+    id: 4819
+    name: ethgivewaypromo.info
+    url: 'http://ethgivewaypromo.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xC597498f0d102036ff7bf9fDa401F3174d2E9D96'     
+-
+    id: 4820
+    name: xn--etherem-y24c.com
+    url: 'https://xn--etherem-y24c.com'
+    category: Phishing
+    subcategory: Ethereum
+    description: 'Fake Ethereum site - IDN homograph attack domain - directing users to xn--mythrwallt-yq3ecf.com/#eth-staking - email sent from info@mail5-ethereum.com'       
