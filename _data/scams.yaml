@@ -34848,3 +34848,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet. Reported address: 0x51aF777899f0E81FbB69836E9255cC5bab7a5842'
+-
+    id: 4839
+    name: xn--myetherwale-jb9e.com
+    url: 'https://xn--myetherwale-jb9e.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'
