@@ -34774,3 +34774,17 @@
     description: 'Fake Binance token sale site'    
     addresses:
       - '0x3Fc7cA472D19F24F544fCd79bcA992019650c1Eb'        
+-
+    id: 4830
+    name: bitfanex.com
+    url: 'https://bitfanex.com'
+    category: Phishing
+    subcategory: Bitfinex
+    description: 'Fake Bitfinex phishing for logins with an admin panel /admm/'      
+-
+    id: 4831
+    name: idexx-corpcom.com
+    url: 'https://idexx-corpcom.com'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market phishing for keys'        
