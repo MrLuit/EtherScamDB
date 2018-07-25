@@ -3158,7 +3158,7 @@
     url: 'http://xn--mythrwallt-yq3ecf.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: Homoglyph
+    description: 'Fake Idex market phishing for keys. Reported address: 0x85f3e26a776c06338722d263406f260dcd79962e'   
 -
     id: 463
     name: xn--metherwallet-qlb.com
@@ -31907,6 +31907,8 @@
       - '0x2a206bca8ee7c324af1b67ae05373a59a3d4502d'
       - '0xB6eCd180F5CBB9167147394841D31f94EfF77DBf'
       - '0x79B570F107F07589244C76Ad8fd9a7cca0fb80ef'
+      - '0xed6B90c028310122AF361ce84a4604afBED40910'  
+      - '0x76524f023C42Cb4018D24b8097959B2ecF8fA8EA'
 -
     id: 4480
     name: dapp.doubledouble.io
@@ -34475,6 +34477,7 @@
     description: 'Trust trading scam site.'
     addresses:
       - '0xA4F06F1afB7B8589D1F4609257e5010C30eD3D2b'
+      - '0x9e5a6b7A73C6b390Aa418f5B4CD3a8f6d1572810'
 -
     id: 4793
     name: coincapitals.org
@@ -34788,3 +34791,67 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex market phishing for keys'        
+-
+    id: 4832
+    name: bnb-token.org
+    url: 'https://bnb-token.org'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance token sale site'    
+    addresses:
+      - '0xBC025972d6DCEbE52793A2B19dE53CF621Cf1EDc'  
+-
+    id: 4833
+    name: promo.etherpay.site
+    url: 'http://promo.etherpay.site'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x562109A47a469CA0c385d654Bb0AF14c98cf6E12'      
+-
+    id: 4834
+    name: blog.mediumpromo.top
+    url: 'http://blog.mediumpromo.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x5cf03f522dcbe4efeed2462759da179b50230969'    
+-
+    id: 4835
+    name: medium-promotion.com
+    url: 'http://medium-promotion.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site - directing users to celebration-eth.com'
+    addresses:
+      - '0xed6B90c028310122AF361ce84a4604afBED40910'    
+-
+    id: 4836
+    name: eosgas.io
+    url: 'https://eosgas.io'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake KYC form linking users to a fake MyEtherWallet myetherwallet.com.root5.icu/signmsg.html via bit.ly/2NLjLsi+'      
+-
+    id: 4837
+    name: internationalstudy.online
+    url: 'https://internationalstudy.online'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market phishing for keys'
+-
+    id: 4838
+    name: myetherwallet.com.root5.icu
+    url: 'https://myetherwallet.com.root5.icu'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet. Reported address: 0x51aF777899f0E81FbB69836E9255cC5bab7a5842'
+-
+    id: 4839
+    name: xn--myetherwale-jb9e.com
+    url: 'https://xn--myetherwale-jb9e.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'
