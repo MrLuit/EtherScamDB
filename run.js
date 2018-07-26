@@ -18,12 +18,18 @@ const check = require('./_utils/webcheck.js');
 const lookup = require('./_utils/lookup.js');
 
 
-const default_template = fs.readFileSync('./_layouts/default.html', 'utf8');
+let default_template = fs.readFileSync('./_layouts/default.html', 'utf8');
 let cache;
 let updating_now = false;
 let icon_warnings = [];
 var older_cache_time;
 
+
+if('perform_dns_lookup' in config && config.perform_dns_lookup === false) {
+    default_template = default_template.replace("{{ config.perform_dns_lookup }}", "<div class='ui info message'>DNS lookups not performed due to configuration.</div><br />");
+} else {
+    default_template = default_template.replace("{{ config.perform_dns_lookup }}", '');
+}
 
 /* See if there's an up-to-date cache, otherwise run `update.js` to create one. */
 function getCache(callback = false) {
@@ -259,6 +265,8 @@ function startWebServer() {
                     var status = "<td class='activ'><i class='checkmark icon'></i> Offline</td>";
                 } else if (scams[i].status == "Suspended") {
                     var status = "<td class='suspended'><i class='remove icon'></i> Suspended</td>";
+                } else if (scams[i].status == "NotChecked") {
+                    var status = "<td class='suspended'><i class='remove icon'></i> Not Checked</td>";
                 }
             } else {
                 var status = "<td>None</td>";
