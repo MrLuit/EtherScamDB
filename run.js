@@ -769,7 +769,7 @@ function startWebServer() {
           var actions_text = "";
           template = template.replace("{{ scam.id }}", scam.id);
           template = template.replace("{{ scam.name }}", scam.name);
-          template = template.replace("{{ scam.tip }}", "<b> Security Tip(s)</b>: <ul>{{ scam.tip }}</ul><br />");
+          template = template.replace("{{ scam.tip }}", "<b> Security Tip(s)</b>: <ul>{{ scam.tip }}</ul>");
           template = template.replace("{{ scam.notification }}", '<div class="ui mini red message"><i class="warning sign icon"></i> Warning: This is a scam domain. </div>')
           template = template.replace("{{ scam.googlethreat }}", "<b>Google Safe Browsing Status</b>: {{ scam.googlethreat }}<BR>");
           template = template.replace("{{ scam.virustotal }}", "<b>VirusTotal Detections</b>: {{ scam.virustotal }}<BR>");
