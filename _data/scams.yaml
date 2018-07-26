@@ -35003,3 +35003,31 @@
     description: 'Trust trading scam site.'
     addresses:
       - '0xBC025972d6DCEbE52793A2B19dE53CF621Cf1EDc'              
+-
+    id: 4857
+    name: myetherwallet.com.api.root3.icu
+    url: 'https://myetherwallet.com.api.root3.icu'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
+-
+    id: 4858
+    name: myetherwallet.com.api3.icu
+    url: 'https://myetherwallet.com.api3.icu'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'    
+-
+    id: 4859
+    name: myetherwallet.com.api4.icu
+    url: 'https://myetherwallet.com.api4.icu'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'      
+-
+    id: 4860
+    name: myetherwallet.com.root4.icu
+    url: 'https://myetherwallet.com.root4.icu'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet. Reported address: 0x51af777899f0e81fbb69836e9255cc5bab7a5842'       
