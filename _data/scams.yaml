@@ -26269,7 +26269,7 @@
     url: 'https://xn--mytherwalet-obb56i.com'
     category: Phishing
     subcategory: MyEtherWallet
-    description: 'Fake MyEtherWallet - IDN homograph attack domain'
+    description: 'Fake MyEtherWallet - IDN homograph attack domain. Reported address: 0x4F223fCb9BEb2d560f8D55c17D7Ce5Aa4B7BdC5B 0x539832908A06ff5cDD5Abc84db81C2a95F70eB33'
 -
     id: 3788
     name: xn--myethrwalet-6qb77c.com
@@ -32631,6 +32631,7 @@
     addresses:
       - '0x3BF351A62dF57DCE8512b136daA4cd6EBE2DdA91'
       - '0x051005cDCecd916FB8b98643d923646Acc7e07cd'
+      - '0x7D73f38770997f30BB6Dfa2B8Da184f2CFebA6C6'
 -
     id: 4565
     name: event-eth-ada.uk
@@ -34848,7 +34849,7 @@
     url: 'https://myetherwallet.com.root5.icu'
     category: Phishing
     subcategory: MyEtherWallet
-    description: 'Fake MyEtherWallet. Reported address: 0x51aF777899f0E81FbB69836E9255cC5bab7a5842'
+    description: 'Fake MyEtherWallet. Reported address: 0x51aF777899f0E81FbB69836E9255cC5bab7a5842 0x58192aCD70c8F198337Ee9eB90D96B255643636A 0x6040E8DeeC06c448671b11676ceD4BF742E10031'
 -
     id: 4839
     name: xn--myetherwale-jb9e.com
