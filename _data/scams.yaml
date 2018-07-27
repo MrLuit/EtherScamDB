@@ -33647,6 +33647,7 @@
     description: 'Trust trading scam site.'
     addresses:
       - '0x1D7BC400d3c6d9D37EC54D0e729cbaDD06dc0390'
+      - '0xbC55B0f2DbAF492FC8adf35c0f9939eb5Fe92131'
 -
     id: 4690
     name: limited-promo.org
@@ -35083,3 +35084,91 @@
     description: 'Trust trading scam site.'
     addresses:
       - '0xaE34b154ADA796cFEbE8a60D265d266eF809Fb05'     
+-
+    id: 4868
+    name: myetherwallet-hydrosign.space
+    url: 'https://myetherwallet-hydrosign.space'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet' 
+-
+    id: 4869
+    name: dailycurrency.promo
+    url: 'http://dailycurrency.promo'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xA51960dF18ca816B738A401AC310656fBA0d52EF'    
+-
+    id: 4870
+    name: claimsafe.org
+    url: 'http://claimsafe.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site directing to giveawaypromo.byethost14.com'
+    addresses:
+      - '0xE5E71b33c6a05910A5bDb05b9fC4c826711de336'        
+-
+    id: 4871
+    name: musk-present.blogspot.com
+    url: 'http://musk-present.blogspot.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site directing users to musk-official-promo.com/e/'
+    addresses:
+      - '0xbC55B0f2DbAF492FC8adf35c0f9939eb5Fe92131'     
+-
+    id: 4872
+    name: binance-get.claims
+    url: 'http://binance-get.claims'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x11775A106157a283873A81E8Ec58394b8d568E06'        
+-
+    id: 4873
+    name: dodoflyer.com
+    url: 'http://dodoflyer.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x76bb5b6177096b337c79F2f948Aa08b0db5f5211'         
+-
+    id: 4874
+    name: eth-transfer.com
+    url: 'http://eth-transfer.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xf63164C4912AED27Cd900f92Fe5a66F1ebE5c0Ce'      
+-
+    id: 4875
+    name: savetoken.org
+    url: 'http://savetoken.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x74DDE07C099e4f017E95e30D0235AdA70C7F126F'        
+-
+    id: 4876
+    name: followers-special.ml
+    url: 'http://followers-special.ml'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xa8Cf72C86C3139E5fcd98F42586Ef5596bBaD182'          
+-
+    id: 4877
+    name: giveaway.ethereum-promo.com
+    url: 'http://giveaway.ethereum-promo.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x63eBbFc7530b49d8856BF14CBE78dA584E8D0b2A'                
