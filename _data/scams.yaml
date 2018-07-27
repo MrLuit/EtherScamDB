@@ -35060,3 +35060,26 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex market phishing for keys with POST /furia.php'        
+-
+    id: 4865
+    name: myetherwallet.com.api6.icu
+    url: 'https://myetherwallet.com.api6.icu'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet' 
+-
+    id: 4866
+    name: eosgas.net
+    url: 'https://eosgas.netu'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS KYC form directing users to a fake MyEtherWallet myetherwallet.com.api6.icu/signmsg.html via bit.ly/2LrOL4a+'     
+-
+    id: 4867
+    name: claimprize.org
+    url: 'http://claimprize.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xaE34b154ADA796cFEbE8a60D265d266eF809Fb05'     
