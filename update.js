@@ -25,6 +25,8 @@ let new_cache = {
     'updated': (new Date()).getTime()
 };
 
+let blDnsLookup = true;
+
 if (!fs.existsSync('_cache')) {
     fs.mkdirSync('_cache');
 }
@@ -52,6 +54,12 @@ yaml.safeLoad(fs.readFileSync('_data/legit_urls.yaml')).sort(function(a, b) {
 setInterval(function() {
     debug(scams_checked + '/' + scams.length + ' (' + requests_pending + ' requests pending)');
 }, 1000);
+
+if('perform_dns_lookup' in config && config.perform_dns_lookup === false) {
+    blDnsLookup = false;
+    console.log("Not performing DNS lookups due to configuration.\r\nChange \"perform_dns_lookup\" config to true");
+}
+
 scams.forEach(function(scam, index) {
     if ('url' in scam) {
         if (!scam.url.includes('http://') && !scam.url.includes('https://')) {
@@ -69,10 +77,9 @@ scams.forEach(function(scam, index) {
         new_cache.blacklist.push('www.' + url.parse(scam.url).hostname.replace("www.", ""));
 
         // Check to see if we should hit the domain or not
-        if('perform_dns_lookup' in config && config.perform_dns_lookup === false) {
+        if(blDnsLookup === false) {
             scam_details.status = "NotChecked";
             scam_details.ip = "0.0.0.0";
-            console.log("Note: Not performing the DNS lookups due to configuration - "+ scam.url);
 
             if(index == (scams.length-1)) {
                 var done_interval = setInterval(function() {
