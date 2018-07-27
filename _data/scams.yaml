@@ -35032,3 +35032,31 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet. Reported address: 0x51af777899f0e81fbb69836e9255cc5bab7a5842'       
+-
+    id: 4861
+    name: myetherwallet.com.api5.icu
+    url: 'https://myetherwallet.com.api5.icu'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'  
+-
+    id: 4862
+    name: nuetheriumllet.com
+    url: 'https://nuetheriumllet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet' 
+-
+    id: 4863
+    name: myelhervvalet.com
+    url: 'https://myelhervvalet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'    
+-
+    id: 4864
+    name: seositesworld.online
+    url: 'https://seositesworld.online'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market phishing for keys with POST /furia.php'        
