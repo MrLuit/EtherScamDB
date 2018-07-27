@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<% include ../partials/header %>
+<link rel="stylesheet" href="/css/scams.css">
+</head>
+
+<body>
+	<% include ../partials/navbar %>
+    <div class="ui body container">
+<div class="ui grid">
+  <div class="four wide column">
+  <div class="ui tiny statistic">
+  <div class="value">
+    <%= total %>
+  </div>
+  <div class="label">
+    Total scams
+  </div>
+</div>
+  </div>
+  <div class="four wide column">
+  <div class="ui tiny statistic">
+  <div class="value">
+   <%= active %>
+  </div>
+  <div class="label">
+    Active scams
+  </div>
+</div>
+  </div>
+    <div class="four wide column">
+  <div class="ui tiny statistic">
+  <div class="value">
+    <%= total_addresses %>
+  </div>
+  <div class="label">
+    Addresses registered
+  </div>
+</div>
+  </div>
+    <div class="four wide column">
+  <div class="ui tiny statistic">
+  <div class="value">
+    <%= inactive %>
+  </div>
+  <div class="label">
+    Inactive scams
+  </div>
+</div>
+  </div>
+</div>
+<h1 class="scams"><i class="protect icon"></i> Scams</h1>
+<table class="ui sortable celled table">
+  <thead>
+    <tr>
+	<% if(sorting == "category") { %>
+		<th class="sorted descending">Category</th>
+	<% } else { %>
+		<th>Category</th>
+	<% } %>
+	<% if(sorting == "subcategory") { %>
+		<th class="sorted descending">Subcategory</th>
+	<% } else { %>
+		<th>Subcategory</th>
+	<% } %>
+	<% if(sorting == "status") { %>
+		<th class="sorted descending">Status</th>
+	<% } else { %>
+		<th>Status</th>
+	<% } %>
+	<% if(sorting == "title") { %>
+		<th class="sorted descending">Title</th>
+	<% } else { %>
+		<th>Title</th>
+	<% } %>
+    <th id='info'>Info</th>
+  </tr></thead>
+  <tbody>
+  <%- table %>
+  </tbody>
+</table>
+
+</div>
+	</div>
+	<% include ../partials/footer %>
+	<script src="/js/scams.js"></script>
+</body>
+
+</html>

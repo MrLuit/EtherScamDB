@@ -4,9 +4,8 @@ const debug = require('debug')('sqlite3');
 const db = new sqlite3.Database('./cache.db');
 
 module.exports.init = (async () => {
-	await this.run("CREATE TABLE IF NOT EXISTS scams (id TEXT NOT NULL, name TEXT NOT NULL, url TEXT NOT NULL, status TEXT, ip TEXT, nameservers TEXT, category TEXT, subcategory TEXT, description TEXT, updated TIMESTAMP, PRIMARY KEY(id))");
-	await this.run("CREATE TABLE IF NOT EXISTS verified_urls (id TEXT NOT NULL, name TEXT NOT NULL, url TEXT NOT NULL, featured INTEGER, description TEXT, PRIMARY KEY(id))");
-	//await this.run("CREATE TABLE IF NOT EXISTS addresses (id TEXT NOT NULL, name TEXT NOT NULL, url TEXT NOT NULL, featured INTEGER, description TEXT, PRIMARY KEY(id))");
+	await this.run("CREATE TABLE IF NOT EXISTS domains (id TEXT NOT NULL, type TEXT NOT NULL, name TEXT NOT NULL, url TEXT NOT NULL, featured INTEGER, status TEXT, ip TEXT, nameservers TEXT, category TEXT, subcategory TEXT, description TEXT, updated TIMESTAMP, PRIMARY KEY(id,type))");
+	await this.run("CREATE TABLE IF NOT EXISTS addresses (id TEXT NOT NULL, type TEXT NOT NULL, address TEXT NOT NULL, PRIMARY KEY(id,address))");
 });
 
 module.exports.get = (query,arguments = []) => {

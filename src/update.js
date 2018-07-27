@@ -1,42 +1,35 @@
 process.env.UV_THREADPOOL_SIZE = 128;
 const debug = require('debug')('update');
 const progress = require('cli-progress');
-const dns = require('./_utils/dns');
-const url = require('url');
-const yaml = require('js-yaml');
-const fs = require('fs');
+//const dns = require('./_utils/dns');
+//const url = require('url');
+//const yaml = require('js-yaml');
+//const fs = require('fs');
 const Scam = require('./_utils/scam.class');
-const createDictionary = require('./_utils/dictionary');
+//const createDictionary = require('./_utils/dictionary');
 const db = require('./_utils/db');
 
-const rawScams = yaml.safeLoad(fs.readFileSync('_data/scams.yaml')).reverse();
-const rawVerified = yaml.safeLoad(fs.readFileSync('_data/legit_urls.yaml'));
-
 (async () => {
-	await Promise.all(rawScams.map(scam => db.run("INSERT OR REPLACE INTO scams VALUES (?,?,?,null,null,null,?,?,?)",[scam.id,scam.name,scam.url,scam.category,scam.subcategory,scam.description])));
-	await Promise.all(rawVerified.map(verified => db.run("INSERT OR REPLACE INTO verified_urls VALUES (?,?,?,?,?)",[verified.id,verified.name,verified.url,verified.featured+0,verified.description])));
-	
 	debug("Updating scams...");
+	const scams = await db.all("SELECT * FROM domains WHERE type='scam'");
+	
 	const bar = new progress.Bar({ format: '[{bar}] {percentage}% | {value}/{total} scams ' }, progress.Presets.shades_classic);
-	bar.start(rawScams.length, 0);
-	const scams = await Promise.all(rawScams.map(scam => new Scam(scam)).map(async scam => {
+	bar.start(scams.length, 0);
+	
+	await Promise.all(scams.map(scam => new Scam(scam)).map(async scam => {
 		const ip = await scam.getIP();
 		const nameservers = await scam.getNameservers();
 		const status = await scam.getStatus();
 		
-		if(ip) scam.ip = ip;
-		if(nameservers) scam.nameservers = nameservers;
-		scam.status = status;
+		await db.run("UPDATE domains SET status=?,ip=?,nameservers=?,updated=? WHERE type='scam' AND id=?",[status,ip,nameservers,Date.now(),scam.id]);
 		
 		bar.increment();
 		return scam;
 	}));
 	
-	const verifiedEntries = rawVerified.sort((a, b) => a.name - b.name);
-	
+	/*const verifiedEntries = rawVerified.sort((a, b) => a.name - b.name);
 	const scamDictionary = createDictionary(scams);
 	const verifiedDictionary = createDictionary(verifiedEntries);
-	
 	const cache = {
 		scams: scams,
 		legiturls: verifiedEntries,
@@ -48,9 +41,8 @@ const rawVerified = yaml.safeLoad(fs.readFileSync('_data/legit_urls.yaml'));
 		inactives: scams.filter(scam => scam.status !== 'Active'),
 		actives: scams.filter(scam => scam.status === 'Active'),
 		updated: Date.now()
-	}
+	}*/
 	
-	fs.writeFileSync('_cache/cache.json',JSON.stringify(cache,null,2));
 	bar.stop();
 	debug("Done!");
 })();

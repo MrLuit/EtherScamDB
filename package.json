@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "cross-env NODE_ENV=development DEBUG=*,-lookup,-sqlite3 node src/run.js",
+    "start": "cross-env NODE_ENV=development DEBUG=*,-lookup node src/run.js",
     "update": "cross-env NODE_ENV=development DEBUG=*,-lookup,-sqlite3 node src/update.js",
     "debug": "cross-env NODE_DEBUG=request NODE_ENV=development DEBUG=* node src/run.js",
     "test": "mocha ./tests/validate_data.js",

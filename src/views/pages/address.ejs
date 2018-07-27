@@ -8,10 +8,27 @@
 		<% include ../partials/navbar.ejs %>
 		<div class="ui body container">
 			<h1><%= address %></h1>
-			{{ address.notification }}
+			<% if(related.length == 0) { %>
+				<div class="ui mini brown message"><i class="warning sign icon"></i>This is an unclassified address. <br> This does not mean that it is safe. It simply means that it hasn't been classified.</div>
+			<% } else if(related.every(entry => entry.type == "scam")) { %>
+				<div class="ui mini red message"><i class="warning sign icon"></i> Warning: Do not send money to this address</div>
+			<% } else { %>
+				<div class="ui mini green message">This is a verified address</div>
+			<% } %>
 			<b>Balance</b>: <span id="balance">loading...</span><BR>
 			<b>USD Value</b>: <span id="value">loading...</span><BR>
-			{{ address.list }}
+			<b>Related to the following domains (<%= related.length %>)</b>: 
+			<% if(related.length > 0) { %>
+				<div class="ui bulleted list">
+					<% related.forEach(entry => { %>
+						<div class='item'>
+							<a href='/domain/<%= entry.name %>/'><%= entry.name %></a>
+						</div>
+					<% }); %>
+				</div>
+			<% } else { %>
+				<i>(none)</i>
+			<% } %>
 			<div class="ui divider"></div>
 			<a target="_blank" href="https://etherscan.io/address/<%= address %>"><i class="external icon"></i> View address on etherscan</a><BR>
 			<div id="disqus_thread"></div>

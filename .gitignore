@@ -1,4 +1,5 @@
 node_modules
 npm-debug.log
-src/cache.db
 config/config.js
+cache.db
+cache.db-journal

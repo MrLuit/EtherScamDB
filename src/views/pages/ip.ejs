@@ -10,14 +10,14 @@
 			<b>Location</b>: <span id="location">loading...</span><br />
 			<b>AbuseIPDB:</b> <span id="ipabuseip"><a href="https://www.abuseipdb.com/check/<%= ip %>" target="_blank">View Report</a></span> <br />
 			<b>URLScan:</b> <span id="urlscanip"><a href="https://urlscan.io/ip/<%= ip %>" target="_blank">View Report</a></span> <br /> <br />
-			<b>Related to the following scams (<%= related %>)</b>: 
+			<b>Related to the following domains (<%= related.length %>)</b>: 
 			<% if(related.length > 0) { %>
 				<div class="ui bulleted list">
-					<% related.forEach(scam => { %>
+					<% related.forEach(entry => { %>
 						<div class='item'>
-							<a href='/scam/<%= scam.id %>/'><%= scam.name %>
+							<a href='/domain/<%= entry.name %>/'><%= entry.name %>
 						</div>
-					<% } %>
+					<% }); %>
 				</div>
 			<% } else { %>
 				<i>(none)</i>
