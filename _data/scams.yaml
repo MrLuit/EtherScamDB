@@ -30510,7 +30510,7 @@
     url: 'https://eosprivate.io'
     category: Phishing
     subcategory: EOS
-    description: 'Fake KYC directing users to a Fake MyEtherWallet myetherwallet.com.api.signmessage.me/signmsg.html via bit.ly/2tj9f2U+ and myetherwallet.com.api.root.signmsg.me/signmsg.html via bitly.com/2thn41W+'
+    description: 'Fake KYC directing users to a Fake MyEtherWallet myetherwallet.com.api.signmessage.me/signmsg.html via bit.ly/2tj9f2U+ and myetherwallet.com.api.root.signmsg.me/signmsg.html via bitly.com/2thn41W+ Reported address: 0xA125929ba78213a27D8695B276f55D6aba567B01'
 -
     id: 4313
     name: myetherwallet.com.api.signmessage.me
