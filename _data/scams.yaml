@@ -35441,3 +35441,84 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x8C500BD17174e8604ff9aD3399bD13af245EeF52'         
+-
+    id: 4909
+    name: ethcryptocomp.cx
+    url: 'http://ethcryptocomp.cx'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xBe3E5cBa8cb230678a7bF5ECdaE37783C8dF89bd'  
+-
+    id: 4910
+    name: ethpromoui.com
+    url: 'http://ethpromoui.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xBe3E5cBa8cb230678a7bF5ECdaE37783C8dF89bd'        
+-
+    id: 4911
+    name: ethpromonow.com
+    url: 'http://ethpromonow.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x8e8f4161c9c3D2D8857230A048DF1Fc6F4326948'      
+-
+    id: 4912
+    name: eth-give-away-promo.com
+    url: 'http://eth-give-away-promo.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x14B7716c688875Bcf54D5Ff47cAd4FcA6B3834fA'     
+-
+    id: 4913
+    name: eth-promo-give-away.com
+    url: 'http://eth-promo-give-away.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x14B7716c688875Bcf54D5Ff47cAd4FcA6B3834fA'        
+-
+    id: 4914
+    name: eth-pronogive.com
+    url: 'http://eth-pronogive.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xB75Be435Ee985Ab09f99299A90b03937B33855c6'     
+-
+    id: 4915
+    name: eth-promosgivex.com
+    url: 'http://eth-promosgivex.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xf276C0aD29363689792702986667D562a3CB7C04'    
+-
+    id: 4916
+    name: ethpramengive.com
+    url: 'http://ethpramengive.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x70f36e78224389C462dd0FC7Fe1627A2928031c7'        
+-
+    id: 4917
+    name: et-gi.net
+    url: 'http://et-gi.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x70f36e78224389C462dd0FC7Fe1627A2928031c7'          
