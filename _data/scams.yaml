@@ -34864,7 +34864,7 @@
     url: 'https://eosgas.co'
     category: Phishing
     subcategory: EOS
-    description: 'Fake EOS airdrop KYC form directing users to a fake MyEtherWallet myetherwallet.com.api4.icu/signmsg.html via bit.ly/2JVvRwS+'
+    description: 'Fake EOS airdrop KYC form directing users to a fake MyEtherWallet myetherwallet.com.api4.icu/signmsg.html via bit.ly/2JVvRwS+ Reported address: 0x51aF777899f0E81FbB69836E9255cC5bab7a5842'
 -
     id: 4841
     name: myetherwallet.com.api4.icu
@@ -35172,3 +35172,238 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x63eBbFc7530b49d8856BF14CBE78dA584E8D0b2A'                
+-
+    id: 4878
+    name: descentx.com
+    url: 'https://descentx.com'
+    category: Phishing
+    subcategory: Descentx
+    description: 'Fake web wallet stealing keys with POST http://cryptocurrency-prediction.com/unu.php' 
+-
+    id: 4879
+    name: myetherwalletv.org
+    url: 'https://myetherwalletv.org'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'     
+-
+    id: 4880
+    name: idex-market.trade
+    url: 'https://idex-market.trade'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake Idex phishing for keys'      
+-
+    id: 4881
+    name: btc-binance.com
+    url: 'http://btc-binance.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 12z4fAETZTXehv8Y2v3GcD7jjdgG38Ppor'
+-
+    id: 4882
+    name: eth-away.com
+    url: 'http://eth-away.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x0A0bA956038d4a66002D612648332B9c4ab7646C'    
+-
+    id: 4883
+    name: theethpromogive.net
+    url: 'http://theethpromogive.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xCAce623CA5F210EDcEE90F36a7AE795C2F6604Cb'     
+-
+    id: 4884
+    name: ethpromotake.net
+    url: 'http://ethpromotake.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x6488b63be2FC20c1F25983A53C447F6530351971'     
+-
+    id: 4885
+    name: ethpromogivenow.net
+    url: 'http://ethpromogivenow.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xCAce623CA5F210EDcEE90F36a7AE795C2F6604Cb'        
+-
+    id: 4886
+    name: ethpromoget.net
+    url: 'http://ethpromoget.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x87F304f9F630CD33DD446fF5Ae969b7f50faFd95'        
+-
+    id: 4887
+    name: ethpromogivecare.com
+    url: 'http://ethpromogivecare.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x87F304f9F630CD33DD446fF5Ae969b7f50faFd95'       
+-
+    id: 4888
+    name: ethnewpromo.com
+    url: 'http://ethnewpromo.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x8e8f4161c9c3D2D8857230A048DF1Fc6F4326948'     
+-
+    id: 4889
+    name: aethpromogive.com
+    url: 'http://aethpromogive.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x6488b63be2FC20c1F25983A53C447F6530351971'       
+-
+    id: 4890
+    name: receiveethpromo.cx
+    url: 'http://receiveethpromo.cx'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x7a2934Bf040706cE585E547fAB846dD79057956d'      
+-
+    id: 4891
+    name: eth-promosgive.com
+    url: 'http://eth-promosgive.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xf276C0aD29363689792702986667D562a3CB7C04'        
+-
+    id: 4892
+    name: elon-musk.me
+    url: 'http://elon-musk.me'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x4764214c17e0Bb358042345356A2Ec5Bf8E76C6b'       
+-
+    id: 4893
+    name: eth-promoui.com
+    url: 'http://eth-promoui.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x0A0bA956038d4a66002D612648332B9c4ab7646C'   
+-
+    id: 4894
+    name: eth-promo-awayx.com
+    url: 'http://eth-promo-awayx.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xAaaA3b6D0b72aDE31A99C933a8BF737a4E904527'        
+-
+    id: 4895
+    name: ethpromo-give.com
+    url: 'http://ethpromo-give.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xAaaA3b6D0b72aDE31A99C933a8BF737a4E904527'       
+-
+    id: 4896
+    name: eth-pronosgive.com
+    url: 'http://eth-pronosgive.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xB75Be435Ee985Ab09f99299A90b03937B33855c6'         
+-
+    id: 4897
+    name: receiveethfree.cx
+    url: 'http://receiveethfree.cx'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x059615eA15F7F0e2A276103127BBAce30223d294'       
+-
+    id: 4898
+    name: ethpoolcompet.cx
+    url: 'http://ethpoolcompet.cx'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x7a2934Bf040706cE585E547fAB846dD79057956d'       
+-
+    id: 4899
+    name: coinleft.org
+    url: 'http://coinleft.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x797Ab7505608A943A4f00E275aD6F2a514b8e038'           
+-
+    id: 4900
+    name: blogmedium.tk
+    url: 'http://blogmedium.tk'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site  - iframing 209.159.154.156/~blogmedi/ether/'
+    addresses:
+      - '0xBDd6c2d0a22B1aFA22Fc0F5381EB08621DB5929b'           
+-
+    id: 4901
+    name: justinsun.promo
+    url: 'http://justinsun.promo'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xCe9e24Dffdb3DC08EFe33AD3DB858576C3f27D5d'       
+-
+    id: 4902
+    name: ettereum.info
+    url: 'http://ettereum.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x3fbda35fd333a7bd863e66ee18ed5282a76203f2'        
+-
+    id: 4903
+    name: binanace.sizemedium.top
+    url: 'http://binanace.sizemedium.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x6128c3095e2b0A64CE64e10F05B60d5029e5F8eC'         
+-
+    id: 4904
+    name: sizemedium.top
+    url: 'http://sizemedium.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x6128c3095e2b0A64CE64e10F05B60d5029e5F8eC'       
