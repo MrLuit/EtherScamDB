@@ -35191,7 +35191,7 @@
     name: idex-market.trade
     url: 'https://idex-market.trade'
     category: Phishing
-    subcategory: MyEtherWallet
+    subcategory: Idex
     description: 'Fake Idex phishing for keys'      
 -
     id: 4881
@@ -35407,3 +35407,37 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x6128c3095e2b0A64CE64e10F05B60d5029e5F8eC'       
+-
+    id: 4905
+    name: idex-market.biz.pl
+    url: 'https://idex-market.biz.pl'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for keys'    
+-
+    id: 4906
+    name: getethereumforfree.com
+    url: 'http://getethereumforfree.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xC7566BA63f39bA75B56EAdc0328F9A76Dbd1ADf3'      
+-
+    id: 4907
+    name: medium-hitbtc.tumblr.com
+    url: 'http://medium-hitbtc.tumblr.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x8C500BD17174e8604ff9aD3399bD13af245EeF52'          
+-
+    id: 4908
+    name: ethereum-return.com
+    url: 'http://ethereum-return.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x8C500BD17174e8604ff9aD3399bD13af245EeF52'         
