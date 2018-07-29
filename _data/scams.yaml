@@ -34481,6 +34481,7 @@
     addresses:
       - '0xA4F06F1afB7B8589D1F4609257e5010C30eD3D2b'
       - '0x9e5a6b7A73C6b390Aa418f5B4CD3a8f6d1572810'
+      - '0x00D07F8C2194F14C8D694680f2B8C0BE66d4D5e9'
 -
     id: 4793
     name: coincapitals.org
@@ -35624,3 +35625,98 @@
     category: Phishing
     subcategory: MyCrypto
     description: 'Fake MyCrypto stealing keys with POST /send.php'        
+-
+    id: 4930
+    name: kuciorn.hosstinger.info
+    url: 'https://kuciorn.hosstinger.info'
+    category: Phishing
+    subcategory: Kucoin
+    description: 'Fake Kucoin phishing for logins' 
+-
+    id: 4931
+    name: lhitlbtc.hosstinger.info
+    url: 'https://lhitlbtc.hosstinger.info'
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Fake Hitbtc phishing for logins'     
+-
+    id: 4932
+    name: shapeshift-exchange.online
+    url: 'https://shapeshift-exchange.online'
+    category: Phishing
+    subcategory: Shapeshift
+    description: 'Fake Shapeshift'     
+    addresses:
+      - '0xcfb10450BB6e7F77b856bf6dF74EA56dD92304AD' 
+-
+    id: 4933
+    name: fgcoin.io
+    url: 'http://fgcoin.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xfb2050604A065CF9699bcF07b33ACCB6f5c27231'        
+-
+    id: 4934
+    name: john-mcafee.com
+    url: 'http://john-mcafee.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x8E3f2d9bbd1759e13eBd96d95cEf2fE468009E6c'         
+-
+    id: 4935
+    name: evotrustllc.com
+    url: 'http://evotrustllc.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x8E3f2d9bbd1759e13eBd96d95cEf2fE468009E6c'     
+-
+    id: 4936
+    name: amazy-eth.com
+    url: 'http://amazy-eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x7D73f38770997f30BB6Dfa2B8Da184f2CFebA6C6'        
+-
+    id: 4937
+    name: eth-drop.io
+    url: 'http://eth-drop.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x4Fcff4B71481562Cd6Fdb0FDc7e25F3a8Db55598'        
+-
+    id: 4938
+    name: ethermone.info
+    url: 'http://ethermone.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xb86FAbBB253b69906ab8311de95A9008c738E92E'       
+-
+    id: 4939
+    name: ethpromos.info
+    url: 'http://ethpromos.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xA69Ea6ab7707C551eeaE1d443e179318a9dC73Ee'        
+-
+    id: 4940
+    name: mediumblogs.top
+    url: 'http://mediumblogs.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xab7ec7596fc05bc55afc07008cc06c1193ed6f9a'            
