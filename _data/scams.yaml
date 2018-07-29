@@ -35529,3 +35529,98 @@
     category: Phishing
     subcategory: Bitfinex
     description: 'Fake Bitfinex phishing for logins'      
+-
+    id: 4919
+    name: blgem.blogspot.com
+    url: 'http://blgem.blogspot.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xBDd6c2d0a22B1aFA22Fc0F5381EB08621DB5929b' 
+-
+    id: 4920
+    name: airdrop.delivery
+    url: 'http://airdrop.delivery'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x76bb5b6177096b337c79F2f948Aa08b0db5f5211'       
+-
+    id: 4921
+    name: giveawayofficial.info
+    url: 'http://giveawayofficial.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xC597498f0d102036ff7bf9fDa401F3174d2E9D96'         
+-
+    id: 4922
+    name: binance.delivery
+    url: 'http://binance.delivery'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x76bb5b6177096b337c79F2f948Aa08b0db5f5211'         
+-
+    id: 4923
+    name: eth-binance.com
+    url: 'http://eth-binance.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x27Ec5a27E521364699b870e5D8B5245D97CD0031'      
+-
+    id: 4924
+    name: ethgoldmin.com
+    url: 'http://ethgoldmin.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xFeA28ca175A80F5A348016583961f63bE8605f80'         
+-
+    id: 4925
+    name: take-eth.website
+    url: 'http://take-eth.website'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xc77a77d24bb7cd50eec19cc1ce72ed090d841ddd'       
+-
+    id: 4926
+    name: safe.earnethnow.com
+    url: 'http://safe.earnethnow.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x09f8b64A3992aB516FC34de1157d2b4a39D45301'        
+-
+    id: 4927
+    name: earnethnow.com
+    url: 'http://earnethnow.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x09f8b64A3992aB516FC34de1157d2b4a39D45301'    
+-
+    id: 4928
+    name: myetnerwallet.com.checkbalance.info
+    url: 'https://myetnerwallet.com.checkbalance.info'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet stealing keys with POST /callback.php'        
+-
+    id: 4929
+    name: mycyrptto.com 
+    url: 'https://mycyrptto.com'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto stealing keys with POST /send.php'        
