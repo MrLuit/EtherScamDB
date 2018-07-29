@@ -35522,3 +35522,10 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x70f36e78224389C462dd0FC7Fe1627A2928031c7'          
+-
+    id: 4918
+    name: bitfilinex.com
+    url: 'https://bitfilinex.com'
+    category: Phishing
+    subcategory: Bitfinex
+    description: 'Fake Bitfinex phishing for logins'      
