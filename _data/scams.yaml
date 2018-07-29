@@ -35617,3 +35617,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet stealing keys with POST /callback.php'        
+-
+    id: 4929
+    name: mycyrptto.com 
+    url: 'https://mycyrptto.com'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto stealing keys with POST /send.php'        
