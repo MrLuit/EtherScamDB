@@ -35720,3 +35720,89 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xab7ec7596fc05bc55afc07008cc06c1193ed6f9a'            
+-
+    id: 4941
+    name: eth-giveaway.space
+    url: 'http://eth-giveaway.space'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x7f7Be29BD339a38FAcE53918dC8cDBF6a06bC7e7'    
+-
+    id: 4942
+    name: claimprize.xyz
+    url: 'http://claimprize.xyz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xA2922aE30Ff11c0fEf6E250b3892A451BDd533f1'          
+-
+    id: 4943
+    name: ethereum-transfer.com
+    url: 'http://ethereum-transfer.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xbA32570e4c276C74e6DC67BFa6F82253228BD1cD'         
+-
+    id: 4944
+    name: ethfast.top
+    url: 'http://ethfast.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xa0a51563Ca933ECDf030f84425dEF24ab8cC6733'    
+-
+    id: 4945
+    name: medium-promo.com
+    url: 'http://medium-promo.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Directing users to ethereum-transfer.com'
+    addresses:
+      - '0xbA32570e4c276C74e6DC67BFa6F82253228BD1cD'      
+-
+    id: 4946
+    name: ethbonus-binance.com
+    url: 'http://ethbonus-binance.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xe62adc2A7F08db6230e627bb5Faf4F68bc13f88a'        
+-
+    id: 4947
+    name: fast.getether.xyz
+    url: 'http://fast.getether.xyz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x5a504295ab80ccA776afDc6DB4f493e7c6Fa8211'      
+-
+    id: 4948
+    name: getether.xyz
+    url: 'http://getether.xyz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x5a504295ab80ccA776afDc6DB4f493e7c6Fa8211'        
+-
+    id: 4949
+    name: btcbonus-binance.com
+    url: 'http://btcbonus-binance.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 12z4fAETZTXehv8Y2v3GcD7jjdgG38Ppor'
+-
+    id: 4950
+    name: betaclient-wbtcgwap.cf
+    url: 'http://betaclient-wbtcgwap.cf'
+    category: Phishing
+    subcategory: Waves
+    description: 'Fake Waves client phishing for secrets with POST /sendwaves.php'
