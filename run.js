@@ -18,12 +18,18 @@ const check = require('./_utils/webcheck.js');
 const lookup = require('./_utils/lookup.js');
 
 
-const default_template = fs.readFileSync('./_layouts/default.html', 'utf8');
+let default_template = fs.readFileSync('./_layouts/default.html', 'utf8');
 let cache;
 let updating_now = false;
 let icon_warnings = [];
 var older_cache_time;
 
+
+if('perform_dns_lookup' in config && config.perform_dns_lookup === false) {
+    default_template = default_template.replace("{{ config.perform_dns_lookup }}", "<div class='ui info message'>DNS lookups not performed due to configuration.</div><br />");
+} else {
+    default_template = default_template.replace("{{ config.perform_dns_lookup }}", '');
+}
 
 /* See if there's an up-to-date cache, otherwise run `update.js` to create one. */
 function getCache(callback = false) {
@@ -259,6 +265,8 @@ function startWebServer() {
                     var status = "<td class='activ'><i class='checkmark icon'></i> Offline</td>";
                 } else if (scams[i].status == "Suspended") {
                     var status = "<td class='suspended'><i class='remove icon'></i> Suspended</td>";
+                } else if (scams[i].status == "NotChecked") {
+                    var status = "<td class='suspended'><i class='remove icon'></i> Not Checked</td>";
                 }
             } else {
                 var status = "<td>None</td>";
@@ -761,7 +769,7 @@ function startWebServer() {
           var actions_text = "";
           template = template.replace("{{ scam.id }}", scam.id);
           template = template.replace("{{ scam.name }}", scam.name);
-          template = template.replace("{{ scam.tip }}", "<b> Security Tip(s)</b>: {{ scam.tip }}<BR>");
+          template = template.replace("{{ scam.tip }}", "<b> Security Tip(s)</b>: <ul>{{ scam.tip }}</ul>");
           template = template.replace("{{ scam.notification }}", '<div class="ui mini red message"><i class="warning sign icon"></i> Warning: This is a scam domain. </div>')
           template = template.replace("{{ scam.googlethreat }}", "<b>Google Safe Browsing Status</b>: {{ scam.googlethreat }}<BR>");
           template = template.replace("{{ scam.virustotal }}", "<b>VirusTotal Detections</b>: {{ scam.virustotal }}<BR>");
@@ -805,28 +813,28 @@ function startWebServer() {
               if ('subcategory' in scam) {
                   if (scam.category == "Phishing"){
                       if (scam.subcategory == "MyCrypto"){
-                          template = template.replace("{{ scam.tip }}", 'Run MyCrypto offline using <a href="https://download.mycrypto.com">the desktop app</a>. Reference <a href="https://support.mycrypto.com/offline/running-mycrypto-locally.html">this article</a> if you need any help. {{ scam.tip }}');
-                          template = template.replace("{{ scam.tip }}", '<br>Download the <a href="https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn?hl=en-GB">EtherAddressLookup</a> Chrome Extension to warn you of potential phishing/scamming sites. {{ scam.tip }}');
-                          template = template.replace("{{ scam.tip }}", '<br> Use a hardware wallet such as a <a href="https://www.ledgerwallet.com/r/1985?path=/products/">Ledger Nano S</a> or a <a href="https://shop.trezor.io/?a=mycrypto.com">Trezor</a>.');
+                          template = template.replace("{{ scam.tip }}", '<li>Run MyCrypto offline using <a href="https://download.mycrypto.com">the desktop app</a>. Reference <a href="https://support.mycrypto.com/offline/running-mycrypto-locally.html">this article</a> if you need any help. {{ scam.tip }}</li>');
+                          template = template.replace("{{ scam.tip }}", '<li>Download the <a href="https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn?hl=en-GB">EtherAddressLookup</a> Chrome Extension to warn you of potential phishing/scamming sites. {{ scam.tip }}</li>');
+                          template = template.replace("{{ scam.tip }}", '<li>Use a hardware wallet such as a <a href="https://www.ledgerwallet.com/r/1985?path=/products/">Ledger Nano S</a> or a <a href="https://shop.trezor.io/?a=mycrypto.com">Trezor</a>.</li>');
                       }
                       if (scam.subcategory == "MyEtherWallet"){
-                          template = template.replace("{{ scam.tip }}", 'Run MyEtherWallet offline using <a href="https://kb.myetherwallet.com/offline/running-myetherwallet-locally.html">this guide on their knowledgebase</a>. {{ scam.tip }}');
-                          template = template.replace("{{ scam.tip }}", '<br>Download the <a href="https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn?hl=en-GB">EtherAddressLookup</a> Chrome Extension to warn you of potential phishing/scamming sites. {{ scam.tip }}');
-                          template = template.replace("{{ scam.tip }}", '<br> Use a hardware wallet such as a <a href="https://www.ledgerwallet.com/r/1985?path=/products/">Ledger Nano S</a> or a <a href="https://shop.trezor.io/?a=mycrypto.com">Trezor</a>.');
+                          template = template.replace("{{ scam.tip }}", '<li>Run MyEtherWallet offline using <a href="https://kb.myetherwallet.com/offline/running-myetherwallet-locally.html">this guide on their knowledgebase</a>. {{ scam.tip }}</li>');
+                          template = template.replace("{{ scam.tip }}", '<li>Download the <a href="https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn?hl=en-GB">EtherAddressLookup</a> Chrome Extension to warn you of potential phishing/scamming sites. {{ scam.tip }}</li>');
+                          template = template.replace("{{ scam.tip }}", '<li>Use a hardware wallet such as a <a href="https://www.ledgerwallet.com/r/1985?path=/products/">Ledger Nano S</a> or a <a href="https://shop.trezor.io/?a=mycrypto.com">Trezor</a>.</li>');
                       }
-                      template = template.replace("{{ scam.tip }}", '<br>Download the <a href="https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn?hl=en-GB">EtherAddressLookup</a> Chrome Extension to warn you of potential phishing/scamming sites. {{ scam.tip }}');
-                      template = template.replace("{{ scam.tip }}", '<br> Use a hardware wallet such as a <a href="https://www.ledgerwallet.com/r/1985?path=/products/">Ledger Nano S</a> or a <a href="https://shop.trezor.io/?a=mycrypto.com">Trezor</a>.');
+                      template = template.replace("{{ scam.tip }}", '<li>Download the <a href="https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn?hl=en-GB">EtherAddressLookup</a> Chrome Extension to warn you of potential phishing/scamming sites. {{ scam.tip }}</li>');
+                      template = template.replace("{{ scam.tip }}", '<li>Use a hardware wallet such as a <a href="https://www.ledgerwallet.com/r/1985?path=/products/">Ledger Nano S</a> or a <a href="https://shop.trezor.io/?a=mycrypto.com">Trezor</a>.</li>');
                   } if (scam.category == "Scamming") {
                       if (scam.subcategory == "Trust-Trading"){
-                          template = template.replace("{{ scam.tip }}", 'Never trust giveaway scams! They are almost 100% of the time malicious attempts to steal your funds. {{ scam.tip }}')
-                          template = template.replace("{{ scam.tip }}", '<br>Download the <a href="">EtherAddressLookup</a> Chrome Extension to warn you of potential phishing/scamming sites.');
+                          template = template.replace("{{ scam.tip }}", '<li>Never trust giveaway scams! They are almost 100% of the time malicious attempts to steal your funds. {{ scam.tip }}</li>')
+                          template = template.replace("{{ scam.tip }}", '<li>Download the <a href="">EtherAddressLookup</a> Chrome Extension to warn you of potential phishing/scamming sites.</li>');
                       }
                   } if (scam.category == "Fake ICO") {
-                      template = template.replace("{{ scam.tip }}", 'Read about how to be safe during ICOs on <a href="https://support.mycrypto.com/security/how-to-stay-safe.html">MyCrypto\'s Knowledgebase</a>')
+                      template = template.replace("{{ scam.tip }}", '<li>Read about how to be safe during ICOs on <a href="https://support.mycrypto.com/security/how-to-stay-safe.html">MyCrypto\'s Knowledgebase</a></li>')
                   }
                   else {
-                    template = template.replace("{{ scam.tip }}", '<br>Download the <a href="https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn?hl=en-GB">EtherAddressLookup</a> Chrome Extension to warn you of potential phishing/scamming sites. {{ scam.tip }}');
-                    template = template.replace("{{ scam.tip }}", '<br> Use a hardware wallet such as a <a href="https://www.ledgerwallet.com/r/1985?path=/products/">Ledger Nano S</a> or a <a href="https://shop.trezor.io/?a=mycrypto.com">Trezor</a>.');
+                    template = template.replace("{{ scam.tip }}", '<li>Download the <a href="https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn?hl=en-GB">EtherAddressLookup</a> Chrome Extension to warn you of potential phishing/scamming sites. {{ scam.tip }}</li>');
+                    template = template.replace("{{ scam.tip }}", '<li>Use a hardware wallet such as a <a href="https://www.ledgerwallet.com/r/1985?path=/products/">Ledger Nano S</a> or a <a href="https://shop.trezor.io/?a=mycrypto.com">Trezor</a>.</li>');
                   }
                   template = template.replace("{{ scam.category }}", '<b>Category</b>: ' + scam.category + ' - ' + scam.subcategory + '<BR>');
               } else {

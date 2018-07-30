@@ -10,5 +10,6 @@ module.exports = {
         author: "MrLuit",
         name: "EtherScamDB",
         branch: "master"
-    }
+    },
+    "perform_dns_lookup": false
 };

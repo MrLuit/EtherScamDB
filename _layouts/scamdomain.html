@@ -44,28 +44,36 @@
       {{ scam.actions }}
   </div>
 </div>
-{{ scam.notification }}
-{{ scam.url }}
-{{ scam.category }}
-{{ scam.description }}
-{{ scam.status }}
-{{ scam.ip }}
 
-<div class="ui mini green message">
-	{{ scam.tip }}
+<div class="ui grid">
+  <div class="ten wide column">
+    {{ scam.notification }}
+    {{ scam.url }}
+    {{ scam.category }}
+    {{ scam.description }}
+    {{ scam.status }}
+    {{ scam.ip }}
+    
+    <br />
+
+    {{ scam.metamask }}
+    {{ scam.googlethreat }}
+    {{ scam.virustotal }}
+    {{ scam.phishtank }}
+    {{ scam.urlscan }}<br />
+    {{ scam.nameservers }}<br />
+    {{ scam.addresses }}<br />
+  </div>
+  <div class="six wide column">
+    <div class="ui mini compact message">
+      {{ scam.tip }}
+    </div>
+  </div>
 </div>
 
-{{ scam.metamask }}
-{{ scam.googlethreat }}
-{{ scam.virustotal }}
-{{ scam.phishtank }}
-{{ scam.urlscan }}<br />
-{{ scam.nameservers }}<br />
-{{ scam.addresses }}<br />
 {{ scam.urlscreenshot }}
+
 <br /><br />
-
-
 
 <div id="disqus_thread"></div>
 
