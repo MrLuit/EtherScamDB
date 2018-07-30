@@ -35806,3 +35806,76 @@
     category: Phishing
     subcategory: Waves
     description: 'Fake Waves client phishing for secrets with POST /sendwaves.php'
+-
+    id: 4951
+    name: blovrnance.com
+    url: 'https://blovrnance.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance phishing for logins' 
+-
+    id: 4952
+    name: bingmancol.com
+    url: 'https://bingmancol.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Used in Google Ads (UK) to redirect to blovrnance.com - Fake Binance'     
+-
+    id: 4953
+    name: biflnex.com
+    url: 'https://biflnex.com'
+    category: Phishing
+    subcategory: Bitfinex
+    description: 'Fake Bitfinex phishing for logins'     
+-
+    id: 4954
+    name: bnbnews.org
+    url: 'http://bnbnews.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x797Ab7505608A943A4f00E275aD6F2a514b8e038'     
+-
+    id: 4955
+    name: btcdrop.top
+    url: 'http://btcdrop.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 187R5KKL5oT2hUrdGH3yJv8H36N3BSnsii'   
+-
+    id: 4956
+    name: johnmcafee.promo
+    url: 'http://johnmcafee.promo'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xCe9e24Dffdb3DC08EFe33AD3DB858576C3f27D5d'         
+-
+    id: 4957
+    name: safe.getbesteth.com
+    url: 'http://safe.getbesteth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xda5f6405808111De82084E6804aDF7153eDaA8eD'          
+-
+    id: 4958
+    name: getbesteth.com
+    url: 'http://getbesteth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xda5f6405808111De82084E6804aDF7153eDaA8eD'     
+-
+    id: 4959
+    name: mediumblogsot.top
+    url: 'http://mediumblogsot.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xff8e6af02d41a576a0c82f7835535193e1a6bccc'         
