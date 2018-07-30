@@ -35879,3 +35879,12 @@
     description: 'Trust trading scam site.'
     addresses:
       - '0xff8e6af02d41a576a0c82f7835535193e1a6bccc'         
+-
+    id: 4960
+    name: about.me/vitalik.buterin
+    url: 'http://about.me/vitalik.buterin'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x496a0d23712De70896E17AdcbFFA488C4ad2E187'   
