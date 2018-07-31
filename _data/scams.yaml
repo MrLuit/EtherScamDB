@@ -35879,3 +35879,52 @@
     description: 'Trust trading scam site.'
     addresses:
       - '0xff8e6af02d41a576a0c82f7835535193e1a6bccc'         
+-
+    id: 4960
+    name: fantom-foundation.de
+    url: 'https://fantom-foundation.de'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet stealing keys with POST /eth'   
+-
+    id: 4961
+    name: bincomance.com
+    url: 'https://bincomance.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance phishing for logins'       
+-
+    id: 4962
+    name: kraken-authentication.com
+    url: 'https://kraken-authentication.com'
+    category: Phishing
+    subcategory: Kraken
+    description: 'Suspicious kraken domain'      
+-
+    id: 4963
+    name: kraken-we.com
+    url: 'https://kraken-we.com'
+    category: Phishing
+    subcategory: Kraken
+    description: 'Fake Kraken phishing for logins'        
+-
+    id: 4964
+    name: kraken-ix.com
+    url: 'https://kraken-ix.com'
+    category: Phishing
+    subcategory: Kraken
+    description: 'Suspcious kraken domain'      
+-
+    id: 4965
+    name: kraken-on.com
+    url: 'https://kraken-on.com'
+    category: Phishing
+    subcategory: Kraken
+    description: 'Suspcious kraken domain'        
+-
+    id: 4966
+    name: binance-validation.com
+    url: 'https://binance-validation.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance phishing for logins'       
