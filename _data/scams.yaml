@@ -17737,6 +17737,7 @@
     addresses:
       - '0xAC1a4f4D49715e31f54CB8e0bf867Bb9170C10Cb'
       - '0x08986f5CecD3cb8882E4A34A16961e3124377291'
+      - '0x8B1b4F3A25444005ecD37f7b0c12BC5078c13443'
 -
     id: 2739
     name: twitter.com/VitalikButeriin
@@ -30988,6 +30989,7 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xba8A5cF96D605B630025E3e2C8bd177391e32122'
+      - '0x42E0d29d1cb3A28d748A7aC2D06d679329022C72'
 -
     id: 4373
     name: free-ethers.org
@@ -35746,7 +35748,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'
     addresses:
-      - '0xbA32570e4c276C74e6DC67BFa6F82253228BD1cD'         
+      - '0xbA32570e4c276C74e6DC67BFa6F82253228BD1cD'  
+      - '0xC348085A86D14F9EDE78a5ddD5aA7fEF232c9950'
 -
     id: 4944
     name: ethfast.top
@@ -35881,48 +35884,157 @@
       - '0xff8e6af02d41a576a0c82f7835535193e1a6bccc'         
 -
     id: 4960
+    name: about.me/vitalik.buterin
+    url: 'http://about.me/vitalik.buterin'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x496a0d23712De70896E17AdcbFFA488C4ad2E187'   
+-
+    id: 4961
+    name: ethersdrop.online
+    url: 'http://ethersdrop.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x00c8bd3CD1e649A3Fd2A89b3edC1C2aB631227a0' 
+-
+    id: 4961
+    name: ethdrop.top
+    url: 'http://ethdrop.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x4Fcff4B71481562Cd6Fdb0FDc7e25F3a8Db55598'       
+-
+    id: 4962
+    name: elon-musk.promo
+    url: 'http://elon-musk.promo'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+-
+    id: 4963
+    name: cryptocandies.updog.co
+    url: 'http://cryptocandies.updog.co'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x458DEa31f89D70eD1923D414E4d4A72E98AD0A4C'  
+-
+    id: 4964
+    name: elon-gift.club
+    url: 'http://elon-gift.club'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xB5624bEe455817D8707Aab3D9228A23319aDFB15'        
+-
+    id: 4965
+    name: elon-gift.info
+    url: 'http://elon-gift.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0x26BF2ea373496c1e4b91c49965cd58c60712787c'          
+-
+    id: 4966
+    name: eether-free.tech
+    url: 'http://ether-free.tech'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'
+    addresses:
+      - '0xeBfce0F5135C0bd67F9Fa5b1aE1366A566f659fF'         
+-
+    id: 4967
+    name: tron-presents.blogspot.com
+    url: 'http://tron-presents.blogspot.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site linking to airdropeth.info'
+    addresses:
+      - '0xA69Ea6ab7707C551eeaE1d443e179318a9dC73Ee'       
+-
+    id: 4968
+    name: airdropeth.info
+    url: 'http://airdropeth.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xA69Ea6ab7707C551eeaE1d443e179318a9dC73Ee'           
+-
+    id: 4969
+    name: myetherwallet-coins.space
+    url: 'https://myetherwallet-coins.space'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'        
+-
+    id: 4970
+    name: getherwallet.com
+    url: 'https://getherwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'      
+-
+    id: 4971
+    name: myetherwallet-coinss.space
+    url: 'https://myetherwallet-coinss.space'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet (directed from https://docs.google.com/forms/d/e/1FAIpQLSfFAk465ZL9TiyFvKniV6X82STeasX77KsZk-WaWcOtUR1aBA/viewform)'        
+-
+    id: 4972
     name: fantom-foundation.de
     url: 'https://fantom-foundation.de'
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet stealing keys with POST /eth'   
 -
-    id: 4961
+    id: 4973
     name: bincomance.com
     url: 'https://bincomance.com'
     category: Phishing
     subcategory: Binance
     description: 'Fake Binance phishing for logins'       
 -
-    id: 4962
+    id: 4974
     name: kraken-authentication.com
     url: 'https://kraken-authentication.com'
     category: Phishing
     subcategory: Kraken
     description: 'Suspicious kraken domain'      
 -
-    id: 4963
+    id: 4975
     name: kraken-we.com
     url: 'https://kraken-we.com'
     category: Phishing
     subcategory: Kraken
     description: 'Fake Kraken phishing for logins'        
 -
-    id: 4964
+    id: 4976
     name: kraken-ix.com
     url: 'https://kraken-ix.com'
     category: Phishing
     subcategory: Kraken
     description: 'Suspcious kraken domain'      
 -
-    id: 4965
+    id: 4977
     name: kraken-on.com
     url: 'https://kraken-on.com'
     category: Phishing
     subcategory: Kraken
     description: 'Suspcious kraken domain'        
 -
-    id: 4966
+    id: 4978
     name: binance-validation.com
     url: 'https://binance-validation.com'
     category: Phishing
