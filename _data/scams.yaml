@@ -35991,3 +35991,52 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet (directed from https://docs.google.com/forms/d/e/1FAIpQLSfFAk465ZL9TiyFvKniV6X82STeasX77KsZk-WaWcOtUR1aBA/viewform)'        
+-
+    id: 4972
+    name: fantom-foundation.de
+    url: 'https://fantom-foundation.de'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet stealing keys with POST /eth'   
+-
+    id: 4973
+    name: bincomance.com
+    url: 'https://bincomance.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance phishing for logins'       
+-
+    id: 4974
+    name: kraken-authentication.com
+    url: 'https://kraken-authentication.com'
+    category: Phishing
+    subcategory: Kraken
+    description: 'Suspicious kraken domain'      
+-
+    id: 4975
+    name: kraken-we.com
+    url: 'https://kraken-we.com'
+    category: Phishing
+    subcategory: Kraken
+    description: 'Fake Kraken phishing for logins'        
+-
+    id: 4976
+    name: kraken-ix.com
+    url: 'https://kraken-ix.com'
+    category: Phishing
+    subcategory: Kraken
+    description: 'Suspcious kraken domain'      
+-
+    id: 4977
+    name: kraken-on.com
+    url: 'https://kraken-on.com'
+    category: Phishing
+    subcategory: Kraken
+    description: 'Suspcious kraken domain'        
+-
+    id: 4978
+    name: binance-validation.com
+    url: 'https://binance-validation.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance phishing for logins'       
