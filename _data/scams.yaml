@@ -36079,4 +36079,70 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet. Reported address: 0x81fbb23ce259d141339e49ece91599ed97cc8b49'    
-    
+-
+    id: 4984
+    name: giveaway-promo.net
+    url: 'http://giveaway-promo.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0xbc345238F87abE2978456a3F1c04483e0B63932B'  
+-
+    id: 4985
+    name: eth-pro.co.nf
+    url: 'http://eth-pro.co.nf'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x3a0086083aa90c4692507Bb82Dc14B8754ebC663'      
+-
+    id: 4986
+    name: blokckchian.com
+    url: 'https://blokckchian.com'
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake Blockchain wallet phishing for logins'       
+-
+    id: 4987
+    name: coinbaselogin.com.ru
+    url: 'https://coinbaselogin.com.ru'
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Suspicious coinbase domain'       
+-
+    id: 4988
+    name: binconarnce.com
+    url: 'https://binconarnce.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance phishing for logins'           
+-
+    id: 4989
+    name: binconamce.com
+    url: 'https://binconamce.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance phishing for logins'       
+-
+    id: 4990
+    name: hitbtc.mobi
+    url: 'https://hitbtc.mobi'
+    category: Phishing
+    subcategory: HitBtc
+    description: 'Fake HitBtc phishing for logins'       
+-
+    id: 4991
+    name: kraken-validation.com
+    url: 'https://kraken-validation.com'
+    category: Phishing
+    subcategory: Kraken
+    description: 'Fake Kraken phishing for logins'      
+-
+    id: 4992
+    name: kraken-portal.com
+    url: 'https://kraken-portal.com'
+    category: Phishing
+    subcategory: Kraken
+    description: 'Fake Kraken phishing for logins'        
