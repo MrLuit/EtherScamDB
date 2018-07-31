@@ -36040,3 +36040,43 @@
     category: Phishing
     subcategory: Binance
     description: 'Fake Binance phishing for logins'       
+-
+    id: 4979
+    name: grabeth.cf
+    url: 'http://grabeth.cf'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x827216bd50d13B3e1daC8686e85f8B6B1bf2e856'  
+-
+    id: 4980
+    name: ether-claim.com
+    url: 'http://ether-claim.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x2dfc601dB0C0b5EEfc302249acDf936Dce83cFb3'        
+-
+    id: 4981
+    name: eos-airdrop.info
+    url: 'https://eos-airdrop.info'
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake airdrop linking users to myetheruvvalet.com. Reported address: 0x81fbb23ce259d141339e49ece91599ed97cc8b49'
+-
+    id: 4982
+    name: myethervallet.000webhostapp.com
+    url: 'https://myethervallet.000webhostapp.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet stealing keys'
+-
+    id: 4983
+    name: myetheruvvalet.com
+    url: 'https://myetheruvvalet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet. Reported address: 0x81fbb23ce259d141339e49ece91599ed97cc8b49'    
+    
