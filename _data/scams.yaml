@@ -36146,3 +36146,56 @@
     category: Phishing
     subcategory: Kraken
     description: 'Fake Kraken phishing for logins'        
+-
+    id: 4993
+    name: clubeth.live
+    url: 'http://clubeth.live'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+      - '0x420eDd527F217b56Ab9b0fdf7A6C553Fe78EB2aa' 
+-
+    id: 4994
+    name: myethgift.com
+    url: 'http://myethgift.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xCBA1E79e47DD511B87Dcc69B279953543d453fC5'    
+-
+    id: 4995
+    name: clubbtc.live
+    url: 'http://clubbtc.live'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 18dCxtGHAzWbrGBxPQyW4WqSV7N94HQuHt'    
+-
+    id: 4996
+    name: binance-official.com
+    url: 'https://binance-official.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance phishing for logins'     
+-
+    id: 4997
+    name: shapeshift-exchange.io
+    url: 'https://shapeshift-exchange.io'
+    category: Phishing
+    subcategory: Shapeshift
+    description: 'Suspicious Shapeshift domain'         
+-
+    id: 4998
+    name: view-wallel.info
+    url: 'https://view-wallel.info'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta stealing keys with POST /callback.php'       
+-
+    id: 4999
+    name: myetheruvvalleet.xyz
+    url: 'https://myetheruvvalleet.xyz'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'         
