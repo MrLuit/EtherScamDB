@@ -36190,8 +36190,8 @@
     name: view-wallel.info
     url: 'https://view-wallel.info'
     category: Phishing
-    subcategory: EtherDelta
-    description: 'Fake EtherDelta stealing keys with POST /callback.php'       
+    subcategory: Ddex
+    description: 'Fake Ddex stealing keys with POST /callback.php'       
 -
     id: 4999
     name: myetheruvvalleet.xyz
