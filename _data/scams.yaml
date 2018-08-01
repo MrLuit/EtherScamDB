@@ -36199,3 +36199,26 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'         
+-
+    id: 5000
+    name: kraken-ixz.com
+    url: 'https://kraken-ixz.com'
+    category: Phishing
+    subcategory: Kraken
+    description: 'Fake Kraken phishing for logins'  
+-
+    id: 5001
+    name: kraken-check.com
+    url: 'https://kraken-check.com'
+    category: Phishing
+    subcategory: Kraken
+    description: 'Fake Kraken phishing for logins'     
+-
+    id: 5002
+    name: airdrops.delivery
+    url: 'http://airdrops.delivery'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xCe9e24Dffdb3DC08EFe33AD3DB858576C3f27D5d'      
