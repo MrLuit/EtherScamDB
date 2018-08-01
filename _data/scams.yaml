@@ -35958,9 +35958,10 @@
     url: 'http://tron-presents.blogspot.com'
     category: Scamming
     subcategory: Trust-Trading
-    description: 'Trust trading scam site linking to airdropeth.info'
+    description: 'Trust trading scam site linking to airdropeth.info & airdropseth.info'
     addresses:
-      - '0xA69Ea6ab7707C551eeaE1d443e179318a9dC73Ee'       
+      - '0xA69Ea6ab7707C551eeaE1d443e179318a9dC73Ee'     
+      - '0xe55996c55E188FbCf95eD6Ca96Fa933171c05fA0'
 -
     id: 4968
     name: airdropeth.info
@@ -36088,6 +36089,7 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xbc345238F87abE2978456a3F1c04483e0B63932B'  
+      - '0x17980B9Ff9B318C93263eD52d19f3cA7ad24Ed9a'
 -
     id: 4985
     name: eth-pro.co.nf
@@ -36222,3 +36224,102 @@
     description: 'Trust trading scam site'     
     addresses:
       - '0xCe9e24Dffdb3DC08EFe33AD3DB858576C3f27D5d'      
+-
+    id: 5003
+    name: ethereum-promotion.org
+    url: 'http://ethereum-promotion.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x1e1041d4e5E03D90E6350f8A239d8C0E9770F036'  
+-
+    id: 5004
+    name: ethmore.io
+    url: 'http://ethmore.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x4Fcff4B71481562Cd6Fdb0FDc7e25F3a8Db55598'        
+-
+    id: 5005
+    name: buzcoinio.com
+    url: 'http://buzcoinio.com'
+    category: Phishing
+    subcategory: Buzcoin
+    description: 'Fake Buzcoin crowdsale site'     
+    addresses:
+      - '0x86dDF5b305B9081fB5208e903EDeB013510997cd'       
+-
+    id: 5006
+    name: official-promotion.org
+    url: 'http://official-promotion.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x11775A106157a283873A81E8Ec58394b8d568E06'       
+-
+    id: 5007
+    name: airdropseth.info
+    url: 'http://airdropseth.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xe55996c55E188FbCf95eD6Ca96Fa933171c05fA0'         
+-
+    id: 5008
+    name: medium-airdrop-promo.com
+    url: 'http://medium-airdrop-promo.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x74FAd851228f905A8F0E46D52259Bd593d63c7cb'     
+-
+    id: 5009
+    name: ethereum-airdrop.org
+    url: 'http://ethereum-airdrop.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x74FAd851228f905A8F0E46D52259Bd593d63c7cb'        
+-
+    id: 5010
+    name: air-drop.org
+    url: 'http://air-drop.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x52C9DFD68c67aAFc9E3e615fB38824b17deF6432'      
+-
+    id: 5011
+    name: ethereum-return.top
+    url: 'http://ethereum-return.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x8C500BD17174e8604ff9aD3399bD13af245EeF52'         
+-
+    id: 5012
+    name: ethereum-promotion.website
+    url: 'http://ethereum-promotion.website'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x31fca2139b07c2a97287de51f0219a34f4181710'           
+-
+    id: 5013
+    name: noweth.top
+    url: 'http://noweth.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xA2C7736ddDF5CF870896c96E3017A78bC7BB6Ef0'             
