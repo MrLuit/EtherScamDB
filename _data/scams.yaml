@@ -36405,3 +36405,10 @@
     description: 'Trust trading scam site. Linking to airdropseth.info'     
     addresses:
       - '0xe55996c55E188FbCf95eD6Ca96Fa933171c05fA0'          
+-
+    id: 5023
+    name: xn--etereum-yt3c.com
+    url: 'https://xn--etereum-yt3c.com'
+    category: Phishing
+    subcategory: Ethereum
+    description: 'Fake Ethereum site' 
