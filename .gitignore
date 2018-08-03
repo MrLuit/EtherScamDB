@@ -3,3 +3,4 @@ npm-debug.log
 config/config.js
 cache.db
 cache.db-journal
+dist

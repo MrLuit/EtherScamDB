@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<% include ../partials/header.ejs %>
+	</head>
+	<body>
+		<div class="ui body container">
+			<div class="ui centered grid">
+				<h1>Importing data...</h1>
+			</div>
+			<br><br><br><br><br><br>
+			<div class="ui indicating progress" data-value="<%= done %>" data-total="<%= total %>">
+				<div class="bar">
+					<div class="progress"></div>
+				</div>
+			</div>
+		</div>
+		<% include ../partials/footer.ejs %>
+		<script>
+			let done = <%= done %>;
+			setInterval(() => {
+				$.getJSON("/api/reading",result => {
+					for (var i = 0; i < (result.progress-done); i++) {
+						done++;
+						$('.ui.progress').progress('increment');
+					}
+					if(result.progress == <%= total %> || (result.success == false && result.progress == 0)) {
+						location.reload();
+					}
+				});
+			},500);
+		</script>
+	</body>
+</html>

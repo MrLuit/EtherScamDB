@@ -1,38 +1,31 @@
 'use strict';
 
 const debug = require('debug')('app');
+const {fork} = require('child_process');
 const fs = require('fs');
 const express = require('express');
-const yaml = require('js-yaml');
 const ejs = require('ejs');
-const dateFormat = require('dateFormat');
+const dateFormat = require('dateformat');
 const url = require('url');
 const crypto = require('crypto');
-const db = require.main.require('./utils/db');
-const config = require.main.require('./utils/config');
+const db = require('./utils/db');
+const config = require('./utils/config');
 const app = express();
 
-(async () => {
+let updating = { done: 0, total: 0 };
+
+module.exports = async () => {
 	await db.init();
-	await Promise.all(yaml.safeLoad(fs.readFileSync('_data/legit_urls.yaml')).map(async verified => {
-		await db.run("INSERT OR REPLACE INTO domains VALUES (?,'verified',?,?,?,null,null,null,null,null,?,'0')",[verified.id,verified.name,verified.url,verified.featured+0,verified.description]);
-		await Promise.all((verified.addresses || []).map(address => db.run("INSERT OR REPLACE INTO addresses VALUES (?,'verified',?)",[verified.id,address])));
-	}));
-	await Promise.all(yaml.safeLoad(fs.readFileSync('_data/scams.yaml')).map(async scam => {
-		const exists = await db.get("SELECT * FROM domains WHERE type='scam' AND id=?",[scam.id]);
-		if(!exists) {
-			await db.run("INSERT OR REPLACE INTO domains VALUES (?,'scam',?,?,0,null,null,null,?,?,?,'0')",[scam.id,scam.name,scam.url,scam.category,scam.subcategory,scam.description]);
-		} else {
-			await db.run("UPDATE domains SET name=?,url=?,status=null,ip=null,nameservers=null,category=?,subcategory=?,description=?,updated='0' WHERE id=?",[scam.name,scam.url,scam.category,scam.subcategory,scam.description,scam.id]);
-		}
-		await Promise.all((scam.addresses || []).map(address => db.run("INSERT OR REPLACE INTO addresses VALUES (?,'scam',?)",[scam.id,address])));
-	}));
-	
     
 	app.set('view engine', 'ejs');
 	app.set('views','./src/views/pages');
     app.use(express.static('./src/views/static'));
     app.use(require('body-parser').json());
+	
+	app.use(async (req, res, next) => {
+		if(!updating || req.path == '/api/reading') next();
+		else res.render('reading', updating);
+	});
 	
 	app.get('/(/|index.html)?', (req, res) => res.render('index'));
 	app.get('/faq/', (req, res) => res.render('faq'));
@@ -213,6 +206,11 @@ const app = express();
 		next();
 	});
 	
+	app.get('/api/reading', async (req, res) => {
+		if(updating) res.json({ success: true, progress: updating.done });
+		else res.json({ success: false, progress: 0 });
+	});
+	
 	app.get('/api/scams', async (req, res) => res.json({ success: true, result: await db.all("SELECT * FROM domains WHERE type='scam'") }));
 	app.get('/api/addresses', async (req, res) => res.json({ success: true, result: await db.all("SELECT * FROM addresses WHERE type='scam'") }));
 	app.get('/api/ips', async (req, res) => res.json({ success: true, result: await db.all("SELECT * FROM domains WHERE type='scam'") }));
@@ -259,5 +257,21 @@ const app = express();
 	app.get('/redirect/:url', (req,res) => res.render('redirect', { url: req.params.url }));
     app.get('*', (req, res) => res.status(404).render('404'));
 
-    app.listen(config.port, () => debug('Content served on http://localhost:%s',config.port));
-})();
+    
+	await new Promise(resolve => {
+		const reader = fork(__dirname + '/read.js');
+		reader.on('message', data => {
+			if(updating.total == 0) {
+				app.listen(config.port, () => {
+					debug('Content served on http://localhost:%s',config.port);
+					resolve();
+				});
+			}
+			updating = data;
+			console.log(data);
+		});
+		reader.on('exit', () => updating = false);
+	});
+}
+
+if(!module.parent) module.exports();

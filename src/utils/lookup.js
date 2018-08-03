@@ -1,5 +1,7 @@
 const request = require('request');
-const config = require('../config.js');
+const config = require('./config');
+const {parse} = require('url');
+const dns = require('dns');
 const debug = require('debug')('lookup');
 const Bottleneck = require('bottleneck');
 
@@ -9,17 +11,15 @@ let options = {
 	timeoutAfter: 30*1000
 };
 
-if('httpRequests' in config) {
-	options = config.httpRequests;
-}
+if('httpRequests' in config) options = config.httpRequests;
 
 const limiter = new Bottleneck({
 	minTime: options.minTime,
 	maxConcurrent: options.maxConcurrent
 });
 
-const lookup = limiter.wrap(url => {
-	return new Promise((resolve, reject) => {
+module.exports.lookup = limiter.wrap(url => {
+	return new Promise(resolve => {
 		debug('Requesting ' + url + '...');
 		request({
 			url: url,
@@ -27,32 +27,28 @@ const lookup = limiter.wrap(url => {
 			followAllRedirects: true,
 			maxRedirects: 5
 		}, (err, response, body) => {
-			if(err) {
-				resolve(undefined);
-			} else {
-				resolve(response);
-			}
+			if(err) resolve(undefined);
+			else resolve(response);
 		});
 	});
 });
 
-module.exports.lookup = (async (url) => {
-	const result = await lookup(url);
-	return result;
-});
+module.exports.getIP = (url) => {
+	return new Promise(resolve => {
+		const {hostname} = parse(url);
+		dns.lookup(hostname, (error, address) => {
+			if(error) resolve(undefined);
+			else resolve(address);
+		});
+	});
+}
 
-module.exports.weblookup = class weblookup {
-  lookup (input) {
-    return new Promise(function(resolve, reject) {
-      var result = request(input,
-      {timeout: 30*1000}, function(e, response, body) {
-        if(e || !([200, 301, 302].includes(response.statusCode))) {
-          resolve(e)
-        }
-        else if(!e && response.statusCode == 200){
-          resolve(JSON.parse(body))
-        }
-      });
-    });
-  }
+module.exports.getNameservers = (url) => {
+	return new Promise(resolve => {
+		const {hostname} = parse(url);
+		dns.resolveNs(hostname, (error, addresses) => {
+			if(error) resolve(undefined);
+			else resolve(addresses);
+		});
+	});
 }

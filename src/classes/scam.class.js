@@ -1,6 +1,5 @@
-const dns = require('./dns');
-const url = require('url');
-const {lookup} = require('./lookup');
+const {parse} = require('url');
+const {lookup,getIP,getNameservers} = require('../utils/lookup');
 
 module.exports = class Scam {
 	constructor(scamObject) {
@@ -14,49 +13,54 @@ module.exports = class Scam {
 		if(scamObject.addresses) this.addresses = scamObject.addresses;
 	}
 	
-	lookup() {
+	async lookup() {
 		return lookup(this.url);
 	}
 	
 	getHostname() {
-		return url.parse(this.url).hostname;
+		return parse(this.url).hostname;
 	}
 	
-	getIP() {
-		return dns.getIP(this.url);
+	async getIP() {
+		this.ip = await getIP(this.url);
+		return this.ip;
 	}
 	
-	getNameservers() {
-		return dns.getNameservers(this.url);
+	async getNameservers() {
+		this.nameservers = await getNameservers(this.url);
+		return this.nameservers;
 	}
 	
 	async getStatus() {
-		const result = this.lookup();
-		try {
-			console.log(result.request.uri.path);
-		} catch(e) { console.error(e); }
+		const result = await this.lookup();
+		
+		if(result && result.statusCode) this.statusCode = result.statusCode;
+		else this.statusCode = -1;
+		
 		if(!result) {
-			return 'Offline';
+			this.status = 'Offline';
 		} else if(result && result.request && result.request.uri && result.request.uri.path && result.request.uri.path == '/cgi-sys/suspendedpage.cgi') {
-            return 'Suspended';
+            this.status = 'Suspended';
 		} else if(result && (result.body == '' || (result.request && result.request.uri && result.request.uri.path && result.request.uri.path == '/cgi-sys/defaultwebpage.cgi'))) {
-			return 'Inactive';
+			this.status = 'Inactive';
 		} else if (result && this.subcategory && this.subcategory == 'MyEtherWallet') {
 			const isMEW = await lookup('http://' + url.parse(this.url).hostname.replace("www.", "") + '/js/etherwallet-static.min.js');
 			if(isMEW) {
-				return 'Active';
+				this.status = 'Active';
 			} else {
-				return 'Inactive';
+				this.status = 'Inactive';
 			}
 		}  else if (result && this.subcategory && this.subcategory == 'MyCrypto') {
 			const isMYC = await lookup('http://' + url.parse(this.url).hostname.replace("www.", "") + '/js/mycrypto-static.min.js');
 			if(isMYC) {
-				return 'Active';
+				this.status = 'Active';
 			} else {
-				return 'Inactive';
+				this.status = 'Inactive';
 			}
 		} else {
-			return 'Active';
+			this.status = 'Active';
 		}
+		
+		return this.status;
 	}
 }

@@ -1,6 +1,7 @@
 const assert = require('assert');
 const yaml = require('js-yaml');
 const fs = require('fs');
+
 describe('YAML Validator', function() {
 	describe('scams.yaml', function() {
 		it('should contain valid YAML', function(){

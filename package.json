@@ -2,16 +2,29 @@
   "name": "etherscamdb",
   "version": "3.0.0",
   "license": "MIT",
+  "preferGlobal": true,
+  "main": "./src/electron.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development DEBUG=*,-lookup node src/run.js",
+    "electron": "cross-env NODE_ENV=development DEBUG=* electron ./src/electron.js",
     "update": "cross-env NODE_ENV=development DEBUG=*,-lookup,-sqlite3 node src/update.js",
     "debug": "cross-env NODE_DEBUG=request NODE_ENV=development DEBUG=* node src/run.js",
-    "test": "mocha ./tests/validate_data.js",
+    "build": "cross-env DEBUG=electron-builder node src/build.js",
+	"build:windows": "cross-env DEBUG=electron-builder ELECTRON_OS=windows node src/build.js",
+	"build:linux": "cross-env DEBUG=electron-builder ELECTRON_OS=linux node src/build.js",
+	"build:osx": "cross-env DEBUG=electron-builder ELECTRON_OS=osx node src/build.js",
+    "test": "mocha tests --recursive",
     "clean": "rimraf cache.db"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/MrLuit/EtherScamDB.git"
+  },
+  "build": {
+    "appId": "info.etherscamdb",
+    "mac": {
+      "category": "public.app-category.utilities"
+    }
   },
   "dependencies": {
     "body-parser": "^1.18.2",
@@ -19,6 +32,7 @@
     "cli-progress": "^2.0.0",
     "cross-env": "^5.2.0",
     "dateformat": "^2.2.0",
+    "dblite": "^0.10.0",
     "debug": "^3.1.0",
     "download-file": "^0.1.5",
     "ejs": "^2.6.1",
@@ -28,10 +42,11 @@
     "js-yaml": "^3.9.0",
     "request": "^2.87.0",
     "shuffle-array": "^1.0.1",
-    "sqlite3": "^4.0.2",
     "url": "^0.11.0"
   },
   "devDependencies": {
+    "electron": "^2.0.6",
+    "electron-builder": "^20.26.1",
     "mocha": "^5.2.0",
     "rimraf": "^2.6.2"
   }
