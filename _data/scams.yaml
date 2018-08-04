@@ -36412,3 +36412,12 @@
     category: Phishing
     subcategory: Ethereum
     description: 'Fake Ethereum site' 
+-
+    id: 5024
+    name: ethereu.mfoundation.cf
+    url: 'http://ethereu.mfoundation.cf'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xb5f3A62E8f0468efEc0A65b81c09E8b46D1F9158'  
