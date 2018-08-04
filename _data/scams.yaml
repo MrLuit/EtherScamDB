@@ -36421,3 +36421,107 @@
     description: 'Trust trading scam site'     
     addresses:
       - '0xb5f3A62E8f0468efEc0A65b81c09E8b46D1F9158'  
+-
+    id: 5025
+    name: bigethereum.org
+    url: 'http://bigethereum.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x6F0041B3906048528a6760a1BC9627A201A83E38'  
+-
+    id: 5026
+    name: giftofeth.info
+    url: 'http://giftofeth.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x1e21312d1e05a13A7d4aF51fFf776b93D5324111'      
+      - '0xe55996c55E188FbCf95eD6Ca96Fa933171c05fA0'
+-
+    id: 5027
+    name: crypto-promo.website
+    url: 'http://crypto-promo.website'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x52b949fb4678c20873135ce6b3727949432af1d7'        
+-
+    id: 5028
+    name: btcdrop.in
+    url: 'http://btcdrop.in'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x820C415a17Bf165a174e6B55232D956202d9470f'     
+-
+    id: 5029
+    name: ethdrop.in
+    url: 'http://ethdrop.in'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x820C415a17Bf165a174e6B55232D956202d9470f'          
+-
+    id: 5030
+    name: ethinvesting.info
+    url: 'http://ethinvesting.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x096c13f383A32253e238bc148307753D14868235'        
+-
+    id: 5031
+    name: bnb.newsmedium.info
+    url: 'http://bnb.newsmedium.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xBC025972d6DCEbE52793A2B19dE53CF621Cf1EDc'            
+-
+    id: 5032
+    name: mediumvert.xyz
+    url: 'http://mediumvert.xyz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xA2922aE30Ff11c0fEf6E250b3892A451BDd533f1'         
+-
+    id: 5033
+    name: getethernow.top
+    url: 'http://getethernow.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Linking users to verify.ethereumnow.top/payment.php'     
+    addresses:
+      - '0x2B164ae662a0AB1832C87cb4A226EFEC56219FB6'       
+-
+    id: 5034
+    name: vechainx.net
+    url: 'https://vechainx.net'
+    category: Phishing
+    subcategory: Vechain
+    description: 'Fake VechainX KYC form. Directing users to a fake MyEtherWallet myetherwallet.com.api12.icu/signmsg.html via bit.ly/2OKn84i+'       
+-
+    id: 5035
+    name: hadica.com
+    url: 'https://hadica.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Hosting a fake MyEtherWallet stealing keys with POST goastra.ga/sky.php'       
+-
+    id: 5036
+    name: jax-x.com
+    url: 'https://jax-x.com'
+    category: Phishing
+    subcategory: Jaxx
+    description: 'Fake JAXX wallet - https://www.virustotal.com/#/url/3a0e85584ae987357fa5b04a4411d4ca015326f5966443a418bb7332ffaa3d4f/detection'       
+    
