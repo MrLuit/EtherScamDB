@@ -36586,3 +36586,21 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet (now hosting a coindesk view)'        
+-
+    id: 5044
+    name: medeum-airdrop-news.com
+    url: 'http://medeum-airdrop-news.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x43FA247764BfBe1Beba49111e4ed215524f02c41' 
+-
+    id: 5045
+    name: ethereum-transfer.net
+    url: 'http://ethereum-transfer.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x43FA247764BfBe1Beba49111e4ed215524f02c41'       
