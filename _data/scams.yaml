@@ -36524,4 +36524,65 @@
     category: Phishing
     subcategory: Jaxx
     description: 'Fake JAXX wallet - https://www.virustotal.com/#/url/3a0e85584ae987357fa5b04a4411d4ca015326f5966443a418bb7332ffaa3d4f/detection'       
-    
+-
+    id: 5037
+    name: safeclaim.info
+    url: 'http://safeclaim.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xC4cE40Af23A0619119E7f59730131C22650d5D11'  
+      - '0x8196FA469BD2F8105bAE01702C4B84B04CdF4A2c'
+-
+    id: 5038
+    name: tesla-giveaway.getforge.io
+    url: 'http://tesla-giveaway.getforge.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site - linking to eth.getforge.io'     
+    addresses:
+      - '0xE3115696Fc96B8b15Bd7afb0213082bE4595Cdd8'   
+-
+    id: 5039
+    name: eth.getforge.io
+    url: 'http://eth.getforge.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xE3115696Fc96B8b15Bd7afb0213082bE4595Cdd8'       
+-
+    id: 5040
+    name: elon-musk.fun
+    url: 'http://elon-musk.fun'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x4ff5a066af7f713478e1933929282fd70bD41AFB'          
+-
+    id: 5041
+    name: getethfree.com
+    url: 'http://getethfree.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xa8A6497978C264d7Ce268D826A834C1d7134D914'          
+-
+    id: 5042
+    name: airdrop-event.site
+    url: 'http://airdrop-event.site'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xf847860A334c63B347030B3E6Dc1d18136Ce6F65'         
+-
+    id: 5043
+    name: xn--methewallet-638e95e.com
+    url: 'https://xn--methewallet-638e95e.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet (now hosting a coindesk view)'        
