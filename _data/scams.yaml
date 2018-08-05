@@ -36604,3 +36604,117 @@
     description: 'Trust trading scam site'     
     addresses:
       - '0x43FA247764BfBe1Beba49111e4ed215524f02c41'       
+-
+    id: 5046
+    name: forkdelta.biz
+    url: 'https://forkdelta.biz'
+    category: Phishing
+    subcategory: ForkDelta
+    description: 'Suspicious forkdelta domain - not active yet'    
+-
+    id: 5047
+    name: https-myetherwallet.net
+    url: 'https://https-myetherwallet.net'
+    category: Phishing
+    subcategory: ForkDelta
+    description: 'Fake forkdelta'       
+-
+    id: 5048
+    name: etherdeita.top
+    url: 'https://etherdeita.top'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Suspicious etherdelta domain - not active yet'    
+-
+    id: 5049
+    name: etherdeita.site
+    url: 'https://etherdeita.site'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Suspicious etherdelta domain - not active yet'      
+-
+    id: 5050
+    name: mycryrptto.com
+    url: 'https://mycryrptto.com'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Fake MyCrypto'     
+-
+    id: 5051
+    name: myethervvallet.ru
+    url: 'https://myethervvallet.ru'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain'      
+-
+    id: 5052
+    name: myethervvallet.top
+    url: 'https://myethervvallet.top'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain - not active yet'        
+-
+    id: 5053
+    name: myetherwallet-coin.top
+    url: 'https://myetherwallet-coin.top'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain'            
+-
+    id: 5054
+    name: myetherwelliet.com
+    url: 'https://myetherwelliet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain'        
+-
+    id: 5055
+    name: myethierwalet.com
+    url: 'https://myethierwalet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain'         
+-
+    id: 5056
+    name: myethertawallet.com
+    url: 'https://myethertawallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain'        
+-
+    id: 5057
+    name: myetheruwalleet.site
+    url: 'https://myetheruwalleet.site'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain - not active yet'       
+-
+    id: 5058
+    name: myethirvvale.info
+    url: 'https://myethirvvale.info'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for private keys'        
+-
+    id: 5059
+    name: omg-myetherwallet.com
+    url: 'https://omg-myetherwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain'     
+-
+    id: 5060
+    name: lbinanrce.com
+    url: 'https://lbinanrce.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance site phishing for logins'      
+-
+    id: 5061
+    name: myethpromogive.com
+    url: 'http://myethpromogive.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x14a11E2eF83895918da176165e33025e02e472dE'     
