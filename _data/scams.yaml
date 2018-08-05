@@ -36718,3 +36718,94 @@
     description: 'Trust trading scam site'     
     addresses:
       - '0x14a11E2eF83895918da176165e33025e02e472dE'     
+-
+    id: 5062
+    name: bjlttrex.com
+    url: 'https://bjlttrex.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex site phishing for logins'   
+-
+    id: 5063
+    name: blocrkchein.com
+    url: 'https://blocrkchein.com'
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake Blockchain site phishing for logins'       
+-
+    id: 5064
+    name: blrockchein.com
+    url: 'https://blrockchein.com'
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake Blockchain site phishing for logins'       
+-
+    id: 5065
+    name: exrno.su
+    url: 'https://exrno.su'
+    category: Phishing
+    subcategory: Exmo
+    description: 'Fake Exmo site phishing for logins'       
+-
+    id: 5066
+    name: gaterhub.net
+    url: 'https://gaterhub.net'
+    category: Phishing
+    subcategory: Gatehub
+    description: 'Fake Gatehub site phishing for logins'       
+-
+    id: 5067
+    name: kuciorn.com
+    url: 'https://kuciorn.com'
+    category: Phishing
+    subcategory: Kucoin
+    description: 'Fake Kucoin site phishing for logins'      
+-
+    id: 5068
+    name: lhitdtc.com
+    url: 'https://lhitdtc.com'
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Fake Hitbtc site phishing for logins'        
+-
+    id: 5069
+    name: lhitlbtc.com
+    url: 'https://lhitlbtc.com'
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Fake Hitbtc site phishing for logins'     
+-
+    id: 5070
+    name: lkralken.com
+    url: 'https://lkralken.com'
+    category: Phishing
+    subcategory: Kraken
+    description: 'Fake Kraken site phishing for logins'      
+-
+    id: 5071
+    name: myerthewallet.com
+    url: 'https://myerthewallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet site phishing for keys'       
+-
+    id: 5072
+    name: myethaewallet.com
+    url: 'https://myethaewallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet site phishing for keys'     
+-
+    id: 5073
+    name: polonreix.com
+    url: 'https://polonreix.com'
+    category: Phishing
+    subcategory: Poloniex
+    description: 'Fake Poloniex site phishing for logins'     
+-
+    id: 5074
+    name: yobirt.net
+    url: 'https://yobirt.net'
+    category: Phishing
+    subcategory: Yobit
+    description: 'Fake Yobit site phishing for logins'       
