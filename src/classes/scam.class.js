@@ -3,14 +3,30 @@ const {lookup,getIP,getNameservers} = require('../utils/lookup');
 
 module.exports = class Scam {
 	constructor(scamObject) {
-		this.id = scamObject.id;
-		this.name = scamObject.name;
-		this.url = scamObject.url;
+		this.id = null;
+		this.name = null;
+		this.url = null;
+		this.category = null;
+		this.subcategory = null;
+		this.description = null;
+		this.addresses = null;
+		this.ip = null;
+		this.nameservers = null;
+		this.status = null;
 		
-		if(scamObject.category) this.category = scamObject.category;
-		if(scamObject.subcategory) this.subcategory = scamObject.subcategory;
-		if(scamObject.description) this.description = scamObject.description;
-		if(scamObject.addresses) this.addresses = scamObject.addresses;
+		if(scamObject) {
+			this.id = scamObject.id;
+			this.name = scamObject.name;
+			this.url = scamObject.url;
+		
+			if(scamObject.category) this.category = scamObject.category;
+			if(scamObject.subcategory) this.subcategory = scamObject.subcategory;
+			if(scamObject.description) this.description = scamObject.description;
+			if(scamObject.addresses) this.addresses = scamObject.addresses;
+			if(scamObject.ip) this.ip = scamObject.ip;
+			if(scamObject.nameservers) this.nameservers = scamObject.nameservers;
+			if(scamObject.status) this.status = scamObject.status;
+		}
 	}
 	
 	async lookup() {

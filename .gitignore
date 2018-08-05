@@ -1,6 +1,6 @@
 node_modules
 npm-debug.log
 config/config.js
-cache.db
-cache.db-journal
+_data/cache.db
 dist
+_tmp

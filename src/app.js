@@ -4,6 +4,7 @@ const debug = require('debug')('app');
 const {fork} = require('child_process');
 const fs = require('fs');
 const express = require('express');
+const compression = require('compression');
 const ejs = require('ejs');
 const dateFormat = require('dateformat');
 const url = require('url');
@@ -12,20 +13,15 @@ const db = require('./utils/db');
 const config = require('./utils/config');
 const app = express();
 
-let updating = { done: 0, total: 0 };
-
 module.exports = async () => {
 	await db.init();
     
 	app.set('view engine', 'ejs');
+	app.set('view cache', true);
 	app.set('views','./src/views/pages');
-    app.use(express.static('./src/views/static'));
-    app.use(require('body-parser').json());
-	
-	app.use(async (req, res, next) => {
-		if(!updating || req.path == '/api/reading') next();
-		else res.render('reading', updating);
-	});
+	app.use(compression());
+	app.use(express.static('./src/views/static'));
+	/* app.use(require('body-parser').json());				Not sure if this is necessary? */
 	
 	app.get('/(/|index.html)?', (req, res) => res.render('index'));
 	app.get('/faq/', (req, res) => res.render('faq'));
@@ -35,38 +31,38 @@ module.exports = async () => {
 	app.get('/report/domain/:domain', (req, res) => res.render('report', { domain: req.params.domain }));
 	app.get('/report/address/:address', (req, res) => res.render('report', { address: req.params.address }));
 	
-	app.get('/ip/:ip', async (req, res) => res.render('ip', { ip: req.params.ip, related: await db.all("SELECT * FROM domains WHERE ip=? ORDER BY id DESC",[req.params.ip]) }));
-	app.get('/address/:address', async (req, res) => res.render('address', { address: req.params.address, related: await db.all("SELECT domains.name,domains.type FROM addresses JOIN domains ON addresses.id=domains.id AND addresses.type=domains.type WHERE addresses.address=? ORDER BY domains.id DESC",[req.params.address]) }));
-	app.get('/scam/:id', async (req, res) => {
-		const entry = await db.get("SELECT name FROM domains WHERE type='scam' AND id=?",[req.params.id])
+	app.get('/ip/:ip', (req, res) => res.render('ip', { ip: req.params.ip, related: db.read().index.ips[req.params.ip] }));
+	app.get('/address/:address', (req, res) => res.render('address', { address: req.params.address, related: db.read().index.addresses[req.params.address] }));
+	app.get('/scam/:id', (req, res) => {
+		const entry = db.read().scams.find(scam => scam.id == req.params.id);
 		if(entry) res.redirect('/domain/' + encodeURIComponent(entry.name));
 		else res.status(404).render('404');
 	});
-	app.get('/domain/:url', async (req, res) => {
+	app.get('/domain/:url', (req, res) => {
 		const startTime = Date.now();
 		const hostname = url.parse(req.params.url).hostname;
-		const scamEntry = await db.get("SELECT * FROM domains WHERE type='scam' AND name=?",[hostname]);
-		const verifiedEntry = await db.get("SELECT * FROM domains WHERE type='verified' AND name=?",[hostname]);
+		const scamEntry = db.read().scams.find(scam => scam.name == hostname);
+		const verifiedEntry = db.read().verified.find(verified => verified.name == hostname);
 		
-		if(verifiedEntry) res.render('domain', { type: 'verified', result: verifiedEntry, domain: hostname, startTime: startTime, dateFormat: dateFormat, addresses: await db.all("SELECT address FROM addresses WHERE id=? AND type='verified'",[verifiedEntry.id]) });
-		else if(scamEntry) res.render('domain', { type: 'scam', result: scamEntry, domain: hostname, startTime: startTime, dateFormat: dateFormat, addresses: await db.all("SELECT address FROM addresses WHERE id=? AND type='scam'",[scamEntry.id]) });
+		if(verifiedEntry) res.render('domain', { type: 'verified', result: verifiedEntry, domain: hostname, startTime: startTime, dateFormat: dateFormat, addresses: verifiedEntry.addresses });
+		else if(scamEntry) res.render('domain', { type: 'scam', result: scamEntry, domain: hostname, startTime: startTime, dateFormat: dateFormat, addresses: scamEntry.addresses });
 		else res.render('domain', { type: 'neutral', domain: hostname, result: false, addresses: [], startTime: startTime });
 	});
 	app.get('/scams/:page?/:sorting?/', async (req, res) => {
         const MAX_RESULTS_PER_PAGE = 30;
 		let scams;
 		
-        if (req.params.sorting == 'oldest') scams = await db.all("SELECT * FROM domains WHERE type='scam' ORDER BY id ASC LIMIT 0,30");
-        else if (req.params.sorting == 'status') scams = await db.all("SELECT * FROM domains WHERE type='scam' ORDER BY status='Active', status='Suspended', status='Inactive', status='Offline' LIMIT 0,30");
-        else if (req.params.sorting == 'category') scams = await db.all("SELECT * FROM domains WHERE type='scam' ORDER BY category ASC LIMIT 0,30");
-        else if (req.params.sorting == 'subcategory') scams = await db.all("SELECT * FROM domains WHERE type='scam' ORDER BY subcategory ASC LIMIT 0,30");
-        else if (req.params.sorting == 'title') scams = await db.all("SELECT * FROM domains WHERE type='scam' ORDER BY name ASC LIMIT 0,30");
-		else scams = await db.all("SELECT * FROM domains ORDER BY id DESC LIMIT 0,30");
+        if (req.params.sorting == 'oldest') scams = db.read().scams
+        else if (req.params.sorting == 'status') scams = db.read().scams;
+        else if (req.params.sorting == 'category') scams = db.read().scams;
+        else if (req.params.sorting == 'subcategory') scams = db.read().scams;
+        else if (req.params.sorting == 'title') scams = db.read().scams;
+		else scams = db.read().scams;
 
         let addresses = {};
 
         scams.forEach(function(scam, index) {
-            if ('addresses' in scam) {
+            if ('addresses' in scam && scam.addresses) {
                 scams[index].addresses.forEach(function(address) {
                     addresses[address] = true;
                 });
@@ -198,27 +194,22 @@ module.exports = async () => {
 		});
 	});
 	
-	app.get('/search/', async (req, res) => res.render('search', { featured: await db.all("SELECT * FROM domains WHERE type='verified' AND featured=1 ORDER BY name ASC") }));
-	app.get('/rss/', async (req, res) => res.render('rss', { scams: await db.all("SELECT * FROM domains WHERE type='scam' ORDER BY id ASC") }));
+	app.get('/search/', (req, res) => res.render('search', { featured: db.read().index.featured }));
+	app.get('/rss/', (req, res) => res.render('rss', { scams: db.read().scams }));
 	
 	app.use('/api/:type?/:domain?/', (req,res,next) => {
 		res.header('Access-Control-Allow-Origin', '*');
 		next();
 	});
 	
-	app.get('/api/reading', async (req, res) => {
-		if(updating) res.json({ success: true, progress: updating.done });
-		else res.json({ success: false, progress: 0 });
-	});
-	
-	app.get('/api/scams', async (req, res) => res.json({ success: true, result: await db.all("SELECT * FROM domains WHERE type='scam'") }));
-	app.get('/api/addresses', async (req, res) => res.json({ success: true, result: await db.all("SELECT * FROM addresses WHERE type='scam'") }));
-	app.get('/api/ips', async (req, res) => res.json({ success: true, result: await db.all("SELECT * FROM domains WHERE type='scam'") }));
-	app.get('/api/verified', async (req, res) => res.json({ success: true, result: await db.all("SELECT * FROM domains WHERE type='verified'") }));
-	app.get('/api/inactives', async (req, res) => res.json({ success: true, result: await db.all("SELECT * FROM domains WHERE type='scam' AND status='Inactive'") }));
-	app.get('/api/actives', async (req, res) => res.json({ success: true, result: await db.all("SELECT * FROM domains WHERE type='scam' AND status='Active'") }));
-	app.get('/api/blacklist', async (req, res) => res.json({ success: true, result: await db.all("SELECT * FROM domains WHERE type='scam'") }));
-	app.get('/api/whitelist', async (req, res) => res.json({ success: true, result: await db.all("SELECT * FROM domains WHERE type='verified'") }));
+	app.get('/api/scams', (req, res) => res.json({ success: true, result: db.read().scams }));
+	app.get('/api/addresses', (req, res) => res.json({ success: true, result: db.read().index.addresses }));
+	app.get('/api/ips', (req, res) => res.json({ success: true, result: db.read().index.ips }));
+	app.get('/api/verified', (req, res) => res.json({ success: true, result: db.read().verified }));
+	app.get('/api/inactives', (req, res) => res.json({ success: true, result: db.read().index.inactives }));
+	app.get('/api/actives', (req, res) => res.json({ success: true, result: db.read().index.actives }));
+	app.get('/api/blacklist', (req, res) => res.json({ success: true, result: db.read().index.blacklist }));
+	app.get('/api/whitelist', (req, res) => res.json({ success: true, result: db.read().index.whitelist }));
 	// Check endpoint
 	// Abuse report endpoint
 
@@ -258,20 +249,7 @@ module.exports = async () => {
     app.get('*', (req, res) => res.status(404).render('404'));
 
     
-	await new Promise(resolve => {
-		const reader = fork(__dirname + '/read.js');
-		reader.on('message', data => {
-			if(updating.total == 0) {
-				app.listen(config.port, () => {
-					debug('Content served on http://localhost:%s',config.port);
-					resolve();
-				});
-			}
-			updating = data;
-			console.log(data);
-		});
-		reader.on('exit', () => updating = false);
-	});
+	app.listen(config.port, () => debug('Content served on http://localhost:%s',config.port));
 }
 
 if(!module.parent) module.exports();

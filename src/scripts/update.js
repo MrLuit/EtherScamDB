@@ -22,6 +22,21 @@ const db = require('./utils/db');
 		return scam;
 	}));
 	
+	/*const cache = {
+		scams: scams,
+		legiturls: verifiedEntries,
+		blacklist: [...scams.map(scam => url.parse(scam.url).hostname.replace('www.','')),...scams.map(scam => 'www.' + url.parse(scam.url).hostname.replace('www.','')),...Object.keys(scamDictionary.ip)],
+		addresses: scamDictionary.addresses,
+		whitelistaddresses: verifiedDictionary.addresses,
+		ips: scamDictionary.ip,
+		whitelist: [...verifiedEntries.map(entry => url.parse(entry.url).hostname.replace('www.','')),...verifiedEntries.map(entry => 'www.' + url.parse(entry.url).hostname.replace('www.',''))],
+		inactives: scams.filter(scam => scam.status !== 'Active'),
+		actives: scams.filter(scam => scam.status === 'Active'),
+		updated: Date.now()
+	}
+	
+	fs.writeFileSync('_cache/cache.json',JSON.stringify(cache,null,2));*/
+	
 	bar.stop();
 	debug("Done updating!");
 })();
