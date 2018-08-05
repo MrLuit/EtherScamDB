@@ -22,6 +22,9 @@ describe('YAML Validator', function() {
 		it('every url should specify its protocol (http:// or https:// or mailto:)', function() {
 			assert.deepEqual(yaml.safeLoad(fs.readFileSync('./_data/scams.yaml', 'utf8')).filter(entry => !entry.url.startsWith('http://') && !entry.url.startsWith('https://') && !entry.url.startsWith('mailto:')),[]);
 		});
+		it('every entry should have valid keys (id/name/url/category/subcategory/description/addresses)', function() {
+			assert.deepEqual(yaml.safeLoad(fs.readFileSync('./_data/scams.yaml', 'utf8')).filter(entry => Object.keys(entry).some(key => !['null','id','name','url','category','subcategory','description','addresses'].includes(key))),[]);
+		});
 	});
 	describe('legit_urls.yaml', function() {
 		it('should contain valid YAML', function(){
