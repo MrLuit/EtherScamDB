@@ -11,13 +11,13 @@ const url = require('url');
 const crypto = require('crypto');
 const db = require('./utils/db');
 const config = require('./utils/config');
+const generateAbuseReport = require('./utils/abusereport');
 const app = express();
 
 module.exports = async () => {
 	await db.init();
     
 	app.set('view engine', 'ejs');
-	app.set('view cache', true);
 	app.set('views','./src/views/pages');
 	app.use(compression());
 	app.use(express.static('./src/views/static'));
@@ -48,7 +48,7 @@ module.exports = async () => {
 		else if(scamEntry) res.render('domain', { type: 'scam', result: scamEntry, domain: hostname, startTime: startTime, dateFormat: dateFormat, addresses: scamEntry.addresses });
 		else res.render('domain', { type: 'neutral', domain: hostname, result: false, addresses: [], startTime: startTime });
 	});
-	app.get('/scams/:page?/:sorting?/', async (req, res) => {
+	app.get('/scams/:page?/:sorting?/', (req, res) => {
         const MAX_RESULTS_PER_PAGE = 30;
 		let scams;
 		
@@ -58,16 +58,6 @@ module.exports = async () => {
         else if (req.params.sorting == 'subcategory') scams = db.read().scams;
         else if (req.params.sorting == 'title') scams = db.read().scams;
 		else scams = db.read().scams;
-
-        let addresses = {};
-
-        scams.forEach(function(scam, index) {
-            if ('addresses' in scam && scam.addresses) {
-                scams[index].addresses.forEach(function(address) {
-                    addresses[address] = true;
-                });
-            }
-        });
 
         var table = "";
         if (req.params.page == "all") {
@@ -80,59 +70,13 @@ module.exports = async () => {
             var max = MAX_RESULTS_PER_PAGE;
             var start = 0;
         }
+		
+		var scamList = [];
         for (var i = start; i <= max; i++) {
             if (scams.hasOwnProperty(i) === false) {
                 continue;
             }
-            if ('status' in scams[i]) {
-                if (scams[i].status == "Active") {
-                    var status = "<td class='offline'><i class='warning sign icon'></i> Active</td>";
-                } else if (scams[i].status == "Inactive") {
-                    var status = "<td class='suspended'><i class='remove icon'></i> Inactive</td>";
-                } else if (scams[i].status == "Offline") {
-                    var status = "<td class='activ'><i class='checkmark icon'></i> Offline</td>";
-                } else if (scams[i].status == "Suspended") {
-                    var status = "<td class='suspended'><i class='remove icon'></i> Suspended</td>";
-                }
-            } else {
-                var status = "<td>None</td>";
-            }
-            if ('category' in scams[i]) {
-                switch (scams[i].category) {
-                    case "Phishing":
-                        var category = '<i class="address book icon"></i> Phishing';
-                        break;
-                    case "Scamming":
-                        var category = '<i class="payment icon"></i> Scamming';
-                        break;
-                    case "Fake ICO":
-                        var category = '<i class="dollar icon"></i> Fake ICO';
-                        break;
-                    default:
-                        var category = scams[i].category;
-                }
-            } else {
-                var category = '<i class="remove icon"></i> None';
-            }
-            if ('subcategory' in scams[i] && scams[i].subcategory) {
-                if (scams[i].subcategory.toLowerCase() == "wallets") {
-                    var subcategory = '<i class="credit card alternative icon"></i> ' + scams[i].subcategory;
-                } else if (fs.existsSync("_static/img/" + scams[i].subcategory.toLowerCase().replace(/\s/g, '') + ".png")) {
-                    var subcategory = "<img src='/img/" + scams[i].subcategory.toLowerCase().replace(/\s/g, '') + ".png' class='subcategoryicon'> " + scams[i].subcategory;
-                } else {
-                    var subcategory = scams[i].subcategory;
-                    /*if (!(icon_warnings.includes(subcategory))) {
-                        icon_warnings.push(subcategory);
-                        console.log("Warning! No subcategory icon found for " + subcategory);
-                    }*/
-                }
-            } else {
-                var subcategory = '<i class="remove icon"></i> None';
-            }
-            if (scams[i].name.length > 40) {
-                scams[i].name = scams[i].name.substring(0, 40) + '...';
-            }
-            table += "<tr><td>" + category + "</td><td>" + subcategory + "</td>" + status + "<td>" + scams[i].name + "</td><td class='center'><a href='/domain/" + url.parse(scams[i].url).hostname + "'><i class='search icon'></i></a></td></tr>";
+			scamList.push(scams[i]);
         }
 
         if (req.params.page !== "all") {
@@ -187,10 +131,10 @@ module.exports = async () => {
 			'sorting': req.params.sorting,
 			'pagination': strPagination,
 			'total': scams.length.toLocaleString('en-US'),
-			'active': Object.keys(scams.filter(scam => scam.status !== 'Active')).length.toLocaleString('en-US'),
-			'total_addresses': Object.keys(addresses).length.toLocaleString('en-US'),
+			'active': Object.keys(scams.filter(scam => scam.status === 'Inactive')).length.toLocaleString('en-US'),
+			'total_addresses': Object.keys(db.read().index.addresses).length.toLocaleString('en-US'),
 			'inactive': Object.keys(scams.filter(scam => scam.status === 'Active')).length.toLocaleString('en-US'),
-			'table': table
+			'scams': scamList
 		});
 	});
 	
@@ -210,8 +154,99 @@ module.exports = async () => {
 	app.get('/api/actives', (req, res) => res.json({ success: true, result: db.read().index.actives }));
 	app.get('/api/blacklist', (req, res) => res.json({ success: true, result: db.read().index.blacklist }));
 	app.get('/api/whitelist', (req, res) => res.json({ success: true, result: db.read().index.whitelist }));
-	// Check endpoint
-	// Abuse report endpoint
+	app.get('/api/abusereport/:domain', (req, res) => { 
+		const result = db.read().scams.find(scam => scam.getHostname() == url.parse(req.params.domain).hostname || scam.url.replace(/(^\w+:|^)\/\//, '') == req.params.domain);
+        if (result) res.json({ success: false, error: "URL wasn't found"});
+        else res.send({ success: true, result: generateAbuseReport(result)});
+	});
+	app.get('/api/check/:domain', (req,res) => {
+		 //They can search for an address or domain.
+            if (/^0x?[0-9A-Fa-f]{40,42}$/.test(req.params.domain)) {
+                var blocked = false;
+                Object.keys(db.read().index.whitelistAddresses).forEach(function(address, index) {
+                    //They searched for an address
+                    if (req.params.domain.toLowerCase() === address.toLowerCase()) {
+                        blocked = true;
+                        res.send(JSON.stringify({
+                            success: true,
+                            result: 'whitelisted',
+                            type: 'address',
+                            entries: db.read().index.verified.filter(function(verified) {
+                                if ('addresses' in verified) {
+                                    return (verified.addresses.includes(req.params.domain.toLowerCase()));
+                                } else {
+                                    return false;
+                                }
+                            })
+                        }));
+                    }
+                });
+                Object.keys(db.read().index.addresses).forEach(function(address, index) {
+                    //They searched for an address
+                    if (req.params.domain.toLowerCase() === address.toLowerCase()) {
+                        blocked = true;
+                        res.send(JSON.stringify({
+                            success: true,
+                            result: 'blocked',
+                            type: 'address',
+                            entries: db.read().scams.filter(function(scam) {
+                                if ('addresses' in scam && scam.addresses) {
+                                    return (scam.addresses.includes(req.params.domain.toLowerCase()));
+                                } else {
+                                    return false;
+                                }
+                            })
+                        }));
+                    }
+                });
+                if (!blocked) {
+                    res.send(JSON.stringify({
+                        success: true,
+                        result: 'neutral',
+                        type: 'address',
+                        entries: {}
+                    }));
+                }
+            } else {
+                //They searched for a domain or an ip address
+                if (db.read().index.whitelist.includes(url.parse(req.params.domain).hostname) || db.read().index.whitelist.includes(req.params.domain)) {
+                    res.send(JSON.stringify({
+                        success: true,
+                        input: url.parse(req.params.domain).hostname || req.params.domain,
+                        result: 'verified'
+                    }));
+                } else if (db.read().index.blacklist.includes(url.parse(req.params.domain).hostname) || db.read().index.blacklist.includes(req.params.domain.replace(/(^\w+:|^)\/\//, ''))) {
+                    if (/^(([1-9]?\d|1\d\d|2[0-5][0-5]|2[0-4]\d)\.){3}([1-9]?\d|1\d\d|2[0-5][0-5]|2[0-4]\d)$/.test(req.params.domain.replace(/(^\w+:|^)\/\//, ''))) {
+                        //They searched for an ip address
+                        res.send(JSON.stringify({
+                            success: true,
+                            input: req.params.domain.replace(/(^\w+:|^)\/\//, ''),
+                            result: 'blocked',
+                            type: 'ip',
+                            entries: db.read().scams.filter(function(scam) {
+                                return (url.parse(scam.url).hostname == url.parse(req.params.domain).hostname || scam.url.replace(/(^\w+:|^)\/\//, '') == req.params.domain || scam.ip == req.params.domain.replace(/(^\w+:|^)\/\//, ''));
+                            }) || false
+                        }));
+                    } else {
+                        //They searched for a domain
+                        res.send(JSON.stringify({
+                            success: true,
+                            input: url.parse(req.params.domain).hostname || req.params.domain,
+                            result: 'blocked',
+                            type: 'domain',
+                            entries: db.read().scams.filter(function(scam) {
+                                return (url.parse(scam.url).hostname == url.parse(req.params.domain).hostname || scam.url.replace(/(^\w+:|^)\/\//, '') == req.params.domain);
+                            }) || false
+                        }));
+                    }
+                } else {
+                    res.send(JSON.stringify({
+                        success: true,
+                        result: 'neutral'
+                    }));
+                }
+			}
+	});
 
     app.post('/update/', (req, res) => {
         req.rawBody = '';

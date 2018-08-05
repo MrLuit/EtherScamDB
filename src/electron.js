@@ -15,14 +15,18 @@ app.on('ready', async () => {
 			nodeIntegration: false
 		},
 		show: false,
-		backgroundColor: '#333333',
 		darkTheme: true
 	});
 	
 	const windowMenu = Menu.buildFromTemplate([
 		{
 			label: 'Main',
-			click: () => mainWindow.loadURL('data:text/html;charset=utf-8,' + encodeURI('<iframe frameborder="0" style="height: 100%; width: 100%;" src="http://localhost:' + config.port + '">'))
+			click: () => mainWindow.loadURL('http://localhost:' + config.port)
+		}, {
+			type: 'separator'
+		}, {
+			label: 'Add scam',
+			click: () => mainWindow.loadURL()
 		}, {
 			type: 'separator'
 		}, {

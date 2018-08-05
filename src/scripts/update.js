@@ -1,4 +1,4 @@
-process.env.UV_THREADPOOL_SIZE = 128;
+/* process.env.UV_THREADPOOL_SIZE = 128;				Not sure if this is necessary? */
 const debug = require('debug')('update');
 const progress = require('cli-progress');
 const Scam = require('./classes/scam.class');

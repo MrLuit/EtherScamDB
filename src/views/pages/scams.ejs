@@ -78,10 +78,62 @@
     <th id='info'>Info</th>
   </tr></thead>
   <tbody>
-  <%- table %>
+		<% scams.forEach(scam => { %>
+			<tr>
+				<% if("category" in scam && scam.category) { %>
+					<% if(scam.category == "Phishing") { %>
+						<td><i class="address book icon"></i> Phishing</td>
+					<% } else if(scam.category == "Scamming") { %>
+						<td><i class="address book icon"></i> Scamming</td>
+					<% } else if(scam.category == "Fake ICO") { %>
+						<td><i class="address book icon"></i> Fake ICO</td>
+					<% } else { %>
+						<td><i class="address book icon"></i> <%= scam.category %></td>
+					<% } %>
+				<% } else { %>
+					<td><i class="remove icon"></i> None</td>
+				<% } %>
+				
+				<% if("subcategory" in scam && scam.subcategory) { %>
+					<% if(scam.category == "Wallets") { %>
+						<td><i class="credit card alternative icon"></i> Wallets</td>
+					<% } else { %>
+						<td><img src='/img/<%= scam.subcategory.toLowerCase().replace(/\s/g, "") %>.png' class='subcategoryicon'> <%= scam.subcategory %></td>
+					<% } %>
+				<% } else { %>
+					<td><i class="remove icon"></i> None</td>
+				<% } %>
+				
+				<% if("status" in scam && scam.status) { %>
+					<% if(scam.status == "Active") { %>
+						<td class='offline'><i class='warning sign icon'></i> Active</td>
+					<% } else if(scam.status == "Inactive") { %>
+						<td class='suspended'><i class='remove icon'></i> Inactive</td>
+					<% } else if(scam.status == "Suspended") { %>
+						<td class='suspended'><i class='remove icon'></i> Suspended</td>
+					<% } else if(scam.status == "Offline") { %>
+						<td class='activ'><i class='checkmark icon'></i> Offline</td>
+					<% } %>
+				<% } else { %>
+					<td>Unknown</td>
+				<% } %>
+				
+				<% if(scam.name.length > 40) { %>
+					<td><%= scam.name.substring(0, 40) %>...</td>
+				<% } else { %>
+					<td><%= scam.name %></td>
+				<% } %>
+				
+				<td class='center'>
+					<a href='/domain/<%= scam.getHostname() %>'><i class='search icon'></i></a>
+				</td>
+			</tr>
+		<% }); %>
   </tbody>
 </table>
-
+<div class="ui pagination menu">
+<%- pagination %>
+</div>
 </div>
 	</div>
 	<% include ../partials/footer %>
