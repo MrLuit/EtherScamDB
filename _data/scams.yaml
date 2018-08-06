@@ -36478,6 +36478,7 @@
     addresses:
       - '0x096c13f383A32253e238bc148307753D14868235' 
       - '0xe4408602e316F75f632e9a9cf16560cD20FF18a7'
+      - '0xe64a2686C1e46438da0F1F1aDcFA8FfC02063E1B'
 -
     id: 5031
     name: bnb.newsmedium.info
@@ -36511,7 +36512,7 @@
     url: 'https://vechainx.net'
     category: Phishing
     subcategory: Vechain
-    description: 'Fake VechainX KYC form. Directing users to a fake MyEtherWallet myetherwallet.com.api12.icu/signmsg.html via bit.ly/2OKn84i+'       
+    description: 'Fake VechainX KYC form. Directing users to a fake MyEtherWallet myetherwallet.com.api12.icu/signmsg.html via bit.ly/2OKn84i+ Reported address: 0x9D61De20D2987EEabaa3B384ff6b5001CA570787'       
 -
     id: 5035
     name: hadica.com
@@ -36918,3 +36919,111 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex phishing for keys with POST /furia.php'         
+-
+    id: 5088
+    name: ethclaim.info
+    url: 'http://ethclaim.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x3095E50D8b6ecD80EdC83943a19E00BF596E525f' 
+-
+    id: 5089
+    name: ethgiftonline.com
+    url: 'http://ethgiftonline.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site, redirecting to myethgift.net'     
+    addresses:
+      - '0x335E40277f127c620560FaF1cfa001E5899864ad'       
+-
+    id: 5090
+    name: ether.blogmedium.top
+    url: 'http://ether.blogmedium.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xc4856c6C04Ee3416dAEaeD3E5abAE3622BBE1eBe'       
+-
+    id: 5091
+    name: bnb.medium-air.org
+    url: 'http://bnb.medium-air.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xBC025972d6DCEbE52793A2B19dE53CF621Cf1EDc'             
+-
+    id: 5092
+    name: airdrops.delivery
+    url: 'http://airdrops.delivery'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xbefA0509207c8834003Af4bd82d13876f1A58FDD'               
+-
+    id: 5093
+    name: ether-airdrop.website
+    url: 'http://ether-airdrop.website'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x1d6065940bfd6ac7c4ec1e2a35e1420e0a9c1bff'           
+-
+    id: 5094
+    name: giveaway.ether-claim.org
+    url: 'http://giveaway.ether-claim.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xBb802918Bc1Ac6089315f951F2b60a1CC275c3Bb'           
+-
+    id: 5095
+    name: giftsforyou.online
+    url: 'http://giftsforyou.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x1707BC69d91F86A6000d318E85D07B00747152FE'          
+-
+    id: 5096
+    name: coinsprize.org
+    url: 'http://coinsprize.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x88be7aD530Cba44949817cE40dB87a6d25B44FdE'           
+-
+    id: 5097
+    name: ethereumwin.in
+    url: 'http://ethereumwin.in'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xf77F1Dcf1A2b748797D807718a77173c668D4bf7'              
+-
+    id: 5098
+    name: smart-eth-contract.site
+    url: 'http://smart-eth-contract.site'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xDa9c7d72d902DB64b42B663358C47559be293F80'           
+-
+    id: 5099
+    name: safec41944.nichost.ru
+    url: 'http://safec41944.nichost.ru'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x1D7821B0167C9Eb24b49977D394fB5E4E2C9AB6f'         
