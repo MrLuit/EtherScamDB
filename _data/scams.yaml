@@ -33653,6 +33653,7 @@
     addresses:
       - '0x1D7BC400d3c6d9D37EC54D0e729cbaDD06dc0390'
       - '0xbC55B0f2DbAF492FC8adf35c0f9939eb5Fe92131'
+      - '0xb0Ce77a4F5c02b92235D6829c94b2D27f939aBE1'
 -
     id: 4690
     name: limited-promo.org
@@ -36475,7 +36476,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'     
     addresses:
-      - '0x096c13f383A32253e238bc148307753D14868235'        
+      - '0x096c13f383A32253e238bc148307753D14868235' 
+      - '0xe4408602e316F75f632e9a9cf16560cD20FF18a7'
 -
     id: 5031
     name: bnb.newsmedium.info
@@ -36809,3 +36811,110 @@
     category: Phishing
     subcategory: Yobit
     description: 'Fake Yobit site phishing for logins'       
+-
+    id: 5075
+    name: safeclaims.space
+    url: 'http://safeclaims.space'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xe2e55d8889141495e8442ED4ba48c6f2E638071d' 
+-
+    id: 5076
+    name: safeclaims.net
+    url: 'http://safeclaims.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xdd944483Ace0a893C328877608e7975B4Ec987Ab'       
+-
+    id: 5077
+    name: myethgift.net
+    url: 'http://myethgift.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x335E40277f127c620560FaF1cfa001E5899864ad'           
+-
+    id: 5078
+    name: official.ethx10.com
+    url: 'http://official.ethx10.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xdd0D7fcCDF1142B0157d34866c404a249eeA2Eb8'        
+-
+    id: 5079
+    name: ethx10.com
+    url: 'http://ethx10.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xdd0D7fcCDF1142B0157d34866c404a249eeA2Eb8'          
+-
+    id: 5080
+    name: elon-giveaway.org
+    url: 'http://elon-giveaway.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site linking to musk-official-promo.com/e/'     
+    addresses:
+      - '0xb0Ce77a4F5c02b92235D6829c94b2D27f939aBE1'      
+-
+    id: 5081
+    name: ether-airdrop.org
+    url: 'http://ether-airdrop.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x433c216A36681787A4603f2EECBd2e5F4085C7fb'   
+-
+    id: 5082
+    name: myehterwaillet.com
+    url: 'https://myehterwaillet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain'       
+-
+    id: 5083
+    name: xn--yetherallet-iw8ew5a.com
+    url: 'https://xn--yetherallet-iw8ew5a.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain - IDN homograph attack'    
+-
+    id: 5084
+    name: tron-gift.blogspot.com
+    url: 'http://tron-gift.blogspot.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site linking to giftofeth.info'     
+    addresses:
+      - '0x1e21312d1e05a13a7d4af51fff776b93d5324111'      
+-
+    id: 5085
+    name: dubai-oilcorp.company
+    url: 'https://dubai-oilcorp.company'
+    category: Scamming
+    subcategory: Ponzi
+    description: 'Ponzi scheme promosing 55% daily returns'      
+-
+    id: 5086
+    name: idex.site
+    url: 'https://idex.site'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for keys'        
+-
+    id: 5087
+    name: ideix.market
+    url: 'https://ideix.market'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for keys with POST /furia.php'         
