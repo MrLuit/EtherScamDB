@@ -33,6 +33,18 @@ module.exports.lookup = limiter.wrap(url => {
 	});
 });
 
+module.exports.getURLScan = (url) => {
+	return new Promise((resolve, reject) => {
+		request('https://urlscan.io/api/v1/search/?q=domain%3A' + url, { json: true }, (err, response, body) => {
+			if(err) {
+				reject(err);
+			} else {
+				resolve(body.data)
+			}
+		});
+	});
+}
+
 module.exports.getIP = (url) => {
 	return new Promise(resolve => {
 		const {hostname} = parse(url);

@@ -55,4 +55,18 @@ app.on('ready', async () => {
 		mainWindow.show();
 		mainWindow.focus();
 	});
+	let handled = false;
+	app.on('window-all-closed', app.quit);
+	app.on('before-quit', (event) => {
+		event.preventDefault();
+		mainWindow.removeAllListeners('close');
+		if(!handled) {
+			handled = true;
+			console.log("Cleaning up...");
+			db.exitHandler();
+			console.log("Exited.");
+			mainWindow.close();
+			process.exit();
+		}
+	});
 });

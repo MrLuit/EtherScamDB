@@ -1,5 +1,5 @@
 const {parse} = require('url');
-const {lookup,getIP,getNameservers} = require('../utils/lookup');
+const {lookup,getIP,getURLScan,getNameservers} = require('../utils/lookup');
 
 module.exports = class Scam {
 	constructor(scamObject) {
@@ -13,6 +13,7 @@ module.exports = class Scam {
 		this.ip = null;
 		this.nameservers = null;
 		this.status = null;
+		this.updated = 0;
 		
 		if(scamObject) {
 			this.id = scamObject.id;
@@ -23,9 +24,9 @@ module.exports = class Scam {
 			if(scamObject.subcategory) this.subcategory = scamObject.subcategory;
 			if(scamObject.description) this.description = scamObject.description;
 			if(scamObject.addresses) this.addresses = scamObject.addresses;
-			if(scamObject.ip) this.ip = scamObject.ip;
+			/*if(scamObject.ip) this.ip = scamObject.ip;
 			if(scamObject.nameservers) this.nameservers = scamObject.nameservers;
-			if(scamObject.status) this.status = scamObject.status;
+			if(scamObject.status) this.status = scamObject.status;*/
 		}
 	}
 	
@@ -60,14 +61,14 @@ module.exports = class Scam {
 		} else if(result && (result.body == '' || (result.request && result.request.uri && result.request.uri.path && result.request.uri.path == '/cgi-sys/defaultwebpage.cgi'))) {
 			this.status = 'Inactive';
 		} else if (result && this.subcategory && this.subcategory == 'MyEtherWallet') {
-			const isMEW = await lookup('http://' + url.parse(this.url).hostname.replace("www.", "") + '/js/etherwallet-static.min.js');
+			const isMEW = await lookup('http://' + parse(this.url).hostname.replace("www.", "") + '/js/etherwallet-static.min.js');
 			if(isMEW) {
 				this.status = 'Active';
 			} else {
 				this.status = 'Inactive';
 			}
 		}  else if (result && this.subcategory && this.subcategory == 'MyCrypto') {
-			const isMYC = await lookup('http://' + url.parse(this.url).hostname.replace("www.", "") + '/js/mycrypto-static.min.js');
+			const isMYC = await lookup('http://' + parse(this.url).hostname.replace("www.", "") + '/js/mycrypto-static.min.js');
 			if(isMYC) {
 				this.status = 'Active';
 			} else {
@@ -78,5 +79,13 @@ module.exports = class Scam {
 		}
 		
 		return this.status;
+	}
+	
+	getURLScan() {
+		return getURLScan(this.getHostname());
+	}
+	
+	howRecent() {
+		return Date.now()-this.updated;
 	}
 }

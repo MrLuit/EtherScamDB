@@ -10,17 +10,24 @@ const dateFormat = require('dateformat');
 const url = require('url');
 const crypto = require('crypto');
 const db = require('./utils/db');
+const path = require('path');
 const config = require('./utils/config');
 const generateAbuseReport = require('./utils/abusereport');
+const checkForPhishing = require('eth-phishing-detect');
 const app = express();
+
+const updateScams = async () => {
+	const updateProcess = fork(path.join(__dirname,'scripts/update.js'));
+	updateProcess.on('message', data => db.write(data.id,data));
+}
 
 module.exports = async () => {
 	await db.init();
     
 	app.set('view engine', 'ejs');
-	app.set('views','./src/views/pages');
+	app.set('views',path.join(__dirname,'views/pages'));
 	app.use(compression());
-	app.use(express.static('./src/views/static'));
+	app.use(express.static(path.join(__dirname,'views/static')));
 	/* app.use(require('body-parser').json());				Not sure if this is necessary? */
 	
 	app.get('/(/|index.html)?', (req, res) => res.render('index'));
@@ -31,8 +38,8 @@ module.exports = async () => {
 	app.get('/report/domain/:domain', (req, res) => res.render('report', { domain: req.params.domain }));
 	app.get('/report/address/:address', (req, res) => res.render('report', { address: req.params.address }));
 	
-	app.get('/ip/:ip', (req, res) => res.render('ip', { ip: req.params.ip, related: db.read().index.ips[req.params.ip] }));
-	app.get('/address/:address', (req, res) => res.render('address', { address: req.params.address, related: db.read().index.addresses[req.params.address] }));
+	app.get('/ip/:ip', (req, res) => res.render('ip', { ip: req.params.ip, related: (db.read().index.ips[req.params.ip] || []) }));
+	app.get('/address/:address', (req, res) => res.render('address', { address: req.params.address, related: (db.read().index.addresses[req.params.address] || []) }));
 	app.get('/scam/:id', (req, res) => {
 		const entry = db.read().scams.find(scam => scam.id == req.params.id);
 		if(entry) res.redirect('/domain/' + encodeURIComponent(entry.name));
@@ -40,26 +47,31 @@ module.exports = async () => {
 	});
 	app.get('/domain/:url', (req, res) => {
 		const startTime = Date.now();
-		const hostname = url.parse(req.params.url).hostname;
+		const {hostname} = url.parse('http://' + req.params.url.replace('http://','').replace('https://'));
 		const scamEntry = db.read().scams.find(scam => scam.name == hostname);
-		const verifiedEntry = db.read().verified.find(verified => verified.name == hostname);
+		const verifiedEntry = db.read().verified.find(verified => url.parse(verified.url).hostname == hostname);
 		
-		if(verifiedEntry) res.render('domain', { type: 'verified', result: verifiedEntry, domain: hostname, startTime: startTime, dateFormat: dateFormat, addresses: verifiedEntry.addresses });
-		else if(scamEntry) res.render('domain', { type: 'scam', result: scamEntry, domain: hostname, startTime: startTime, dateFormat: dateFormat, addresses: scamEntry.addresses });
-		else res.render('domain', { type: 'neutral', domain: hostname, result: false, addresses: [], startTime: startTime });
+		if(verifiedEntry) res.render('domain', { type: 'verified', result: verifiedEntry, domain: hostname, metamask: false, startTime: startTime, dateFormat: dateFormat });
+		else if(scamEntry) res.render('domain', { type: 'scam', result: scamEntry, domain: hostname, metamask: checkForPhishing(hostname), startTime: startTime, dateFormat: dateFormat, abuseReport: generateAbuseReport(scamEntry) });
+		else res.render('domain', { type: 'neutral', domain: hostname, result: false, metamask: checkForPhishing(hostname), addresses: [], startTime: startTime });
 	});
 	app.get('/scams/:page?/:sorting?/', (req, res) => {
         const MAX_RESULTS_PER_PAGE = 30;
+		const scamList = [];
 		let scams;
 		
-        if (req.params.sorting == 'oldest') scams = db.read().scams
+		if(req.params.page && (req.params.page != 'all' && (!isFinite(parseInt(req.params.page)) || isNaN(parseInt(req.params.page)) || parseInt(req.params.page) < 0))) {
+			res.status(404).render('404');
+			return;
+		}
+		
+        if (req.params.sorting == 'oldest') scams = db.read().scams.sort((a,b) => a.id-b.id)
         else if (req.params.sorting == 'status') scams = db.read().scams;
         else if (req.params.sorting == 'category') scams = db.read().scams;
         else if (req.params.sorting == 'subcategory') scams = db.read().scams;
         else if (req.params.sorting == 'title') scams = db.read().scams;
-		else scams = db.read().scams;
+		else scams = db.read().scams.sort((a,b) => b.id-a.id);
 
-        var table = "";
         if (req.params.page == "all") {
             var max = scams.length - 1; //0-based indexing
             var start = 0;
@@ -71,70 +83,21 @@ module.exports = async () => {
             var start = 0;
         }
 		
-		var scamList = [];
         for (var i = start; i <= max; i++) {
-            if (scams.hasOwnProperty(i) === false) {
-                continue;
-            }
+            if (scams.hasOwnProperty(i) === false) continue;
 			scamList.push(scams[i]);
-        }
-
-        if (req.params.page !== "all") {
-            var intCurrentPage = 0;
-            if (Number.parseInt(req.params.page) > 0) {
-                intCurrentPage = req.params.page;
-            }
-            var strPagination = "";
-            if (intCurrentPage == 0) {
-                var arrLoop = [1, 6];
-            } else if (intCurrentPage == 1) {
-                var arrLoop = [0, 5];
-            } else if (intCurrentPage == 2) {
-                var arrLoop = [-1, 4];
-            } else {
-                var arrLoop = [-2, 3];
-            }
-            for (var i = arrLoop[0]; i < arrLoop[1]; i++) {
-                var intPageNumber = (Number(intCurrentPage) + Number(i));
-                var strItemClass = "item";
-                var strHref = "/scams/" + intPageNumber + "/";
-                if (req.params.sorting) {
-                    strHref += req.params.sorting + "/";
-                }
-                if ((intPageNumber > (scams.length) / MAX_RESULTS_PER_PAGE) || (intPageNumber < 1)) {
-                    strItemClass = "disabled item";
-                    strHref = "#";
-                } else if (intCurrentPage == intPageNumber) {
-                    strItemClass = "active item";
-                }
-                strPagination += "<a href='" + strHref + "' class='" + strItemClass + "'>" + intPageNumber + "</a>";
-            }
-            if (intCurrentPage > 3) {
-                if (req.params.sorting) {
-                    strPagination = "<a class='item' href='/scams/1/" + req.params.sorting + "'><i class='angle double left icon'></i></a>" + strPagination;
-                } else {
-                    strPagination = "<a class='item' href='/scams/1/" + req.params.sorting + "'><i class='angle double left icon'></i></a>" + strPagination;
-                }
-            }
-            if (intCurrentPage < Math.ceil(scams.length / MAX_RESULTS_PER_PAGE) - 3) {
-                if (req.params.sorting) {
-                    strPagination += "<a class='item' href='/scams/" + (Math.ceil(scams.length / MAX_RESULTS_PER_PAGE) - 1) + "/" + req.params.sorting + "'><i class='angle double right icon'></i></a>";
-                } else {
-                    strPagination += "<a class='item' href='/scams/" + (Math.ceil(scams.length / MAX_RESULTS_PER_PAGE) - 1) + "'><i class='angle double right icon'></i></a>";
-                }
-            }
-        } else {
-            strPagination = "";
         }
 		
         res.render('scams', {
+			'page': req.params.page,
 			'sorting': req.params.sorting,
-			'pagination': strPagination,
 			'total': scams.length.toLocaleString('en-US'),
 			'active': Object.keys(scams.filter(scam => scam.status === 'Inactive')).length.toLocaleString('en-US'),
 			'total_addresses': Object.keys(db.read().index.addresses).length.toLocaleString('en-US'),
 			'inactive': Object.keys(scams.filter(scam => scam.status === 'Active')).length.toLocaleString('en-US'),
-			'scams': scamList
+			'scams': scamList,
+			'MAX_RESULTS_PER_PAGE': MAX_RESULTS_PER_PAGE,
+			'scamsLength': scams.length
 		});
 	});
 	
@@ -285,6 +248,11 @@ module.exports = async () => {
 
     
 	app.listen(config.port, () => debug('Content served on http://localhost:%s',config.port));
+	
+	setTimeout(() => {
+		updateScams();
+		setInterval(updateScams,5*60*1000);
+	},100);
 }
 
 if(!module.parent) module.exports();

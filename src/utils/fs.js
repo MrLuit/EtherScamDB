@@ -18,6 +18,8 @@ module.exports.writeFile = (path,content) => {
 	});
 }
 
+module.exports.writeFileSync = fs.writeFileSync;
+
 module.exports.fileExists = (path) => {
 	return new Promise((resolve,reject) => {
 		fs.access(path, fs.F_OK, err => {

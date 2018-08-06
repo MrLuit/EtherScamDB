@@ -27,6 +27,7 @@
       </div>
     </div>
   </div>
+  <% if(typeof abuseReport !== "undefined") { %>
 <div id="abusemodal" class="ui small modal">
 	<i class="close icon"></i>
     <div class="header">
@@ -35,7 +36,7 @@
     <div class="content">
 	<div class="ui form">
   <div class="field">
-    <textarea id="abuse">{{ result.abusereport }}</textarea>
+    <textarea id="abuse"><%= abuseReport %></textarea>
   </div>
 </div>
     </div>
@@ -48,11 +49,13 @@
       </div>
     </div>
   </div>
+  <% } %>
 <div class="ui grid">
   <div class="eight wide column"><h1><%= domain %></h1></div>
   <div id="actions" class="eight wide column">
-	<% if(type == "result" && "url" in result) { %>
+	<% if(typeof abuseReport !== "undefined") { %>
 	<button id="gen" class="ui icon secondary button"><i class="setting icon"></i> Abuse Report</button>
+	<% } %>
 	<a target="_blank" href="http://web.archive.org/web/*/<%= result.url %>" class="ui icon secondary button"><i class="archive icon"></i> Archive</a>
       <a target="_blank" href="https://github.com/MrLuit/EtherScamDB/tree/master/_data" class="ui icon secondary button">
 		<i class="write alternate icon"></i> Improve
@@ -60,7 +63,6 @@
 	<button id="share" class="ui icon secondary button">
 		<i class="share alternate icon"></i> Share
 	</button>
-	<% } %>
   </div>
 </div>
 <% if(type == "neutral") { %>
@@ -87,24 +89,46 @@
 <% if(result && "ip" in result) { %>
 <b>IP</b>: <a href="/ip/<%= result.ip %>"><%= result.ip %></a><BR>
 <% } %>
-{{ result.metamask }}
-<% if(result && "url" in result && "googlethreat" in result) { %>
-<b>Google Safe Browsing</b>: {{ result.googlethreat }}<BR>
+<br>
+<% if(typeof metamask !== "undefined") { 
+let color;
+if(type == "neutral" && !metamask) color = "orange";
+else if(type == "neutral" && metamask) color = "red";
+else if(type == "neutral" && !metamask) color = "green";
+else if(type == "scam" && !metamask) color = "red";
+else if(type == "scam" && metamask) color = "green";
+%>
+<b>MetaMask Status:</b> <span style="color:<%= color %>">
+<% if(metamask) { %>
+Blocked
+<% } else { %>
+Not yet blocked
 <% } %>
+</span><br>
+<% } %>
+<b>Google Safe Browsing Status</b>: <span class="class_active green"> Not Blocked Yet</span> <a target="_blank" href="https://safebrowsing.google.com/safebrowsing/report_phish/"><i class="warning sign icon"></i></a><br>
+<b>VirusTotal Detections</b>: <span class="class_inactive"> Could not pull data from VirusTotal</span><br>
+<b>Phishtank Detected</b>: <span class="class_inactive"> Could not pull data from Phishtank</span><br>
+<b>Urlscan Scan Results</b>: <a style="text-color:green" href="https://urlscan.io/result/ffb89235-11dd-48b7-a5d0-58bb2e543f02" target="_blank">Link</a><br><br>
+
 <% if(result && "nameservers" in result) { %>
-<b>Nameservers</b>: <div class="ui bulleted list">
-<% result.nameservers.forEach(nameserver => { %>
-<div class="ui item"><%= nameserver %></div>
-<% }); %>
-</div>
+	<b>Nameservers</b>: 
+	<div class="ui bulleted list">
+	<% result.nameservers.forEach(nameserver => { %>
+		<div class="ui item"><%= nameserver %></div>
+	<% }); %>
+	</div>
 <% } %>
-<% if(addresses & addresses.length > 0) { %>
-<b>Related addresses</b>: <div class="ui bulleted list">
-<% addresses.forEach(address => { %>
-<div class="ui item"><a href="/address/<%= address.address %>"><%= address.address %></a></div>
-<% }); %>
-</div>
+
+<% if(result.addresses && result.addresses.length > 0) { %>
+	<b>Related addresses</b>:
+	<div class="ui bulleted list">
+	<% result.addresses.forEach(address => { %>
+		<div class="ui item"><a href="/address/<%= address %>"><%= address %></a></div>
+	<% }); %>
+	</div>
 <% } %>
+
 {{ result.screenshot }}<br /><br />
 
 <div id="disqus_thread"></div>

@@ -131,9 +131,51 @@
 		<% }); %>
   </tbody>
 </table>
-<div class="ui pagination menu">
-<%- pagination %>
-</div>
+<% if(page !== "all") { %>
+	<div class="ui pagination menu">
+		<% 
+		let strPagination = "";
+		let intCurrentPage = parseInt(page || 0);
+		let arrLoop = [-2, 3];
+		
+		if (intCurrentPage == 0) arrLoop = [1, 6];
+		else if (intCurrentPage == 1) arrLoop = [0, 5];
+		else if (intCurrentPage == 2) arrLoop = [-1, 4];
+
+		for (var i = arrLoop[0]; i < arrLoop[1]; i++) {
+			var intPageNumber = intCurrentPage+i;
+			var strItemClass = "item";
+			var strHref = "/scams/" + intPageNumber + "/";
+			
+			if (sorting) strHref += sorting + "/";
+			if ((intPageNumber > (scamsLength) / MAX_RESULTS_PER_PAGE) || (intPageNumber < 1)) {
+				strItemClass = "disabled item";
+				strHref = "#";
+			} else if (intCurrentPage == intPageNumber) {
+				strItemClass = "active item";
+			}
+			strPagination += "<a href='" + strHref + "' class='" + strItemClass + "'>" + intPageNumber + "</a>";
+		}
+		
+		if (intCurrentPage > 3) {
+			if (sorting) {
+				strPagination = "<a class='item' href='/scams/1/" + sorting + "'><i class='angle double left icon'></i></a>" + strPagination;
+			} else {
+				strPagination = "<a class='item' href='/scams/1/" + sorting + "'><i class='angle double left icon'></i></a>" + strPagination;
+			}
+		}
+		
+		if (intCurrentPage < Math.ceil(scamsLength / MAX_RESULTS_PER_PAGE) - 3) {
+			if (sorting) {
+				strPagination += "<a class='item' href='/scams/" + (Math.ceil(scamsLength / MAX_RESULTS_PER_PAGE) - 1) + "/" + sorting + "'><i class='angle double right icon'></i></a>";
+			} else {
+				strPagination += "<a class='item' href='/scams/" + (Math.ceil(scamsLength / MAX_RESULTS_PER_PAGE) - 1) + "'><i class='angle double right icon'></i></a>";
+			}
+		}
+		%>
+		<%- strPagination %>
+	</div>
+<% } %>
 </div>
 	</div>
 	<% include ../partials/footer %>

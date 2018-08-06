@@ -29,7 +29,6 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "bottleneck": "^2.6.0",
-    "cli-progress": "^2.0.0",
     "compression": "^1.7.3",
     "cross-env": "^5.2.0",
     "dateformat": "^2.2.0",
