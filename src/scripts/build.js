@@ -34,16 +34,16 @@ const shouldBuildOs = (os) => {
 			},
 			mac: {
 				category: 'public.app-category.utilities',
-				icon: './src/assets/favicon.icns',
+				icon: './assets/favicon.icns',
 				compression: 'store'
 			},
 			win: {
-				icon: './src/assets/favicon.ico',
+				icon: './assets/favicon.ico',
 				compression: 'store'
 			},
 			linux: {
 				category: 'Utilities',
-				icon: './src/assets/favicon.png',
+				icon: './assets/favicon.png',
 				compression: 'store'
 			},
 			publish: null,
