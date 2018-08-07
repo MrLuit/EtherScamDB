@@ -3,7 +3,7 @@
 
 <head>
 <% include ../partials/header %>
-<link rel="stylesheet" href="/css/scam.css">
+<link rel="stylesheet" href="/css/domain.css">
 </head>
 
 <body>
@@ -72,21 +72,21 @@
 <% } else if(type == "verified") { %>
 <div class="ui mini green message"><i class="warning sign icon"></i> This is a verified domain. </div>
 <% } %>
-<% if(type == "scam" && result && "url" in result) { %>
+<% if(type == "scam" && result && result.url) { %>
 <b>URL</b>: <a id="url" target="_blank" href="/redirect/<%= encodeURIComponent(result.url) %>"><%= result.url %></a><BR>
 <% } %>
-<% if(result && "category" in result && "subcategory" in result) { %>
+<% if(result && result.category && result.subcategory) { %>
 <b>Category</b>: <%= result.category %> - <%= result.subcategory %><BR>
-<% } else if(result && "category" in result) { %>
+<% } else if(result && result.category) { %>
 <b>Category</b>: <%= result.category %><BR>
 <% } %>
-<% if(result && "description" in result) { %>
+<% if(result && result.description) { %>
 <b>Description</b>: <%= result.description %><BR>
 <% } %>
-<% if(result && "status" in result) { %>
+<% if(result && result.status) { %>
 <b>Status</b>: <span class="class_<%= result.status.toLowerCase() %>"><%= result.status %></span><BR>
 <% } %>
-<% if(result && "ip" in result) { %>
+<% if(result && result.ip) { %>
 <b>IP</b>: <a href="/ip/<%= result.ip %>"><%= result.ip %></a><BR>
 <% } %>
 <br>
@@ -111,7 +111,7 @@ Not yet blocked
 <b>Phishtank Detected</b>: <span class="class_inactive"> Could not pull data from Phishtank</span><br>
 <b>Urlscan Scan Results</b>: <a style="text-color:green" href="https://urlscan.io/result/ffb89235-11dd-48b7-a5d0-58bb2e543f02" target="_blank">Link</a><br><br>
 
-<% if(result && "nameservers" in result) { %>
+<% if(result && result.nameservers) { %>
 	<b>Nameservers</b>: 
 	<div class="ui bulleted list">
 	<% result.nameservers.forEach(nameserver => { %>
@@ -120,7 +120,7 @@ Not yet blocked
 	</div>
 <% } %>
 
-<% if(result.addresses && result.addresses.length > 0) { %>
+<% if(result && result.addresses && result.addresses.length > 0) { %>
 	<b>Related addresses</b>:
 	<div class="ui bulleted list">
 	<% result.addresses.forEach(address => { %>
@@ -154,7 +154,7 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-	<script src="/js/scam.js"></script>
+	<script src="/js/domain.js"></script>
 </body>
 
 </html>

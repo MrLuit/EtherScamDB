@@ -19,9 +19,11 @@ process.on('disconnect', process.exit(1));
 	debug("Updating scams...");
 
 	await Promise.all(serialijse.deserialize(cacheFile).scams.sort((a,b) => b.id-a.id).filter(scam => scam.howRecent() > config.interval.cacheExpiration).map(async scam => {
+		let ip;
+		let nameservers;
 		if(config.lookups.HTTP.enabled) await scam.getStatus();
-		if(config.lookups.IP.enabled) const ip = await scam.getIP();
-		if(config.lookups.DNS.enabled) const nameservers = await scam.getNameservers();
+		if(config.lookups.IP.enabled) ip = await scam.getIP();
+		if(config.lookups.DNS.enabled) nameservers = await scam.getNameservers();
 		
 		process.send({ id: scam.id, ip: ip || undefined, nameservers: nameservers || undefined, status: scam.status || undefined, statusCode: scam.statusCode || undefined, updated: Date.now() });
 	}));
