@@ -6,9 +6,9 @@ if (!fs.existsSync('./config.json')) {
 		manual: false,
 		port: 5111,
 		interval: {
-			cacheExpiration: 1000 * 60 * 60 * 2,
-			cacheRenewCheck: 1000 * 60 * 5,
-			databasePersist: 1000 * 60 * 1
+			cacheExpiration: 999999999999999,
+			cacheRenewCheck: 999999999999999,
+			databasePersist: 999999999999999
 		},
 		apiKeys: {
 			Google_SafeBrowsing: undefined,
@@ -19,7 +19,7 @@ if (!fs.existsSync('./config.json')) {
 		},
 		autoPull: {
 			enabled: false,
-			interval: 1000 * 60 * 2,
+			interval: 999999999999999,
 			repository: {
 				author: "MrLuit",
 				name: "EtherScamDB",
@@ -35,9 +35,9 @@ if (!fs.existsSync('./config.json')) {
 			},
 			HTTP: {
 				enabled: false,
-				minTime: 100,
-				maxConcurrent: 200,
-				timeoutAfter: 10 * 1000
+				minTime: 999999999999999,
+				maxConcurrent: 0,
+				timeoutAfter: 999999999999999
 			}
 		}
 	}
