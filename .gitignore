@@ -1,5 +1,5 @@
 node_modules
 npm-debug.log
-config/config.js
+config.json
 cache.db
 dist

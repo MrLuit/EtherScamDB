@@ -16,7 +16,7 @@ const updateScams = async () => {
 	updateProcess.on('exit', () => setTimeout(updateScams,5*60*1000));
 }
 
-const init = async () => {
+const init = async (electronApp) => {
 	/* Initiate database */
 	await db.init();
 	
@@ -40,7 +40,12 @@ const init = async () => {
 		else if(req.path == '/config' && (req.method != 'POST' || !req.body || config.manual)) res.status(403).end();
 		else if(req.path == '/config/' && req.method == 'POST' && !config.manual) {
 			await writeConfig(req.body);
-			res.render('config', { done: true });
+			if(electronApp) {
+				electronApp.relaunch();
+				electronApp.exit();
+			} else {
+				res.render('config', { done: true });
+			}
 		}
 		else next();
 	});

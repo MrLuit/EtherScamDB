@@ -46,7 +46,7 @@ app.on('ready', async () => {
 	}]);
 	Menu.setApplicationMenu(windowMenu);
 	
-	await require('../app')();
+	await require('../app')(app);
 	mainWindow.loadURL('http://localhost:' + config.port);
 	mainWindow.once('ready-to-show', () => {
 		mainWindow.maximize();
