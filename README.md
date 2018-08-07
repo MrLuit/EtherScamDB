@@ -23,13 +23,9 @@ Then, open a command line anywhere and run the following commands:
 
 > npm install
 
-> npm start
+> npm run electron
 
-The command line should now exit, asking you to update the config.js file with correct values. Please use your own API keys (preferably abuseipdb, github, google safebrowsing, and urlscan). When you're done, launch run.js again:
-
-> npm start
-
-Generating should take a couple of minutes the first time or after a clean, but when `cache.db` is already present it should launch instantly.
+The electron app will now start!
 
 ## Contribute
 
