@@ -37027,3 +37027,17 @@
     description: 'Trust trading scam site'     
     addresses:
       - '0x1D7821B0167C9Eb24b49977D394fB5E4E2C9AB6f'         
+-
+    id: 5100
+    name: bliovnarnce.com
+    url: 'https://bliovnarnce.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance phishing for logins' 
+-
+    id: 5101
+    name: meyhferwallet.com
+    url: 'https://meyhferwallet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'     
