@@ -12,9 +12,9 @@ if(!process.send) throw new Error("This script can only run as a child process")
 process.on('disconnect', process.exit(1));
 
 (async () => {
-	const cacheExists = await fs.fileExists(path.join(__dirname,'../../_data/cache.db'));
+	const cacheExists = await fs.fileExists('./cache.db');
 	if(!cacheExists) throw new Error("No cache file found");
-	const cacheFile = await fs.readFile(path.join(__dirname,'../../_data/cache.db'));
+	const cacheFile = await fs.readFile('./cache.db');
 
 	debug("Updating scams...");
 

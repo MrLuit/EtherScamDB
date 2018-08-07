@@ -53,9 +53,4 @@ describe('JSON Validator', function() {
 			assert.doesNotThrow(() => JSON.parse(fs.readFileSync('./_data/twitter.json', 'utf8')));
 		});
 	});
-	describe('metamaskImports.json', function() {
-		it('should contain valid JSON', function(){
-			assert.doesNotThrow(() => JSON.parse(fs.readFileSync('./_data/metamaskImports.json', 'utf8')));
-		});
-	});
 });

@@ -1,19 +1,38 @@
 module.exports = {
-    port: 8080,
-    cache_refreshing_interval: 1000 * 60 * 30,
-    Google_SafeBrowsing_API_Key: null,
-    Github_Hook_Secret: null,
-    VirusTotal_API_Key: null,
-    Urlscan_API_Key: null,
-    AbuseIPDB_API_Key: null,
-    repository: {
-        author: "MrLuit",
-        name: "EtherScamDB",
-        branch: "master"
-    },
-	httpRequests: {
-		minTime: 100,
-		maxConcurrent: 20,
-		timeoutAfter: 30*1000
+    port: 5111,
+	interval: {
+		cacheExpiration: 1000 * 60 * 60 * 2,
+		cacheRenewCheck: 1000 * 60 * 5,
+		databasePersist: 1000 * 60 * 1
+	},
+	apiKeys: {
+		Google_SafeBrowsing: undefined,
+		Github_WebHook: undefined,
+		VirusTotal: undefined,
+		URLScan: undefined,
+		AbuseIPDB: undefined
+	},
+	autoPull: {
+		enabled: false,
+		interval: 1000 * 60 * 2,
+		repository: {
+			author: "MrLuit",
+			name: "EtherScamDB",
+			branch: "master"
+		}
+	},
+	lookups: {
+		IP: {
+			enabled: false
+		},
+		DNS: {
+			enabled: false
+		},
+		HTTP: {
+			enabled: false,
+			minTime: 100,
+			maxConcurrent: 200,
+			timeoutAfter: 10 * 1000
+		}
 	}
-};
+}

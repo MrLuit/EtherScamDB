@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<% include ../partials/header.ejs %>
+		<style>
+			.full-mode-options {
+				display: none;
+			}
+		</style>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui-range@1.0.1/range.css" integrity="sha256-xULiRAbwu4Ev+LlFi9ggQaW6WZy9bh/J0ZVPspFB8PI=" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="ui body container">
+			<div class="ui segment" style="padding: 5%;">
+				<h1>Configuration</h1>
+				<br>
+				<br>
+				<% if(done) { %>
+					<p>Your preferred configuration was saved successfully. Please restart this application for changes to apply.</p>
+				<% } else { %>
+					<form class="ui form" action="/config/" method="POST">
+						<div class="grouped fields">
+							<label for="mode">In which mode would you like EtherScamDB to run?</label>
+							<div class="field">
+								<div class="ui radio checkbox">
+									<input type="radio" name="mode" value="light" class="hidden" checked>
+									<label><b>Light</b>	<i>(all IP, DNS, and HTTP lookups <b>disabled</b>)</i></label>
+								</div>
+							</div>
+							<div class="field">
+								<div class="ui radio checkbox">
+									<input type="radio" name="mode" value="safe" class="hidden">
+									<label><b>Safe</b> <i>(only IP and DNS lookups <b>enabled</b>)</i></label>
+								</div>
+							</div>
+							<div class="field">
+								<div class="ui radio checkbox">
+									<input type="radio" name="mode" value="full" class="hidden">
+									<label><b>Full</b> <i>(all IP, DNS and HTTP lookups <b>enabled</b>)</i> </label>
+								</div>
+							</div>
+						</div>
+						<br>
+						<div class="full-mode-options">
+							<div class="grouped fields">
+								<label for="http-bottleneck">How fast would you like http requests to be processed?</label>
+								<div class="field">
+									<div class="ui radio checkbox">
+										<input type="radio" name="http-bottleneck" value="fast" class="hidden">
+										<label><b>Fast</b> <i>(no bottleneck)</i></label>
+									</div>
+								</div>
+								<div class="field">
+									<div class="ui radio checkbox">
+										<input type="radio" name="http-bottleneck" value="regular" class="hidden" checked>
+										<label><b>Regular</b> <i>(allow 20 http requests at a time)</i></label>
+									</div>
+								</div>
+								<div class="field">
+									<div class="ui radio checkbox">
+										<input type="radio" name="http-bottleneck" value="slow" class="hidden">
+										<label><b>Slow</b> <i>(allow 1 http request at a time)</i> </label>
+									</div>
+								</div>
+							</div>
+							<br>
+							<div class="grouped fields">
+								<label for="http-timeout">How accurate would you like http requests to be?</label>
+								<div class="field">
+									<div class="ui radio checkbox">
+										<input type="radio" name="http-timeout" value="highly-accurate" class="hidden">
+										<label><b>Highly accurate</b> <i>(<b>slow</b>; no timeout)</i></label>
+									</div>
+								</div>
+								<div class="field">
+									<div class="ui radio checkbox">
+										<input type="radio" name="http-timeout" value="accurate" class="hidden" checked>
+										<label><b>Accurate</b> <i>(<b>normal</b>; 15 seconds timeout)</i></label>
+									</div>
+								</div>
+								<div class="field">
+									<div class="ui radio checkbox">
+										<input type="radio" name="http-timeout" value="less-accurate" class="hidden">
+										<label><b>Less accurate</b> <i>(<b>fast</b>; 5 seconds timeout)</i> </label>
+									</div>
+								</div>
+							</div>
+							<br>
+						</div>
+						<div class="inline field">
+							<div class="ui toggle checkbox">
+								<input type="checkbox" name="pull" class="hidden" checked>
+								<label>Automatically pull updated data files from Github</label>
+							</div>
+						</div>
+						<div class="ui accordion">
+							<div class="title">
+								<i class="dropdown icon"></i> Advanced settings
+							</div>
+							<div class="content">
+								<div class="transition hidden">
+									<b>Warning: only change these fields if you know what you're doing!</b>
+									<br>
+									<h3>General</h3>
+									<div class="inline field">
+										<label>Port</label>
+										<input type="number" name="port" value="5111">
+									</div>
+									<h3>API Keys</h3>
+									<div class="field">
+										<label>Google Safebrowsing (see <a href="https://developers.google.com/safe-browsing/v4/get-started">here</a>)</label>
+										<input type="text" name="google-safebrowsing" placeholder="API_KEY">
+									</div>
+									<div class="field">
+										<label>VirusTotal (see <a href="https://www.virustotal.com/nl/documentation/public-api/">here</a>)</label>
+										<input type="text" name="virustotal" placeholder="API_KEY">
+									</div>
+									<div class="field">
+										<label>URLScan (see <a href="https://urlscan.io/about-api/">here</a>)</label>
+										<input type="text" name="urlscan" placeholder="API_KEY">
+									</div>
+									<div class="field">
+										<label>AbuseIPDB (see <a href="https://www.abuseipdb.com/api">here</a>)</label>
+										<input type="text" name="abuseipdb" placeholder="API_KEY">
+									</div>
+									<h3>Interval</h3>
+									<div class="ui segment">
+										<div class="ui inline field">
+											<label>Cache expiration time (minutes)</label>
+											<input type="number" name="cache-expiration" id="cache-expiration-input">
+										</div>
+										<div class="ui range" id="cache-expiration-range"></div>
+									</div>
+									<div class="ui segment">
+										<div class="ui inline field">
+											<label>Cache renewal check time (minutes)</label>
+											<input type="number" name="cache-renewal" id="cache-renewal-input">
+										</div>
+										<div class="ui range" id="cache-renewal-range"></div>
+									</div>
+									<div class="ui segment">
+										<div class="ui inline field">
+											<label>Database persist interval (seconds)</label>
+											<input type="number" name="database-persist" id="database-persist-input">
+										</div>
+										<div class="ui range" id="database-persist-range"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+						<br>
+						<div class="ui primary submit button">Submit</div>
+						<div class="ui negative button" id="reset-button">Reset</div>
+					</form>
+				<% } %>
+			</div>
+		</div>
+		<% include ../partials/footer.ejs %>
+		<script src="https://cdn.jsdelivr.net/npm/semantic-ui-range@1.0.1/range.js" integrity="sha256-oVHoyWNIpdPJH1uvuFOo1L6KvEtGqgldlDsvAi4/ryM=" crossorigin="anonymous"></script>
+		<script>
+		$('.ui.radio.checkbox').checkbox();
+		$('.ui.accordion').accordion();
+		$('.ui.checkbox').checkbox();
+		
+		$('#cache-expiration-range').range({
+			min: 5,
+			max: 180,
+			start: 120,
+			input: '#cache-expiration-input'
+		});
+		$('#cache-renewal-range').range({
+			min: 1,
+			max: 60,
+			start: 5,
+			input: '#cache-renewal-input'
+		});
+		$('#database-persist-range').range({
+			min: 5,
+			max: 6000,
+			start: 60,
+			input: '#database-persist-input'
+		});
+		
+		$("input[name='mode']").change(function() { 
+			if($(this).val() == 'full') {
+				$(".full-mode-options").fadeIn();
+			} else {
+				$(".full-mode-options").fadeOut();
+			}
+		});
+		
+		$(".ui.submit.button").click(() => {
+			$(".ui.form").addClass("loading");
+			$(".ui.form").submit();
+		});
+		
+		$("#reset-button").click(() => {
+			window.location.reload();
+		});
+		</script>
+	</body>
+</html>

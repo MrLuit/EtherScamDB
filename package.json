@@ -2,13 +2,15 @@
   "name": "etherscamdb",
   "version": "3.0.0",
   "license": "MIT",
+  "description": "Keeping track of all current ethereum scams in a large open-source database",
+  "author": "Luit",
   "preferGlobal": true,
-  "main": "./src/electron.js",
+  "main": "./src/scripts/electron.js",
   "scripts": {
     "start": "node src/app.js",
     "start:dev": "cross-env NODE_ENV=development DEBUG=* node src/app.js --trace-sync-io",
     "start:prod": "cross-env NODE_ENV=production DEBUG=-* node src/app.js",
-    "electron": "cross-env NODE_ENV=development DEBUG=* electron ./src/electron.js",
+    "electron": "cross-env NODE_ENV=development DEBUG=* electron ./src/scripts/electron.js",
     "build": "cross-env DEBUG=electron-builder node src/scripts/build.js",
     "build:windows": "cross-env DEBUG=electron-builder ELECTRON_OS=windows node src/scripts/build.js",
     "build:linux": "cross-env DEBUG=electron-builder ELECTRON_OS=linux node src/scripts/build.js",
@@ -27,7 +29,6 @@
     }
   },
   "dependencies": {
-    "body-parser": "^1.18.2",
     "bottleneck": "^2.6.0",
     "compression": "^1.7.3",
     "cross-env": "^5.2.0",
@@ -37,7 +38,6 @@
     "ejs": "^2.6.1",
     "eth-phishing-detect": "^1.1.12",
     "express": "^4.16.3",
-    "fs-extra": "^5.0.0",
     "js-yaml": "^3.9.0",
     "request": "^2.87.0",
     "serialijse": "^0.1.3",

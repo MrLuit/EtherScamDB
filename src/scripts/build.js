@@ -16,6 +16,8 @@ const shouldBuildOs = (os) => {
 	console.log('Building Electron apps...');
 	
 	rimraf.sync('./dist');
+	rimraf.sync('./config.json');
+	rimraf.sync('./cache.db');
 	
 	await builder.build({
 		mac: shouldBuildOs('mac') ? ['zip', 'dmg'] : undefined,
@@ -32,16 +34,16 @@ const shouldBuildOs = (os) => {
 			},
 			mac: {
 				category: 'public.app-category.utilities',
-				icon: './src/assets/icon.icns',
+				icon: './src/assets/favicon.icns',
 				compression: 'store'
 			},
 			win: {
-				icon: './src/assets/icon.ico',
+				icon: './src/assets/favicon.ico',
 				compression: 'store'
 			},
 			linux: {
 				category: 'Utilities',
-				icon: './src/assets/icon.png',
+				icon: './src/assets/favicon.png',
 				compression: 'store'
 			},
 			publish: null,

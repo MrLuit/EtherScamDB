@@ -1,11 +1,13 @@
-const fs = require('fs-extra');
-const path = require('path');
+const fs = require('fs');
 const debug = require('debug')('config');
 
-if (!fs.existsSync(path.join(__dirname,'../../config/config.js'))) {
-    fs.copySync(path.join(__dirname,'../../config/config.example.js'), path.join(__dirname,'../../config/config.js'));
-    debug('Config file was copied. Please update with correct values');
-    process.exit();
+if (!fs.existsSync('./config.json')) {
+	module.exports = {
+		port: 5111,
+		manual: false
+	}
 } else {
-	module.exports = require('../../config/config');
+	const config = JSON.parse(fs.readFileSync('./config.json','utf8'));
+	config.manual = true;
+	module.exports = config;
 }

@@ -28,12 +28,12 @@ const readEntries = async () => {
 	debug("Reading entries...");
 	const scamsFile = await fs.readFile(path.join(__dirname, '../../_data/scams.yaml'));
 	const verifiedFile = await fs.readFile(path.join(__dirname, '../../_data/legit_urls.yaml'));
-	const cacheExists = await fs.fileExists(path.join(__dirname, '../../_data/cache.db'));
+	const cacheExists = await fs.fileExists('./cache.db');
 	if(!cacheExists) {
 		yaml.safeLoad(scamsFile).map(entry => new Scam(entry)).forEach(entry => db.scams.push(entry));
 		yaml.safeLoad(verifiedFile).forEach(entry => db.verified.push(entry));
 	} else {
-		const cacheFile = await fs.readFile(path.join(__dirname, '../../_data/cache.db'));
+		const cacheFile = await fs.readFile('./cache.db');
 		Object.assign(db,serialijse.deserialize(cacheFile));
 		yaml.safeLoad(scamsFile).filter(entry => !db.scams.find(scam => scam.id == entry.id)).map(entry => new Scam(entry)).forEach(entry => db.scams.push(entry));
 		yaml.safeLoad(verifiedFile).filter(entry => !db.verified.find(verified => verified.id == entry.id)).forEach(entry => db.verified.push(entry));
@@ -57,7 +57,7 @@ const updateIndex = async () => {
 
 const exitHandler = () => {
 	console.log("Cleaning up...");
-	fs.writeFileSync(path.join(__dirname, '../../_data/cache.db'),serialijse.serialize(db));
+	fs.writeFileSync('./cache.db',serialijse.serialize(db));
 	console.log("Exited.");
 }
 
@@ -82,7 +82,7 @@ module.exports.write = (id,data) => {
 
 module.exports.persist = async () => {
 	debug("Persisting cache...");
-	await fs.writeFile(path.join(__dirname, '../../_data/cache.db'),serialijse.serialize(db));
+	await fs.writeFile('./cache.db',serialijse.serialize(db));
 }
 
 module.exports.exitHandler = exitHandler;
