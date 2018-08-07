@@ -18,12 +18,12 @@ process.on('disconnect', process.exit(1));
 
 	debug("Updating scams...");
 
-	await Promise.all(serialijse.deserialize(cacheFile).scams.sort((a,b) => b.id-a.id).filter(scam => scam.howRecent() > config.cache_refreshing_interval).map(async scam => {
-		await scam.getStatus();
-		const ip = await scam.getIP();
-		const nameservers = await scam.getNameservers();
+	await Promise.all(serialijse.deserialize(cacheFile).scams.sort((a,b) => b.id-a.id).filter(scam => scam.howRecent() > config.interval.cacheExpiration).map(async scam => {
+		if(config.lookups.HTTP.enabled) await scam.getStatus();
+		if(config.lookups.IP.enabled) const ip = await scam.getIP();
+		if(config.lookups.DNS.enabled) const nameservers = await scam.getNameservers();
 		
-		process.send({ id: scam.id, ip: ip, nameservers: nameservers, status: scam.status, statusCode: scam.statusCode, updated: Date.now() });
+		process.send({ id: scam.id, ip: ip || undefined, nameservers: nameservers || undefined, status: scam.status || undefined, statusCode: scam.statusCode || undefined, updated: Date.now() });
 	}));
 	
 	debug("Done updating!");

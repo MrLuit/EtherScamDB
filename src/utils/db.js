@@ -2,6 +2,7 @@ const fs = require('./fs');
 const yaml = require('js-yaml');
 const url = require('url');
 const path = require('path');
+const config = require('./config');
 const serialijse = require("serialijse");
 const createDictionary = require('./dictionary');
 const Scam = require('../classes/scam.class');
@@ -65,7 +66,7 @@ module.exports.init = async () => {
 	await readEntries();
 	await updateIndex();
 	await module.exports.persist();
-	setTimeout(module.exports.persist,5*60*1000);
+	setTimeout(module.exports.persist,config.interval.databasePersist);
 	process.stdin.resume();
 	process.once('beforeExit', exitHandler);
 	process.once('SIGINT', exitHandler);

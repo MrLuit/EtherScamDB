@@ -10,10 +10,12 @@ const writeConfig = require('./utils/writeConfig');
 const app = express();
 
 const updateScams = async () => {
-	debug("Spawning update process...");
-	const updateProcess = fork(path.join(__dirname,'scripts/update.js'));
-	updateProcess.on('message', data => db.write(data.id,data));
-	updateProcess.on('exit', () => setTimeout(updateScams,5*60*1000));
+	if(config.lookups.IP.enabled || config.lookups.DNS.enabled || config.lookups.HTTP.enabled) {
+		debug("Spawning update process...");
+		const updateProcess = fork(path.join(__dirname,'scripts/update.js'));
+		updateProcess.on('message', data => db.write(data.id,data));
+		updateProcess.on('exit', () => setTimeout(updateScams,config.interval.cacheRenewCheck));
+	}
 }
 
 const init = async (electronApp) => {

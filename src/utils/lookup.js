@@ -6,9 +6,9 @@ const debug = require('debug')('lookup');
 const Bottleneck = require('bottleneck');
 
 let options = {
-	minTime: 100,
-	maxConcurrent: 20,
-	timeoutAfter: 30*1000
+	minTime: config.lookups.HTTP.minTime,
+	maxConcurrent: config.lookups.HTTP.maxConcurrent,
+	timeoutAfter: config.lookups.HTTP.timeoutAfter
 };
 
 if('httpRequests' in config) options = config.httpRequests;
