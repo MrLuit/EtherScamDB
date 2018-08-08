@@ -6,7 +6,6 @@ WORKDIR /usr/src/EtherScamDB
 COPY package*.json ./
 RUN npm install --only=production
 COPY . .
-EXPOSE 80
 EXPOSE 5111
 
-CMD ["npm", "start:prod"]
+CMD ["npm", "run", "start:prod"]

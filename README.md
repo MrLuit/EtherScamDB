@@ -27,6 +27,12 @@ Then, open a command line anywhere and run the following commands:
 
 The electron app will now start!
 
+## Docker
+
+> docker build -t etherscamdb/web .
+
+> docker run -p 80:5111 -d etherscamdb/web
+
 ## Contribute
 
 Fork this project and edit `_data/data.yaml`. Every item can have the following properties:
