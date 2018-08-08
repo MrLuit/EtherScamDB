@@ -37207,3 +37207,54 @@
     category: Phishing
     subcategory: Gcox
     description: 'Fake Gcox crowdsale site'         
+-
+    id: 5121
+    name: xn--bnanc-r51bze.com
+    url: 'http://xn--bnanc-r51bze.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance - IDN homograph attack domain'  
+-
+    id: 5122
+    name: ycbit.net
+    url: 'http://ycbit.net'
+    category: Phishing
+    subcategory: Yobit
+    description: 'Suspcious Yobit (not deployed yet)'      
+-
+    id: 5123
+    name: kuccin.com
+    url: 'http://kuccin.com'
+    category: Phishing
+    subcategory: Kucoin
+    description: 'Suspcious Kucoin (not deployed yet)'          
+-
+    id: 5124
+    name: lnitbtc.com
+    url: 'http://lnitbtc.com'
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Suspcious Hitbtc (not deployed yet)'          
+-
+    id: 5125
+    name: www-nycryqto.com
+    url: 'http://www-nycryqto.com'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Suspcious MyCrypto (not deployed yet)'         
+-
+    id: 5126
+    name: www-nycryptos.com
+    url: 'http://www-nycryptos.com'
+    category: Phishing
+    subcategory: MyCrypto
+    description: 'Suspcious MyCrypto (not deployed yet)'     
+-
+    id: 5127
+    name: go.ethers.pw
+    url: 'http://go.ethers.pw'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xE5f08B41BC8e37EE5E5934d4A27e67e059370011'      
