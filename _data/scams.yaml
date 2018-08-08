@@ -36981,7 +36981,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'     
     addresses:
-      - '0xBb802918Bc1Ac6089315f951F2b60a1CC275c3Bb'           
+      - '0xBb802918Bc1Ac6089315f951F2b60a1CC275c3Bb'  
+      - '0xc86619343080fa921baaff201c91dbbe8ceffa9e'
 -
     id: 5095
     name: giftsforyou.online
@@ -37008,7 +37009,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'     
     addresses:
-      - '0xf77F1Dcf1A2b748797D807718a77173c668D4bf7'              
+      - '0xf77F1Dcf1A2b748797D807718a77173c668D4bf7'    
+      - '0x557a5C0B3ACBf9Fe59D5a079aa59c9C7ff481c87'
 -
     id: 5098
     name: smart-eth-contract.site
@@ -37041,3 +37043,167 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys'     
+-
+    id: 5102
+    name: airdropbox.site
+    url: 'http://airdropbox.site'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xEd8c8830cFC51F306C4765598cF3EE50ad8d978A'  
+-
+    id: 5103
+    name: ethereum-giveaway.top
+    url: 'http://ethereum-giveaway.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xcB3f9c4cD5D31B4D6DB04a63f5A414779cFe6Fc7'   
+      - '0x9DbF942bE15c70c4E1Fb8c0D1B53007377bCaa09'
+-
+    id: 5104
+    name: etherescan.net
+    url: 'http://etherescan.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x1707BC69d91F86A6000d318E85D07B00747152FE'         
+-
+    id: 5105
+    name: transaction.status-eth.top
+    url: 'http://transaction.status-eth.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x883d723B3F4a12EdD577A47f80DF9f2896Cd3cE7'          
+-
+    id: 5106
+    name: mediumblog.today
+    url: 'http://mediumblog.today'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x0CD4ea9B68CEd287Fc25923B071C0b1a0a14e9c6'        
+-
+    id: 5107
+    name: ethereum-airdop.com
+    url: 'http://ethereum-airdop.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xA59FC1920284607Dd1d95bCC43F821601fAeF7d3'         
+-
+    id: 5108
+    name: medium-blogpost.info
+    url: 'http://medium-blogpost.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xA59FC1920284607Dd1d95bCC43F821601fAeF7d3'    
+-
+    id: 5109
+    name: bonus.status-eth.top
+    url: 'http://bonus.status-eth.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x883d723B3F4a12EdD577A47f80DF9f2896Cd3cE7'      
+-
+    id: 5110
+    name: ethereum.smart.contract.myeltherwallet.ml
+    url: 'http://ethereum.smart.contract.myeltherwallet.ml'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST mail.php'     
+-
+    id: 5111
+    name: lelectrum.com
+    url: 'http://lelectrum.com'
+    category: Phishing
+    subcategory: Electrum
+    description: 'Fake Electrum site with dodgy download - https://www.virustotal.com/#/url/96d6354bd1f7b3859c7ee34c7638439c20700cf59bb762502da1ce1be4f32086/detection'   
+-
+    id: 5112
+    name: get.10keth.com
+    url: 'http://get.10keth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x88f8717A2B30041006E08e286af9F1E9671B5724'     
+-
+    id: 5113
+    name: 10keth.com
+    url: 'http://10keth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x88f8717A2B30041006E08e286af9F1E9671B5724'          
+-
+    id: 5114
+    name: airdrop-token.website
+    url: 'http://airdrop-token.website'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xe889b0d59fd4181857edb19f5fecafa8510f2fad'        
+-
+    id: 5115
+    name: ethvent.net
+    url: 'http://ethvent.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x335E40277f127c620560FaF1cfa001E5899864ad'         
+-
+    id: 5116
+    name: ethclaim.live
+    url: 'http://ethclaim.live'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x1b2f4abac29e739d8eb439a3f7fdef571f1d0e69'        
+-
+    id: 5117
+    name: claim.status-eth.top
+    url: 'http://claim.status-eth.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x883d723B3F4a12EdD577A47f80DF9f2896Cd3cE7'           
+-
+    id: 5118
+    name: my-followers.ml
+    url: 'http://my-followers.ml'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x02D1347ABE00beAA073058b1414722CdcC31aBB3'          
+-
+    id: 5119
+    name: gcox086.com
+    url: 'http://gcox086.com'
+    category: Phishing
+    subcategory: Gcox
+    description: 'Fake Gcox crowdsale site'      
+-
+    id: 5120
+    name: gcoxkorea.com
+    url: 'http://gcoxkorea.com'
+    category: Phishing
+    subcategory: Gcox
+    description: 'Fake Gcox crowdsale site'         
