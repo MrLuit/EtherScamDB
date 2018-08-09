@@ -24,7 +24,7 @@ const init = async (electronApp) => {
 	
 	/* Allow both JSON and URL encoded bodies */
 	app.use(express.json());
-	app.use(express.urlencoded());
+	app.use(express.urlencoded({ extended: true }));
     
 	/* Set EJS views */
 	app.set('view engine', 'ejs');
@@ -38,7 +38,9 @@ const init = async (electronApp) => {
 	
 	/* Configuration middleware */
 	app.use(async (req,res,next) => {
-		if(!config.manual && req.path != '/config/') res.render('config', { done: false });
+		const {NODE_ENV} = process.env;
+		if(!config.manual && req.path != '/config/' && NODE_ENV == 'development') res.render('config', { production: false, done: false });
+		else if(!config.manual && req.path != '/config/' && NODE_ENV == 'production')  res.render('config', { production: true, done: false });
 		else if(req.path == '/config' && (req.method != 'POST' || !req.body || config.manual)) res.status(403).end();
 		else if(req.path == '/config/' && req.method == 'POST' && !config.manual) {
 			await writeConfig(req.body);
@@ -46,7 +48,7 @@ const init = async (electronApp) => {
 				electronApp.relaunch();
 				electronApp.exit();
 			} else {
-				res.render('config', { done: true });
+				res.render('config', { production: false, done: true });
 			}
 		}
 		else next();
@@ -63,6 +65,8 @@ const init = async (electronApp) => {
 	
 	/* Update scams after 100ms timeout (to process async) */
 	setTimeout(updateScams,100);
+	
+	return updateScams;
 }
 
 module.exports = init;

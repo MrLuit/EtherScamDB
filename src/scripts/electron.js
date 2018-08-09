@@ -4,6 +4,7 @@ const config = require('../utils/config');
 const db = require('../utils/db');
 
 app.on('ready', async () => {
+	const updateScams = await require('../app')(app);
 	const mainWindow = new BrowserWindow({
 		icon: "./assets/favicon.ico",
 		titleBarStyle: 'hidden',
@@ -20,7 +21,7 @@ app.on('ready', async () => {
 		type: 'separator'
 	}, {
 		label: 'Add scam',
-		click: () => mainWindow.loadURL("data:text/html;charset=utf-8," + encodeURI('<pre>WIP</pre>'))
+		click: () => mainWindow.loadURL('http://localhost:' + config.port + '/add')
 	}, {
 		type: 'separator'
 	}, {
@@ -39,11 +40,15 @@ app.on('ready', async () => {
 		}, {
 			label: 'View config',
 			click: () => mainWindow.loadURL("data:text/html;charset=utf-8," + encodeURI('<pre>' + util.inspect(config) + '</pre>'))
+		}, {
+			label: 'Manually spawn update',
+			click: () => {
+				updateScams();
+				mainWindow.loadURL("data:text/html;charset=utf-8," + encodeURI('Spawned successfully.'));
+			}
 		}]
 	}]);
 	Menu.setApplicationMenu(windowMenu);
-	
-	await require('../app')(app);
 	mainWindow.loadURL('http://localhost:' + config.port);
 	mainWindow.once('ready-to-show', () => {
 		mainWindow.maximize();

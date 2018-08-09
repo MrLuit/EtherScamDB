@@ -8,6 +8,7 @@ const crypto = require('crypto');
 const download = require('download-file');
 const config = require('./config');
 const router = express.Router();
+const isIpPrivate = require('private-ip');
 const {getGoogleSafeBrowsing} = require('./lookup');
 
 /* Homepage */
@@ -33,6 +34,7 @@ router.get('/report/address/:address', (req, res) => res.render('report', {
 /* IP pages */
 router.get('/ip/:ip', (req, res) => res.render('ip', {
 	ip: req.params.ip,
+	isPrivate: isIpPrivate(req.params.ip),
 	related: (db.read().index.ips[req.params.ip] || [])
 }));
 
@@ -41,6 +43,13 @@ router.get('/address/:address', (req, res) => res.render('address', {
 	address: req.params.address,
 	related: (db.read().index.addresses[req.params.address] || [])
 }));
+
+/* (dev) Add scam page */
+router.get('/add/', (req,res) => {
+	const {NODE_ENV} = process.env;
+	if(NODE_ENV === 'development') res.render('add');
+	else res.send(403).end();
+});
 
 /* Domain pages */
 router.get('/domain/:url', async (req, res) => {

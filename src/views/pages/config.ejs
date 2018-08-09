@@ -15,7 +15,9 @@
 				<h1>Configuration</h1>
 				<br>
 				<br>
-				<% if(done) { %>
+				<% if(production) { %>
+					<p>Because your app was launched into production mode, the configuration process cannot be started. Please relaunch into development mode or manually create the config.json</p>
+				<% } else if(done) { %>
 					<p>Your preferred configuration was saved successfully. Please restart this application for changes to apply.</p>
 				<% } else { %>
 					<form class="ui form" action="/config/" method="POST">
