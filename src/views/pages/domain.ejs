@@ -106,9 +106,28 @@ Not yet blocked
 <% } %>
 </span><br>
 <% } %>
+<% if(googleSafeBrowsing !== undefined) { %>
+<% if(googleSafeBrowsing === false) { %>
 <b>Google Safe Browsing Status</b>: <span class="class_active green"> Not Blocked Yet</span> <a target="_blank" href="https://safebrowsing.google.com/safebrowsing/report_phish/"><i class="warning sign icon"></i></a><br>
-<b>VirusTotal Detections</b>: <span class="class_inactive"> Could not pull data from VirusTotal</span><br>
-<b>Phishtank Detected</b>: <span class="class_inactive"> Could not pull data from Phishtank</span><br>
+<% } else { %>
+<b>Google Safe Browsing Status</b>: <span class='class_offline'>Blocked for <%= googleSafeBrowsing.threatType %></span><br>
+<% } %>
+<% } %>
+
+<% if(virusTotal !== undefined) { %>
+<% if(virusTotal.positives == 0) { %>
+<b>VirusTotal Detections</b>: <span class='class_offline'><%= virusTotal.positives %>/<%= virusTotal.total %></span><br>
+<% } else { %>
+<b>VirusTotal Detections</b>: <span class='class_active'><%= virusTotal.positives %>/<%= virusTotal.total %></span><i class='warning sign icon'></i><br>
+<% } %>
+<% if (virusTotal.scans.Phishtank.result == "clean site") { %>
+<b>Phishtank Detected</b>: <span class='class_offline'>Clean Site</span><br>
+<% } else if(virusTotal.scans.Phishtank.result == "phishing site") { %>
+<b>Phishtank Detected</b>: <span class='class_active'>Phishing Site</span><br>
+<% } else { %>
+<b>Phishtank Detected</b>: <span class='class_active'><%= virusTotal.scans.Phishtank.result %></span><br>
+<% } %>
+<% } %>
 <b>Urlscan Scan Results</b>: <a style="text-color:green" href="https://urlscan.io/result/ffb89235-11dd-48b7-a5d0-58bb2e543f02" target="_blank">Link</a><br><br>
 
 <% if(result && result.nameservers) { %>

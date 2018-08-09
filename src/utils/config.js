@@ -44,5 +44,10 @@ if (!fs.existsSync('./config.json')) {
 } else {
 	const config = JSON.parse(fs.readFileSync('./config.json','utf8'));
 	config.manual = true;
+	if(!config.apiKeys.Google_SafeBrowsing) debug("Warning: No Google SafeBrowsing API key found");
+	if(!config.apiKeys.Github_WebHook) debug("Warning: No Github webhook secret found");
+	if(!config.apiKeys.VirusTotal) debug("Warning: No VirusTotal API key found");
+	if(!config.apiKeys.URLScan) debug("Warning: No URLScan API key found");
+	if(!config.apiKeys.AbuseIPDB) debug("Warning: No AbuseIPDB API key found");
 	module.exports = config;
 }

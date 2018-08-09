@@ -8,6 +8,7 @@ const crypto = require('crypto');
 const download = require('download-file');
 const config = require('./config');
 const router = express.Router();
+const {getGoogleSafeBrowsing} = require('./lookup');
 
 /* Homepage */
 router.get('/(/|index.html)?', (req, res) => res.render('index'));
@@ -42,15 +43,21 @@ router.get('/address/:address', (req, res) => res.render('address', {
 }));
 
 /* Domain pages */
-router.get('/domain/:url', (req, res) => {
+router.get('/domain/:url', async (req, res) => {
 	const startTime = Date.now();
 	const {hostname} = url.parse('http://' + req.params.url.replace('http://','').replace('https://'));
 	const scamEntry = db.read().scams.find(scam => scam.getHostname() == hostname);
 	const verifiedEntry = db.read().verified.find(verified => url.parse(verified.url).hostname == hostname);
+	
+	let googleSafeBrowsing = undefined;
+	let virusTotal = undefined;
+	
+	if((scamEntry || !verifiedEntry) && config.apiKeys.Google_SafeBrowsing) googleSafeBrowsing = await getGoogleSafeBrowsing(hostname);
+	if((scamEntry || !verifiedEntry) && config.apiKeys.VirusTotal) virusTotal = await virusTotal(hostname);
 		
-	if(verifiedEntry) res.render('domain', { type: 'verified', result: verifiedEntry, domain: hostname, metamask: false, startTime: startTime, dateFormat: dateFormat });
-	else if(scamEntry) res.render('domain', { type: 'scam', result: scamEntry, domain: hostname, metamask: checkForPhishing(hostname), startTime: startTime, dateFormat: dateFormat, abuseReport: generateAbuseReport(scamEntry) });
-	else res.render('domain', { type: 'neutral', domain: hostname, result: false, metamask: checkForPhishing(hostname), addresses: [], startTime: startTime });
+	if(verifiedEntry) res.render('domain', { type: 'verified', result: verifiedEntry, domain: hostname, metamask: false, googleSafeBrowsing: googleSafeBrowsing, virusTotal: virusTotal, startTime: startTime, dateFormat: dateFormat });
+	else if(scamEntry) res.render('domain', { type: 'scam', result: scamEntry, domain: hostname, metamask: checkForPhishing(hostname), googleSafeBrowsing: googleSafeBrowsing, virusTotal: virusTotal, startTime: startTime, dateFormat: dateFormat, abuseReport: generateAbuseReport(scamEntry) });
+	else res.render('domain', { type: 'neutral', domain: hostname, result: false, metamask: checkForPhishing(hostname), googleSafeBrowsing: googleSafeBrowsing, virusTotal: virusTotal, addresses: [], startTime: startTime });
 });
 
 /* Scams index */
