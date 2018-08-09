@@ -1,10 +1,11 @@
 {
   "name": "etherscamdb",
   "version": "3.0.0",
-  "license": "MIT",
   "description": "Keeping track of all current ethereum scams in a large open-source database",
+  "keywords": "ethereum, ether, scam, scamming, phishing, database",
+  "homepage": "https://etherscamdb.info"
+  "license": "MIT",
   "author": "Luit",
-  "preferGlobal": true,
   "main": "./src/scripts/electron.js",
   "scripts": {
     "start": "node src/app.js",
@@ -16,7 +17,7 @@
     "build:linux": "cross-env DEBUG=electron-builder ELECTRON_OS=linux node src/scripts/build.js",
     "build:osx": "cross-env DEBUG=electron-builder ELECTRON_OS=osx node src/scripts/build.js",
     "test": "mocha tests --recursive",
-    "clean": "rimraf _data/cache.db node_modules dist"
+    "clean": "rimraf cache.db node_modules dist config.json"
   },
   "repository": {
     "type": "git",
