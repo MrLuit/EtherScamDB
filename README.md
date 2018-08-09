@@ -6,10 +6,7 @@
 
 ## Why should I run it myself?
 
-Running it yourself will mean you can have your own instance of EtherScamDb so you will have a GUI and an API in case for 
-whatever reason the etherscamdb.info domain is down. This is important to know as products start integrating with our APIs 
-and you will want to have the option of privacy - for example, checking our APIs for specific addresses especially in an 
-integration where we are checking if the address is blacklisted could be a privacy concern for you.
+Running it yourself will mean you can have your own instance of EtherScamDb so you will have a GUI and an API in case for whatever reason the etherscamdb.info domain is down. This is important to know as products start integrating with our APIs and you will want to have the option of privacy - for example, checking our APIs for specific addresses especially in an integration where we are checking if the address is blacklisted could be a privacy concern for you.
 
 ## Usage
 
