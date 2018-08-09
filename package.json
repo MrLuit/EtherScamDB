@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "description": "Keeping track of all current ethereum scams in a large open-source database",
   "keywords": "ethereum, ether, scam, scamming, phishing, database",
-  "homepage": "https://etherscamdb.info"
+  "homepage": "https://etherscamdb.info",
   "license": "MIT",
   "author": "Luit",
   "main": "./src/scripts/electron.js",
