@@ -9,12 +9,12 @@ const config = require('../utils/config');
 serialijse.declarePersistable(Scam);
 if(!process.send) throw new Error("This script can only run as a child process");
 
-process.on('disconnect', process.exit(1));
+process.once('close', () => process.exit(1));
 
 (async () => {
 	const cacheExists = await fs.pathExists('./cache.db');
 	if(!cacheExists) throw new Error("No cache file found");
-	const cacheFile = await fs.readFile('./cache.db');
+	const cacheFile = await fs.readFile('./cache.db','utf8');
 
 	debug("Updating scams...");
 
@@ -25,10 +25,10 @@ process.on('disconnect', process.exit(1));
 		
 		process.send({
 			url: scam.url,
-			ip: scam.ip || undefined,
-			nameservers: scam.nameservers || undefined,
-			status: scam.status || undefined,
-			statusCode: scam.statusCode || undefined,
+			ip: scam.ip,
+			nameservers: scam.nameservers,
+			status: scam.status,
+			statusCode: scam.statusCode,
 			updated: Date.now()
 		});
 	}));

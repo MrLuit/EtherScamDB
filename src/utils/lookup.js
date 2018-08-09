@@ -1,21 +1,11 @@
 const request = require('request');
 const config = require('./config');
-const {parse} = require('url');
-const dns = require('dns');
 const debug = require('debug')('lookup');
 const Bottleneck = require('bottleneck');
 
-let options = {
-	minTime: config.lookups.HTTP.minTime,
-	maxConcurrent: config.lookups.HTTP.maxConcurrent,
-	timeoutAfter: config.lookups.HTTP.timeoutAfter
-};
-
-if('httpRequests' in config) options = config.httpRequests;
-
 const limiter = new Bottleneck({
-	minTime: options.minTime,
-	maxConcurrent: options.maxConcurrent
+	minTime: config.lookups.HTTP.minTime,
+	maxConcurrent: config.lookups.HTTP.maxConcurrent
 });
 
 module.exports.lookup = limiter.wrap(url => {
@@ -23,7 +13,7 @@ module.exports.lookup = limiter.wrap(url => {
 		debug('Requesting ' + url + '...');
 		request({
 			url: url,
-			timeout: options.timeoutAfter,
+			timeout: config.lookups.HTTP.timeoutAfter,
 			followAllRedirects: true,
 			maxRedirects: 5
 		}, (err, response, body) => {

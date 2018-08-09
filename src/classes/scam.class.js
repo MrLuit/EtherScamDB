@@ -3,25 +3,12 @@ const dns = require('graceful-dns');
 const {lookup,getURLScan} = require('../utils/lookup');
 
 module.exports = class Scam {
-	constructor(scamObject) {
-		this.url = null;
-		this.category = null;
-		this.subcategory = null;
-		this.description = null;
-		this.addresses = null;
-		this.ip = null;
-		this.nameservers = null;
-		this.status = null;
-		this.updated = 0;
-		
-		if(scamObject) {
-			this.url = scamObject.url;
-		
-			if(scamObject.category) this.category = scamObject.category;
-			if(scamObject.subcategory) this.subcategory = scamObject.subcategory;
-			if(scamObject.description) this.description = scamObject.description;
-			if(scamObject.addresses) this.addresses = scamObject.addresses;
-		}
+	constructor(scamObject = {}) {
+		if(scamObject.url) this.url = scamObject.url;
+		if(scamObject.category) this.category = scamObject.category;
+		if(scamObject.subcategory) this.subcategory = scamObject.subcategory;
+		if(scamObject.description) this.description = scamObject.description;
+		if(scamObject.addresses) this.addresses = scamObject.addresses;
 	}
 	
 	async lookup() {
@@ -80,6 +67,6 @@ module.exports = class Scam {
 	}
 	
 	howRecent() {
-		return Date.now()-this.updated;
+		return Date.now()-(this.updated || 0);
 	}
 }

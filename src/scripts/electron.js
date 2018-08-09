@@ -5,7 +5,7 @@ const db = require('../utils/db');
 
 app.on('ready', async () => {
 	const mainWindow = new BrowserWindow({
-		icon: "./src/assets/favicon.ico",
+		icon: "./assets/favicon.ico",
 		titleBarStyle: 'hidden',
 		webPreferences: {
 			nodeIntegration: false
@@ -14,7 +14,7 @@ app.on('ready', async () => {
 		darkTheme: true
 	});
 	const windowMenu = Menu.buildFromTemplate([{
-		label: 'Main',
+		label: 'Home',
 		click: () => mainWindow.loadURL('http://localhost:' + config.port)
 	}, {
 		type: 'separator'
