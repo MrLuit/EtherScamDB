@@ -30,6 +30,7 @@
     }
   },
   "dependencies": {
+    "array-object-dictionary": "^1.0.0",
     "bottleneck": "^2.6.0",
     "compression": "^1.7.3",
     "cross-env": "^5.2.0",
@@ -39,6 +40,8 @@
     "ejs": "^2.6.1",
     "eth-phishing-detect": "^1.1.12",
     "express": "^4.16.3",
+    "fs-extra": "^7.0.0",
+    "graceful-dns": "^1.1.0",
     "js-yaml": "^3.9.0",
     "request": "^2.87.0",
     "serialijse": "^0.1.3",

@@ -1,8 +1,5 @@
 const {app, BrowserWindow, Menu} = require('electron');
 const util = require('util');
-const fs = require('../utils/fs');
-const path = require('path');
-const serialijse = require("serialijse");
 const config = require('../utils/config');
 const db = require('../utils/db');
 

@@ -1,4 +1,4 @@
-const fs = require('./fs');
+const fs = require('fs-extra');
 
 module.exports = async (options) => {
 	let httpMinTime = null;
@@ -58,5 +58,5 @@ module.exports = async (options) => {
 			}
 		}
 	}
-	await fs.writeFile('./config.json',JSON.stringify(config,null,4));
+	await fs.writeJson('./config.json',config,{ spaces: 4 });
 }

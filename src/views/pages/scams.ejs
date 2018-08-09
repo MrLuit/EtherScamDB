@@ -118,10 +118,10 @@
 					<td>Unknown</td>
 				<% } %>
 				
-				<% if(scam.name.length > 40) { %>
-					<td><%= scam.name.substring(0, 40) %>...</td>
+				<% if(scam.getHostname().length > 40) { %>
+					<td><%= scam.getHostname().substring(0, 40) %>...</td>
 				<% } else { %>
-					<td><%= scam.name %></td>
+					<td><%= scam.getHostname() %></td>
 				<% } %>
 				
 				<td class='center'>

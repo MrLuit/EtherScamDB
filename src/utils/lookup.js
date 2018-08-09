@@ -44,23 +44,3 @@ module.exports.getURLScan = (url) => {
 		});
 	});
 }
-
-module.exports.getIP = (url) => {
-	return new Promise(resolve => {
-		const {hostname} = parse(url);
-		dns.lookup(hostname, (error, address) => {
-			if(error) resolve(undefined);
-			else resolve(address);
-		});
-	});
-}
-
-module.exports.getNameservers = (url) => {
-	return new Promise(resolve => {
-		const {hostname} = parse(url);
-		dns.resolveNs(hostname, (error, addresses) => {
-			if(error) resolve(undefined);
-			else resolve(addresses);
-		});
-	});
-}

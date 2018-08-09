@@ -1,10 +1,9 @@
 const {parse} = require('url');
-const {lookup,getIP,getURLScan,getNameservers} = require('../utils/lookup');
+const dns = require('graceful-dns');
+const {lookup,getURLScan} = require('../utils/lookup');
 
 module.exports = class Scam {
 	constructor(scamObject) {
-		this.id = null;
-		this.name = null;
 		this.url = null;
 		this.category = null;
 		this.subcategory = null;
@@ -16,17 +15,12 @@ module.exports = class Scam {
 		this.updated = 0;
 		
 		if(scamObject) {
-			this.id = scamObject.id;
-			this.name = scamObject.name;
 			this.url = scamObject.url;
 		
 			if(scamObject.category) this.category = scamObject.category;
 			if(scamObject.subcategory) this.subcategory = scamObject.subcategory;
 			if(scamObject.description) this.description = scamObject.description;
 			if(scamObject.addresses) this.addresses = scamObject.addresses;
-			/*if(scamObject.ip) this.ip = scamObject.ip;
-			if(scamObject.nameservers) this.nameservers = scamObject.nameservers;
-			if(scamObject.status) this.status = scamObject.status;*/
 		}
 	}
 	
@@ -39,12 +33,12 @@ module.exports = class Scam {
 	}
 	
 	async getIP() {
-		this.ip = await getIP(this.url);
+		this.ip = await dns.getIP(this.url);
 		return this.ip;
 	}
 	
 	async getNameservers() {
-		this.nameservers = await getNameservers(this.url);
+		this.nameservers = await dns.getNS(this.url);
 		return this.nameservers;
 	}
 	

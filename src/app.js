@@ -13,7 +13,7 @@ const updateScams = async () => {
 	if(config.lookups.IP.enabled || config.lookups.DNS.enabled || config.lookups.HTTP.enabled) {
 		debug("Spawning update process...");
 		const updateProcess = fork(path.join(__dirname,'scripts/update.js'));
-		updateProcess.on('message', data => db.write(data.id,data));
+		updateProcess.on('message', data => db.write(data.url,data));
 		updateProcess.on('exit', () => setTimeout(updateScams,config.interval.cacheRenewCheck));
 	}
 }

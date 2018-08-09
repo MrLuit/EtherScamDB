@@ -41,18 +41,11 @@ router.get('/address/:address', (req, res) => res.render('address', {
 	related: (db.read().index.addresses[req.params.address] || [])
 }));
 
-/* Scam pages (deprecated) */
-router.get('/scam/:id', (req, res) => {
-	const entry = db.read().scams.find(scam => scam.id == req.params.id);
-	if(entry) res.redirect('/domain/' + encodeURIComponent(entry.name));
-	else res.status(404).render('404');
-});
-
 /* Domain pages */
 router.get('/domain/:url', (req, res) => {
 	const startTime = Date.now();
 	const {hostname} = url.parse('http://' + req.params.url.replace('http://','').replace('https://'));
-	const scamEntry = db.read().scams.find(scam => scam.name == hostname);
+	const scamEntry = db.read().scams.find(scam => scam.getHostname() == hostname);
 	const verifiedEntry = db.read().verified.find(verified => url.parse(verified.url).hostname == hostname);
 		
 	if(verifiedEntry) res.render('domain', { type: 'verified', result: verifiedEntry, domain: hostname, metamask: false, startTime: startTime, dateFormat: dateFormat });
@@ -64,13 +57,13 @@ router.get('/domain/:url', (req, res) => {
 router.get('/scams/:page?/:sorting?/', (req, res) => {
 	const MAX_RESULTS_PER_PAGE = 30;
 	const scamList = [];
-	let scams = db.read().scams.sort((a,b) => b.id-a.id);
+	let scams = db.read().scams.reverse();
 	let index = [0,MAX_RESULTS_PER_PAGE];
 		
 	if(req.params.page && (req.params.page != 'all' && (!isFinite(parseInt(req.params.page)) || isNaN(parseInt(req.params.page)) || parseInt(req.params.page) < 0))) {
 		res.status(404).render('404');
 	} else {
-		if (req.params.sorting == 'oldest') scams = db.read().scams.sort((a,b) => a.id-b.id)
+		if (req.params.sorting == 'oldest') scams = db.read().scams;
 		else if (req.params.sorting == 'status') scams = db.read().scams;
 		else if (req.params.sorting == 'category') scams = db.read().scams;
 		else if (req.params.sorting == 'subcategory') scams = db.read().scams;
