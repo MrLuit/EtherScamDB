@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<% include ../partials/header.ejs %>
+	</head>
+	<body>
+		<div class="ui body container">
+			<div class="ui segment" style="padding: 5%;">
+				<h1>Add scam</h1>
+				<br>
+				<form class="ui form" action="/add" method="POST">
+					<div class="field">
+						<label>URL</label>
+						<input type="text" name="url" placeholder="http://fake-mycrypto.com">
+					</div>
+					<div class="field">
+						<label>Category</label>
+						<input type="text" name="category" placeholder="Phishing">
+					</div>
+					<div class="field">
+						<label>Subcategory</label>
+						<input type="text" name="subcategory" placeholder="MyCrypto">
+					</div>
+					<div class="field">
+						<label>Description</label>
+						<textarea name="description" rows="2" placeholder="Posing as MyCrypto support"></textarea>
+					</div>
+					<div class="field">
+						<label>Addresses (separated by newline)</label>
+						<textarea name="addresses" rows="3" placeholder="0x0000000000000000000000000000000000000000
+0x0000000000000000000000000000000000000000"></textarea>
+					</div>
+					<br>
+					<br>
+					<div class="ui primary submit button">Add</div>
+					<div class="ui negative button" id="reset-button">Reset</div>
+				</form>
+			</div>
+		</div>
+		<% include ../partials/footer.ejs %>
+		<script src="https://cdn.jsdelivr.net/npm/semantic-ui-range@1.0.1/range.js" integrity="sha256-oVHoyWNIpdPJH1uvuFOo1L6KvEtGqgldlDsvAi4/ryM=" crossorigin="anonymous"></script>
+		<script>
+		
+		$(".ui.submit.button").click(() => {
+			$(".ui.form").addClass("loading");
+			$(".ui.form").submit();
+		});
+		
+		$("#reset-button").click(() => {
+			window.location.reload();
+		});
+		</script>
+	</body>
+</html>

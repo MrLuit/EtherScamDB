@@ -1,0 +1,39 @@
+.ui.body.container {
+  padding-top: 7em;
+  min-height: 100%;
+  padding-bottom: 7%;
+}
+
+.ui.fixed.inverted.menu {
+  height: 55px;
+}
+
+.item {
+  padding-top: .2em;
+  margin-left: .1em;
+}
+
+.ui.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 110px;
+  margin-top: -110px !important;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-item-container {
+  display: inline-flex;
+}
+
+#footer-item-img {
+  height: 75px;
+  width: 178px;
+}
+
+.footer-cont:nth-child(odd) > p {
+  padding-top: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+}

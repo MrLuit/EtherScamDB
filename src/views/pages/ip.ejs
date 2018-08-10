@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<% include ../partials/header.ejs %>
+	</head>
+	<body>
+		<% include ../partials/navbar.ejs %>
+		<div class="ui body container">
+			<% if(isPrivate) { %>
+			<div class="ui floating negative icon message">
+				<i class="exclamation triangle icon"></i>
+				<div class="content">
+					<div class="header">
+						Warning
+					</div>
+					<p>This is a private IP address, and is only used in internal network environments. Any abusive activity you see coming from an internal IP is either coming from within your network itself, or is the result of an error or misconfiguration.</p>
+				</div>
+			</div>
+			<% } %>
+			<h1><%= ip %></h1>
+			<b>Location</b>: <span id="location">loading...</span><br />
+			<b>AbuseIPDB:</b> <span id="ipabuseip"><a href="https://www.abuseipdb.com/check/<%= ip %>" target="_blank">View Report</a></span> <br />
+			<b>URLScan:</b> <span id="urlscanip"><a href="https://urlscan.io/ip/<%= ip %>" target="_blank">View Report</a></span> <br /> <br />
+			<b>Related to the following domains (<%= related.length %>)</b>: 
+			<% if(related.length > 0) { %>
+				<div class="ui bulleted list">
+					<% related.forEach(entry => { %>
+						<div class='item'>
+							<a href='/domain/<%= entry.name %>/'><%= entry.name %>
+						</div>
+					<% }); %>
+				</div>
+			<% } else { %>
+				<i>(none)</i>
+			<% } %>
+			<div class="ui divider"></div>
+			<div id="map"></div>
+		</div>
+		<% include ../partials/footer.ejs %>
+		<script src="/js/ip.js"></script>
+	</body>
+</html>

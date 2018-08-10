@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<% include ../partials/header %>
+<% if(typeof domain !== "undefined") { %>
+<link rel="stylesheet" href="/css/reportdomain.css">
+<% } else if(typeof address !== "undefined") { %>
+<link rel="stylesheet" href="/css/reportaddress.css">
+<% } else { %>
+<link rel="stylesheet" href="/css/report.css">
+<% } %>
+</head>
+
+<body>
+	<% include ../partials/navbar %>
+    <div class="ui body container">
+<div class="question1">
+    <h2 class="report"><i class="flag outline icon"></i> Report</h2>
+    <div class="ui centered grid">
+        <div class="ui raised segment question">
+            <h1>Has any of your money been stolen?</h1>
+        </div>
+    </div>
+
+    <div class="actions">
+        <button id="1yes" class="ui spacing big positive button">
+            Yes, it was
+        </button>
+
+        <button id="1notsure" class="ui spacing big primary button">
+            I'm not sure
+        </button>
+
+        <button id="1no" class="ui spacing big negative button">
+            No - I want to report an address/website
+        </button>
+
+    </div>
+</div>
+<div class="question2a">
+    <h2 class="question">Addresses</h2>
+    <div class="ui centered align grid addr">
+        <div class="ui long labeled input question2">
+            <div class="ui black label">
+                Your wallet address:
+            </div>
+            <input type="text" id="from" placeholder="0x0000000000000000000000000000000000000000" maxlength="42">
+        </div>
+    </div>
+    <div class="ui centered align grid addr">
+        <div class="ui form">
+            <div class="field">
+                <label>All addresses that the attacker used to get money out of your wallet (one address per line)</label>
+                <textarea id="to" rows="5"></textarea>
+            </div>
+        </div>
+    </div>
+    <div class="actions">
+        <button id="2returna" class="ui spacing big primary icon button">
+            <i class="angle left icon"></i>Back
+        </button>
+        <button id="2senda" class="ui spacing big primary icon button">
+            Continue<i class="angle right icon"></i>
+        </button>
+    </div>
+</div>
+<div class="question2b">
+    <h2 class="question">Address Information</h2>
+    <h3>If you're not sure, please <a target="_blank" href="https://support.mycrypto.com/getting-started/creating-a-new-wallet-on-mycrypto.html">create a new wallet</a> at <a target="_blank" href="https://mycrypto.com/">mycrypto.com</a> and send all your funds to your new wallet.</h3>
+    <h3>Before continuing you can check if any of your money was stolen by entering your old address in <a href="https://etherscan.io">https://etherscan.io</a> and see if you notice any weird outgoing transactions.</h3>
+    <div class="actions">
+        <button id="2sendb" class="ui spacing large primary button">
+            Continue
+        </button>
+    </div>
+</div>
+<div class="question3">
+    <h2>Check your browsing history <sup><a href="#" id="3notsure2"><i class="help circle icon"></i></a></sup></h2>
+    <div class="ui centered grid">
+        <div class="ui raised segment question">
+            <h1>Have you entered your private key on any site different than mycrypto.com?</h1>
+        </div>
+    </div>
+    <div class="actions">
+        <button id="3yes" class="ui spacing large positive button">
+            Yes, report a phishing domain
+        </button>
+
+        <button id="3notsure" class="ui spacing large primary button">
+            I'm not sure
+        </button>
+
+        <button id="3no" class="ui spacing large negative button">
+            No, I have not
+        </button>
+
+    </div>
+</div>
+<div class="question4a">
+    <div class="ui centered grid">
+        <div class="ui raised segment question">
+            <h1>On what website have you entered your private key?</h1>
+        </div>
+    </div>
+    <div class="ui centered grid">
+        <div class="ui labeled input question2">
+            <div class="ui black label">
+                Website:
+            </div>
+            <input type="text" id="privdomain" placeholder="fake-mycrypto.com">
+        </div>
+    </div>
+    <div class="actions">
+        <button id="4returna" class="ui spacing big primary icon button">
+            <i class="angle left icon"></i>Back
+        </button>
+        <button id="4senda" class="ui spacing big primary icon button">
+            Send<i class="angle right icon"></i>
+        </button>
+    </div>
+</div>
+<div class="question4b">
+    <h2 class="question">Browsing history</h2>
+    <h3>To check your browsing history, use CTRL + H (Windows) or Command + Shift + H (macOS)</h3>
+    <h3>See if you notice any domains that are slightly different then expected. Things like mycrypto.co instead of .com or mycyrpto instead of mycrypto</h3>
+    <div class="actions">
+        <button id="4sendb" class="ui spacing large primary button">
+            Continue
+        </button>
+    </div>
+</div>
+<div class="question5">
+    <div class="ui centered grid">
+        <div class="ui raised segment question">
+            <h1>Have you sent funds to a wrong address?</h1>
+        </div>
+    </div>
+    <div class="actions">
+        <button id="5yes" class="ui spacing large positive button">
+            Yes, report a fake source
+        </button>
+
+        <button id="5no" class="ui spacing large negative button">
+            No, I have not
+        </button>
+
+    </div>
+</div>
+<div class="question6">
+    <h2>Unfortunately there is no way to refund your funds.</h2>
+    <div class="ui centered grid">
+        <div class="ui raised segment question">
+            <h1>Where did you find the address you sent funds to?</h1>
+        </div>
+    </div>
+    <div class="actions">
+        <button id="6website" class="ui spacing large primary button">
+            A website
+        </button>
+
+        <button id="6message" class="ui spacing large primary button">
+            A personal message
+        </button>
+
+        <button id="6else" class="ui spacing large primary button">
+            Somewhere else
+        </button>
+
+    </div>
+</div>
+<div class="question7a">
+    <div class="ui centered grid">
+        <div class="ui raised segment question">
+            <h1>What website did you find the address?</h1>
+        </div>
+    </div>
+    <div class="ui centered grid">
+        <div class="ui labeled input question2">
+            <div class="ui black label">
+                Website:
+            </div>
+            <input type="text" id="addresswebsite" placeholder="fake-mycrypto.com">
+        </div>
+    </div>
+    <div class="actions">
+        <button id="7senda" class="ui spacing big primary icon button">
+            Send<i class="angle right icon"></i>
+        </button>
+    </div>
+</div>
+<div class="question7b">
+    <div class="ui centered grid">
+        <div class="ui raised segment question">
+            <h1>What message was sent to you?</h1>
+        </div>
+    </div>
+    <h2>Include details like name of user, platform, etc.</h2>
+    <div class="ui form">
+        <div class="field">
+            <label>Message</label>
+            <textarea id="addressmessage" rows="5"></textarea>
+        </div>
+    </div>
+    <div class="actions">
+        <button id="7sendb" class="ui spacing big primary icon button">
+            Continue<i class="angle right icon"></i>
+        </button>
+    </div>
+</div>
+<div class="question7c">
+    <div class="ui centered grid">
+        <div class="ui raised segment question">
+            <h1>Where did you find the address?</h1>
+        </div>
+    </div>
+    <div class="ui form question2">
+        <div class="field">
+            <textarea id="addressunique" rows="5"></textarea>
+        </div>
+    </div>
+    <div class="actions">
+        <button id="7returnc" class="ui spacing big primary icon button">
+            <i class="angle left icon"></i>Back
+        </button>
+        <button id="7sendc" class="ui spacing big primary icon button">
+            Send<i class="angle right icon"></i>
+        </button>
+    </div>
+</div>
+<div class="question8">
+    <div class="ui centered grid">
+        <div class="ui raised segment question">
+            <h1>Do you want to report a domain or an address?</h1>
+        </div>
+    </div>
+    <div class="actions">
+        <button id="8domain" class="ui spacing large primary button">
+            A domain
+        </button>
+
+        <button id="8address" class="ui spacing large primary button">
+            An address
+        </button>
+
+        <button id="8else" class="ui spacing large primary button">
+            Something else
+        </button>
+    </div>
+</div>
+<div class="question9a">
+    <div class="ui centered grid">
+        <div class="ui raised segment question">
+            <h1>What malicious domain would you like to report?</h1>
+        </div>
+    </div>
+    <div class="ui centered align grid addr">
+        <div class="ui labeled input question2">
+            <div class="ui black label">
+                Domain:
+            </div>
+			<% if(typeof domain !== "undefined") { %>
+				<input type="text" id="gendomain" value="<%= domain %>">
+			<% } else { %>
+            <input type="text" id="gendomain" placeholder="fake-mycrypto.com">
+			<% } %>
+        </div>
+    </div>
+    <div class="actions">
+        <button id="9returna" class="ui spacing big primary icon button">
+            <i class="angle left icon"></i>Back
+        </button>
+        <button id="9senda" class="ui spacing big primary icon button">
+            Continue<i class="angle right icon"></i>
+        </button>
+    </div>
+</div>
+<div class="question9b">
+    <div class="ui centered grid">
+        <div class="ui raised segment question">
+            <h1>What malicious address would you like to report?</h1>
+        </div>
+    </div>
+    <div class="ui centered align grid addr">
+        <div class="ui labeled input question2">
+            <div class="ui black label">
+                Address:
+            </div>
+			<% if(typeof address !== "undefined") { %>
+				<input type="text" id="address" value="<%= address %>" maxlength="42">
+			<% } else { %>
+            <input type="text" id="address" placeholder="0x0000000000000000000000000000000000000000" maxlength="42">
+			<% } %>
+        </div>
+    </div>
+    <div class="actions">
+        <button id="9returnb" class="ui spacing big primary icon button">
+            <i class="angle left icon"></i>Back
+        </button>
+        <button id="9sendb" class="ui spacing big primary icon button">
+            Continue<i class="angle right icon"></i>
+        </button>
+    </div>
+</div>
+<div class="question9c">
+    <div class="ui centered grid">
+        <div class="ui raised segment question">
+            <h1>What would you like to report?</h1>
+        </div>
+    </div>
+    <div class="ui form question2">
+        <div class="field">
+            <textarea id="uniquerep" rows="5"></textarea>
+        </div>
+    </div>
+    <div class="actions">
+        <button id="9returnc" class="ui spacing big primary icon button">
+            <i class="angle left icon"></i>Back
+        </button>
+        <button id="9sendc" class="ui spacing big primary icon button">
+            Send<i class="angle right icon"></i>
+        </button>
+    </div>
+</div>
+<div class="question10">
+    <div class="ui centered grid">
+        <div class="ui raised segment question">
+            <h1>Please specify a reason for your report</h1>
+        </div>
+    </div>
+    <div class="ui form question2">
+        <div class="field">
+            <textarea id="reason" rows="5"></textarea>
+        </div>
+    </div>
+    <div class="actions">
+        <button id="10return" class="ui spacing big primary icon button">
+            <i class="angle left icon"></i>Back
+        </button>
+        <button id="10send" class="ui spacing big primary button">
+            Send<i class="angle right icon"></i>
+        </button>
+    </div>
+</div>
+<div class="captcha">
+    <h2 class="question">Captcha</h2>
+    <BR>
+    <BR>
+    <div class="ui center aligned grid">
+        <form id="verifycaptcha">
+            <div id="g-recaptcha"></div>
+        </form>
+    </div>
+</div>
+<div class="loading">
+    <div class="ui active inverted dimmer">
+        <div class="ui text loader">Sending</div>
+    </div>
+</div>
+<div class="end">
+    <h2 class="ending"><i class="checkmark icon"></i> Thanks for your report</h2>
+    <h3>Your report has been sent. In the meanwhile, you can learn how to protect yourself and others in the future:</h3>
+    <BR>
+    <div class="ui list">
+        <div class="item">
+            <h3>- Read <a href="https://support.mycrypto.com/security/securing-your-ethereum.html">Protecting Yourself and Your Funds</a> by MyCrypto</h3>
+        </div>
+        <div class="item">
+            <h3 class="link">- Read <a href="https://support.mycrypto.com/security/phish-hacks-thefts-and-stolen-funds-due-to-phishing.html">What To Do If Your Funds Are Stolen</a> by MyCrypto</h3>
+        </div>
+        <div class="item">
+            <h3 class="link">- Buy a <a href="https://www.ledgerwallet.com/r/6e75?path=/products/">Ledger Nano S</a> or a <a href="https://shop.trezor.io/?a=luit.hollander@gmail.com">Trezor</a></h3>
+        </div>
+        <div class="item">
+            <h3 class="link">- <a href="https://safebrowsing.google.com/safebrowsing/report_phish/">Report a domain to Google Safebrowsing</a></h3>
+        </div>
+        <div class="item">
+            <h3 class="link">- If you have IE / Edge, report a domain <a href="https://support.microsoft.com/en-us/help/930167/how-to-report-a-phishing-web-site">here</a></h3>
+        </div>
+        <div class="item">
+            <h3 class="link">Install <a href="https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn?hl=en-GB">EtherAddressLookup</a> on Google Chrome</h3>
+        </div>
+		<div class="item">
+            <h3 class="link">Install <a href="https://chrome.google.com/webstore/detail/ethersecuritylookup/bhhfhgpgmifehjdghlbbijjaimhmcgnf">EtherSecurityLookup</a> on Google Chrome</h3>
+        </div>
+    </div>
+</div>
+	</div>
+	<% include ../partials/footer %>
+	<% if(typeof domain !== "undefined") { %>
+<script src="/js/reportdomain.js"></script>
+<% } else if(typeof address !== "undefined") { %>
+<script src="/js/reportaddress.js"></script>
+<% } else { %>
+<script src="/js/report.js"></script>
+<% } %>
+<script src='https://www.google.com/recaptcha/api.js?onload=reCaptchaCallback&render=explicit'></script>
+</body>
+
+</html>

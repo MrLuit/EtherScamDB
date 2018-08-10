@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<% include ../partials/header.ejs %>
+		 <link rel="stylesheet" href="/css/home.css">
+	</head>
+	<body>
+		<% include ../partials/navbar.ejs %>
+		<div class="ui body container">
+			<h1 class="title">
+				<img src="/img/etherscamdb.svg" width="40%">
+			</h1>
+			<div id="items" class="ui four column centered grid">
+				<div id="github" class="centered column">
+					<h2><i class="github icon"></i> Open-Source</h2>
+					The full website is open-source at <a href="#">Github</a> including all datasets with documentation to use them in your own application.
+				</div>
+				<div id="scams" class="centered column">
+					<h2><i class="rocket icon"></i> Knowledge</h2>
+					By combining all the information that's available, connections between scams can easily be found.
+				</div>
+			</div>
+			<div class="ui four column centered grid">
+				<div id="report" class="centered column">
+					<h2><i class="flag outline icon"></i> Report</h2>
+					An easy-to-use report function helps us identifying all the current scams so we can add them to the database.
+				</div>
+				<div id="donate" class="centered column">
+					<h2><i class="dollar icon"></i> Donate</h2>
+					Support the developers and maintainers of this project by donating ETH or ERC20 tokens to <a href="#">etherscamdb.eth</a>
+				</div>
+			</div>
+		</div>
+		<% include ../partials/footer.ejs %>
+		<script src="/js/home.js"></script>
+	</body>
+</html>

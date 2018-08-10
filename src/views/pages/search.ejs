@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<% include ../partials/header.ejs %>
+		<link rel="stylesheet" href="/css/search.css">
+	</head>
+	<body>
+		<% include ../partials/navbar.ejs %>
+		<div class="ui body container">
+			<h1><i class="search icon"></i> Check URL / IP / ETH Address</h1>
+<div id='verified' class="ui icon message">
+    <i class="checkmark icon"></i>
+    <div class="content">
+        <div class="header">
+            Verified
+        </div>
+        <p id='verifiedmessage'>This domain is a verified domain. You can trust the contents.</p>
+    </div>
+</div>
+<div id='blocked' class="ui icon message">
+    <i class="warning sign icon"></i>
+    <div class="content">
+        <div class="header">
+            Blocked
+        </div>
+        <p id='blacklistmessage'>This domain was put on the blacklist.</p>
+    </div>
+</div>
+<div id='neutral' class="ui icon message">
+    <i class="info circle icon"></i>
+    <div class="content">
+        <div class="header">
+            Neutral
+        </div>
+        <p id='neutralmessage'>This domain wasn't recognized as a malicious domain, nor as verified. Be careful!</p>
+    </div>
+</div>
+<p id='helpmessage'>Enter a URL, IP address, or ETH address to check whether you can trust it or not.</p>
+<div class="ui action input">
+    <input type="text" placeholder="mycrypto.com / 1.1.1.1 / 0x0000000000000000000000000000000000000000" onkeydown="if(event.keyCode==13)$('.ui.button').trigger('click');">
+    <button class="ui button">Check</button>
+</div>
+<h1>Trusted domains</h1>
+<table class="ui celled table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>URL</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% featured.forEach(entry => { %>
+			<tr>
+				<td>
+					<img class='project icon' src='/img/<%= entry.name.toLowerCase().replace(/ /g, "") %>.png'><%= entry.name %>
+				</td>
+				<td>
+					<a target='_blank' href='<%= entry.url %>'><%= entry.url %></a>
+				</td>
+			</tr>
+		<% }); %>
+    </tbody>
+</table>
+		</div>
+		<% include ../partials/footer.ejs %>
+		<script src="/js/search.js"></script>
+	</body>
+</html>
