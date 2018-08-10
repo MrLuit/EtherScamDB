@@ -31,7 +31,7 @@ module.exports = async (options) => {
 			Google_SafeBrowsing: options['google-safebrowsing'] || null,
 			Github_WebHook: null,
 			VirusTotal: options.virustotal || null,
-			UrlScan: options.urlscan || null,
+			URLScan: options.urlscan || null,
 			AbuseIPDB: options.abuseipdb || null
 		},
 		autoPull: {
