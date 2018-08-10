@@ -37258,3 +37258,31 @@
     description: 'Trust trading scam site'     
     addresses:
       - '0xE5f08B41BC8e37EE5E5934d4A27e67e059370011'      
+-
+    id: 5128
+    name: kralkem.com
+    url: 'http://kralkem.com'
+    category: Phishing
+    subcategory: Kraken
+    description: 'Fake Kraken exchange phishing for logins'  
+-
+    id: 5129
+    name: blockchalim.info
+    url: 'http://blockchalim.info'
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake Blockchain exchange phishing for logins'     
+-
+    id: 5130
+    name: neo-tracler.co
+    url: 'http://neo-tracler.co'
+    category: Phishing
+    subcategory: Neo
+    description: 'Fake Neo wallet phishing for keys'      
+-
+    id: 5131
+    name: app-bittrex.com
+    url: 'http://app-bittrex.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex exchange phishing for logins'      
