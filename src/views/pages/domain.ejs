@@ -128,7 +128,11 @@ Not yet blocked
 <b>Phishtank Detected</b>: <span class='class_active'><%= virusTotal.scans.Phishtank.result %></span><br>
 <% } %>
 <% } %>
-<b>Urlscan Scan Results</b>: <a style="text-color:green" href="https://urlscan.io/result/ffb89235-11dd-48b7-a5d0-58bb2e543f02" target="_blank">Link</a><br><br>
+<% if(urlScan && urlScan.results && urlScan.results.length > 0) { %>
+<b>Urlscan Scan Results</b>: <a style="text-color:green" href="https://urlscan.io/result/<%= urlScan.results[0].result.replace("https://urlscan.io/api/v1/result/","") %>" target="_blank">Link</a><br>
+<% } %>
+
+<br>
 
 <% if(result && result.nameservers) { %>
 	<b>Nameservers</b>: 
@@ -148,7 +152,10 @@ Not yet blocked
 	</div>
 <% } %>
 
-{{ result.screenshot }}<br /><br />
+<% if(urlScan && urlScan.results && urlScan.results.length > 0) { %>
+<b>Urlscan Screenshot</b>: <br>
+<div id="scam-screenshot"><img src="https://urlscan.io/screenshots/<%= urlScan.results[0].result.replace("https://urlscan.io/api/v1/result/","") %>.png" alt="Screenshot of website" style="width: 100%; height: 80%;"></div><br />
+<% } %><br />
 
 <div id="disqus_thread"></div>
 <% if(!result) { %>

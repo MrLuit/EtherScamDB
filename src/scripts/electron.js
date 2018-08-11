@@ -36,7 +36,7 @@ app.on('ready', async () => {
 		}, {
 			type: 'separator'
 		}, {
-			label: 'Inspect database',
+			label: 'Inspect cache',
 			click: () => mainWindow.loadURL("data:text/html;charset=utf-8," + encodeURI('<pre>' + util.inspect(db.read()) + '</pre>'))
 		}, {
 			label: 'View config',

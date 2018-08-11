@@ -8,7 +8,7 @@ const config = require('./config');
 const github = require('./github');
 const router = express.Router();
 const isIpPrivate = require('private-ip');
-const {getGoogleSafeBrowsing} = require('./lookup');
+const {getGoogleSafeBrowsing,getURLScan} = require('./lookup');
 
 /* Homepage */
 router.get('/(/|index.html)?', (req, res) => res.render('index'));
@@ -57,15 +57,16 @@ router.get('/domain/:url', async (req, res) => {
 	const scamEntry = db.read().scams.find(scam => scam.getHostname() == hostname);
 	const verifiedEntry = db.read().verified.find(verified => url.parse(verified.url).hostname == hostname);
 	
+	const urlScan = await getURLScan(hostname);
 	let googleSafeBrowsing = undefined;
 	let virusTotal = undefined;
 	
 	if((scamEntry || !verifiedEntry) && config.apiKeys.Google_SafeBrowsing) googleSafeBrowsing = await getGoogleSafeBrowsing(hostname);
 	if((scamEntry || !verifiedEntry) && config.apiKeys.VirusTotal) virusTotal = await virusTotal(hostname);
 		
-	if(verifiedEntry) res.render('domain', { type: 'verified', result: verifiedEntry, domain: hostname, metamask: false, googleSafeBrowsing: googleSafeBrowsing, virusTotal: virusTotal, startTime: startTime, dateFormat: dateFormat });
-	else if(scamEntry) res.render('domain', { type: 'scam', result: scamEntry, domain: hostname, metamask: checkForPhishing(hostname), googleSafeBrowsing: googleSafeBrowsing, virusTotal: virusTotal, startTime: startTime, dateFormat: dateFormat, abuseReport: generateAbuseReport(scamEntry) });
-	else res.render('domain', { type: 'neutral', domain: hostname, result: false, metamask: checkForPhishing(hostname), googleSafeBrowsing: googleSafeBrowsing, virusTotal: virusTotal, addresses: [], startTime: startTime });
+	if(verifiedEntry) res.render('domain', { type: 'verified', result: verifiedEntry, domain: hostname, urlScan: urlScan, metamask: false, googleSafeBrowsing: googleSafeBrowsing, virusTotal: virusTotal, startTime: startTime, dateFormat: dateFormat });
+	else if(scamEntry) res.render('domain', { type: 'scam', result: scamEntry, domain: hostname, urlScan: urlScan, metamask: checkForPhishing(hostname), googleSafeBrowsing: googleSafeBrowsing, virusTotal: virusTotal, startTime: startTime, dateFormat: dateFormat, abuseReport: generateAbuseReport(scamEntry) });
+	else res.render('domain', { type: 'neutral', domain: hostname, result: false, urlScan: urlScan, metamask: checkForPhishing(hostname), googleSafeBrowsing: googleSafeBrowsing, virusTotal: virusTotal, addresses: [], startTime: startTime });
 });
 
 /* Scams index */
@@ -124,85 +125,91 @@ router.get('/api/ips', (req, res) => res.json({ success: true, result: db.read()
 router.get('/api/verified', (req, res) => res.json({ success: true, result: db.read().verified }));
 router.get('/api/inactives', (req, res) => res.json({ success: true, result: db.read().index.inactives }));
 router.get('/api/actives', (req, res) => res.json({ success: true, result: db.read().index.actives }));
-router.get('/api/blacklist', (req, res) => res.json({ success: true, result: db.read().index.blacklist }));
-router.get('/api/whitelist', (req, res) => res.json({ success: true, result: db.read().index.whitelist }));
+router.get('/api/blacklist', (req, res) => res.json(db.read().index.blacklist));
+router.get('/api/whitelist', (req, res) => res.json(db.read().index.whitelist));
 router.get('/api/abusereport/:domain', (req, res) => { 
 	const result = db.read().scams.find(scam => scam.getHostname() == url.parse(req.params.domain).hostname || scam.url.replace(/(^\w+:|^)\/\//, '') == req.params.domain);
-	if (result) res.json({ success: false, error: "URL wasn't found"});
+	if (result) res.json({ success: false, message: "URL wasn't found"});
 	else res.send({ success: true, result: generateAbuseReport(result)});
 });
-router.get('/api/check/:domain', (req,res) => {
-	//They can search for an address or domain.
-	if (/^0x?[0-9A-Fa-f]{40,42}$/.test(req.params.domain)) {
-		var blocked = false;
-		Object.keys(db.read().index.whitelistAddresses).forEach((address, index) => {
-                    //They searched for an address
-                    if (req.params.domain.toLowerCase() === address.toLowerCase()) {
-                        blocked = true;
-                        res.send(JSON.stringify({
-                            success: true,
-                            result: 'whitelisted',
-                            type: 'address',
-                            entries: db.read().index.verified.filter(verified => (verified.addresses || []).includes(req.params.domain.toLowerCase()))
-                        }));
-                    }
-                });
-                Object.keys(db.read().index.addresses).forEach((address, index) => {
-                    //They searched for an address
-                    if (req.params.domain.toLowerCase() === address.toLowerCase()) {
-                        blocked = true;
-                        res.send(JSON.stringify({
-                            success: true,
-                            result: 'blocked',
-                            type: 'address',
-                            entries: db.read().scams.filter(scam => (scam.addresses || []).includes(req.params.domain.toLowerCase()))
-                        }));
-                    }
-                });
-                if (!blocked) {
-                    res.send(JSON.stringify({
-                        success: true,
-                        result: 'neutral',
-                        type: 'address',
-                        entries: []
-                    }));
-                }
-            } else {
-                //They searched for a domain or an ip address
-                if (db.read().index.whitelist.includes(url.parse(req.params.domain).hostname) || db.read().index.whitelist.includes(req.params.domain)) {
-                    res.send(JSON.stringify({
-                        success: true,
-                        input: url.parse(req.params.domain).hostname || req.params.domain,
-                        result: 'verified'
-                    }));
-                } else if (db.read().index.blacklist.includes(url.parse(req.params.domain).hostname) || db.read().index.blacklist.includes(req.params.domain.replace(/(^\w+:|^)\/\//, ''))) {
-                    if (/^(([1-9]?\d|1\d\d|2[0-5][0-5]|2[0-4]\d)\.){3}([1-9]?\d|1\d\d|2[0-5][0-5]|2[0-4]\d)$/.test(req.params.domain.replace(/(^\w+:|^)\/\//, ''))) {
-                        //They searched for an ip address
-                        res.send(JSON.stringify({
-                            success: true,
-                            input: req.params.domain.replace(/(^\w+:|^)\/\//, ''),
-                            result: 'blocked',
-                            type: 'ip',
-                            entries: db.read().scams.filter(scam => url.parse(scam.url).hostname == url.parse(req.params.domain).hostname || scam.url.replace(/(^\w+:|^)\/\//, '') == req.params.domain || scam.ip == req.params.domain.replace(/(^\w+:|^)\/\//, ''))
-                        }));
-                    } else {
-                        //They searched for a domain
-                        res.send(JSON.stringify({
-                            success: true,
-                            input: url.parse(req.params.domain).hostname || req.params.domain,
-                            result: 'blocked',
-                            type: 'domain',
-                            entries: db.read().scams.filter(scam => url.parse(scam.url).hostname == url.parse(req.params.domain).hostname || scam.url.replace(/(^\w+:|^)\/\//, '') == req.params.domain)
-                        }));
-                    }
-                } else {
-                    res.send(JSON.stringify({
-                        success: true,
-                        result: 'neutral'
-                    }));
-                }
-			}
-	});
+router.get('/api/check/:search', (req,res) => {
+	if (/^0x?[0-9A-Fa-f]{40,42}$/.test(req.params.search)) {
+		/* Searched for an ethereum address */
+		const whitelistAddresses = Object.keys(db.read().index.whitelistAddresses).filter(address => req.params.search.toLowerCase() === address.toLowerCase());
+		const blacklistAddresses = Object.keys(db.read().index.addresses).filter(address => req.params.search.toLowerCase() === address.toLowerCase());
+		if(whitelistAddresses.length > 0) {
+			res.json({
+				success: true,
+				result: 'whitelisted',
+				type: 'address',
+				entries: whitelistAddresses.map(address => db.read().index.whitelistAddresses[address])
+			});
+		} else if(blacklistAddresses.length > 0) {
+			res.json({
+				success: true,
+				result: 'blocked',
+				type: 'address',
+				entries: blacklistAddresses.map(address => db.read().index.addresses[address])
+			});
+		} else {
+			res.json({
+				success: true,
+				result: 'neutral',
+				type: 'address',
+				entries: []
+			});
+		}
+	} else if(/^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$|^(([a-zA-Z]|[a-zA-Z][a-zA-Z0-9\-]*[a-zA-Z0-9])\.)*([A-Za-z]|[A-Za-z][A-Za-z0-9\-]*[A-Za-z0-9])$|^\s*((([0-9A-Fa-f]{1,4}:){7}([0-9A-Fa-f]{1,4}|:))|(([0-9A-Fa-f]{1,4}:){6}(:[0-9A-Fa-f]{1,4}|((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){5}(((:[0-9A-Fa-f]{1,4}){1,2})|:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){4}(((:[0-9A-Fa-f]{1,4}){1,3})|((:[0-9A-Fa-f]{1,4})?:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){3}(((:[0-9A-Fa-f]{1,4}){1,4})|((:[0-9A-Fa-f]{1,4}){0,2}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){2}(((:[0-9A-Fa-f]{1,4}){1,5})|((:[0-9A-Fa-f]{1,4}){0,3}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){1}(((:[0-9A-Fa-f]{1,4}){1,6})|((:[0-9A-Fa-f]{1,4}){0,4}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(:(((:[0-9A-Fa-f]{1,4}){1,7})|((:[0-9A-Fa-f]{1,4}){0,5}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:)))(%.+)?\s*$/.test(req.params.search)) {
+		/* Searched for an ip address */
+		const blacklistIP = Object.keys(db.read().index.ips).filter(ip => req.params.search.toLowerCase() === ip.toLowerCase());
+		if(blacklistIP.length > 0) {
+			res.json({
+				success: true,
+				result: 'blocked',
+				type: 'ip',
+				entries: blacklistIP
+			});
+		} else {
+			res.json({
+				success: true,
+				result: 'neutral',
+				type: 'ip',
+				entries: []
+			});
+		}
+	} else if(/[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/.test(req.params.search)) {
+		/* Searched for a domain */
+		const whitelistURL = db.read().verified.find(entry => (url.parse(req.params.search).hostname || req.params.search) === (url.parse(entry.url).hostname));
+		const blacklistURL = db.read().scams.find(entry => (url.parse(req.params.search).hostname || req.params.search) === entry.getHostname());
+		if(whitelistURL) {
+			res.json({
+				success: true,
+				result: 'verified',
+				type: 'domain',
+				entries: whitelistURL
+			});
+		} else if(blacklistURL) {
+			res.json({
+				success: true,
+				result: 'blocked',
+				type: 'domain',
+				entries: blacklistURL
+			});
+		} else {
+			res.json({
+				success: true,
+				result: 'neutral',
+				type: 'domain',
+				entries: []
+			});
+		}
+	} else {
+		res.json({
+			success: false,
+			message: "Incorrect search type (must be ethereum address / ip address / URL)"
+		});
+	}
+});
 
 /* Incoming Github webhook attempt */
 router.post('/update/', (req, res) => {

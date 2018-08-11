@@ -29,7 +29,7 @@ module.exports.getURLScan = (url) => {
 			if(err) {
 				reject(err);
 			} else {
-				resolve(body.data)
+				resolve(body)
 			}
 		});
 	});
