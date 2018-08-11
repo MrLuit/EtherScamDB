@@ -20,8 +20,8 @@ process.once('close', () => process.exit(1));
 
 	await Promise.all(serialijse.deserialize(cacheFile).scams.reverse().filter(scam => scam.howRecent() > config.interval.cacheExpiration).map(async scam => {
 		if(config.lookups.HTTP.enabled) await scam.getStatus();
-		if(config.lookups.IP.enabled) await scam.getIP();
-		if(config.lookups.DNS.enabled) await scam.getNameservers();
+		if(config.lookups.DNS.IP.enabled) await scam.getIP();
+		if(config.lookups.DNS.NS.enabled) await scam.getNameservers();
 		
 		process.send({
 			url: scam.url,

@@ -4,9 +4,8 @@ const generateAbuseReport = require('./abusereport');
 const checkForPhishing = require('eth-phishing-detect');
 const dateFormat = require('dateformat');
 const url = require('url');
-const crypto = require('crypto');
-const download = require('download-file');
 const config = require('./config');
+const github = require('./github');
 const router = express.Router();
 const isIpPrivate = require('private-ip');
 const {getGoogleSafeBrowsing} = require('./lookup');
@@ -205,36 +204,12 @@ router.get('/api/check/:domain', (req,res) => {
 			}
 	});
 
+/* Incoming Github webhook attempt */
 router.post('/update/', (req, res) => {
 	req.rawBody = '';
 	req.setEncoding('utf8');
-
-	req.on('data', chunk => {
-		req.rawBody += chunk;
-	});
-
-	req.on('end', () => {
-
-		if ('x-hub-signature' in req.headers && 'Github_Hook_Secret' in config && crypto.timingSafeEqual(Buffer.from(req.headers['x-hub-signature']), Buffer.from("sha1=" + crypto.createHmac("sha1", config.Github_Hook_Secret).update(req.rawBody).digest("hex")))) {
-			debug("New commit pushed");
-			/*download("https://raw.githubusercontent.com/" + config.repository.author + "/" + config.repository.name + "/" + config.repository.branch + "/_data/scams.yaml?no-cache=" + (new Date()).getTime(), {
-				directory: "_data/",
-				filename: "scams.yaml"
-			}, function(err) {
-				if (err) throw err;
-			download("https://raw.githubusercontent.com/" + config.repository.author + "/" + config.repository.name + "/" + config.repository.branch + "/_data/legit_urls.yaml?no-cache=" + (new Date()).getTime(), {
-                        directory: "_data/",
-                        filename: "legit_urls.yaml"
-                    }, function(err) {
-                        if (err) throw err;
-                        res.status(200).end();
-                        fork('update.js');
-                    });
-                });*/
-            } else {
-                debug("Incorrect webhook attempt %o",req);
-            }
-	});
+	req.on('data', chunk => req.rawBody += chunk);
+	req.on('end', () => github.webhook(req,res));
 });
 	
 	

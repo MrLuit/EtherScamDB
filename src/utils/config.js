@@ -1,4 +1,5 @@
 const fs = require('fs');
+const dns = require('graceful-dns');
 const debug = require('debug')('config');
 
 if (!fs.existsSync('./config.json')) {
@@ -17,37 +18,22 @@ if (!fs.existsSync('./config.json')) {
 			URLScan: undefined,
 			AbuseIPDB: undefined
 		},
-		autoPull: {
-			enabled: false,
-			interval: -1,
-			repository: {
-				author: "MrLuit",
-				name: "EtherScamDB",
-				branch: "master"
-			}
-		},
+		autoPull: { enabled: false },
 		lookups: {
-			IP: {
-				enabled: false
-			},
 			DNS: {
-				enabled: false
+				IP: { enabled: false },
+				NS: { enabled: false }
 			},
-			HTTP: {
-				enabled: false,
-				minTime: -1,
-				maxConcurrent: -1,
-				timeoutAfter: -1
-			}
+			HTTP: { enabled: false }
 		}
 	}
 } else {
 	const config = JSON.parse(fs.readFileSync('./config.json','utf8'));
 	config.manual = true;
 	if(!config.apiKeys.Google_SafeBrowsing) debug("Warning: No Google SafeBrowsing API key found");
-	if(!config.apiKeys.Github_WebHook) debug("Warning: No Github webhook secret found");
 	if(!config.apiKeys.VirusTotal) debug("Warning: No VirusTotal API key found");
 	if(!config.apiKeys.URLScan) debug("Warning: No URLScan API key found");
 	if(!config.apiKeys.AbuseIPDB) debug("Warning: No AbuseIPDB API key found");
+	if(config.lookups.DNS.servers.length > 0) dns.setServers(config.lookups.DNS.servers);
 	module.exports = config;
 }

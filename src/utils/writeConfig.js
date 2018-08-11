@@ -4,6 +4,7 @@ module.exports = async (options) => {
 	let httpMinTime = null;
 	let httpMaxConcurrent = null;
 	let httpTimeoutAfter = null;
+	let dnsServers = [];
 	
 	if(options['http-bottleneck'] == 'fast') {
 		httpMinTime = 0; 
@@ -15,6 +16,10 @@ module.exports = async (options) => {
 		httpMinTime = 500;
 		httpMaxConcurrent = 5;
 	}
+	
+	if(options['dns-servers'] == 'cloudflare') dnsServers = ['1.1.1.1','1.0.0.1'];
+	else if(options['dns-servers'] == 'google') dnsServers = ['8.8.8.8','8.8.4.4'];
+	else if(options['dns-servers'] == 'opendns') dnsServers = ['208.67.222.222','208.67.220.220'];
 	
 	if(options['http-timeout'] == 'highly-accurate') httpTimeoutAfter = null;
 	else if(options['http-timeout'] == 'accurate') httpTimeoutAfter = 15*1000;
@@ -44,11 +49,14 @@ module.exports = async (options) => {
 			}
 		},
 		lookups: {
-			IP: {
-				enabled: (options.mode === "safe" || options.mode == "full")
-			},
 			DNS: {
-				enabled: (options.mode === "safe" || options.mode == "full")
+				servers: dnsServers,
+				IP: {
+					enabled: (options.mode === "safe" || options.mode == "full")
+				},
+				NS: {
+					enabled: (options.mode === "safe" || options.mode == "full")
+				}
 			},
 			HTTP: {
 				enabled: (options.mode == "full"),

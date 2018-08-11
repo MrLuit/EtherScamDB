@@ -36,7 +36,7 @@ const readEntries = async () => {
 	} else {
 		const cacheFile = await fs.readFile('./cache.db','utf8');
 		Object.assign(db,serialijse.deserialize(cacheFile));
-		yaml.safeLoad(scamsFile).filter(entry => !db.scams.find(scam => scam.url == entry.url)).map(entry => new Scam(entry)).forEach(entry => db.scams.push(entry));
+		yaml.safeLoad(scamsFile).filter(entry => !db.scams.find(scam => scam.url == entry.url)).reverse().map(entry => new Scam(entry)).forEach(entry => db.scams.push(entry));
 		yaml.safeLoad(verifiedFile).filter(entry => !db.verified.find(verified => verified.url == entry.url)).forEach(entry => db.verified.push(entry));
 	}
 }
@@ -66,7 +66,7 @@ module.exports.init = async () => {
 	await readEntries();
 	await updateIndex();
 	await module.exports.persist();
-	setTimeout(module.exports.persist,config.interval.databasePersist);
+	if(config.interval.databasePersist > 0) setInterval(module.exports.persist,config.interval.databasePersist);
 	process.stdin.resume();
 	process.once('beforeExit', exitHandler);
 	process.once('SIGINT', exitHandler);

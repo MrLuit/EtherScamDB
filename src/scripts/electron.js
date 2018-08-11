@@ -2,9 +2,10 @@ const {app, BrowserWindow, Menu} = require('electron');
 const util = require('util');
 const config = require('../utils/config');
 const db = require('../utils/db');
+const esdb = require('../app');
 
 app.on('ready', async () => {
-	const updateScams = await require('../app')(app);
+	await esdb.serve(app);
 	const mainWindow = new BrowserWindow({
 		icon: "./assets/favicon.ico",
 		titleBarStyle: 'hidden',
@@ -43,8 +44,8 @@ app.on('ready', async () => {
 		}, {
 			label: 'Manually spawn update',
 			click: () => {
-				updateScams();
-				mainWindow.loadURL("data:text/html;charset=utf-8," + encodeURI('Spawned successfully.'));
+				esdb.update();
+				mainWindow.loadURL("data:text/html;charset=utf-8," + encodeURI('Spawned update process successfully.'));
 			}
 		}]
 	}]);

@@ -37,17 +37,21 @@ module.exports.getURLScan = (url) => {
 
 module.exports.getGoogleSafeBrowsing = (url) => {
 	return new Promise((resolve,reject) => {
+		debug("Google SafeBrowsing: %o",url);
 		request({
-			uri: 'https://safebrowsing.googleapis.com/v4/threatMatches:find?key=' + config.apiKeys.Google_SafeBrowsing,
+			url: 'https://safebrowsing.googleapis.com/v4/threatMatches:find?key=' + encodeURIComponent(config.apiKeys.Google_SafeBrowsing),
 			method: 'POST',
+			headers: {
+				"Content-Type": "application/json"
+			},
 			json: {
 				client: {
-					clientId: "Ethereum Scam Database",
+					clientId: "EtherScamDB",
 					clientVersion: "3.0.0"
 				},
 				threatInfo: {
 					threatTypes: ["THREAT_TYPE_UNSPECIFIED", "MALWARE", "SOCIAL_ENGINEERING", "UNWANTED_SOFTWARE", "POTENTIALLY_HARMFUL_APPLICATION"],
-					platformTypes: ["ANY_PLATFORM"],
+					platformTypes: ["PLATFORM_TYPE_UNSPECIFIED","WINDOWS","LINUX","ANDROID","OSX","IOS","ANY_PLATFORM","ALL_PLATFORMS","CHROME"],
 					threatEntryTypes: ["THREAT_ENTRY_TYPE_UNSPECIFIED", "URL", "EXECUTABLE"],
 					threatEntries: [{
 						url: url
@@ -55,6 +59,7 @@ module.exports.getGoogleSafeBrowsing = (url) => {
 				}
 			}
 		}, (err, response, body) => {
+			debug("%s returned %s %o",url,((response || {}).statusCode || -1),body);
 			if(err) {
 				reject(err);
 			} else if(response.statusCode != 200) {

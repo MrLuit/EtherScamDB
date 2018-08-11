@@ -6,6 +6,9 @@
 			.full-mode-options {
 				display: none;
 			}
+			.safe-full-mode-options {
+				display: none;
+			}
 		</style>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui-range@1.0.1/range.css" integrity="sha256-xULiRAbwu4Ev+LlFi9ggQaW6WZy9bh/J0ZVPspFB8PI=" crossorigin="anonymous">
 	</head>
@@ -97,18 +100,10 @@
 						</div>
 						<div class="ui accordion">
 							<div class="title">
-								<i class="dropdown icon"></i> Advanced settings
+								<i class="dropdown icon"></i> API Keys
 							</div>
 							<div class="content">
 								<div class="transition hidden">
-									<b>Warning: only change these fields if you know what you're doing!</b>
-									<br>
-									<h3>General</h3>
-									<div class="inline field">
-										<label>Port</label>
-										<input type="number" name="port" value="5111">
-									</div>
-									<h3>API Keys</h3>
 									<div class="field">
 										<label>Google Safebrowsing (see <a href="https://developers.google.com/safe-browsing/v4/get-started">here</a>)</label>
 										<input type="text" name="google-safebrowsing" placeholder="API_KEY">
@@ -125,7 +120,15 @@
 										<label>AbuseIPDB (see <a href="https://www.abuseipdb.com/api">here</a>)</label>
 										<input type="text" name="abuseipdb" placeholder="API_KEY">
 									</div>
-									<h3>Interval</h3>
+								</div>
+							</div>
+						</div>
+						<div class="ui accordion">
+							<div class="title">
+								<i class="dropdown icon"></i> Timers
+							</div>
+							<div class="content">
+								<div class="transition hidden">
 									<div class="ui segment">
 										<div class="ui inline field">
 											<label>Cache expiration time (minutes)</label>
@@ -146,6 +149,51 @@
 											<input type="number" name="database-persist" id="database-persist-input">
 										</div>
 										<div class="ui range" id="database-persist-range"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="ui accordion">
+							<div class="title">
+								<i class="dropdown icon"></i> Advanced settings
+							</div>
+							<div class="content">
+								<div class="transition hidden">
+									<b>Warning: only change these fields if you know what you're doing!</b>
+									<br>
+									<h3>General</h3>
+									<div class="inline field">
+										<label>Port</label>
+										<input type="number" name="port" value="5111">
+									</div>
+									<div class="safe-full-mode-options">
+										<h3>DNS Resolver</h3>
+										<div class="grouped fields">
+											<div class="field">
+												<div class="ui radio checkbox">
+													<input type="radio" name="dns-servers" value="default" class="hidden" checked>
+													<label><b>None</b> <i>(local defaults)</i></label>
+												</div>
+											</div>
+											<div class="field">
+												<div class="ui radio checkbox">
+													<input type="radio" name="dns-servers" value="cloudflare" class="hidden">
+													<label><b>Cloudflare</b> <i>(1.1.1.1 and 1.0.0.1)</i></label>
+												</div>
+											</div>
+											<div class="field">
+												<div class="ui radio checkbox">
+													<input type="radio" name="dns-servers" value="google" class="hidden">
+													<label><b>Google</b> <i>(8.8.8.8 and 8.8.4.4)</i> </label>
+												</div>
+											</div>
+											<div class="field">
+												<div class="ui radio checkbox">
+													<input type="radio" name="dns-servers" value="opendns" class="hidden">
+													<label><b>OpenDNS</b> <i>(208.67.222.222 and 208.67.220.220)</i> </label>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -189,6 +237,11 @@
 				$(".full-mode-options").fadeIn();
 			} else {
 				$(".full-mode-options").fadeOut();
+			}
+			if($(this).val() == 'safe' || $(this).val() == 'full') {
+				$(".safe-full-mode-options").fadeIn();
+			} else {
+				$(".safe-full-mode-options").fadeOut();
 			}
 		});
 		

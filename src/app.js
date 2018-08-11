@@ -3,28 +3,38 @@
 const debug = require('debug')('app');
 const {fork} = require('child_process');
 const express = require('express');
-const db = require('./utils/db');
 const path = require('path');
+const helmet = require('helmet');
+const db = require('./utils/db');
+const github = require('./utils/github');
 const config = require('./utils/config');
 const writeConfig = require('./utils/writeConfig');
 const app = express();
 
-const updateScams = async () => {
-	if(config.lookups.IP.enabled || config.lookups.DNS.enabled || config.lookups.HTTP.enabled) {
+module.exports.check = (input) => {
+	/* TODO: add isMalicious check */
+}
+
+module.exports.update = async () => {
+	if(config.lookups.DNS.IP.enabled || config.lookups.DNS.NS.enabled || config.lookups.HTTP.enabled) {
 		debug("Spawning update process...");
 		const updateProcess = fork(path.join(__dirname,'scripts/update.js'));
 		updateProcess.on('message', data => db.write(data.url,data));
-		updateProcess.on('exit', () => setTimeout(updateScams,config.interval.cacheRenewCheck));
+		updateProcess.on('exit', () => setTimeout(() => this.update(),config.interval.cacheRenewCheck));
 	}
 }
 
-const init = async (electronApp) => {
+module.exports.serve = async (electronApp) => {
 	/* Initiate database */
 	await db.init();
 	
 	/* Allow both JSON and URL encoded bodies */
 	app.use(express.json());
 	app.use(express.urlencoded({ extended: true }));
+	
+	/* Set security headers */
+	app.use(helmet());
+	app.use(helmet.referrerPolicy());
     
 	/* Set EJS views */
 	app.set('view engine', 'ejs');
@@ -64,11 +74,10 @@ const init = async (electronApp) => {
 	app.listen(config.port, () => debug('Content served on http://localhost:%s',config.port));
 	
 	/* Update scams after 100ms timeout (to process async) */
-	setTimeout(updateScams,100);
+	setTimeout(() => this.update(),100);
 	
-	return updateScams;
+	/* If auto pulling from Github is enabled; schedule timer */
+	if(config.autoPull.enabled) setInterval(github.pullData,config.autoPull.interval);
 }
 
-module.exports = init;
-
-if(!module.parent) init();
+if(!module.parent) this.serve();
