@@ -37286,3 +37286,10 @@
     category: Phishing
     subcategory: Bittrex
     description: 'Fake Bittrex exchange phishing for logins'      
+-
+    id: 5132
+    name: ethcoin.store
+    url: 'http://ethcoin.store'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /bot/bot.php'  
