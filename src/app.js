@@ -36,9 +36,11 @@ module.exports.serve = async (electronApp) => {
 	app.use(helmet());
 	app.use(helmet.referrerPolicy());
     
-	/* Set EJS views */
+	/* Set EJS config */
 	app.set('view engine', 'ejs');
 	app.set('views',path.join(__dirname,'views/pages'));
+	app.locals.environment = process.env.NODE_ENV;
+	app.locals.announcement = config.announcement;
 	
 	/* Compress pages */
 	app.use(require('compression')());

@@ -49,9 +49,9 @@ const updateIndex = async () => {
 	db.index.featured = db.verified.filter(entry => entry.featured).sort((a,b) => a.name.localeCompare(b.name));
 	db.index.blacklist = [...db.scams.map(entry => entry.getHostname().replace('www.','')),...db.scams.map(entry => entry.getHostname().replace('www.','')),...Object.keys(scamDictionary.ip || {})];
 	db.index.whitelist = [...db.verified.map(entry => url.parse(entry.url).hostname.replace('www.','')),...db.verified.map(entry => 'www.' + url.parse(entry.url).hostname.replace('www.',''))];
-	db.index.whitelistAddresses = verifiedDictionary.addresses;
-	db.index.addresses = scamDictionary.addresses;
-	db.index.ips = scamDictionary.ip;
+	db.index.whitelistAddresses = (verifiedDictionary.addresses || []);
+	db.index.addresses = (scamDictionary.addresses || []);
+	db.index.ips = (scamDictionary.ip || []);
 	db.index.inactives = db.scams.filter(scam => scam.status !== 'Active');
 	db.index.actives = db.scams.filter(scam => scam.status === 'Active');
 }

@@ -5,6 +5,7 @@ const debug = require('debug')('config');
 if (!fs.existsSync('./config.json')) {
 	module.exports = {
 		manual: false,
+		announcement: null,
 		port: 5111,
 		interval: {
 			cacheExpiration: -1,

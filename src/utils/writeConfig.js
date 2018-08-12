@@ -27,6 +27,7 @@ module.exports = async (options) => {
 	
 	const config = {
 		port: parseInt(options.port),
+		announcement: null,
 		interval: {
 			cacheExpiration: 1000 * 60 * parseInt(options['cache-expiration']),
 			cacheRenewCheck: 1000 * 60 * parseInt(options['cache-renewal']),

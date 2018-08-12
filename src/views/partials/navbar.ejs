@@ -22,8 +22,8 @@
 		</div>
 	</div>
 </div>
-<!--<div class="ui segment" style="background-color: red; height: 30px; padding-top: 45px; padding-bottom: 25px; color: white; position:absolute; width:100%; text-align: center;">
-	<div class="ui container">
-		Announcement
-	</div>
-</div>-->
+<% if(environment === "production" && announcement) { %>
+<div class="ui container" style="background-color: #db2828; padding-top: 7px; padding-bottom: 7px; color: white; position: relative; margin-top: 55px; margin-bottom: -70px; width:100%; text-align: center;">
+	<%- announcement %>
+</div>
+<% } %>
