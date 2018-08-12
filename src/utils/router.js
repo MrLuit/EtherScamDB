@@ -219,8 +219,7 @@ router.post('/update/', (req, res) => {
 	req.on('end', () => github.webhook(req,res));
 });
 	
-	
-	
+/* Safe redirect pages */
 router.get('/redirect/:url', (req,res) => res.render('redirect', { url: req.params.url }));
 
 

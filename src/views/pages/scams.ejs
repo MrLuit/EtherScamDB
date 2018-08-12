@@ -98,7 +98,7 @@
 					<% if(scam.category == "Wallets") { %>
 						<td><i class="credit card alternative icon"></i> Wallets</td>
 					<% } else { %>
-						<td><img src='/img/<%= scam.subcategory.toLowerCase().replace(/\s/g, "") %>.png' class='subcategoryicon'> <%= scam.subcategory %></td>
+						<td><img src='/img/<%= scam.subcategory.toLowerCase().replace(/\s/g, "") %>.png' class='subcategoryicon' onerror="this.style.display='none'"> <%= scam.subcategory %></td>
 					<% } %>
 				<% } else { %>
 					<td><i class="remove icon"></i> None</td>
