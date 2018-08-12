@@ -1,0 +1,22 @@
+version: "3"
+services:
+  esdb:
+    container_name: esdb
+    restart: unless-stopped
+    build: .
+    ports:
+      - "80:80"
+    environment:
+      - NODE_ENV=production
+      - DEBUG=*
+  portainer:
+    image: portainer/portainer
+    ports:
+      - "9000:9000"
+    command: -H unix:///var/run/docker.sock
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/data
+
+volumes:
+  portainer_data:

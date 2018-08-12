@@ -26,9 +26,9 @@ The electron app will now start!
 
 ## Docker
 
-> docker build -t etherscamdb/web .
+(make sure config.json is already existent)
 
-> docker run -p 80:5111 -d etherscamdb/web
+> docker-compose up
 
 ## Contribute
 
