@@ -37293,3 +37293,24 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys with POST /bot/bot.php'  
+-
+    id: 5133
+    name: xn--omiseg-ul8b.com
+    url: 'http://xn--omiseg-ul8b.com'
+    category: Phishing
+    subcategory: OmiseGo
+    description: 'Fake OmiseGo publication linking to a fake MyEtherWallet xn--myethrwalle-6qb4278g.com/#contracts'  
+-
+    id: 5134
+    name: xn--myethrwalle-6qb4278g.com
+    url: 'http://xn--myethrwalle-6qb4278g.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack - phishing for keys'  
+-
+    id: 5135
+    name: myehterwelliet.com
+    url: 'http://myehterwelliet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'  
