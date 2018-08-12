@@ -1,7 +1,13 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
 .ui.body.container {
+  flex: 1;
   padding-top: 7em;
-  min-height: 100%;
-  padding-bottom: 7%;
+  padding-bottom: 7em;
 }
 
 .ui.fixed.inverted.menu {
@@ -14,17 +20,8 @@
 }
 
 .ui.footer {
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 110px;
-  margin-top: -110px !important;
   text-align: center;
   width: 100%;
-}
-
-.footer-item-container {
-  display: inline-flex;
 }
 
 #footer-item-img {
