@@ -73,20 +73,20 @@ router.get('/domain/:url', async (req, res) => {
 router.get('/scams/:page?/:sorting?/', (req, res) => {
 	const MAX_RESULTS_PER_PAGE = 30;
 	const scamList = [];
-	let scams = db.read().scams.reverse();
+	let scams = [...db.read().scams].reverse();
 	let index = [0,MAX_RESULTS_PER_PAGE];
 		
-	if(req.params.page && (req.params.page != 'all' && (!isFinite(parseInt(req.params.page)) || isNaN(parseInt(req.params.page)) || parseInt(req.params.page) < 0))) {
+	if(req.params.page && req.params.page != 'all' && (!isFinite(parseInt(req.params.page)) || isNaN(parseInt(req.params.page)) || parseInt(req.params.page) < 1)) {
 		res.status(404).render('404');
 	} else {
 		if (req.params.sorting == 'oldest') scams = db.read().scams;
-		else if (req.params.sorting == 'status') scams = db.read().scams;
-		else if (req.params.sorting == 'category') scams = db.read().scams;
-		else if (req.params.sorting == 'subcategory') scams = db.read().scams;
-		else if (req.params.sorting == 'title') scams = db.read().scams;
-
+		else if (req.params.sorting == 'status') scams = [...db.read().scams].sort((a,b) => (a.status || '').localeCompare(b.status || ''));
+		else if (req.params.sorting == 'category') scams = [...db.read().scams].sort((a,b) => (a.category || '').localeCompare(b.category || ''));
+		else if (req.params.sorting == 'subcategory') scams = [...db.read().scams].sort((a,b) => (a.subcategory || '').localeCompare(b.subcategory || ''));
+		else if (req.params.sorting == 'name') scams = [...db.read().scams].sort((a,b) => a.getHostname().localeCompare(b.getHostname()));
+		
 		if (req.params.page == "all") index = [0,scams.length-1];
-		else if (!isNaN(parseInt(req.params.page))) index = [req.params.page * MAX_RESULTS_PER_PAGE,(req.params.page * MAX_RESULTS_PER_PAGE) + MAX_RESULTS_PER_PAGE];
+		else if(req.params.page) index = [(req.params.page-1) * MAX_RESULTS_PER_PAGE,(req.params.page * MAX_RESULTS_PER_PAGE)];
 		
 		for (var i = index[0]; i <= index[1]; i++) {
 			if (scams.hasOwnProperty(i) === false) continue;

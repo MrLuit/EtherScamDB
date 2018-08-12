@@ -46,7 +46,7 @@ const updateIndex = async () => {
 	const scamDictionary = createDictionary(db.scams);
 	const verifiedDictionary = createDictionary(db.verified);
 	
-	db.index.featured = db.verified.filter(entry => entry.featured);
+	db.index.featured = db.verified.filter(entry => entry.featured).sort((a,b) => a.name.localeCompare(b.name));
 	db.index.blacklist = [...db.scams.map(entry => entry.getHostname().replace('www.','')),...db.scams.map(entry => entry.getHostname().replace('www.','')),...Object.keys(scamDictionary.ip || {})];
 	db.index.whitelist = [...db.verified.map(entry => url.parse(entry.url).hostname.replace('www.','')),...db.verified.map(entry => 'www.' + url.parse(entry.url).hostname.replace('www.',''))];
 	db.index.whitelistAddresses = verifiedDictionary.addresses;
