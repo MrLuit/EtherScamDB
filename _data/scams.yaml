@@ -30393,6 +30393,8 @@
       - '0x61cbEf9dB89E5D397Bdde7Ff9095bEDe35d4eeb5'
       - '0x9844F5C5F9aA7146a74ffC7b9227742acFA71dEa'
       - '0x6Dd3262c18cD5a0f03Dd8f2c0dB5b19b8fb92C85'
+      - '0xCc5B3a953f53503F2A66122a65382D8B468dC936'
+      - '0xe7DC0c50D0FACB2CE74Caa90895A742782859f96'
 -
     id: 4298
     name: ethereum-claim.org
@@ -30429,6 +30431,7 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x1A11585B374D5827F44e117e07941A8728a5f342'
+      - '0x0cB5345c2C7f02569d07951CBF244c80306C2E99'
 -
     id: 4302
     name: ethshare.org
@@ -34737,6 +34740,7 @@
     description: 'Trust trading scam site.'
     addresses:
       - '0x68e45B998240d77FbE30BE84bd8397a51F0EF962'         
+      - '0x64187c01FBAc6F26bC8bF6Fd6d683cb9A58D1737'
 -
     id: 4824
     name: verify.getbigeth.com
@@ -37314,3 +37318,276 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys'  
+-
+    id: 5136
+    name: cbase-pro.com
+    url: 'http://cbase-pro.com'
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Fake coinbase pro - https://twitter.com/olihough86/status/1029125099696340994'  
+-
+    id: 5137
+    name: ethereumprize.io
+    url: 'http://ethereumprize.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x1d2Ba50dfA3C78Da0E56f62D3a9e80a4D20Da363'     
+-
+    id: 5138
+    name: airdropsvert.xyz
+    url: 'http://airdropsvert.xyz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xA2922aE30Ff11c0fEf6E250b3892A451BDd533f1'         
+-
+    id: 5139
+    name: etherium.host
+    url: 'http://etherium.host'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x2A37A183eb7f18caE3fcB967404E472729f21E96'      
+-
+    id: 5140
+    name: claimeth.top
+    url: 'http://claimeth.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xd3C75c3C553f06eeb345E2D06340B6b473d45aDa'          
+-
+    id: 5141
+    name: medium.com.ru
+    url: 'http://medium.com.ru'
+    category: Scamming
+    subcategory: Medium
+    description: 'Fake medium site hosting trust trading scams - linking to www.etherium.pro/promo/10000-eth-giveaway/'     
+-
+    id: 5142
+    name: etherium.pro
+    url: 'http://etherium.pro'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x2A37A183eb7f18caE3fcB967404E472729f21E96'     
+-
+    id: 5143
+    name: tesla.myetherget.info
+    url: 'http://tesla.myetherget.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x68412063a56225aE349296a1dB47788CCEF4597c'        
+-
+    id: 5144
+    name: ethsecure.top
+    url: 'http://ethsecure.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x1164B5b85af48F92f35A7B3043300A91Ae8d0b48'     
+-
+    id: 5145
+    name: coinsdrop.org
+    url: 'http://coinsdrop.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xa2f11A7C5B68de825f35a47C5649cb1EaFBA77ac'           
+-
+    id: 5146
+    name: blogmediums.blogspot.com
+    url: 'http://blogmediums.blogspot.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xc4856c6C04Ee3416dAEaeD3E5abAE3622BBE1eBe'          
+-
+    id: 5147
+    name: ethereumprize.art
+    url: 'http://ethereumprize.art'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x1d2Ba50dfA3C78Da0E56f62D3a9e80a4D20Da363'    
+-
+    id: 5148
+    name: getethereum200.000webhostapp.com 
+    url: 'http://getethereum200.000webhostapp.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x4491492C21605D923f1EF9E947Eeaa74799dBDd6'        
+-
+    id: 5149
+    name: safe.sharingeth.com
+    url: 'http://safe.sharingeth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x9dA5F88e2BD9c4DA00fA30a2230117Dc5ad2621e'      
+-
+    id: 5150
+    name: medium-blog-ethereum.net
+    url: 'http://medium-blog-ethereum.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Linking users to ethereum-airdrop.net'     
+    addresses:
+      - '0xFCB27f1E0bC118014107DaAE776F0aCEeD02e5F3'           
+-
+    id: 5151
+    name: ethereum-airdrop.net
+    url: 'http://ethereum-airdrop.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xFCB27f1E0bC118014107DaAE776F0aCEeD02e5F3'    
+-
+    id: 5152
+    name: eth-bonus-binance.com
+    url: 'http://eth-bonus-binance.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xcdBa82888e4698C485AbAcf8C7Ad87dC2221f378'        
+-
+    id: 5153
+    name: czofficial.site
+    url: 'http://czofficial.site'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x44610ceE8C56D34e80468243065e3a319250e32a'        
+-
+    id: 5154
+    name: ethico.info
+    url: 'http://ethico.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xfC930BC7AA32b14a87F49A4E120Ff54f8F0a5E05'             
+-
+    id: 5155
+    name: elon-surprise.site
+    url: 'http://elon-surprise.site'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x02d0b53ec925f5C5907EB3dD85BeDEdaA4362564'    
+-
+    id: 5156
+    name: xn--yetherallet-tv8eu6a.com
+    url: 'http://xn--yetherallet-tv8eu6a.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'     
+-
+    id: 5157
+    name: eth-safe.info
+    url: 'http://eth-safe.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x571836b1E0A978ccCd7ADB56F0aAD96C574a05aa'   
+-
+    id: 5158
+    name: elon-musk.site
+    url: 'http://elon-musk.site'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x63F32b8eC6e4dEA892149834A7B8D7C9e67b4a0A'         
+-
+    id: 5159
+    name: ethofficial.site
+    url: 'http://ethofficial.site'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x44610ceE8C56D34e80468243065e3a319250e32a'         
+-
+    id: 5160
+    name: bestpromo.online
+    url: 'http://bestpromo.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x24328c35066C61523E03ac14996131aef4b3f525'              
+-
+    id: 5161
+    name: crypto-giveaway.top
+    url: 'http://crypto-giveaway.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x9DbF942bE15c70c4E1Fb8c0D1B53007377bCaa09'        
+-
+    id: 5162
+    name: airdrop-ether.com
+    url: 'http://airdrop-ether.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xc454A957426af08a5AE6b6AF57BbBFF49edA7C73'          
+-
+    id: 5163
+    name: medium-blog-ethereum.info
+    url: 'http://medium-blog-ethereum.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Linking to airdrop-ether.com'     
+    addresses:
+      - '0xc454A957426af08a5AE6b6AF57BbBFF49edA7C73'          
+-
+    id: 5164
+    name: ethpromogivegroup.net
+    url: 'http://ethpromogivegroup.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x478dc7121A0339Fbba4cC5b4AcBB8a119c8a8f19'        
+-
+    id: 5165
+    name: ethereum-airdrop-promo.czweb.org
+    url: 'http://ethereum-airdrop-promo.czweb.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xe889b0d59fd4181857edb19f5fecafa8510f2fad'        
+-
+    id: 5166
+    name: safe.ethtreasury.com
+    url: 'http://safe.ethtreasury.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x74c38Bf0C506EB5Ee22cdD8827c109B0C91e0D77'         
