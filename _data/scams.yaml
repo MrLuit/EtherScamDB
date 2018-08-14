@@ -37830,3 +37830,10 @@
     description: 'Trust trading scam site'     
     addresses:
       - '0x289f70e8C29657E574De9cF78D74cb20f674936a'          
+-
+    id: 5193
+    name: api-binance.co
+    url: 'http://api-binance.co'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance phishing for logins with POST /_loginSend.php'   
