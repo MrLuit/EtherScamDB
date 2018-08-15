@@ -37874,3 +37874,31 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys with POST bot/bot.php'      
+-
+    id: 5199
+    name: accounts-blockchain.info
+    url: 'http://accounts-blockchain.info'
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Suspicious blockchain domain - not deployed yet'   
+-
+    id: 5200
+    name: binance.com87654897.ml
+    url: 'http://binance.com87654897.ml'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance phishing for logins with POST /submit.php'      
+-
+    id: 5201
+    name: binance-in.com
+    url: 'http://binance-in.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance phishing for logins with POST /indexSend.php'          
+-
+    id: 5202
+    name: bittrex-br.com
+    url: 'http://bittrex-br.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex phishing for logins'       
