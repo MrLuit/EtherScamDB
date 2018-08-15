@@ -36989,6 +36989,7 @@
     addresses:
       - '0xBb802918Bc1Ac6089315f951F2b60a1CC275c3Bb'  
       - '0xc86619343080fa921baaff201c91dbbe8ceffa9e'
+      - '0xe1228F81C01b80EfeFAC957483d63a40c6d635e1'
 -
     id: 5095
     name: giftsforyou.online
@@ -38041,3 +38042,10 @@
     description: 'Trust trading scam site'     
     addresses:
       - '0xe889b0d59fd4181857edb19f5fecafa8510f2fad'  
+-
+    id: 5219
+    name: bittrex-sigin.com
+    url: 'http://bittrex-sigin.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex phishing for logins with POST /verification.php'     
