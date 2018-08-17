@@ -38209,3 +38209,35 @@
     description: 'Trust trading scam site'     
     addresses:
       - '0x31fca2139b07c2a97287de51f0219a34f4181710'               
+-
+    id: 5238
+    name: musk-air.org
+    url: 'http://musk-air.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x72696cE345abB71398384e42CfbF6C9A995246c0'   
+-
+    id: 5239
+    name: safe-claims.info
+    url: 'http://safe-claims.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x6a9c2ec4f4888d7338fc1b28584aaafeb01e6db3'         
+-
+    id: 5240
+    name: bitstamp.pw
+    url: 'http://bitstamp.pw'
+    category: Phishing
+    subcategory: Bitstamp
+    description: 'Fake Bitstamp exchange phishing for logins with POST /_indexSend.php'         
+-
+    id: 5241
+    name: binance-web.com
+    url: 'http://binance-web.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance exchange phishing for logins with POST /_indexSend.php'      
