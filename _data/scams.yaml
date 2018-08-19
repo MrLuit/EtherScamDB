@@ -38391,3 +38391,169 @@
     description: 'Trust trading scam site'     
     addresses:
       - '0x8F7534b39E75051F0C03C988239ac8D67d4C13A7'         
+-
+    id: 5258
+    name: bestchagne.com
+    url: 'http://bestchagne.com'
+    category: Phishing
+    subcategory: Best
+    description: 'Fake Binance exchange phishing for logins with POST /_indexSend.php' 
+-
+    id: 5259
+    name: biftinex.org
+    url: 'http://biftinex.org'
+    category: Phishing
+    subcategory: Bitfinex
+    description: 'Fake Bitfinex phihsing for logins'     
+-
+    id: 5260
+    name: myehterwellet.org 
+    url: 'http://myehterwellet.org'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'       
+-
+    id: 5261
+    name: ethclaim.top
+    url: 'http://ethclaim.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xA3570c82D03bBf8C337799FE3f502729D3Cf0DBc'     
+-
+    id: 5262
+    name: bittrex-n.com
+    url: 'http://bittrex-n.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex phishing for logins with POST /indexSend.php'       
+-
+    id: 5263
+    name: eth-airdrop.biz
+    url: 'http://eth-airdrop.biz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x4A0d6F59e4e689506122FC7691Ea0B3c9e9f7964'      
+-
+    id: 5264
+    name: ethfs.info
+    url: 'http://ethfs.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xDD0385e83fc3cBeFc00c47716774d71ee583805A'    
+      - '0x813ca840322E3795702300bB3eBAF7aEE9aF9536'
+-
+    id: 5265
+    name: ether-give-binance.com
+    url: 'http://ether-give-binance.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x3bFf0D893f8F595bc40ad266772b583DA492b20F'         
+-
+    id: 5266
+    name: take.realcryptogift.com
+    url: 'http://take.realcryptogift.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xcB3883a9Afe5b47FE83caC5A2dEc2aa841A62973'        
+-
+    id: 5267
+    name: ether-airdrop.info
+    url: 'http://ether-airdrop.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xc4C474507Cc8bbb5c8Cf06F7351bD5395e83175D'     
+      - '0xb48bb047b9716A306A6bD3adEF52f912778B3C9F'
+-
+    id: 5268
+    name: ethereumaction.eu
+    url: 'http://ethereumaction.eu'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xa3D120C2A03A58489F65D24880fF6b43d7A63235'       
+-
+    id: 5269
+    name: ether-airdrop.biz
+    url: 'http://ether-airdrop.biz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xc4C474507Cc8bbb5c8Cf06F7351bD5395e83175D'          
+-
+    id: 5270
+    name: medium-ether-blog.biz
+    url: 'http://medium-ether-blog.biz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x4A0d6F59e4e689506122FC7691Ea0B3c9e9f7964'            
+-
+    id: 5271
+    name: info-live-binance.com
+    url: 'http://info-live-binance.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x3bFf0D893f8F595bc40ad266772b583DA492b20F'         
+-
+    id: 5272
+    name: wusd.cf
+    url: 'http://wusd.cf'
+    category: Phishing
+    subcategory: Waves
+    description: 'Fake Waves interface phishing for phrases with POST /sendwaves.php'       
+-
+    id: 5273
+    name: binamedium.blogspot.com
+    url: 'http://binamedium.blogspot.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xc4856c6C04Ee3416dAEaeD3E5abAE3622BBE1eBe'     
+-
+    id: 5274
+    name: myethervvellet.net
+    url: 'http://myethervvellet.net'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'         
+-
+    id: 5275
+    name: coinbase-news.tumblr.com
+    url: 'http://coinbase-news.tumblr.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Linking users to giveaway-coinbase.club/payment.php?Exchange=Coinbase'     
+    addresses:
+      - '0xfb5e36B888bc15528b6Bd42fe0B1b2aF62693eB9'     
+-
+    id: 5276
+    name: exchangeth.online
+    url: 'http://exchangeth.online'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST bot/bot.php'        
+-
+    id: 5277
+    name: home-myetherwallat.info
+    url: 'http://home-myetherwallat.info'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'         
