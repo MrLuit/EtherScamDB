@@ -38557,3 +38557,79 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys'         
+-
+    id: 5278
+    name: eth-secure.top
+    url: 'http://eth-secure.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x0084515449B037205A33d6d3940a5684126Aa4b5'  
+-
+    id: 5279
+    name: ether-promo.biz
+    url: 'http://ether-promo.biz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xfB864b083B6284a864cd3A18378e65baBd13Ce1B'        
+      - '0xD6D07d0463C3157725804055dA4aFd36201EA99D'
+-
+    id: 5280
+    name: medium-ether-blog.info
+    url: 'http://medium-ether-blog.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Linking users to ether-promo.biz'     
+    addresses:
+      - '0xD6D07d0463C3157725804055dA4aFd36201EA99D'       
+-
+    id: 5281
+    name: eth-return-now.borec.cz
+    url: 'http://eth-return-now.borec.cz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'     
+    addresses:
+      - '0x28f45192fD495bd9CBB312a6080d086D14481Ebc'          
+-
+    id: 5282
+    name: etheasydrop.eu
+    url: 'http://etheasydrop.eu'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'     
+    addresses:
+      - '0x882f33f162ab64D427182087DD4916c537de8582'          
+-
+    id: 5283
+    name: myetherwallet-sigen.space
+    url: 'http://myetherwallet-sigen.space'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'       
+-
+    id: 5284
+    name: new-myethewallet-1a.com
+    url: 'http://new-myethewallet-1a.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'         
+-
+    id: 5285
+    name: electrumwallet.io
+    url: 'http://electrumwallet.io'
+    category: Phishing
+    subcategory: Electrum
+    description: 'Fake Electrum wallet - https://www.virustotal.com/#/url/0647573652b7edb664f67051b25555bc28908188f3c1e953eadb2da4bfc4f181'       
+-
+    id: 5286
+    name: shapeshiflt.com
+    url: 'http://shapeshiflt.com'
+    category: Phishing
+    subcategory: Shapeshift
+    description: 'Fake Shapeshift'     
+    addresses:
+      - '0x081A48FCFb87DDC415C31dDae1eb3BA5D5696cDB'     
