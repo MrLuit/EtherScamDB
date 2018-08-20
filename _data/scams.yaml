@@ -38633,3 +38633,17 @@
     description: 'Fake Shapeshift'     
     addresses:
       - '0x081A48FCFb87DDC415C31dDae1eb3BA5D5696cDB'     
+-
+    id: 5287
+    name: walletverify.info
+    url: 'http://walletverify.info'
+    category: Phishing
+    subcategory: DDEX
+    description: 'Fake DDEX phishing for keys'     
+-
+    id: 5288
+    name: myetherwallet.com.walletverify.info
+    url: 'http://myetherwallet.com.walletverify.info'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'         
