@@ -38777,3 +38777,120 @@
     category: Phishing
     subcategory: HitBTC
     description: 'Fake HitBTC phishing for logins'      
+-
+    id: 5305
+    name: ethpromogiving.com
+    url: 'http://ethpromogiving.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'     
+    addresses:
+      - '0x14a11E2eF83895918da176165e33025e02e472dE'  
+-
+    id: 5306
+    name: ethpromogiving.net
+    url: 'http://ethpromogiving.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'     
+    addresses:
+      - '0x478dc7121A0339Fbba4cC5b4AcBB8a119c8a8f19'        
+-
+    id: 5307
+    name: ethpromosend.net
+    url: 'http://ethpromosend.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'     
+    addresses:
+      - '0x04A96F1B6f661793787B527F3114f33d7e413B4d'      
+-
+    id: 5308
+    name: ethpromodonate.com
+    url: 'http://ethpromodonate.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'     
+    addresses:
+      - '0xB23452b9e14f7770C0aD879Fb4dA1e70Bf661EEe'         
+-
+    id: 5309
+    name: ethpromogive.info
+    url: 'http://ethpromogive.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'     
+    addresses:
+      - '0x6bed8445ADa86419243f95A5BB14BC599D62B295'         
+-
+    id: 5310
+    name: ethpromoget.info
+    url: 'http://ethpromoget.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'     
+    addresses:
+      - '0x613F306c111bA759E4AC11165e70d2a68AAF4F2A'          
+-
+    id: 5311
+    name: ethpromotake.info
+    url: 'http://ethpromotake.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'     
+    addresses:
+      - '0x613F306c111bA759E4AC11165e70d2a68AAF4F2A'       
+-
+    id: 5312
+    name: ethpromogivenow.info
+    url: 'http://ethpromogivenow.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'     
+    addresses:
+      - '0x1d52E4636DE8C16FfB25855bE76630C7fb574E47'        
+-
+    id: 5313
+    name: theethpromogive.info
+    url: 'http://theethpromogive.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'     
+    addresses:
+      - '0x1d52E4636DE8C16FfB25855bE76630C7fb574E47'          
+-
+    id: 5314
+    name: ethpromogiving.info
+    url: 'http://ethpromogiving.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'     
+    addresses:
+      - '0x80b81748dd5c55bAAA87731aA469Ec17E33dAC9A'           
+-
+    id: 5315
+    name: ethpromo-give.org
+    url: 'http://ethpromo-give.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'     
+    addresses:
+      - '0x80b81748dd5c55bAAA87731aA469Ec17E33dAC9A'        
+-
+    id: 5316
+    name: ethpromogive.org
+    url: 'http://ethpromogive.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'     
+    addresses:
+      - '0x7E1eD8B2c8Ee37b4afA078B31c7bCBA9fb0efA5A'              
+-
+    id: 5317
+    name: ethpromoget.org
+    url: 'http://ethpromoget.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'     
+    addresses:
+      - '0x7E1eD8B2c8Ee37b4afA078B31c7bCBA9fb0efA5A'           
