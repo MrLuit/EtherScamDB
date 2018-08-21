@@ -38647,3 +38647,45 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys'         
+-
+    id: 5289
+    name: myethervvallet.pw
+    url: 'http://myethervvallet.pw'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain'      
+-
+    id: 5290
+    name: myetherwallet.co.za
+    url: 'http://myetherwallet.co.za'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain'      
+-
+    id: 5291
+    name: myetherwallett.fhapp.xyz
+    url: 'http://myetherwallett.fhapp.xyz'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain'          
+-
+    id: 5292
+    name: web-binance.com
+    url: 'http://web-binance.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance phishing for logins'       
+-
+    id: 5293
+    name: xn--bittrxx-vya.com
+    url: 'http://xn--bittrxx-vya.com'
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex phishing for logins'       
+-
+    id: 5294
+    name: memonero.co
+    url: 'http://memonero.co'
+    category: Phishing
+    subcategory: MyMonero
+    description: 'Fake MyMonero phishing for logins'      
