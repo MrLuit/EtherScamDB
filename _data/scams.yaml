@@ -38016,7 +38016,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site. Bitcoin address: 142bD1fno4SKQ54vc6eqy6ueLDxbo8jzRB'     
     addresses:
-      - '0xF14D02FD483E5eDaE77187D6EC5AC51F015DE468'      
+      - '0xF14D02FD483E5eDaE77187D6EC5AC51F015DE468'
+      - '0x3Ea41dc576Ccf70706Aeece363833A26D9529C38'
 -
     id: 5216
     name: musk-share.com
@@ -38689,3 +38690,90 @@
     category: Phishing
     subcategory: MyMonero
     description: 'Fake MyMonero phishing for logins'      
+-
+    id: 5295
+    name: ethtw.info
+    url: 'http://ethtw.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'     
+    addresses:
+      - '0x813ca840322E3795702300bB3eBAF7aEE9aF9536'  
+      - '0x26A022e559eC404C142eC873F1cde696ac97915B'
+-
+    id: 5296
+    name: ethertake.org
+    url: 'http://ethertake.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'     
+    addresses:
+      - '0xf6fc6941643384Ccd56ad8f084beEB338B77128A'        
+-
+    id: 5297
+    name: ethereum-giveaway.czweb.org
+    url: 'http://ethereum-giveaway.czweb.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'     
+    addresses:
+      - '0x31fca2139b07c2a97287de51f0219a34f4181710'        
+-
+    id: 5298
+    name: ethshift.website
+    url: 'http://ethshift.website'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'     
+    addresses:
+      - '0xA9A53dCD4C6BC74Ae56cC52CE48390D85BE98c80'          
+-
+    id: 5299
+    name: gathereth.com
+    url: 'http://gathereth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'     
+    addresses:
+      - '0x982F12f899A37759A3426165eCE2224df21bE241'      
+-
+    id: 5300
+    name: hugedrop.eu
+    url: 'http://hugedrop.eu'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'     
+    addresses:
+      - '0x273730ff234b4Bd238cE9751BEDdA309A946D6A6'        
+-
+    id: 5301
+    name: ethpromo-give.info
+    url: 'http://ethpromo-give.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'     
+    addresses:
+      - '0x6bed8445ADa86419243f95A5BB14BC599D62B295'      
+-
+    id: 5302
+    name: elonmusk.racing
+    url: 'http://elonmusk.racing'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'     
+    addresses:
+      - '0x6a9c2ec4f4888d7338fc1b28584aaafeb01e6db3'       
+-
+    id: 5303
+    name: hitbtc.cc
+    url: 'http://hitbtc.cc'
+    category: Phishing
+    subcategory: HitBTC
+    description: 'Fake HitBTC phishing for logins with POST /_loginSend.php'       
+-
+    id: 5304
+    name: hitb-tco.com
+    url: 'http://hitb-tco.com'
+    category: Phishing
+    subcategory: HitBTC
+    description: 'Fake HitBTC phishing for logins'      
