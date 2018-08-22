@@ -38894,3 +38894,139 @@
     description: 'Trust trading scam site.'     
     addresses:
       - '0x7E1eD8B2c8Ee37b4afA078B31c7bCBA9fb0efA5A'           
+-
+    id: 5318
+    name: verify.10000eth.pro
+    url: 'http://verify.10000eth.pro'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'     
+    addresses:
+      - '0x7bc060459dd2730d912B654EC98cacDeE2b6927d'  
+-
+    id: 5319
+    name: 10000eth.pro
+    url: 'http://10000eth.pro'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'     
+    addresses:
+      - '0xf950000A614e53d35505A40764e7Ebc100FCf0dF'       
+-
+    id: 5320
+    name: eth-twitter.com
+    url: 'http://eth-twitter.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site.'     
+    addresses:
+      - '0x5De81CAEFeE2f158964a65F0e19bd5e5EE94602a'   
+      - '0x4577a58d2b8AF56827bba7A81Cc63896327bA968'
+-
+    id: 5321
+    name: ethfor.blogspot.com
+    url: 'http://ethfor.blogspot.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site (iframing ethcap.info)'     
+    addresses:
+      - '0x26A022e559eC404C142eC873F1cde696ac97915B'  
+      - '0x07920356975798037F26A934Db461c7AaFc8aa05'
+-
+    id: 5322
+    name: ethcap.info
+    url: 'http://ethcap.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x07920356975798037F26A934Db461c7AaFc8aa05'  
+      - '0x26A022e559eC404C142eC873F1cde696ac97915B'
+-
+    id: 5323
+    name: gift-promo.wz.cz
+    url: 'http://gift-promo.wz.cz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xd261E98abd0ebc6CCaA3c57a9bb017b0720C1343'       
+-
+    id: 5324
+    name: vitd1.info
+    url: 'http://vitd1.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x9Bd1ab6BE3c0Ed45Bab095335F6d16f0Ff18109c'            
+-
+    id: 5325
+    name: reblogiz.blogspot.com
+    url: 'http://reblogiz.blogspot.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xc4856c6C04Ee3416dAEaeD3E5abAE3622BBE1eBe'           
+-
+    id: 5326
+    name: promo-ether.org
+    url: 'http://promo-ether.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x4D1DCFbF1299EB1007d55976754bb41a87eb9D0F'            
+-
+    id: 5327
+    name: ethereum-promo.net
+    url: 'http://ethereum-promo.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x8cbBbDFF9326F356E270361b1c0469FED74F566C'        
+-
+    id: 5328
+    name: ethereumpromo.eu
+    url: 'http://ethereumpromo.eu'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x273730ff234b4Bd238cE9751BEDdA309A946D6A6'          
+-
+    id: 5329
+    name: get.bigcryptogift.com
+    url: 'http://get.bigcryptogift.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x3cD62398553089A1eB75d434ce3cCCBDFd4b56cB'           
+-
+    id: 5330
+    name: bigcryptogift.com
+    url: 'http://bigcryptogift.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x3cD62398553089A1eB75d434ce3cCCBDFd4b56cB'           
+-
+    id: 5331
+    name: exchanges.claims
+    url: 'http://exchanges.claims'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x1bBEeD1E4aD3C102a58129C65f4e04C4C67009AF'       
+-
+    id: 5332
+    name: btc-promo.xf.cz
+    url: 'http://btc-promo.xf.cz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 16zc22GFYyJf8XSN2TSUzDtUDZ4CQtmKcb'         
