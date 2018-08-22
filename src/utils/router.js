@@ -32,11 +32,15 @@ router.get('/report/address/:address', (req, res) => res.render('report', {
 }));
 
 /* IP pages */
-router.get('/ip/:ip', (req, res) => res.render('ip', {
-	ip: req.params.ip,
-	isPrivate: isIpPrivate(req.params.ip),
-	related: (db.read().index.ips[req.params.ip] || [])
-}));
+router.get('/ip/:ip', async (req, res) => {
+	const entry = db.read()
+	console.log(JSON.stringify(entry.index.ips, null, 2))
+	await res.render('ip', {
+		ip: req.params.ip,
+		isPrivate: isIpPrivate(req.params.ip),
+		related: (entry.index.ips[req.params.ip] || [])
+	})
+});
 
 /* Address pages */
 router.get('/address/:address', async (req, res) => {
