@@ -22,9 +22,10 @@ process.once('close', () => process.exit(1));
 		if(config.lookups.HTTP.enabled) await scam.getStatus();
 		if(config.lookups.DNS.IP.enabled) await scam.getIP();
 		if(config.lookups.DNS.NS.enabled) await scam.getNameservers();
-		
+
 		process.send({
 			url: scam.url,
+			name: scam.name,
 			ip: scam.ip,
 			nameservers: scam.nameservers,
 			status: scam.status,
@@ -32,6 +33,6 @@ process.once('close', () => process.exit(1));
 			updated: Date.now()
 		});
 	}));
-	
+
 	debug("Done updating!");
 })();

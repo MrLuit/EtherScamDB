@@ -9,6 +9,7 @@ const github = require('./github');
 const router = express.Router();
 const isIpPrivate = require('private-ip');
 const {getGoogleSafeBrowsing,getURLScan} = require('./lookup');
+const debug = require('debug')('router')
 
 /* Homepage */
 router.get('/(/|index.html)?', (req, res) => res.render('index'));
@@ -38,10 +39,30 @@ router.get('/ip/:ip', (req, res) => res.render('ip', {
 }));
 
 /* Address pages */
-router.get('/address/:address', (req, res) => res.render('address', {
-	address: req.params.address,
-	related: (db.read().index.addresses[req.params.address] || [])
-}));
+router.get('/address/:address', async (req, res) => {
+	const entry = await db.read()
+	if(entry.index.whitelistAddresses[req.params.address]) {6
+		res.render('address', {
+			address: req.params.address,
+			related: (entry.index.whitelistAddresses[req.params.address]),
+			type: "verified"
+		})
+	}
+	else if(entry.index.addresses[req.params.address]) {
+		res.render('address', {
+			address: req.params.address,
+			related: (entry.index.addresses[req.params.address] || []),
+			type: "scam"
+		})
+	}
+	else {
+		res.render('address', {
+			address: req.params.address,
+			related: (entry.index.addresses[req.params.address] || []),
+			type: "neutral"
+		})
+	}
+});
 
 /* (dev) Add scam page */
 router.get('/add/', (req,res) => {
@@ -56,14 +77,14 @@ router.get('/domain/:url', async (req, res) => {
 	const {hostname} = url.parse('http://' + req.params.url.replace('http://','').replace('https://'));
 	const scamEntry = db.read().scams.find(scam => scam.getHostname() == hostname);
 	const verifiedEntry = db.read().verified.find(verified => url.parse(verified.url).hostname == hostname);
-	
+
 	const urlScan = await getURLScan(hostname);
 	let googleSafeBrowsing = undefined;
 	let virusTotal = undefined;
-	
+
 	if((scamEntry || !verifiedEntry) && config.apiKeys.Google_SafeBrowsing) googleSafeBrowsing = await getGoogleSafeBrowsing(hostname);
 	if((scamEntry || !verifiedEntry) && config.apiKeys.VirusTotal) virusTotal = await virusTotal(hostname);
-		
+
 	if(verifiedEntry) res.render('domain', { type: 'verified', result: verifiedEntry, domain: hostname, urlScan: urlScan, metamask: false, googleSafeBrowsing: googleSafeBrowsing, virusTotal: virusTotal, startTime: startTime, dateFormat: dateFormat });
 	else if(scamEntry) res.render('domain', { type: 'scam', result: scamEntry, domain: hostname, urlScan: urlScan, metamask: checkForPhishing(hostname), googleSafeBrowsing: googleSafeBrowsing, virusTotal: virusTotal, startTime: startTime, dateFormat: dateFormat, abuseReport: generateAbuseReport(scamEntry) });
 	else res.render('domain', { type: 'neutral', domain: hostname, result: false, urlScan: urlScan, metamask: checkForPhishing(hostname), googleSafeBrowsing: googleSafeBrowsing, virusTotal: virusTotal, addresses: [], startTime: startTime });
@@ -75,7 +96,7 @@ router.get('/scams/:page?/:sorting?/', (req, res) => {
 	const scamList = [];
 	let scams = [...db.read().scams].reverse();
 	let index = [0,MAX_RESULTS_PER_PAGE];
-		
+
 	if(req.params.page && req.params.page != 'all' && (!isFinite(parseInt(req.params.page)) || isNaN(parseInt(req.params.page)) || parseInt(req.params.page) < 1)) {
 		res.status(404).render('404');
 	} else {
@@ -84,15 +105,15 @@ router.get('/scams/:page?/:sorting?/', (req, res) => {
 		else if (req.params.sorting == 'category') scams = [...db.read().scams].sort((a,b) => (a.category || '').localeCompare(b.category || ''));
 		else if (req.params.sorting == 'subcategory') scams = [...db.read().scams].sort((a,b) => (a.subcategory || '').localeCompare(b.subcategory || ''));
 		else if (req.params.sorting == 'name') scams = [...db.read().scams].sort((a,b) => a.getHostname().localeCompare(b.getHostname()));
-		
+
 		if (req.params.page == "all") index = [0,scams.length-1];
 		else if(req.params.page) index = [(req.params.page-1) * MAX_RESULTS_PER_PAGE,(req.params.page * MAX_RESULTS_PER_PAGE)];
-		
+
 		for (var i = index[0]; i <= index[1]; i++) {
 			if (scams.hasOwnProperty(i) === false) continue;
 			scamList.push(scams[i]);
 		}
-			
+
 		res.render('scams', {
 			'page': req.params.page,
 			'sorting': req.params.sorting,
@@ -106,7 +127,7 @@ router.get('/scams/:page?/:sorting?/', (req, res) => {
 		});
 	}
 });
-	
+
 /* Search pages */
 router.get('/search/', (req, res) => res.render('search', { featured: db.read().index.featured }));
 
@@ -118,7 +139,7 @@ router.use('/api/:type?/:domain?/', (req,res,next) => {
 	res.header('Access-Control-Allow-Origin', '*');
 	next();
 });
-	
+
 router.get('/api/scams', (req, res) => res.json({ success: true, result: db.read().scams }));
 router.get('/api/addresses', (req, res) => res.json({ success: true, result: db.read().index.addresses }));
 router.get('/api/ips', (req, res) => res.json({ success: true, result: db.read().index.ips }));
@@ -127,7 +148,7 @@ router.get('/api/inactives', (req, res) => res.json({ success: true, result: db.
 router.get('/api/actives', (req, res) => res.json({ success: true, result: db.read().index.actives }));
 router.get('/api/blacklist', (req, res) => res.json(db.read().index.blacklist));
 router.get('/api/whitelist', (req, res) => res.json(db.read().index.whitelist));
-router.get('/api/abusereport/:domain', (req, res) => { 
+router.get('/api/abusereport/:domain', (req, res) => {
 	const result = db.read().scams.find(scam => scam.getHostname() == url.parse(req.params.domain).hostname || scam.url.replace(/(^\w+:|^)\/\//, '') == req.params.domain);
 	if (result) res.json({ success: false, message: "URL wasn't found"});
 	else res.send({ success: true, result: generateAbuseReport(result)});
@@ -218,7 +239,7 @@ router.post('/update/', (req, res) => {
 	req.on('data', chunk => req.rawBody += chunk);
 	req.on('end', () => github.webhook(req,res));
 });
-	
+
 /* Safe redirect pages */
 router.get('/redirect/:url', (req,res) => res.render('redirect', { url: req.params.url }));
 
