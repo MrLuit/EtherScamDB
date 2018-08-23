@@ -39170,3 +39170,92 @@
     category: Phishing
     subcategory: Kucoin
     description: 'Suspicious Kucoin domain - nothing deployed yet'          
+-
+    id: 5353
+    name: ethereum-foundation.info
+    url: 'http://ethereum-foundation.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x6372fe3cD2244286E727027426479181C91E33B3'  
+-
+    id: 5354
+    name: bitcashout.wixsite.com
+    url: 'http://bitcashout.wixsite.com'
+    category: Scamming
+    subcategory: Ponzi
+    description: 'Ponzi scheme'     
+    addresses:
+      - '0xaba49b563feed7f617ae2fcff86c3a6e8821c387'       
+-
+    id: 5355
+    name: bigcryptogift.info
+    url: 'http://bigcryptogift.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x046E3A705d9bCd0E53D2b45161B48E39f4Bc4090'    
+      - '0x0D3832c74ED42b084806Bf23FCCbf3193CC596Af'
+-
+    id: 5356
+    name: claim-binance.com
+    url: 'http://claim-binance.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xa7229E0De15d36A58A79eE61aB93744241fF001b'         
+-
+    id: 5357
+    name: get.safepaycrypto.com
+    url: 'http://get.safepaycrypto.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x794328caef716A6aBc9a4F426A5aA516a4D1A1A4'            
+-
+    id: 5358
+    name: safepaycrypto.com
+    url: 'http://safepaycrypto.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x794328caef716A6aBc9a4F426A5aA516a4D1A1A4'        
+-
+    id: 5359
+    name: aeternity.click
+    url: 'http://aeternity.click'
+    category: Phishing
+    subcategory: Aeternity
+    description: 'Fake airdrop phishing for keys'     
+-
+    id: 5360
+    name: airdrop-event.website
+    url: 'http://airdrop-event.website'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xE9De9394cFf204910Da2334230f1C6BC9F7c9702' 
+-
+    id: 5361
+    name: claimeth10.000webhostapp.com
+    url: 'http://claimeth10.000webhostapp.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xf38CD78E1f9058221270B33a587a1a80A6c46ccB'       
+-
+    id: 5362
+    name: cryptoprize.in
+    url: 'http://cryptoprize.in'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xb6591bbfdd9aDfE48F174E741c35119b08b02E60'             
