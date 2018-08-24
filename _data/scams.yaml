@@ -30064,6 +30064,7 @@
     addresses:
       - '0x224B9f4666472682f3e805f4dC1e0Fc39B7B96fB'
       - '0xC597498f0d102036ff7bf9fDa401F3174d2E9D96'
+      - '0xCF060F72EA615dc395F08D6205d3540a7142C712'
 -
     id: 4259
     name: eth-giveaway.surge.sh
@@ -38201,7 +38202,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'     
     addresses:
-      - '0x7Cb16e15F66B8DcA14385409f44336A9F679632C'         
+      - '0x7Cb16e15F66B8DcA14385409f44336A9F679632C'  
+      - '0xbC492382Aa0586f08CDb2E0bA88C1048F1e7b44E'
 -
     id: 5237
     name: crypto-promo.czweb.org
@@ -39249,7 +39251,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'     
     addresses:
-      - '0xf38CD78E1f9058221270B33a587a1a80A6c46ccB'       
+      - '0xf38CD78E1f9058221270B33a587a1a80A6c46ccB'  
+      - '0xE6662F624e5E3075dBcA419ECC58F6c5E20F8cBe'
 -
     id: 5362
     name: cryptoprize.in
@@ -39282,3 +39285,138 @@
     category: Phishing
     subcategory: Tron
     description: 'Fake Tronscan phishing for keys (redirecting to xn--tronscn-mwa.com)'         
+-
+    id: 5366
+    name: hitbtc1.website
+    url: 'http://hitbtc1.website'
+    category: Phishing
+    subcategory: HitBTC
+    description: 'Fake HitBTC phishing for logins with POST /_loginSend.php' 
+-
+    id: 5367
+    name: promo-giving.ga
+    url: 'http://promo-giving.ga'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xadea1fc3493feb9fddc1629e37e5580c21470d7c'    
+      - '0x0a0d6500a7365fbd500f06811abef4de95c7a9a5'
+-
+    id: 5368
+    name: mediumlast.ml
+    url: 'http://mediumlast.ml'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x31a732f783BAfF201d7A1Bf530E3411636e6dF2D'          
+-
+    id: 5369
+    name: ethereumbonus.net
+    url: 'http://ethereumbonus.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x5b5039BE7A3A8b779D21908F1000E221f3574fa5'           
+-
+    id: 5370
+    name: secure-eth.info
+    url: 'http://secure-eth.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x0cbC569253E2419856e4a777cf406d35444d8E50'          
+-
+    id: 5371
+    name: ethfs.blogspot.com
+    url: 'http://ethfs.blogspot.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x07920356975798037F26A934Db461c7AaFc8aa05'    
+      - '0xdcBD1172aE45B97E1C807d93707e74463295349c'
+-
+    id: 5372
+    name: nblogiz.blogspot.com
+    url: 'http://nblogiz.blogspot.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xc4856c6C04Ee3416dAEaeD3E5abAE3622BBE1eBe'          
+-
+    id: 5373
+    name: secure2.ethrewarding.com
+    url: 'http://secure2.ethrewarding.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x4577a58d2b8AF56827bba7A81Cc63896327bA968'             
+-
+    id: 5374
+    name: ethrewarding.com
+    url: 'http://ethrewarding.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x5f38DcBc5a2DBE1e040a60153750feb7E1CfA570'         
+-
+    id: 5375
+    name: bigcryptogift.org
+    url: 'http://bigcryptogift.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x4686869E7b3C5FbDd35e399c2fc3e652647C2771'         
+-
+    id: 5376
+    name: mudium.xyz
+    url: 'http://mudium.xyz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Linking users to ethereum-gift.site/ via bitly.com/2MThMlI+e'     
+    addresses:
+      - '0xA568d32db25A052a7887c401Bb1cDFfeC5389201'         
+-
+    id: 5377
+    name: ethereum-gift.site
+    url: 'http://ethereum-gift.site'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xA568d32db25A052a7887c401Bb1cDFfeC5389201'          
+-
+    id: 5378
+    name: claimeth.info
+    url: 'http://claimeth.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xd44c13f838462eF1bD983e9CA5D5b9e158138746'          
+-
+    id: 5379
+    name: go.ethsec.us
+    url: 'http://go.ethsec.us'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x289f70e8C29657E574De9cF78D74cb20f674936a'        
+-
+    id: 5380
+    name: ethsec.us
+    url: 'http://ethsec.us'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x289f70e8C29657E574De9cF78D74cb20f674936a'              
