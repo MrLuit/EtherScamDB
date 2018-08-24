@@ -39259,3 +39259,26 @@
     description: 'Trust trading scam site'     
     addresses:
       - '0xb6591bbfdd9aDfE48F174E741c35119b08b02E60'             
+-
+    id: 5363
+    name: eth-claim.pw
+    url: 'http://eth-claim.pw'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x4D1DCFbF1299EB1007d55976754bb41a87eb9D0F'   
+-
+    id: 5364
+    name: xn--tronscn-mwa.com
+    url: 'http://xn--tronscn-mwa.com'
+    category: Phishing
+    subcategory: Tron
+    description: 'Fake Tronscan phishing for keys with POST /auth.php'        
+-
+    id: 5365
+    name: tron-scan.info
+    url: 'http://tron-scan.info'
+    category: Phishing
+    subcategory: Tron
+    description: 'Fake Tronscan phishing for keys (redirecting to xn--tronscn-mwa.com)'         
