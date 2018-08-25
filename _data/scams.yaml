@@ -39493,3 +39493,19 @@
     category: Phishing
     subcategory: Kraken
     description: 'Hosting a fake Kraken login (xls-log.com/krkaksaken_/in/l/en/) phishing for logins with POST /index_.php'           
+-
+    id: 5390
+    name: idexmark.online
+    url: 'http://idexmark.online'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /bot/bot.php'     
+-
+    id: 5391
+    name: eth-gifting.com
+    url: 'http://eth-gifting.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x5d0Dbbf6460Ba020A5ab06006Ea447ffC7612b2d'    
