@@ -39420,3 +39420,76 @@
     description: 'Trust trading scam site'     
     addresses:
       - '0x289f70e8C29657E574De9cF78D74cb20f674936a'              
+-
+    id: 5381
+    name: ethereum-bonus.biz
+    url: 'http://ethereum-bonus.biz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x7862f3EC65e013bfC42f6905C0E373B5B2c65c51'  
+-
+    id: 5382
+    name: bigcryptogift.borec.cz
+    url: 'http://bigcryptogift.borec.cz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x9Bd1ab6BE3c0Ed45Bab095335F6d16f0Ff18109c'        
+-
+    id: 5383
+    name: website-events.website
+    url: 'http://website-events.website'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x7D69D57b025Aa1e5029194582eB85608dB84cFb5'         
+-
+    id: 5384
+    name: satoshilite-eth.tumblr.com
+    url: 'http://satoshilite-eth.tumblr.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Linking users to get-eth-now.com/eth/'     
+-
+    id: 5385
+    name: stellarterm.org
+    url: 'http://stellarterm.org'
+    category: Phishing
+    subcategory: Stellar
+    description: 'Fake Stellar webwallet stealing keys with POST /account/lumensxlm.php'     
+-
+    id: 5386
+    name: promoeth10.000webhostapp.com
+    url: 'http://promoeth10.000webhostapp.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xc3143951adc753bE54A8740637d04A2a988939A7' 
+-
+    id: 5387
+    name: tesla-eth.getforge.io
+    url: 'http://tesla-eth.getforge.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xB53fB00e8635bE2d0BA259D6579650F5a907eE16'       
+-
+    id: 5388
+    name: xn--myethrewllet-jbb.com
+    url: 'http://xn--myethrewllet-jbb.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - IDN homograph attack domain'         
+-
+    id: 5389
+    name: xls-log.com
+    url: 'http://xls-log.com'
+    category: Phishing
+    subcategory: Kraken
+    description: 'Hosting a fake Kraken login (xls-log.com/krkaksaken_/in/l/en/) phishing for logins with POST /index_.php'           
