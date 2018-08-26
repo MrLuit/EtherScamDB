@@ -30065,6 +30065,9 @@
       - '0x224B9f4666472682f3e805f4dC1e0Fc39B7B96fB'
       - '0xC597498f0d102036ff7bf9fDa401F3174d2E9D96'
       - '0xCF060F72EA615dc395F08D6205d3540a7142C712'
+      - '0x4f1872383bE22878Af5D4795b69Be61B35Ec5d10'
+      - '0x760A412a14F2Fe03c0873B473fEbDf79db288FcE'
+      - '0x015fcA1D09287823e634AE51237ee1eeFF03D9d5'
 -
     id: 4259
     name: eth-giveaway.surge.sh
@@ -39541,3 +39544,166 @@
     description: 'Fake Google crowdsale site' 
     addresses:
       - '0x89f4d39667Aa080502c517B613A6c92786aa14Bd'      
+-
+    id: 5396
+    name: ether-claim.net
+    url: 'http://ether-claim.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x5b5039BE7A3A8b779D21908F1000E221f3574fa5' 
+-
+    id: 5397
+    name: airdropvert.info
+    url: 'http://airdropvert.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xA2922aE30Ff11c0fEf6E250b3892A451BDd533f1'       
+-
+    id: 5398
+    name: bigcryptogift.net
+    url: 'http://bigcryptogift.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xeCE7dE131f2E338C6E76291ED597b359B2B3Be7D'             
+-
+    id: 5399
+    name: eth-give.io
+    url: 'http://eth-give.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xA5e89FA321377b4136793db32fa6AfE78a2BCE3b'           
+-
+    id: 5400
+    name: mcafeepromo.xyz
+    url: 'http://mcafeepromo.xyz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xA2922aE30Ff11c0fEf6E250b3892A451BDd533f1'           
+-
+    id: 5401
+    name: crypto-gifts.ml
+    url: 'http://crypto-gifts.ml'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x50E8DE98570B8a2ddFF80a9D2e8ADcdBC35f3f95'         
+-
+    id: 5402
+    name: amazing-smartcontract.space
+    url: 'http://amazing-smartcontract.space'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x832ad88f1E81d46F9D80298597c80B577B6D4736'         
+-
+    id: 5403
+    name: elon-shares.info
+    url: 'http://elon-shares.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x4686869E7b3C5FbDd35e399c2fc3e652647C2771'   
+      - '0xeCE7dE131f2E338C6E76291ED597b359B2B3Be7D'
+-
+    id: 5404
+    name: blogsbina.blogspot.com
+    url: 'http://blogsbina.blogspot.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xc4856c6C04Ee3416dAEaeD3E5abAE3622BBE1eBe'       
+-
+    id: 5405
+    name: medium-com.website
+    url: 'http://medium-com.website'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x1b894eFE9CA79bC139A68740a6B8018ABdF73F7E'          
+-
+    id: 5406
+    name: big-giveaway.xf.cz
+    url: 'http://big-giveaway.xf.cz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xd261E98abd0ebc6CCaA3c57a9bb017b0720C1343'          
+-
+    id: 5407
+    name: cryptodrop.eu
+    url: 'http://cryptodrop.eu'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xCb0736e6d2Cf621360dF831f6eb2DC0E56128b89'           
+-
+    id: 5408
+    name: binc-blog.blogspot.com
+    url: 'http://binc-blog.blogspot.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xc4856c6C04Ee3416dAEaeD3E5abAE3622BBE1eBe'        
+-
+    id: 5409
+    name: ethfreegiveaway.ga
+    url: 'http://ethfreegiveaway.ga'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Iframing: app-1524336311.000webhostapp.com/freeeth/'     
+    addresses:
+      - '0x6DcBe06db7D7E56941C92b5Cd9Ea8daD65d4417C'        
+-
+    id: 5410
+    name: app-1524336311.000webhostapp.com
+    url: 'http://app-1524336311.000webhostapp.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x6DcBe06db7D7E56941C92b5Cd9Ea8daD65d4417C'      
+-
+    id: 5411
+    name: etherium-com.site
+    url: 'http://etherium-com.site'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x3b77304D18855138D3d551D2191350827f133d80'          
+-
+    id: 5412
+    name: bonuseth10.000webhostapp.com
+    url: 'http://bonuseth10.000webhostapp.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x3F39d99bBefa038F82123dfb6C76593FEd1CA710'         
+-
+    id: 5413
+    name: medium-ethereum-promo.biz
+    url: 'http://medium-ethereum-promo.biz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Linking users to ethereum-bonus.biz'     
+    addresses:
+      - '0x7862f3ec65e013bfc42f6905c0e373b5b2c65c51'       
