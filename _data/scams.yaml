@@ -39509,3 +39509,26 @@
     description: 'Trust trading scam site'     
     addresses:
       - '0x5d0Dbbf6460Ba020A5ab06006Ea447ffC7612b2d'    
+-
+    id: 5392
+    name: binanceethereum.com
+    url: 'http://binanceethereum.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xe7300a38788EE039B20aE36C80dFEEb3a53d3a06'  
+-
+    id: 5393
+    name: idex.marketing
+    url: 'http://idex.marketing'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex'     
+-
+    id: 5394
+    name: httpsmyetherwallet.pw
+    url: 'http://httpsmyetherwallet.pw'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /hbz.php'      
