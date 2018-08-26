@@ -1,5 +1,7 @@
 {
   "whitelist": {
+    "821208138087092224": "Cocoa_IoT",
+    "928787508195766272": "crawfordleeds",
     "46698487":	"GBSavant",
     "852929204995989504": "trudatum",
     "4228508187": "Coinfirm_io",
@@ -9390,7 +9392,7 @@
     "2932635294": "lukebp_",
     "895384153134440449": "ixo_impact",
     "14510756": "dagur",
-    "183853006": "migafreeman"	  
+    "183853006": "migafreeman"
   },
   "blacklist": {
 	"321652568": "syscoin_tx",
