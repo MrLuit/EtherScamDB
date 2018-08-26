@@ -39532,3 +39532,12 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys with POST /hbz.php'      
+-
+    id: 5395
+    name: google.com.tokensale.ws
+    url: 'http://google.com.tokensale.ws'
+    category: Phishing
+    subcategory: Google
+    description: 'Fake Google crowdsale site' 
+    addresses:
+      - '0x89f4d39667Aa080502c517B613A6c92786aa14Bd'      
