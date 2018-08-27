@@ -39966,3 +39966,31 @@
     description: 'Fake Telegram crowdsale site'     
     addresses:
       - '0x387ba35bE8c8cBF2f4D3dDb571Cb80069Bf100E2'         
+-
+    id: 5442
+    name: biltmex.com
+    url: 'http://biltmex.com'
+    category: Phishing
+    subcategory: Bitmex
+    description: 'Fake Bitmex phishing for logins with POST /send1.php'  
+-
+    id: 5443
+    name: lbtsx.com
+    url: 'http://lbtsx.com'
+    category: Phishing
+    subcategory: Cex
+    description: 'Hosting a fake Cex.io exchange login phishing for logins with POST /indexSend.php'      
+-
+    id: 5444
+    name: xn--bimex-leb.com
+    url: 'http://xn--bimex-leb.com'
+    category: Phishing
+    subcategory: Bitmex
+    description: 'Suspicious bitmex domain - not deployed yet'     
+-
+    id: 5445
+    name: bitmex-login.com
+    url: 'http://bitmex-login.com'
+    category: Phishing
+    subcategory: Bitmex
+    description: 'Suspicious bitmex domain - not deployed yet'     
