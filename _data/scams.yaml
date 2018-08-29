@@ -40088,3 +40088,66 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys'
+-
+    id: 5457
+    name: myetherwallat.club
+    url: 'http://myetherwallat.club'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'    
+-
+    id: 5458
+    name: myetherwallet.co.nz
+    url: 'http://myetherwallet.co.nz'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain - nothing deployed yet'       
+-
+    id: 5459
+    name: myethforkwallet.com.ru
+    url: 'http://myethforkwallet.com.ru'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain - nothing deployed yet'       
+-
+    id: 5460
+    name: myethherwalletr.com
+    url: 'http://myethherwalletr.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain - nothing deployed yet'     
+-
+    id: 5461
+    name: ww25.myethereum.info
+    url: 'http://ww25.myethereum.info'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain - nothing deployed yet'    
+-
+    id: 5462
+    name: myethswalet.com
+    url: 'http://myethswalet.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain - nothing deployed yet'       
+-
+    id: 5463
+    name: xn--myethrewallt-fwb.com
+    url: 'http://xn--myethrewallt-fwb.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'          
+-
+    id: 5464
+    name: myetnerwallet.com.view-webwallet.info
+    url: 'http://myetnerwallet.com.view-webwallet.info'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /callback.php'              
+-
+    id: 5465
+    name: view-webwallet.info
+    url: 'http://view-webwallet.info'
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta phishing for keys with POST /callback.php'        
