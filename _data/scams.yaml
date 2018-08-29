@@ -40150,4 +40150,11 @@
     url: 'http://view-webwallet.info'
     category: Phishing
     subcategory: EtherDelta
-    description: 'Fake EtherDelta phishing for keys with POST /callback.php'        
+    description: 'Fake EtherDelta phishing for keys with POST /callback.php'
+-
+    id: 5466
+    name: log-in-binance.com
+    url: 'http://log-in-binance.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance phishing for logins with POST /processar_1.php'         
