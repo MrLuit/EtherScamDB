@@ -40157,4 +40157,152 @@
     url: 'http://log-in-binance.com'
     category: Phishing
     subcategory: Binance
-    description: 'Fake Binance phishing for logins with POST /processar_1.php'         
+    description: 'Fake Binance phishing for logins with POST /processar_1.php'
+-
+    id: 5467
+    name: xn--myeherwllet-wte7564g.com
+    url: 'http://xn--myeherwllet-wte7564g.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain - nothing deployed yet'
+-
+    id: 5468
+    name: myetherwallet-sigen.space
+    url: 'http://myetherwallet-sigen.space'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys. Reported address: 0x0591a42188996397fc7cd6db729045146c37696c'
+-
+    id: 5469
+    name: enternow.info
+    url: 'http://enternow.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x015fcA1D09287823e634AE51237ee1eeFF03D9d5'
+-
+    id: 5470
+    name: claim-event-eth.com
+    url: 'http://claim-event-eth.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xe575D2262f516a392E018BD5Db9AFBC6ae656C92'
+-
+    id: 5471
+    name: claim-giveaway.club
+    url: 'http://claim-giveaway.club'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xC90CEbb23C12669fCD7F9d50DD54465546085967'      
+-
+    id: 5472
+    name: binabins.blogspot.com
+    url: 'http://binabins.blogspot.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xc4856c6C04Ee3416dAEaeD3E5abAE3622BBE1eBe'        
+-
+    id: 5473
+    name: medium-ethereum-promo.info
+    url: 'http://medium-ethereum-promo.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Linking users to ethereum-bonus.info'     
+    addresses:
+      - '0xFa609C2440672e85c08aC80FbeEb5C608A65AfEd'     
+-
+    id: 5474
+    name: ethereum-bonus.info
+    url: 'http://ethereum-bonus.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xFa609C2440672e85c08aC80FbeEb5C608A65AfEd'          
+-
+    id: 5475
+    name: ethereum-event-promotion.org.uk
+    url: 'http://ethereum-event-promotion.org.uk'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x7CD912f8DF67b1e56E7aA82A66f4a518c76c0108'    
+-
+    id: 5476
+    name: jblagz.blogspot.com
+    url: 'http://jblagz.blogspot.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xc4856c6C04Ee3416dAEaeD3E5abAE3622BBE1eBe'          
+-
+    id: 5477
+    name: event-eth.biz
+    url: 'http://event-eth.biz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x7CD912f8DF67b1e56E7aA82A66f4a518c76c0108'        
+-
+    id: 5478
+    name: ether-claim.org
+    url: 'http://ether-claim.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x3533104FD03ff652d7e041Ec259080f75f243f3f'     
+-
+    id: 5479
+    name: ethpromo10.000webhostapp.com
+    url: 'http://ethpromo10.000webhostapp.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x6B67F7Ad81e9eb49a580f366B9e0e518EBcE14CF'
+-
+    id: 5480
+    name: xn--cryptonaor-hcc.com
+    url: 'http://xn--cryptonaor-hcc.com'
+    category: Phishing
+    subcategory: Cryptonator
+    description: 'Fake Cryptonator (wallet) domain'            
+-
+    id: 5481
+    name: poloni-ex.com
+    url: 'http://poloni-ex.com'
+    category: Phishing
+    subcategory: Poloniex
+    description: 'Fake Poloniex phishing for logins'            
+-
+    id: 5482
+    name: xn--binanc-gpc.com
+    url: 'http://xn--binanc-gpc.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Suspicious binance domain - nothing deployed yet'        
+-
+    id: 5483
+    name: accountlogin2fa.com
+    url: 'http://accountlogin2fa.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Poloniex phishing for logins with POST /verification.php'           
+-
+    id: 5484
+    name: digitalasset-app.com
+    url: 'http://digitalasset-app.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Poloniex phishing for logins with POST /verification.php'          
