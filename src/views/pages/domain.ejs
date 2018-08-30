@@ -170,7 +170,7 @@ Not yet blocked
 	<% include ../partials/footer %>
 	<script>
 var disqus_config = function () {
-this.page.identifier = "<%= domain %>";
+this.page.identifier = "<%= ((result || {}).id || domain) %>";
 };
 (function() {
 var d = document, s = d.createElement('script');
