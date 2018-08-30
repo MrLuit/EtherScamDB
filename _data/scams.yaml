@@ -40297,14 +40297,14 @@
     name: accountlogin2fa.com
     url: 'http://accountlogin2fa.com'
     category: Phishing
-    subcategory: Binance
+    subcategory: Poloniex
     description: 'Fake Poloniex phishing for logins with POST /verification.php'           
 -
     id: 5484
     name: digitalasset-app.com
     url: 'http://digitalasset-app.com'
     category: Phishing
-    subcategory: Binance
+    subcategory: Poloniex
     description: 'Fake Poloniex phishing for logins with POST /verification.php'
 -
     id: 5485
