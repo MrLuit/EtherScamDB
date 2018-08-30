@@ -40305,4 +40305,25 @@
     url: 'http://digitalasset-app.com'
     category: Phishing
     subcategory: Binance
-    description: 'Fake Poloniex phishing for logins with POST /verification.php'          
+    description: 'Fake Poloniex phishing for logins with POST /verification.php'
+-
+    id: 5485
+    name: binance-lgin.com
+    url: 'http://binance-lgin.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Suspicious Binance domain (same infra as log-in-binance.com)'
+-
+    id: 5486
+    name: xn--methewallet-v48e1x.com
+    url: 'http://xn--methewallet-v48e1x.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain - nothing deployed yet'
+-
+    id: 5487
+    name: xn--myethrewalle-xoc.com
+    url: 'http://xn--myethrewalle-xoc.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain - nothing deployed yet'          
