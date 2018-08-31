@@ -40693,14 +40693,14 @@
     name: localethereum-support.com
     url: 'http://localethereum-support.com'
     category: Phishing
-    subcategory: Blockchain
+    subcategory: LocalEthereum
     description: 'Fake LocalEtherum phishing for logins with POST /login.php'        
 -
     id: 5532
     name: zilliqa.plus
     url: 'http://zilliqa.plus'
     category: Phishing
-    subcategory: Blockchain
+    subcategory: Zilliqa
     description: 'Fake Zilliqa airdrop phishing for private keys'      
 -
     id: 5533
@@ -40716,3 +40716,64 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site. Bitcoin address: 1Lu8bgEScgkSZBTsLqZKsKQK3QEdyhEBcH'     
+-
+    id: 5535
+    name: blokclnain.com
+    url: 'http://blokclnain.com'
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake Blockchain phishing for logins (cdns-files people)'       
+-
+    id: 5536
+    name: giftreturn.mysteria.cz
+    url: 'http://giftreturn.mysteria.cz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x7Fc94073a3aDf4553D59D09E0b0808bB9d408735'  
+-
+    id: 5537
+    name: ethdrop.cn
+    url: 'http://ethdrop.cn'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x23E34BBCCB320951D8D5db864ccE0BA9452ae663'       
+-
+    id: 5538
+    name: giveaways24.info
+    url: 'http://giveaways24.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xC7a25050f5F067762e070dfBC3198B9DFD6a2Ad1'           
+-
+    id: 5539
+    name: airdrop-live.com
+    url: 'http://airdrop-live.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x2F0D741580d9dBC27E51e5DBe83f5797f868C2e0'       
+-
+    id: 5540
+    name: grijub.blogspot.com
+    url: 'http://grijub.blogspot.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xc4856c6C04Ee3416dAEaeD3E5abAE3622BBE1eBe'         
+-
+    id: 5541
+    name: etherdrop.space
+    url: 'http://etherdrop.space'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x93CF4d6de98478Cf5b404304C45c8b4363bF10fb'            
