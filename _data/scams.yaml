@@ -40777,3 +40777,12 @@
     description: 'Trust trading scam site'     
     addresses:
       - '0x93CF4d6de98478Cf5b404304C45c8b4363bF10fb'            
+-
+    id: 5542
+    name: selleth.io
+    url: 'http://selleth.io'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x124c0c9a23e1c4c04b10cc1eda4934f9818c7ec6'           
