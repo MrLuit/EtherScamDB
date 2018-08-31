@@ -40605,3 +40605,114 @@
     category: Phishing
     subcategory: Blockchain
     description: 'Suspicious Blockchain domain - nothing deployed yet'        
+-
+    id: 5522
+    name: infoclaimeth.ucoz.org
+    url: 'http://infoclaimeth.ucoz.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x552C94E34f62ca14D9F2bEC6F1E59b11EfB25B89'    
+-
+    id: 5523
+    name: secure.ethaccess.online
+    url: 'http://secure.ethaccess.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x2519A00724Ca9d3CdF1fe5F9995D2EE886F48fEA'       
+      - '0x3d89bD83AdD0d4F54aa84943c2241D27e3866D8C'   
+      - '0x88C2A596eb0Bc49b237baEa9f2dEB41C3125C4cF'
+-
+    id: 5524
+    name: tesla.center
+    url: 'http://tesla.center'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x3f796b2b5c7c5b87f6885b3160a2261d463b46cc'        
+-
+    id: 5525
+    name: go.payeth.online
+    url: 'http://go.payeth.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xF97Cb2b86deE9C33c7624Fd7412889543cCA7F5A'         
+-
+    id: 5526
+    name: crypto-exchange.ro
+    url: 'http://crypto-exchange.ro'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x6D08F8573E742dB3eb88d8c545971e4dC9668528'             
+-
+    id: 5527
+    name: ethbonus.cn
+    url: 'http://ethbonus.cn'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x8E4a9f46499D34e2cD3c7068e492a67cB6049e67'    
+-
+    id: 5528
+    name: claim-here.com
+    url: 'http://claim-here.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x94FF38C3e18Bb715CD9061810942d16a587C6566'         
+-
+    id: 5529
+    name: hizytox.blogspot.com 
+    url: 'http://hizytox.blogspot.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xc4856c6C04Ee3416dAEaeD3E5abAE3622BBE1eBe'                     
+-
+    id: 5530
+    name: claim-event-eth.biz
+    url: 'http://claim-event-eth.biz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xe575D2262f516a392E018BD5Db9AFBC6ae656C92'         
+-
+    id: 5531
+    name: localethereum-support.com
+    url: 'http://localethereum-support.com'
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake LocalEtherum phishing for logins with POST /login.php'        
+-
+    id: 5532
+    name: zilliqa.plus
+    url: 'http://zilliqa.plus'
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake Zilliqa airdrop phishing for private keys'      
+-
+    id: 5533
+    name: claim-giftwaves.com
+    url: 'http://claim-giftwaves.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 1FiqK1ycxsiRVHgpQXq7Es4xNbft57doc1'        
+-
+    id: 5534
+    name: btcdrop.cn
+    url: 'http://btcdrop.cn'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 1Lu8bgEScgkSZBTsLqZKsKQK3QEdyhEBcH'     
