@@ -27,27 +27,27 @@ module.exports.update = async () => {
 module.exports.serve = async (electronApp) => {
 	/* Initiate database */
 	await db.init();
-	
+
 	/* Allow both JSON and URL encoded bodies */
 	app.use(express.json());
 	app.use(express.urlencoded({ extended: true }));
-	
+
 	/* Set security headers */
 	app.use(helmet());
 	app.use(helmet.referrerPolicy());
-    
+
 	/* Set EJS config */
 	app.set('view engine', 'ejs');
 	app.set('views',path.join(__dirname,'views/pages'));
 	app.locals.environment = process.env.NODE_ENV;
 	app.locals.announcement = config.announcement;
-	
+
 	/* Compress pages */
 	app.use(require('compression')());
-	
+
 	/* Serve static content*/
 	app.use(express.static(path.join(__dirname,'views/static')));
-	
+
 	/* Configuration middleware */
 	app.use(async (req,res,next) => {
 		const {NODE_ENV} = process.env;
@@ -65,19 +65,19 @@ module.exports.serve = async (electronApp) => {
 		}
 		else next();
 	});
-	
+
 	/* Serve all routes (see src/utils/router.js) */
 	app.use(require('./utils/router'));
-	
+
 	/* Serve all other pages as 404 */
-    app.get('*', (req, res) => res.status(404).render('404'));
-    
+  app.get('*', (req, res) => res.status(404).render('404'));
+
 	/* Listen to port (defined in config */
 	app.listen(config.port, () => debug('Content served on http://localhost:%s',config.port));
-	
+
 	/* Update scams after 100ms timeout (to process async) */
 	setTimeout(() => this.update(),100);
-	
+
 	/* If auto pulling from Github is enabled; schedule timer */
 	if(config.autoPull.enabled) setInterval(github.pullData,config.autoPull.interval);
 }

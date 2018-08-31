@@ -10,14 +10,14 @@
 			<h1><%= address %></h1>
 			<% if(related.length == 0) { %>
 				<div class="ui mini brown message"><i class="warning sign icon"></i>This is an unclassified address. <br> This does not mean that it is safe. It simply means that it hasn't been classified.</div>
-			<% } else if(related.every(entry => entry.type == "scam")) { %>
+			<% } else if(type == "scam") { %>
 				<div class="ui mini red message"><i class="warning sign icon"></i> Warning: Do not send money to this address</div>
-			<% } else { %>
+			<% } else if(type == "verified"){ %>
 				<div class="ui mini green message">This is a verified address</div>
 			<% } %>
 			<b>Balance</b>: <span id="balance">loading...</span><BR>
 			<b>USD Value</b>: <span id="value">loading...</span><BR>
-			<b>Related to the following domains (<%= related.length %>)</b>: 
+			<b>Related to the following domains (<%= related.length %>)</b>:
 			<% if(related.length > 0) { %>
 				<div class="ui bulleted list">
 					<% related.forEach(entry => { %>
