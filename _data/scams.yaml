@@ -40811,3 +40811,33 @@
     category: Phishing
     subcategory: Binance
     description: 'Fake binance phishing for logins with POST /processar_1.php'            
+-
+    id: 5546
+    name: ethertoken.online
+    url: 'http://ethertoken.online'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /bot/bot.php'        
+-
+    id: 5547
+    name: binance-ether.org
+    url: 'http://binance-ether.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x2784574e2405A7d3be1259B5F00412Ae652018f4'      
+-
+    id: 5548
+    name: mywindorwallert.space
+    url: 'http://mywindorwallert.space'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'          
+-
+    id: 5549
+    name: neostracker.com
+    url: 'http://neostracker.com'
+    category: Phishing
+    subcategory: NEO
+    description: 'Fake NEO tracker phishing for keys - https://twitter.com/jmoconnor415/status/1035688910188212224'      
