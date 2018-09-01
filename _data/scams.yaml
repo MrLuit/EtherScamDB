@@ -40786,3 +40786,28 @@
     description: 'Trust trading scam site'     
     addresses:
       - '0x124c0c9a23e1c4c04b10cc1eda4934f9818c7ec6'           
+-
+    id: 5543
+    name: elonmusk.ltd
+    url: 'http://elonmusk.ltd'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Linking users to elonmusk.fund/e/'     
+    addresses:
+      - '0x08afea4eC3659A2e478F81fef2B784176a0B7D2F'        
+-
+    id: 5544
+    name: elonmusk.fund
+    url: 'http://elonmusk.fund'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x08afea4eC3659A2e478F81fef2B784176a0B7D2F'                
+-
+    id: 5545
+    name: loginbinance-com.umbler.net
+    url: 'http://loginbinance-com.umbler.net'
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake binance phishing for logins with POST /processar_1.php'            
