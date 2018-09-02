@@ -40372,7 +40372,9 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'     
     addresses:
-      - '0x015fcA1D09287823e634AE51237ee1eeFF03D9d5'          
+      - '0x015fcA1D09287823e634AE51237ee1eeFF03D9d5'     
+      - '0x1b6b664B91081B34ca8C7cdF22618E6a547d7947'
+      - '0x6a1e30Ec57Dd27E9aD25ecA7226bc023b5069F85'     
 -
     id: 5493
     name: airdrops.services
@@ -40841,3 +40843,141 @@
     category: Phishing
     subcategory: NEO
     description: 'Fake NEO tracker phishing for keys - https://twitter.com/jmoconnor415/status/1035688910188212224'      
+-
+    id: 5550
+    name: pumpkinpro.io
+    url: 'http://pumpkinpro.io'
+    category: Phishing
+    subcategory: Pumpkin
+    description: 'Fake ICO (fake team) - https://steemit.com/scam/@iamdeadlyz/fake-airdrops-and-icos-everywhere'     
+-
+    id: 5551
+    name: binancethereum.com
+    url: 'http://binancethereum.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Suspicious Binance domain'         
+-
+    id: 5552
+    name: mailbinance.com
+    url: 'http://mailbinance.com'
+    category: Phishing
+    subcategory: Binance
+    description: 'Suspicious Binance domain'          
+-
+    id: 5553
+    name: btc-bonus-live2-binance.com
+    url: 'http://btc-bonus-live2-binance.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 13pz3N4ug6M3VZ4gKUnPjNpPJFyXEeniPd'  
+-
+    id: 5554
+    name: monero-my.com
+    url: 'http://monero-my.com'
+    category: Phishing
+    subcategory: MyMonero
+    description: 'Fake MyMonero - https://twitter.com/jmoconnor415/status/1036085542989967360'          
+-
+    id: 5556
+    name: eth4123left.pw
+    url: 'http://eth4123left.pw'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xE2Eeb03a93343b21dd39f201bB2803D8eF779B19'        
+-
+    id: 5557
+    name: xlblogz.blogspot.com
+    url: 'http://xlblogz.blogspot.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xc4856c6C04Ee3416dAEaeD3E5abAE3622BBE1eBe'            
+-
+    id: 5558
+    name: eth-promo.borec.cz
+    url: 'http://eth-promo.borec.cz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xc77a77d24bb7cd50eec19cc1ce72ed090d841ddd'       
+-
+    id: 5559
+    name: ether-take.org
+    url: 'http://ether-take.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xbA3CF9C7ad2DB61EA72CceaF73CfcB2bfdeddCe0'                  
+-
+    id: 5560
+    name: ethergot.xyz
+    url: 'http://ethergot.xyz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x7d067a450b17a2936cc27c44e5499359d9940155'       
+-
+    id: 5561
+    name: crypto-giveaway.net
+    url: 'http://crypto-giveaway.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x5Ed7559181f082eE4b70F3d20C7b2aF769A83D18'    
+      - '0x99Bad2f2FE5856a02489440568D22Fc8852DeAB5'         
+-
+    id: 5562
+    name: etherprize.net
+    url: 'http://etherprize.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xE2Eeb03a93343b21dd39f201bB2803D8eF779B19'          
+-
+    id: 5563
+    name: ethpromzone.space
+    url: 'http://ethpromzone.space'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x8D15adf29D440d56c5043943410cb65181F010eb'                
+-
+    id: 5564
+    name: claim-wallet.com
+    url: 'http://claim-wallet.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x265f38529E6B8c157D9976b2665BaffDb0280f0c'          
+-
+    id: 5565
+    name: myetherwallet.com.ip14.icu
+    url: 'http://myetherwallet.com.ip14.icu'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys. Reported address: 0x9273d7cccd00d63da1f5f03e5f8e7399d2c45e25'            
+-
+    id: 5566
+    name: redeem-myetherwallet.pw
+    url: 'http://redeem-myetherwallet.pw'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'      
+-
+    id: 5567
+    name: omisegogold.io
+    url: 'http://omisegogold.io'
+    category: Phishing
+    subcategory: OmiseGo
+    description: 'Fake KYC directing users to a fake MyEtherWallet myetherwallet.com.ip14.icu/signmsg.html via bit.ly/2otI3fW+'      
