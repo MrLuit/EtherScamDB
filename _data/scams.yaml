@@ -40959,7 +40959,7 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'     
     addresses:
-      - '0x265f38529E6B8c157D9976b2665BaffDb0280f0c'          
+      - '0x265f38529E6B8c157D9976b2665BaffDb0280f0c'     
 -
     id: 5565
     name: myetherwallet.com.ip14.icu
@@ -40981,3 +40981,100 @@
     category: Phishing
     subcategory: OmiseGo
     description: 'Fake KYC directing users to a fake MyEtherWallet myetherwallet.com.ip14.icu/signmsg.html via bit.ly/2otI3fW+'      
+-
+    id: 5568
+    name: wetimox.blogspot.com
+    url: 'http://wetimox.blogspot.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xc4856c6C04Ee3416dAEaeD3E5abAE3622BBE1eBe'        
+-
+    id: 5569
+    name: buterinpromo.cn
+    url: 'http://buterinpromo.cn'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x0aB4Fc631d194BB135dc7a3f99580Cf7df3eEAE0'        
+-
+    id: 5570
+    name: airdrop-portal.com
+    url: 'http://airdrop-portal.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x2F0D741580d9dBC27E51e5DBe83f5797f868C2e0'     
+      - '0xcd39300c31776AB6303fC64B930c1109c008eA0A'    
+-
+    id: 5571
+    name: eth24win.co.nf
+    url: 'http://eth24win.co.nf'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x8cAE2a8734d781a8ceC7E2F514DA6f5072F7a6e0'        
+-
+    id: 5572
+    name: give-eth.biz
+    url: 'http://give-eth.biz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x0b70F396d0626C9d8008d68C8d9c98E77ddB8262'         
+-
+    id: 5573
+    name: medium-promos.xyz
+    url: 'http://medium-promos.xyz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x058E49378461C239DAE065114cD9fA1c0dBC25C1'          
+-
+    id: 5574
+    name: buterinpromo.live
+    url: 'http://buterinpromo.live'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x21693C903aAD555Ae5188F7813108C61722B94a8'       
+-
+    id: 5575
+    name: ethclaim.online
+    url: 'http://ethclaim.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xf7B81abD0244A9c6Bb475A0217CE193BFdA649c2'    
+      - '0x35124E63425645E352b56a06482cEA32BeDEC838'          
+-
+    id: 5576
+    name: binancegiveaway.com
+    url: 'http://binancegiveaway.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x7c99f9CC14994f4b0d2e8CdCFDa4811bBfB69a57'       
+-
+    id: 5577
+    name: mywindorwallert.site
+    url: 'http://mywindorwallert.site'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'        
+-
+    id: 5578
+    name: myethervvellet.co
+    url: 'http://myethervvellet.co'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'            
