@@ -15,9 +15,7 @@ if (!fs.existsSync('./config.json')) {
 		apiKeys: {
 			Google_SafeBrowsing: undefined,
 			Github_WebHook: undefined,
-			VirusTotal: undefined,
-			URLScan: undefined,
-			AbuseIPDB: undefined
+			VirusTotal: undefined
 		},
 		autoPull: { enabled: false },
 		lookups: {
@@ -33,8 +31,6 @@ if (!fs.existsSync('./config.json')) {
 	config.manual = true;
 	if(!config.apiKeys.Google_SafeBrowsing) debug("Warning: No Google SafeBrowsing API key found");
 	if(!config.apiKeys.VirusTotal) debug("Warning: No VirusTotal API key found");
-	if(!config.apiKeys.URLScan) debug("Warning: No URLScan API key found");
-	if(!config.apiKeys.AbuseIPDB) debug("Warning: No AbuseIPDB API key found");
 	if(config.lookups.DNS.servers.length > 0) dns.setServers(config.lookups.DNS.servers);
 	module.exports = config;
 }
