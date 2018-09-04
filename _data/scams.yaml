@@ -41078,3 +41078,10 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys'            
+-
+    id: 5579
+    name: tezbox.net
+    url: 'http://tezbox.net'
+    category: Phishing
+    subcategory: Tezbox
+    description: 'Fake Tezbox phishing for keys - https://twitter.com/TezBox_Wallet/status/1036778095674515456/photo/1'       
