@@ -41084,11 +41084,4 @@
     url: 'http://tezbox.net'
     category: Phishing
     subcategory: Tezbox
-    description: 'Fake Tezbox phishing for keys - https://twitter.com/TezBox_Wallet/status/1036778095674515456/photo/1'    
--
-    id: 5580
-    name: malicious.example
-    url: 'https://malicious.example'
-    category: Phishing
-    subcategory: Example
-    description: 'Not an actual malicious site'      
+    description: 'Fake Tezbox phishing for keys - https://twitter.com/TezBox_Wallet/status/1036778095674515456/photo/1'       
