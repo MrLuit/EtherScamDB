@@ -40751,7 +40751,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'     
     addresses:
-      - '0xC7a25050f5F067762e070dfBC3198B9DFD6a2Ad1'           
+      - '0xC7a25050f5F067762e070dfBC3198B9DFD6a2Ad1'  
+      - '0x2457119f041C0Da24F05a4CfA9851446C224bfa8'         
 -
     id: 5539
     name: airdrop-live.com
@@ -41319,4 +41320,76 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'     
     addresses:
-      - '0xc4856c6C04Ee3416dAEaeD3E5abAE3622BBE1eBe'        
+      - '0xc4856c6C04Ee3416dAEaeD3E5abAE3622BBE1eBe'     
+-
+    id: 5606
+    name: medium-io.site
+    url: 'http://medium-io.site'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x964A7C09E3dB065ece947FdB7f90bf0068a6F98e'     
+-
+    id: 5607
+    name: claim.safepaycoins.com
+    url: 'http://claim.safepaycoins.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x4349B24Ee0Bb23c51569E63B2c1d457Dd75464D7'      
+-
+    id: 5608
+    name: airdrop-exchange.com
+    url: 'http://airdrop-exchange.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xcd39300c31776AB6303fC64B930c1109c008eA0A'      
+-
+    id: 5609
+    name: secure.eth-claim.online
+    url: 'http://secure.eth-claim.online'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x7069BB601755F69c81560192ecC2a62Fed1c20B5'       
+-
+    id: 5610
+    name: medium.in.net
+    url: 'http://medium.in.net'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Directing users to kutt.it/KjHyKL -> giveaways24.info'     
+    addresses:
+      - '0x2457119f041C0Da24F05a4CfA9851446C224bfa8'   
+-
+    id: 5611
+    name: airdrops.investments
+    url: 'http://airdrops.investments'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xFD8999B60a72c51Ea892db66F5ef0C58F2ecD6d3'  
+-
+    id: 5612
+    name: eth5321left.pw
+    url: 'http://eth5321left.pw'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xE2Eeb03a93343b21dd39f201bB2803D8eF779B19'           
+-
+    id: 5613
+    name: medium-smartcontract.space
+    url: 'http://medium-smartcontract.space'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x4d281388B9FA97fC5bC13e8392040EFb661B1962'                                           
