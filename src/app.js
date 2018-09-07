@@ -70,7 +70,7 @@ module.exports.serve = async (electronApp) => {
 	app.use(require('./utils/router'));
 
 	/* Serve all other pages as 404 */
-  app.get('*', (req, res) => res.status(404).render('404'));
+    app.get('*', (req, res) => res.status(404).render('404'));
 
 	/* Listen to port (defined in config */
 	app.listen(config.port, () => debug('Content served on http://localhost:%s',config.port));
