@@ -41393,3 +41393,24 @@
     description: 'Trust trading scam site'     
     addresses:
       - '0x4d281388B9FA97fC5bC13e8392040EFb661B1962'                                           
+-
+    id: 5614
+    name: elctrurn.org
+    url: 'http://elctrurn.org'
+    category: Phishing
+    subcategory: Electrum
+    description: 'Fake Electrum site with potentially malicious downloads: https://www.virustotal.com/#/url/cc732ec6eb0b8450ae616bed50fb14c5ca95e5859dba97367a00e3a5e9a541c4/detection'       
+-
+    id: 5616
+    name: jaxx.one
+    url: 'http://jaxx.one'
+    category: Phishing
+    subcategory: Jaxx
+    description: 'Fake Jaxx web wallet with potentially malicious downloads: https://www.virustotal.com/#/url/2236f8275332adc4c88d50242ae6b19542b38bb82307a3c6760151cadc87a023/detection - https://app.any.run/tasks/b1dd1f1e-3351-47c6-8b43-8d1784bf937b - contacts http://a-n-y.ru/Jaxx-io/Jaxx/releases/download/v1.3.18/Jaxx-setup-1.3.18.exe (possible trojan) https://www.virustotal.com/#/url/2b07ed8733ce2f031c5c6879151c443bda1cbcb54d6ea7b16f164b5da221b00d/detection'
+-
+    id: 5617
+    name: sign.xn--mytherwalet-3qb10c.com
+    url: 'http://sign.xn--mytherwalet-3qb10c.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'  
