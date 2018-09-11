@@ -31,7 +31,7 @@ Generating should take a couple of minutes the first time or after a clean, but 
 
 ## Contribute
 
-Fork this project and edit `_data/data.yaml`. Every item can have the following properties:
+Fork this project and edit `_data/scams.yaml`. Every item can have the following properties:
 
 - **id**: A unique incremental integer
 - **name**: The title of the scam, should probably not be longer than 64 characters
