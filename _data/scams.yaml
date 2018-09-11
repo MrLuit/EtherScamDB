@@ -41853,3 +41853,10 @@
     description: 'Trust trading scam site'     
     addresses:
       - '0x87e7ee3CD0C38e49060F3F092F689a094B692039'               
+-
+    id: 5667
+    name: eosauthority-accountpolicy.omastral.org
+    url: 'http://eosauthority-accountpolicy.omastral.org'
+    category: Phishing
+    subcategory: EOS
+    description: 'Steals the private key via store.php'
