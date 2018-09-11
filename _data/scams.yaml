@@ -41414,3 +41414,21 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys'  
+-
+    id: 5618
+    name: medium.com.7a4c7b234069.site
+    url: 'http://medium.com.7a4c7b234069.site'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Fake Medium site - hosting a trust trading scam. Linking users to etherium.org.7a4c7b234069.site'     
+    addresses:
+      - '0x964A7C09E3dB065ece947FdB7f90bf0068a6F98e'       
+-
+    id: 5619
+    name: etherium.org.7a4c7b234069.site
+    url: 'http://etherium.org.7a4c7b234069.site'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x964A7C09E3dB065ece947FdB7f90bf0068a6F98e'             
