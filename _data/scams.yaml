@@ -41903,3 +41903,48 @@
     description: 'Trust trading scam site'     
     addresses:
       - '0x8e85939D6C149a6d2a173b5425306797e6934075'                
+-
+    id: 5673
+    name: bnbethspecialcampaigns.com
+    url: 'http://bnbethspecialcampaigns.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x976B3B64A42cf04d735583004c298aA4E62A913c'          
+-
+    id: 5674
+    name: bnbdexethcampaign.com
+    url: 'http://bnbdexethcampaign.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x976B3B64A42cf04d735583004c298aA4E62A913c'            
+-
+    id: 5675
+    name: bnbexchangeethspecialcampaign.com
+    url: 'http://bnbexchangeethspecialcampaign.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x976B3B64A42cf04d735583004c298aA4E62A913c'       
+-
+    id: 5676
+    name: bnbexchangespecialethcampaign.com
+    url: 'http://bnbexchangespecialethcampaign.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x976B3B64A42cf04d735583004c298aA4E62A913c'           
+-
+    id: 5677
+    name: bnbethexchangespecial.com
+    url: 'http://bnbethexchangespecial.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x976B3B64A42cf04d735583004c298aA4E62A913c'           
