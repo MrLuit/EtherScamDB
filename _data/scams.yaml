@@ -41860,3 +41860,46 @@
     category: Phishing
     subcategory: EOS
     description: 'Steals the private key via store.php'
+-
+    id: 5668
+    name: bonus.client-stellarterm.com
+    url: 'http://bonus.client-stellarterm.com'
+    category: Phishing
+    subcategory: Stellar
+    description: 'Fake StellarTerm phishing for keys with POST /login.php'
+-
+    id: 5669
+    name: mixprize.cn
+    url: 'http://mixprize.cn'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x3422258C54c75B879ec7B2B1050186A2c0EB0ebD'      
+-
+    id: 5670
+    name: medium-secure.com
+    url: 'http://medium-secure.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x058E49378461C239DAE065114cD9fA1c0dBC25C1'         
+-
+    id: 5671
+    name: ginexis.blogspot.com
+    url: 'http://ginexis.blogspot.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xc4856c6C04Ee3416dAEaeD3E5abAE3622BBE1eBe'           
+-
+    id: 5672
+    name: giftsatoshi.space
+    url: 'http://giftsatoshi.space'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x8e85939D6C149a6d2a173b5425306797e6934075'                
