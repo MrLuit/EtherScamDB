@@ -41948,3 +41948,109 @@
     description: 'Trust trading scam site'     
     addresses:
       - '0x976B3B64A42cf04d735583004c298aA4E62A913c'           
+-
+    id: 5678
+    name: message.xn--mytherwalet-3qb10c.com
+    url: 'http://message.xn--mytherwalet-3qb10c.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'      
+-
+    id: 5679
+    name: airdrops-exchange.com
+    url: 'http://airdrops-exchange.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xFD8999B60a72c51Ea892db66F5ef0C58F2ecD6d3'       
+-
+    id: 5680
+    name: buterindrop.eu
+    url: 'http://buterindrop.eu'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x3422258C54c75B879ec7B2B1050186A2c0EB0ebD'       
+-
+    id: 5681
+    name: campaign.etheraction.in
+    url: 'http://campaign.etheraction.in'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xB9D957ed3c592Cea30F715B80f08A86614648295'       
+      - '0x6ecce18C9C35167E174033d9f9F6e4B356Cd2B45'        
+-
+    id: 5682
+    name: etheraction.in
+    url: 'http://etheraction.in'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xA2E5ac16f76f7a151Cf38e65469983E4abbEfB9C'          
+-
+    id: 5683
+    name: ethtake.icu
+    url: 'http://ethtake.icu'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xF97Cb2b86deE9C33c7624Fd7412889543cCA7F5A'      
+      - '0x33CF1CeE79766595DB0270867B6b9FEb8f30a01E'  
+-
+    id: 5684
+    name: cryptocurrency-giveaway.com
+    url: 'http://cryptocurrency-giveaway.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x620085d9c1157bb56a9c1afd0ede1e79a42b9549'          
+-
+    id: 5685
+    name: mcafee.coolpage.biz
+    url: 'http://mcafee.coolpage.biz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x83E99AeC309c14e117097044E5eFCC3672BCd450'        
+-
+    id: 5686
+    name: september-event.us
+    url: 'http://september-event.us'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x2A21180D900cdDc46416117903Edc0eE83286408'         
+-
+    id: 5687
+    name: september-promo.us
+    url: 'http://september-promo.us'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x2A21180D900cdDc46416117903Edc0eE83286408'              
+-
+    id: 5688
+    name: freeethereum500.000webhostapp.com
+    url: 'http://freeethereum500.000webhostapp.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xDb1492d7fbA1bdC26cEF202dDaCc31FDB98333e2'              
+-
+    id: 5689
+    name: myetherwallet.com.webwallet-view.info
+    url: 'http://myetherwallet.com.webwallet-view.info'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet (not deployed yet)'         
