@@ -42054,3 +42054,21 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet (not deployed yet)'         
+-
+    id: 5690
+    name: ubex.us
+    url: 'http://ubex.us'
+    category: Phishing
+    subcategory: Ubex
+    description: 'Fake Ubex crowdsale site'        
+    addresses:
+      - '0x1b7bdc46Fb5d65c6d688bFAdCfb7D3A434413956'           
+-
+    id: 5691
+    name: bnbdex-ethcampaign.com
+    url: 'http://bnbdex-ethcampaign.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x0cBFf6C0365083f20C9De72084Be7FB11278Aa86'          
