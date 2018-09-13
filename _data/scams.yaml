@@ -42212,3 +42212,59 @@
     category: Phishing
     subcategory: Binance
     description: 'Suspicious binance domain'        
+-
+    id: 5712
+    name: coinbasesecuritytokens.com
+    url: 'http://coinbasesecuritytokens.com'
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Suspicious Coinbase domain'        
+-
+    id: 5713
+    name: coinbasepay.info
+    url: 'http://coinbasepay.info'
+    category: Scamming
+    subcategory: Ponzi
+    description: 'Ponzi scheme. Wrong company number 10829913'        
+-
+    id: 5714
+    name: hitbtcrecovery.com
+    url: 'http://hitbtcrecovery.com'
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Suspicious hitbtc domain'           
+-
+    id: 5715
+    name: hitbtc-ads.com
+    url: 'http://hitbtc-ads.com'
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Suspicious hitbtc domain'            
+-
+    id: 5716
+    name: hitbtc-adv.com
+    url: 'http://hitbtc-adv.com'
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Suspicious hitbtc domain'             
+-
+    id: 5717
+    name: gemini-wallet.com
+    url: 'http://gemini-wallet.com'
+    category: Phishing
+    subcategory: Gemini
+    description: 'Suspicious Gemini domain'        
+-
+    id: 5718
+    name: gemini2fa.com
+    url: 'http://gemini2fa.com'
+    category: Phishing
+    subcategory: Gemini
+    description: 'Suspicious Gemini domain'    
+-
+    id: 5719
+    name: geminiaccount.com
+    url: 'http://geminiaccount.com'
+    category: Phishing
+    subcategory: Gemini
+    description: 'Suspicious Gemini domain'        
