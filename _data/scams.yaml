@@ -27279,6 +27279,7 @@
     description: 'Trust trading scam site'
     addresses:
       - '0x3BD49b98ffcC5f717eED0c9e78a276Ae979de6e4'
+      - '0x18502a1f6CcD21ae49d932783d2814cCA62591d9'
 -
     id: 3913
     name: xn--mytherwalt-smbh17c.com
@@ -42268,3 +42269,67 @@
     category: Phishing
     subcategory: Gemini
     description: 'Suspicious Gemini domain'        
+-
+    id: 5720
+    name: earn.dailydivs.com
+    url: 'http://earn.dailydivs.com'
+    category: Scamming
+    subcategory: Ponzi
+    description: 'Ponzi scheme - unverified contract - "This is a game, not an investment. Your profit is funded by new players."'        
+    addresses:
+      - '0xFaD05ee13c8e0Ec94E5eE9Dc056DC451B2Ad6b1d'       
+-
+    id: 5721
+    name: safe.minedtokens.com
+    url: 'http://safe.minedtokens.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xF9B14517E630aacc5C9c9429cBE969aa61B3Adc9'        
+      - '0x8Bfe1C609CdF6E7e43C5CD8910Bd566a2C142688'
+-
+    id: 5722
+    name: smartsend-5000.website
+    url: 'http://smartsend-5000.website'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x566e797616526498bc274597805F0d4a2682a6a6'          
+-
+    id: 5723
+    name: airdropeth.tech
+    url: 'http://airdropeth.tech'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x8C3b6F2DaCc5A7eD7dCAB43A53B8056AaE6800B3'       
+-
+    id: 5724
+    name: imyetherbonus.com
+    url: 'http://imyetherbonus.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xeC06933E56A99e06AdbcaEE148805C7d85cB46ff'            
+-
+    id: 5725
+    name: minedtokens.com
+    url: 'http://minedtokens.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x8Bfe1C609CdF6E7e43C5CD8910Bd566a2C142688'         
+-
+    id: 5726
+    name: crypto-promo.org
+    url: 'http://crypto-promo.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x3814c3dee17a7660e5240d7b2352734e853f60bb'                     
