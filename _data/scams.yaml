@@ -42649,3 +42649,48 @@
     addresses:
       - '0x4eE78087A5cAB2a24c49eDcDc3d6Bf61045d2a53'           
       - '0xa84CA974907191B149E7E5B07152A771b20dF30E'       
+-
+    id: 5762
+    name: cryptoeth.live
+    url: 'http://cryptoeth.live'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x504c839dB36171D13f1B78Ab323CF3eA084995FA'      
+-
+    id: 5763
+    name: crypto-win.club
+    url: 'http://crypto-win.club'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x5c5452D1a4FB7175812de3b4a4F1c34D5Bc5a261'              
+-
+    id: 5764
+    name: crypto-medium.com
+    url: 'http://crypto-medium.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x520C7DD3d265B6eDd88C623D4C9EddAcBf082eA6'           
+-
+    id: 5765
+    name: getairdrop.eu
+    url: 'http://getairdrop.eu'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x362f1d7C705f0d8f38786b4D6eFd6eCC54199be6'         
+-
+    id: 5766
+    name: sending-smartcontract.website
+    url: 'http://sending-smartcontract.website'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xbA077F3eCdA0C74C1DbE15a86e4d1f96cCaaDd90'          
