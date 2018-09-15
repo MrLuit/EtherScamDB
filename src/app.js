@@ -16,12 +16,19 @@ module.exports.check = (input) => {
 }
 
 module.exports.update = async () => {
-	if(config.lookups.DNS.IP.enabled || config.lookups.DNS.NS.enabled || config.lookups.HTTP.enabled) {
-		debug("Spawning update process...");
-		const updateProcess = fork(path.join(__dirname,'scripts/update.js'));
-		updateProcess.on('message', data => db.write(data.url,data));
-		updateProcess.on('exit', () => setTimeout(() => this.update(),config.interval.cacheRenewCheck));
-	}
+	/* Create and write to cache.db */
+	debug("Spawning update process...");
+	const updateProcess = fork(path.join(__dirname,'scripts/update.js'));
+	debug("Writing to cache.db")
+	updateProcess.on('message', data => db.write(data.url,data));
+
+	/* After db is initially written, write the cache.db every cacheRenewCheck-defined period */
+	updateProcess.on('exit', () => {
+		debug("UpdateProcess completed - Next run is in " + config.interval.cacheRenewCheck/1000 + " seconds.") 
+		setTimeout(() => {
+			this.update();
+		}, config.interval.cacheRenewCheck);
+	})		
 }
 
 module.exports.serve = async (electronApp) => {
