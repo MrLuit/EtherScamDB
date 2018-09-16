@@ -42584,7 +42584,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'     
     addresses:
-      - '0x259A0Af5BB419bCEA7e5aAEb0beD2E98bd8A11B3'          
+      - '0x259A0Af5BB419bCEA7e5aAEb0beD2E98bd8A11B3'
+      - '0xB3ec0CaD78b4dDD0bfdA3edfD517DfC185ba8E34'          
 -
     id: 5755
     name: eth-gift.wixsite.com
@@ -42684,7 +42685,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'     
     addresses:
-      - '0x362f1d7C705f0d8f38786b4D6eFd6eCC54199be6'         
+      - '0x362f1d7C705f0d8f38786b4D6eFd6eCC54199be6'      
+      - '0x7fAc3C1e7E32cb490A96761Fdcf80eD4a9941E62'   
 -
     id: 5766
     name: sending-smartcontract.website
@@ -42694,3 +42696,48 @@
     description: 'Trust trading scam site'     
     addresses:
       - '0xbA077F3eCdA0C74C1DbE15a86e4d1f96cCaaDd90'          
+-
+    id: 5767
+    name: safe.geteasycrypto.com
+    url: 'http://safe.geteasycrypto.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 3LxsigmQyvJ3LU3UBwY9s4QWqoF6jBYA82'     
+    addresses:
+      - '0x7B31c59e00393f56fEa6884bB24166b24B99C62A'           
+-
+    id: 5768
+    name: geteasycrypto.com
+    url: 'http://geteasycrypto.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x7B31c59e00393f56fEa6884bB24166b24B99C62A'           
+-
+    id: 5769
+    name: lixozy.blogspot.com
+    url: 'http://lixozy.blogspot.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xc4856c6C04Ee3416dAEaeD3E5abAE3622BBE1eBe'            
+-
+    id: 5770
+    name: eloncrypto.info
+    url: 'http://eloncrypto.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x7Fdfaa3154D3Cb82E90f5fDE8c52a95D66211705'         
+-
+    id: 5771
+    name: mediumcoinbase.tumblr.com
+    url: 'http://mediumcoinbase.tumblr.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Linking users to coinbaseblogiveawaynews.tumblr.com via manage.smarturl.it/summary/zm0733'     
+    addresses:
+      - '0xB3ec0CaD78b4dDD0bfdA3edfD517DfC185ba8E34'          
