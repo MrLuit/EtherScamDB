@@ -42886,3 +42886,52 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex phishing for keys with POST /log.php'        
+-
+    id: 5788
+    name: trxgold.io
+    url: 'http://trxgold.io'
+    category: Phishing
+    subcategory: Tron
+    description: 'Fake airdrop site with KYC directing users to a fake MyEtherWallet signature.xn--mytherwalet-3qb10c.com with cli.re/signed'     
+-
+    id: 5789
+    name: signature.xn--mytherwalet-3qb10c.com
+    url: 'http://signature.xn--mytherwalet-3qb10c.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet stealing keys with POST /process.php'          
+-
+    id: 5790
+    name: blockchian-login.info
+    url: 'http://blockchian-login.info'
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake Blockchain phishing for logins'         
+-
+    id: 5791
+    name: blockchian-login.info
+    url: 'http://blockchian-login.info'
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Suspicious Blockchain domain'             
+-
+    id: 5792
+    name: login-blockchian.net
+    url: 'http://login-blockchian.net'
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Suspicious Blockchain domain'           
+-
+    id: 5793
+    name: blockchian-wallets.com
+    url: 'http://blockchian-wallets.com'
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Suspicious Blockchain domain'        
+-
+    id: 5794
+    name: blockchian.ca
+    url: 'http://blockchian.ca'
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Suspicious Blockchain domain'          
