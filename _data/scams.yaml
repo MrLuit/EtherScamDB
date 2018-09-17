@@ -42854,3 +42854,12 @@
     description: 'Trust trading scam site'     
     addresses:
       - '0x1a64BaF4d961b87B6a99d1Ee99361248Dc1F7DbB'               
+-
+    id: 5784
+    name: perlin.global
+    url: 'http://perlin.global'
+    category: Phishing
+    subcategory: Perlin
+    description: 'Fake Perlin Network crowdsale site'     
+    addresses:
+      - '0x0d6e198892a124fde9956d581b193832e3a8f583'                     
