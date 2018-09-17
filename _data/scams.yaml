@@ -42863,3 +42863,26 @@
     description: 'Fake Perlin Network crowdsale site'     
     addresses:
       - '0x0d6e198892a124fde9956d581b193832e3a8f583'                     
+-
+    id: 5785
+    name: bnb-ethcampaign.com
+    url: 'http://bnb-ethcampaign.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xb119eA0fA97C926DD55ff11CB90a1A0d578dC57E'        
+-
+    id: 5786
+    name: cryptobtc.club
+    url: 'http://cryptobtc.club'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 1NZrzg9CPa5hMQkJBYrY9v6ReitdNgSFJE'         
+-
+    id: 5787
+    name: idex-market.pro
+    url: 'http://idex-market.pro'
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for keys with POST /log.php'        
