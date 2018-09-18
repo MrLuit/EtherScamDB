@@ -22431,6 +22431,7 @@
     description: 'Fake Telegram crowdsale site'
     addresses:
       - '0x6c20ef21e604028c649247c581e8e49fda6191ca'
+      - '0xf94b8e0ceba6dcd1b888fe02141dd9d0b8e67715'
 -
     id: 3316
     name: ethtotrade.com
@@ -42660,7 +42661,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'     
     addresses:
-      - '0x504c839dB36171D13f1B78Ab323CF3eA084995FA'      
+      - '0x504c839dB36171D13f1B78Ab323CF3eA084995FA' 
+      - '0x460E290bbB2D598Dbb75B7C82D70d16A527eE3f8'     
 -
     id: 5763
     name: crypto-win.club
@@ -42871,7 +42873,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'     
     addresses:
-      - '0xb119eA0fA97C926DD55ff11CB90a1A0d578dC57E'        
+      - '0xb119eA0fA97C926DD55ff11CB90a1A0d578dC57E'    
+      - '0x8042980dBaE8ddE334B16Df3870014c7Bbd62eD6'    
 -
     id: 5786
     name: cryptobtc.club
@@ -42935,3 +42938,74 @@
     category: Phishing
     subcategory: Blockchain
     description: 'Suspicious Blockchain domain'          
+-
+    id: 5795
+    name: infinitimoney.com
+    url: 'http://infinitimoney.com'
+    category: Scamming
+    subcategory: Ponzi
+    description: 'Ponzi scheme'         
+    addresses:
+      - '0x536a6Ba0D913d5D6A4ce2C6eB7eD0de3c0f0b89E'     
+-
+    id: 5796
+    name: smart-gift.website
+    url: 'http://smart-gift.website'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x4CF5dB8f049d6Ca78a8a41e1Ab2c04b90BAE5FC1'        
+-
+    id: 5797
+    name: coinshare.xyz
+    url: 'http://coinshare.xyz'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x0eEA73Bc675d3012d3d602bd03cbF51A4B64EAeE'           
+-
+    id: 5798
+    name: buterintoday.eu 
+    url: 'http://buterintoday.eu'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x362f1d7C705f0d8f38786b4D6eFd6eCC54199be6'              
+-
+    id: 5799
+    name: tronics.tech 
+    url: 'http://tronics.tech'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x3e3f6eDE7D57F3301b46AAc40cDa2f5Ea40fee52'       
+      - '0xB6619073688Aa467F8dEf1dF8438fFf8dD0D64f8'    
+-
+    id: 5800
+    name: giveaway-medium.top
+    url: 'http://giveaway-medium.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 1H6f2gJP6asHKDbaQHvXPWGPJocpRJKJ4'     
+    addresses:
+      - '0x520C7DD3d265B6eDd88C623D4C9EddAcBf082eA6'        
+-
+    id: 5801
+    name: tesla-giveaway.live
+    url: 'http://tesla-giveaway.live'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Linking users to giveaway-medium.top/eth/payment.php via giveawaypromo.byethost14.com'     
+    addresses:
+      - '0x520C7DD3d265B6eDd88C623D4C9EddAcBf082eA6'           
+-
+    id: 5802
+    name: wallets-crypto-bridge.org
+    url: 'http://wallets-crypto-bridge.org'
+    category: Phishing
+    subcategory: CryptoBridge
+    description: 'Fake CryptoBridge dex phishing for secrets with POST /login.php'          
