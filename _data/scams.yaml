@@ -43099,4 +43099,13 @@
     url: 'http://eherpro.tumblr.com'
     category: Scamming
     subcategory: Trust-Trading
-    description: 'Trust trading scam site - currently down '      
+    description: 'Trust trading scam site - currently down'      
+-
+    id: 5814
+    name: gramnetwork.net
+    url: 'http://gramnetwork.net'
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'        
+    addresses:
+      - '0xf94b8e0ceba6dcd1b888fe02141dd9d0b8e67715'      
