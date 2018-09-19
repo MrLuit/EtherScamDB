@@ -43009,3 +43009,94 @@
     category: Phishing
     subcategory: CryptoBridge
     description: 'Fake CryptoBridge dex phishing for secrets with POST /login.php'          
+-
+    id: 5803
+    name: topcryptogift.org 
+    url: 'http://topcryptogift.org'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x5D445ce69fF9d8096D57444906c193F0eE577BF2'     
+-
+    id: 5804
+    name: payetherer20.000webhostapp.com
+    url: 'http://payetherer20.000webhostapp.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xB3ec0CaD78b4dDD0bfdA3edfD517DfC185ba8E34'           
+-
+    id: 5805
+    name: vggs.info
+    url: 'http://vggs.info'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x0167409E6106EC3E3f05A09FCf04606918d21aD5'          
+-
+    id: 5806
+    name: go4.giftether.top
+    url: 'http://go4.giftether.top'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x58b62D0e9Cf118c6EeBE4Ce7e9680a8Ec533c094'     
+      - '0xd03e202205168b8d0eF6c7fa9c27Cb71b42f9E06'     
+-
+    id: 5807
+    name: etherium.org.payment.7d16-srv.site
+    url: 'http://etherium.org.payment.7d16-srv.site'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xba288eC9C48248aaE66398658C9aBc4507e0812b'      
+      - '0x47Aed527C215B5c347dbF5befA08520011440389'  
+-
+    id: 5808
+    name: givingsaway.blogspot.com
+    url: 'http://givingsaway.blogspot.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x55B775Ea2CA493c082F3e17A8433e4D220FBB8d8'          
+-
+    id: 5809
+    name: msg.xn--mytherwalet-3qb10c.com
+    url: 'http://msg.xn--mytherwalet-3qb10c.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'     
+-
+    id: 5810
+    name: myetherwallet.auth.sgnmsg.com
+    url: 'http://myetherwallet.auth.sgnmsg.com'
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'    
+-
+    id: 5811
+    name: hitbtcspace.herokuapp.com
+    url: 'http://hitbtcspace.herokuapp.com'
+    category: Phishing
+    subcategory: HitBtc
+    description: 'Fake Hitbtc site'        
+-
+    id: 5812
+    name: 2fa-paxful.com
+    url: 'http://2fa-paxful.com'
+    category: Phishing
+    subcategory: Paxful
+    description: 'Fake Paxful phishing for logins'        
+-
+    id: 5813
+    name: eherpro.tumblr.com
+    url: 'http://eherpro.tumblr.com'
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site - currently down '      
