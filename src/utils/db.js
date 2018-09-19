@@ -38,11 +38,22 @@ const readEntries = async () => {
 		Object.assign(db,serialijse.deserialize(cacheFile));
 		yaml.safeLoad(scamsFile).filter(entry => !db.scams.find(scam => scam.url == entry.url)).map(entry => new Scam(entry)).forEach(entry => db.scams.push(entry));
 		yaml.safeLoad(verifiedFile).filter(entry => !db.verified.find(verified => verified.url == entry.url)).forEach(entry => db.verified.push(entry));
+		yaml.safeLoad(scamsFile).forEach(entry => {
+			var index = db.scams.indexOf(db.scams.find(scam => scam.url == entry.url))
+			db.scams[index].category = entry.category;
+			db.scams[index].subcategory = entry.subcategory;
+			db.scams[index].description = entry.description;
+		});
+		yaml.safeLoad(verifiedFile).forEach(entry => {
+			var index = db.verified.indexOf(db.verified.find(verified => verified.url == entry.url))
+			db.verified[index].url = entry.url;
+			db.verified[index].description = entry.description;
+			if(entry.addresses) db.verified[index].addresses = entry.addresses;			
+		});
 	}
 }
 
 const updateIndex = async () => {
-	debug("Updating index...");
 	const scamDictionary = createDictionary(db.scams);
 	const verifiedDictionary = createDictionary(db.verified);
 	
