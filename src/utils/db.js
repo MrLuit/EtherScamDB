@@ -44,6 +44,12 @@ const readEntries = async () => {
 			db.scams[index].subcategory = entry.subcategory;
 			db.scams[index].description = entry.description;
 		});
+		yaml.safeLoad(verifiedFile).forEach(entry => {
+			var index = db.verified.indexOf(db.verified.find(verified => verified.url == entry.url))
+			db.verified[index].url = entry.url;
+			db.verified[index].description = entry.description;
+			if(entry.addresses) db.verified[index].addresses = entry.addresses;			
+		});
 	}
 }
 
