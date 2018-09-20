@@ -78,11 +78,10 @@ scams.forEach(function(scam, index) {
 
         if(new_cache.whitelist.indexOf(dmn) > -1) {
             console.log("Domain '"+ dmn +"' is whitelisted - not adding it to the blacklist.");
-            return;
+        } else {
+           new_cache.blacklist.push(dmn);
+           new_cache.blacklist.push('www.' + dmn);
         }
-
-        new_cache.blacklist.push(dmn);
-        new_cache.blacklist.push('www.' + dmn);
 
         // Check to see if we should hit the domain or not
         if(blDnsLookup === false) {
