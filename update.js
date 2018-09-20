@@ -73,8 +73,15 @@ scams.forEach(function(scam, index) {
           })
         }
         var scam_details = new_cache.scams[new_cache.scams.push(scam) - 1];
-        new_cache.blacklist.push(url.parse(scam.url).hostname.replace("www.", ""));
-        new_cache.blacklist.push('www.' + url.parse(scam.url).hostname.replace("www.", ""));
+
+        let dmn = url.parse(scam.url).hostname.replace("www.", "");
+
+        if(new_cache.whitelist.indexOf(dmn) > -1) {
+            console.log("Domain '"+ dmn +"' is whitelisted - not adding it to the blacklist.");
+        } else {
+           new_cache.blacklist.push(dmn);
+           new_cache.blacklist.push('www.' + dmn);
+        }
 
         // Check to see if we should hit the domain or not
         if(blDnsLookup === false) {
@@ -94,7 +101,6 @@ scams.forEach(function(scam, index) {
                     }
                 }, 500);
             }
-
         } else {
             dns.lookup(url.parse(scam.url).hostname, (err, address, family) => {
                 if (!err) {

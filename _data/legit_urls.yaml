@@ -388,3 +388,59 @@
     id: 86
     name: Neodium Network
     url: 'https://neodium.network'
+-
+    id: 87
+    name: GoogleDocs
+    url: 'https://docs.google.com'
+-
+    id: 88
+    name: GooglePlay
+    url: 'https://play.google.com'    
+-
+    id: 89
+    name: GooglePlus
+    url: 'https://plus.google.com'        
+-
+    id: 90
+    name: JSBin
+    url: 'https://output.jsbin.com'         
+-
+    id: 91
+    name: Instagram
+    url: 'https://instagram.com'         
+-
+    id: 92
+    name: Medium
+    url: 'https://medium.com'    
+-
+    id: 93
+    name: GoogleMail
+    url: 'https://gmail.com'                
+-
+    id: 94
+    name: Twitter
+    url: 'https://twitter.com'       
+-
+    id: 95
+    name: Geocities
+    url: 'https://geocities.ws'      
+-
+    id: 96
+    name: GithubUserContent
+    url: 'https://user-images.githubusercontent.com'     
+-
+    id: 97
+    name: Telegram
+    url: 'https://telegra.ph'      
+-
+    id: 98
+    name: Twitter
+    url: 'https://t.me'          
+-
+    id: 99
+    name: About
+    url: 'https://about.me'            
+-
+    id: 100
+    name: Jsfiddle
+    url: 'https://jsfiddle.net'                
