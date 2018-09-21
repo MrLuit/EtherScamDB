@@ -48995,3 +48995,11 @@
     category: Phishing
     subcategory: Paxful
     description: 'Fake Paxful exchange phishing for logins'         
+-
+    id: 5825
+    name: myetherwallet-knc.space
+    url: 'http://myetherwallet-knc.space'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /keys.php'           
