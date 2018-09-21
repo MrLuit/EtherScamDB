@@ -49003,3 +49003,27 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys with POST /keys.php'           
+-
+    id: 5826
+    name: i-dex.market
+    url: 'http://i-dex.market'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market phishing for keys with POST /log.php'          
+-
+    id: 5827
+    name: bittcrex.com
+    url: 'http://bittcrex.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Kraken
+    description: 'Fake Kraken exchange phishing for logins (kit is broken: https://twitter.com/sniko_/status/1043224827660783616)'
+-
+    id: 5828
+    name: myetherwallet-knt.space
+    url: 'http://myetherwallet-knt.space'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'    
