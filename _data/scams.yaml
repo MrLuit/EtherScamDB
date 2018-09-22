@@ -27450,6 +27450,7 @@
     description: 'Trust trading scam site'
     addresses:
       - '0xD289Bc0A919E75B824F4DfC376E9F24C119eD3F3'
+      - '0x197f986c640aEDfd3ce94553C61eCe11937bC2Bb'
 -
     id: 3506
     name: www-mycryqto.com
@@ -48937,7 +48938,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'     
     addresses:
-      - '0x362f1d7C705f0d8f38786b4D6eFd6eCC54199be6'        
+      - '0x362f1d7C705f0d8f38786b4D6eFd6eCC54199be6'  
+      - '0x3e67DF2d3c70c2B6DC7FF69Ff2c73d6cb7EE67Ad'      
 -
     id: 5819
     name: airdrop-gift.website
@@ -49027,3 +49029,72 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys'    
+-
+    id: 5829
+    name: bcrypto.club
+    url: 'http://bcrypto.club'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 14XSy5CK6yGz1UVAU9gGbqSowdUtaNF9gB'     
+    addresses:
+      - '0x474057ADF42f9F955e86aa1142740f9d7763e41E'         
+-
+    id: 5830
+    name: myctherwallet.net
+    url: 'http://myctherwallet.net'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain'        
+-
+    id: 5831
+    name: go5.giftether.top
+    url: 'http://go5.giftether.top'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xf4dDDAf909BFB371ACAf2b7eD6a3BA0d70BF4843'      
+-
+    id: 5832
+    name: etherium.org.payment.7d17-srv.site
+    url: 'http://etherium.org.payment.7d17-srv.site'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x2Cf904052D9FF15C18D6061E569B09925A6F0aC0'    
+      - '0x960Cf466795efc2D47CD37Ad01Bb43BfAaAE3618'        
+-
+    id: 5833
+    name: bigbonus.eu
+    url: 'http://bigbonus.eu'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x3e67DF2d3c70c2B6DC7FF69Ff2c73d6cb7EE67Ad'        
+-
+    id: 5834
+    name: medium.com.7d17-srv.site
+    url: 'http://medium.com.7d17-srv.site'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Linking users to etherium.org.payment.7d17-srv.site/promo/10000-eth-giveaway/'     
+    addresses:
+      - '0x960Cf466795efc2D47CD37Ad01Bb43BfAaAE3618'        
+-
+    id: 5835
+    name: getnowcrypto.com
+    url: 'http://getnowcrypto.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xF1455AcdB53399bf490435CCCCae413c985c1B46'                 
