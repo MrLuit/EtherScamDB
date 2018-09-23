@@ -49098,3 +49098,98 @@
     description: 'Trust trading scam site'     
     addresses:
       - '0xF1455AcdB53399bf490435CCCCae413c985c1B46'                 
+-
+    id: 5836
+    name: forkdeilta.app
+    url: 'http://forkdeilta.app'
+    coin: ETH
+    category: Phishing
+    subcategory: ForkDelta
+    description: 'Fake ForkDelta phishing for keys with POST /login.php'       
+-
+    id: 5837
+    name: verify.xn--mytherwalet-3qb10c.com
+    url: 'http://verify.xn--mytherwalet-3qb10c.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - https://twitter.com/jmoconnor415/status/1043944124112502784'           
+-
+    id: 5838
+    name: getfreeethhh.blogspot.com
+    url: 'http://getfreeethhh.blogspot.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Linking users to getyoureth.network'     
+    addresses:
+      - '0x88997942776A5de1f1A89d86A46BFF0c9F8EDb01'             
+-
+    id: 5839
+    name: getfreebitcoin.network
+    url: 'http://getfreebitcoin.network'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 1FVwwp98FBKJV8MzSFNN38afSHqiYrxXjs'           
+-
+    id: 5840
+    name: coinaction.xyz
+    url: 'http://coinaction.xyz'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xe0EA79C1D13A86eB4AbC78E8A2Ab83651C9E49bF'       
+-
+    id: 5841
+    name: cryptoxfan.info
+    url: 'http://cryptoxfan.info'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xe9e4a715cA5Ae7B564A7Cd135c23F2Aef11a4aA0'             
+-
+    id: 5842
+    name: e-gives.blogspot.com
+    url: 'http://e-gives.blogspot.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 1JSeDGPmq74JP2RQXqJFdHH3L2jcie3w4X'     
+    addresses:
+      - '0x55B775Ea2CA493c082F3e17A8433e4D220FBB8d8'           
+-
+    id: 5843
+    name: go6.giftether.top
+    url: 'http://go6.giftether.top'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xd03e202205168b8d0eF6c7fa9c27Cb71b42f9E06'              
+-
+    id: 5844
+    name: binance-giveawaypromo.banance.xyz
+    url: 'http://binance-giveawaypromo.banance.xyz'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x4D6102BcBe452015a7D656a97dE3F30f10054Ceb'            
+-
+    id: 5845
+    name: mega-airdrop.website
+    url: 'http://mega-airdrop.website'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x91442fD15202Bd77d7e42E59a87Bae18F7FC3AE3'     
+      - '0xd550EaDA44D72C8a840D2aeb5cbe70469C9C0BAC'             
