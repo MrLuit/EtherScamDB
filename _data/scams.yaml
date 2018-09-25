@@ -49193,3 +49193,43 @@
     addresses:
       - '0x91442fD15202Bd77d7e42E59a87Bae18F7FC3AE3'     
       - '0xd550EaDA44D72C8a840D2aeb5cbe70469C9C0BAC'             
+-
+    id: 5846
+    name: hitbtc.li
+    url: 'http://hitbtc.li'
+    coin: ETH
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Fake HitBTC phishing for logins with POST /phone.php and POST /sms-code.php'        
+-
+    id: 5847
+    name: xn--spectroconn-7zb.com
+    url: 'http://xn--spectroconn-7zb.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Spectrocoin
+    description: 'Fake SpectroCoin phishing for logins with POST /../post.php'     
+-
+    id: 5848
+    name: paxfullwallet.com
+    url: 'http://paxfullwallet.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Paxful
+    description: 'Fake Paxful wallet phishing for details'          
+-
+    id: 5849
+    name: user.paxfulpolicy.com
+    url: 'http://user.paxfulpolicy.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Paxful
+    description: 'Fake Paxful wallet phishing for details'        
+-
+    id: 5850
+    name: paxful.com.balums.gq
+    url: 'http://paxful.com.balums.gq'
+    coin: ETH
+    category: Phishing
+    subcategory: Paxful
+    description: 'Fake Paxful wallet phishing for details'            
