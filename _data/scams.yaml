@@ -48037,6 +48037,7 @@
     description: 'Trust trading scam site'     
     addresses:
       - '0x3814c3dee17a7660e5240d7b2352734e853f60bb'        
+      - '0x39a37EF88447612AbBDc85fE0B3CbEc167315ed5'
 -
     id: 5727
     name: bitblender.me
@@ -49171,7 +49172,9 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'     
     addresses:
-      - '0xd03e202205168b8d0eF6c7fa9c27Cb71b42f9E06'              
+      - '0xd03e202205168b8d0eF6c7fa9c27Cb71b42f9E06'   
+      - '0x696b196dA53963AAEC15E486aE46B2939b589AAC'   
+      - '0x87EeD16b97B08fd92491c66d28226B33eb4F2c8D'        
 -
     id: 5844
     name: binance-giveawaypromo.banance.xyz
@@ -49192,7 +49195,8 @@
     description: 'Trust trading scam site'     
     addresses:
       - '0x91442fD15202Bd77d7e42E59a87Bae18F7FC3AE3'     
-      - '0xd550EaDA44D72C8a840D2aeb5cbe70469C9C0BAC'             
+      - '0xd550EaDA44D72C8a840D2aeb5cbe70469C9C0BAC'  
+      - '0xb70557d641Af8ea5e94AC1569e6121d6a9Bb30Dd'           
 -
     id: 5846
     name: hitbtc.li
@@ -49233,3 +49237,99 @@
     category: Phishing
     subcategory: Paxful
     description: 'Fake Paxful wallet phishing for details'            
+-
+    id: 5851
+    name: xn--hibtc-leb.com
+    url: 'http://xn--hibtc-leb.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Fake HitBTC site phishing for logins'      
+-
+    id: 5852
+    name: hitbtc-eu.com
+    url: 'http://hitbtc-eu.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Suspicious HitBTC domain - nothing deployed yet'        
+-
+    id: 5853
+    name: hitbtc.cam
+    url: 'http://hitbtc.cam'
+    coin: ETH
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Suspicious HitBTC domain - kit not deployed yet'      
+-
+    id: 5854
+    name: get-5k-promo.website
+    url: 'http://get-5k-promo.website'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xfCF10F54105223dfCD8edCe0C62352A059ce1E19'      
+-
+    id: 5855
+    name: freshbonus.eu
+    url: 'http://freshbonus.eu'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x879A8EEA3eA7811fbe7867a8984836D12Dc1F9f4'        
+      - '0x27fDdd724FE2A47025444e2E5B02E30899c3B871'
+      - '0x44073b0c378FA8def566209beFe169866805B348'
+-
+    id: 5856
+    name: e-gives.blogspot.com
+    url: 'http://e-gives.blogspot.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x55B775Ea2CA493c082F3e17A8433e4D220FBB8d8'        
+-
+    id: 5857
+    name: etherium.org.payment.7d18-srv.site
+    url: 'http://etherium.org.payment.7d18-srv.site'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xB50Ebd0CbE2E70Ff7aD4A09215B1B589ee4D07C6'       
+-
+    id: 5858
+    name: airdrops.life
+    url: 'http://airdrops.life'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site - contacting https://musk-giveaway.com/ETH/'     
+    addresses:
+      - '0xcdaE97FB0bd5539641A31b2228d95246B0aC2B6f'            
+-
+    id: 5859
+    name: binance-com-clud.webcindario.com
+    url: 'http://binance-com-clud.webcindario.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x4D6102BcBe452015a7D656a97dE3F30f10054Ceb'       
+-
+    id: 5860
+    name: go7.giftether.top
+    url: 'http://go7.giftether.top'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x2C30e423d30e78c416B3d8938E2e14d09AF4753F'         
