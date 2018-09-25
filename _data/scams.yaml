@@ -49333,3 +49333,83 @@
     description: 'Trust trading scam site'     
     addresses:
       - '0x2C30e423d30e78c416B3d8938E2e14d09AF4753F'         
+-
+    id: 5861
+    name: doubleroi.surge.sh
+    url: 'http://doubleroi.surge.sh'
+    coin: ETH
+    category: Scamming
+    subcategory: Ponzi
+    description: 'Ponzi scheme - closed contract. Fork of 12hourtrains which is a fork of dailyroi.fun - https://twitter.com/sniko_/status/1044575038232498176'     
+    addresses:
+      - '0x22cff91f77a2ed675f3ab4aee16e15b27f6f275c'       
+-
+    id: 5862
+    name: etherium.org.payment.7d19-srv.site
+    url: 'http://etherium.org.payment.7d19-srv.site'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x4ff4c15af13F6D4950448104D9B97387A03dA6f9'             
+-
+    id: 5863
+    name: best-gift.website
+    url: 'http://best-gift.website'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x71F2A8318b728f39483237f99c347b743Cc4Fb47'           
+-
+    id: 5864
+    name: airdrop.com.de
+    url: 'http://airdrop.com.de'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x3e67DF2d3c70c2B6DC7FF69Ff2c73d6cb7EE67Ad'             
+-
+    id: 5865
+    name: vitalikpromo.eu
+    url: 'http://vitalikpromo.eu'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xd32357b1e1c0d1B469e2eEf5BaA0Ebd3D02c2E51'        
+-
+    id: 5866
+    name: medium.com.7d19-srv.site
+    url: 'http://medium.com.7d19-srv.site'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Linking users to etherium.org.payment.7d19-srv.site'     
+    addresses:
+      - '0x4ff4c15af13F6D4950448104D9B97387A03dA6f9'         
+-
+    id: 5867
+    name: promo2.etherbonus.top
+    url: 'http://promo2.etherbonus.top'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x3841eB6910fb442F82Aaf50EBA5Da9b275619ee0'              
+-
+    id: 5868
+    name: 3dayprofits.info
+    url: 'http://3dayprofits.info'
+    coin: ETH
+    category: Scamming
+    subcategory: Ponzi
+    description: 'Ponzi scheme - https://twitter.com/sniko_/status/1044720490881974272'     
+    addresses:
+      - '0xb547027a4ccd46ec98199fa88aaedf5aa981db26'        
