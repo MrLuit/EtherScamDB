@@ -49413,3 +49413,75 @@
     description: 'Ponzi scheme - https://twitter.com/sniko_/status/1044720490881974272'     
     addresses:
       - '0xb547027a4ccd46ec98199fa88aaedf5aa981db26'        
+-
+    id: 5869
+    name: binance-campaign.site
+    url: 'http://binance-campaign.site'
+    coin: ETH
+    category: Phishing
+    subcategory: Binance
+    description: 'Suspicious Binance domain (nothing launched yet)'        
+-
+    id: 5870
+    name: bittrex.asset2fa-exchange.com
+    url: 'http://bittrex.asset2fa-exchange.come'
+    coin: ETH
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Suspicious Bittrex domain (currently down) https://twitter.com/PhishFort/status/1044938234814492672'      
+-
+    id: 5871
+    name: us.bittrex.com.asset2fa-exchange.com
+    url: 'http://us.bittrex.com.asset2fa-exchange.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Suspicious Bittrex domain (currently down) https://twitter.com/PhishFort/status/1044938234814492672'           
+-
+    id: 5872
+    name: bittrex.com.asset2fa-exchange.com
+    url: 'http://bittrex.com.asset2fa-exchange.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex phishing for logins'       
+-
+    id: 5873
+    name: us.bittrex.asset2fa-exchange.com
+    url: 'http://us.bittrex.asset2fa-exchange.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Suspicious Bittrex domain (currently down)'          
+-
+    id: 5874
+    name: conidase.com
+    url: 'http://conidase.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Fake coinbase phishing for details with POST /ajax/apps/formSubmitAjax.php'              
+-
+    id: 5875
+    name: binance-https.com
+    url: 'http://binance-https.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Binance
+    description: 'Suspicious binance domain'        
+-
+    id: 5876
+    name: binance.com-log-in.googl-access.com
+    url: 'http://binance.com-log-in.googl-access.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Binance
+    description: 'Suspicious binance domain'         
+-
+    id: 5877
+    name: binance-campaign.info
+    url: 'http://binance-campaign.info'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Promoting a trust trading scam'         
