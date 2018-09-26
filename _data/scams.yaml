@@ -48511,7 +48511,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'     
     addresses:
-      - '0x684eDE6645f1b71D77E0AEAC519114EE8Be3c410'             
+      - '0x684eDE6645f1b71D77E0AEAC519114EE8Be3c410' 
+      - '0x9e78d3aa219E4255d86A7b71fD10A5f6612C8739'            
 -
     id: 5774
     name: mnaxy.blogspot.com
@@ -49160,7 +49161,7 @@
     coin: ETH
     category: Scamming
     subcategory: Trust-Trading
-    description: 'Trust trading scam site. Bitcoin address: 1JSeDGPmq74JP2RQXqJFdHH3L2jcie3w4X'     
+    description: 'Trust trading scam site. Bitcoin address: 1JSeDGPmq74JP2RQXqJFdHH3L2jcie3w4X LaXXasBpGtqnzi7AMywnujYeD3BFD1NFv2'     
     addresses:
       - '0x55B775Ea2CA493c082F3e17A8433e4D220FBB8d8'           
 -
@@ -49485,3 +49486,53 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Promoting a trust trading scam'         
+-
+    id: 5878
+    name: myetnerwallet.com.send-status.info
+    url: 'http://myetnerwallet.com.send-status.info'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'     
+-
+    id: 5879
+    name: send-status.info
+    url: 'http://send-status.info'
+    coin: ETH
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta phishing for keys with POST /callback.php'         
+-
+    id: 5880
+    name: paxful.com.pl
+    url: 'http://paxful.com.pl'
+    coin: ETH
+    category: Phishing
+    subcategory: Paxful
+    description: 'Fake Paxful exchange phishing for logins with POST ./temp.php'          
+-
+    id: 5881
+    name: myetherwallet-id.space
+    url: 'http://myetherwallet-id.space'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'        
+-
+    id: 5882
+    name: eth-databasecontract.website
+    url: 'http://eth-databasecontract.website'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xc57597f5fC469386AB8C53740b5Cf6c4A78e8EeC'      
+-
+    id: 5883
+    name: geteos.eu
+    url: 'http://geteos.eu'
+    coin: EOS
+    category: Phishing
+    subcategory: EOS
+    description: 'Fake EOS site phishing for keys with POST /'         
