@@ -49536,3 +49536,77 @@
     category: Phishing
     subcategory: EOS
     description: 'Fake EOS site phishing for keys with POST /'         
+-
+    id: 5884
+    name: myetherwallet.auth.slgnmsg.info
+    url: 'http://myetherwallet.auth.slgnmsg.infou'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'        
+-
+    id: 5885
+    name: giftethnow.website
+    url: 'http://giftethnow.website'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xc57597f5fC469386AB8C53740b5Cf6c4A78e8EeC'     
+-
+    id: 5886
+    name: etherium.org.payment.7t20-srv.site
+    url: 'http://etherium.org.payment.7t20-srv.site'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x75B60BA032cf8eE0b4BBd78bfbD7D99caF70A176'          
+-
+    id: 5887
+    name: x-gives.blogspot.com
+    url: 'http://x-gives.blogspot.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Tron address: TPcDNYz4AxCaLCY2Xx4i95jGYwCjUrxg5r'     
+    addresses:
+      - '0x55B775Ea2CA493c082F3e17A8433e4D220FBB8d8'         
+-
+    id: 5888
+    name: btcgive.kissr.com
+    url: 'http://btcgive.kissr.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. bitcoin address: 19Q7FZ4FLNYP4rW1fewzR3v2fcBzRVHZ9f'         
+-
+    id: 5889
+    name: ethgive.kissr.com
+    url: 'http://ethgive.kissr.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0xCae453Eb95B584331A8A5945D8138ceEED9d5Af6'       
+-
+    id: 5890
+    name: ico-neon.exchange
+    url: 'http://ico-neon.exchange'
+    coin: NEO
+    category: Phishing
+    subcategory: Neon
+    description: 'Fake Neon crowdsale site. Neo address: AdNXNexCTgRMeLEiWxqE2zPpfpmfWuyeWe'     
+-
+    id: 5891
+    name: myetherairdrop.com
+    url: 'http://myetherairdrop.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'     
+    addresses:
+      - '0x3157C0650BD0C85Ca276318DE70382F98bE79490'          
