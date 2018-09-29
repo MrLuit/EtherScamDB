@@ -22,7 +22,8 @@ let new_cache = {
     'whitelist': [],
     'inactives': [],
     'actives': [],
-    'updated': (new Date()).getTime()
+    'updated': (new Date()).getTime(),
+    'refreshed': (new Date()).getTime()
 };
 
 let blDnsLookup = true;
@@ -68,7 +69,6 @@ scams.forEach(function(scam, index) {
         }
         if (scam.addresses != null) {
           scam.addresses.forEach(function(address, index) {
-            //debug("Casting " + scam.addresses[index] + " as " + scam.addresses[index].toLowerCase())
             scam.addresses[index] = scam.addresses[index].toLowerCase();
           })
         }

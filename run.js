@@ -16,14 +16,20 @@ const app = express();
 const config = require('./config');
 const check = require('./_utils/webcheck.js');
 const lookup = require('./_utils/lookup.js');
+const getDateTime = require('./_utils/getDateTime.js');
 
 
 let default_template = fs.readFileSync('./_layouts/default.html', 'utf8');
 let cache;
 let updating_now = false;
+let refreshing_now = false;
 let icon_warnings = [];
 var older_cache_time;
+var old_cache_time;
 
+setInterval(function(){
+  cache = getCache();
+}, 60 * 1000)
 
 if('perform_dns_lookup' in config && config.perform_dns_lookup === false) {
     default_template = default_template.replace("{{ config.perform_dns_lookup }}", "<div class='ui info message'>DNS lookups not performed due to configuration.</div><br />");
@@ -52,23 +58,39 @@ function getCache(callback = false) {
         } else {
             fork('update.js');
         }
-    } else if (!cache) {
+    } else if (!cache) { //If cache variable doesn't exist, initialize it
         cache = JSON.parse(fs.readFileSync('_cache/cache.json'));
+        console.log("Cache last updated: " + cache.updated)
+        console.log("Cache last refreshed: " + cache.refreshed)
         if (callback) {
             callback();
         }
-    } else if ((new Date().getTime() - cache.updated) < config.cache_refreshing_interval) {
+    } else if (((new Date().getTime() - cache.refreshed) < config.cache_refreshing_interval) && ((new Date().getTime() - cache.updated) < config.cache_add_interval)) { //If cache doesn't need to be refreshed or updated, return cache
         return cache;
-    } else if ((new Date().getTime() - cache.updated) >= config.cache_refreshing_interval) {
-        if (!updating_now) {
+    } else if((new Date().getTime() - cache.updated) >= config.cache_add_interval) {
+        if (!updating_now && !refreshing_now) {
             updating_now = true;
-            older_cache_time = cache.updated;
-            fork('update.js');
+            old_cache_time = cache.updated;
+            fork('quickadd.js');
             var checkDone2 = setInterval(function() {
-                if (cache.updated != older_cache_time) {
+                if (cache.updated != old_cache_time) {
                     clearInterval(checkDone2);
                     debug("Successfully updated cache!");
                     updating_now = false;
+                }
+            }, 1000);
+        }
+        return cache;
+    } else if ((new Date().getTime() - cache.refreshed) >= config.cache_refreshing_interval) { //If cache needs to be refreshed, refresh it
+        if (!updating_now && !refreshing_now) {
+            refreshing_now = true;
+            older_cache_time = cache.refreshed;
+            fork('update.js');
+            var checkDone2 = setInterval(function() {
+                if (cache.refreshed != older_cache_time) {
+                    debug("Successfully refreshed cache!");
+                    clearInterval(checkDone2);
+                    refreshing_now = false;
                 }
             }, 1000);
         }
@@ -1296,7 +1318,7 @@ if (!fs.existsSync('config.js')) {
                 }
             });
         }
-    }, 60000);
+    }, 60 * 1000);
     getCache(function() {
         startWebServer();
     });
