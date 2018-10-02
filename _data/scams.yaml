@@ -49885,3 +49885,57 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site. Bitcoin address: 19Q7FZ4FLNYP4rW1fewzR3v2fcBzRVHZ9f'           
+-
+    id: 5923
+    name: santechstroywalker.site
+    url: 'http://santechstroywalker.site'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for keys with POST /furia.php'           
+-
+    id: 5924
+    name: firecrypto.info
+    url: 'http://firecrypto.info'
+    coin: ETH
+    category: Scamming
+    subcategory: Exchange
+    description: 'Fake exchange asking for 0.01BTC deposit to verify. See full scam at https://redd.it/9ks9ux. Bitcoin address: 1PTAaVk6onxkgU1ZXxMfcPG9txgQ6rYVef'  
+    addresses:
+      - '0x1E711A766cD4EC07C590EeF54A112190B4826b4e'              
+-
+    id: 5925
+    name: cew.safewallet.replayattack.us
+    url: 'http://cew.safewallet.replayattack.us'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet/ClassicEtherWallet'                  
+-
+    id: 5926
+    name: medium.com.7t23-srv.site
+    url: 'http://medium.com.7t23-srv.site'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Linking users to www.etherium.org.payment.7t23-srv.site/promo/10000-eth-giveaway/'          
+    addresses:
+      - '0x075DC757633700b257E090d62b62AAC5997a99D4'      
+-
+    id: 5927
+    name: etherium.org.payment.7t23-srv.site
+    url: 'http://etherium.org.payment.7t23-srv.site'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'          
+    addresses:
+      - '0x075DC757633700b257E090d62b62AAC5997a99D4'           
+-
+    id: 5928
+    name: electrumwallet.org
+    url: 'http://electrumwallet.org'
+    coin: BTC
+    category: Phishing
+    subcategory: Electrum
+    description: 'Fake Electrum wallet'           
