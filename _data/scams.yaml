@@ -49592,7 +49592,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'     
     addresses:
-      - '0xCae453Eb95B584331A8A5945D8138ceEED9d5Af6'       
+      - '0xCae453Eb95B584331A8A5945D8138ceEED9d5Af6'  
+      - '0x4F96E55f53927Dd720b2A88D910080bd97cCBe85'     
 -
     id: 5890
     name: ico-neon.exchange
@@ -49780,3 +49781,107 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex phishing for keys'         
+-
+    id: 5911
+    name: sgivex.blogspot.com
+    url: 'http://sgivex.blogspot.com'
+    coin: TRX
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Tron address: TPcDNYz4AxCaLCY2Xx4i95jGYwCjUrxg5r'      
+-
+    id: 5912
+    name: airdrop-event.com
+    url: 'http://airdrop-event.com'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 39PnC2ePuRPPuiqSxGHSiDqmhhWtTtjsFK'          
+    addresses:
+      - '0xcd39300c31776AB6303fC64B930c1109c008eA0A'      
+-
+    id: 5913
+    name: myetherwallet-shl.space
+    url: 'http://myetherwallet-shl.space'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /app/keys.php'        
+-
+    id: 5914
+    name: get.fastcryptogift.com
+    url: 'http://get.fastcryptogift.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'          
+    addresses:
+      - '0x5123BC9D86E99EA6b6C67c7Ba66507f5b4356D7C'       
+-
+    id: 5915
+    name: fastcryptogift.com
+    url: 'http://fastcryptogift.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'          
+    addresses:
+      - '0x5123BC9D86E99EA6b6C67c7Ba66507f5b4356D7C'         
+-
+    id: 5916
+    name: account2fa-login.com
+    url: 'http://account2fa-login.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex phishing for logins with POST /verification.php'       
+-
+    id: 5917
+    name: poloniex.com.account2fa-login.com
+    url: 'http://poloniex.com.account2fa-login.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex phishing for logins with POST /verification.php'    
+-
+    id: 5918
+    name: poloniex-login.account2fa-login.com
+    url: 'http://poloniex-login.account2fa-login.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex phishing for logins with POST /verification.php'          
+-
+    id: 5919
+    name: bittrex-login.account2fa-login.com
+    url: 'http://bittrex-login.account2fa-login.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex phishing for logins with POST /verification.php'        
+-
+    id: 5920
+    name: g-ive.blogspot.com
+    url: 'http://g-ive.blogspot.com'
+    coin: TRX
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Tron address: TPcDNYz4AxCaLCY2Xx4i95jGYwCjUrxg5r'      
+-
+    id: 5921
+    name: cryptopromo.justsharedthis.info
+    url: 'http://cryptopromo.justsharedthis.info'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Linking to scams via bitly.com/2P1Ogv8+ and bitly.com/2IqAgZm+'          
+    addresses:
+      - '0x4F96E55f53927Dd720b2A88D910080bd97cCBe85'       
+-
+    id: 5922
+    name: btcgive.kissr.com
+    url: 'http://btcgive.kissr.com'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 19Q7FZ4FLNYP4rW1fewzR3v2fcBzRVHZ9f'           
