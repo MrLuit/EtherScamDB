@@ -556,7 +556,7 @@
     coin: ETH
     category: Phishing
     subcategory: MyEtherWallet
-    description: 'scambot phishers / reddit dms did not 404.'
+    description: 'Scambot phishers / reddit dms did not 404. UPDATE 2018/10/04 - Fake MyEtherWallet phishing for keys with POST /decrypt.php'
 -
     id: 77
     name: myetherwallet.com.de
@@ -49867,6 +49867,8 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site. Tron address: TPcDNYz4AxCaLCY2Xx4i95jGYwCjUrxg5r'      
+    addresses:
+      - '0x55B775Ea2CA493c082F3e17A8433e4D220FBB8d8'      
 -
     id: 5921
     name: cryptopromo.justsharedthis.info
@@ -49939,3 +49941,51 @@
     category: Phishing
     subcategory: Electrum
     description: 'Fake Electrum wallet'           
+-
+    id: 5929
+    name: send-gift.website
+    url: 'http://send-gift.website'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'          
+    addresses:
+      - '0xd9a1968Aec13220e91A31D602f2519262B38dD3A'        
+-
+    id: 5930
+    name: etherium.org.payment.7t24-srv.site
+    url: 'http://etherium.org.payment.7t24-srv.site'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'          
+    addresses:
+      - '0xff0e20E3A7575D823302bbB27E233c23f2c3070b'          
+-
+    id: 5931
+    name: medium.com.7t24-srv.site
+    url: 'http://medium.com.7t24-srv.site'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Linking users to etherium.org.payment.7t24-srv.site'          
+    addresses:
+      - '0xff0e20E3A7575D823302bbB27E233c23f2c3070b'         
+-
+    id: 5932
+    name: airdrops.technology
+    url: 'http://airdrops.technology'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'          
+    addresses:
+      - '0xB1843d1Eb962dA7760A80fC91B442491cf437492'            
+-
+    id: 5933
+    name: myetherwallet-cpt.space
+    url: 'http://myetherwallet-cpt.space'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'         
