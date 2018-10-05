@@ -49989,3 +49989,106 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'         
+-
+    id: 5934
+    name: binance.com12754825.ml
+    url: 'http://binance.com12754825.ml'
+    coin: ETH
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance phishing for logins with POST /function.php'            
+-
+    id: 5935
+    name: vietnamese-binance.com
+    url: 'http://vietnamese-binance.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance phishing for logins with POST /function.php'        
+-
+    id: 5936
+    name: vietnam-login-binance.com
+    url: 'http://vietnam-login-binance.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance phishing for logins with POST /function.php'          
+-
+    id: 5937
+    name: vietnam-binance.com
+    url: 'http://vietnam-binance.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance phishing for logins with POST /function.php'        
+-
+    id: 5938
+    name: loginviet-binance.com
+    url: 'http://loginviet-binance.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance phishing for logins with POST /function.php'       
+-
+    id: 5939
+    name: binance-login-vn.online
+    url: 'http://binance-login-vn.online'
+    coin: ETH
+    category: Phishing
+    subcategory: Binance
+    description: 'Suspicious Binance domain'         
+-
+    id: 5940
+    name: binance.com128236.ml
+    url: 'http://binance.com128236.ml'
+    coin: ETH
+    category: Phishing
+    subcategory: Binance
+    description: 'Suspicious Binance domain'           
+-
+    id: 5941
+    name: login-blnance.space
+    url: 'http://login-blnance.space'
+    coin: ETH
+    category: Phishing
+    subcategory: Binance
+    description: 'Suspicious Binance domain'         
+-
+    id: 5942
+    name: bhaskar.dx.am
+    url: 'http://bhaskar.dx.am'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'          
+    addresses:
+      - '0x5d0dD8e7585201aB1BC36fceC3922CC4fF6CeF64'       
+-
+    id: 5943
+    name: elon-share.info
+    url: 'http://elon-share.info'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'          
+    addresses:
+      - '0x0ad24A61A0371d1dFE47C3b74169aaA5807EFb31'         
+-
+    id: 5944
+    name: ethereum-giveaway.ru
+    url: 'http://ethereum-giveaway.ru'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'          
+    addresses:
+      - '0x196333B00aBf440C044B7164868cd5a4682E0276'             
+-
+    id: 5945
+    name: bcrypto.me
+    url: 'http://bcrypto.me'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 1FTTAPLngxjdc3Vt2woFAJhdkwiZM2Soog'          
+  
