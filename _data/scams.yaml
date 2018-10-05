@@ -50091,4 +50091,71 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site. Bitcoin address: 1FTTAPLngxjdc3Vt2woFAJhdkwiZM2Soog'          
-  
+-
+    id: 5946
+    name: binance.com6537261.ml
+    url: 'http://binance.com6537261.ml'
+    coin: ETH
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance phishing for logins with POST /function.php'    
+-
+    id: 5947
+    name: binance.com762381.cf
+    url: 'http://binance.com762381.cf'
+    coin: ETH
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance phishing for logins with POST /function.php'        
+-
+    id: 5948
+    name: vitalik-campaign.xyz
+    url: 'http://vitalik-campaign.xyz'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 1DzUBk8PDjQKdBgo5YG4qzk6icCH3GaPxJ'          
+    addresses:
+      - '0xe45AA28d270A049B489CcbB156C2e2c3De0d571d'      
+-
+    id: 5949
+    name: getgift.tech
+    url: 'http://getgift.tech'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 13Lo1Pjh8DKpq9Fvf5aNb1hfnHVDxQBoqE 19w6pZoUKTKzEtFZQJNnV6RjztPbFU8xSV'          
+    addresses:
+      - '0xFFDE23396d57e10Abf58BD929BB1E856c7718218'     
+      - '0x73328f4F21693C22ffB2009125F6E4906AF76aF8'     
+-
+    id: 5950
+    name: elongift.com
+    url: 'http://elongift.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 1wY8eEYhAfstzdBSfmhJEjcnyu6A9XHVh'          
+    addresses:
+      - '0xcbA658ABF9C7b7fBc5F38Bd103d46B40eAE57e0e'       
+      - '0xDADa0b3e40c3f2a2586658c2097C3bBCf8294b42'
+-
+    id: 5951
+    name: muskmars.tech
+    url: 'http://muskmars.tech'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Linking users to getgift.tech'          
+    addresses:
+      - '0x73328f4F21693C22ffB2009125F6E4906AF76aF8'       
+-
+    id: 5952
+    name: firstcrypt.info
+    url: 'http://firstcrypt.info'
+    coin: ETH
+    category: Scamming
+    subcategory: Exchange
+    description: 'Fake exchange (clone of firecrypto.info). Bitcoin address: 1PTAaVk6onxkgU1ZXxMfcPG9txgQ6rYVef'  
+    addresses:
+      - '0x1E711A766cD4EC07C590EeF54A112190B4826b4e'        
