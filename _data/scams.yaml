@@ -50207,3 +50207,19 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site. Bitcoin address: 36CfVjvns6ce1ijpdKB8YKeBVzVpxCfRrH'     
+-
+    id: 5959
+    name: xn--biinanc-z8a.com
+    url: 'http://xn--biinanc-z8a.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance phishing for logins with POST /trox_admin/Api/login_user'     
+-
+    id: 5960
+    name: idex.auroradapp.market
+    url: 'http://idex.auroradapp.market'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for logins with POST /log.php'         
