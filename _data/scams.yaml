@@ -50159,3 +50159,51 @@
     description: 'Fake exchange (clone of firecrypto.info). Bitcoin address: 1PTAaVk6onxkgU1ZXxMfcPG9txgQ6rYVef'  
     addresses:
       - '0x1E711A766cD4EC07C590EeF54A112190B4826b4e'        
+-
+    id: 5953
+    name: paxful.com-bitcoin-wallet-trade-escrow.paxfulsecure.com
+    url: 'http://paxful.com-bitcoin-wallet-trade-escrow.paxfulsecure.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Paxful
+    description: 'Fake Paxful phishing for logins with POST /login.php'       
+-
+    id: 5954
+    name: mnyicthervallict.com
+    url: 'http://mnyicthervallict.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /log.php'          
+-
+    id: 5955
+    name: mnyidthewalliot.com
+    url: 'http://mnyidthewalliot.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /log.php'       
+-
+    id: 5956
+    name: binchaincampaign.com
+    url: 'http://binchaincampaign.com'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 36CfVjvns6ce1ijpdKB8YKeBVzVpxCfRrH'              
+-
+    id: 5957
+    name: binachaincompetition.com
+    url: 'http://binachaincompetition.com'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 36CfVjvns6ce1ijpdKB8YKeBVzVpxCfRrH'          
+-
+    id: 5958
+    name: binacompetition.com
+    url: 'http://binacompetition.com'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 36CfVjvns6ce1ijpdKB8YKeBVzVpxCfRrH'     
