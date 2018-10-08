@@ -49950,7 +49950,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site'          
     addresses:
-      - '0xd9a1968Aec13220e91A31D602f2519262B38dD3A'        
+      - '0xd9a1968Aec13220e91A31D602f2519262B38dD3A' 
+      - '0x6a60dC30eF7e29abBD5a92b7697270DbD2115C18'       
 -
     id: 5930
     name: etherium.org.payment.7t24-srv.site
@@ -50223,3 +50224,47 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex phishing for logins with POST /log.php'         
+-
+    id: 5961
+    name: xn--mythwallet-n7ac.com
+    url: 'http://xn--mythwallet-n7ac.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /api.etherscan.io.php'            
+-
+    id: 5962
+    name: hitloek.info
+    url: 'http://hitloek.info'
+    coin: ETH
+    category: Phishing
+    subcategory: HitBtc
+    description: 'Fake HitBTC phishing for logins with POST /controller/email.php (also hosting a Gmail phishing kit on www.hitloek.info/gmail)'       
+-
+    id: 5963
+    name: ethiz.blogspot.com
+    url: 'http://ethiz.blogspot.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'        
+    addresses:
+      - '0x55B775Ea2CA493c082F3e17A8433e4D220FBB8d8'          
+-
+    id: 5964
+    name: gi-ve.blogspot.com
+    url: 'http://gi-ve.blogspot.com'
+    coin: LTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Litecoin address: LaXXasBpGtqnzi7AMywnujYeD3BFD1NFv2'           
+-
+    id: 5965
+    name: elonmuskairdrop.tech
+    url: 'http://elonmuskairdrop.tech'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 1FSB86yY1D4m1bFwEoTm5bCSgTiFt4Macz'               
+    addresses:
+      - '0x1ccF09f238A9485DE914022D47A99431B7aE9a2d'        
