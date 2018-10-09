@@ -50294,3 +50294,35 @@
     description: 'Clone of apexone.io - phishing deposits'               
     addresses:
       - '0x23f1909f7a65cba4d2a4a42ee1ba7d9772c3ba93'      
+-
+    id: 5969
+    name: bittrex-ydd.com
+    url: 'http://bittrex-ydd.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Suspicious Bittrex domain'         
+-
+    id: 5970
+    name: bittrex-web.com
+    url: 'http://bittrex-web.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Suspicious Bittrex domain'      
+-
+    id: 5971
+    name: hitbtc.website 
+    url: 'http://hitbtc.website'
+    coin: ETH
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Suspicious Hitbtc domain'        
+-
+    id: 5972
+    name: scris.club
+    url: 'http://scris.club'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for secrets with POST /furia.php'         
