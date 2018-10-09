@@ -50268,3 +50268,29 @@
     description: 'Trust trading scam site. Bitcoin address: 1FSB86yY1D4m1bFwEoTm5bCSgTiFt4Macz'               
     addresses:
       - '0x1ccF09f238A9485DE914022D47A99431B7aE9a2d'        
+-
+    id: 5966
+    name: electrun.org
+    url: 'http://electrun.org'
+    coin: ETH
+    category: Phishing
+    subcategory: General
+    description: 'Stealing phrases with POST /check.php'        
+-
+    id: 5967
+    name: b-crypto.me
+    url: 'http://b-crypto.me'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 1AZXBeoGtCnK5jVHaDBoNphsND2dLWtRE2'       
+-
+    id: 5968
+    name: apexone.online
+    url: 'http://apexone.online'
+    coin: ETH
+    category: Phishing
+    subcategory: Apexone
+    description: 'Clone of apexone.io - phishing deposits'               
+    addresses:
+      - '0x23f1909f7a65cba4d2a4a42ee1ba7d9772c3ba93'      
