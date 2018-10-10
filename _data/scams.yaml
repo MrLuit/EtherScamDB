@@ -50326,3 +50326,27 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex phishing for secrets with POST /furia.php'         
+-
+    id: 5973
+    name: xn--dex-uma.market
+    url: 'http://xn--dex-uma.market'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Suspicious IDEX market domain - not kit deployed'             
+-
+    id: 5974
+    name: polonniex.online
+    url: 'http://polonniex.online'
+    coin: ETH
+    category: Phishing
+    subcategory: Poloniex
+    description: 'Fake Poloniex phishing for logins with POST /login.php'              
+-
+    id: 5975
+    name: niceihash.com
+    url: 'http://niceihash.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Nicehash
+    description: 'Fake Nicehash domain'         
