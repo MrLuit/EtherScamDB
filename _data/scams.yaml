@@ -44744,7 +44744,8 @@
     subcategory: Trust-Trading
     description: 'Trust trading scam site. Linking users to ethereum-gift.site/ via bitly.com/2MThMlI+e'     
     addresses:
-      - '0xA568d32db25A052a7887c401Bb1cDFfeC5389201'         
+      - '0xA568d32db25A052a7887c401Bb1cDFfeC5389201' 
+      - '0x3f2d73bd4f07044e33b4b9161a9A812Ff044F02a'        
 -
     id: 5377
     name: ethereum-gift.site
@@ -50350,3 +50351,62 @@
     category: Phishing
     subcategory: Nicehash
     description: 'Fake Nicehash domain'         
+-
+    id: 5976
+    name: giftforfans.website
+    url: 'http://giftforfans.website'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'          
+    addresses:
+      - '0x08A14BD2E2993809583Fc20CE528f1C835Ea29e0'        
+-
+    id: 5977
+    name: etherium.org.payment.7t27-srv.site
+    url: 'http://etherium.org.payment.7t27-srv.site'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'          
+    addresses:
+      - '0xb4A50B673cbfad24c3bF3E3e4cA46BE6FE7A87ea'              
+      - '0xd343317205A5111D6aFb8343C996f1B3a7678290'
+-
+    id: 5978
+    name: giveawey.tumblr.com
+    url: 'http://giveawey.tumblr.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'          
+    addresses:
+      - '0xeC4E9a06c4e024D03Dab3A27F66bCe03cC9bb33a'        
+-
+    id: 5979
+    name: medium.com.7t27-srv.site
+    url: 'http://medium.com.7t27-srv.site'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Linking users to etherium.org.payment.7t27-srv.site/promo/10000-eth-giveaway/'          
+    addresses:
+      - '0xb4A50B673cbfad24c3bF3E3e4cA46BE6FE7A87ea'          
+-
+    id: 5980
+    name: winplatform.pro
+    url: 'http://winplatform.pro'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'          
+    addresses:
+      - '0x752eE8Ea6A120C61B71608C80AB154475C9df43b'         
+-
+    id: 5981
+    name: icon.cash
+    url: 'http://icon.casho'
+    coin: ETH
+    category: Phishing
+    subcategory: Icon
+    description: 'Fake airdrop phishing for private keys with POST /sign.php'        
