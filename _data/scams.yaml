@@ -50444,3 +50444,27 @@
     category: Phishing
     subcategory: Coindesk
     description: 'Fake Coindesk site'            
+-
+    id: 5986
+    name: coinbase-support.net
+    url: 'http://coinbase-support.net'
+    coin: ETH
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Suspicious coinbase domain'        
+-
+    id: 5987
+    name: coinbasecustomersupport.info
+    url: 'http://coinbasecustomersupport.info'
+    coin: ETH
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Fake Coinbase customer support'            
+-
+    id: 5988
+    name: localethereum-account.com
+    url: 'http://localethereum-account.com'
+    coin: ETH
+    category: Phishing
+    subcategory: LocalEthereum
+    description: 'Fake LocalEthereum phishing for logins with POST /login.php'               
