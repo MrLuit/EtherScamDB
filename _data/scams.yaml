@@ -50410,3 +50410,37 @@
     category: Phishing
     subcategory: Icon
     description: 'Fake airdrop phishing for private keys with POST /sign.php'        
+-
+    id: 5982
+    name: myetherwallet.notextbook.net
+    url: 'http://myetherwallet.notextbook.net'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /store.php'           
+-
+    id: 5983
+    name: coinsender.tech
+    url: 'http://coinsender.tech'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 13v7acoch2p4otKN8cpvp3n2LHxbSB1XdE'          
+    addresses:
+      - '0xC0EcBcd3a5977921FaFEcffdf96b4Bcae1573B99'       
+-
+    id: 5984
+    name: myetherwallet.byethost11.com
+    url: 'http://myetherwallet.byethost11.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'         
+-
+    id: 5985
+    name: coindesk-login.com
+    url: 'http://coindesk-login.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Coindesk
+    description: 'Fake Coindesk site'            
