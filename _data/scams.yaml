@@ -50468,3 +50468,117 @@
     category: Phishing
     subcategory: LocalEthereum
     description: 'Fake LocalEthereum phishing for logins with POST /login.php'               
+-
+    id: 5989
+    name: poloniex.com135i478847258477.ml
+    url: 'http://poloniex.com135i478847258477.ml'
+    coin: ETH
+    category: Phishing
+    subcategory: Poloniex
+    description: 'Suspicious Poloniex domain'        
+-
+    id: 5990
+    name: mnyicthervvalliet.com
+    url: 'http://mnyicthervvalliet.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /log.php'            
+-
+    id: 5991
+    name: dexchainevent.com
+    url: 'http://dexchainevent.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 3FasziSrvWpZi8Wn8atj73Jtv4ZxqNNYb6'
+-
+    id: 5992
+    name: bnbethairdropp.com
+    url: 'http://bnbethairdropp.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 3Bx287cHkqzt1uGmw71v4GuEsqHvBpANgY'    
+-
+    id: 5993
+    name: mniyehtcwallict.com
+    url: 'http://mniyehtcwallict.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /log.php'       
+-
+    id: 5994
+    name: okexcampaign.info
+    url: 'http://okexcampaign.info'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 3Bx287cHkqzt1uGmw71v4GuEsqHvBpANgY'        
+-
+    id: 5995
+    name: okexspecialcampaign.info
+    url: 'http://okexspecialcampaign.info'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 3Bx287cHkqzt1uGmw71v4GuEsqHvBpANgY'           
+-
+    id: 5996
+    name: bnbchaincompetition.info
+    url: 'http://bnbchaincompetition.info'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 3FasziSrvWpZi8Wn8atj73Jtv4ZxqNNYb6'           
+-
+    id: 5997
+    name: bnbetherairdropp.com
+    url: 'http://bnbetherairdropp.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 3Bx287cHkqzt1uGmw71v4GuEsqHvBpANgY'         
+-
+    id: 5998
+    name: dexchaincompetition.info
+    url: 'http://dexchaincompetition.info'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 3FasziSrvWpZi8Wn8atj73Jtv4ZxqNNYb6'        
+-
+    id: 5999
+    name: okexspecialcampaign.com
+    url: 'http://okexspecialcampaign.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 3Bx287cHkqzt1uGmw71v4GuEsqHvBpANgY'           
+-
+    id: 6000
+    name: okexcampaign.com
+    url: 'http://okexcampaign.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Bitcoin address: 3Bx287cHkqzt1uGmw71v4GuEsqHvBpANgY'             
+-
+    id: 6001
+    name: ethereum-corporation.org
+    url: 'http://ethereum-corporation.org'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'      
+    addresses:
+      - '0x8b6E20440a46881713f8F9Da764B4094781E0f12'       
+-
+    id: 6002
+    name: myvolt.site
+    url: 'http://myvolt.site'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /login/email.php. Suspected address: 0x7c030200a2e8abab418bc58b4f43c46ceb4d9202'          
