@@ -50582,3 +50582,59 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys with POST /login/email.php. Suspected address: 0x7c030200a2e8abab418bc58b4f43c46ceb4d9202'          
+-
+    id: 6003
+    name: line-crypto.com
+    url: 'http://line-crypto.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Exchange
+    description: 'Fake exchange (clone of firecrypto.info)'  
+    addresses:
+      - '0x1E711A766cD4EC07C590EeF54A112190B4826b4e'      
+-
+    id: 6004
+    name: etherdelta.icu
+    url: 'http://etherdelta.icu'
+    coin: ETH
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta phishing for keys with POST /api.php'  
+-
+    id: 6005
+    name: xtrony.blogspot.com
+    url: 'http://xtrony.blogspot.com'
+    coin: TRX
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. Tron address: address:TPcDNYz4AxCaLCY2Xx4i95jGYwCjUrxg5r'      
+-
+    id: 6006
+    name: dexlauncch.com
+    url: 'http://dexlauncch.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'      
+    addresses:
+      - '0xd22066c4e511698b626aea89cf70FbA5Fd3f37d4'      
+-
+    id: 6007
+    name: account-myetherwallet.info
+    url: 'http://account-myetherwallet.info'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST eecb7fd7e1f1d74fee5ccd2.info'     
+-
+    id: 6008
+    name: youtube.com/watch?v=MpV-xQ0fYAE
+    url: 'http://youtube.com/watch?v=MpV-xQ0fYAE'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam livestream - pretending to be Vitalik Buterin (Youtube channel ID: UCq1DRmNWisHyfjFiB_5Hq-A)'      
+    addresses:
+      - '0x0D9DACEF694563EE0888e2751bf2349Ac1b6270e'    
+      - '0xd8959bD6983757Fd0F883808f2a7EA1aD18b8D6A'      
+    
