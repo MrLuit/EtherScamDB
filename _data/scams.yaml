@@ -57148,3 +57148,75 @@
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys with POST /eth'
     reporter: MyCrypto     
+-
+    id: 6049
+    name: hitbtc.pratiktlyukleme.com
+    url: 'http://hitbtc.pratiktlyukleme.com'
+    coin: ETH
+    category: Phishing
+    subcategory: HitBtc
+    description: 'Fake Hitbtc phishing for logins (and email passwords) with POST /index--_.php'
+    reporter: MyCrypto         
+-
+    id: 6050
+    name: xn--mercaox-rrb.com
+    url: 'http://xn--mercaox-rrb.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Mercatox
+    description: 'Fake Mercatox phishing for logins with POST /auth/ajax_process.php'
+    reporter: MyCrypto             
+-
+    id: 6051
+    name: xn--phld-rqa7a.com
+    url: 'http://xn--phld-rqa7a.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Uphold
+    description: 'Suspicious uphold domain - nothing deployed yet'
+    reporter: MyCrypto      
+-
+    id: 6052
+    name: xn--uhol-bsa9h.com
+    url: 'http://xn--uhol-bsa9h.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Uphold
+    description: 'Suspicious uphold domain - nothing deployed yet'
+    reporter: MyCrypto          
+-
+    id: 6053
+    name: xn--uphod-95a.com
+    url: 'http://xn--uphod-95a.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Uphold
+    description: 'Suspicious uphold domain - nothing deployed yet'
+    reporter: MyCrypto        
+-
+    id: 6053
+    name: xn--hold-pray.com
+    url: 'http://xn--hold-pray.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Uphold
+    description: 'Suspicious uphold domain - nothing deployed yet'
+    reporter: MyCrypto       
+-
+    id: 6054
+    name: xn--phold-kfb.com
+    url: 'http://xn--phold-kfb.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Uphold
+    description: 'Suspicious uphold domain - nothing deployed yet'
+    reporter: MyCrypto          
+-
+    id: 6055
+    name: xn--phold-0ua.com
+    url: 'http://xn--phold-0ua.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Uphold
+    description: 'Suspicious uphold domain - nothing deployed yet'
+    reporter: MyCrypto        
