@@ -57220,3 +57220,84 @@
     subcategory: Uphold
     description: 'Suspicious uphold domain - nothing deployed yet'
     reporter: MyCrypto        
+-
+    id: 6056
+    name: xn--blokchain-login-20b.com
+    url: 'http://xn--blokchain-login-20b.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Suspicious Blockchain domain - nothing deployed yet'
+    reporter: MyCrypto       
+-
+    id: 6057
+    name: xn--login-blockchai-7uc.com
+    url: 'http://xn--login-blockchai-7uc.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Suspicious Blockchain domain - nothing deployed yet'
+    reporter: MyCrypto           
+-
+    id: 6058
+    name: xn--www-blockchan-m9b.com
+    url: 'http://xn--www-blockchan-m9b.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Suspicious Blockchain domain - nothing deployed yet'
+    reporter: MyCrypto             
+-
+    id: 6059
+    name: wallet.paxfulassist.com
+    url: 'http://wallet.paxfulassist.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Paxful
+    description: 'Suspicious Paxful domain'
+    reporter: MyCrypto             
+-
+    id: 6060
+    name: paxful.w3schoolsonline.com
+    url: 'http://paxful.w3schoolsonline.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Paxful
+    description: 'Fake Paxful - kit not fully deployed yet'
+    reporter: MyCrypto      
+-
+    id: 6061
+    name: paxful.com.leverk.cf
+    url: 'http://paxful.com.leverk.cf'
+    coin: ETH
+    category: Phishing
+    subcategory: Paxful
+    description: 'Fake Paxful phishing for logins with POST /config/loginid.php'
+    reporter: MyCrypto        
+-
+    id: 6062
+    name: account-bittrex.com
+    url: 'http://account-bittrex.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Suspicious Bittrex domain'
+    reporter: MyCrypto         
+-
+    id: 6063
+    name: bittrex-es.com
+    url: 'http://bittrex-es.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Suspicious Bittrex domain'
+    reporter: MyCrypto        
+-
+    id: 6064
+    name: security-bittrex.com
+    url: 'http://security-bittrex.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Suspicious Bittrex domain'
+    reporter: MyCrypto           
