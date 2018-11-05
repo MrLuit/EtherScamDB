@@ -57301,3 +57301,106 @@
     subcategory: Bittrex
     description: 'Suspicious Bittrex domain'
     reporter: MyCrypto           
+-
+    id: 6065
+    name: etherdelta.ru
+    url: 'http://etherdelta.ru'
+    coin: ETH
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta phishing for keys with POST /api.php'
+    reporter: MyCrypto           
+-
+    id: 6066
+    name: ethereumgifting.com
+    url: 'http://ethereumgifting.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x1865bf39ec9712f5f3d57cf423495c318939ab3e'
+        - '0xd79Ab5cd842c068E4F592c18EE3FaC4E806D4C31'
+    reporter: MyCrypto          
+-
+    id: 6067
+    name: paxful.com.autaro.tk
+    url: 'http://paxful.com.autaro.tk'
+    coin: ETH
+    category: Phishing
+    subcategory: Paxful
+    description: 'Fake Paxful phishing for logins with POST /loginid.php'
+    reporter: MyCrypto       
+-
+    id: 6068
+    name: participate.ethereum-giveaway.net
+    url: 'http://participate.ethereum-giveaway.net'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xDfa8e0d144B1bD7B9f08Cd05A7726cC20121292f'
+    reporter: MyCrypto      
+-
+    id: 6069
+    name: join-eth-promotion.ethereum-giveaway.net
+    url: 'http://join-eth-promotion.ethereum-giveaway.net'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x7E8bA7B52Ae83Be8885A613c2B249Db4A2D0D06C'
+    reporter: MyCrypto          
+-
+    id: 6070
+    name: enter.ethereum-giveaway.net
+    url: 'http://enter.ethereum-giveaway.net'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xDfa8e0d144B1bD7B9f08Cd05A7726cC20121292f'
+    reporter: MyCrypto     
+-
+    id: 6071
+    name: go.ethereum-giveaway.net
+    url: 'http://go.ethereum-giveaway.net'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xDfa8e0d144B1bD7B9f08Cd05A7726cC20121292f'
+    reporter: MyCrypto        
+-
+    id: 6072
+    name: bonus.ethereum-giveaway.net
+    url: 'http://bonus.ethereum-giveaway.net'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xDfa8e0d144B1bD7B9f08Cd05A7726cC20121292f'
+    reporter: MyCrypto       
+-
+    id: 6073
+    name: xn--idx-tra.market
+    url: 'http://xn--idx-tra.market'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market phishing for keys with POST /furia.php'
+    reporter: MyCrypto            
+-
+    id: 6074
+    name: ehitbtc.com.viptempobetgirisi.com
+    url: 'http://ehitbtc.com.viptempobetgirisi.com'
+    coin: ETH
+    category: Phishing
+    subcategory: HitBtc
+    description: 'Fake HitBtc phishing for logins with POST /index--_.php'
+    reporter: MyCrypto           
