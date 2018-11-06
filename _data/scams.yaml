@@ -57404,3 +57404,47 @@
     subcategory: HitBtc
     description: 'Fake HitBtc phishing for logins with POST /index--_.php'
     reporter: MyCrypto           
+-
+    id: 6075
+    name: musk.plus
+    url: 'http://musk.plus'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1KAGE12gtYVfizicQSDQmnPHYfA29bu8Da'
+    reporter: MyCrypto         
+-
+    id: 6076
+    name: spacex.plus
+    url: 'http://spacex.plus'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1KAGE12gtYVfizicQSDQmnPHYfA29bu8Da'
+    reporter: MyCrypto             
+-
+    id: 6077
+    name: elongift.space
+    url: 'http://elongift.space'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x548F0678ff6B82c2C97913Ef3B0F2C515ef2594c'
+    reporter: MyCrypto                 
+-
+    id: 6078
+    name: musk.fund
+    url: 'http://musk.fund'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1KAGE12gtYVfizicQSDQmnPHYfA29bu8Da'
+    reporter: MyCrypto         
