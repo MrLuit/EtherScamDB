@@ -56932,7 +56932,7 @@
     coin: ETH
     category: Phishing
     subcategory: OmiseGo
-    description: 'Fake OmiseGo site phishing for keys with POST /keystore.php POST /private.php POST /mnemonic.php'
+    description: 'Fake OmiseGo site phishing for keys with POST /keystore.php POST /private.php POST /mnemonic.php. Suspected addresses: 0x3c3284e18511e6fadb62be6e090991540dc8972e 0x0c626D05Fb5805362F2fbd5F4291211B691f129b 0xB6eD7644C69416d67B522e20bC294A9a9B405B31'
     reporter: MyCrypto            
 -
     id: 6039
@@ -56989,6 +56989,7 @@
     addresses:
         - '0x4D6102BcBe452015a7D656a97dE3F30f10054Ceb'
         - '0x00650a784EE109797BA8C05F3496bDbF2b2B7a1C'
+        - '0x7513C584E280Fd9F5f3a38F83fbA342CE70fFD79'
     reporter: MyCrypto       
 -
     id: 6044
@@ -57448,3 +57449,54 @@
     addresses:
         - '1KAGE12gtYVfizicQSDQmnPHYfA29bu8Da'
     reporter: MyCrypto         
+-
+    id: 6079
+    name: xlm-wallet.com
+    url: 'http://xlm-wallet.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /send.php and POST /sign.php (on kit at /lumens/claim.html)'
+    reporter: MyCrypto         
+-
+    id: 6080
+    name: getpetrocoin.com
+    url: 'http://getpetrocoin.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Petro
+    description: 'Fake PetroCoin crowdsale site'
+    addresses:
+        - '0x02fd82cba3bae39484d5eb7f75b5f3d5f418c691'    
+    reporter: MyCrypto         
+-
+    id: 6081
+    name: paxosbounty.com
+    url: 'http://paxosbounty.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Paxos
+    description: 'Fake Paxos bounty program'
+    addresses:
+        - '0xF31b4F7550833a746f788b36f2b292E5fA49a248'    
+    reporter: MyCrypto          
+-
+    id: 6082
+    name: spacex.to
+    url: 'http://spacex.to'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1K5P32Z8Md4rio8PPdw18Tp3Xx5WHmg2ES'
+    reporter: MyCrypto      
+-
+    id: 6083
+    name: myetherwalletmsg.com
+    url: 'http://myetherwalletmsg.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /store.php'
+    reporter: MyCrypto       
