@@ -57500,3 +57500,43 @@
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys with POST /store.php'
     reporter: MyCrypto       
+-
+    id: 6084
+    name: bitcointolk.org
+    url: 'http://bitcointolk.org'
+    coin: ETH
+    category: Phishing
+    subcategory: Bitcointalk
+    description: 'Fake Bitcoin talk forum phishing for logins'
+    reporter: MyCrypto           
+-
+    id: 6085
+    name: coinbase.xm-login2.com
+    url: 'http://coinbase.xm-login2.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Fake Coinbase phishing for logins'
+    reporter: MyCrypto          
+-
+    id: 6086
+    name: etherdesk.co
+    url: 'http://etherdesk.co'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x015f17e2851eA392351b7f259e4CFd03dc443CeF'
+    reporter: MyCrypto       
+-
+    id: 6087
+    name: binancedecentralized.icu
+    url: 'http://binancedecentralized.icu'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x9a88031270e35db9D3254Bf66B92f64969D90440'
+    reporter: MyCrypto         
