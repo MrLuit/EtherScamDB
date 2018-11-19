@@ -57540,3 +57540,57 @@
     addresses:
         - '0x9a88031270e35db9D3254Bf66B92f64969D90440'
     reporter: MyCrypto         
+-
+    id: 6088
+    name: xn--blocchn-4ya8tls.com
+    url: 'http://xn--blocchn-4ya8tls.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake blockchain phishing for logins with POST /wallet/sessions - api_code = 1770d5d9-bcea-4d28-ad21-6cbd5be018a8'
+    reporter: MyCrypto         
+-
+    id: 6089
+    name: xn--myeterwaliet-fs4f.com
+    url: 'http://xn--myeterwaliet-fs4f.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain (Apache2 default page)'
+    reporter: MyCrypto        
+-
+    id: 6090
+    name: xn--myeherwallet-fpc.com
+    url: 'http://xn--myeherwallet-fpc.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Suspicious MyEtherWallet domain (Namecheap default page)'
+    reporter: MyCrypto          
+-
+    id: 6091
+    name: xn--blockhan-w0a6d.com
+    url: 'http://xn--blockhan-w0a6d.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake Blockchain phishing for logins with POST /wallet/sessions'
+    reporter: MyCrypto         
+-
+    id: 6092
+    name: xn--bockhain-v0a06f.com
+    url: 'http://xn--bockhain-v0a06f.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake Blockchain phishing for logins with POST /wallet/sessions'
+    reporter: MyCrypto           
+-
+    id: 6093
+    name: ldex-market.host
+    url: 'http://ldex-market.host'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex Market phishing for keys with POST /app/key.php'
+    reporter: MyCrypto           
