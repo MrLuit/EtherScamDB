@@ -52028,6 +52028,7 @@
     addresses:
         - '0x5Ed7559181f082eE4b70F3d20C7b2aF769A83D18'
         - '0x99Bad2f2FE5856a02489440568D22Fc8852DeAB5'
+        - '0x579C0Fcc6D58731fD94de76A13390ABe330d9106'
     reporter: MyCrypto
 -
     id: 5562
@@ -57594,3 +57595,36 @@
     subcategory: Idex
     description: 'Fake Idex Market phishing for keys with POST /app/key.php'
     reporter: MyCrypto           
+-
+    id: 6094
+    name: get-10000-ethereum.org
+    url: 'http://get-10000-ethereum.org'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x8D630073940fDE8112C6a5295Ba3e490cA992ee8'
+    reporter: MyCrypto           
+-
+    id: 6095
+    name: btc-crypto.me
+    url: 'http://btc-crypto.me'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1GiJEkXQevPAoeuLALo2cVh2WPFxQfu21E'
+    reporter: MyCrypto         
+-
+    id: 6096
+    name: tesla-gift.com
+    url: 'http://tesla-gift.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site - linking to crypto-giveaway.net'
+    addresses:
+        - '0x579C0Fcc6D58731fD94de76A13390ABe330d9106'
+    reporter: MyCrypto              
