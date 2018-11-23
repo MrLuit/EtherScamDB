@@ -57829,3 +57829,47 @@
     subcategory: Pollux
     description: 'Phishing for keys with POST /prv.php'
     reporter: MyCrypto           
+-
+    id: 6116
+    name: dexairdropevent.com
+    url: 'http://dexairdropevent.com'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '3HcX7kMQnn5QpaRvKyCgPSGa8MLfDYT2Sm'
+    reporter: MyCrypto       
+-
+    id: 6117
+    name: eth.tronnetwork.pw
+    url: 'http://eth.tronnetwork.pw'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x8B0e77fE177d555408339E26921bE7d76D398d8a'
+    reporter: MyCrypto           
+-
+    id: 6118
+    name: btc.tronnetwork.pw
+    url: 'http://btc.tronnetwork.pw'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1EBp8h9BGh4pJ4ZcE17Fo5pp7CRDd48y9u'
+    reporter: MyCrypto         
+-
+    id: 6119
+    name: pool-neo.blogspot.com
+    url: 'http://pool-neo.blogspot.com'
+    coin: NEO
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'ATVMaR3SXKRBtwCNgPjV5k2YzEgzMDYeaf'
+    reporter: MyCrypto                 
