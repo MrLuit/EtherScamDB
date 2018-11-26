@@ -58301,3 +58301,181 @@
     subcategory: Huobi
     description: 'Fake airdrop phishing keys with POST /postback.php'
     reporter: MyCrypto        
+-
+    id: 6155
+    name: huobiairdrop.info
+    url: 'http://huobiairdrop.info'
+    coin: ETH
+    category: Phishing
+    subcategory: Huobi
+    description: 'Fake airdrop phishing keys with POST /postback.php'
+    reporter: MyCrypto            
+-
+    id: 6156
+    name: huobiairdrop.org
+    url: 'http://huobiairdrop.org'
+    coin: ETH
+    category: Phishing
+    subcategory: Huobi
+    description: 'Fake airdrop phishing keys with POST /postback.php'
+    reporter: MyCrypto                
+-
+    id: 6156
+    name: huobiairdrop.top
+    url: 'http://huobiairdrop.top'
+    coin: ETH
+    category: Phishing
+    subcategory: Huobi
+    description: 'Fake airdrop phishing keys with POST /postback.php'
+    reporter: MyCrypto                   
+-
+    id: 6157
+    name: blockchain.lcgiin.com
+    url: 'http://blockchain.lcgiin.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake Blockchain phishing for logins with POST /send.php'
+    reporter: MyCrypto          
+-
+    id: 6158
+    name: blockchain.llogin.co
+    url: 'http://blockchain.llogin.co'
+    coin: ETH
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake Blockchain phishing for logins with POST /send.php'
+    reporter: MyCrypto          
+-
+    id: 6159
+    name: blcokchain.llogin.co
+    url: 'http://blcokchain.llogin.co'
+    coin: ETH
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake Blockchain phishing for logins with POST /send.php'
+    reporter: MyCrypto             
+-
+    id: 6160
+    name: blockchain.logirn.com
+    url: 'http://blockchain.logirn.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake Blockchain phishing for logins with POST /send.php'
+    reporter: MyCrypto        
+-
+    id: 6161
+    name: blockchein.logirn.com
+    url: 'http://blockchein.logirn.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake Blockchain phishing for logins with POST /send.php'
+    reporter: MyCrypto            
+-
+    id: 6162
+    name: blockchain.lcgin.com
+    url: 'http://blockchain.lcgin.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake Blockchain phishing for logins with POST /send.php'
+    reporter: MyCrypto                
+-
+    id: 6163
+    name: empowr.com
+    url: 'http://empowr.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Empowr
+    description: 'Asking for private keys that are sent to the backend with POST /FBBank/EthereumWalletEditor.aspx - deposit address (to buy their coins) 0x50fe59792a325084604a524a8f148de04182769a'
+    reporter: MyCrypto                    
+-
+    id: 6164
+    name: bnbeth.net
+    url: 'http://bnbeth.net'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xe8166a324fCd1645d8ae06fBf98f945724676207'
+    reporter: MyCrypto      
+-
+    id: 6165
+    name: dex-bnb.net
+    url: 'http://dex-bnb.net'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x368B04c943161fEbD18AA596B657a8db22031957'
+    reporter: MyCrypto        
+-
+    id: 6166
+    name: paxos-bounty.com
+    url: 'http://paxos-bounty.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Paxos
+    description: 'Fake Paxos bounty program'
+    addresses:
+        - '0xBc2F218dC8a094c850856cDa55D35Fe2097F21Ac'    
+    reporter: MyCrypto  
+-
+    id: 6167
+    name: blackfridayneo.blogspot.com
+    url: 'http://blackfridayneo.blogspot.com'
+    coin: NEO
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'ATVMaR3SXKRBtwCNgPjV5k2YzEgzMDYeaf'
+    reporter: MyCrypto       
+-
+    id: 6168
+    name: blackfridayetc.blogspot.com
+    url: 'http://blackfridayetc.blogspot.com'
+    coin: ETC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x68dF455d595Ce83498242856bf7B04C50696B21A'
+    reporter: MyCrypto        
+-
+    id: 6169
+    name: blackfridaycrypto.blogspot.com
+    url: 'http://blackfridaycrypto.blogspot.com'
+    coin: BCH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'qrxz0w4mlc2dzaxqet0397uga46tj6gkuct9xnz2z5'
+    reporter: MyCrypto       
+-
+    id: 6170
+    name: btc-gift.live
+    url: 'http://btc-gift.live'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1Cr9Utnrhz3sQnK4kvVQtM7vyRwJeCXgY2'
+    reporter: MyCrypto           
+-
+    id: 6171
+    name: btc-gift.us
+    url: 'http://btc-gift.us'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1FQrPtxfsBsmNFzeAQyNfm63eUZi77B1BX'
+    reporter: MyCrypto         
