@@ -58479,3 +58479,107 @@
     addresses:
         - '1FQrPtxfsBsmNFzeAQyNfm63eUZi77B1BX'
     reporter: MyCrypto         
+-
+    id: 6172
+    name: cryptoblackfriday.blogspot.com
+    url: 'http://cryptoblackfriday.blogspot.com'
+    coin: TRX
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'TPcDNYz4AxCaLCY2Xx4i95jGYwCjUrxg5r'
+    reporter: MyCrypto         
+-
+    id: 6173
+    name: freecryptogift.org
+    url: 'http://freecryptogift.org'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site. XRP address: rCozquBhPba8D4hnCJh5DzJVZxZtNFGbV '
+    addresses:
+        - 'rCozquBhPba8D4hnCJh5DzJVZxZtNFGbV'
+        - '189p87dMz7FeFdp98AGkmYo4ScMYgqUAkh'
+        - '0xC82e2dfC140FB5D94B612af056c45d08C6560c84'
+    reporter: MyCrypto       
+-
+    id: 6174
+    name: tronblackfriday.blogspot.com
+    url: 'http://tronblackfriday.blogspot.com'
+    coin: TRX
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'TPcDNYz4AxCaLCY2Xx4i95jGYwCjUrxg5r'
+    reporter: MyCrypto      
+-
+    id: 6175
+    name: btc-gift.tech
+    url: 'http://btc-gift.tech'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '15qv6T1K2dH9fqok2nyBkogtMoEVv5vpW8'
+    reporter: MyCrypto         
+-
+    id: 6176
+    name: neoblackfriday.blogspot.com
+    url: 'http://neoblackfriday.blogspot.com'
+    coin: NEO
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'ATVMaR3SXKRBtwCNgPjV5k2YzEgzMDYeaf'
+    reporter: MyCrypto          
+-
+    id: 6177
+    name: binance-airdrops.com
+    url: 'http://binance-airdrops.com'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1JgwF8vNhLVegaEGAsyfUYi6cKkmDTacDG'
+    reporter: MyCrypto            
+-
+    id: 6178
+    name: blog.0xproject.co
+    url: 'http://blog.0xproject.co'
+    coin: ETH
+    category: Scamming
+    subcategory: 0x
+    description: 'Fake 0xproject - blog pointing to pollux.network'
+    reporter: MyCrypto       
+-
+    id: 6179
+    name: wallet.pollux.network
+    url: 'http://wallet.pollux.network'
+    coin: ETH
+    category: Scamming
+    subcategory: Pollux
+    description: 'Fake airdrop stealing keys with POST /prv.php'
+    reporter: MyCrypto           
+-
+    id: 6180
+    name: mvelnerwallet.com
+    url: 'http://mvelnerwallet.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /mail-area2.php'
+    reporter: MyCrypto               
+-
+    id: 6181
+    name: multplatforlex.asia
+    url: 'http://multplatforlex.asia'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for keys with POST /furia.php'
+    reporter: MyCrypto        
