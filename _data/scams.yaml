@@ -52372,6 +52372,8 @@
     description: Trust trading scam site
     addresses:
         - '0x1b858871c8FdC0C782F60B350Eecc58D82c216c1'
+        - '0x579C0Fcc6D58731fD94de76A13390ABe330d9106'
+        - '1LfmegbyxqufhZQA5eBR6P6YZ2VF54K1kK'
     reporter: MyCrypto
 -
     id: 5594
@@ -58583,3 +58585,24 @@
     subcategory: Idex
     description: 'Fake Idex phishing for keys with POST /furia.php'
     reporter: MyCrypto        
+-
+    id: 6182
+    name: btc-promo.info
+    url: 'http://btc-promo.info'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '15pkYouQ8mPLSXKH7iNiZ6XBxtDvjzdzG8'
+        - '0x579C0Fcc6D58731fD94de76A13390ABe330d9106'
+    reporter: MyCrypto       
+-
+    id: 6183
+    name: myetherwallet.16mb.com
+    url: 'http://myetherwallet.16mb.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /mail-area2.php'
+    reporter: MyCrypto            
