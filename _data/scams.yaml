@@ -58617,3 +58617,86 @@
     addresses:
         - 'TPcDNYz4AxCaLCY2Xx4i95jGYwCjUrxg5r'
     reporter: MyCrypto          
+-
+    id: 6185
+    name: medium-ether.com
+    url: 'http://medium-ether.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x9068327FF0f5E99aF7D1AEfC5310e4560C32b84B'
+    reporter: MyCrypto            
+-
+    id: 6186
+    name: gift-btc.net
+    url: 'http://gift-btc.net'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '18oVCJ1h7MzpPk899FJiTWRb7Wm3FU8fjS'
+    reporter: MyCrypto                
+-
+    id: 6187
+    name: myetnerwallet.com.application-send.info
+    url: 'http://myetnerwallet.com.application-send.info'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /callback.php'
+    reporter: MyCrypto     
+-
+    id: 6188
+    name: application-send.info
+    url: 'http://application-send.info'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake IDEX phishing for keys with POST /callback.php'
+    reporter: MyCrypto         
+-
+    id: 6189
+    name: mediumz.top
+    url: 'http://mediumz.top'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x4Ea9D0CF2F3Dac3c7405c523471b5458EA2A8321'
+        - '19HuaNprtc8MpG6bmiPoZigjaEu9xccxps'
+    reporter: MyCrypto         
+-
+    id: 6190
+    name: giveawayether.net
+    url: 'http://giveawayether.net'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x7908e104AE43e5e6bAc2D3FdAAE3CCdF07eD8b8c'
+    reporter: MyCrypto        
+-
+    id: 6191
+    name: getmusk.space
+    url: 'http://getmusk.space'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xeA1552675B714476ddd159844e279CdF81E70d7a'
+    reporter: MyCrypto           
+-
+    id: 6192
+    name: drgnairdrop.com
+    url: 'http://drgnairdrop.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Dragon
+    description: 'Fake airdrop phishing for keys with POST /sign.php'
+    reporter: MyCrypto         
