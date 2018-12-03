@@ -58700,3 +58700,55 @@
     subcategory: Dragon
     description: 'Fake airdrop phishing for keys with POST /sign.php'
     reporter: MyCrypto         
+-
+    id: 6193
+    name: xn--tro-rwa.net
+    url: 'http://xn--tro-rwa.net'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x523aB8a576f3ceB0982913e651cA56495D54Ee45'
+    reporter: MyCrypto       
+-
+    id: 6194
+    name: erc-20.myetherwallet.bonus.tokens-mew.com
+    url: 'http://erc-20.myetherwallet.bonus.tokens-mew.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /claim.php'
+    reporter: MyCrypto       
+-
+    id: 6195
+    name: spacex.delivery 
+    url: 'http://spacex.delivery'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '19wt8vVvEDLEgp766s7q67nwNG5WyYQNgo'
+        - '0x16881a3B5Bd0f6b2f8C547dcf9bD74442EAdDCf9'
+    reporter: MyCrypto         
+-
+    id: 6196
+    name: xn--metherwllt-f2d4888f9va.com
+    url: 'http://xn--metherwllt-f2d4888f9va.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /process.php'
+    reporter: MyCrypto           
+-
+    id: 6197
+    name: get-eth-now.online 
+    url: 'http://get-eth-now.online'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x3C98B49694c18ab0492A048eE213e2c3d3B3e0Ff'
+    reporter: MyCrypto             
