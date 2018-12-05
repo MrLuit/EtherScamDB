@@ -58752,3 +58752,39 @@
     addresses:
         - '0x3C98B49694c18ab0492A048eE213e2c3d3B3e0Ff'
     reporter: MyCrypto             
+-
+    id: 6198
+    name: international.bittrex.com8917321.ga
+    url: 'http://international.bittrex.com8917321.ga'
+    coin: ETH
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex phishing for logins - https://twitter.com/ANeilan/status/1069746687550386177'
+    reporter: MyCrypto       
+-
+    id: 6199
+    name: cryptophonesupport.com
+    url: 'http://cryptophonesupport.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake phone support for multiple cryptocurrency products'
+    reporter: MyCrypto       
+-
+    id: 6200
+    name: keepstake.github.io 
+    url: 'http://keepstake.github.io'
+    coin: ETH
+    category: Phishing
+    subcategory: MetaMask
+    description: 'Phishing for MetaMask phrases with POST web3.keepstake.io/process.php'
+    reporter: MyCrypto         
+-
+    id: 6201
+    name: msg.xn--metherwllt-zmb5581g94a.com
+    url: 'http://msg.xn--metherwllt-zmb5581g94a.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /process.php'
+    reporter: MyCrypto           
