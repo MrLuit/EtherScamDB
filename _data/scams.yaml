@@ -58914,3 +58914,25 @@
     addresses:
         - '0xd6F1739aF2e63575F2df02af59F23F643EAe3403'
     reporter: MyCrypto          
+-
+    id: 6215
+    name: cryptokucoin.blogspot.com
+    url: 'http://cryptokucoin.blogspot.com'
+    coin: XRP
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'rGD1q9qfHd9gYbm9VUdcBXjumAaMZen8tr'
+    reporter: MyCrypto         
+-
+    id: 6216
+    name: neokucoin.blogspot.com
+    url: 'http://neokucoin.blogspot.com'
+    coin: NEO
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'ATVMaR3SXKRBtwCNgPjV5k2YzEgzMDYeaf'
+    reporter: MyCrypto      
