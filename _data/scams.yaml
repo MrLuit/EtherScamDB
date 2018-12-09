@@ -58788,3 +58788,68 @@
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys with POST /process.php'
     reporter: MyCrypto           
+-
+    id: 6202
+    name: ethnew.store
+    url: 'http://ethnew.store'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /bot/bot.php'
+    reporter: MyCrypto               
+-
+    id: 6203
+    name: musk.claims
+    url: 'http://musk.claims'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    reporter: MyCrypto        
+-
+    id: 6204
+    name: musk.click
+    url: 'http://musk.click'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site - linking users to spacex.gives (not up yet)'
+    reporter: MyCrypto       
+-
+    id: 6205
+    name: spacex.gives
+    url: 'http://spacex.gives'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site (not up yet)'
+    reporter: MyCrypto            
+-
+    id: 6206
+    name: blockchain-update.bounceme.net
+    url: 'http://blockchain-update.bounceme.net'
+    coin: ETH
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake Blockchain phishing for logins with POST /next1.php'
+    reporter: MyCrypto     
+-
+    id: 6207
+    name: coinbene.net
+    url: 'http://coinbene.net'
+    coin: ETH
+    category: Phishing
+    subcategory: Coinbene
+    description: 'Fake Coinbene phishing for logins with POST /login.php'
+    reporter: MyCrypto         
+-
+    id: 6208
+    name: coinbase-pro.org
+    url: 'http://coinbase-pro.org'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xd6F1739aF2e63575F2df02af59F23F643EAe3403'
+    reporter: MyCrypto      
