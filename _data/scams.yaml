@@ -58936,3 +58936,86 @@
     addresses:
         - 'ATVMaR3SXKRBtwCNgPjV5k2YzEgzMDYeaf'
     reporter: MyCrypto      
+-
+    id: 6217
+    name: tronkucoin.blogspot.com
+    url: 'http://tronkucoin.blogspot.com'
+    coin: TRX
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'TPcDNYz4AxCaLCY2Xx4i95jGYwCjUrxg5r'
+    reporter: MyCrypto          
+-
+    id: 6218
+    name: xn--bibo-eo5a.com
+    url: 'http://xn--bibo-eo5a.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Bibox
+    description: 'Fake Bibox domain - kit not deployed yet'
+    reporter: MyCrypto      
+-
+    id: 6219
+    name: paxfulldashboard.com
+    url: 'http://paxfulldashboard.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Paxful
+    description: 'Fake Paxful phishing for logins with POST /'
+    reporter: MyCrypto          
+-
+    id: 6220
+    name: info.paxfulverify.com
+    url: 'http://info.paxfulverify.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Paxful
+    description: 'Fake Paxful phishing for logins with POST /com.php'
+    reporter: MyCrypto          
+-
+    id: 6221
+    name: paxfulverify.com
+    url: 'http://paxfulverify.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Paxful
+    description: 'Fake Paxful phishing for logins with POST /com.php'
+    reporter: MyCrypto           
+-
+    id: 6222
+    name: myetherwallet-xyo.space
+    url: 'http://myetherwallet-xyo.space'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /app/keys.php'
+    reporter: MyCrypto       
+-
+    id: 6223
+    name: view-statys.info
+    url: 'http://view-statys.info'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /callback.php'
+    reporter: MyCrypto     
+-
+    id: 6224
+    name: myethwalchellet.site 
+    url: 'http://myethwalchellet.site'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /mail1.php POST mail2.php POST mail3.php'
+    reporter: MyCrypto       
+-
+    id: 6225
+    name: applyer.info
+    url: 'http://applyer.info'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'
+    reporter: MyCrypto     
