@@ -59043,3 +59043,33 @@
         - '13GJitKdQKcbaiJuNRmUf8F7roh9FfSFTG'
         - '0x9404C08c6ae0cd5F1FdbC558c7A61D3D7Bff07e6'
     reporter: MyCrypto           
+-
+    id: 6228
+    name: coinbase.prows-ax.com
+    url: 'http://coinbase.prows-ax.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Fake Coinbase phishing for logins'
+    reporter: MyCrypto         
+-
+    id: 6229
+    name: bitcointoolmining.com
+    url: 'http://bitcointoolmining.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Giveaway
+    description: 'Fake BTC/ETH generator asking for funds to gas to send x eth to whatever address you want'
+    addresses:
+        - '1EmqvYW2AGVbmtsM1M7vTyB1V9E75xaa9Q'
+        - '0x18365A89E092CCC31d2A49ab5CB697564Ec81bCF'
+    reporter: MyCrypto    
+-
+    id: 6230
+    name: idexethereum.online 
+    url: 'http://idexethereum.online '
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'
+    reporter: MyCrypto         
