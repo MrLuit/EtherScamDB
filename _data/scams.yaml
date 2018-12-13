@@ -44612,6 +44612,7 @@
     description: Trust trading scam site.
     addresses:
         - '0xdc48d0F659267418e05915cC0A299cdA3f30bDDB'
+        - '1J75vF5koGVgKXNewrZkcMBS1eJkyLcdcC'
     reporter: MyCrypto
 -
     id: 4849
@@ -59019,3 +59020,26 @@
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys'
     reporter: MyCrypto     
+-
+    id: 6226
+    name: bbxotc.tech
+    url: 'http://bbxotc.tech'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x8BdA591ac93925f485cd420A47A48EBa87985ea0'
+    reporter: MyCrypto       
+-
+    id: 6227
+    name: btc-gifts.net
+    url: 'http://btc-gifts.net'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '13GJitKdQKcbaiJuNRmUf8F7roh9FfSFTG'
+        - '0x9404C08c6ae0cd5F1FdbC558c7A61D3D7Bff07e6'
+    reporter: MyCrypto           
