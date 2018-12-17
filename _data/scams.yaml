@@ -58885,6 +58885,9 @@
     category: Scamming
     subcategory: Trust-Trading
     description: 'Trust trading scam site (not up yet)'
+    addresses:
+        - '0x9969dE6D6CF15fF37Ad56116fCc89efc4a04EDfF'    
+        - '17jT3gCE7AksjNJh2VRoxZ57DcZ5KiQGQ6'
     reporter: MyCrypto            
 -
     id: 6212
@@ -59067,9 +59070,60 @@
 -
     id: 6230
     name: idexethereum.online 
-    url: 'http://idexethereum.online '
+    url: 'http://idexethereum.online'
     coin: ETH
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys'
     reporter: MyCrypto         
+-
+    id: 6231
+    name: coinbase.pro-xca.com
+    url: 'http://coinbase.pro-xca.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Fake Coinbase stealing keys with POST /action.php'
+    reporter: MyCrypto             
+-
+    id: 6232
+    name: doublecoinio.jdevcloud.com
+    url: 'http://doublecoinio.jdevcloud.com'
+    coin: ETH
+    category: Scamming
+    subcategory: General
+    description: 'Coin doubling scam (and email and public address harvester)'
+    reporter: MyCrypto       
+-
+    id: 6234
+    name: mediium.org
+    url: 'http://mediium.org'
+    coin: TRX
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'TX9oqhThyQdGXrDMacRXAvsWPoxQspQLFw'
+    reporter: MyCrypto           
+-
+    id: 6235
+    name: myetherwallet-be.space 
+    url: 'http://myetherwallet-be.space'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /app/keys.php'
+    reporter: MyCrypto      
+-
+    id: 6236
+    name: giveaway2018.org
+    url: 'http://giveaway2018.org'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'rK3thhBkPFfsnSZgNo3Ajuuw6NK3gGUNeN'
+        - '0x39AF5503788A637984Ddf583A8e5128dce765172'
+        - '1JQW3R96LiqpNJmf386toMu5aQNANxqt8r'
+    reporter: MyCrypto       
