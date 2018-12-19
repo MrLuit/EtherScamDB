@@ -22634,7 +22634,7 @@
     coin: ETH
     category: Phishing
     subcategory: Coindesk
-    description: Fake coindesk promoting fake SingularityNET
+    description: 'Fake coindesk promoting fake SingularityNET - reported address: 0x7cdf272058894f70e3a7ace593628ad2bc0f574d'
     reporter: MyCrypto
 -
     id: 2685
@@ -59219,3 +59219,21 @@
     subcategory: Bitcoin
     description: 'Fake Bitcoin generator - https://www.virustotal.com/#/url-analysis/u-46ea117ea0839bb0b85ab8143e1a71c5774ead95705004281b6683720182a621-1545172396 & https://app.any.run/tasks/cd43629e-72ff-476a-b2fe-04f2eccbb22c'
     reporter: MyCrypto     
+-
+    id: 6246
+    name: myeltherwaliet.com
+    url: 'http://myeltherwaliet.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with GET /en/c.php?data=xxxx&m=1. Reported address: 0x6Fce6D2cECA868AC809d1e8D52e9fC3b8690118f'
+    reporter: MyCrypto      
+-
+    id: 6247
+    name: myetherwallet-tgt.space
+    url: 'http://myetherwallet-tgt.space'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /app/keys.php'
+    reporter: MyCrypto          
