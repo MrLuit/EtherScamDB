@@ -59127,3 +59127,95 @@
         - '0x39AF5503788A637984Ddf583A8e5128dce765172'
         - '1JQW3R96LiqpNJmf386toMu5aQNANxqt8r'
     reporter: MyCrypto       
+-
+    id: 6237
+    name: xn--eoscorearbitratio-l6c.io
+    url: 'http://xn--eoscorearbitratio-l6c.io'
+    coin: EOS
+    category: Phishing
+    subcategory: ECAF
+    description: 'Fake ECAF site harvesting user data'
+    reporter: MyCrypto     
+-
+    id: 6238
+    name: myetherwallet.96.lt
+    url: 'http://myetherwallet.96.lt'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'
+    reporter: MyCrypto          
+-
+    id: 6239
+    name: dec-kucoin.blogspot.com
+    url: 'http://dec-kucoin.blogspot.com'
+    coin: TRX
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'TPcDNYz4AxCaLCY2Xx4i95jGYwCjUrxg5r'
+    reporter: MyCrypto      
+-
+    id: 6240
+    name: trx-kucoin.blogspot.com
+    url: 'http://trx-kucoin.blogspot.com'
+    coin: TRX
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'TPcDNYz4AxCaLCY2Xx4i95jGYwCjUrxg5r'
+    reporter: MyCrypto         
+-
+    id: 6241
+    name: neo-kucoin.blogspot.com
+    url: 'http://neo-kucoin.blogspot.com'
+    coin: NEO
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'ATVMaR3SXKRBtwCNgPjV5k2YzEgzMDYeaf'
+    reporter: MyCrypto             
+-
+    id: 6242
+    name: cryptobountymco.com
+    url: 'http://cryptobountymco.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MCO
+    description: 'Fake MCO bounty program'
+    addresses:
+        - '0xEeAd01fC953Aea34212d56014aa61EaD16e76D4d'    
+    reporter: MyCrypto        
+-
+    id: 6243
+    name: tokensic.online
+    url: 'http://tokensic.online'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /bot/bot.php'
+    reporter: MyCrypto      
+-
+    id: 6244
+    name: encrypex.online
+    url: 'http://encrypex.online'
+    coin: ETH
+    category: Phishing
+    subcategory: Encrybit
+    description: 'Clone of Encrybit.io crowdsale site'
+    addresses:
+        - '0x0fA23b1B4DD646a3a55fb5E4C5EEaB24D42edAb0'     
+        - '131sc2mLEowK9T6qpwenxfTXLnD6qeMBMZ'
+    reporter: MyCrypto          
+-
+    id: 6245
+    name: freebitcobot.top
+    url: 'http://freebitcobot.top'
+    coin: BTC
+    category: Scamming
+    subcategory: Bitcoin
+    description: 'Fake Bitcoin generator - https://www.virustotal.com/#/url-analysis/u-46ea117ea0839bb0b85ab8143e1a71c5774ead95705004281b6683720182a621-1545172396 & https://app.any.run/tasks/cd43629e-72ff-476a-b2fe-04f2eccbb22c'
+    reporter: MyCrypto     
