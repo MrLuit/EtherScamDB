@@ -59237,3 +59237,13 @@
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys with POST /app/keys.php'
     reporter: MyCrypto          
+-
+    id: 6248
+    name: 'meduim.online/@officialmcafee/Johh-McAfee-Official-Eth-AirDrop/post/airdrop'
+    url: 'https://www.meduim.online/@officialmcafee/Johh-McAfee-Official-Eth-AirDrop/post/airdrop'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x4eB1d2050017Cf862939340c017a31aa2d59d8d8'
