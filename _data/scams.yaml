@@ -59285,3 +59285,37 @@
     addresses:
         - 'qp9rk7fg4avwlu6cf88qq3533g0qyvwh7y78vf4wrk'    
     reporter: MyCrypto          
+-
+    id: 6253
+    name: ether-contest.com
+    url: 'http://ether-contest.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x81E4B65b9330C5693d38430111D7Eb174615bDD6'
+    reporter: MyCrypto       
+-
+    id: 6254
+    name: dex-huobiglo.info
+    url: 'http://dex-huobiglo.info'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x57aa0ca8ddc99096d150f0dd1e1bd50616d809c8'
+        - 'bc1qw9cz3095dxnt5hkfdyltueen9g7j5w5u6c0zq9'
+    reporter: MyCrypto           
+-
+    id: 6255
+    name: telegra.ph/Crypto-Bible-team-are-giving-away-500-ETH-12-22-2
+    url: 'https://telegra.ph/Crypto-Bible-team-are-giving-away-500-ETH-12-22-2'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x95115419b09e8cea70a9bdbca3fee8c5e118b228'
+    reporter: MyCrypto        
