@@ -59247,3 +59247,42 @@
     description: 'Trust trading scam site'
     addresses:
         - '0x4eB1d2050017Cf862939340c017a31aa2d59d8d8'
+-
+    id: 6249
+    name: quarkairdrop.com
+    url: 'http://quarkairdrop.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Quarkchain
+    description: 'Fake airdrop phishing for keys with POST /sign.php'
+    reporter: MyCrypto          
+-
+    id: 6250
+    name: crypterium.site
+    url: 'http://crypterium.site'
+    coin: ETH
+    category: Phishing
+    subcategory: Crypterium
+    description: 'Fake airdrop phishing for keys with POST /sign.php'
+    reporter: MyCrypto          
+-
+    id: 6251
+    name: etherdelta.pro
+    url: 'http://etherdelta.pro'
+    coin: ETH
+    category: Phishing
+    subcategory: EtherDelta
+    description: 'Fake EtherDelta phishing for keys with POST /api.php'
+    reporter: MyCrypto          
+-
+    id: 6252
+    name: bitcashsv.org
+    url: 'http://bitcashsv.org'
+    coin: BCH
+    category: Phishing
+    subcategory: Bitcoin
+    description: 'Fake BitcoinCashSV splitter and email harvesrer'
+    addresses:
+        - 'qp9rk7fg4avwlu6cf88qq3533g0qyvwh7y78vf4wrk'    
+    reporter: MyCrypto          
+-
