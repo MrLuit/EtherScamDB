@@ -59319,3 +59319,52 @@
     addresses:
         - '0x95115419b09e8cea70a9bdbca3fee8c5e118b228'
     reporter: MyCrypto        
+-
+    id: 6256
+    name: bittlrex.com
+    url: 'http://bittlrex.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex phishing for logins with POST /Account/Login'
+    reporter: MyCrypto       
+-
+    id: 6257
+    name: xn--binnce-rhc.com
+    url: 'http://xn--binnce-rhc.com'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site - linking users to www.binance.exchange2018.support/event'
+    addresses:
+        - '3HzQJ3CGQKkWuxGSiWW286PePSed7tgKWp'    
+    reporter: MyCrypto           
+-
+    id: 6258
+    name: binance.exchange2018.support
+    url: 'http://binance.exchange2018.support'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site '
+    addresses:
+        - '3HzQJ3CGQKkWuxGSiWW286PePSed7tgKWp'    
+    reporter: MyCrypto          
+-
+    id: 6259
+    name: binancehelpdesk.com
+    url: 'http://binancehelpdesk.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake helpdesk harvesting user emails'
+    reporter: MyCrypto       
+-
+    id: 6260
+    name: pumapay.io.giveaway-user.com
+    url: 'http://pumapay.io.giveaway-user.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'
+    reporter: MyCrypto          
