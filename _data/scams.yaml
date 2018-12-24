@@ -59367,4 +59367,24 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys'
-    reporter: MyCrypto          
+    reporter: MyCrypto       
+-
+    id: 6261
+    name: crypto-positive.club
+    url: 'http://crypto-positive.club'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site '
+    addresses:
+        - '1CKK4yMGjcbzEG8hWSdtNSQcoV8PDiGzDk'    
+    reporter: MyCrypto              
+-
+    id: 6262
+    name: trustwallet.com.erc-20-tokens-gift.com
+    url: 'http://trustwallet.com.erc-20-tokens-gift.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake TrustWallet bonus site - MyEtherWallet phishing for keys with POST /claim.php'
+    reporter: MyCrypto         
