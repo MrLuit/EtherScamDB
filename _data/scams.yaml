@@ -59388,3 +59388,65 @@
     subcategory: MyEtherWallet
     description: 'Fake TrustWallet bonus site - MyEtherWallet phishing for keys with POST /claim.php'
     reporter: MyCrypto         
+-
+    id: 6263
+    name: coinbase-airdrop.top
+    url: 'http://coinbase-airdrop.top'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1MpLjpT44A5yyRbtGG61rtpgwxdJB3onsB'    
+    reporter: MyCrypto    
+-
+    id: 6264
+    name: coinbase-btc.xyz
+    url: 'http://coinbase-btc.xyz'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1MpLjpT44A5yyRbtGG61rtpgwxdJB3onsB'    
+    reporter: MyCrypto        
+-
+    id: 6265
+    name: kucoindectrx.blogspot.com
+    url: 'http://kucoindectrx.blogspot.com'
+    coin: TRX
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'TPcDNYz4AxCaLCY2Xx4i95jGYwCjUrxg5r'    
+    reporter: MyCrypto            
+-
+    id: 6266
+    name: jaxx.im
+    url: 'http://jaxx.im'
+    coin: ETH
+    category: Phishing
+    subcategory: Jaxx
+    description: 'Fake Jaxx download - https://app.any.run/tasks/add3b721-3633-4309-abe9-b21331cd16cc'
+    reporter: MyCrypto      
+-
+    id: 6267
+    name: okexpro.icu
+    url: 'http://okexpro.icu'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xBb90125091Fd7c7953FB98b59f6ce75E2500e5DB'    
+    reporter: MyCrypto              
+-
+    id: 6268
+    name: poetairdrop.com
+    url: 'http://poetairdrop.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Poet
+    description: 'Fake airdrop phishing for keys with POST /signed.php'
+    reporter: MyCrypto           
