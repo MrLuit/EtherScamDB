@@ -59450,3 +59450,43 @@
     subcategory: Poet
     description: 'Fake airdrop phishing for keys with POST /signed.php'
     reporter: MyCrypto           
+-
+    id: 6269
+    name: ethtokens.online
+    url: 'http://ethtokens.online'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'
+    reporter: MyCrypto        
+-
+    id: 6270
+    name: binance-competition.net
+    url: 'http://binance-competition.net'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x7b904DF207858b9A4fCD0d9538ef633beD316287'    
+    reporter: MyCrypto       
+-
+    id: 6271
+    name: excdus.org
+    url: 'http://excdus.org'
+    coin: ETH
+    category: Phishing
+    subcategory: Exodus
+    description: 'Fake Exodus site'
+    reporter: MyCrypto        
+-
+    id: 6272
+    name: giveawayxneo.blogspot.com
+    url: 'http://giveawayxneo.blogspot.com'
+    coin: NEO
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'ATVMaR3SXKRBtwCNgPjV5k2YzEgzMDYeaf'    
+    reporter: MyCrypto           
