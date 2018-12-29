@@ -59490,3 +59490,32 @@
     addresses:
         - 'ATVMaR3SXKRBtwCNgPjV5k2YzEgzMDYeaf'    
     reporter: MyCrypto           
+-
+    id: 6273
+    name: cash-bitcoin.online
+    url: 'http://cash-bitcoin.online'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '3CnqzLzkrHwCoi94y8Caq2Yw1pQQA94Wvk'    
+    reporter: MyCrypto            
+-
+    id: 6274
+    name: yobit--net.com
+    url: 'http://yobit--net.com'
+    coin: ETH
+    category: Phishing
+    subcategory: YoBit
+    description: 'Fake Yobit phishing for logins with POST /en/_loginSend.php'
+    reporter: MyCrypto       
+-
+    id: 6275
+    name: supportyobit.net
+    url: 'http://supportyobit.net'
+    coin: ETH
+    category: Phishing
+    subcategory: YoBit
+    description: 'Fake YoBit phihsing for Yobicodes with POST /login.php'
+    reporter: MyCrypto        
