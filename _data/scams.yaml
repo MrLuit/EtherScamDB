@@ -59540,3 +59540,14 @@
         - '0x8255F34903440ff046169b12ea848ce6f083A631'
         - '13LbKNisvCje3vFSchUoRn9BxTLj6wFHqP'
     reporter: MyCrypto                
+-
+    id: 6278
+    name: biboxpr.icu
+    url: 'http://biboxpr.icu'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x3331f67F5b2544Fb0f2d7C90F7b8109d24bF6e7c'
+    reporter: MyCrypto              
