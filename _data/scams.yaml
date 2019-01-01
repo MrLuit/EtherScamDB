@@ -59550,4 +59550,24 @@
     description: 'Trust trading scam site'
     addresses:
         - '0x3331f67F5b2544Fb0f2d7C90F7b8109d24bF6e7c'
-    reporter: MyCrypto              
+    reporter: MyCrypto
+-
+    id: 6279
+    name: cryptobridge.su
+    url: 'http://cryptobridge.su'
+    coin: ETH
+    category: Phishing
+    subcategory: CryptoBridge
+    description: 'Fake CryptoBridge exchange phishing for details with POST /login/login.php'
+    reporter: MyCrypto
+-
+    id: 6280
+    name: xrp-giveaway.com
+    url: 'http://xrp-giveaway.com'
+    coin: XRP
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'raBesxXx7QQ1RdboXXZHhjaKSyW19JptMt'
+    reporter: MyCrypto
