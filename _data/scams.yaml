@@ -59588,7 +59588,7 @@
 -
     id: 6282
     name: newyearneo.blogspot.com 
-    url: 'http://newyearneo.blogspot.com '
+    url: 'http://newyearneo.blogspot.com'
     coin: NEO
     category: Scamming
     subcategory: Trust-Trading
@@ -59643,4 +59643,47 @@
         - 'LRPChoyN8qLWENjo1dUjk2bESZjE7bQ6sP'
         - 'rGmdGrMjvxt6S3VjF4M78U2YMLPR6XLPSN'
         - '0x4F53C9882Ba87d2D7c525dF2aEF2540EFB6e32e5'
+    reporter: MyCrypto
+-
+    id: 6286
+    name: gowincoin.com
+    url: 'http://gowincoin.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1ApXtisCrsykSmzCXsRFL6mhtKQUdN6eQB'
+        - '0x8583EE650C6566503d1d9DD3FaE76498e7E4CcAA'
+    reporter: MyCrypto
+-
+    id: 6287
+    name: delta.money
+    url: 'http://delta.money'
+    coin: ETH
+    category: Phishing
+    subcategory: Delta
+    description: 'Phishing for keys with POST /api/auth/generate_info'
+    reporter: MyCrypto
+-
+    id: 6288
+    name: coinsupergive.live 
+    url: 'http://coinsupergive.live'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x9d79AeEce49694B01B2d2A44Ba2c240De48959C9'
+    reporter: MyCrypto
+-
+    id: 6289
+    name: ethers-claim.com
+    url: 'http://ethers-claim.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xA3eFA3aEB27711B51b8bd12D8BF0885D4949F065'
     reporter: MyCrypto
