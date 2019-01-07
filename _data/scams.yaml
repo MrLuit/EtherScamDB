@@ -59675,6 +59675,7 @@
     description: 'Trust trading scam site'
     addresses:
         - '0x9d79AeEce49694B01B2d2A44Ba2c240De48959C9'
+        - '0xecb8D2E87573d5a0aB2662591121B4de29294070'
     reporter: MyCrypto
 -
     id: 6289
@@ -59687,3 +59688,21 @@
     addresses:
         - '0xA3eFA3aEB27711B51b8bd12D8BF0885D4949F065'
     reporter: MyCrypto
+-
+    id: 6290
+    name: idex.ru.com
+    url: 'http://idex.ru.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for keys with POST /log.php'
+    reporter: MyCrypto    
+-
+    id: 6291
+    name: hydroproject.io
+    url: 'http://hydroproject.io'
+    coin: ETH
+    category: Phishing
+    subcategory: Hydro
+    description: 'Phishing for private keys with POST /api/v1.php - reported address 0xac1Ee036c52D20aD437A1DC46056b9aBF0cF1Ca0'
+    reporter: MyCrypto        
