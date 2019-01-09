@@ -59706,3 +59706,59 @@
     subcategory: Hydro
     description: 'Phishing for private keys with POST /api/v1.php - reported address 0xac1Ee036c52D20aD437A1DC46056b9aBF0cF1Ca0'
     reporter: MyCrypto        
+-
+    id: 6292
+    name: karatbars-affiliate-bonus.com
+    url: 'http://karatbars-affiliate-bonus.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Hosting a Fake MyEtherWallet phishing for keys with POST /claim.php'
+    reporter: MyCrypto        
+-
+    id: 6293
+    name: etcvwallet.com
+    url: 'http://etcvwallet.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake ETCV wallet phishing for keys with POST /api - reported address: 0x144826ded37a161f4d0aa7e5884131750022703c'
+    reporter: MyCrypto            
+-
+    id: 6294
+    name: telegra.ph/Manual-unblocking-procedure-for-block-of-transaction-due-to-jam-on-mempool-01-09
+    url: 'http://telegra.ph/Manual-unblocking-procedure-for-block-of-transaction-due-to-jam-on-mempool-01-09'
+    coin: ETH
+    category: Phishing
+    subcategory: DxExchange
+    description: 'Fake announcement from dx.exchange to phish funds'
+    addresses:
+        - '0xd808259Ca07fdF4d8Fa825c4704f624352e2Dc14'
+    reporter: MyCrypto        
+-
+    id: 6295
+    name: 33333myetherwallet.site
+    url: 'http://33333myetherwallet.site'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Hosting a Fake MyEtherWallet'
+    reporter: MyCrypto       
+-
+    id: 6296
+    name: jhfjmyetherwallet.site
+    url: 'http://jhfjmyetherwallet.site'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Hosting a Fake MyEtherWallet'
+    reporter: MyCrypto       
+-
+    id: 6297
+    name: 44332myetherwallet.site
+    url: 'http://44332myetherwallet.site'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Hosting a Fake MyEtherWallet'
+    reporter: MyCrypto           
