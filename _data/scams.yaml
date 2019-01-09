@@ -59735,3 +59735,30 @@
     addresses:
         - '0xd808259Ca07fdF4d8Fa825c4704f624352e2Dc14'
     reporter: MyCrypto        
+-
+    id: 6295
+    name: 33333myetherwallet.site
+    url: 'http://33333myetherwallet.site'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Hosting a Fake MyEtherWallet'
+    reporter: MyCrypto       
+-
+    id: 6296
+    name: jhfjmyetherwallet.site
+    url: 'http://jhfjmyetherwallet.site'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Hosting a Fake MyEtherWallet'
+    reporter: MyCrypto       
+-
+    id: 6297
+    name: 44332myetherwallet.site
+    url: 'http://44332myetherwallet.site'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Hosting a Fake MyEtherWallet'
+    reporter: MyCrypto           
