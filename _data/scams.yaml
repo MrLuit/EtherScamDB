@@ -59762,3 +59762,74 @@
     subcategory: MyEtherWallet
     description: 'Hosting a Fake MyEtherWallet'
     reporter: MyCrypto           
+-
+    id: 6298
+    name: myetherwallet-dfz.space
+    url: 'http://myetherwallet-dfz.space'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'
+    reporter: MyCrypto         
+-
+    id: 6299
+    name: ethnowawallet.com
+    url: 'http://ethnowawallet.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'
+    reporter: MyCrypto         
+-
+    id: 6300
+    name: wallet.bancor.network.xbancor.online
+    url: 'http://wallet.bancor.network.xbancor.online'
+    coin: ETH
+    category: Phishing
+    subcategory: Bancor
+    description: 'Fake Bancor wallet phishing for keys with POST /javascript.php'
+    reporter: MyCrypto      
+-
+    id: 6301
+    name: ethereumcv.io
+    url: 'http://ethereumcv.io'
+    coin: ETH
+    category: Phishing
+    subcategory: EthereumCV
+    description: 'Linking users to a phishing wallet ethereumcv.io'
+    reporter: MyCrypto         
+-
+    id: 6302
+    name: ethereumcv.info
+    url: 'http://ethereumcv.info'
+    coin: ETH
+    category: Scamming
+    subcategory: EthereumCV
+    description: 'Scamming users for ETH - confusion of a fork'
+    addresses:
+        - '0x237abde05ac2f992a44436bfee8b3219a329c5a0'    
+    reporter: MyCrypto             
+-
+    id: 6303
+    name: tesla-promo.tech
+    url: 'http://tesla-promo.tech'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x751D37b94dca1Ba7A5F5b46e4FB33ECF27f3BdfC'
+        - '1PcK6CrqferUDy1fGPkD8jMpMt4kDSvPDu'
+    reporter: MyCrypto    
+-
+    id: 6304
+    name: binancejan.blogspot.com
+    url: 'http://binancejan.blogspot.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x55B775Ea2CA493c082F3e17A8433e4D220FBB8d8'
+        - '1JSeDGPmq74JP2RQXqJFdHH3L2jcie3w4X'
+    reporter: MyCrypto        
