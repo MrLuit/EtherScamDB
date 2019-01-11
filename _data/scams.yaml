@@ -59833,3 +59833,21 @@
         - '0x55B775Ea2CA493c082F3e17A8433e4D220FBB8d8'
         - '1JSeDGPmq74JP2RQXqJFdHH3L2jcie3w4X'
     reporter: MyCrypto        
+-
+    id: 6305
+    name: etcv-wallet.com
+    url: 'http://etcv-wallet.com'
+    coin: ETH
+    category: Phishing
+    subcategory: EthereumCV
+    description: 'Fake ETCV wallet phishing for keys with POST /api (base64 encoded) - Suspected address: 0x8a16589539096694a829d68ef8db4a95b628deef'
+    reporter: MyCrypto             
+-
+    id: 6306
+    name: wallet.hydroproject.io
+    url: 'http://wallet.hydroproject.io'
+    coin: ETH
+    category: Phishing
+    subcategory: Hydro
+    description: 'Phishing for private keys with POST /api/v1.php'
+    reporter: MyCrypto                 
