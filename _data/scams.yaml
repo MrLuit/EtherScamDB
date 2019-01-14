@@ -59808,7 +59808,7 @@
     description: 'Scamming users for ETH - confusion of a fork'
     addresses:
         - '0x237abde05ac2f992a44436bfee8b3219a329c5a0'    
-    reporter: MyCrypto             
+    reporter: MyCrypto
 -
     id: 6303
     name: tesla-promo.tech
@@ -59820,7 +59820,7 @@
     addresses:
         - '0x751D37b94dca1Ba7A5F5b46e4FB33ECF27f3BdfC'
         - '1PcK6CrqferUDy1fGPkD8jMpMt4kDSvPDu'
-    reporter: MyCrypto    
+    reporter: MyCrypto
 -
     id: 6304
     name: binancejan.blogspot.com
@@ -59832,7 +59832,7 @@
     addresses:
         - '0x55B775Ea2CA493c082F3e17A8433e4D220FBB8d8'
         - '1JSeDGPmq74JP2RQXqJFdHH3L2jcie3w4X'
-    reporter: MyCrypto        
+    reporter: MyCrypto
 -
     id: 6305
     name: etcv-wallet.com
@@ -59841,7 +59841,7 @@
     category: Phishing
     subcategory: EthereumCV
     description: 'Fake ETCV wallet phishing for keys with POST /api (base64 encoded) - Suspected address: 0x8a16589539096694a829d68ef8db4a95b628deef'
-    reporter: MyCrypto             
+    reporter: MyCrypto
 -
     id: 6306
     name: wallet.hydroproject.io
@@ -59850,4 +59850,87 @@
     category: Phishing
     subcategory: Hydro
     description: 'Phishing for private keys with POST /api/v1.php'
-    reporter: MyCrypto                 
+    reporter: MyCrypto
+-
+    id: 6307
+    name: myetcvwallet.com
+    url: 'http://myetcvwallet.com'
+    coin: ETH
+    category: Phishing
+    subcategory: EthereumCV
+    description: 'Phishing for keys with GET /create.php?p=xxxx and POST /create.php'
+    reporter: MyCrypto
+-
+    id: 6308
+    name: idex-market.website
+    url: 'http://idex-market.website'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for keys with POST /log.php'
+    reporter: MyCrypto
+-
+    id: 6309
+    name: forkdelta.space
+    url: 'http://forkdelta.space'
+    coin: ETH
+    category: Phishing
+    subcategory: ForkDelta
+    description: 'Fake ForkDelta phishing for keys with POST /api.php'
+    reporter: MyCrypto
+-
+    id: 6310
+    name: big-gift.ga
+    url: 'http://big-gift.ga'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x795418a1c8b00c7bf70f32a5e67d2a54b60db860'
+        - '18e5d9tSGLF4RD7546nsBG1p3aVhG6DdR2'
+    reporter: MyCrypto
+-
+    id: 6311
+    name: doubleinvest.online
+    url: 'http://doubleinvest.online'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site - Fake Bitcoin doubler'
+    addresses:
+        - '1Ex3gc7WjFKEnhAUuhHGEZ55Y7jy8Rg88Q'
+    reporter: MyCrypto
+-
+    id: 6312
+    name: ebitservices.com
+    url: 'http://ebitservices.com'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xc55ca254045A09565A3eed7a0Cb32D38b7062E52'
+        - '1PnbGDUKEWziJfvqxWoNAu5H4ZfizGVyws'
+        - 'LWJPHR28f7114JMJKVvoEugyPLicWpjJMx'
+    reporter: MyCrypto        
+-
+    id: 6313
+    name: btcexcelinvest.com
+    url: 'http://btcexcelinvest.com'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site - Fake Bitcoin doubler'
+    addresses:
+        - '1LuzEzN1Kk8gSCQu4Zh7EC7LbFrLwbnpq'
+    reporter: MyCrypto    
+-
+    id: 6314
+    name: electrum.one
+    url: 'http://electrum.one'
+    coin: ETH
+    category: Phishing
+    subcategory: Electrum
+    description: 'Fake Electrum site contacting e-xodus.com - https://www.virustotal.com/#/url/6217561e4966d190629d146f8585cb3b2b378070d32f8b4496e24f4c446c638f/detection & https://app.any.run/tasks/28a970fd-e7cc-43c9-a38a-654d0887b73d - https://twitter.com/sniko_/status/1084487289483509760'
+    reporter: MyCrypto    
