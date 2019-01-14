@@ -59934,3 +59934,65 @@
     subcategory: Electrum
     description: 'Fake Electrum site contacting e-xodus.com - https://www.virustotal.com/#/url/6217561e4966d190629d146f8585cb3b2b378070d32f8b4496e24f4c446c638f/detection & https://app.any.run/tasks/28a970fd-e7cc-43c9-a38a-654d0887b73d - https://twitter.com/sniko_/status/1084487289483509760'
     reporter: MyCrypto    
+-
+    id: 6315
+    name: dex-hbiglobal.info
+    url: 'http://dex-hbiglobal.info'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x8A6762E718beb7e6af9AB3868320c3C5137ADc6C'
+    reporter: MyCrypto        
+-
+    id: 6316
+    name: xn--vww-krakn-2f7d.com
+    url: 'http://xn--vww-krakn-2f7d.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Kraken
+    description: 'Fake Kraken phishing for logins with POST /login/login.php'
+    reporter: MyCrypto        
+-
+    id: 6317
+    name: bonus-stellarterm.com
+    url: 'http://bonus-stellarterm.com'
+    coin: XLM
+    category: Phishing
+    subcategory: Stellar
+    description: 'Fake Stellar bonus phishing for secrets with POST /login.php'
+    reporter: MyCrypto      
+-
+    id: 6318
+    name: betabindex.com
+    url: 'http://betabindex.com'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '3Atw5T74MLwzYoMht8T4CK6yVibngwkRjk'
+    reporter: MyCrypto      
+-
+    id: 6319
+    name: bitmrtpro.com
+    url: 'http://bitmrtpro.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x870691B57198f065530e90F8e98c70D0BD545e3E'
+    reporter: MyCrypto          
+-
+    id: 6320
+    name: x10eth.com
+    url: 'http://x10eth.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x1BACbC473428eDA051501a65751e185b329217EA'
+    reporter: MyCrypto         
