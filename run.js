@@ -115,6 +115,10 @@ function startWebServer() {
         res.send(default_template.replace('{{ content }}', fs.readFileSync('./_layouts/index.html', 'utf8')));
     });
 
+    app.get('/security.txt', function(req, res) { // Serve security.txt
+        res.send(fs.readFileSync('./_data/security.txt', 'utf8'));
+    });
+
     app.get('/search/', function(req, res) { // Serve /search/
         let table = "";
         getCache().legiturls.sort(function(a, b) {
