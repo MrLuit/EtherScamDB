@@ -59796,7 +59796,7 @@
     coin: ETH
     category: Phishing
     subcategory: EthereumCV
-    description: 'Linking users to a phishing wallet ethereumcv.io'
+    description: 'Linking users to a phishing wallet ethereumcv.io - reported address 0xd8ddfd63696127B18911546B13856cF98a246ff4'
     reporter: MyCrypto         
 -
     id: 6302
@@ -59996,3 +59996,46 @@
     addresses:
         - '0x1BACbC473428eDA051501a65751e185b329217EA'
     reporter: MyCrypto         
+-
+    id: 6321
+    name: janbinancexrp.blogspot.com
+    url: 'http://janbinancexrp.blogspot.com'
+    coin: XRP
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'rGD1q9qfHd9gYbm9VUdcBXjumAaMZen8tr'
+    reporter: MyCrypto             
+-
+    id: 6322
+    name: janbinance.blogspot.com
+    url: 'http://janbinance.blogspot.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1JSeDGPmq74JP2RQXqJFdHH3L2jcie3w4X'
+        - '0x55B775Ea2CA493c082F3e17A8433e4D220FBB8d8'
+    reporter: MyCrypto        
+-
+    id: 6323
+    name: coinbit24.site
+    url: 'http://coinbit24.site'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site - bitcoin doubler'
+    addresses:
+        - '1LeYK9J5aVEHdCNuwqBi2UQEFarmXewHvk'
+    reporter: MyCrypto         
+-
+    id: 6324
+    name: idex-market.live
+    url: 'http://idex-market.live'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market phishing for keys with POST /log.php'
+    reporter: MyCrypto        
