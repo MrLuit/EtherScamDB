@@ -1072,6 +1072,41 @@ function startWebServer() {
     });
 
     app.get('/redirect/:url/', function(req, res) { // Serve /redirect/<url>/
+        var whitelistImports;
+        var blacklistImports;
+        var fuzzylistImports;
+        var toleranceImports;
+        let domainpage = req.params.url.toLowerCase();
+
+        console.log(/^((https?\:\/\/)?[0-9a-z\.\-]+)$/.exec(domainpage));
+        if(/^((https?\:\/\/)?[0-9a-z\.\-]+)$/.exec(domainpage) === null) {
+            let template = fs.readFileSync('./_layouts/404.html', 'utf8');
+            res.send(default_template.replace('{{ content }}', template));
+            return;
+        }
+
+        domainpage = domainpage.replace(/^(https?\:\/\/)/, '');
+        console.log(domainpage);
+
+        var webcheck = new check();
+        var urllookup = new lookup();
+        let startTime = (new Date()).getTime();
+
+        let scam = getCache().scams.find(function(scam) {
+            return scam.name == domainpage;
+        });
+
+        let verified = getCache().legiturls.find(function(verified) {
+            return verified.url.replace("https://", '') == domainpage;
+        });
+
+        // Domain is not indexed so don't attempt a redirect
+        if(typeof scam === "undefined" && typeof verified === "undefined") {
+            let template = fs.readFileSync('./_layouts/404.html', 'utf8');
+            res.send(default_template.replace('{{ content }}', template));
+            return;
+        }
+
         let template = fs.readFileSync('./_layouts/redirect.html', 'utf8').replace(/{{ redirect.domain }}/g, req.params.url);
         res.send(default_template.replace('{{ content }}', template));
     });
