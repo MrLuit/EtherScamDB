@@ -643,7 +643,7 @@ function startWebServer() {
           template = template.replace("{{ verified.urlscan }}", "<b>Urlscan Scan Results</b>: {{ verified.urlscan }}<BR>");
           template = template.replace("{{ verified.urlscreenshot }}", "<b>Urlscan Screenshot</b>:<BR> {{ verified.urlscreenshot }}<BR>");
           webcheck.lookup( url.parse(verified.url).hostname ).then(function(output) {
-            if(output.total == 0){
+            if(!('total' in output) || output.total == 0){
               template = template.replace("{{ verified.urlscan }}", "Not Yet");
               res.send(default_template.replace('{{ content }}', template));
             } else if(output.total != 0){
@@ -665,7 +665,7 @@ function startWebServer() {
               template = template.replace("{{ verified.urlscan }}", "<a style='text-color:green' href='{{ verified.urlscanlink }}'  target='_blank'>Link</a>");
               template = template.replace("{{ verified.urlscanlink }}", 'https://urlscan.io/result/' + output.results[index]._id);
               urllookup.lookup( output.results[index].result ).then(function(lookupout) {
-                if(lookupout.data != null){
+                if('data' in lookupout && lookupout.data != null){
                   template = template.replace("{{ verified.urlscreenshot }}", "<div id='scam-screenshot'><img src=" + lookupout.task.screenshotURL + " alt='Screenshot of website' style='width: 100%; height: 80%;'></img></div>");
                   res.send(default_template.replace('{{ content }}', template));
                 } else{
@@ -781,7 +781,7 @@ function startWebServer() {
           template = template.replace("{{ scam.urlscan }}", "<b>Urlscan Scan Results</b>: {{ scam.urlscan }}<BR>");
           template = template.replace("{{ scam.urlscreenshot }}", "<b>Urlscan Screenshot</b>:<BR> {{ scam.urlscreenshot }}<BR>");
           webcheck.lookup( url.parse(scam.url).hostname ).then(function(output) {
-            if(output.total == 0){
+            if(!output || !('total' in output) || output.total == 0){
               template = template.replace("{{ scam.urlscan }}", "Not Yet");
               res.send(default_template.replace('{{ content }}', template));
             } else if(output.total != 0){
