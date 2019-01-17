@@ -60039,3 +60039,45 @@
     subcategory: Idex
     description: 'Fake Idex market phishing for keys with POST /log.php'
     reporter: MyCrypto        
+-
+    id: 6325
+    name: btc-promo.net
+    url: 'http://btc-promo.net'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1AHkrJ55mxbUBEe1bn5MQNzH1sP8zSuKqS'
+        - '0x9145Cb518FD02877FE8efA077c3EAd95235fDA22'
+    reporter: MyCrypto        
+-
+    id: 6326
+    name: waves-x.com
+    url: 'http://waves-x.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Waves
+    description: 'Fake waves project linking to client-wavesx.com that is stealing seed phrases'
+    reporter: MyCrypto            
+-
+    id: 6327
+    name: etcv-wallet.co
+    url: 'http://etcv-wallet.co'
+    coin: ETH
+    category: Phishing
+    subcategory: EthereumCV
+    description: 'Fake Ethereum wallet phishing for keys with POST /send.php'
+    reporter: MyCrypto           
+-
+    id: 6328
+    name: bttlaunchpad.com
+    url: 'http://bttlaunchpad.com'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '3BgCXqtL8uh54XfB6TSbRkrA7dryBdSjA6'
+        - '0x8324676C7cd3a99391d1D69ce3d8A7c2b51c1f59'
+    reporter: MyCrypto          
