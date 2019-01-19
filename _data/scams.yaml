@@ -58752,6 +58752,7 @@
     description: 'Trust trading scam site'
     addresses:
         - '0x3C98B49694c18ab0492A048eE213e2c3d3B3e0Ff'
+        - '0x1a8479634bA4f57533b48719f9d2b20c5fCDFa9D'
     reporter: MyCrypto             
 -
     id: 6198
@@ -60104,3 +60105,65 @@
     addresses:
         - '0x0DcfE28d5fF99290dad01b592BD46e1DE8c5bBf0'
     reporter: MyCrypto                
+-
+    id: 6331
+    name: ltcpro.live
+    url: 'http://ltcpro.live'
+    coin: LTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'MMdDAFeUu7saKRZKzy6H855jp5sWvP7zUp'
+    reporter: MyCrypto           
+-
+    id: 6332
+    name: ltcpro.xyz
+    url: 'http://ltcpro.xyz'
+    coin: LTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'MU1X2NuRCPC43h71KKLns3gve6Ust9Zghe'
+    reporter: MyCrypto         
+-
+    id: 6333
+    name: doublebitcoin.cc
+    url: 'http://doublebitcoin.cc'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site - bitcoin doubler'
+    addresses:
+        - '3FVJwsWDYntJ5ZMDeHoRCHjeiDDeuqsp5P'
+    reporter: MyCrypto             
+-
+    id: 6334
+    name: trondiscount.com
+    url: 'http://trondiscount.com'
+    coin: BTC
+    category: Phishing
+    subcategory: Tron
+    description: 'Fake trx/btc exchange & hosting private key phishing POST /vechain/mailer.php'
+    addresses:
+        - '1K7oEhhW8brUxMZrD4wYKcPLSnPYUgjs29'
+    reporter: MyCrypto       
+-
+    id: 6334
+    name: hydrowallet.io
+    url: 'http://hydrowallet.io'
+    coin: ETH
+    category: Phishing
+    subcategory: Hydro
+    description: 'Fake Wallet phishing for keys with POST /api/v1.php - reported address: 0x54d2fb4f6EF43bc3B0Ec0EfE62400C2603ed136F'
+    reporter: MyCrypto           
+-
+    id: 6335
+    name: 54452313.ngrok.io
+    url: 'http://54452313.ngrok.io'
+    coin: ETH
+    category: Phishing
+    subcategory: Exchange
+    description: 'Fake exchange phishing cryptopia vics - posting keys to POST /api/v1.php - email: Cryptofundx@protonmail.com'
+    reporter: MyCrypto               
