@@ -60127,3 +60127,43 @@
     addresses:
         - 'MU1X2NuRCPC43h71KKLns3gve6Ust9Zghe'
     reporter: MyCrypto         
+-
+    id: 6333
+    name: doublebitcoin.cc
+    url: 'http://doublebitcoin.cc'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site - bitcoin doubler'
+    addresses:
+        - '3FVJwsWDYntJ5ZMDeHoRCHjeiDDeuqsp5P'
+    reporter: MyCrypto             
+-
+    id: 6334
+    name: trondiscount.com
+    url: 'http://trondiscount.com'
+    coin: BTC
+    category: Phishing
+    subcategory: Tron
+    description: 'Fake trx/btc exchange & hosting private key phishing POST /vechain/mailer.php'
+    addresses:
+        - '1K7oEhhW8brUxMZrD4wYKcPLSnPYUgjs29'
+    reporter: MyCrypto       
+-
+    id: 6334
+    name: hydrowallet.io
+    url: 'http://hydrowallet.io'
+    coin: ETH
+    category: Phishing
+    subcategory: Hydro
+    description: 'Fake Wallet phishing for keys with POST /api/v1.php - reported address: 0x54d2fb4f6EF43bc3B0Ec0EfE62400C2603ed136F'
+    reporter: MyCrypto           
+-
+    id: 6335
+    name: 54452313.ngrok.io
+    url: 'http://54452313.ngrok.io'
+    coin: ETH
+    category: Phishing
+    subcategory: Exchange
+    description: 'Fake exchange phishing cryptopia vics - posting keys to POST /api/v1.php - email: Cryptofundx@protonmail.com'
+    reporter: MyCrypto               
