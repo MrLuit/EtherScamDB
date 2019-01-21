@@ -60176,3 +60176,34 @@
     subcategory: LocalEthereum
     description: 'Fake LocalEthereum phishing for logins with POST /login.php nad 2fa codes with POST /send.php'
     reporter: MyCrypto                   
+-
+    id: 6337
+    name: eloncity.sale
+    url: 'http://eloncity.sale'
+    coin: ETH
+    category: Phishing
+    subcategory: ElonCity
+    description: 'Fake ElonCity crowdsale site'
+    addresses:
+        - '0xA82E2B7EE7c92d6062db14de092A4838a816b1f0'    
+    reporter: MyCrypto         
+-
+    id: 6338
+    name: mana-gift.com
+    url: 'http://mana-gift.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Decentraland
+    description: 'Fake Decentraland giveaway (fake MANA contract)'
+    addresses:
+        - '0x65440e4CE8a9a596a20EC8f910DfC8b1a20c5f7a'    
+    reporter: MyCrypto
+-
+    id: 6339
+    name: digitexfutures.site
+    url: 'http://digitexfutures.site'
+    coin: ETH
+    category: Phishing
+    subcategory: Digitex
+    description: 'Fake airdrop phishing for keys with POST /sign.php - reported address: 0xda8f192b292516e912e2323081618e61c00aa604' 
+    reporter: MyCrypto    
