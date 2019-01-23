@@ -60207,3 +60207,94 @@
     subcategory: Digitex
     description: 'Fake airdrop phishing for keys with POST /sign.php - reported address: 0xda8f192b292516e912e2323081618e61c00aa604' 
     reporter: MyCrypto    
+-
+    id: 6340
+    name: binancexrpjan.blogspot.com
+    url: 'http://binancexrpjan.blogspot.com'
+    coin: XRP
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'rGD1q9qfHd9gYbm9VUdcBXjumAaMZen8tr'
+    reporter: MyCrypto        
+-
+    id: 6341
+    name: ethercontest.com
+    url: 'http://ethercontest.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x9687c850cfbd3E0D3b7DbF56ee91365700e18b91'
+    reporter: MyCrypto            
+-
+    id: 6342
+    name: escobarsbr.com
+    url: 'http://escobarsbr.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Hosting a fake Blockchain.info site phishing for logins with POST /loginx.php?id=1'
+    reporter: MyCrypto         
+-
+    id: 6343
+    name: myesereswallet.com
+    url: 'http://myesereswallet.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys GET /en/c.php?data=xxx'
+    reporter: MyCrypto           
+-
+    id: 6344
+    name: toke.online
+    url: 'http://toke.online'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /bot/bot.php'
+    reporter: MyCrypto              
+-
+    id: 6345
+    name: bttpromo.github.io
+    url: 'http://bttpromo.github.io'
+    coin: TRX
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Fake Tron/Bittorrent promotion'
+    addresses:
+        - 'TXRMhqQjhG5tauwP2XPdspWdKsJm5qh81e'
+    reporter: MyCrypto          
+-
+    id: 6346
+    name: bittorrentpromo.github.io
+    url: 'http://bittorrentpromo.github.io'
+    coin: TRX
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Fake Tron/Bittorrent promotion'
+    addresses:
+        - 'TXRMhqQjhG5tauwP2XPdspWdKsJm5qh81e'
+    reporter: MyCrypto            
+-
+    id: 6347
+    name: investmentdoubler.online
+    url: 'http://investmentdoubler.online'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site - bitcoin doubler'
+    addresses:
+        - '1Ly3S2qsQgzAKPqkL8CXhiM7gozhqmSh47'
+    reporter: MyCrypto            
+-
+    id: 6348
+    name: wallet.ethereum-advanced.com
+    url: 'http://wallet.ethereum-advanced.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /decrypt.php'
+    reporter: MyCrypto       
