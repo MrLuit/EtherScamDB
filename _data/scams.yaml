@@ -60298,3 +60298,43 @@
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys with POST /decrypt.php'
     reporter: MyCrypto       
+-
+    id: 6349
+    name: bttpromotion.github.io
+    url: 'http://bttpromotion.github.io'
+    coin: TRX
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Fake Tron/Bittorrent promotion'
+    addresses:
+        - 'TXRMhqQjhG5tauwP2XPdspWdKsJm5qh81e'
+    reporter: MyCrypto        
+-
+    id: 6350
+    name: telos-foundation.io
+    url: 'http://telos-foundation.io'
+    coin: ETH
+    category: Phishing
+    subcategory: Telos
+    description: 'Fake Telos foundation'
+    reporter: MyCrypto      
+-
+    id: 6351
+    name: binancegive.com
+    url: 'http://binancegive.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x2f8debdCF62eB537871dAEDe11F790D84DDF35cf'
+    reporter: MyCrypto       
+-
+    id: 6352
+    name: idexgroup.online
+    url: 'http://idexgroup.online'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing keys with POST /bot/bot.php'
+    reporter: MyCrypto        
