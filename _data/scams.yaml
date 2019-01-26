@@ -59797,7 +59797,7 @@
     coin: ETH
     category: Phishing
     subcategory: EthereumCV
-    description: 'Linking users to a phishing wallet ethereumcv.io - reported address 0xd8ddfd63696127B18911546B13856cF98a246ff4'
+    description: 'Linking users to a phishing wallet ethereumcv.io - reported address 0xd8ddfd63696127B18911546B13856cF98a246ff4 0xe6BF49E5BA7787A3550BE485f074EC07F9c86403'
     reporter: MyCrypto         
 -
     id: 6302
@@ -60402,3 +60402,35 @@
     addresses:
         - '3F5Nc9LyaYveQR3hfKBJHPvc89kVQ3CEKz'
     reporter: MyCrypto            
+-
+    id: 6359
+    name: airdropxrp.blogspot.com
+    url: 'http://airdropxrp.blogspot.com'
+    coin: XRP
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'rGD1q9qfHd9gYbm9VUdcBXjumAaMZen8tr'
+    reporter: MyCrypto                
+-
+    id: 6360
+    name: cryptoback.top
+    url: 'http://cryptoback.top'
+    coin: ETH
+    category: Phishing
+    subcategory: Malware
+    description: 'Linking users to a malicious browser extension (id: gampoaejpomkjegbfogebhdkfhacelod)'
+    reporter: MyCrypto    
+-
+    id: 6361
+    name: cryptogene.net
+    url: 'http://cryptogene.net'
+    coin: ETH
+    category: Scamming
+    subcategory: Exchange
+    description: 'Linking users to cryptoback.top and land on malicious browser extension (id: gampoaejpomkjegbfogebhdkfhacelod) - linked addresses are deposit addresses for the exchange'
+    addresses:
+        - '3Kdk3socys5sc9omQFewsB9jdsA3hnxXTi'    
+        - '0xEe18e156a020F2b2B2DcdEC3A9476E61fBDE1e48'
+    reporter: MyCrypto        
