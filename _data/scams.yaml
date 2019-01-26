@@ -60338,3 +60338,67 @@
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing keys with POST /bot/bot.php'
     reporter: MyCrypto        
+-
+    id: 6353
+    name: buteringift.com
+    url: 'http://buteringift.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Malware
+    description: 'Force downloads [Private]BTC-Claimer.rar - https://app.any.run/tasks/7194647f-4d76-4e09-a6d2-a7548a99f253 & https://www.virustotal.com/#/file/85cec9925cce2a697c3114c83eb864f892c0d11d9864c37b6987cff7eb1f7ee2/detection - https://twitter.com/sniko_/status/1088464025657270273'
+    reporter: MyCrypto         
+-
+    id: 6354
+    name: quick2xbtc.com
+    url: 'http://quick2xbtc.com'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site - btc doubler'
+    addresses:
+        - '1EM1GKe1NhkcAL5SLrSVS2SopXqzeDy4nz'
+    reporter: MyCrypto          
+-
+    id: 6355
+    name: doublecrypto.ml
+    url: 'http://doublecrypto.ml'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site - btc doubler'
+    addresses:
+        - '3Mm5maydqMipR9iVtc9vk6dGYzbV7rMkje'
+    reporter: MyCrypto              
+-
+    id: 6356
+    name: doubleinvestment.cf
+    url: 'http://doubleinvestment.cf'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site - btc doubler'
+    addresses:
+        - '3JNMfNGnjb5AaGgcpFb8PLsuSE3NpkH7hL'
+    reporter: MyCrypto          
+-
+    id: 6357
+    name: doublebitco.in
+    url: 'http://doublebitco.in'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site - btc doubler'
+    addresses:
+        - '1HAdR2y2VVjk98nPEsWbuJQRfx2NsS2B5z'
+    reporter: MyCrypto              
+-
+    id: 6358
+    name: bitcoin-pro.club
+    url: 'http://bitcoin-pro.club'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site - btc doubler'
+    addresses:
+        - '3F5Nc9LyaYveQR3hfKBJHPvc89kVQ3CEKz'
+    reporter: MyCrypto            
