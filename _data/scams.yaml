@@ -60434,3 +60434,55 @@
         - '3Kdk3socys5sc9omQFewsB9jdsA3hnxXTi'    
         - '0xEe18e156a020F2b2B2DcdEC3A9476E61fBDE1e48'
     reporter: MyCrypto        
+-
+    id: 6362
+    name: circlemix.io
+    url: 'http://circlemix.io'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site - btc doubler'
+    addresses:
+        - '33XkXTi4cPW8M3uoDYJDkPHXHZs6wVFJ6U'
+    reporter: MyCrypto         
+-
+    id: 6363
+    name: jancrypto.blogspot.com
+    url: 'http://jancrypto.blogspot.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x55B775Ea2CA493c082F3e17A8433e4D220FBB8d8'
+    reporter: MyCrypto          
+-
+    id: 6364
+    name: wallet-support.com
+    url: 'http://wallet-support.com'
+    coin: ETH
+    category: Scamming
+    subcategory: General
+    description: 'Hosting fake support channels for exchanges (1-844-455-0666) Twitter ID: 1077133359707500546'
+    reporter: MyCrypto           
+-
+    id: 6365
+    name: seth-transaction.info
+    url: 'http://seth-transaction.info'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /callback.php'
+    reporter: MyCrypto          
+-
+    id: 6366
+    name: cryptocreditfoundation.com
+    url: 'http://cryptocreditfoundation.com'
+    coin: ETH
+    category: Scamming
+    subcategory: ICO
+    description: 'Fake team - see https://bitcointalk.org/index.php?topic=5099131.0'
+    addresses:
+        - '12rPXruEsH3gFbAGcrHNQwabjrBmwMkDHe'    
+        - '0xa0157d54B87bAB72Ca5081794aa0B314639F46A9'
+    reporter: MyCrypto              
