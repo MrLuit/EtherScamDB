@@ -60474,3 +60474,15 @@
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys with POST /callback.php'
     reporter: MyCrypto          
+-
+    id: 6366
+    name: cryptocreditfoundation.com
+    url: 'http://cryptocreditfoundation.com'
+    coin: ETH
+    category: Scamming
+    subcategory: ICO
+    description: 'Fake team - see https://bitcointalk.org/index.php?topic=5099131.0'
+    addresses:
+        - '12rPXruEsH3gFbAGcrHNQwabjrBmwMkDHe'    
+        - '0xa0157d54B87bAB72Ca5081794aa0B314639F46A9'
+    reporter: MyCrypto              
