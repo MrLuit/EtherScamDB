@@ -60486,3 +60486,40 @@
         - '12rPXruEsH3gFbAGcrHNQwabjrBmwMkDHe'    
         - '0xa0157d54B87bAB72Ca5081794aa0B314639F46A9'
     reporter: MyCrypto              
+-
+    id: 6367
+    name: btcaim.com
+    url: 'http://btcaim.com'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Fake Bitcoin generator'
+    addresses:
+        - '3DrrDwv49rfJowvUsoYFKk5GDFQQwZQei8'
+        - '374YucVfN8tbsXG9SKXh2JzcEraJ21U7QA'
+        - '3JdHFWi1sqypAPGowKnhvxnxogr5Faky8p'
+        - '14jcbn3K3CjN8g7LVHbYXFvKuHxwi8Xn7L'
+    reporter: MyCrypto        
+-
+    id: 6368
+    name: bizzilion.com
+    url: 'http://bizzilion.com'
+    coin: ETH
+    category: Scamming
+    subcategory: ICO
+    description: 'Fake team - see https://bitcointalk.org/index.php?topic=5100342.0'
+    addresses:
+        - '39U67RrCzsLEVtihGQceRFZAkPBGT8XYZK'
+        - '0x35a95d5f0c8f676bb7b2dab47d6368a4ad5cbf8a'    
+    reporter: MyCrypto        
+-
+    id: 6369
+    name: xn--medum-vsa.com
+    url: 'http://xn--medum-vsa.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site (also see https://bitly.com/2FPOULl+)'
+    addresses:
+        - '0x444f5672d88264c4a1289C2ABa1826F9b4f14D49'
+    reporter: MyCrypto           
