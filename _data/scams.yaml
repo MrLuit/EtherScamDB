@@ -60523,3 +60523,23 @@
     addresses:
         - '0x444f5672d88264c4a1289C2ABa1826F9b4f14D49'
     reporter: MyCrypto           
+-
+    id: 6370
+    name: ethtokens.store
+    url: 'http://ethtokens.store'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /bot/bot.php'
+    reporter: MyCrypto               
+-
+    id: 6371
+    name: bitcoin-generator.network
+    url: 'http://bitcoin-generator.network'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Fake Bitcoin generator'
+    addresses:
+        - '1GjvX7WnKTHTx1eWqjTz5b2af1huXmpyst'    
+    reporter: MyCrypto         
