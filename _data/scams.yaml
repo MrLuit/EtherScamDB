@@ -60570,3 +60570,32 @@
     subcategory: Stellar
     description: 'Fake XLM fork phishing for keys with POST /'
     reporter: MyCrypto        
+-
+    id: 6375
+    name: myetheresswallet.com
+    url: 'http://myetheresswallet.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with GET /en/c.php?data=xxx'
+    reporter: MyCrypto                   
+-
+    id: 6376
+    name: bitaeon.top
+    url: 'http://bitaeon.top'
+    coin: BTC
+    category: Phishing
+    subcategory: Bitaeon
+    description: 'Fake BitAeon phishing for logins with POST /send.php'
+    reporter: MyCrypto            
+-
+    id: 6377
+    name: btrmartgve.com
+    url: 'http://btrmartgve.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xa1B04A60a35854d0749aE39B0346BCEb55247ecC'    
+    reporter: MyCrypto          
