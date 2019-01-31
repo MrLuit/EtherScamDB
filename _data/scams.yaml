@@ -60542,4 +60542,31 @@
     description: 'Fake Bitcoin generator'
     addresses:
         - '1GjvX7WnKTHTx1eWqjTz5b2af1huXmpyst'    
+    reporter: MyCrypto      
+-
+    id: 6372
+    name: idexmarket.website
+    url: 'http://idexmarket.website'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for keys with POST /log.php'
     reporter: MyCrypto         
+-
+    id: 6373
+    name: stellar-lightning.org
+    url: 'http://stellar-lightning.org'
+    coin: XLM
+    category: Phishing
+    subcategory: Stellar
+    description: 'Pointing users to a fake wallet (xllwallet.com) phishing for keys - https://twitter.com/sniko_/status/1090797481103900672'
+    reporter: MyCrypto          
+-
+    id: 6374
+    name: xllwallet.com
+    url: 'http://xllwallet.com'
+    coin: XLM
+    category: Phishing
+    subcategory: Stellar
+    description: 'Fake XLM fork phishing for keys with POST /'
+    reporter: MyCrypto        
