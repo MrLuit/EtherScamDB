@@ -60599,3 +60599,44 @@
     addresses:
         - '0xa1B04A60a35854d0749aE39B0346BCEb55247ecC'    
     reporter: MyCrypto          
+-
+    id: 6378
+    name: dexbetalaunch.com
+    url: 'http://dexbetalaunch.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x5B2b8b9c674e67F718BB54Cc62C2a2E13308229c'
+        - '1MpLjpT44A5yyRbtGG61rtpgwxdJB3onsB'
+    reporter: MyCrypto              
+-
+    id: 6379
+    name: airdropxneo.blogspot.com
+    url: 'http://airdropxneo.blogspot.com'
+    coin: NEO
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'ATVMaR3SXKRBtwCNgPjV5k2YzEgzMDYeaf'
+    reporter: MyCrypto                  
+-
+    id: 6380
+    name: claim-xyotokens.com
+    url: 'http://claim-xyotokens.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /claim.php'
+    reporter: MyCrypto                       
+-
+    id: 6381
+    name: bitcoin4future.club
+    url: 'http://bitcoin4future.club'
+    coin: BTC
+    category: Scamming
+    subcategory: Investment
+    description: 'Scamming users with guaranteed investment opportunities'
+    reporter: MyCrypto                     
