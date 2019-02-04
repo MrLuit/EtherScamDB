@@ -60640,3 +60640,23 @@
     subcategory: Investment
     description: 'Scamming users with guaranteed investment opportunities'
     reporter: MyCrypto                     
+-
+    id: 6382
+    name: giveaway-x.blogspot.com
+    url: 'http://giveaway-x.blogspot.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x55B775Ea2CA493c082F3e17A8433e4D220FBB8d8'
+    reporter: MyCrypto         
+-
+    id: 6383
+    name: etherchange.tech
+    url: 'http://etherchange.tech'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /bot/bot.php'
+    reporter: MyCrypto      
