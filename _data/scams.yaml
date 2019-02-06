@@ -60660,3 +60660,59 @@
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys with POST /bot/bot.php'
     reporter: MyCrypto      
+-
+    id: 6384
+    name: eth4free.com
+    url: 'http://eth4free.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x839BaaCA91Cbcf6c1632c55E1AE031C6B270df19'
+    reporter: MyCrypto
+-
+    id: 6385
+    name: getfree-neo.blogspot.my
+    url: 'http://getfree-neo.blogspot.my'
+    coin: NEO
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'ATVMaR3SXKRBtwCNgPjV5k2YzEgzMDYeaf'
+    reporter: MyCrypto              
+-
+    id: 6386
+    name: getfree-neo.blogspot.com
+    url: 'http://getfree-neo.blogspot.com'
+    coin: NEO
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'ATVMaR3SXKRBtwCNgPjV5k2YzEgzMDYeaf'
+    reporter: MyCrypto              
+-
+    id: 6387
+    name: binjerseygbpeur.com
+    url: 'http://binjerseygbpeur.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x32C648164D27A2fe26329bB0CFf5C379cd1178f9'
+        - '3D2sKMHnC6P6XKmC5kohCGZ4FvWMUaZgow'
+    reporter: MyCrypto         
+-
+    id: 6388
+    name: get-freecrypto.blogspot.com
+    url: 'http://get-freecrypto.blogspot.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x55B775Ea2CA493c082F3e17A8433e4D220FBB8d8'
+    reporter: MyCrypto             
