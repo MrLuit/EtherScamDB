@@ -60715,4 +60715,53 @@
     description: 'Trust trading scam site'
     addresses:
         - '0x55B775Ea2CA493c082F3e17A8433e4D220FBB8d8'
-    reporter: MyCrypto             
+    reporter: MyCrypto
+-
+    id: 6389
+    name: myetherwallet.com-7da3a890-214u-23c1-14a19-87536g0f4cd4.site
+    url: 'http://myetherwallet.com-7da3a890-214u-23c1-14a19-87536g0f4cd4.site'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /mail-area2.php'
+    reporter: MyCrypto
+-
+    id: 6390
+    name: myetherwallet.com-7da3a890-214u-23c1-14a19-87536g0f4cb2.site
+    url: 'http://myetherwallet.com-7da3a890-214u-23c1-14a19-87536g0f4cb2.site'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /mail-area2.php'
+    reporter: MyCrypto
+-
+    id: 6391
+    name: bittorrent.foundation
+    url: 'http://bittorrent.foundation'
+    coin: TRX
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'TDLcipJPJMT6iCFava8B9A1gGiKJvBRWzn'
+    reporter: MyCrypto
+-
+    id: 6392
+    name: bakktplatform.io 
+    url: 'http://bakktplatform.io'
+    coin: BTC
+    category: Phishing
+    subcategory: Bakkt
+    description: 'Fake Bakkt website - see https://discourse.trustory.io/t/best-trustories-of-the-week-10/634/61'
+    addresses:
+        - '18qBfymUEaqResPzwHGP3crvcrtDVXsWnG'    
+    reporter: MyCrypto
+-
+    id: 6393
+    name: btcdev.us
+    url: 'http://btcdev.us'
+    coin: BTC
+    category: Scamming
+    subcategory: Investments
+    description: 'Fake team - see https://bitcointalk.org/index.php?topic=5106220.0'
+    reporter: MyCrypto        
