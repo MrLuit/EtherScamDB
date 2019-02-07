@@ -60759,7 +60759,7 @@
 -
     id: 6393
     name: btcdev.us
-    url: 'btcdev.us'
+    url: 'http://btcdev.us'
     coin: BTC
     category: Scamming
     subcategory: Investments
