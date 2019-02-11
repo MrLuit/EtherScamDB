@@ -60765,3 +60765,149 @@
     subcategory: Investments
     description: 'Fake team - see https://bitcointalk.org/index.php?topic=5106220.0'
     reporter: MyCrypto        
+-
+    id: 6394
+    name: xn--hitbt-8xa.com
+    url: 'http://xn--hitbt-8xa.com'
+    coin: ETH
+    category: Phishing
+    subcategory: HitBTC
+    description: 'Fake HitBTC phishing for logins with POST /indexSend.php'
+    reporter: MyCrypto
+-
+    id: 6395
+    name: idexmarket.space
+    url: 'http://idexmarket.space'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for keys with POST /log.php'
+    reporter: MyCrypto
+-
+    id: 6396
+    name: lucalbltcoins.com
+    url: 'http://lucalbltcoins.com'
+    coin: BTC
+    category: Phishing
+    subcategory: LocalBitcoins
+    description: 'Fake LocalBitcoins phishing for logins'
+    reporter: MyCrypto
+-
+    id: 6397
+    name: ttrxtrx.blogspot.com 
+    url: 'http://ttrxtrx.blogspot.com'
+    coin: TRX
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'TRyZs5aTpVrS6ZgWb1NxCnGjktxHYtrD1F'
+    reporter: MyCrypto    
+-
+    id: 6398
+    name: xrpxrp.blogspot.com
+    url: 'http://xrpxrp.blogspot.com'
+    coin: XRP
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'rne6bY8h8SFEdvSezLADvVDfTiAcVov6js'
+    reporter: MyCrypto
+-
+    id: 6399
+    name: bittorrent.pro
+    url: 'http://bittorrent.pro'
+    coin: TRX
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'TXFDqwsuUKmqD9nVg5RvVAJip4jjUcDW9c'
+    reporter: MyCrypto    
+-
+    id: 6400
+    name: doublebitcoin.io
+    url: 'http://doublebitcoin.io'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site - BTC doubler'
+    addresses:
+        - '14UUCCwPd6b1UVC8SMCzxR4c2hZAoXHcNe'
+        - '0x2bd267ad20e8c42c85f9c16fd4c6f24770dc492c'
+    reporter: MyCrypto
+-
+    id: 6401
+    name: electrumofficial.com
+    url: 'http://electrumofficial.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Electrum
+    description: 'Fake Electrum site - https://www.virustotal.com/#/url/4868b87b5b30b2e3a1de9d0fb498f0371767a1e360745778efd2d2cde376a0b7/detection'
+    reporter: MyCrypto
+-
+    id: 6402
+    name: privatstuff.store
+    url: 'http://privatstuff.store'
+    coin: ETH
+    category: Phishing
+    subcategory: Electrum
+    description: 'Fake Electrum site - https://www.virustotal.com/#/url/fe7cccd4ce81743b377ad31fdeacc5dc7bcf112382fa656fa6f36d2b9e9dc8e4/detection'
+    reporter: MyCrypto
+-
+    id: 6403
+    name: spacex.promo
+    url: 'http://spacex.promo'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x7c8545ca937767362e5CC348616FfE9061Ebb78F'
+    reporter: MyCrypto
+-
+    id: 6404
+    name: electrumbase.com
+    url: 'http://electrumbase.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Electrum
+    description: 'Fake Electrum site'
+    reporter: MyCrypto
+-
+    id: 6405
+    name: electrumcore.net
+    url: 'http://electrumcore.net'
+    coin: ETH
+    category: Phishing
+    subcategory: Electrum
+    description: 'Fake Electrum site'
+    reporter: MyCrypto
+-
+    id: 6406
+    name: electrumapps.com
+    url: 'http://electrumapps.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Electrum
+    description: 'Fake Electrum site'
+    reporter: MyCrypto
+-
+    id: 6407
+    name: get2802lumens.online
+    url: 'http://get2802lumens.online'
+    coin: XLM
+    category: Phishing
+    subcategory: Stellar
+    description: 'Fake Stellar lumans giveaway phishing for keys with POST /1.php'
+    reporter: MyCrypto
+-
+    id: 6408
+    name: rnuathervvalfet.com
+    url: 'http://rnuathervvalfet.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /eth'
+    reporter: MyCrypto         
