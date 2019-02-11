@@ -60910,4 +60910,22 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys with POST /eth'
-    reporter: MyCrypto         
+    reporter: MyCrypto
+-
+    id: 6409
+    name: bittrex-m.com
+    url: 'http://bittrex-m.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex phishing for logins with POST /account/loginn.php'
+    reporter: MyCrypto
+-
+    id: 6410
+    name: ldex.exchange
+    url: 'http://ldex.exchange'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for key siwht GET /c.php?data=xxx'
+    reporter: MyCrypto        
