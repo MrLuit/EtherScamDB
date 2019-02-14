@@ -60928,4 +60928,52 @@
     category: Phishing
     subcategory: Idex
     description: 'Fake Idex phishing for key siwht GET /c.php?data=xxx'
-    reporter: MyCrypto        
+    reporter: MyCrypto
+-
+    id: 6411
+    name: electrumupgrade.org
+    url: 'http://electrumupgrade.org'
+    coin: ETH
+    category: Phishing
+    subcategory: Electrum
+    description: 'Fake Electrum site'
+    reporter: MyCrypto
+-
+    id: 6411
+    name: electrumdownload.com
+    url: 'http://electrumdownload.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Electrum
+    description: 'Fake Electrum site'
+    reporter: MyCrypto
+-
+    id: 6412
+    name: ldexmarket.com
+    url: 'http://ldexmarket.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex Market phishing for keys with GET /c.php?data=xxx'
+    reporter: MyCrypto
+-
+    id: 6414
+    name: enjin.pro
+    url: 'http://enjin.pro'
+    coin: ETH
+    category: Phishing
+    subcategory: Enjin
+    description: 'Fake airdrop phishing for keys with POST /sign.php'
+    reporter: MyCrypto
+-
+    id: 6415
+    name: tronxcash.com
+    url: 'http://tronxcash.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Exchange
+    description: 'Fake exchange - see cryptoxwallet.net & firecrypto.info'
+    addresses:
+        - '0xEe18e156a020F2b2B2DcdEC3A9476E61fBDE1e48'
+        - '3832HHXdLGBDeHWjE7VkFmWnjeJhAXAYQ2'
+    reporter: MyCrypto    
