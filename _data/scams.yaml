@@ -60865,6 +60865,7 @@
     description: 'Trust trading scam site'
     addresses:
         - '0x7c8545ca937767362e5CC348616FfE9061Ebb78F'
+        - '0xf33142f5bb228516f93e4267fb5a7241dc241614'
     reporter: MyCrypto
 -
     id: 6404
@@ -60976,4 +60977,64 @@
     addresses:
         - '0xEe18e156a020F2b2B2DcdEC3A9476E61fBDE1e48'
         - '3832HHXdLGBDeHWjE7VkFmWnjeJhAXAYQ2'
-    reporter: MyCrypto    
+    reporter: MyCrypto
+-
+    id: 6416
+    name: bintrx.blogspot.com
+    url: 'http://bintrx.blogspot.com'
+    coin: TRX
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'TRyZs5aTpVrS6ZgWb1NxCnGjktxHYtrD1F'
+    reporter: MyCrypto
+-
+    id: 6417
+    name: bin-ance.blogspot.com.tr
+    url: 'http://bin-ance.blogspot.com.tr'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x55B775Ea2CA493c082F3e17A8433e4D220FBB8d8'
+    reporter: MyCrypto
+-
+    id: 6418
+    name: binaxrp.blogspot.com
+    url: 'http://binaxrp.blogspot.com'
+    coin: XRP
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'rne6bY8h8SFEdvSezLADvVDfTiAcVov6js'
+    reporter: MyCrypto
+-
+    id: 6419
+    name: itubeonline.com
+    url: 'http://itubeonline.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Kyber
+    description: 'Fake KyberSwap - HTTrack signature'
+    reporter: MyCrypto
+-
+    id: 6420
+    name: unfreeze-paxful.com
+    url: 'http://unfreeze-paxful.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Paxful
+    description: 'Fake Paxful phishing for logins with POST /post.php'
+    reporter: MyCrypto
+-
+    id: 6421
+    name: rnuetharwallet.com
+    url: 'http://rnuetharwallet.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /eth'
+    reporter: MyCrypto     
