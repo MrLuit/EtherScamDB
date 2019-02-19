@@ -61037,4 +61037,125 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys with POST /eth'
-    reporter: MyCrypto     
+    reporter: MyCrypto
+-
+    id: 6422
+    name: binanxrp.blogspot.com
+    url: 'http://binanxrp.blogspot.com'
+    coin: XRP
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'rne6bY8h8SFEdvSezLADvVDfTiAcVov6js'
+    reporter: MyCrypto
+-
+    id: 6423
+    name: binannn.blogspot.com
+    url: 'http://binannn.blogspot.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x55B775Ea2CA493c082F3e17A8433e4D220FBB8d8'
+    reporter: MyCrypto
+-
+    id: 6424
+    name: myetherwallet.com.access-wallet.info
+    url: 'http://myetherwallet.com.access-wallet.info'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /callback.php'
+    reporter: MyCrypto    
+-
+    id: 6425
+    name: electrumfix.com
+    url: 'http://electrumfix.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Electrum
+    description: 'Fake Electrum site'
+    reporter: MyCrypto
+-
+    id: 6426
+    name: electrumsource.org
+    url: 'http://electrumsource.org'
+    coin: ETH
+    category: Phishing
+    subcategory: Electrum
+    description: 'Fake Electrum site'
+    reporter: MyCrypto
+-
+    id: 6427
+    name: bltaddress.org
+    url: 'http://bltaddress.org'
+    coin: BTC
+    category: Phishing
+    subcategory: Bitcoin
+    description: 'Fake bitaddress.org site generating non-secret secrets'
+    reporter: MyCrypto
+-
+    id: 6428
+    name: cryptoxcash.com
+    url: 'http://cryptoxcash.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Malware
+    description: 'Directing users to malware browser extension via cryptonback.com - see https://bitcointalk.org/index.php?topic=5110727.0 & cryptocashback.org'
+    reporter: MyCrypto    
+-
+    id: 6429
+    name: cryptonback.com
+    url: 'http://cryptonback.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Malware
+    description: 'Promoting malware browser extension (redirect from cryptoxcash.com) - chrome extension id: fciofepodfkkdkkpccopghbifdnknadl'
+    reporter: MyCrypto
+-
+    id: 6430
+    name: electrumweb.net
+    url: 'http://electrumweb.net'
+    coin: BTC
+    category: Phishing
+    subcategory: Electrum
+    description: 'Fake Electrum - malware clone of Electrum - reported address: bc1qhsrl6ywvwx44zycz2tylpexza4xvtqkv6d903q'
+    reporter: MyCrypto  
+-
+    id: 6431
+    name: electrumupdate.com
+    url: 'http://electrumupdate.com'
+    coin: BTC
+    category: Phishing
+    subcategory: Electrum
+    description: 'Fake Electrum - malware clone of Electrum - see https://blog.coinbase.com/electrohunt-part-1-hunting-for-the-phishing-campaigns-on-the-electrum-network-b10529162e63'
+    reporter: MyCrypto
+-
+    id: 6432
+    name: vintage-myetherwallet.com
+    url: 'http://vintage-myetherwallet.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with GET /c.php?data=xxx'
+    reporter: MyCrypto       
+-
+    id: 6433
+    name: wedderbergen.com
+    url: 'http://wedderbergen.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /eth'
+    reporter: MyCrypto    
+-
+    id: 6434
+    name: rnuethervvallet.com
+    url: 'http://rnuethervvallet.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /eth'
+    reporter: MyCrypto    
