@@ -61158,4 +61158,49 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys with POST /eth'
+    reporter: MyCrypto
+-
+    id: 6435
+    name: vintage-myethereswallet.com
+    url: 'http://vintage-myethereswallet.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with GET /en/c.php?data=xxx'
+    reporter: MyCrypto
+-
+    id: 6436
+    name: bitcoin-mixer.tk
+    url: 'http://bitcoin-mixer.tk'
+    coin: BTC
+    category: Phishing
+    subcategory: Malware
+    description: 'Directing users to download a AZORult rar via bit.ly/2UU9FsT+ - https://app.any.run/tasks/84e612b8-75da-4803-81e4-19a57e7523e5'
+    reporter: MyCrypto    
+-
+    id: 6437
+    name: bittrex-login.inter-cliente.online
+    url: 'http://bittrex-login.inter-cliente.online'
+    coin: ETH
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex phishing for logins with POST /acess/indexSend.php'
+    reporter: MyCrypto    
+-
+    id: 6438
+    name: wallets-trezor.ltd
+    url: 'http://wallets-trezor.ltd'
+    coin: ETH
+    category: Phishing
+    subcategory: Trezor
+    description: 'Fake Trezor site phishing for seeds phrases with POST /mail.php'
+    reporter: MyCrypto    
+-
+    id: 6439
+    name: store-trezor.eu
+    url: 'http://store-trezor.eu'
+    coin: ETH
+    category: Phishing
+    subcategory: Trezor
+    description: 'Fake Trezor site'
     reporter: MyCrypto    
