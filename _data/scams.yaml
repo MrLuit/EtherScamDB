@@ -61402,4 +61402,96 @@
     description: 'Fake Telegram crowdsale site'
     addresses:
         - '0xa95171e49A7e187585C0d5CdE0c209b76a5fD220'
-    reporter: MyCrypto       
+    reporter: MyCrypto
+-
+    id: 6460
+    name: electrum.org.uk
+    url: 'http://electrum.org.uk'
+    coin: ETH
+    category: Malware
+    subcategory: Electrum
+    description: 'Fake Electrum site - https://www.virustotal.com/#/url/65ec39474cfe0827c87a650cf885552101a78f52aa3a8b30e37ccd5ac2bbf8ff/detection'
+    reporter: MyCrypto
+-
+    id: 6461
+    name: rnyuthevallet.xyz
+    url: 'http://rnyuthevallet.xyz'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
+    reporter: MyCrypto
+-
+    id: 6462
+    name: fetch-ai.net
+    url: 'http://fetch-ai.net'
+    coin: ETH
+    category: Phishing
+    subcategory: FetchAi
+    description: 'Fake FetchAI crowdsale site'
+    addresses:
+        - '1BzSWghdNus1FMF55HSAMdo1u3s76Uc2aw'
+        - '0x56d0644c14745db2d2cE0De5c5BEf914CedC1aEa'
+    reporter: MyCrypto
+-
+    id: 6463
+    name: paxfull.ga
+    url: 'http://paxfull.ga'
+    coin: ETH
+    category: Phishing
+    subcategory: Paxful
+    description: 'Fake Paxful phishing for logins with POST /index.php'
+    reporter: MyCrypto
+-
+    id: 6464
+    name: musk.center
+    url: 'http://musk.center'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '15MVbkG7SRXa49wZ9r3eQGtKTyYwroMcqh'
+        - '0xF34bDF2c9057b186499A7BC8aFad1629c808e263'
+    reporter: MyCrypto
+-
+    id: 6465
+    name: bttairdrop.com
+    url: 'http://bttairdrop.com'
+    coin: TRX
+    category: Phishing
+    subcategory: Bittorrent
+    description: 'Fake airdrop phishing for secrets with POST /sign.php'
+    reporter: MyCrypto
+-
+    id: 6466
+    name: bitcoin-update.info
+    url: 'http://bitcoin-update.info'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '123p19mfiADep9BoFCkAgSaeTWsoxT2QaL'
+    reporter: MyCrypto
+-
+    id: 6467
+    name: brad-promo.info
+    url: 'http://brad-promo.info'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x7Aca311F96b05B944511cDE7891702784E2a50aE'
+        - '1NKKhwzsHMnDN8tdooAtJAnHpGk2pyYQyT'
+    reporter: MyCrypto
+-
+    id: 6468
+    name: rnyuthevvallet.com
+    url: 'http://rnyuthevvallet.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /eth'
+    reporter: MyCrypto    
