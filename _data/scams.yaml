@@ -61312,4 +61312,94 @@
     addresses:
         - '13xDvi7vHkVJcC2MiJiVEpwNMEU3iJXc2V'
         - '0xA815748bC376d0014797031941fFaA5C61377735'
+    reporter: MyCrypto
+-
+    id: 6451
+    name: rntherwallet.xyz
+    url: 'http://rntherwallet.xyz'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST https://smtpjs.com/v2/smtp.aspx? (emails to davidwatson00712345@gmail.com)'
+    reporter: MyCrypto
+-
+    id: 6452
+    name: xn--medum-85a.com
+    url: 'http://xn--medum-85a.com'
+    coin: TRX
+    category: Phishing
+    subcategory: Medium
+    description: 'Fake Medium promoting TRX trust trading'
+    addresses:
+        - 'TVyFiVhjShJ2iwgyxiKF9A6AZXzBhErRRw'    
     reporter: MyCrypto    
+-
+    id: 6453
+    name: rntherwallet.icu
+    url: 'http://rntherwallet.icu'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST https://smtpjs.com/v2/smtp.aspx? (emails to davidwatson00712345@gmail.com SecureToken=9708d982-a2fd-4261-a28b-a5d57d12a98e)'
+    reporter: MyCrypto    
+-
+    id: 6454
+    name: electrumhome.org
+    url: 'http://electrumhome.org'
+    coin: ETH
+    category: Phishing
+    subcategory: Electrum
+    description: 'Fake Electrum site'
+    reporter: MyCrypto    
+-
+    id: 6455
+    name: vintaqe-myetherwallet.com
+    url: 'http://vintaqe-myetherwallet.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with GET /en/c.php?data=xxx'
+    reporter: MyCrypto    
+-
+    id: 6456
+    name: vintagemyetherwallet.com
+    url: 'http://vintagemyetherwallet.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /decrypt.php'
+    reporter: MyCrypto    
+-
+    id: 6457
+    name: fetchai.org
+    url: 'http://fetchai.org'
+    coin: ETH
+    category: Phishing
+    subcategory: FetchAi
+    description: 'Fake FetchAI crowdsale site'
+    addresses:
+        - '0xe84a5D3eeBBF460B005A9d4D58F1c3576C7036cE'    
+    reporter: MyCrypto    
+-
+    id: 6458
+    name: fetchai.co
+    url: 'http://fetchai.co'
+    coin: ETH
+    category: Phishing
+    subcategory: FetchAi
+    description: 'Fake FetchAI crowdsale site'
+    addresses:
+        - '0x9A27f038A711D84b4b5dA0d3B96827e11B1DE6Db'
+        - '16ao87m92kUmi2dr1rrmqeiJmmcKnY1h3J'
+    reporter: MyCrypto
+-
+    id: 6459
+    name: telegram.systems
+    url: 'http://telegram.systems'
+    coin: ETH
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'
+    addresses:
+        - '0xa95171e49A7e187585C0d5CdE0c209b76a5fD220'
+    reporter: MyCrypto       
