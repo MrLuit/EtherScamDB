@@ -61494,4 +61494,113 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys with POST /eth'
-    reporter: MyCrypto    
+    reporter: MyCrypto
+-
+    id: 6469
+    name: paxfultrade.xyz
+    url: 'http://paxfultrade.xyz'
+    coin: ETH
+    category: Phishing
+    subcategory: Paxful
+    description: 'Fake Paxful phishing for logins with POST /login.php'
+    reporter: MyCrypto
+-
+    id: 6470
+    name: fetchai.eu
+    url: 'http://fetchai.eu'
+    coin: ETH
+    category: Phishing
+    subcategory: FetchAI
+    description: 'Fake FetchAI crowdsale site'
+    addresses:
+        - '0x56d0644c14745db2d2cE0De5c5BEf914CedC1aEa'
+        - '1BzSWghdNus1FMF55HSAMdo1u3s76Uc2aw'
+    reporter: MyCrypto
+-
+    id: 6470
+    name: binance-support-number.com
+    url: 'http://binance-support-number.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Support
+    description: 'Fake Binance support number +44(203)322 6006'
+    reporter: MyCrypto
+-
+    id: 6471
+    name: httpsmyetherwallet.com
+    url: 'http://httpsmyetherwallet.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /decrypt.php'
+    reporter: MyCrypto
+-
+    id: 6472
+    name: deltafork.app
+    url: 'http://deltafork.app'
+    coin: ETH
+    category: Phishing
+    subcategory: ForkDelta
+    description: 'Fake ForkDelta phishing for keys with POST /decrypt.php'
+    reporter: MyCrypto
+-
+    id: 6473
+    name: yobitex-ru.net
+    url: 'http://yobitex-ru.net'
+    coin: ETH
+    category: Phishing
+    subcategory: YoBit
+    description: 'Fake YoBit phishing for logins with POST /'
+    reporter: MyCrypto
+-
+    id: 6474
+    name: fetchai.net
+    url: 'http://fetchai.net'
+    coin: ETH
+    category: Phishing
+    subcategory: FetchAI
+    description: 'Fake FetchAI crowdsale site'
+    addresses:
+        - '0x07315F6Ddf3348C6D5F561Ca6cB7451f103075aa'
+    reporter: MyCrypto
+-
+    id: 6475
+    name: binaripple.blogspot.com
+    url: 'http://binaripple.blogspot.com'
+    coin: XRP
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'rnFBiAHT8yZ5PL6QbvzUr5dM7Kq6G9gPGo'
+    reporter: MyCrypto
+-
+    id: 6476
+    name: binafeb.blogspot.com
+    url: 'http://binafeb.blogspot.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1JSeDGPmq74JP2RQXqJFdHH3L2jcie3w4X'
+        - '0x55B775Ea2CA493c082F3e17A8433e4D220FBB8d8'
+    reporter: MyCrypto
+-
+    id: 6477
+    name: heuvellandcatering.com
+    url: 'http://heuvellandcatering.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /eth'
+    reporter: MyCrypto
+-
+    id: 6478
+    name: vlntage-myetherwallet.com
+    url: 'http://vlntage-myetherwallet.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
+    reporter: MyCrypto        
