@@ -61603,4 +61603,46 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet'
-    reporter: MyCrypto        
+    reporter: MyCrypto
+-
+    id: 6479
+    name: monero-rings.org
+    url: 'http://monero-rings.org'
+    coin: XMR
+    category: Phishing
+    subcategory: Monero
+    description: 'Linking users to a fake web wallet (https://myxrmwallet.com/) phishing for keys'
+    reporter: MyCrypto
+-
+    id: 6480
+    name: myxrmwallet.com
+    url: 'http://myxrmwallet.com'
+    coin: XMR
+    category: Phishing
+    subcategory: Monero
+    description: 'Fake web wallet phishing for keys with POST /'
+    reporter: MyCrypto
+-
+    id: 6481
+    name: binance-testnet.site
+    url: 'http://binance-testnet.site'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '15ve8wAoinFEaq9tUzgPCU79v5qb9JmgX4'
+        - '0x5584d5ab83d9E338a89769C66df095212BC528E3'
+    reporter: MyCrypto
+-
+    id: 6482
+    name: electrex.info
+    url: 'http://electrex.info'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1Eu7B49ok5Vd8ka5GzkyM9E2GLqF5f4rnQ'
+        - '0x9a827b3aA6Dd9781e25DC7bb58DE67B2fa721D16'
+    reporter: MyCrypto    
