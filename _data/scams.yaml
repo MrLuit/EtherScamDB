@@ -61645,4 +61645,67 @@
     addresses:
         - '1Eu7B49ok5Vd8ka5GzkyM9E2GLqF5f4rnQ'
         - '0x9a827b3aA6Dd9781e25DC7bb58DE67B2fa721D16'
-    reporter: MyCrypto    
+    reporter: MyCrypto
+-
+    id: 6483
+    name: p-eos.one
+    url: 'http://p-eos.one'
+    coin: EOS
+    category: Scamming
+    subcategory: Peos
+    description: 'Fake PEOS site'
+    reporter: MyCrypto
+-
+    id: 6484
+    name: npxs.pro
+    url: 'http://npxs.pro'
+    coin: ETH
+    category: Phishing
+    subcategory: Pundix
+    description: 'Fake Pundix airdrop phishing for keys with POST /sign.php (Redirected from x-crypto.info/pundiX)'
+    reporter: MyCrypto
+-
+    id: 6485
+    name: ethereum-constantinople.com
+    url: 'http://ethereum-constantinople.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet - https://app.any.run/tasks/383deada-390b-41da-aa1c-04edf5df4999'
+    reporter: MyCrypto
+-
+    id: 6486
+    name: gift7500xlm.org
+    url: 'http://gift7500xlm.org'
+    coin: XLM
+    category: Phishing
+    subcategory: Stellar
+    description: 'Fake XLM giveaway phishing for secrets with POST /butut_xlm.php'
+    reporter: MyCrypto
+-
+    id: 6487
+    name: azbit.org
+    url: 'http://azbit.org'
+    coin: AXB
+    category: Phishing
+    subcategory: Azbit
+    description: 'Fake Azbit crowdsale site'
+    reporter: MyCrypto
+-
+    id: 6488
+    name: ico.azbit.org
+    url: 'http://ico.azbit.org'
+    coin: AXB
+    category: Phishing
+    subcategory: Azbit
+    description: 'Fake Azbit crowdsale site'
+    reporter: MyCrypto
+-
+    id: 6489
+    name: paxfulconfirmation.com
+    url: 'http://paxfulconfirmation.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Paxful
+    description: 'Fake paxful phishing for logins with POST /'
+    reporter: MyCrypto     
