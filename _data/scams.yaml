@@ -61708,4 +61708,171 @@
     category: Phishing
     subcategory: Paxful
     description: 'Fake paxful phishing for logins with POST /'
-    reporter: MyCrypto     
+    reporter: MyCrypto
+-
+    id: 6490
+    name: wallet.elitetreum.com
+    url: 'http://wallet.elitetreum.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Elitetreum
+    description: 'Asking for private keys and sending to the backend via POST /import-wallet and sending it to user email in plaintext'
+    reporter: MyCrypto
+-
+    id: 6491
+    name: dogx.dog
+    url: 'http://dogx.dog'
+    coin: ETH
+    category: Phishing
+    subcategory: ICO
+    description: 'Fake team - see https://twitter.com/ummjackson/status/1102780962918682624?s=19'
+    reporter: MyCrypto
+-
+    id: 6492
+    name: cryptoxinvest.com
+    url: 'http://cryptoxinvest.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Exchange
+    description: 'Fake exchange - same kit as crypton-exchange.com'
+    addresses:
+        - '3NGovcBojWQXjTc1m1YUji6NkuVwZi27i7'
+        - '0xEe18e156a020F2b2B2DcdEC3A9476E61fBDE1e48'    
+    reporter: MyCrypto
+-
+    id: 6493
+    name: celer.space
+    url: 'http://celer.space'
+    coin: ETH
+    category: Phishing
+    subcategory: Celer
+    description: 'Fake Celer Network crowdsale site'
+    addresses:
+        - '0x0669398307EfeFB60030ff328a0cB6A3A840182c'    
+    reporter: MyCrypto
+-
+    id: 6494
+    name: electrumcircle.com
+    url: 'https://electrumcircle.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Electrum
+    description: 'Fake Electrum hosting trojan - https://www.virustotal.com/#/file/87aa1fdf00db2ed94464c2687a0e1011a80af576267c0f88d1216c0cb4d2e310/detection'
+    reporter: MyCrypto
+-
+    id: 6495
+    name: l-electrum.org
+    url: 'https://l-electrum.org'
+    coin: ETH
+    category: Phishing
+    subcategory: Electrum
+    description: 'Fake Electrum hosting trojan'
+    reporter: MyCrypto
+-
+    id: 6496
+    name: paxful-dashboard.com
+    url: 'https://paxful-dashboard.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Paxful
+    description: 'Fake Paxful phishing for logins with POST /'
+    reporter: MyCrypto
+-
+    id: 6497
+    name: paxfuluser.com
+    url: 'https://paxfuluser.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Paxful
+    description: 'Fake Paxful phishing for logins with POST /'
+    reporter: MyCrypto
+-
+    id: 6498
+    name: p-eos.io
+    url: 'https://p-eos.io'
+    coin: EOS
+    category: Phishing
+    subcategory: Peos
+    description: 'Fake pEOS site'
+    reporter: MyCrypto
+-
+    id: 6499
+    name: btc24ex.pro
+    url: 'https://btc24ex.pro'
+    coin: ETH
+    category: Scamming
+    subcategory: Exchange
+    description: 'Fake exchange/swap service'
+    addresses:
+        - '1MZJpMbUJJrXKBfYXxc8aY3sCFwzkVo2Qh'
+        - '0x117262Defa4ecE46a009E5E883D7C6f9D2D69b89'
+    reporter: MyCrypto
+-
+    id: 6500
+    name: get-10000-xlm.org
+    url: 'https://get-10000-xlm.org'
+    coin: XLM
+    category: Phishing
+    subcategory: XLM
+    description: 'Fake giveaway phishing for secrets with POST /account-viewer/butut_xlm.php'
+    reporter: MyCrypto
+-
+    id: 6501
+    name: gift-lumens-stellar.org
+    url: 'https://gift-lumens-stellar.org'
+    coin: XLM
+    category: Phishing
+    subcategory: XLM
+    description: 'Fake giveaway phishing for secrets with POST /account-viewer/butut_xlm.php - redirect via bit.ly/get-9998-xlm+'
+    reporter: MyCrypto
+-
+    id: 6502
+    name: dexlaunch-testnet.space
+    url: 'http://dexlaunch-testnet.space'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1NjKNU7FKiZ4VH8GJwHogxp81KVcw7a8Kn'
+        - '0x5584d5ab83d9E338a89769C66df095212BC528E3'
+    reporter: MyCrypto
+-
+    id: 6503
+    name: moyblogspor.blogspot.com
+    url: 'http://moyblogspor.blogspot.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    reporter: MyCrypto
+-
+    id: 6504
+    name: bounty-platform.website
+    url: 'http://bounty-platform.website'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1NjKNU7FKiZ4VH8GJwHogxp81KVcw7a8Kn'
+        - '0x5584d5ab83d9E338a89769C66df095212BC528E3'
+    reporter: MyCrypto
+-
+    id: 6505
+    name: huobi-airdrop.org
+    url: 'https://huobi-airdrop.org'
+    coin: ETH
+    category: Phishing
+    subcategory: Huobi
+    description: 'Using fake MetaMask alerts to get users to install a CX coigcglbjbcoklkkfnombicaacmkphcm'
+    reporter: MyCrypto
+-
+    id: 6506
+    name: huobiairdrop.co
+    url: 'https://huobiairdrop.co'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake airdrop phishing for keys - https://twitter.com/sniko_/status/1105176682523254789'
+    reporter: MyCrypto        
