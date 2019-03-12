@@ -61875,4 +61875,33 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake airdrop phishing for keys - https://twitter.com/sniko_/status/1105176682523254789'
-    reporter: MyCrypto        
+    reporter: MyCrypto
+-
+    id: 6507
+    name: huobiairdrop.com
+    url: 'https://huobiairdrop.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Huobi
+    description: 'Using fake MetaMask alerts to get users to install a CX coigcglbjbcoklkkfnombicaacmkphcm'
+    reporter: MyCrypto
+-
+    id: 6508
+    name: get-gift-stellar.org
+    url: 'http://get-gift-stellar.org'
+    coin: XLM
+    category: Phishing
+    subcategory: Stellar
+    description: 'Fake Stellar airdrop with POST /kapuyuak.php'
+    reporter: MyCrypto
+-
+    id: 6509
+    name: ethers-live.com
+    url: 'http://ethers-live.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xd51B910A21F091995a2fDBc54f8ae2F981506B5f'
+    reporter: MyCrypto    
