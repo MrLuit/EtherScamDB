@@ -61904,4 +61904,45 @@
     description: 'Trust trading scam site'
     addresses:
         - '0xd51B910A21F091995a2fDBc54f8ae2F981506B5f'
+    reporter: MyCrypto
+-
+    id: 6510
+    name: kraken-login.ml
+    url: 'http://kraken-login.ml'
+    coin: ETH
+    category: Phishing
+    subcategory: Kraken
+    description: 'Fake Kraken phishing for logins with POST /logins.php'
+    reporter: MyCrypto
+-
+    id: 6511
+    name: kraken-login.ga
+    url: 'http://kraken-login.ga'
+    coin: ETH
+    category: Phishing
+    subcategory: Kraken
+    description: 'Fake Kraken phishing for logins with POST /logins.php'
+    reporter: MyCrypto
+-
+    id: 6512
+    name: gram-network.net
+    url: 'http://gram-network.net'
+    coin: ETH
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'
+    addresses:
+        - '12RbQmtZ1nmSndK4vxtnzmpNXjLpbjEHce'
+        - '0x2914c01D6589B3B52a065A9D9cDA539cA765A311'
+        - 'rMMRv9mFdyHa5eB8bNVs4RpTRGm6gtriX6'
+        - '19WZkLuC6meqfHPEfbedpTAP1WXEHeyG61'
+    reporter: MyCrypto
+-
+    id: 6513
+    name: ethersale.online
+    url: 'http://ethersale.online'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /send_private_key.php - redirected via https://bitly.com/senerth+'
     reporter: MyCrypto    
