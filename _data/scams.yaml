@@ -61945,4 +61945,74 @@
     category: Phishing
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys with POST /send_private_key.php - redirected via https://bitly.com/senerth+'
+    reporter: MyCrypto
+-
+    id: 6514
+    name: bitcoinvest.tech
+    url: 'http://bitcoinvest.tech'
+    coin: ETH
+    category: Scamming
+    subcategory: Exchange
+    description: 'Trust trading scam site - fake investment harvesting addresses and emails'
+    reporter: MyCrypto
+-
+    id: 6515
+    name: bestcdanje.org.ru
+    url: 'http://bestcdanje.org.ru'
+    coin: ETH
+    category: Phishing
+    subcategory: BestExchange
+    description: 'Fake BestChange - reported address 0xe0eEC9b102facC20e299b3adAFB20B5003a4350f'
+    reporter: MyCrypto
+-
+    id: 6516
+    name: hmqfoundation.com
+    url: 'http://hmqfoundation.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Humaniq
+    description: 'Fake HMQ crowdsale site'
+    addresses:
+        - '1LvNgSpd58Dj8oujCJHr9PsVBFch71Y9Me'
+        - '0xc1b439273B8Ba8ab5489d5Ed945F559f90d92988'
+        - '47v1cXsUdPN6vLeCwzCFAbAw8VjNEoMXSfLMpGkg76z9jPVM1wxxpmmjUvGDxnZQak4TqDM15MPbcPnhMcFu8TXAB6wugV1' 
+    reporter: MyCrypto
+-
+    id: 6517
+    name: onixcrypt.com
+    url: 'http://onixcrypt.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Exchange
+    description: 'Fake exchange. Same kit as firecrypto.info'
+    addresses:
+        - '3Hzp7NVMyBgkPeQHPUNYgBLbaRsuU2eYER'
+        - '0x8Db2eC6CBE35062A3F30DCBF7F281604820490EE'    
+    reporter: MyCrypto
+-
+    id: 6518
+    name: ldexmarket.pro
+    url: 'http://ldexmarket.pro'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for secrets with POST /log.php'  
+    reporter: MyCrypto
+-
+    id: 6519
+    name: vintage-metherwallet.co
+    url: 'http://vintage-metherwallet.co'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /sending.php'  
+    reporter: MyCrypto
+-
+    id: 6520
+    name: blockchein.lpgirn.com
+    url: 'http://blockchein.lpgirn.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake Blockchain phishing for logins'
     reporter: MyCrypto    
