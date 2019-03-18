@@ -62015,4 +62015,87 @@
     category: Phishing
     subcategory: Blockchain
     description: 'Fake Blockchain phishing for logins'
+    reporter: MyCrypto
+-
+    id: 6521
+    name: kraken-com.ga
+    url: 'http://kraken-com.ga'
+    coin: ETH
+    category: Phishing
+    subcategory: Kraken
+    description: 'Fake Kraken phishing for logins with POST /logins.php'
+    reporter: MyCrypto
+-
+    id: 6522
+    name: exoduswallet.online
+    url: 'http://exoduswallet.online'
+    coin: ETH
+    category: Phishing
+    subcategory: Exodus
+    description: 'Fake Exodus wallet - https://www.virustotal.com/#/url/2b4cae74b5ddc266bbfba1c3f9f816d13c083bb4c00f3579b5da3e29a5560e3a/detection'
+    reporter: MyCrypto
+-
+    id: 6523
+    name: bitcoinarmory.tech
+    url: 'http://bitcoinarmory.tech'
+    coin: ETH
+    category: Phishing
+    subcategory: BitcoinArmory
+    description: 'Fake bitcoin armory site (HTTrack fingerprint)'
+    reporter: MyCrypto
+-
+    id: 6524
+    name: celer.today
+    url: 'http://celer.today'
+    coin: ETH
+    category: Phishing
+    subcategory: Celer
+    description: 'Fake Celer crowdsale site'
+    addresses:
+        - '0x0669398307EfeFB60030ff328a0cB6A3A840182c'    
+    reporter: MyCrypto
+-
+    id: 6525
+    name: celer.site
+    url: 'http://celer.site'
+    coin: ETH
+    category: Phishing
+    subcategory: Celer
+    description: 'Fake Celer crowdsale site'
+    addresses:
+        - '0x8105ed8a3be363e32c91a0904cd59e0f843d7123'    
+    reporter: MyCrypto
+-
+    id: 6526
+    name: coinbase-app.ga
+    url: 'http://coinbase-app.ga'
+    coin: ETH
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Fake coinbase phishing for logins with POST /sessions.php' 
+    reporter: MyCrypto
+-
+    id: 6526
+    name: ripplenet.limited
+    url: 'http://ripplenet.limited'
+    coin: XRP
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading site'
+    addresses:
+        - 'rwjjriYwWsE3ntaMP2DasPh8LgJSZiAMig'    
+    reporter: MyCrypto
+-
+    id: 6527
+    name: gram-network.org
+    url: 'http://gram-network.org'
+    coin: ETH
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'
+    addresses:
+        - '12RbQmtZ1nmSndK4vxtnzmpNXjLpbjEHce'
+        - '0x2914c01D6589B3B52a065A9D9cDA539cA765A311'
+        - 'rMMRv9mFdyHa5eB8bNVs4RpTRGm6gtriX6'
+        - '19WZkLuC6meqfHPEfbedpTAP1WXEHeyG61'
     reporter: MyCrypto    
