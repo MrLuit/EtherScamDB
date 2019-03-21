@@ -62098,4 +62098,85 @@
         - '0x2914c01D6589B3B52a065A9D9cDA539cA765A311'
         - 'rMMRv9mFdyHa5eB8bNVs4RpTRGm6gtriX6'
         - '19WZkLuC6meqfHPEfbedpTAP1WXEHeyG61'
-    reporter: MyCrypto    
+    reporter: MyCrypto
+-
+    id: 6528
+    name: celerc.network
+    url: 'http://celerc.network'
+    coin: ETH
+    category: Phishing
+    subcategory: Celer
+    description: 'Fake Celer crowdsale site'
+    addresses:
+        - '0x70A1d170d055d0B5eddA1056747119550cfc40Cc'
+        - '1BzSWghdNus1FMF55HSAMdo1u3s76Uc2aw'
+    reporter: MyCrypto
+-
+    id: 6529
+    name: electrumproject.org
+    url: 'http://electrumproject.org'
+    coin: ETH
+    category: Phishing
+    subcategory: Electrum
+    description: 'Fake Electrum site - https://www.virustotal.com/#/url/180557c8ee08b9dc8bf7b0fa191980c9150e94878260fd8ac686bbd2e704904d/detection'
+    reporter: MyCrypto
+-
+    id: 6530
+    name: idex.money
+    url: 'http://idex.money'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for keys with POST /send_1.php'
+    reporter: MyCrypto
+-
+    id: 6531
+    name: celer.work
+    url: 'http://celer.work'
+    coin: ETH
+    category: Phishing
+    subcategory: Celer
+    description: 'Fake Celer crowdsale site'
+    reporter: MyCrypto
+-
+    id: 6532
+    name: eth.elon-musk.space
+    url: 'http://eth.elon-musk.space'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading site'
+    addresses:
+        - '0x18341b373C795736C09BeF6beF09BcEcBA4d27fF'    
+    reporter: MyCrypto
+-
+    id: 6533
+    name: btc.elon-musk.space
+    url: 'http://btc.elon-musk.space'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading site'
+    addresses:
+        - '1B6AHA8G56GaDnothSmUiesBcGW9jnYLN5'    
+    reporter: MyCrypto
+-
+    id: 6534
+    name: rnuathervaltet.com
+    url: 'http://rnuathervaltet.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /eth (Google Ad redirected via www.buytelaer.com)'
+    reporter: MyCrypto
+-
+    id: 6535
+    name: rnyetherwaliet.com
+    url: 'http://rnyetherwaliet.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with GET /en/c.php?data=xxx'
+    addresses:
+        - '0x9826cac2a9fc7dd43c6d3713694b20b036895be6'        
+    reporter: MyCrypto       
