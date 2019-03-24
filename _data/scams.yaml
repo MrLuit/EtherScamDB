@@ -62179,4 +62179,71 @@
     description: 'Fake MyEtherWallet phishing for keys with GET /en/c.php?data=xxx'
     addresses:
         - '0x9826cac2a9fc7dd43c6d3713694b20b036895be6'        
-    reporter: MyCrypto       
+    reporter: MyCrypto
+-
+    id: 6536
+    name: wbscoins.com
+    url: 'http://wbscoins.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Exchange
+    description: 'Fake exchange phishing for KYC data'      
+    reporter: MyCrypto
+-
+    id: 6537
+    name: neotracker.me
+    url: 'http://neotracker.me'
+    coin: NEO
+    category: Phishing
+    subcategory: Exchange
+    description: 'Fake NeoTracker'      
+    reporter: MyCrypto
+-
+    id: 6538
+    name: gift-wallet-stellar.org
+    url: 'http://gift-wallet-stellar.org'
+    coin: XLM
+    category: Phishing
+    subcategory: Stellar
+    description: 'Fake Stellar giveaway phishing for keys with POST /kapuyuak.php'      
+    reporter: MyCrypto
+-
+    id: 6539
+    name: wasabibitcoinwallet.org
+    url: 'http://wasabibitcoinwallet.org'
+    coin: BTC
+    category: Malware
+    subcategory: Wallet
+    description: 'Fake Wasabi wallet - https://redd.it/b3qcrv'      
+    reporter: MyCrypto
+-
+    id: 6540
+    name: usddex.io
+    url: 'http://usddex.io'
+    coin: ETH
+    category: Scamming
+    subcategory: ICO
+    description: 'Token sale of stablecoin, now ghosting everyone'
+    addresses:
+        - '0xaEa3846E14beC1ba8F562844d39b1215A1D588C6'      
+    reporter: MyCrypto
+-
+    id: 6541
+    name: mithril.pro
+    url: 'http://mithril.pro'
+    coin: ETH
+    category: Phishing
+    subcategory: Mithril
+    description: 'Fake airdrop phishing for keys with POST /sign.php'      
+    reporter: MyCrypto
+-
+    id: 6542
+    name: cryptoxfan.website
+    url: 'http://cryptoxfan.website'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading site'
+    addresses:
+        - '1L5zxpkAuh5sVx8aoMvLFegf59jk2NSyty'    
+    reporter: MyCrypto
