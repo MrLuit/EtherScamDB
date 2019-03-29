@@ -62247,3 +62247,102 @@
     addresses:
         - '1L5zxpkAuh5sVx8aoMvLFegf59jk2NSyty'    
     reporter: MyCrypto
+-
+    id: 6543
+    name: ildexmarket.info
+    url: 'http://ildexmarket.info'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake IDEX phishing for keys with POST /log.php'      
+    reporter: MyCrypto
+-
+    id: 6544
+    name: bitcoin-gold-blockchain.info
+    url: 'http://bitcoin-gold-blockchain.info'
+    coin: ETH
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake blockchain (bitcoin gold branded) phishing for keys with POST /php/send.php'      
+    reporter: MyCrypto
+-
+    id: 6545
+    name: 100x-mlt-btc.com
+    url: 'http://100x-mlt-btc.com'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading site'
+    addresses:
+        - '1DZjEc1xRnEszyXwBbH27NEajrgcqX8emr'    
+    reporter: MyCrypto
+-
+    id: 6546
+    name: constantinopleplus.io
+    url: 'http://constantinopleplus.io'
+    coin: ETH
+    category: Scamming
+    subcategory: Investments
+    description: 'Scamming users - fake partners'
+    addresses:
+        - '0xc1E6e4D9Fc0B7e555bb8634BcACc9A1067bEC039'         
+    reporter: MyCrypto
+-
+    id: 6547
+    name: btcldn.com
+    url: 'http://btcldn.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Exchange
+    description: 'Fake exchange'
+    addresses:
+        - '3FzwWhqW1MDNxS6AUwX6CPF5RPgodtkYqY'
+        - '0x7c9001c50ea57c1b2ec1e3e63cf04c297534bfc1'
+        - 'LgcoHv7MkESD5EYe6qjJGtA2cse7LeAZnx'
+    reporter: MyCrypto
+-
+    id: 6548
+    name: your-btc.co.uk
+    url: 'http://your-btc.co.uk'
+    coin: ETH
+    category: Scamming
+    subcategory: Exchange
+    description: 'Fake exchange'
+    addresses:
+        - '1MX2sjhoKgBRNRuKj8nSqZUr5VLorULHF7'
+        - '0x8f0e5ef93838ffb9bc2c5afb34c32f55ea97a932'
+        - 'qzuqzn8y2726k2pwx3767zmja9m9wdh5wyukklr6kf'
+    reporter: MyCrypto
+-
+    id: 6549
+    name: cryptotis.com
+    url: 'http://cryptotis.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Exchange
+    description: 'Fake exchange'
+    addresses:
+        - '1Hnh8WkE3Hq6msYcCmBQYPZUthhm3PLxgu'
+        - '0x2d1f576724cf3495fc397490ea36cbe2f8bfa7bc'
+        - 'qzkmwk9hfjra3gwecc8l5cp4xgteqe8x55zhjzw4fy'
+    reporter: MyCrypto
+-
+    id: 6550
+    name: binancecz.blogspot.com
+    url: 'http://binancecz.blogspot.com'
+    coin: XRP
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading site'
+    addresses:
+        - 'rnFBiAHT8yZ5PL6QbvzUr5dM7Kq6G9gPGo'    
+    reporter: MyCrypto
+-
+    id: 6551
+    name: bttorent.com
+    url: 'http://bttorent.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Bittorrent
+    description: 'Fake Bittorent site (BTT token) harvesting user emails and 0x addresses'  
+    reporter: MyCrypto      
