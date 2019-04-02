@@ -1,5 +1,6 @@
 {
   "whitelist": {
+    "1095957818866307072": "MolochDAO",
     "467725859": "Andre1Popescu",
     "911245230426525697": "fetch_ai",
     "876094025169817600": "guesserio",
@@ -9407,6 +9408,7 @@
     "183853006": "migafreeman"
   },
   "blacklist": {
+	"278265696": "MoIochDAO",
 	"260340944": "DannyAntonioP",
 	"321652568": "syscoin_tx",
 	"1004395069598720001": "etherxeum",
