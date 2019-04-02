@@ -62345,4 +62345,137 @@
     category: Phishing
     subcategory: Bittorrent
     description: 'Fake Bittorent site (BTT token) harvesting user emails and 0x addresses'  
-    reporter: MyCrypto      
+    reporter: MyCrypto
+-
+    id: 6552
+    name: paraetherwallet.com
+    url: 'http://paraetherwallet.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /paramining.php'  
+    reporter: MyCrypto
+-
+    id: 6553
+    name: earnfreebitcoins.org
+    url: 'http://earnfreebitcoins.org'
+    coin: BTC
+    category: Scamming
+    subcategory: Bitcoin
+    description: 'Fake Bitcoin minter'
+    addresses:
+        - '1Q3EfbS5j9DBndLFqVGJPpd7qCmzXuRe8T'       
+    reporter: MyCrypto
+-
+    id: 6554
+    name: myethyogawallclass.icu
+    url: 'http://myethyogawallclass.icu'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /vintage/apl.etherscan.io.php'  
+    reporter: MyCrypto
+-
+    id: 6555
+    name: wowx.io
+    url: 'http://wowx.io'
+    coin: ETH
+    category: Hacked
+    subcategory: ICO
+    description: 'Hacked ICO page (requires KYC) blocking until they confirmed recontrol'  
+    reporter: MyCrypto
+-
+    id: 6556
+    name: coinbtcbot.com
+    url: 'http://coinbtcbot.com'
+    coin: BTC
+    category: Malware
+    subcategory: Bitcoin
+    description: 'Fake BTC bot - https://www.virustotal.com/#/url/23ec4ff2ee002032d76d43a9defcd3258b512cdbec155a6ff14ba7f270cbd8b8/detection'
+    reporter: MyCrypto
+-
+    id: 6557
+    name: catbot.ru
+    url: 'http://catbot.ru'
+    coin: BTC
+    category: Malware
+    subcategory: Bitcoin
+    description: 'Fake BTC bot - https://www.virustotal.com/#/url/5bdd9f01151c569de824123d25db6958d8e28fc68ccb57687ff65fd048baf2f6/detection'
+    reporter: MyCrypto
+-
+    id: 6558
+    name: binance-testnet.com
+    url: 'http://binance-testnet.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading site'
+    addresses:
+        - '1Ma27SrQWDmwZbebAGJHHiSpr5TqbQJhng'
+        - '0xA87149fC85936E6807222fb211162D5bE440A930'
+    reporter: MyCrypto
+-
+    id: 6559
+    name: blogbibox.com
+    url: 'http://blogbibox.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading site'
+    addresses:
+        - '0x53645080083e0037976455ef903BC88679D1029F'
+    reporter: MyCrypto
+-
+    id: 6560
+    name: exodus-support.com
+    url: 'http://exodus-support.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Exodus
+    description: 'Fake Exodus support site phishing for secrets with POST /6.php'  
+    reporter: MyCrypto
+-
+    id: 6561
+    name: bitcoinru-org.site
+    url: 'http://bitcoinru-org.site'
+    coin: BTC
+    category: Phishing
+    subcategory: Bitcoin
+    description: 'Fake Bitcoin wallet phishing for secrets with mail.php'  
+    reporter: MyCrypto
+-
+    id: 6562
+    name: coinbase-getcrypto.890m.com
+    url: 'http://coinbase-getcrypto.890m.com'
+    coin: XLM
+    category: Phishing
+    subcategory: Stellar
+    description: 'Fake Stellar giveaway phishing for secrets with POST /2.php'  
+    reporter: MyCrypto
+-
+    id: 6563
+    name: bithextrade.com
+    url: 'http://bithextrade.com'
+    coin: BTC
+    category: Scamming
+    subcategory: Exchange
+    description: 'Fake exchange phishing for funds and KYC documents'
+    addresses:
+        - '3DyRE6JHYjHZPkSZPEwAJY3h7RgLgSEpHq'
+        - '0xadb2f5aa3ee37bb3900db9919ab5cd8b148b5348'
+        - 'qq6qzcaphg3ygysue8lawxan5khscskgwcc6fywx7a'
+        - 't1R2tWtBWr7Us5PSXoLJZgEPoxPbNL8uk5C'
+        - '0x0a5723d1bc889d8f755eb36fcd60483cc8bcf203'
+        - '0x9afa0a129d164323965f3f5bdf5f348897c0a205'
+    reporter: MyCrypto
+-
+    id: 6564
+    name: matic.work 
+    url: 'http://matic.work'
+    coin: ETH
+    category: Phishing
+    subcategory: Matic
+    description: 'Fake Matic crowdsale site'
+    addresses:
+        - '0xE3D474F3686a831BF380498D1dbd57FDf972CA30'    
+    reporter: MyCrypto    
