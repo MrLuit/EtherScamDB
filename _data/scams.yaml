@@ -62478,4 +62478,163 @@
     description: 'Fake Matic crowdsale site'
     addresses:
         - '0xE3D474F3686a831BF380498D1dbd57FDf972CA30'    
-    reporter: MyCrypto    
+    reporter: MyCrypto
+-
+    id: 6565
+    name: myethantiwallcafe.club
+    url: 'http://myethantiwallcafe.club'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys. Suspected address: 0x18ffda6e10338378159411135f78bfa98f18298a'  
+    reporter: MyCrypto
+-
+    id: 6566
+    name: ripplebonus.blogspot.com
+    url: 'http://ripplebonus.blogspot.com'
+    coin: XRP
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading site'
+    addresses:
+        - 'rhTCdpaZQSKbHNYY85xPLMEWQbyxYr4SFY'
+    reporter: MyCrypto
+-
+    id: 6567
+    name: idexx.site
+    url: 'http://idexx.site'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for keys with POST /log.php'
+    reporter: MyCrypto
+-
+    id: 6568
+    name: kucoin-activity.com
+    url: 'http://kucoin-activity.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading site'
+    addresses:
+        - '0x6f431A1B6c368cD3ABB7BAcDCf0625D6749F1980'
+    reporter: MyCrypto
+-
+    id: 6569
+    name: ethereum2.online
+    url: 'http://ethereum2.online'
+    coin: ETH
+    category: Phishing
+    subcategory: Wallet
+    description: 'Phishing for secrets with POST /send_private_key.php'
+    reporter: MyCrypto
+-
+    id: 6570
+    name: xn--nternational-bittrex-966k.com
+    url: 'http://xn--nternational-bittrex-966k.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex phishing for logins with POST /phone-auth.php'
+    reporter: MyCrypto 
+-
+    id: 6571
+    name: hitbtc.com.pl
+    url: 'http://hitbtc.com.pl'
+    coin: ETH
+    category: Phishing
+    subcategory: HitBTC
+    description: 'Fake HitBTC phishing for logins with POST /mail.php'
+    reporter: MyCrypto 
+-
+    id: 6572
+    name: blcokchain.lloqin.com
+    url: 'http://blcokchain.lloqin.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake Blockchain phishing for logins with POST /send.php'
+    reporter: MyCrypto
+-
+    id: 6573
+    name: ldax.market
+    url: 'http://ldax.market'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market phishing for secrets with POST /eth/aura/saveforms/target'
+    reporter: MyCrypto
+-
+    id: 6574
+    name: idexcorp.comgg.gg
+    url: 'http://idexcorp.comgg.gg'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex market phishing for secrets with POST https://ldax.market/eth/aura/saveforms/target'
+    reporter: MyCrypto
+-
+    id: 6575
+    name: investment2x.online
+    url: 'http://investment2x.online'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading site - Bitcoin Doubler'
+    addresses:
+        - '1BDyDCvFoyds89YUgtnbnz2kuUMpYALDa8'
+    reporter: MyCrypto
+-
+    id: 6576
+    name: electrumsecuredownload.com
+    url: 'http://electrumsecuredownload.com'
+    coin: ETH
+    category: Malware
+    subcategory: Electrum
+    description: 'Fake Electrum site malware download - https://www.virustotal.com/#/url/28dfe5ea26022ad0aaabb65915938d5f61aa0ae00ea5ae69e2fb8d9826d97d10/detection'
+    reporter: MyCrypto
+-
+    id: 6577
+    name: loginbittrex.com
+    url: 'http://loginbittrex.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Binance
+    description: 'Binance phishing kit phishing for logins with POST /add_phone.php'
+    reporter: MyCrypto
+-
+    id: 6578
+    name: xn--btstamp-eeb.net
+    url: 'http://xn--btstamp-eeb.net'
+    coin: ETH
+    category: Phishing
+    subcategory: Bitstamp
+    description: 'Fake Bitstamp phishing for logins with POST /add_phone.php'
+    reporter: MyCrypto
+-
+    id: 6579
+    name: myethsonewallret.icu
+    url: 'http://myethsonewallret.icu'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet'
+    reporter: MyCrypto
+-
+    id: 6580
+    name: zollo.io
+    url: 'http://zollo.io'
+    coin: ETH
+    category: Phishing
+    subcategory: Zilliqa
+    description: 'Fake web wallet phishing for metamask secrets and keys with POST /log2.php - suspected address: 0xB8f2B53063DED859a3fdb96d43dd3D37253F47Bf'
+    reporter: MyCrypto
+-
+    id: 6581
+    name: zilliqablog.com
+    url: 'http://zilliqablog.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Zilliqa
+    description: 'Fake Zilliqa blog linking to zollo.io'
+    reporter: MyCrypto       
