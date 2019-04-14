@@ -62637,4 +62637,229 @@
     category: Phishing
     subcategory: Zilliqa
     description: 'Fake Zilliqa blog linking to zollo.io'
+    reporter: MyCrypto
+-
+    id: 6582
+    name: bitcoinru-wallet.site
+    url: 'http://bitcoinru-wallet.site'
+    coin: BTC
+    category: Phishing
+    subcategory: Wallet
+    description: 'Fake Bitcoin wallet phishing for details with POST /mail.php'
+    reporter: MyCrypto
+-
+    id: 6583
+    name: bitcoin24-wallet.site
+    url: 'http://bitcoin24-wallet.site'
+    coin: BTC
+    category: Phishing
+    subcategory: Wallet
+    description: 'Fake Bitcoin wallet phishing for details with POST /mail.php'
+    reporter: MyCrypto
+-
+    id: 6584
+    name: blokhchian-wallet.xyz
+    url: 'http://blokhchian-wallet.xyz'
+    coin: BTC
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake Blockchain wallet phishing for logins with POST /'
+    reporter: MyCrypto
+-
+    id: 6585
+    name: bloclkchaln.online 
+    url: 'http://bloclkchaln.online'
+    coin: BTC
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake Blockchain wallet phishing for logins'
+    reporter: MyCrypto
+-
+    id: 6586
+    name: gram.one
+    url: 'http://gram.one'
+    coin: ETH
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'
+    addresses:
+        - '1GvEMyf8CidhNi3zZXb3VpP6mbxvdRSmq6'
+        - '0x482729ad79e5da6c48c0e7a4b3e67ba13ceb7404'
+        - 'raHtX9jJf2ytdLPFivn9pjuvHNsvB4hRYf'
+        - '19WZkLuC6meqfHPEfbedpTAP1WXEHeyG61'
+    reporter: MyCrypto
+-
+    id: 6587
+    name: ethers.today
+    url: 'http://ethers.today'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading site'
+    addresses:
+        - '0x9366876700Ca6DB41E244C6995770A518e043fa1'
+        - '0xe5688E09a756Ea28a87B9738D1f2C69C19754316'
+        - '0x86fE2696BFbFAc26e78AA9020C87f1414879eDDF'
+    reporter: MyCrypto
+-
+    id: 6588
+    name: coinbase.pro-xa.com
+    url: 'http://coinbase.pro-xa.com'
+    coin: BTC
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Fake coinbase phishing for logins with POST /'
+    reporter: MyCrypto
+-
+    id: 6589
+    name: medium.wiki
+    url: 'http://medium.wiki'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site (redirecting to bit.ly/2HEAOxb+)'
+    addresses:
+        - '1L5zxpkAuh5sVx8aoMvLFegf59jk2NSyty'
+    reporter: MyCrypto
+-
+    id: 6590
+    name: cryptoxfan.website
+    url: 'http://cryptoxfan.website'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site (redirected from medium.wiki via bit.ly/2HEAOxb+)'
+    addresses:
+        - '1L5zxpkAuh5sVx8aoMvLFegf59jk2NSyty'
+    reporter: MyCrypto
+-
+    id: 6591
+    name: drep-wallet.com
+    url: 'http://drep-wallet.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Exchange
+    description: 'Fake exchange (same kit as firstcrypt.info) - linking users to backxcoin.com (https://twitter.com/sniko_/status/1116123334830374918)'
+    addresses:
+        - '3GsPwGDCCrUhiPGCD4XNAqNJHjmvijsLUo'
+        - '0xEe18e156a020F2b2B2DcdEC3A9476E61fBDE1e48'
+    reporter: MyCrypto
+-
+    id: 6592
+    name: hittbtc.net
+    url: 'http://hittbtc.net'
+    coin: BTC
+    category: Phishing
+    subcategory: HitBTC
+    description: 'Fake Hitbtc phishing for logins with POST /'
+    reporter: MyCrypto
+-
+    id: 6593
+    name: backxcoin.com
+    url: 'http://backxcoin.com'
+    coin: BTC
+    category: Phishing
+    subcategory: Malware
+    description: 'Hosting a malicious browser extension down (CCB - same as https://medium.com/mycrypto/ef9c10f0128f - see https://twitter.com/sniko_/status/1116123334830374918'
+    addresses:
+        - '1ADezAfGgKnezVRsujq3yQAADHbvF6e8xc'
+        - '0x12A1CCF979D65333E8e27edE047B476736B584a6'
+        - 'qzax9ttd75ey5z93m7l6u3urwfuum5nxqufuhxfzcg'
+        - 'LU4a7LeMmfDStUE8hCDfTRmyUzyruXPTmH'
+        - 'rvVUo33K92NVdUVxhVVhBbo1rArwEDGTW'
+        - '0xF38b7Dc84C383AbBd18F2fBF348e0D4Eba9dD61F'
+        - 'TWbipjDZHF5Kpm1NB1scznk8uaEP8Qizxd'
+    reporter: MyCrypto
+-
+    id: 6594
+    name: dextestnet.com
+    url: 'http://dextestnet.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x988Caa328C1f5F802C936Dd1Ae9e3da24729B687'
+        - '1HS1GxzKLXbRFu8JhHoU9dpDSTzs3zPc4R'
+    reporter: MyCrypto
+-
+    id: 6595
+    name: dex.binance.org.nz
+    url: 'http://dex.binance.org.nz'
+    coin: ETH
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake Binance DEX phishing for secrets with POST /log.php'
+    reporter: MyCrypto
+-
+    id: 6596
+    name: get-xlm-stellar.org
+    url: 'http://get-xlm-stellar.org'
+    coin: ETH
+    category: Phishing
+    subcategory: Stellar
+    description: 'Fake XLM giveaway phishing for secrets with POST /butut_xlm.php'
+    reporter: MyCrypto
+-
+    id: 6597
+    name: kartiy.com
+    url: 'http://kartiy.com'
+    coin: ETH
+    category: Scamming
+    subcategory: WebWallet
+    description: 'Fake web wallet'
+    reporter: MyCrypto
+-
+    id: 6598
+    name: fortunejack.cc
+    url: 'http://fortunejack.cc'
+    coin: ETH
+    category: Phishing
+    subcategory: FortuneJack
+    description: 'Fake FortuneJack - see https://twitter.com/MisterCh0c/status/1117034106695692288'
+    reporter: MyCrypto
+-
+    id: 6599
+    name: bnb-launch.eu
+    url: 'http://bnb-launch.eu'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site - fake BNB giveaway'
+    addresses:
+        - '1MCfDnFEfWMfLCzfTNzH3Fxpuio6VBy2bh'
+        - '0x5917948DA83aa6922b55Dd689762bC22E555Baf2'
+    reporter: MyCrypto
+-
+    id: 6600
+    name: electrum.bz
+    url: 'http://electrum.bz'
+    coin: ETH
+    category: Phishing
+    subcategory: Malware
+    description: 'Fake Electrum site'
+    reporter: MyCrypto
+-
+    id: 6601
+    name: bnb-testnet.com
+    url: 'http://bnb-testnet.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site - fake BNB giveaway'
+    addresses:
+        - '1NrHXuUHh2PQSW7j6G2PEy9mJ3q6H16eZb'
+        - '0x86d5F3aa7bF4060a3F18832fC3FAA3569483Cc62'
+    reporter: MyCrypto
+-
+    id: 6602
+    name: matic-network.com
+    url: 'http://matic-network.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Matic
+    description: 'Fake Matic crowdsale site'
+    addresses:
+        - '0x069757a3DFD227E39493890e83de11598bFC7f85'
+        - '18ko4MKbJsmEPAwRXCVX2QWomYqXaf1DHT'
     reporter: MyCrypto       
