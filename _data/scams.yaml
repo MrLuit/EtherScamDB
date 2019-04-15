@@ -62862,4 +62862,103 @@
     addresses:
         - '0x069757a3DFD227E39493890e83de11598bFC7f85'
         - '18ko4MKbJsmEPAwRXCVX2QWomYqXaf1DHT'
-    reporter: MyCrypto       
+    reporter: MyCrypto
+-
+    id: 6603
+    name: gruzovyespecavtovesy.online
+    url: 'http://gruzovyespecavtovesy.online'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /apl.etherscan.io.php'
+    reporter: MyCrypto
+-
+    id: 6604
+    name: gdax.us
+    url: 'http://gdax.us'
+    coin: ETH
+    category: Scamming
+    subcategory: Exchange
+    description: 'Fake exchange (same as your-btc.co.uk)'
+    addresses:
+        - '1Gj9TYmGjCFsNjPrkDcauGEMewiX2YSbDL'
+        - '0x0bb4251b8c5e8acb27d6809d77a10aa1cacc5144'
+        - 'qzh7l8neh3v868uzu74qpyat4gjz2rdv0yhjktqcp2'
+    reporter: MyCrypto
+-
+    id: 6605
+    name: hillstrade.net
+    url: 'http://hillstrade.net'
+    coin: ETH
+    category: Scamming
+    subcategory: Exchange
+    description: 'Fake exchange (same as your-btc.co.uk)'
+    addresses:
+        - '1LPTQoiGTDmbrLB76g5w7ceJa4wShPAG9Z'
+        - '0x84a8e201cfce8a10b1e721e1940a78a3326b7c97'
+        - 'qpdjfyy89utdz5ky34exk3s98c9h4ahtwyjgdr9dze'
+    reporter: MyCrypto
+-
+    id: 6606
+    name: decentralized-launch.com 
+    url: 'http://decentralized-launch.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site - fake BNB giveaway'
+    addresses:
+        - '0x0020731604C882cF7bF8C444BE97d17b19Ea4316'
+        - '16FXzp7wr9xvRyrNZGpddBaJExqZVJ2tDz'
+    reporter: MyCrypto
+-
+    id: 6607
+    name: dexbetalaunchcampaign.com
+    url: 'http://dexbetalaunchcampaign.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xB74Cb9e1defDE24b499b3ca01300c6F7ba53edE7'
+    reporter: MyCrypto
+-
+    id: 6608
+    name: bitcoin-btc-adder.com
+    url: 'http://bitcoin-btc-adder.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Malware
+    description: 'Fake Bitcoin generator'
+    reporter: MyCrypto
+-
+    id: 6609
+    name: constantinopleplus.tech
+    url: 'http://constantinopleplus.tech'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x80f43E67169c917c68391F823FcFf41b9B786D69'
+    reporter: MyCrypto
+-
+    id: 6610
+    name: tokensico.online 
+    url: 'http://tokensico.online'
+    coin: ETH
+    category: Phishing
+    subcategory: Wallet
+    description: 'Fake Ethereum wallet phishing for secrets with POST /send_private_key.php - suspected address: 0x48a17df119f20d50b829f15e43e0e59a658c7476'
+    reporter: MyCrypto
+-
+    id: 6611
+    name: official-binance.space
+    url: 'http://official-binance.space'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '13HHJA5DWjghMTSbEoHEQtf9vEU24nHVsR'
+        - '0x60C9C2DE546BE5fA9F5f1A05D174376d9BB7AD48'
+    reporter: MyCrypto    
