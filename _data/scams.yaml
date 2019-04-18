@@ -62961,4 +62961,163 @@
     addresses:
         - '13HHJA5DWjghMTSbEoHEQtf9vEU24nHVsR'
         - '0x60C9C2DE546BE5fA9F5f1A05D174376d9BB7AD48'
+    reporter: MyCrypto
+-
+    id: 6612
+    name: dex-launch.com
+    url: 'http://dex-launch.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1PgkghXGCzPbaAzU4kfaRnmqrnsr3iZgWi'
+        - '0x8bbA1a1c5e9F72C2CE97A240A7878Dd4AE803b61'
+    reporter: MyCrypto
+-
+    id: 6613
+    name: digitexfutures.com.claim-token-dgtx.com
+    url: 'http://digitexfutures.com.claim-token-dgtx.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Hosting a fake MyEtherWallet phishing for secrets with POST /claim.php - see https://twitter.com/myetherwallet/status/1118207507455889409'
+    reporter: MyCrypto
+-
+    id: 6614
+    name: bin-dex.club
+    url: 'http://bin-dex.club'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1KMigycaAm4vAm94tjeaxzESRiLi9xL5Bx'
+        - '0x29356F085ED17c96b7D1C8A20D1Ee79E616d75bc'
+    reporter: MyCrypto
+-
+    id: 6615
+    name: hellogoldcontract.com
+    url: 'http://hellogoldcontract.com'
+    coin: ETH
+    category: Phishing
+    subcategory: HelloGold
+    description: 'Fake HelloGold - see https://twitter.com/myhellogold/status/1118472913428996096'
+    reporter: MyCrypto
+-
+    id: 6616
+    name: the-spectrumnetwork.com
+    url: 'http://the-spectrumnetwork.com'
+    coin: ETH
+    category: Scamming
+    subcategory: ICO
+    description: 'Fake team - see https://bitcointalk.org/index.php?topic=5128815.0'
+    reporter: MyCrypto
+-
+    id: 6617
+    name: besetchange.org.ru
+    url: 'http://besetchange.org.ru'
+    coin: ETH
+    category: Scamming
+    subcategory: BestChange
+    description: 'Fake exchange'
+    reporter: MyCrypto
+-
+    id: 6618
+    name: blockchai-w.info
+    url: 'http://blockchai-w.info'
+    coin: ETH
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake blockchain phishing for logins with GET /processing/first.php'
+    reporter: MyCrypto
+-
+    id: 6619
+    name: bestmixer.info
+    url: 'http://bestmixer.info'
+    coin: ETH
+    category: Scamming
+    subcategory: Mixer
+    description: 'Fake mixer'
+    addresses:
+        - '3G13u5TpSeg3oEgMbDZfw9d1eX5zt9VwVj'
+        - '3KXmfB4skjcLEWdY26y6jC3f2511ykEZ5r'    
+    reporter: MyCrypto
+-
+    id: 6620
+    name: xrp-ripple.org
+    url: 'http://xrp-ripple.org'
+    coin: XRP
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam - linking to a fake explorer - blthomp.com'
+    addresses:
+        - 'rajkbxHzwaA1g3q8CST9hiKUyc9GDLh74u'
+    reporter: MyCrypto
+-
+    id: 6621
+    name: idex.dev
+    url: 'http://idex.dev'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for keys with POST /key'
+    reporter: MyCrypto
+-
+    id: 6622
+    name: get-ltc-now.online
+    url: 'http://get-ltc-now.online'
+    coin: LTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam'
+    addresses:
+        - '3E8XidwZPe4BPym7CjqmNPvehetsRV326W'
+    reporter: MyCrypto
+-
+    id: 6623
+    name: ethgift.blogspot.com
+    url: 'http://ethgift.blogspot.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam'
+    addresses:
+        - '0x80f43E67169c917c68391F823FcFf41b9B786D69'
+    reporter: MyCrypto
+-
+    id: 6624
+    name: binance.bilttly.com
+    url: 'http://binance.bilttly.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam'
+    addresses:
+        - '0xB74Cb9e1defDE24b499b3ca01300c6F7ba53edE7'
+        - '39VZ9Ktio8q6GANhwhaMf7pcQ3AgZJoUGp'
+    reporter: MyCrypto
+-
+    id: 6625
+    name: bitlvy.com
+    url: 'http://bitlvy.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam'
+    addresses:
+        - '0xB74Cb9e1defDE24b499b3ca01300c6F7ba53edE7'
+        - '39VZ9Ktio8q6GANhwhaMf7pcQ3AgZJoUGp'
+    reporter: MyCrypto
+-
+    id: 6626
+    name: binance.bitlvy.com
+    url: 'http://binance.bitlvy.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam'
+    addresses:
+        - '0xB74Cb9e1defDE24b499b3ca01300c6F7ba53edE7'
+        - '39VZ9Ktio8q6GANhwhaMf7pcQ3AgZJoUGp'
     reporter: MyCrypto    
