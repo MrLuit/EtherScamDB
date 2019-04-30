@@ -24660,7 +24660,7 @@
     subcategory: Dock
     description: Fake Dock crowdsale site
     addresses:
-        - '0x9CdfC5b0ACA4527a0916412E9dbD6AD85556A49'
+        - '0x9CdfC5b0ACA4527a0916412E9dbD6AD85556A494'
     reporter: MyCrypto
 -
     id: 2889
@@ -34211,7 +34211,7 @@
     description: Trust trading scam site
     addresses:
         - '0x2a1cbda9f24255ff3489561af72342871c06b7a3'
-        - 0x5a27a79f5217cad7d95cefcce0ecd18a4c33df84et
+        - '0x5a27a79f5217cad7d95cefcce0ecd18a4c33df84'
     reporter: MyCrypto
 -
     id: 3828
@@ -63120,4 +63120,308 @@
     addresses:
         - '0xB74Cb9e1defDE24b499b3ca01300c6F7ba53edE7'
         - '39VZ9Ktio8q6GANhwhaMf7pcQ3AgZJoUGp'
+    reporter: MyCrypto
+-
+    id: 6627
+    name: buterin-promo.info
+    url: 'http://buterin-promo.info'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam'
+    addresses:
+        - '0x7Aca311F96b05B944511cDE7891702784E2a50aE'
+    reporter: MyCrypto
+-
+    id: 6628
+    name: matic.live
+    url: 'http://matic.live'
+    coin: ETH
+    category: Phishing
+    subcategory: Matic
+    description: 'Fake Matic crowdsale site'
+    addresses:
+        - '0x64B57f49A854533722435652054d0F924f7aCDe7'
+    reporter: MyCrypto
+-
+    id: 6629
+    name: bountyxrp.blogspot.am
+    url: 'http://bountyxrp.blogspot.am'
+    coin: XRP
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam'
+    addresses:
+        - 'rhTCdpaZQSKbHNYY85xPLMEWQbyxYr4SFY'
     reporter: MyCrypto    
+-
+    id: 6630
+    name: bountyxrp.blogspot.com
+    url: 'http://bountyxrp.blogspot.com'
+    coin: XRP
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam'
+    addresses:
+        - 'rhTCdpaZQSKbHNYY85xPLMEWQbyxYr4SFY'
+    reporter: MyCrypto
+-
+    id: 6631
+    name: ico-matic.network
+    url: 'http://ico-matic.network'
+    coin: ETH
+    category: Phishing
+    subcategory: Matic
+    description: 'Fake Matic crowdsale site'
+    addresses:
+        - '0x4256117a02aC880335f8bFbEed63f92eC0001A5a'
+    reporter: MyCrypto
+-
+    id: 6632
+    name: wallet-trezor.io-backup-online.info
+    url: 'http://wallet-trezor.io-backup-online.info'
+    coin: ETH
+    category: Phishing
+    subcategory: Trezor
+    description: 'Fake trezor site phishing for secrets'
+    reporter: MyCrypto
+-
+    id: 6633
+    name: everex.cash.events-erc-20.com
+    url: 'http://everex.cash.events-erc-20.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for secrets with POST /claim.php'
+    reporter: MyCrypto 
+-
+    id: 6634
+    name: tokenstore.store
+    url: 'http://tokenstore.store'
+    coin: ETH
+    category: Phishing
+    subcategory: Tokenstore
+    description: 'Fake TokenStore phishing for keys with POST /api/core.php'
+    reporter: MyCrypto
+-
+    id: 6635
+    name: ripplebounty.blogspot.com
+    url: 'http://ripplebounty.blogspot.com'
+    coin: XRP
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam'
+    addresses:
+        - 'rhTCdpaZQSKbHNYY85xPLMEWQbyxYr4SFY'
+    reporter: MyCrypto
+-
+    id: 6636
+    name: satoshilite.promo
+    url: 'http://satoshilite.promo'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam'
+    addresses:
+        - '36LrLx1b7q6f2DhAhFxeBAvQxcDs5QY9oj'
+    reporter: MyCrypto
+-
+    id: 6637
+    name: bitmex-airdrop.com
+    url: 'http://bitmex-airdrop.com'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam'
+    addresses:
+        - '1Fc8hwQrja8WZpRkyCoPyH7BBLabYFbBdN'
+        - '0xB9A129D98f67c90C5D788a7B5f6bA780760E17Cb'
+    reporter: MyCrypto
+-
+    id: 6638
+    name: coindecker.com
+    url: 'http://coindecker.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Coindesk
+    description: 'Fake Coindesk'
+    reporter: MyCrypto    
+-
+    id: 6639
+    name: idex.cash
+    url: 'http://idex.cash'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for secrets with POST /eth/aura/send_1.php'
+    reporter: MyCrypto
+-
+    id: 6640
+    name: atomicwallet.tech
+    url: 'http://atomicwallet.tech'
+    coin: ETH
+    category: Phishing
+    subcategory: Atomic
+    description: 'Fake Atomic Wallet'
+    reporter: MyCrypto
+-
+    id: 6641
+    name: microtestdigitalagency.host
+    url: 'http://microtestdigitalagency.host'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /landing/apl.etherscan.io.php'
+    reporter: MyCrypto
+-
+    id: 6642
+    name: bitcointoolmining.com
+    url: 'http://bitcointoolmining.com'
+    coin: BTC
+    category: Scamming
+    subcategory: Generator
+    description: 'Fake Bitcoin generator (gets user to pay for "tx fees")'
+    addresses:
+        - '0xc774F87DAD5d1c333A7490E55d3a74D22E24e3ff'    
+        - '3NTDhT2ENeudk8TWpjF4zukFHSUtG5Z564'
+    reporter: MyCrypto    
+-
+    id: 6643
+    name: bitcoin-doubler.us
+    url: 'http://bitcoin-doubler.us'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam - bitcoin doubler'
+    addresses:
+        - '1EQSYNsoES8RTZWup6gk7jDutWoPP2UY8p'
+    reporter: MyCrypto
+-
+    id: 6644
+    name: dex-launch.net
+    url: 'http://dex-launch.net'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam'
+    reporter: MyCrypto        
+-
+    id: 6645
+    name: xrp.earth
+    url: 'http://xrp.earth'
+    coin: XRP
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam'
+    addresses:
+        - 'rBkdpkFcJDsBDoBkmBZXQbvVjaU2JCacXW'
+    reporter: MyCrypto    
+-
+    id: 6646
+    name: 4-xrp.com
+    url: 'http://4-xrp.com'
+    coin: XRP
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam'
+    addresses:
+        - 'rKH7QAV8125zBL4LpUSFQz5xEZRHJAaybq'
+    reporter: MyCrypto  
+-
+    id: 6647
+    name: live-ethers.com
+    url: 'http://live-ethers.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam'
+    addresses:
+        - '0x77AccE13A051CC95bb22b62d0848486ed783E557'
+    reporter: MyCrypto      
+-
+    id: 6648
+    name: coinmining.website
+    url: 'http://coinmining.website'
+    coin: BTC
+    category: Phishing
+    subcategory: Miner
+    description: 'Fake webminer phishing for KYC details'
+    reporter: MyCrypto       
+-
+    id: 6649
+    name: coinpromo.icu
+    url: 'http://coinpromo.icu'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam'
+    addresses:
+        - '1JCMYAkmxibo8EKJWyqtHadCy3NfPJvJwW'
+        - '0xCb8f90B19E2EB56B1470d97BF9BAB64bF3f4C571'
+        - 'rPkuNViVhRCQhHyNgjQaiRTzJqeESTsok3'
+    reporter: MyCrypto      
+-
+    id: 6650
+    name: bithumb.cf
+    url: 'http://bithumb.cf'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam'
+    addresses:
+        - '0xa07ddF9CE7Dc9C8492A9A307c1bF85caBEb6A8De'
+    reporter: MyCrypto      
+-
+    id: 6651
+    name: xrpbullish.blogspot.com
+    url: 'http://xrpbullish.blogspot.com'
+    coin: XRP
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam'
+    addresses:
+        - 'rhTCdpaZQSKbHNYY85xPLMEWQbyxYr4SFY'
+    reporter: MyCrypto        
+-
+    id: 6652
+    name: ripple-infogiveaway.com
+    url: 'http://ripple-infogiveaway.com'
+    coin: XRP
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam'
+    addresses:
+        - 'rw1vg7MxSefF2YErRMrDU9SMuqr3T5aaRf'
+    reporter: MyCrypto            
+-
+    id: 6653
+    name: bonusmonthly.blogspot.com
+    url: 'http://bonusmonthly.blogspot.com'
+    coin: XRP
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam'
+    addresses:
+        - 'rhTCdpaZQSKbHNYY85xPLMEWQbyxYr4SFY'
+    reporter: MyCrypto                
+-
+    id: 6654
+    name: bitlhomp.com
+    url: 'http://bitlhomp.com'
+    coin: XRP
+    category: Phishing
+    subcategory: Explorer
+    description: 'Fake Bithomp explorer'
+    reporter: MyCrypto       
+-
+    id: 6655
+    name: bin-testnet.com 
+    url: 'http://bin-testnet.com '
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam - Binance DEX - https://twitter.com/sniko_/status/1123265195315552257'
+    addresses:
+        - '14kFbdJkwKn8ANfouBxEzmTSqpwXGkskSk'
+        - '0xE159a6d174eB2Cead94C4fb93725fBF68A87993D'
+    reporter: MyCrypto         
