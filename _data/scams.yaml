@@ -63652,7 +63652,7 @@
     coin: BTC
     category: Scamming
     subcategory: Trust-Trading
-    description: 'Trust trading scam'
+    description: 'Trust trading scam - reported address: 0xa59381a01daeae334730ef3ee81bfa5099a95faa'
     addresses:
         - '0x494dbdA42906ab14DA5A591f5772eBA1F3aab478'
         - '14edSvcMxkPZNzhsBfv4V7PNL6dtdBH9xS'
