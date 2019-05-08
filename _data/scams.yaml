@@ -63613,3 +63613,47 @@
     subcategory: Jaxx
     description: 'Fake Jaxx site'
     reporter: MyCrypto            
+-
+    id: 6674
+    name: client-tezbox.com
+    url: 'http://client-tezbox.com'
+    coin: XTZ
+    category: Phishing
+    subcategory: Tezos
+    description: 'Fake tezos wallet phishing for secrets with with POST /mydashwallets.org/tezos/seed.php'
+    reporter: MyCrypto              
+-
+    id: 6675
+    name: mybitcoinqrcode.com
+    url: 'http://mybitcoinqrcode.com'
+    coin: BTC
+    category: Scamming
+    subcategory: General
+    description: 'Fake QR code generator'
+    addresses:
+        - '17h3y4KNfh2U6vgddQTTFDz1paqfX54s5z'    
+    reporter: MyCrypto       
+-
+    id: 6676
+    name: official-elon.space
+    url: 'http://official-elon.space'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam'
+    addresses:
+        - '0x40F726d6D1b858824061ad96E88101231216C7d0'
+        - '1HdVcd5HPieFXFwz4ybhRuPzn3kMnmv3eZ'
+    reporter: MyCrypto      
+-
+    id: 6677
+    name: airdrop-running.info
+    url: 'http://airdrop-running.info'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam'
+    addresses:
+        - '0x494dbdA42906ab14DA5A591f5772eBA1F3aab478'
+        - '14edSvcMxkPZNzhsBfv4V7PNL6dtdBH9xS'
+    reporter: MyCrypto    
