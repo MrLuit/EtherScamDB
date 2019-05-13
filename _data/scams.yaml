@@ -63657,3 +63657,96 @@
         - '0x494dbdA42906ab14DA5A591f5772eBA1F3aab478'
         - '14edSvcMxkPZNzhsBfv4V7PNL6dtdBH9xS'
     reporter: MyCrypto    
+-
+    id: 6678
+    name: idexx.pw
+    url: 'http://idexx.pw'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for secrets with POST /log.php'
+    reporter: MyCrypto       
+-
+    id: 6679
+    name: exmo.in.ua
+    url: 'http://exmo.in.ua'
+    coin: ETH
+    category: Phishing
+    subcategory: Exmo
+    description: 'Fake Exmo phishing for logins with POST /login.php - hosting malware https://app.any.run/tasks/73b283ff-ee2f-4e23-ac14-4c7ce9e17795 https://app.any.run/tasks/a13f7c6b-4f9c-411b-87d7-f9293347e013'
+    reporter: MyCrypto           
+-
+    id: 6680
+    name: tesla-gift.space
+    url: 'http://tesla-gift.space'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam'
+    addresses:
+        - '1KBb3pFLyKMn44tx1FCPoB3R2awGjSvo4b'
+        - '0x40F726d6D1b858824061ad96E88101231216C7d0'
+    reporter: MyCrypto      
+-
+    id: 6681
+    name: dogeday.io
+    url: 'http://dogeday.io'
+    coin: ETH
+    category: Scamming
+    subcategory: Ponzi
+    description: 'Ponzi scheme'
+    reporter: MyCrypto       
+-
+    id: 6682
+    name: tesla3.org
+    url: 'http://tesla3.org'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam'
+    addresses:
+        - '1N2uxuMXP7RmZov8XuB13sUiKcSSAABmVf'
+        - '0x8BAa4757f0a110dc4E5C365E7376d8449b084d16'
+    reporter: MyCrypto       
+-
+    id: 6683
+    name: ethnocrypt.com
+    url: 'http://ethnocrypt.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Exchange
+    description: 'Fake exchange - pointing users to a phishing chrome extension ejhpejjgaimmflepbldndhadecmhfdec (clone of firstcrypt.info)'
+    addresses:
+        - '3NGtf8AkXN9y8HDp9wks7wbm4by2qxzkmX'
+        - '0x4958f1dBcac084a1b92b65F972612cfDc82AeBa0'
+    reporter: MyCrypto    
+-
+    id: 6684
+    name: elon-gifting.website
+    url: 'http://elon-gifting.website'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam'
+    addresses:
+        - '0xDCE6eE48dC59DA247aD93430E18c87b653f4C3d6'
+        - '1GpB2CUk8b4vn8PzksXTLbh9LJNacB1FkD'
+    reporter: MyCrypto        
+-
+    id: 6684
+    name: cashadd.org
+    url: 'http://cashadd.org'
+    coin: ETH
+    category: Phishing
+    subcategory: Malware
+    description: 'Directing users to a Malware chrome extension (ejhpejjgaimmflepbldndhadecmhfdec) to steal secrets - see https://twitter.com/sniko_/status/1127703349749534720 - need to confirm these addresses: 1J3DY9A9pwhDigqMpgnr3o3Xe3rAKk8UKX (btc) 0x12A1CCF979D65333E8e27edE047B476736B584a6 (eth) 0x4F53C9882Ba87d2D7c525dF2aEF2540EFB6e32e5 (eth) 1HzWtuoxruijfAPSuA3dByjUAuZiGH43TF (bch)'
+    addresses:
+        - '1D4cncb6G874758HfEN7MFTwP9uVPw5CVx'
+        - '0xb1fae12D295246a73EA6e89699a6576AFE669D81'
+        - 'qqxq4kkxzn0stkzxvc8zs7quur285amlgy6mhp4qvp'
+        - 'LZF8mWMwJy3ijZSgi4AmTDBNkGKKxgPTqq'
+        - 'rUHdPLLH3dKkHZN97HshDcZQbiP5xn4p6H'
+        - 'bnb160943aa8wjfwzq52snqe3dpzq3mgcxlfjm2d7y'
+        - '0x281D05Cc399a66E05B836489A4cb9B0F2defD609'
+        - 'TWsVTq76GEBw1dNHUqzJTrtuj8FxjL9CX6'
+    reporter: MyCrypto    
