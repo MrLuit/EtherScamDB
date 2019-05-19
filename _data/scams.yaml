@@ -63750,3 +63750,261 @@
         - '0x281D05Cc399a66E05B836489A4cb9B0F2defD609'
         - 'TWsVTq76GEBw1dNHUqzJTrtuj8FxjL9CX6'
     reporter: MyCrypto    
+-
+    id: 6685
+    name: btc-pro.co
+    url: 'http://btc-pro.co'
+    coin: ETH
+    category: Phishing
+    subcategory: Trezor
+    description: 'Fake Trezor store phishing for secrets with POST /home/mail.php'
+    reporter: MyCrypto     
+-
+    id: 6686
+    name: platform-bitmex.com
+    url: 'http://platform-bitmex.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam'
+    addresses:
+        - '1MghhGjVABo5NrBjXMmyYsydsuvLVVRG35'
+        - '0x760774022517950FC1874B66Cc71a83752F2fa89'
+    reporter: MyCrypto     
+-
+    id: 6687
+    name: constantinoplehardfork.cf
+    url: 'http://constantinoplehardfork.cf'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam'
+    addresses:
+        - '0x2Cbc78b7DB97576674cC4e442d3F4d792b43A3a9'
+    reporter: MyCrypto         
+-
+    id: 6688
+    name: ethmarket.store 
+    url: 'http://ethmarket.store'
+    coin: ETH
+    category: Phishing
+    subcategory: Wallet
+    description: 'Fake wallet phishing for keys with POST /send_private_key.php'
+    reporter: MyCrypto      
+-
+    id: 6689
+    name: exodus-wallet.net
+    url: 'http://exodus-wallet.net'
+    coin: ETH
+    category: Malware
+    subcategory: Exodus
+    description: 'Fake Exodus wallet - https://any.run/report/fbf0b59dd04592137d772c95fe5bd43d26c9ad02f61a566996be10e629f9befe/571f2f65-ab84-4c4b-94d6-ae10f6b0cd2a'
+    reporter: MyCrypto          
+-
+    id: 6690
+    name: trezor-wallet.la
+    url: 'http://trezor-wallet.la'
+    coin: ETH
+    category: Phishing
+    subcategory: Trezor
+    description: 'Fake trezor wallet phishing for secrets with POST /mail.php'
+    reporter: MyCrypto         
+-
+    id: 6691
+    name: cometcrypt.com 
+    url: 'http://cometcrypt.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Exchange
+    description: 'Fake exchange (clone of ethnocrypt.com)'
+    addresses:
+        - '39f8pCTy9KwSUqQUKMxNy683ERjxjfizzj'
+        - '0xe17B1DDAD01A87acFB71e000a68a24c828336da3'
+    reporter: MyCrypto       
+-
+    id: 6692
+    name: buy7000btc.online
+    url: 'http://buy7000btc.online'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam - linked from https://rentry.co/buy7000btc_online'
+    addresses:
+        - '0x46bA8394210EB32e50943bC963E300ED8B804d30'
+    reporter: MyCrypto      
+-
+    id: 6693
+    name: binance-zendesk.net
+    url: 'http://binance-zendesk.net'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xcDEa1b9b05E383F13028551E934eCc65208a65b7'
+        - '0x760774022517950FC1874B66Cc71a83752F2fa89'
+    reporter: MyCrypto      
+-
+    id: 6694
+    name: cashbit.world 
+    url: 'http://cashbit.world'
+    coin: ETH
+    category: Scamming
+    subcategory: Exchange
+    description: 'Fake exchange'
+    addresses:
+        - '39Gc5J4642rC4qRZnNrou9QU1pZQ7msckN'
+        - '0x5714b032c1f3BD2C31465173C2bF9951f6f673a6'
+    reporter: MyCrypto          
+-
+    id: 6695
+    name: miningbanking.com
+    url: 'http://miningbanking.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Promoting a scam HYIP telegram bot - constantinople.site'
+    reporter: MyCrypto      
+-
+    id: 6696
+    name: constantinople.site
+    url: 'http://constantinople.site'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Promoting a scam HYIP telegram bot - constantinople.site'
+    reporter: MyCrypto          
+-
+    id: 6697
+    name: transfer-btc.website
+    url: 'http://transfer-btc.website'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x4046c3D647b6939A20D9D977097C361B71BA46B2'
+        - '13tcnnUx6QGTkdMfMewNJbEqVCPGaQiyYC'
+    reporter: MyCrypto     
+-
+    id: 6698
+    name: tesla-gift.club
+    url: 'http://tesla-gift.club'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xF36965e734ce6F1AbE3b66F0F819B3a8A9bd547C'
+    reporter: MyCrypto         
+-
+    id: 6699
+    name: medium.return-btc.com
+    url: 'http://medium.return-btc.com'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '18ydpKVaT2gzKRAMkHdPeZ3oLLpNb1jchD'
+    reporter: MyCrypto     
+-
+    id: 6700
+    name: return-btc.com
+    url: 'http://return-btc.com'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '18ydpKVaT2gzKRAMkHdPeZ3oLLpNb1jchD'
+    reporter: MyCrypto       
+-
+    id: 6701
+    name: trezor-official.link
+    url: 'http://trezor-official.link'
+    coin: ETH
+    category: Phishing
+    subcategory: Trezor
+    description: 'Fake Trezor site phishing for secrets with POST /mail.php'
+    reporter: MyCrypto         
+-
+    id: 6702
+    name: giveaway-xrp.com
+    url: 'http://giveaway-xrp.com'
+    coin: XRP
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'rEYFAsw9SrkgBTuos4jAtmBEZyWbZayUBd'
+    reporter: MyCrypto        
+-
+    id: 6703
+    name: idex-market.pw
+    url: 'http://idex-market.pw'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for  with POST /log.php'
+    reporter: MyCrypto       
+-
+    id: 6704
+    name: xcryptofunds.com
+    url: 'http://xcryptofunds.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Exchange
+    description: 'Fake exchange'
+    addresses:
+        - '3NAwZwvVAPdoAuRiTwWWenrjYHSYKQAAEQ'
+        - '0xEe18e156a020F2b2B2DcdEC3A9476E61fBDE1e48'
+    reporter: MyCrypto       
+-
+    id: 6705
+    name: blockchainxyz.000webhostapp.com 
+    url: 'http://blockchainxyz.000webhostapp.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake Blockchain phishing for secrets via script injection - read https://pastebin.com/raw/X0WbfDGH'
+    reporter: MyCrypto          
+-
+    id: 6706
+    name: blockchainhacker.net
+    url: 'http://blockchainhacker.net'
+    coin: ETH
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Posting fake blockchain hacks to steal secrets - see https://twitter.com/sniko_/status/1129463765571907585'
+    reporter: MyCrypto              
+-
+    id: 6707
+    name: goxtrade.com
+    url: 'http://goxtrade.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Exchange
+    description: 'Fake exchange, fake team - https://twitter.com/AmberBaldet/status/1129382436851331072'
+    addresses:
+        - '15ANzJKPgiiei7zBnfhBAEMLp6i6ZDaoxU'
+        - '0x3fabb468a3caaf55b4c3bdd330fdf4be73fe7ef6'
+    reporter: MyCrypto       
+-
+    id: 6708
+    name: etbcwallet.com
+    url: 'http://etbcwallet.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Wallet
+    description: 'Fake wallet phishing for secrets with POST /api - https://twitter.com/sniko_/status/1130210189473386497'
+    reporter: MyCrypto      
+-
+    id: 6709
+    name: ildex.pw
+    url: 'http://ildex.pw'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for  with POST /log.php'
+    reporter: MyCrypto        
