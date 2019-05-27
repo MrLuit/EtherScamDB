@@ -64260,3 +64260,63 @@
         - '1FEveooL7MAiiNGnLdzZYidW5BVxgHgEPx'
         - '0xDFC996c04f76E5983b811485d92f81d863c60e2a'
     reporter: MyCrypto      
+-
+    id: 6733
+    name: telos-fundation.io
+    url: 'http://telos-fundation.io'
+    coin: ETH
+    category: Phishing
+    subcategory: Telos
+    description: 'Fake Telos foundation site harvesting EOS usernames'
+    reporter: MyCrypto       
+-
+    id: 6734
+    name: mycofterwallet.com
+    url: 'http://mycofterwallet.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys with POST /sending.php'
+    reporter: MyCrypto        
+-
+    id: 6735
+    name: promo-tesla.store
+    url: 'http://promo-tesla.store'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1KfEHjqt9v3hJD1Ru7rYnMg32z6C6Nh93H'
+        - '0xF36965e734ce6F1AbE3b66F0F819B3a8A9bd547C'
+    reporter: MyCrypto       
+-
+    id: 6736
+    name: cryptogiveaways.top
+    url: 'http://cryptogiveaways.top'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1KrXKvZfDUvB9A39xBhJ2VZWf92HMFj8F'
+        - '0x7a023247e70ad842b0c1226e09185b461a1cd47d'
+    reporter: MyCrypto           
+-
+    id: 6737
+    name: lidex.pw
+    url: 'http://lidex.pw'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for secrets with POST /log.php'
+    reporter: MyCrypto       
+-
+    id: 6738
+    name: tokensmarket.online 
+    url: 'http://tokensmarket.online '
+    coin: ETH
+    category: Phishing
+    subcategory: WebWallet
+    description: 'Fake web wallet phishing for secrets with POST /send_private_key.php'
+    reporter: MyCrypto           
