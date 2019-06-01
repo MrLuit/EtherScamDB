@@ -64314,9 +64314,209 @@
 -
     id: 6738
     name: tokensmarket.online 
-    url: 'http://tokensmarket.online '
+    url: 'http://tokensmarket.online'
     coin: ETH
     category: Phishing
     subcategory: WebWallet
     description: 'Fake web wallet phishing for secrets with POST /send_private_key.php'
     reporter: MyCrypto           
+-
+    id: 6739
+    name: binance-margin.com
+    url: 'http://binance-margin.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '13YacKcXWpeFgEwY3M5EMnZVZn8A84mu5D'
+        - '0x59CbD436237318F7Cb9C92ddB060b1a023598363'
+    reporter: MyCrypto      
+-
+    id: 6740
+    name: iidex.pw
+    url: 'http://iidex.pw'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for secrets with POST /log.php'
+    reporter: MyCrypto    
+-
+    id: 6741
+    name: id-ex.pw 
+    url: 'http://id-ex.pw'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for secrets with POST /log.php'
+    reporter: MyCrypto        
+-
+    id: 6742
+    name: binance-client.com 
+    url: 'http://binance-client.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Binance
+    description: 'Fake binance client - offering malware https://app.any.run/tasks/37614a74-b47c-4294-b605-f29cb2c736c4/'
+    reporter: MyCrypto       
+-
+    id: 6743
+    name: reddit-securepage-hdsjhg3jh5gjasged32h4i2349803434553.secglobal.icu
+    url: 'http://reddit-securepage-hdsjhg3jh5gjasged32h4i2349803434553.secglobal.icu'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1JCMYAkmxibo8EKJWyqtHadCy3NfPJvJwW'
+        - '0xCb8f90B19E2EB56B1470d97BF9BAB64bF3f4C571'
+        - 'rPkuNViVhRCQhHyNgjQaiRTzJqeESTsok3'
+    reporter: MyCrypto      
+-
+    id: 6744
+    name: reddit-securepage-hdsjhg3jh5gjasged32h4i23496jhgh677u.secglobal.icu
+    url: 'http://reddit-securepage-hdsjhg3jh5gjasged32h4i23496jhgh677u.secglobal.icu'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1JCMYAkmxibo8EKJWyqtHadCy3NfPJvJwW'
+        - '0xCb8f90B19E2EB56B1470d97BF9BAB64bF3f4C571'
+        - 'rPkuNViVhRCQhHyNgjQaiRTzJqeESTsok3'
+    reporter: MyCrypto          
+-
+    id: 6745
+    name: secglobal.icu
+    url: 'http://secglobal.icu'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1JCMYAkmxibo8EKJWyqtHadCy3NfPJvJwW'
+        - '0xCb8f90B19E2EB56B1470d97BF9BAB64bF3f4C571'
+        - 'rPkuNViVhRCQhHyNgjQaiRTzJqeESTsok3'
+    reporter: MyCrypto          
+-
+    id: 6746
+    name: lldex.pw
+    url: 'http://lldex.pw'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for secrets with POST /log.php'
+    reporter: MyCrypto       
+-
+    id: 6747
+    name: tortoken.io
+    url: 'http://tortoken.io'
+    coin: ETH
+    category: Scamming
+    subcategory: Tor
+    description: 'Fake TOR ICO site - https://twitter.com/bcrypt/status/1134598286600368128'
+    addresses:
+        - '0x388Cf3c02c034e7fe8ef164A2B414534fC212119'    
+    reporter: MyCrypto          
+-
+    id: 6748
+    name: secure.globalsec.icu 
+    url: 'http://secure.globalsec.icu'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1JCMYAkmxibo8EKJWyqtHadCy3NfPJvJwW'
+        - '0xCb8f90B19E2EB56B1470d97BF9BAB64bF3f4C571'
+    reporter: MyCrypto         
+-
+    id: 6749
+    name: doublebitcoin.ga
+    url: 'http://doublebitcoin.ga'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site - bitcoin doubler'
+    addresses:
+        - '1J25YSaUJQT9AdEJ9rmSrKRZhCpc6Wkr7e'
+    reporter: MyCrypto         
+-
+    id: 6750
+    name: dexcompetition.site
+    url: 'http://dexcompetition.site'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x356149C2EEb5aaa1030022D22134aBeD97bD496E'
+        - '1FLo9tVXB7N5KoeP5cNmTkJ93D2BduUpiX'
+        - 'qr6dpf69djfghu9t6h0kzklzy2jkaqrn6q497z4yag'
+        - 'XrE5MMmXD1ShEKh9jBbhEiTGCLg2BLsd5r'
+        - 'Ld5KMR5tw2RMgrE8zyupV9ntW7byvRLVEL'
+        - 'GBEI5U4S27SP6YMOTYPQBRCPLMVUNP64M5ELQQ5VB4S43FLWPULJTU2Y'
+        - '48RrK4L4z8hYq8iQS9qvTc1bJN99aSamhTuMrN9nCFVWRcroKb3EAawV14KtHmeqeuW4j5JLxUQfz4bG2veSYph445nnf8s'
+        - 'TDekdYi77iXeGm71ziBw65c2ZqiD6eZXVE'
+        - 'AdoCwN5zgm8rdPRcgqiiKqxRtCSi6L31Mk'
+        - 'rLS5hCFdvd7GePm3TXiGjgtuyKJNw2UwHm'
+        - '12qNdLqiWcer5kWxXiMNvTstLB37WvLyyk'
+        - 't1KAedN3mupcum5ffF7DF5KNz27vRB9pYnr'
+        - '0x283998063C86805DDae437ec15dbBDC54657012e'
+        - 'bnb10whzywcrge79hmuyutg43rwhyfq0sp4cewnxh9'
+        - '0x283998063C86805DDae437ec15dbBDC54657012e'
+    reporter: MyCrypto       
+-
+    id: 6751
+    name: cryptoxglobal.com
+    url: 'http://cryptoxglobal.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Exchange
+    description: 'Fake exchange - getting users to download malware browser extension https://twitter.com/sniko_/status/1134928857369317377'
+    addresses:
+        - '39L1wNL7pQ7Uk4aGPWu8bVLTp4CTdBCCuF'    
+        - '0xEe18e156a020F2b2B2DcdEC3A9476E61fBDE1e48'
+    reporter: MyCrypto     
+-
+    id: 6752
+    name: xcoinback.com
+    url: 'http://xcoinback.com'
+    coin: ETH
+    category: Malware
+    subcategory: General
+    description: 'Getting users to download malware (chrome ex. id: peolldddfhhcflcjlaghcnemabfiomch) - part of cryptoxglobal.com campaign'
+    reporter: MyCrypto       
+-
+    id: 6753
+    name: buyeth70.jdevcloud.com
+    url: 'http://buyeth70.jdevcloud.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x138152524e73B8aF07d089B7dEAe581c7152beB3'
+    reporter: MyCrypto         
+-
+    id: 6754
+    name: eth.elon-musk-tesla.space
+    url: 'http://eth.elon-musk-tesla.space'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xf8eD2a01846a04e98f6Ca7eC4ff15cbCb5406064'
+    reporter: MyCrypto     
+-
+    id: 6755
+    name: btc.elon-musk-tesla.space
+    url: 'http://btc.elon-musk-tesla.space'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1FWi9zG991UBbBF5GqnbSst4z6drwJUkbh'
+    reporter: MyCrypto               
