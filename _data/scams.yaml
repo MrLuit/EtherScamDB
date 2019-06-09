@@ -64259,6 +64259,7 @@
     addresses:
         - '1FEveooL7MAiiNGnLdzZYidW5BVxgHgEPx'
         - '0xDFC996c04f76E5983b811485d92f81d863c60e2a'
+        - '1GkBb7hpNzXheeJDUdA2ZcxpwP5hGS7ayz'
     reporter: MyCrypto      
 -
     id: 6733
@@ -64520,3 +64521,205 @@
     addresses:
         - '1FWi9zG991UBbBF5GqnbSst4z6drwJUkbh'
     reporter: MyCrypto               
+-
+    id: 6756
+    name: mycrypto-wallet.info
+    url: 'http://mycrypto-wallet.info'
+    coin: ETH
+    category: Malware
+    subcategory: MyCrypto
+    description: 'Fake download of MyCrypto - https://twitter.com/sniko_/status/1135893510878576640'
+    reporter: MyCrypto        
+-
+    id: 6757
+    name: dogepay.info
+    url: 'http://dogepay.info'
+    coin: ETH
+    category: Malware
+    subcategory: General
+    description: 'C2 server for cryptocurrency malware - https://twitter.com/sniko_/status/1135893510878576640'
+    reporter: MyCrypto            
+-
+    id: 6758
+    name: iddex.pw
+    url: 'http://iddex.pw'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for secrets with POST /log.php'
+    reporter: MyCrypto       
+-
+    id: 6759
+    name: localbilcolns.net
+    url: 'http://localbilcolns.net'
+    coin: ETH
+    category: Phishing
+    subcategory: LocalBitcoins
+    description: 'Fake LocalBitcoins phishing for logins'
+    reporter: MyCrypto        
+-
+    id: 6760
+    name: bnb-testnet.org
+    url: 'http://bnb-testnet.org'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x933227EE8b04c72DC864788Fb9Cf2E5352B5E147'
+        - '12ZqKGZJVaSN5XaRpyPbBneBkQEaEtG8vR'
+    reporter: MyCrypto          
+-
+    id: 6761
+    name: xn--coinbse-dwa.com
+    url: 'http://xn--coinbse-dwa.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Coinbase
+    description: 'Fake Coinbase with phishing for logins POST /sessions'
+    reporter: MyCrypto          
+-
+    id: 6762
+    name: hmrcmeclaim.com
+    url: 'http://hmrcmeclaim.com'
+    coin: ETH
+    category: Phishing
+    subcategory: General
+    description: 'Fake bitcoin trading harvesting emails'
+    reporter: MyCrypto       
+-
+    id: 6763
+    name: news-bnb.com
+    url: 'http://news-bnb.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xf1c058ae62f2d25efebdd809eedc609cbb9a5090'
+    reporter: MyCrypto    
+-
+    id: 6764
+    name: origin.foundation
+    url: 'http://origin.foundation'
+    coin: ETH
+    category: Phishing
+    subcategory: General
+    description: 'Fake ICO harvesting KYC data - see https://bitcointalk.org/index.php?topic=5150358.0'
+    reporter: MyCrypto    
+-
+    id: 6765
+    name: cloudtokenexchange.com
+    url: 'http://cloudtokenexchange.com'
+    coin: ETH
+    category: Phishing
+    subcategory: CloudToken
+    description: 'Fake CloudTokenWallet'
+    addresses:
+        - '0xD9D550823C20315D62C1ceE49b93825bA31cEE43'    
+    reporter: MyCrypto              
+-
+    id: 6766
+    name: blockchaincomexplorer.z13.web.core.windows.net
+    url: 'http://blockchaincomexplorer.z13.web.core.windows.net'
+    coin: ETH
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake blockchain phishing for logins with POST rcreddyiasstudycircle.com/archive_190603_020529/auth.php'
+    reporter: MyCrypto                   
+-
+    id: 6767
+    name: cryptotronx.com 
+    url: 'http://cryptotronx.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Exchange
+    description: 'Fake exchange - linking users to chrome extension peolldddfhhcflcjlaghcnemabfiomch'
+    addresses:
+        - '0xEe18e156a020F2b2B2DcdEC3A9476E61fBDE1e48'    
+        - '1HfkQH6kCCQqrAXU1PtBakPN9Cc1HhgyeM'
+    reporter: MyCrypto      
+-
+    id: 6768
+    name: ildexmarket.pw
+    url: 'http://ildexmarket.pw'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for secrets with POST /log.php'
+    reporter: MyCrypto       
+-
+    id: 6769
+    name: mcafee.getforge.io
+    url: 'http://mcafee.getforge.io'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '12zYdDfrSVCUYoJfQZBjQKr5vBoKbXCDB9'
+        - '0x1a3f591Bd2A270DD5e8e77235f842a918BCEB4d2'
+    reporter: MyCrypto       
+-
+    id: 6770
+    name: newetherewallets.com
+    url: 'http://newetherewallets.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet with POST /c.php'
+    reporter: MyCrypto       
+-
+    id: 6771
+    name: ether-return.com
+    url: 'http://ether-return.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x7AEEb8d3Aba43B7c033acE5f5c477Fb63730629F'
+    reporter: MyCrypto       
+-
+    id: 6772
+    name: elon-musk.getforge.io
+    url: 'http://elon-musk.getforge.io'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x1a3f591Bd2A270DD5e8e77235f842a918BCEB4d2'
+    reporter: MyCrypto         
+-
+    id: 6773
+    name: coinexplorer.tech
+    url: 'http://coinexplorer.tech'
+    coin: ETH
+    category: Phishing
+    subcategory: General
+    description: 'Scamming investment platform'
+    addresses:
+        - '1E7to3GBYFEp2CPkmhUKfkT2JiBQX2Xaza'    
+        - '0x548821E41D89303810F3886f986B3e0c1f6F8858'
+        - 'MMg7ndwXG6XF9AnuLnYdMtp8WYHt1xEo6B'
+        - 'qz837q4cnugsu8qas96q7ak8dfd7n72p6gywe898fh'
+    reporter: MyCrypto      
+-
+    id: 6774
+    name: mythwalter.com
+    url: 'http://mythwalter.com'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet stealing secrets with POST /sending.php'
+    reporter: MyCrypto      
+-
+    id: 6775
+    name: poloniex.com-account-login.logn.life
+    url: 'http://poloniex.com-account-login.logn.life'
+    coin: ETH
+    category: Phishing
+    subcategory: Poloniex
+    description: 'Fake Poloniex phishing for details with POST /synchronizing.php'
+    reporter: MyCrypto      
