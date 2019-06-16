@@ -64723,3 +64723,174 @@
     subcategory: Poloniex
     description: 'Fake Poloniex phishing for details with POST /synchronizing.php'
     reporter: MyCrypto      
+-
+    id: 6776
+    name: mcafee.site
+    url: 'http://mcafee.site'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x0EB3c94e03DbfC2b7CF50dcfA0173bc53e1d4185'
+    reporter: MyCrypto        
+-
+    id: 6777
+    name: john.mcafee.getforge.io
+    url: 'http://john.mcafee.getforge.io'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '16cBDFXSMMPbiJ3kW4DrW7tj1toPE1311t'
+        - '0x0621871F8636ab81abD3bA6D06d807B330C35FF3'
+    reporter: MyCrypto            
+-
+    id: 6778
+    name: news.binance-app.org
+    url: 'http://news.binance-app.org'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xcDEa1b9b05E383F13028551E934eCc65208a65b7'
+        - '0x3cac4a9598ed31d5df964b2402131a7bd3605ae3'
+    reporter: MyCrypto           
+-
+    id: 6779
+    name: brave-browser.info
+    url: 'http://brave-browser.info'
+    coin: ETH
+    category: Phishing
+    subcategory: Brave
+    description: 'Fake Brave browser - malware https://twitter.com/sniko_/status/1138587877120647170'
+    reporter: MyCrypto        
+-
+    id: 6780
+    name: musk-event.info
+    url: 'http://musk-event.info'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x3adF6502A6445fbF9d50d76562A7342e6D0C9A3F'
+        - '1JZiBjuoQmzhqAQgXvqSN8gvsPZQ8CpUD8'
+    reporter: MyCrypto      
+-
+    id: 6781
+    name: binance-presents.fund
+    url: 'http://binance-presents.fund'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1EMG2n35pxcC7ycvwErvCFkzvaNXBz85hG'
+        - '0x11775A106157a283873A81E8Ec58394b8d568E06'
+    reporter: MyCrypto          
+-
+    id: 6781
+    name: airdrop.center
+    url: 'http://airdrop.center'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xABA55C0c84b9AF33b928D4726b54392ACcCC571C'
+        - '0x8BAa4757f0a110dc4E5C365E7376d8449b084d16'
+    reporter: MyCrypto              
+-
+    id: 6782
+    name: get-eth-free.com
+    url: 'http://get-eth-free.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xA7F21D9C638881ffBbAb011B29aAE0a5ec2C3739'
+    reporter: MyCrypto           
+-
+    id: 6783
+    name: mcafee.crypto-airdrop.space
+    url: 'http://mcafee.crypto-airdrop.space'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site - directed via buff.ly/2IhEK68'
+    addresses:
+        - '0x9a8A61cFb3a3C8dD730fd74CeA1BaC109bC6759F'
+    reporter: MyCrypto            
+-
+    id: 6784
+    name: teslamusk.tech
+    url: 'http://teslamusk.tech'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x5400cff7Aa5537881B305D838a951C3feC123B10'
+        - '15gvRgxdwMF5y3Kcc2X7WLpUMGW9wgyRB4'
+    reporter: MyCrypto     
+-
+    id: 6785
+    name: 58b48d07-110c-487e-8a77-938cfaa8af18.htmlpasta.com
+    url: 'http://58b48d07-110c-487e-8a77-938cfaa8af18.htmlpasta.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x0699B6fEF115D0F684D9d96964876183F11b231A'
+    reporter: MyCrypto         
+-
+    id: 6786
+    name: mcafee-promo.com
+    url: 'http://mcafee-promo.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x92370e8B926F29038104a1FbaFA024389E753FbE'
+    reporter: MyCrypto             
+-
+    id: 6787
+    name: mcafee-crypto.tech
+    url: 'http://mcafee-crypto.tech'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '15gvRgxdwMF5y3Kcc2X7WLpUMGW9wgyRB4'
+        - '0x5400cff7Aa5537881B305D838a951C3feC123B10'
+    reporter: MyCrypto           
+-
+    id: 6788
+    name: receive-ethereum.website
+    url: 'http://receive-ethereum.website'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x5Ad418F865540f22bB2e0D2E227cf0e47a1642fb'
+    reporter: MyCrypto               
+-
+    id: 6789
+    name: coin2coin.co
+    url: 'http://coin2coin.co'
+    coin: ETH
+    category: Scamming
+    subcategory: Exchange
+    description: 'Fake coin exchange'
+    addresses:
+        - '16Eyjt8V1bCk2xGqibbRP9HB9fvzjjXQrM'    
+        - '0x0ea9bc850f78aaeDE66D473F0A8717050db26AC8'
+    reporter: MyCrypto        
