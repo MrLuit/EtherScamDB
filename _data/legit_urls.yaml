@@ -6,6 +6,7 @@
     description: Ethereum blockchain interface.
     addresses:
       - '0x4bbeEB066eD09B7AEd07bF39EEe0460DFa261520'
+      - '32oirLEzZRhi33RCXDF9WHJjEb8RsrSss3'
 -
     id: 2
     name: MetaMask
