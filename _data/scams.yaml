@@ -64018,6 +64018,7 @@
     description: 'Trust trading scam site'
     addresses:
         - '0x0f746E54EE888E9953aDa918D4bA02AC696b1147'
+        - '0x86bEC5DAdCDa8F180391F29eF97C7C27a07013e1'
     reporter: MyCrypto         
 -
     id: 6711
@@ -64894,3 +64895,166 @@
         - '16Eyjt8V1bCk2xGqibbRP9HB9fvzjjXQrM'    
         - '0x0ea9bc850f78aaeDE66D473F0A8717050db26AC8'
     reporter: MyCrypto        
+-
+    id: 6790
+    name: mediumcdn.today
+    url: 'http://mediumcdn.today'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x0CD4ea9B68CEd287Fc25923B071C0b1a0a14e9c6'
+    reporter: MyCrypto      
+-
+    id: 6791
+    name: coinexminer.site
+    url: 'http://coinexminer.site'
+    coin: BTC
+    category: Scamming
+    subcategory: Investments
+    description: 'Scam investment platform'
+    addresses:
+        - '1DTjjxNfdgAT8cGuHpuCR4v4zwzxjwXN8Z'
+    reporter: MyCrypto     
+-
+    id: 6792
+    name: bit-donor.com
+    url: 'http://bit-donor.com'
+    coin: BTC
+    category: Scamming
+    subcategory: Investments
+    description: 'Scam investment platform'
+    addresses:
+        - '1Fr2VJ2pgMsAktcLonHUqBnZbu7H1zZLpH'
+    reporter: MyCrypto         
+-
+    id: 6793
+    name: sf520pk.com
+    url: 'http://sf520pk.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Wallet
+    description: 'Stealing mnemonics with POST /api/find_by_mnemonic - see https://twitter.com/sniko_/status/1140759034292838400'
+    reporter: MyCrypto          
+-
+    id: 6794
+    name: neojune.blogspot.com
+    url: 'http://neojune.blogspot.com'
+    coin: NEO
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'ATVMaR3SXKRBtwCNgPjV5k2YzEgzMDYeaf'
+    reporter: MyCrypto        
+-
+    id: 6795
+    name: medium.bitcoin-gain.org
+    url: 'http://medium.bitcoin-gain.org'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1Q7gS7fi7R26kYRBXEcNeK7f2foi3BfkkE'
+    reporter: MyCrypto            
+-
+    id: 6796
+    name: bitcoin-gain.org
+    url: 'http://bitcoin-gain.org'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1Q7gS7fi7R26kYRBXEcNeK7f2foi3BfkkE'
+    reporter: MyCrypto           
+-
+    id: 6797
+    name: electrumus.com
+    url: 'http://electrumus.com'
+    coin: ETH
+    category: Malware
+    subcategory: Electrum
+    description: 'Fake Electrum - malware - https://app.any.run/tasks/bec55617-666b-488f-9634-6223640cfe55'
+    reporter: MyCrypto      
+-
+    id: 6798
+    name: bigclaim.pro
+    url: 'http://bigclaim.pro'
+    coin: ETH
+    category: Phishing
+    subcategory: Airdrop
+    description: 'Fake EOS airdrop phishing for ETH keys with POST /?'
+    reporter: MyCrypto          
+-
+    id: 6799
+    name: binance-trade.com 
+    url: 'http://binance-trade.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x20E8c236AD726fd694Cb0FC38654B44DE9F156Dd'
+    reporter: MyCrypto        
+-
+    id: 6800
+    name: tesla-promo.epizy.com
+    url: 'http://tesla-promo.epizy.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x0468D25B02AD1fd1790ae3554b967241bc970d85'
+    reporter: MyCrypto        
+-
+    id: 6801
+    name: airdrop-sale.online 
+    url: 'http://airdrop-sale.online'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xABA55C0c84b9AF33b928D4726b54392ACcCC571C'
+        - '1N2uxuMXP7RmZov8XuB13sUiKcSSAABmVf'
+    reporter: MyCrypto          
+-
+    id: 6802
+    name: airdrop-main.info
+    url: 'http://airdrop-main.info'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x92370e8B926F29038104a1FbaFA024389E753FbE'
+        - '1KHmDxF8bgRN7WngcDbTcVSgpD7PbSo8Sv'
+    reporter: MyCrypto            
+-
+    id: 6803
+    name: bitfinex.click
+    url: 'http://bitfinex.click'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1PiEQRDCDWZqFCNMryMFvFJn1RyhboRCV'
+        - '0xc213Bb75F99795FF6Cae16fF20A056aAD1C1408E'
+    reporter: MyCrypto           
+-
+    id: 6804
+    name: official-events.site
+    url: 'http://official-events.site'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xd449E4587dc83aDFdc92751fc853A67D3CcA5583'
+        - '1BxuUsSzj9t8bhKvwdPDJhsddtxBuWigQw'
+    reporter: MyCrypto           
