@@ -64019,6 +64019,7 @@
     addresses:
         - '0x0f746E54EE888E9953aDa918D4bA02AC696b1147'
         - '0x86bEC5DAdCDa8F180391F29eF97C7C27a07013e1'
+        - '0xa81D9AB4dC3994f4e995297F56C19E6079ed20DF'
     reporter: MyCrypto         
 -
     id: 6711
@@ -65058,3 +65059,96 @@
         - '0xd449E4587dc83aDFdc92751fc853A67D3CcA5583'
         - '1BxuUsSzj9t8bhKvwdPDJhsddtxBuWigQw'
     reporter: MyCrypto           
+-
+    id: 6805
+    name: starcoine.com
+    url: 'http://starcoine.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Exchange
+    description: 'Fake Exchange'
+    addresses:
+        - '32sPuzVsc1HmJMaXr47GkNSKoMDxh89J2f'
+        - '0x55C556aE081b7c3dE12127d6Df9802698B301898'
+    reporter: MyCrypto               
+-
+    id: 6806
+    name: cryptohype.world
+    url: 'http://cryptohype.world'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '3AX8n9zGBeeDmQRXaxQZnNR67sNyEwcagh'
+        - '0xa9fa7065701181d2D62234BAdeA16a33052FEA22'
+        - '4AWa1ny75eoCcUVQWaWzL6Lp3WHZrFc3HVj9J8x1yautRYGkPLXUn72VP62HkF7oU4UqHd2nDLWhUWfx3F6cvekDRF5v5um'
+    reporter: MyCrypto       
+-
+    id: 6807
+    name: eths.gift
+    url: 'http://eths.gift'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xE18a6f050Ee7457D84D604867BD6A71444DeeCdF'
+    reporter: MyCrypto           
+-
+    id: 6808
+    name: mcafee.airdrop-promotion.host
+    url: 'http://mcafee.airdrop-promotion.host'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x4b2aCbB4160DDF25FB45842BfECbAea9A1919103'
+    reporter: MyCrypto            
+-
+    id: 6809
+    name: apompliano.netlify.com
+    url: 'http://apompliano.netlify.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xd88b17314696aFcbBa531F1BbadE53FcF5bC6018'
+    reporter: MyCrypto                
+-
+    id: 6810
+    name: now-ethers.com
+    url: 'http://now-ethers.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xa81D9AB4dC3994f4e995297F56C19E6079ed20DF'
+    reporter: MyCrypto       
+-
+    id: 6811
+    name: official-promo.pw
+    url: 'http://official-promo.pw'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xbf7c1FA00de07B3041B4a099c2C435A5a27f259f'
+        - '12XayTGLXMKTyhFYNftsATEHzWBM1zcj38'
+    reporter: MyCrypto        
+-
+    id: 6812
+    name: official-promo.pro
+    url: 'http://official-promo.pro'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x76638dE7e1A2AE5128Ff808D17a0A636Ba16324a'
+        - '1HXHkW7qj8zXkthXx1DtvfdJ7fX9pWLKwf'
+    reporter: MyCrypto            
