@@ -65152,3 +65152,136 @@
         - '0x76638dE7e1A2AE5128Ff808D17a0A636Ba16324a'
         - '1HXHkW7qj8zXkthXx1DtvfdJ7fX9pWLKwf'
     reporter: MyCrypto            
+-
+    id: 6813
+    name: idax-market.ru
+    url: 'http://idax-market.ru'
+    coin: ETH
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for secrets with POST /login.php'
+    reporter: MyCrypto          
+-
+    id: 6814
+    name: stopp.com.au
+    url: 'http://stopp.com.au'
+    coin: ETH
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake BlockchainInfo phishing for logins with POST /check1.php'
+    reporter: MyCrypto          
+-
+    id: 6815
+    name: promo-from-buterin.site
+    url: 'http://promo-from-buterin.site'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1KJYEvDADrvyT2TzZNCpBkF8m9fAbrVjhQ'
+        - '1JFg9MfdXBTyNVZZCCB6HBmsSuTyEKN1rk'
+        - '0x59c26dA37e1a97EEccc9Fe9Ae35E3FC2DF6Fb582'
+        - '0x06d782793e8B14c7b02baB9b139D8E296995F292'
+    reporter: MyCrypto     
+-
+    id: 6816
+    name: bnb-zendesk.com
+    url: 'http://bnb-zendesk.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x17EB36408EdCCD62dF38938F9f85AC6A590b1f34'
+        - '19XHgzjX2d14hboJLpDHurVp9VpiKB7X9A'
+    reporter: MyCrypto         
+-
+    id: 6817
+    name: neojunex2.blogspot.com
+    url: 'http://neojunex2.blogspot.com'
+    coin: NEO
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'ATVMaR3SXKRBtwCNgPjV5k2YzEgzMDYeaf'
+    reporter: MyCrypto         
+-
+    id: 6818
+    name: e3c01d47-32d5-417d-86a5-6484412fd477.htmlpasta.com 
+    url: 'http://e3c01d47-32d5-417d-86a5-6484412fd477.htmlpasta.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x07840BD8212039FE9d108dCa7e5aF53B5A8c10e2'
+    reporter: MyCrypto             
+-
+    id: 6819
+    name: xn--calbra-yva.com
+    url: 'http://xn--calbra-yva.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Calibra
+    description: 'Fake Calibra crowdsale site'
+    addresses:
+        - '0x92127085c609bde93CaB077e60f417D852222299'
+    reporter: MyCrypto                 
+-
+    id: 6820
+    name: zilliqa.tech
+    url: 'http://zilliqa.tech'
+    coin: BTC
+    category: Phishing
+    subcategory: Zilliqa
+    description: 'Fake Zilliqa exchange'
+    addresses:
+        - '34Wfo9bQtWSFox89981sEEqPUCM6guBzVc'
+    reporter: MyCrypto                     
+-
+    id: 6821
+    name: cryptosupport.live
+    url: 'http://cryptosupport.live'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '3ARdn5pKaybo6DoEZ1iBxeEJK81ZmgYX4E'
+        - '0x30fe607e1B776Fca07a55b9b4a011aC248a51Ac5'
+        - 'MM3MAuhBdPQhE6SWm2ZrfTYH7UUn739YwG'
+    reporter: MyCrypto          
+-
+    id: 6822
+    name: ecptoken.com
+    url: 'http://ecptoken.com'
+    coin: ETH
+    category: Phishing
+    subcategory: ICO
+    description: 'Ethereum CashPro crowdsale site but hosting a Microsoft phishing kit'
+    reporter: MyCrypto      
+-
+    id: 6823
+    name: zendesk-bnb.com
+    url: 'http://zendesk-bnb.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1CqDpW6FzdTZstondbgUZcjs3g9fTTdp9K'
+        - '0x5982F7D33Aa9F9d0192509E58a59dd282c454A05'
+    reporter: MyCrypto             
+-
+    id: 6824
+    name: vitalik-gives.website
+    url: 'http://vitalik-gives.website'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x2Ac03b4fc893EB3d29Bb886A16003798DD39A54d'
+    reporter: MyCrypto                 
