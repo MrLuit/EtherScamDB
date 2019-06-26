@@ -64999,6 +64999,7 @@
     description: 'Trust trading scam site'
     addresses:
         - '0x20E8c236AD726fd694Cb0FC38654B44DE9F156Dd'
+        - '0xE18a6f050Ee7457D84D604867BD6A71444DeeCdF'
     reporter: MyCrypto        
 -
     id: 6800
@@ -65285,3 +65286,42 @@
     addresses:
         - '0x2Ac03b4fc893EB3d29Bb886A16003798DD39A54d'
     reporter: MyCrypto                 
+-
+    id: 6825
+    name: junecoinsx2.blogspot.com 
+    url: 'http://junecoinsx2.blogspot.com '
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x80f43E67169c917c68391F823FcFf41b9B786D69'
+        - 'bnb12vfz64rxhtmjp85nwuq09fx6976g7smvzwdm9x'
+        - 'TRyZs5aTpVrS6ZgWb1NxCnGjktxHYtrD1F'
+        - 'ATVMaR3SXKRBtwCNgPjV5k2YzEgzMDYeaf'
+        - 'rhTCdpaZQSKbHNYY85xPLMEWQbyxYr4SFY'
+    reporter: MyCrypto                   
+-
+    id: 6826
+    name: cryptexplatform.com
+    url: 'https://cryptexplatform.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Exchange
+    description: 'Fake Exchange'
+    addresses:
+        - '3PWzgL8n9NoK4SxratetDABid2bFgE8ftW'
+        - '0xEe18e156a020F2b2B2DcdEC3A9476E61fBDE1e48'
+    reporter: MyCrypto    
+-
+    id: 6827
+    name: coineplus.com
+    url: 'https://coineplus.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Exchange
+    description: 'Fake Exchange'
+    addresses:
+        - '31tdhvgYpkJoMpJs75pkzcp27GpATwYsHc'
+        - '0x4A7D4264291d6bEe4D4Ee3EB01006445e19EF366'
+    reporter: MyCrypto        
