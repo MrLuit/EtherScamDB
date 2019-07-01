@@ -65325,3 +65325,139 @@
         - '31tdhvgYpkJoMpJs75pkzcp27GpATwYsHc'
         - '0x4A7D4264291d6bEe4D4Ee3EB01006445e19EF366'
     reporter: MyCrypto        
+-
+    id: 6828
+    name: bigdrop.pro
+    url: 'http://bigdrop.pro'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xF738D0B7E34d7B5A63d8e0CcFa25a0d9d4271816'
+    reporter: MyCrypto    
+-
+    id: 6829
+    name: medium.exchange-promo.fun
+    url: 'http://medium.exchange-promo.fun'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x964c31AF5B240faC67fe3C1105537D1647050a63'
+        - '1LLiTbEQE1jUayUKyeyokYCYBEi5rZ1Ghx'
+    reporter: MyCrypto        
+-
+    id: 6830
+    name: pompliano-promo.netlify.com
+    url: 'http://pompliano-promo.netlify.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x030a027cdd6994a712fbb1efd6d36369ec7cca89'
+        - '1EWdps7P7o2u616u9a36CK6Jjnbr1A2HUJ'
+    reporter: MyCrypto           
+-
+    id: 6831
+    name: coinbase.getforge.io
+    url: 'http://coinbase.getforge.io'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1EWdps7P7o2u616u9a36CK6Jjnbr1A2HUJ'
+        - '0x030a027cdd6994a712fbb1efd6d36369ec7cca89'
+    reporter: MyCrypto        
+-
+    id: 6832
+    name: more-getback.site
+    url: 'http://more-getback.site'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xf880B70CE700297f70FFaD94eebcbC7ead6b1b48'
+        - '19rrCiyggKoGD1XEdrGn5t1XKBoS1kAgiS'
+    reporter: MyCrypto            
+-
+    id: 6833
+    name: ripplecompetition.com
+    url: 'http://ripplecompetition.com'
+    coin: XRP
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'rJDo4mJtEd5gH2C1LFFiQUhDjxUkdXcLLQ'
+    reporter: MyCrypto                
+-
+    id: 6834
+    name: zendesk-bnb.org
+    url: 'http://zendesk-bnb.org'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x5982F7D33Aa9F9d0192509E58a59dd282c454A05'
+        - '1CqDpW6FzdTZstondbgUZcjs3g9fTTdp9K'
+    reporter: MyCrypto         
+-
+    id: 6835
+    name: login.blocickchairn.com
+    url: 'http://login.blocickchairn.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake BlockchainInfo phishing for logins'
+    reporter: MyCrypto          
+-
+    id: 6836
+    name: mew.starkwallet.org
+    url: 'http://mew.starkwallet.org'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for secrets with GET /en/admin/....'
+    reporter: MyCrypto              
+-
+    id: 6837
+    name: bip39.info
+    url: 'http://bip39.info'
+    coin: ETH
+    category: Malware
+    subcategory: Electrum
+    description: 'Fake Electrum wallet directing users to electrum.org-secure.app'
+    reporter: MyCrypto            
+-
+    id: 6838
+    name: electrum.org-secure.app
+    url: 'http://electrum.org-secure.app'
+    coin: ETH
+    category: Malware
+    subcategory: Electrum
+    description: 'Fake Electrum wallet https://www.virustotal.com/gui/url/6d16e360dffbe5c642365396384fc3405ddedd2c7bd6ee65bc84c97ae860f201/detection'
+    reporter: MyCrypto                
+-
+    id: 6839
+    name: claimlink.online 
+    url: 'http://claimlink.online'
+    coin: ETH
+    category: Phishing
+    subcategory: Chainlink
+    description: 'Fake link giveaway phishing for secrets with POST /'
+    reporter: MyCrypto        
+-
+    id: 6840
+    name: refereum.com.erc-20.claims
+    url: 'http://refereum.com.erc-20.claims'
+    coin: ETH
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for secrets with POST /error.claim.php'
+    reporter: MyCrypto            
