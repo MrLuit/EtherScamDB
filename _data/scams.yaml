@@ -65579,3 +65579,81 @@
     addresses:
         - '0x1e06D06c84A2a0f26efd2d8B85783156aEfB3e0c'
     reporter: MyCrypto               
+-
+    id: 6852
+    name: hitbtc.co.ua
+    url: 'http://hitbtc.co.ua'
+    coin: ETH
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Fake Hitbtc phishing for logins with POST /login.php'
+    reporter: MyCrypto        
+-
+    id: 6853
+    name: binance-claims.netlify.com 
+    url: 'http://binance-claims.netlify.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x0eB1e76F51517c0c04a6994E41C10B3D81794D04'
+        - '198hbS6FzPjKnTe7YoHLmyKRP2nvbNeqWA'
+    reporter: MyCrypto       
+-
+    id: 6854
+    name: eth-btcpromotion.online 
+    url: 'http://eth-btcpromotion.online'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xe33086e461749C687c2DDC3ec4EB24EA591c0dc7'
+        - '1GoX4gtrUyPBSPGYKJPx6WXonPD2YTZnSe'
+    reporter: MyCrypto           
+-
+    id: 6855
+    name: ethcharity.net
+    url: 'http://ethcharity.net'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x97d3BFeeD43db559bFF64f8192f2052C7267656a'
+    reporter: MyCrypto               
+-
+    id: 6856
+    name: ethprize.net
+    url: 'http://ethprize.net'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xd8F203a2cFD7C647Cd5a6619E90003724895d570'
+        - '0xf6d72609CE9457AED4f6099B4AeE25aD16BBEfa1'
+    reporter: MyCrypto                   
+-
+    id: 6857
+    name: mcafee.airdrop-event.fun
+    url: 'http://mcafee.airdrop-event.fun'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x714b56C2454E2EF5E908daA7CCfcE1A73184F2B9'
+    reporter: MyCrypto                       
+-
+    id: 6858
+    name: doubleethereum.cc
+    url: 'http://doubleethereum.cc'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xe695c41faebe1a4753d5ede23db32541b137079b'
+    reporter: MyCrypto                 
