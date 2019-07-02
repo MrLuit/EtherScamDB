@@ -65461,3 +65461,121 @@
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for secrets with POST /error.claim.php'
     reporter: MyCrypto            
+-
+    id: 6841
+    name: coinbasepro10000.webcindario.com
+    url: 'http://coinbasepro10000.webcindario.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x00650a784EE109797BA8C05F3496bDbF2b2B7a1C'
+    reporter: MyCrypto       
+-
+    id: 6842
+    name: neojulyx2.blogspot.com
+    url: 'http://neojulyx2.blogspot.com'
+    coin: NEO
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'ATVMaR3SXKRBtwCNgPjV5k2YzEgzMDYeaf'
+    reporter: MyCrypto           
+-
+    id: 6843
+    name: ethdrop.net 
+    url: 'http://ethdrop.net'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xd8F203a2cFD7C647Cd5a6619E90003724895d570'
+    reporter: MyCrypto               
+-
+    id: 6844
+    name: eth.gift
+    url: 'http://eth.gift'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x6a3482D5e573B9a5C26ECac634CD77C83D30948C'
+    reporter: MyCrypto            
+-
+    id: 6845
+    name: chainlink.pro
+    url: 'http://chainlink.pro'
+    coin: ETH
+    category: Phishing
+    subcategory: Chainlink
+    description: 'Fake Chainlink airdrop phishing for keys with POST /sign.php'
+    reporter: MyCrypto                
+-
+    id: 6846
+    name: chainlink.pro
+    url: 'http://chainlink.pro'
+    coin: ETH
+    category: Phishing
+    subcategory: Chainlink
+    description: 'Fake Chainlink airdrop phishing for keys with POST /sign.php'
+    reporter: MyCrypto          
+-
+    id: 6847
+    name: claimwallet.org
+    url: 'http://claimwallet.org'
+    coin: ETH
+    category: Phishing
+    subcategory: Wallet
+    description: 'Fake wallet phishing for keys with POST /?balance=check'
+    reporter: MyCrypto              
+-
+    id: 6848
+    name: gram-ton.com
+    url: 'http://gram-ton.com'
+    coin: ETH
+    category: Phishing
+    subcategory: Telegram
+    description: 'Fake Telegram crowdsale site'
+    addresses:
+        - '1Fpgu7NjoBx73237q51w8N14DcACSBSxv8'    
+        - '0x53ffe7422c7c1769e5183377bbf2f6858b0d74de'
+        - 'raHtX9jJf2ytdLPFivn9pjuvHNsvB4hRYf'
+        - '19WZkLuC6meqfHPEfbedpTAP1WXEHeyG61'
+    reporter: MyCrypto          
+-
+    id: 6849
+    name: ripplesupport.org 
+    url: 'http://ripplesupport.org'
+    coin: XRP
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'rrSuJZZudhq4U9uS1uUQtxvJCHoa6ckaf'
+    reporter: MyCrypto       
+-
+    id: 6850
+    name: 6602c412-67f3-4725-92eb-5c2ebb2c6166.htmlpasta.com 
+    url: 'http://6602c412-67f3-4725-92eb-5c2ebb2c6166.htmlpasta.com'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1EyVZruWsPedgyBBDPb5rFGdz6D4MvFAza'
+    reporter: MyCrypto           
+-
+    id: 6851
+    name: d6513d71-ee0e-41c3-8bda-83587ac4e863.htmlpasta.com  
+    url: 'http://d6513d71-ee0e-41c3-8bda-83587ac4e863.htmlpasta.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x1e06D06c84A2a0f26efd2d8B85783156aEfB3e0c'
+    reporter: MyCrypto               
