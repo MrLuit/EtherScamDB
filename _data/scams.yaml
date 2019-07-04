@@ -65657,3 +65657,38 @@
     addresses:
         - '0xe695c41faebe1a4753d5ede23db32541b137079b'
     reporter: MyCrypto                 
+-
+    id: 6859
+    name: bitcoindrop.net
+    url: 'http://bitcoindrop.net'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1LUUyyRDP6AjDUJ7D7iG2LA1jPGoTnKamy'
+    reporter: MyCrypto                       
+-
+    id: 6860
+    name: binancepromo-now.online
+    url: 'http://binancepromo-now.online'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xe33086e461749C687c2DDC3ec4EB24EA591c0dc7'
+        - '1BiyLYjfDNQSP81uvr5gzNW77P2viGWi8m'
+    reporter: MyCrypto  
+-
+    id: 6861
+    name: giveaway-crypto.tech
+    url: 'http://giveaway-crypto.tech'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x6DE7ee53947515Fa163BdcB7e63411449eCe2C82'
+        - '3QiMNzCcMgWEgEavZac9t7NqA4FjN5Do2v'
+    reporter: MyCrypto  
