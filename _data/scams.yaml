@@ -65692,3 +65692,63 @@
         - '0x6DE7ee53947515Fa163BdcB7e63411449eCe2C82'
         - '3QiMNzCcMgWEgEavZac9t7NqA4FjN5Do2v'
     reporter: MyCrypto  
+-
+    id: 6862
+    name: btcholiday.net
+    url: 'http://btcholiday.net'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    reporter: MyCrypto      
+-
+    id: 6863
+    name: vitalik.cf
+    url: 'http://vitalik.cf'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x738a8589924B5C924997DDFB23238064eD238920'
+    reporter: MyCrypto      
+-
+    id: 6864
+    name: ether-give.org
+    url: 'http://ether-give.org'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xf9c87DCf56598cE676FDdA2FEbfDB3Eb45e5007E'
+    reporter: MyCrypto          
+-
+    id: 6865
+    name: gemini-airdrop.netlify.com
+    url: 'http://gemini-airdrop.netlify.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xd88b17314696aFcbBa531F1BbadE53FcF5bC6018'
+    reporter: MyCrypto          
+-
+    id: 6866
+    name: idexx-market.pw
+    url: 'http://idexx-market.pw'
+    coin: BTC
+    category: Phishing
+    subcategory: Idex
+    description: 'Fake Idex phishing for secrets with POST /log.php'
+    reporter: MyCrypto              
+-
+    id: 6867
+    name: bittrex-global-site.com
+    url: 'http://bittrex-global-site.com'
+    coin: BTC
+    category: Phishing
+    subcategory: Bittrex
+    description: 'Fake Bittrex phishing for logins'
+    reporter: MyCrypto      
