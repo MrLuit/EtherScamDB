@@ -65752,3 +65752,122 @@
     subcategory: Bittrex
     description: 'Fake Bittrex phishing for logins'
     reporter: MyCrypto      
+-
+    id: 6868
+    name: eth20.org
+    url: 'http://eth20.org'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x027A46b6cD1E80dF60F5Cf0f22c3f3Fb899B2EFD'
+    reporter: MyCrypto          
+-
+    id: 6869
+    name: binance-bit.net
+    url: 'http://binance-bit.net'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1NM4VJ9deWtjLq8zPKVop5rwCHjLdynTnY'
+    reporter: MyCrypto              
+-
+    id: 6870
+    name: extravaganza-event.website
+    url: 'http://extravaganza-event.website'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x714b56C2454E2EF5E908daA7CCfcE1A73184F2B9'
+        - '1M2vwn8f93hEJwM4Pd4Wak59HeHkRK842d'
+    reporter: MyCrypto                  
+-
+    id: 6871
+    name: teslapromo.info
+    url: 'http://teslapromo.info'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1VzLd5oXbtSUR5cpvGewnpGyaDKan9kQZ'
+        - '0x07b1105157c99F4Ee9E6033abD7D9F8251873094'
+    reporter: MyCrypto                      
+-
+    id: 6872
+    name: xn--githu-k90b.com
+    url: 'http://xn--githu-k90b.com'
+    coin: BTC
+    category: Malware
+    subcategory: EOS
+    description: 'Fake GitHub hosting a fake EOS voter app stealing secrets https://www.virustotal.com/gui/url/3a914046299adce88e1ee25c6237e247bc565bd0f714d2ecde8441ea89c5d7c2/detection'
+    reporter: MyCrypto      
+-
+    id: 6873
+    name: ethbuterin.com
+    url: 'http://ethbuterin.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xaE6Aab8c97F3C0650C5d441476207Cb64719b5eD'
+    reporter: MyCrypto     
+-
+    id: 6874
+    name: airdrop.best-event.site
+    url: 'http://airdrop.best-event.site'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1LLiTbEQE1jUayUKyeyokYCYBEi5rZ1Ghx'
+        - '0x964c31AF5B240faC67fe3C1105537D1647050a63'
+    reporter: MyCrypto        
+-
+    id: 6875
+    name: xn--medum-1sa.com
+    url: 'http://xn--medum-1sa.com'
+    coin: LTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'LNpyxKQ1XRzWRE2NjZoiG3yZNtrAbctLjy'
+    reporter: MyCrypto        
+-
+    id: 6876
+    name: originprofocol.com
+    url: 'http://originprofocol.com'
+    coin: BTC
+    category: Phishing
+    subcategory: Origin
+    description: 'Fake Origin protocol phishing for logins with POST /login'
+    reporter: MyCrypto      
+-
+    id: 6877
+    name: news.binannce.net
+    url: 'http://news.binannce.net'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xD34A599544D28F4f1efc307dCAf81FF50E36B56b'
+        - '18xKScaFM3hz5P1HdPH1Qy4Ekt8e7mUXgT'
+    reporter: MyCrypto      
+-
+    id: 6878
+    name: mew.starkapp.net
+    url: 'http://mew.starkapp.net'
+    coin: BTC
+    category: Phishing
+    subcategory: MyEtherWallet
+    description: 'Fake MyEtherWallet phishing for keys'
+    reporter: MyCrypto       
