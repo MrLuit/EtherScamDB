@@ -65871,3 +65871,42 @@
     subcategory: MyEtherWallet
     description: 'Fake MyEtherWallet phishing for keys'
     reporter: MyCrypto       
+-
+    id: 6879
+    name: elon-musk.xyz 
+    url: 'http://elon-musk.xyz'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xaaddf2d14ef347360f50c50f2337a1fb8a673eb1'
+        - '134BbK9A35erMCMvn8khA7JxkSoohwGTRq'
+    reporter: MyCrypto  
+-
+    id: 6880
+    name: bllockchain.tk
+    url: 'http://bllockchain.tk'
+    coin: BTC
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake BlockchainInfo phishing for logins with POST /hitler'
+    reporter: MyCrypto   
+-
+    id: 6881
+    name: hiltbtc.com
+    url: 'http://hiltbtc.com'
+    coin: BTC
+    category: Phishing
+    subcategory: Hitbtc
+    description: 'Fake HitBTC phishing for logins with POST /login.php'
+    reporter: MyCrypto   
+-
+    id: 6881
+    name: login.bilockcnain.com
+    url: 'http://login.bilockcnain.com'
+    coin: BTC
+    category: Phishing
+    subcategory: Blockchain
+    description: 'Fake BlockchainInfo phishing for logins with POST /sess.php. Suspected addresses: ETH: 0xE8f42CB54991a25EAe58d2602F21C8d5d5105a7D BTC: 1Hg5ahckVEJRLC3Y4hcMkPYTgw8V2cCRpd'
+    reporter: MyCrypto  
