@@ -65773,6 +65773,7 @@
     description: 'Trust trading scam site'
     addresses:
         - '1NM4VJ9deWtjLq8zPKVop5rwCHjLdynTnY'
+        - '0x76638dE7e1A2AE5128Ff808D17a0A636Ba16324a'
     reporter: MyCrypto              
 -
     id: 6870
@@ -65910,3 +65911,37 @@
     subcategory: Blockchain
     description: 'Fake BlockchainInfo phishing for logins with POST /sess.php. Suspected addresses: ETH: 0xE8f42CB54991a25EAe58d2602F21C8d5d5105a7D BTC: 1Hg5ahckVEJRLC3Y4hcMkPYTgw8V2cCRpd'
     reporter: MyCrypto  
+-
+    id: 6882
+    name: bitcoingift.net
+    url: 'http://bitcoingift.net'
+    coin: BTC
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1Mb3rqiT9cSFYMipdA6T4xWb4z2GAXXrJN'
+    reporter: MyCrypto      
+-
+    id: 6883
+    name: x2neojuly.blogspot.com
+    url: 'http://x2neojuly.blogspot.com'
+    coin: NEO
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'ATVMaR3SXKRBtwCNgPjV5k2YzEgzMDYeaf'
+    reporter: MyCrypto          
+-
+    id: 6884
+    name: celebration-binance.netlify.com
+    url: 'http://celebration-binance.netlify.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x3869Db12591382eD94Eefe6b55c4e82C6b8c1489'
+        - '1PfgLydXR2MAg21hNeUJL5LdxFmDeS26Lo'
+    reporter: MyCrypto              
