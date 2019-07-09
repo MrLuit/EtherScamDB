@@ -65945,3 +65945,15 @@
         - '0x3869Db12591382eD94Eefe6b55c4e82C6b8c1489'
         - '1PfgLydXR2MAg21hNeUJL5LdxFmDeS26Lo'
     reporter: MyCrypto              
+-
+    id: 6885
+    name: binance-promo.netlify.com
+    url: 'http://binance-promo.netlify.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xB93184F8cFd3012E77114c93BF6ef08e9D6779A3'
+        - '13kg4Ah7vhMXeaHhDhqRVkETnWscTTFMv2'
+    reporter: MyCrypto                  
