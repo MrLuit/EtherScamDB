@@ -66095,3 +66095,48 @@
         - '0x3414801E9D6Bdf352d4d21a30cBB9a178d28381F'
         - '1Hj2r8SnVim48qG3E4QwZ6td8PMcUiXnGU'
     reporter: MyCrypto      
+-
+    id: 6899
+    name: binance-team.com
+    url: 'http://binance-team.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xF4c996752C0346dA4D290553fD58b3fcB6774ed6'
+        - '1CDH7oUUxMyo6T5QHovu82ygUEXpQ5rgWV'
+    reporter: MyCrypto          
+-
+    id: 6900
+    name: binanceteams.net 
+    url: 'http://binanceteams.net'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1Mn386ue8o3mW9866octLNP8HFqcYsphJCV'
+    reporter: MyCrypto           
+-
+    id: 6901
+    name: binance2.epizy.com  
+    url: 'http://binance2.epizy.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '1CK9kT35qZHGAb7kuqZeKfKQc3j6Ezt8JZ'
+    reporter: MyCrypto               
+-
+    id: 6902
+    name: xrpx2july.blogspot.com
+    url: 'http://xrpx2july.blogspot.com'
+    coin: XRP
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'rhTCdpaZQSKbHNYY85xPLMEWQbyxYr4SFY'
+    reporter: MyCrypto         
