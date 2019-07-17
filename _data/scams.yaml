@@ -66185,3 +66185,50 @@
     subcategory: ICO
     description: 'Scam ICO project - see https://bitcointalk.org/index.php?topic=5165803.0'
     reporter: MyCrypto          
+-
+    id: 6907
+    name: dropbinance.com
+    url: 'http://dropbinance.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x1058afFcf5cd061abCAb30dD1bfeF82727F9e96F'
+        - '1CdWQJMiQF1uYbwKc7fb5VBb9JBrhykcNf'
+    reporter: MyCrypto       
+-
+    id: 6908
+    name: xrpx2july.blogspot.co.ke
+    url: 'http://xrpx2july.blogspot.co.ke'
+    coin: XRP
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - 'rhTCdpaZQSKbHNYY85xPLMEWQbyxYr4SFY'
+    reporter: MyCrypto           
+-
+    id: 6909
+    name: giftbinance.com
+    url: 'http://giftbinance.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x1058afFcf5cd061abCAb30dD1bfeF82727F9e96F'
+        - '1CdWQJMiQF1uYbwKc7fb5VBb9JBrhykcNf'
+    reporter: MyCrypto               
+-
+    id: 6910
+    name: anniversary-eth.com
+    url: 'http://anniversary-eth.com'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '14MPxfjhTaFF567XHZdkffMBAX72oxfWR7'
+        - '0x71e10ec3021DC58fbfea484c6dA226E7B6f61507'
+    reporter: MyCrypto                   
