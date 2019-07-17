@@ -66140,3 +66140,48 @@
     addresses:
         - 'rhTCdpaZQSKbHNYY85xPLMEWQbyxYr4SFY'
     reporter: MyCrypto         
+-
+    id: 6903
+    name: binpromo.net
+    url: 'http://binpromo.net'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x71D663DE2Df38D61A1871Bb8eF503d18D19964d6'
+        - '16NwAMjoYUxYzBTqWFFHApRUubJRFCAEwj'
+    reporter: MyCrypto             
+-
+    id: 6904
+    name: dropfestextravaganza.tech
+    url: 'http://dropfestextravaganza.tech'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0xe33086e461749C687c2DDC3ec4EB24EA591c0dc7'
+        - '1BiyLYjfDNQSP81uvr5gzNW77P2viGWi8m'
+    reporter: MyCrypto               
+-
+    id: 6905
+    name: fly-promo.online
+    url: 'http://fly-promo.online'
+    coin: ETH
+    category: Scamming
+    subcategory: Trust-Trading
+    description: 'Trust trading scam site'
+    addresses:
+        - '0x3414801E9D6Bdf352d4d21a30cBB9a178d28381F'
+        - '1Hj2r8SnVim48qG3E4QwZ6td8PMcUiXnGU'
+    reporter: MyCrypto          
+-
+    id: 6906
+    name: cbn-project.com
+    url: 'http://cbn-project.com'
+    coin: ETH
+    category: Scamming
+    subcategory: ICO
+    description: 'Scam ICO project - see https://bitcointalk.org/index.php?topic=5165803.0'
+    reporter: MyCrypto          
