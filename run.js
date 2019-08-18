@@ -105,6 +105,23 @@ function generateAbuseReport(scam) {
 
 /* Start the web server */
 function startWebServer() {
+    app.use(function(req, res, next) {
+        var err = null;
+        try {
+            decodeURIComponent(req.path)
+        }
+        catch(e) {
+            err = e;
+        }
+        if (err){
+            return res.status(400).json({
+                status: 400,
+                error: 'OOps! Bad request',
+            });
+        }
+        next();
+    });
+
     app.use(express.static('_static')); // Serve all static pages first
 
     app.use('/screenshot', express.static('_cache/screenshots/')); // Serve all screenshots
