@@ -1016,8 +1016,8 @@ function startWebServer() {
         let template = fs.readFileSync('./_layouts/ip.html', 'utf8');
 
         let strParamValue = "";
-        if(/^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/.test(req.params.value)) {
-            strParamValue = req.params.value;
+        if(/^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/.test(req.params.ip)) {
+            strParamValue = req.params.ip;
         } else {
             let template = fs.readFileSync('./_layouts/404.html', 'utf8');
             res.send(default_template.replace('{{ content }}', template));
@@ -1070,7 +1070,17 @@ function startWebServer() {
     app.get('/address/:address/', function(req, res) { // Serve /address/<address>/
         let template = fs.readFileSync('./_layouts/address.html', 'utf8');
         let inputAddr = req.params.address.toLowerCase();
-        template = template.replace(/{{ address.address }}/g, inputAddr);
+
+        let strParamValue = "";
+        if(/^\w+$/.test(inputAddr)) {
+            strParamValue = inputAddr;
+        } else {
+            let template = fs.readFileSync('./_layouts/404.html', 'utf8');
+            res.send(default_template.replace('{{ content }}', template));
+            return;
+        }
+
+        template = template.replace(/{{ address.address }}/g, strParamValue);
         var related = '';
         var whitelistrelated = '';
         var scamstatus = false;
@@ -1078,7 +1088,7 @@ function startWebServer() {
 
         scamstatus = getCache().scams.filter(function(obj) {
             if ('addresses' in obj) {
-                return obj.addresses.includes(inputAddr);
+                return obj.addresses.includes(strParamValue);
             } else {
                 return false;
             }
@@ -1090,7 +1100,7 @@ function startWebServer() {
 
         legitstatus = getCache().legiturls.filter(function(objtwo) {
             if ('addresses' in objtwo) {
-                return objtwo.addresses.includes(inputAddr);
+                return objtwo.addresses.includes(strParamValue);
             } else {
                 return false;
             }
