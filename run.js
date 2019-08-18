@@ -105,6 +105,23 @@ function generateAbuseReport(scam) {
 
 /* Start the web server */
 function startWebServer() {
+    app.use(function(req, res, next) {
+        var err = null;
+        try {
+            decodeURIComponent(req.path)
+        }
+        catch(e) {
+            err = e;
+        }
+        if (err){
+            return res.status(400).json({
+                status: 400,
+                error: 'OOps! Bad request',
+            });
+        }
+        next();
+    });
+
     app.use(express.static('_static')); // Serve all static pages first
 
     app.use('/screenshot', express.static('_cache/screenshots/')); // Serve all screenshots
@@ -145,14 +162,26 @@ function startWebServer() {
         if (!req.params.type) {
             res.send(default_template.replace('{{ content }}', fs.readFileSync('./_layouts/report.html', 'utf8')));
         } else if (req.params.type == "address") {
+
+            let strParamValue = "";
+            if(/^[\w\.]+$/.test(req.params.value)) {
+                strParamValue = req.params.value;
+            }
+
             if (req.params.value) {
-                res.send(default_template.replace('{{ content }}', fs.readFileSync('./_layouts/reportaddress.html', 'utf8')).replace('{{ page.placeholder }}', req.params.value));
+                res.send(default_template.replace('{{ content }}', fs.readFileSync('./_layouts/reportaddress.html', 'utf8')).replace('{{ page.placeholder }}', strParamValue));
             } else {
                 res.send(default_template.replace('{{ content }}', fs.readFileSync('./_layouts/reportaddress.html', 'utf8')).replace('{{ page.placeholder }}', ''));
             }
         } else if (req.params.type == "domain") {
+
+            let strParamValue = "";
+            if(/^[\w\.\/]+$/.test(req.params.value)) {
+                strParamValue = req.params.value;
+            }
+
             if (req.params.value) {
-                res.send(default_template.replace('{{ content }}', fs.readFileSync('./_layouts/reportdomain.html', 'utf8')).replace('{{ page.placeholder }}', req.params.value));
+                res.send(default_template.replace('{{ content }}', fs.readFileSync('./_layouts/reportdomain.html', 'utf8')).replace('{{ page.placeholder }}', strParamValue));
             } else {
                 res.send(default_template.replace('{{ content }}', fs.readFileSync('./_layouts/reportdomain.html', 'utf8')).replace('{{ page.placeholder }}', ''));
             }
@@ -985,7 +1014,17 @@ function startWebServer() {
 
     app.get('/ip/:ip/', function(req, res) { // Serve /ip/<ip>/
         let template = fs.readFileSync('./_layouts/ip.html', 'utf8');
-        template = template.replace("{{ ip.ip }}", req.params.ip);
+
+        let strParamValue = "";
+        if(/^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/.test(req.params.value)) {
+            strParamValue = req.params.value;
+        } else {
+            let template = fs.readFileSync('./_layouts/404.html', 'utf8');
+            res.send(default_template.replace('{{ content }}', template));
+            return;
+        }
+
+        template = template.replace("{{ ip.ip }}", strParamValue);
         var related = '';
         let total = 0;
         getCache().scams.filter(function(obj) {
