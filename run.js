@@ -4,6 +4,7 @@ const fs = require('fs-extra');
 const debug = require('debug')('app');
 const express = require('express');
 const csp = require('express-csp-header');
+const frameguard = require('frameguard');
 const bodyParser = require('body-parser');
 const url = require('url');
 const dateFormat = require('dateformat');
@@ -127,16 +128,20 @@ function startWebServer() {
         policies: {
             'default-src': [csp.SELF, 'c.disquscdn.com', 'disqus.com'],
             'font-src': ['fonts.gstatic.com', 'cdnjs.cloudflare.com', 'data:'],
-            'script-src': [csp.SELF, csp.INLINE, 'cdnjs.cloudflare.com', 'ethereum-scam-database.disqus.com', 'c.disquscdn.com', 'www.google.com', 'www.gstatic.com', csp.EVAL], //unsafe-eval for disqus :(
-            'style-src': [csp.SELF, csp.INLINE, 'cdnjs.cloudflare.com', 'fonts.googleapis.com', '*.disqus.com'],
+            'script-src': [csp.SELF, csp.INLINE, 'cdnjs.cloudflare.com', 'ethereum-scam-database.disqus.com', 'c.disquscdn.com', 'www.google.com', 'www.gstatic.com', 'ajax.cloudflare.com', csp.EVAL], //unsafe-eval for disqus :(
+            'style-src': [csp.SELF, 'cdnjs.cloudflare.com', 'fonts.googleapis.com', '*.disqus.com'],
             'frame-src': ['disqus.com', '*.disqus.com', 'www.google.com'],
-            'img-src': [csp.SELF, 'c.disquscdn.com', 'urlscan.io'],
+            'img-src': [csp.SELF, 'c.disquscdn.com', 'urlscan.io', 'referrer.disqus.com'],
             'prefetch-src': ['c.disquscdn.com'], //currently not supported by default, yet - so defaulting to default-src
             'connect-src': ['links.services.disqus.com', 'lu1t.nl', csp.SELF],
+            'frame-ancestors': ['iframe'],
             'worker-src': [csp.NONE],
-            'block-all-mixed-content': true
+            'block-all-mixed-content': true,
+            'base-uri': [csp.SELF]
         }
     }));
+
+    app.use(frameguard({action:'sameorigin'}));
 
     app.use(express.static('_static')); // Serve all static pages first
 
@@ -481,7 +486,7 @@ function startWebServer() {
               try {
                 var importsData = require('./_data/metamaskImports.json')
                 const detector = new phishingDetector(importsData);
-                template = template.replace("{{ scam.metamask }}", "<b>MetaMask Status:</b> " + (detector.check(url.parse(scam.url).hostname).result ? "<span style='color:green'>Blocked</span>" : "<span style='color:red'>Not Blocked</span>") + "<br />");
+                template = template.replace("{{ scam.metamask }}", "<b>MetaMask Status:</b> " + (detector.check(url.parse(scam.url).hostname).result ? "<span class='green-text'>Blocked</span>" : "<span class='red-text'>Not Blocked</span>") + "<br />");
               } catch (e) {
                 debug(e);
               }
@@ -591,11 +596,11 @@ function startWebServer() {
                   return;
                 }
               }
-              template = template.replace("{{ neutral.urlscan }}", "<a style='text-color:green' href='{{ neutral.urlscanlink }}' target='_blank'>Link</a>");
+              template = template.replace("{{ neutral.urlscan }}", "<a class='green-text' href='{{ neutral.urlscanlink }}' target='_blank'>Link</a>");
               template = template.replace("{{ neutral.urlscanlink }}", 'https://urlscan.io/result/' + output.results[index]._id);
               urllookup.lookup( output.results[index].result ).then(function(lookupout) {
                 if(lookupout.data != null){
-                  template = template.replace("{{ neutral.urlscreenshot }}", "<div id='scam-screenshot'><img src=" + lookupout.task.screenshotURL + " alt='Screenshot of website' style='width: 100%; height: 80%;'></img></div>");
+                  template = template.replace("{{ neutral.urlscreenshot }}", "<div id='scam-screenshot'><img src=" + lookupout.task.screenshotURL + " alt='Screenshot of website' class='screenshot-img'></img></div>");
                   res.send(default_template.replace('{{ content }}', template));
                 } else{
                   template = template.replace("{{ neutral.urlscreenshot }}", "<span class='class_inactive'> Screenshot could not be displayed</span>");
@@ -707,11 +712,11 @@ function startWebServer() {
                   return;
                 }
               }
-              template = template.replace("{{ verified.urlscan }}", "<a style='text-color:green' href='{{ verified.urlscanlink }}'  target='_blank'>Link</a>");
+              template = template.replace("{{ verified.urlscan }}", "<a class='green-text' href='{{ verified.urlscanlink }}'  target='_blank'>Link</a>");
               template = template.replace("{{ verified.urlscanlink }}", 'https://urlscan.io/result/' + output.results[index]._id);
               urllookup.lookup( output.results[index].result ).then(function(lookupout) {
                 if('data' in lookupout && lookupout.data != null){
-                  template = template.replace("{{ verified.urlscreenshot }}", "<div id='scam-screenshot'><img src=" + lookupout.task.screenshotURL + " alt='Screenshot of website' style='width: 100%; height: 80%;'></img></div>");
+                  template = template.replace("{{ verified.urlscreenshot }}", "<div id='scam-screenshot'><img src=" + lookupout.task.screenshotURL + " alt='Screenshot of website' class='screenshot-img'></img></div>");
                   res.send(default_template.replace('{{ content }}', template));
                 } else{
                   template = template.replace("{{ verified.urlscreenshot }}", "<span class='class_inactive'> Screenshot could not be displayed</span>");
@@ -845,11 +850,11 @@ function startWebServer() {
                   return;
                 }
               }
-              template = template.replace("{{ scam.urlscan }}", "<a style='text-color:green' href='{{ scam.urlscanlink }}'  target='_blank'>Link</a>");
+              template = template.replace("{{ scam.urlscan }}", "<a class='green-text' href='{{ scam.urlscanlink }}'  target='_blank'>Link</a>");
               template = template.replace("{{ scam.urlscanlink }}", 'https://urlscan.io/result/' + output.results[index]._id);
               urllookup.lookup( output.results[index].result ).then(function(lookupout) {
                 if(lookupout.data != null){
-                  template = template.replace("{{ scam.urlscreenshot }}", "<div id='scam-screenshot'><img src=" + lookupout.task.screenshotURL + " alt='Screenshot of website' style='width: 100%; height: 80%;'></img></div>");
+                  template = template.replace("{{ scam.urlscreenshot }}", "<div id='scam-screenshot'><img src=" + lookupout.task.screenshotURL + " alt='Screenshot of website' class='screenshot-img'></img></div>");
                   res.send(default_template.replace('{{ content }}', template));
                 } else{
                   template = template.replace("{{ scam.urlscreenshot }}", "<span class='class_inactive'> Screenshot could not be displayed</span>");
@@ -935,7 +940,7 @@ function startWebServer() {
                 try {
                   var importsData = require('./_data/metamaskImports.json')
                   const detector = new phishingDetector(importsData);
-                  template = template.replace("{{ scam.metamask }}", "<b>MetaMask Status:</b> " + (detector.check(url.parse(scam.url).hostname).result ? "<span style='color:green'>Blocked</span>" : "<span style='color:red'>Not Yet Blocked</span>") + "<br />");
+                  template = template.replace("{{ scam.metamask }}", "<b>MetaMask Status:</b> " + (detector.check(url.parse(scam.url).hostname).result ? "<span class='green-text'>Blocked</span>" : "<span class='red-text'>Not Yet Blocked</span>") + "<br />");
                 } catch (e) {
                   debug(e);
                 }
