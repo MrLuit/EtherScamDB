@@ -3,6 +3,7 @@
 const fs = require('fs-extra');
 const debug = require('debug')('app');
 const express = require('express');
+const csp = require('express-csp-header');
 const bodyParser = require('body-parser');
 const url = require('url');
 const dateFormat = require('dateformat');
@@ -121,6 +122,21 @@ function startWebServer() {
         }
         next();
     });
+
+    app.use(csp({
+        policies: {
+            'default-src': [csp.SELF, 'c.disquscdn.com', 'disqus.com'],
+            'font-src': ['fonts.gstatic.com', 'cdnjs.cloudflare.com', 'data:'],
+            'script-src': [csp.SELF, csp.INLINE, 'cdnjs.cloudflare.com', 'ethereum-scam-database.disqus.com', 'c.disquscdn.com', 'www.google.com', 'www.gstatic.com', csp.EVAL], //unsafe-eval for disqus :(
+            'style-src': [csp.SELF, csp.INLINE, 'cdnjs.cloudflare.com', 'fonts.googleapis.com', '*.disqus.com'],
+            'frame-src': ['disqus.com', '*.disqus.com', 'www.google.com'],
+            'img-src': [csp.SELF, 'c.disquscdn.com', 'urlscan.io'],
+            'prefetch-src': ['c.disquscdn.com'], //currently not supported by default, yet - so defaulting to default-src
+            'connect-src': ['links.services.disqus.com', 'lu1t.nl', csp.SELF],
+            'worker-src': [csp.NONE],
+            'block-all-mixed-content': true
+        }
+    }));
 
     app.use(express.static('_static')); // Serve all static pages first
 
@@ -1348,6 +1364,7 @@ function startWebServer() {
         res.status(404).send(default_template.replace('{{ content }}', fs.readFileSync('./_layouts/404.html', 'utf8')));
     });
 
+    console.log(`Port: ${config.port}`)
     app.listen(config.port, function() { // Listen on port (defined in config)
         debug('Content served on http://localhost:%s',config.port);
     });
@@ -1374,6 +1391,7 @@ if (!fs.existsSync('config.js')) {
     }
 } else {
     /* Update the local cache using the external cache every 60 seconds */
+    console.log(`[*] Starting web server routine`)
     setInterval(function() {
         if (fs.existsSync('_cache/cache.json')) {
             fs.readFile('_cache/cache.json', function(err, data) {
@@ -1386,6 +1404,7 @@ if (!fs.existsSync('config.js')) {
         }
     }, 60000);
     getCache(function() {
+        console.log(`[*] Web server routine called`)
         startWebServer();
     });
 }
