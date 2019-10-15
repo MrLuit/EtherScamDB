@@ -128,7 +128,7 @@ function startWebServer() {
             'default-src': [csp.SELF, 'c.disquscdn.com', 'disqus.com'],
             'font-src': ['fonts.gstatic.com', 'cdnjs.cloudflare.com', 'data:'],
             'script-src': [csp.SELF, csp.INLINE, 'cdnjs.cloudflare.com', 'ethereum-scam-database.disqus.com', 'c.disquscdn.com', 'www.google.com', 'www.gstatic.com', csp.EVAL], //unsafe-eval for disqus :(
-            'style-src': [csp.SELF, 'cdnjs.cloudflare.com', 'fonts.googleapis.com', '*.disqus.com'],
+            'style-src': [csp.SELF, csp.INLINE, 'cdnjs.cloudflare.com', 'fonts.googleapis.com', '*.disqus.com'],
             'frame-src': ['disqus.com', '*.disqus.com', 'www.google.com'],
             'img-src': [csp.SELF, 'c.disquscdn.com', 'urlscan.io'],
             'prefetch-src': ['c.disquscdn.com'], //currently not supported by default, yet - so defaulting to default-src
