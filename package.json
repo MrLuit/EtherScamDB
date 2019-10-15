@@ -19,6 +19,7 @@
     "download-file": "^0.1.5",
     "eth-phishing-detect": "^1.1.12",
     "express": "^4.16.3",
+    "express-csp-header": "^2.3.1",
     "fs-extra": "^5.0.0",
     "js-yaml": "^3.9.0",
     "request": "^2.87.0",
