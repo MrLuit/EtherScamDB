@@ -21,6 +21,7 @@
     "express": "^4.16.3",
     "express-csp-header": "^2.3.1",
     "fs-extra": "^5.0.0",
+    "helmet": "^3.21.1",
     "js-yaml": "^3.9.0",
     "request": "^2.87.0",
     "rimraf": "^2.6.2",
