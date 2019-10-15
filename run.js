@@ -5,6 +5,7 @@ const debug = require('debug')('app');
 const express = require('express');
 const csp = require('express-csp-header');
 const frameguard = require('frameguard');
+const xssFilter = require('x-xss-protection');
 const bodyParser = require('body-parser');
 const url = require('url');
 const dateFormat = require('dateformat');
@@ -142,6 +143,7 @@ function startWebServer() {
     }));
 
     app.use(frameguard({action:'sameorigin'}));
+    app.use(xssFilter({ setOnOldIE: true }))
 
     app.use(express.static('_static')); // Serve all static pages first
 
