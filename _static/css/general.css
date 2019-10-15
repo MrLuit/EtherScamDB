@@ -41,3 +41,14 @@
 .inlinef {
   display:inline-flex;
 }
+
+.green-text {
+  color: green;
+}
+.red-text {
+  color: red;
+}
+.screenshot-img {
+  width: 100%; 
+  height: 80%;
+}
